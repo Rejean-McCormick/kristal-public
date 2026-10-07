@@ -1,0 +1,53 @@
+{
+  "schema_version": "10.0",
+  "artifact_type": "kristal_host_binding",
+  "binding_id": "github-primary",
+  "node_id": "urn:uuid:a9a09864-a701-5a5b-99d0-77e0076e5898",
+  "profile": {
+    "id": "kristal.host/github",
+    "version": "1.0"
+  },
+  "host": {
+    "provider": "github.com",
+    "account_scope": {
+      "kind": "user",
+      "owner": "Rejean-McCormick"
+    }
+  },
+  "resource": {
+    "kind": "repository",
+    "locator": "github://Rejean-McCormick/kristal-public",
+    "visibility": "public"
+  },
+  "surfaces": {
+    "source": {
+      "kind": "git",
+      "locator": "https://github.com/Rejean-McCormick/kristal-public.git"
+    },
+    "publication": {
+      "kind": "github-release",
+      "locator": "github-release://Rejean-McCormick/kristal-public"
+    },
+    "automation": {
+      "kind": "github-actions",
+      "locator": "github-actions://Rejean-McCormick/kristal-public"
+    },
+    "discovery": {
+      "kind": "repository-file",
+      "locator": ".kristal/node.json"
+    },
+    "activation": {
+      "kind": "github-environment",
+      "locator": "github-environment://Rejean-McCormick/kristal-public/production"
+    },
+    "attestation": {
+      "kind": "github-artifact-attestation",
+      "locator": "github-attestation://Rejean-McCormick/kristal-public"
+    }
+  },
+  "profile_configuration": {
+    "repository": "kristal-public",
+    "default_branch": "main",
+    "api_version": "2026-03-10"
+  }
+}
