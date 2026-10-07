@@ -1,0 +1,88 @@
+name: Kristal Publish State
+
+on:
+  workflow_dispatch:
+    inputs:
+      state_file:
+        description: Repository-relative path to a v9 state snapshot
+        required: true
+        default: state/state-snapshot.json
+
+permissions:
+  contents: write
+  id-token: write
+  attestations: write
+  artifact-metadata: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      STATE_FILE: ${{ inputs.state_file }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Load pinned Kristal framework
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: Rejean-McCormick/KristalV10
+          ref: 27c0c7db3d79a4597c1c964fe8281fa35b5f858a
+          path: .kristal-framework
+      - name: Validate state path
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PYSAFE'
+          import os, pathlib
+          root=pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          raw=os.environ['STATE_FILE']
+          p=(root/raw).resolve(strict=True)
+          if root != p and root not in p.parents: raise SystemExit('state_file escapes GITHUB_WORKSPACE')
+          if p.is_symlink(): raise SystemExit('state_file must not be a symlink')
+          print(p)
+          PYSAFE
+      - name: Build and verify publication bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-state-v9 "$STATE_FILE"
+          rm -rf dist/kristal-publication
+          node .kristal-framework/reference/js/bin/kristal-ref.mjs build-publication-bundle-v10 "$STATE_FILE" .kristal/node.json .kristal/bindings/github.json dist/kristal-publication --source-commit "$GITHUB_SHA"
+          node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-publication-bundle-v10 dist/kristal-publication
+          PUB_ID=$(jq -r .publication_id dist/kristal-publication/publication.json)
+          TAG="kristal-pub-${PUB_ID##*:}"
+          echo "TAG=$TAG" >> "$GITHUB_ENV"
+          jq -n --arg publication_id "$PUB_ID" --arg source_commit "$GITHUB_SHA" --arg framework_commit "27c0c7db3d79a4597c1c964fe8281fa35b5f858a" '{publication_id:$publication_id,source_commit:$source_commit,framework_commit:$framework_commit}' > dist/kristal-publication/attestation-predicate.json
+      - name: Attest publication bundle
+        continue-on-error: true
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6
+        with:
+          subject-path: dist/kristal-publication/*
+          predicate-type: https://kristal.dev/attestation/publication/v10
+          predicate-path: dist/kristal-publication/attestation-predicate.json
+      - name: Create or verify immutable publication release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TMP=$(mktemp -d)
+          trap 'rm -rf "$TMP"' EXIT
+          if gh release view "$TAG" --json tagName >/dev/null 2>&1; then
+            gh release download "$TAG" --dir "$TMP"
+            node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-publication-bundle-v10 "$TMP"
+            cmp dist/kristal-publication/publication.json "$TMP/publication.json"
+            echo "Publication $TAG already exists and is identical."
+            exit 0
+          fi
+          gh release create "$TAG" --draft --target "$GITHUB_SHA" --title "$TAG" --notes "Kristal v10 publication from $GITHUB_SHA"
+          gh release upload "$TAG" dist/kristal-publication/state-snapshot.json dist/kristal-publication/bundle-manifest.json dist/kristal-publication/publication.json --clobber=false
+          gh release download "$TAG" --dir "$TMP"
+          node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-publication-bundle-v10 "$TMP"
+          cmp dist/kristal-publication/publication.json "$TMP/publication.json"
+          gh release edit "$TAG" --draft=false
