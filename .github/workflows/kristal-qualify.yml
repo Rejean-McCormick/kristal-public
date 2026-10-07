@@ -1,0 +1,42 @@
+name: Kristal v10 Qualify
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qualify:
+    name: qualify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Load pinned Kristal framework
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: Rejean-McCormick/KristalV10
+          ref: 27c0c7db3d79a4597c1c964fe8281fa35b5f858a
+          path: .kristal-framework
+      - name: Verify v10 node
+        run: node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-node-v10 .kristal/node.json
+      - name: Verify GitHub host binding
+        run: node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-github-binding-v10 .kristal/bindings/github.json
+      - name: Emit qualification receipt
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .kristal/receipts
+          jq -n --arg commit "$GITHUB_SHA" --arg framework "27c0c7db3d79a4597c1c964fe8281fa35b5f858a" --arg profile "V10-GitHub-Host/draft.2" '{schema_version:"1.0",artifact_type:"kristal_qualification_receipt",source_commit:$commit,framework_commit:$framework,profile:$profile,result:"pass"}' > .kristal/receipts/qualification.json
+      - name: Upload qualification receipt
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: kristal-qualification-${{ github.sha }}
+          path: .kristal/receipts/qualification.json
+          if-no-files-found: error
