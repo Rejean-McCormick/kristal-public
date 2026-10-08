@@ -1,0 +1,24 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:kristal-zoology",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:2503493eed8b2515107f9c32eed48286845f5468838ad3ae7b4a8f66a65f2ac8"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:artifact:kristal-zoology:portable-epistemic-state",
+      "logical_contract": {
+        "id": "kristal.portable-epistemic-state",
+        "version": "6.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f0d64c2bdfa8fe860449eea1a3e6e6b96a0b55aa76a5b5c5f13a3ebf1c5e7f56"
+      }
+    }
+  ],
+  "references": [],
+  "parents": []
+}
