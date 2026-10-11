@@ -1,4 +1,4 @@
-name: Kristal v10 Qualify
+name: Kristal C3 Collection Integrity
 
 on:
   push:
@@ -9,34 +9,43 @@ permissions:
   contents: read
 
 jobs:
-  qualify:
-    name: qualify
+  collection-integrity:
+    name: Structural audit only — NOT publication qualification
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
         with:
           node-version: '22'
           package-manager-cache: false
-      - name: Load pinned Kristal framework
+      - name: Load existing pinned framework
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: Rejean-McCormick/KristalV10
           ref: 27c0c7db3d79a4597c1c964fe8281fa35b5f858a
           path: .kristal-framework
-      - name: Verify v10 node
-        run: node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-node-v10 .kristal/node.json
-      - name: Verify GitHub host binding
-        run: node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-github-binding-v10 .kristal/bindings/github.json
-      - name: Emit qualification receipt
+          persist-credentials: false
+      - name: Verify node and GitHub binding
+        run: |
+          set -euo pipefail
+          node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-node-v10 .kristal/node.json
+          node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-github-binding-v10 .kristal/bindings/github.json
+      - name: Validate complete hosted collection (fail closed)
+        run: |
+          set -euo pipefail
+          python3 tools/c3_collection.py --repo . validate-index
+      - name: Verify every indexed state with pinned framework v9 validator
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p .kristal/receipts
-          jq -n --arg commit "$GITHUB_SHA" --arg framework "27c0c7db3d79a4597c1c964fe8281fa35b5f858a" --arg profile "V10-GitHub-Host/draft.2" '{schema_version:"1.0",artifact_type:"kristal_qualification_receipt",source_commit:$commit,framework_commit:$framework,profile:$profile,result:"pass"}' > .kristal/receipts/qualification.json
-      - name: Upload qualification receipt
-        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
-        with:
-          name: kristal-qualification-${{ github.sha }}
-          path: .kristal/receipts/qualification.json
-          if-no-files-found: error
+          for snapshot in kristals/*/state/state-snapshot.json; do
+            test -f "$snapshot"
+            node .kristal-framework/reference/js/bin/kristal-ref.mjs verify-state-v9 "$snapshot"
+          done
+      - name: Check C3 offline regression tests
+        run: python3 -m unittest discover -s tests -p 'test_c3_collection.py' -v
+      - name: Scope status
+        run: |
+          echo 'C3 collection integrity only; does not grant independent C1 qualification, C2 authorization, or publication.'
