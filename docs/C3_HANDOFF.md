@@ -50,3 +50,11 @@ The second command fails on the current source **by design**, because it lacks `
 - Not established: real hosted Zoology surface/index; C1 independent qualification; C2 initial approval/trusted verifier; public push protections; post-publication event; immutable Zoology release; C4/Light integration.
 - User-facing initial publication authorization for Zoology has **not been granted**. A general policy to automate qualified future revisions is not the same as approval to expose Zoology now.
 - **Do not drop this patch directly into the public repo until C0/C2 approves the workflow-management transition.** It replaces workflows tracked by Bootstrap and makes an incomplete collection's CI fail closed. It is ready for local review, testing and an integration PR that contains code only.
+
+## 2026-10-12 offline hardening update — local-only
+
+The English repo package now includes a read-only `tools/repository_audit.py` report, an isolated `c3-regression-tests.yml` fixture job and adversarial verifier checks in `tests/test_c3_hardening.py`. `tools/c3_collection.py` rejects ambiguous duplicate JSON keys, duplicate member artifact IDs, incorrect member logical-commitment profiles, non-object safety policy, and unrecognized collection-root files. None of these changes supplies the missing Zoology surface, a qualified collection index, or authentic C1/C2 approvals.
+
+**Managed workflow files and `.kristal/bootstrap-state.json` were intentionally left byte-for-byte unchanged** from the supplied snapshot. All five recorded Bootstrap fingerprints were already drifted. The old Framework pin also remains unchanged until its owner verifies and ratifies an immutable replacement. See [Framework Pin Review](FRAMEWORK_PIN_REVIEW.md), [Staging Intake](STAGING_INTAKE.md), and [Release Gates](RELEASE_GATES.md).
+
+The separate regression workflow is explicitly **not** independent qualification. Because no complete `kristals/index.json` exists, the collection integrity workflow remains fail-closed; it should not be disabled or made to pass by creating a placeholder index. No remote code push, public synchronization, release, or activation is claimed in this handoff.

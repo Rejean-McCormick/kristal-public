@@ -1,0 +1,153 @@
+{
+  "format": "kristal-public.source-update-inventory/1.0-non-normative",
+  "date": "2026-10-12",
+  "language": "en",
+  "source_snapshot_sha256": "fecad73402f7d00ef4016d5e945224e117be662670254b67ed1fc563bb288d3b",
+  "source_files_modified": [
+    "GitSink.bat",
+    "README.md",
+    "docs/C3_HANDOFF.md",
+    "tools/c3_collection.py"
+  ],
+  "source_files_added": [
+    ".github/workflows/c3-regression-tests.yml",
+    "CHANGELOG.md",
+    "docs/FRAMEWORK_PIN_REVIEW.md",
+    "docs/RELEASE_GATES.md",
+    "docs/STAGING_INTAKE.md",
+    "docs/UPDATE_REPORT.md",
+    "tests/test_c3_hardening.py",
+    "tools/repository_audit.py"
+  ],
+  "source_files_not_carried_forward": [
+    "SMARTDUMP_INDEX.txt"
+  ],
+  "protected_paths_unchanged": [
+    ".kristal/node.json",
+    ".kristal/bindings/github.json",
+    ".kristal/capabilities.json",
+    ".kristal/bootstrap-state.json",
+    ".github/workflows/kristal-publish.yml",
+    ".github/workflows/kristal-qualify.yml",
+    "state/state-snapshot.json",
+    "kristals/zoology/state/state-snapshot.json"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/c3-regression-tests.yml",
+      "sha256": "0acbeac66c30cdc615c3781e4fbdb7e71e6cbf093c2eb85ed25727aad12e6ea6",
+      "size_bytes": 939
+    },
+    {
+      "path": ".github/workflows/kristal-publish.yml",
+      "sha256": "54d3aa6f8b487b6c5f649a21c361935081e6a19b8f747b2fb66aba4aab1e398a",
+      "size_bytes": 2431
+    },
+    {
+      "path": ".github/workflows/kristal-qualify.yml",
+      "sha256": "cd1c34c8128e1228d316129658a013d3b712d98fcec5de8ccbebb1b1d98b01c3",
+      "size_bytes": 1974
+    },
+    {
+      "path": ".kristal/bindings/github.json",
+      "sha256": "80b43866bd19889aedd3e30cbd9a736b08219f3b5d782facfd3a357e7ab9cc0b",
+      "size_bytes": 1475
+    },
+    {
+      "path": ".kristal/bootstrap-state.json",
+      "sha256": "03bcf2d97ccc972a553544de22f633c9011f69beb297e3c6024ee8bd6b5fb411",
+      "size_bytes": 743
+    },
+    {
+      "path": ".kristal/capabilities.json",
+      "sha256": "1ebb246d456bd2852ad6b90b0e04945b0a094a467d758920e3cdf14b15db51c1",
+      "size_bytes": 974
+    },
+    {
+      "path": ".kristal/node.json",
+      "sha256": "99bd98bd22fcfd0c379e34f7d99553a29fc81f818c9a4d3bbd77de8ac2352288",
+      "size_bytes": 485
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "dfd644d4420611d5f5a95c8164362b2973be5c7fd39156f989dc86a028a56c44",
+      "size_bytes": 1983
+    },
+    {
+      "path": "GitSink.bat",
+      "sha256": "f5af410030fcb85581cbd13ba1538dc3d2314e128285459ebb6ae4f384eca1f3",
+      "size_bytes": 665
+    },
+    {
+      "path": "README.md",
+      "sha256": "25ba549ad4a35c35db781b5a45b130e0e6690c217fdffd34f254b2c8bf0ff055",
+      "size_bytes": 5074
+    },
+    {
+      "path": "docs/C3_HANDOFF.md",
+      "sha256": "bff0ab3a8752e8cca757eb29ad7a4708ab9e50265310eb9e7d7d441eee7ed3d0",
+      "size_bytes": 6898
+    },
+    {
+      "path": "docs/FRAMEWORK_PIN_REVIEW.md",
+      "sha256": "e68c811a8b8a3b19f32d65825cd6b9df6859ef87639a8bcb451c1b51ffbad766",
+      "size_bytes": 1961
+    },
+    {
+      "path": "docs/RELEASE_GATES.md",
+      "sha256": "786eca2611a797f5af8910b06010dcadcacf5b3b641d956bfe07959f4bcba0e2",
+      "size_bytes": 2034
+    },
+    {
+      "path": "docs/STAGING_INTAKE.md",
+      "sha256": "0acfd16ac4b9fb52f69c03a2f3bf41e121e8e31cebaaccdc66c131b976f72313",
+      "size_bytes": 2874
+    },
+    {
+      "path": "docs/UPDATE_REPORT.md",
+      "sha256": "13ee2e1bee99ce40312d533bc4b9368c6eadbe6acc117453b408d33104ec01f7",
+      "size_bytes": 4366
+    },
+    {
+      "path": "kristals/zoology/state/state-snapshot.json",
+      "sha256": "cee3330946cf37408ef566bf2a60144af5594f0757cd2bf604e2069d86cdad4b",
+      "size_bytes": 752
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "sha256": "610cbe517501f23eb2a4152b558656d9d1ae811e0524ec06f257ace119cc7157",
+      "size_bytes": 501
+    },
+    {
+      "path": "tests/test_c3_collection.py",
+      "sha256": "44dd03c9bdd34ca4f635bcc2f0e887e2bb59046b7159d34d62713fa122fd64ae",
+      "size_bytes": 6002
+    },
+    {
+      "path": "tests/test_c3_hardening.py",
+      "sha256": "fe1f8340f35128f85eafc7cd9792fda34328c187f43ee937b9309f216e29b246",
+      "size_bytes": 4211
+    },
+    {
+      "path": "tools/c3_collection.py",
+      "sha256": "d3fb5822697068b042b81a14fe96a6bbbe35d0348920e1ddc3e9b5865c779bef",
+      "size_bytes": 14315
+    },
+    {
+      "path": "tools/repository_audit.py",
+      "sha256": "d65f394166387020c413c01a609b2883264b9f6ce2a5de5c8045a460f9d6220c",
+      "size_bytes": 4667
+    }
+  ],
+  "verification": {
+    "unittest_tests_passed": 20,
+    "framework_node_v10": "PASS",
+    "framework_binding_v10": "PASS",
+    "framework_root_state_v9": "PASS",
+    "framework_zoology_state_v9": "PASS",
+    "actual_collection_c3": "BLOCKED_MISSING_INDEX",
+    "bootstrap_managed_sha": "DRIFT_5_OF_5",
+    "independent_c1_c2": "NOT_VERIFIED",
+    "remote_publication": "NOT_PERFORMED"
+  }
+}

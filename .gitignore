@@ -1,0 +1,14 @@
+# Only local caches/staging. Never use gitignore as a substitute for C2 approval.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+local-private/
+local-trust/
+release-evidence/
+*.pem
+*.key
+*.p12
+*.pfx

@@ -36,12 +36,24 @@ def sha(blob):
 def canonical(obj):
     return json.dumps(obj,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode('utf-8')
 
+def _unique_json_keys(pairs):
+    """Reject ambiguous duplicate keys instead of letting JSON use the last value."""
+    result = {}
+    for key, value in pairs:
+        require(key not in result, f'duplicate JSON key: {key}')
+        result[key] = value
+    return result
+
+
 def load(path):
-    require(path.is_file() and not path.is_symlink(),f'missing or symlink file: {path}')
+    require(path.is_file() and not path.is_symlink(), f'missing or symlink file: {path}')
     try:
-        with path.open(encoding='utf-8') as f: obj=json.load(f)
-    except (ValueError,OSError) as e:raise C3Error(f'invalid JSON {path}: {e}') from e
-    require(isinstance(obj,dict),f'JSON object expected: {path}')
+        with path.open(encoding='utf-8') as f:
+            obj = json.load(f, object_pairs_hook=_unique_json_keys,
+                            parse_constant=lambda value: (_ for _ in ()).throw(C3Error('invalid JSON number: ' + value)))
+    except (ValueError, OSError) as exc:
+        raise C3Error(f'invalid JSON {path}: {exc}') from exc
+    require(isinstance(obj, dict), f'JSON object expected: {path}')
     return obj
 
 def relpath(value):
@@ -51,10 +63,15 @@ def relpath(value):
     return p
 
 def checked_file(root, rel):
-    p=relpath(rel)
-    target=root.joinpath(*p.parts)
-    require(not any(parent.is_symlink() for parent in [target,*target.parents] if parent!=root.parent),'symlink in path: '+rel)
-    require(target.is_file() and not target.is_symlink(),'missing file: '+rel)
+    p = relpath(rel)
+    require(root.is_dir() and not root.is_symlink(), 'missing/symlink repository root')
+    target = root.joinpath(*p.parts)
+    cursor = target
+    while cursor != root:
+        require(not cursor.is_symlink(), 'symlink in path: ' + rel)
+        cursor = cursor.parent
+        require(cursor != cursor.parent, 'unsafe file path outside repository: ' + rel)
+    require(target.is_file(), 'missing file: ' + rel)
     return target
 
 def check_snapshot(root, slug):
@@ -66,12 +83,15 @@ def check_snapshot(root, slug):
     require(isinstance(commitment,dict) and commitment.get('profile')=='kristal.state-commitment/jcs-sha256-v1' and DIGEST.fullmatch(str(commitment.get('digest') or '')),'invalid v9 state commitment')
     require(isinstance(o.get('state_ref'),str) and o['state_ref'],'missing state_ref')
     require(isinstance(o.get('members'),list) and len(o['members'])>0,'state has no members: '+slug)
+    seen_artifacts = set()
     for member in o['members']:
         require(isinstance(member,dict) and isinstance(member.get('artifact_id'),str) and member['artifact_id'],'malformed member artifact id: '+slug)
+        require(member['artifact_id'] not in seen_artifacts, 'duplicate member artifact id: '+slug)
+        seen_artifacts.add(member['artifact_id'])
         contract=member.get('logical_contract')
         commitment=member.get('logical_commitment')
         require(isinstance(contract,dict) and isinstance(contract.get('id'),str) and isinstance(contract.get('version'),str),'malformed logical contract: '+slug)
-        require(isinstance(commitment,dict) and DIGEST.fullmatch(str(commitment.get('digest') or '')),'malformed member commitment: '+slug)
+        require(isinstance(commitment,dict) and commitment.get('profile')=='kristal.logical/jcs-sha256-v1' and DIGEST.fullmatch(str(commitment.get('digest') or '')),'malformed member commitment: '+slug)
     return o
 
 def row_from_manifest(root, slug):
@@ -89,8 +109,10 @@ def row_from_manifest(root, slug):
     require(isinstance(sc,dict) and sc.get('profile')=='kristal.state-commitment/jcs-sha256-v1' and DIGEST.fullmatch(str(sc.get('digest') or '')),'invalid logical commitment: '+slug)
     sd=m.get('surface_digest')
     require(isinstance(sd,str) and DIGEST.fullmatch(sd),'invalid surface digest: '+slug)
+    policy = m.get('policy')
+    require(isinstance(policy, dict), 'missing sync safety policy object: '+slug)
     for key in POLICY_KEYS:
-        require(m.get('policy',{}).get(key) is True,'missing sync safety policy '+key+': '+slug)
+        require(policy.get(key) is True,'missing sync safety policy '+key+': '+slug)
     objects=m.get('materialization_objects',[])
     require(isinstance(objects,list) and m.get('materialization_object_count')==len(objects),'bad materialization metadata: '+slug)
     # C3 conservatively defers external materialization object validation to owner tooling.
@@ -123,7 +145,9 @@ def row_from_manifest(root, slug):
         require(item.get('sha256')==digest,'file checksum drift: '+str(rel))
         ordered.append({'path':rel.as_posix(),'role':item['role'],'size':actualsize,'sha256':digest})
         total+=actualsize
-    require(seen==actual-{' .nothing ','.kristal/sync-manifest.json'},'unmanaged or missing paths under '+prefix+': '+str(sorted(actual - seen - {'.kristal/sync-manifest.json'})))
+    unmanaged = actual - seen - {'.kristal/sync-manifest.json'}
+    require(seen == actual - {'.kristal/sync-manifest.json'},
+            'unmanaged or missing paths under '+prefix+': '+str(sorted(unmanaged)))
     require(type(m.get('file_count')) is int and m['file_count']==len(files),'file_count drift: '+slug)
     require(type(m.get('total_bytes')) is int and m['total_bytes']==total,'total_bytes drift: '+slug)
     for essential in ('AI_START_HERE.md','AI_MANIFEST.json','ai/INDEX.json','state/state-snapshot.json'):
@@ -142,14 +166,18 @@ def row_from_manifest(root, slug):
     return dict(slug=slug,title=m['title'],path=prefix,entrypoint=prefix+'/AI_START_HERE.md',state_ref=m['state_ref'],state_logical_commitment=sc,surface_digest=sd,file_count=len(files),total_bytes=total,materialization_object_count=0)
 
 def scan_slugs(root):
-    folder=root/'kristals'
-    require(folder.is_dir() and not folder.is_symlink(),'missing kristals/ directory')
-    out=[]
+    folder = root/'kristals'
+    require(folder.is_dir() and not folder.is_symlink(), 'missing kristals/ directory')
+    out = []
     for p in folder.iterdir():
-        if p.is_dir() or p.is_symlink():
-            require(not p.is_symlink() and SLUG.fullmatch(p.name),'unsafe folder: '+p.name)
+        require(not p.is_symlink(), 'symlink in kristals/: '+p.name)
+        if p.is_dir():
+            require(bool(SLUG.fullmatch(p.name)), 'unsafe folder: '+p.name)
             out.append(p.name)
-    return sorted(out,key=lambda s:s.encode('utf-8'))
+        else:
+            require(p.is_file() and p.name == 'index.json',
+                    'unrecognized entry in collection root: '+p.name)
+    return sorted(out, key=lambda slug: slug.encode('utf-8'))
 
 def index_for_rows(rows):
     ordered=sorted(rows,key=lambda x:(x['slug'].encode('utf-8'),x['path'].encode('utf-8')))
