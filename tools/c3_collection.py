@@ -113,10 +113,11 @@ def row_from_manifest(root, slug):
     require(isinstance(policy, dict), 'missing sync safety policy object: '+slug)
     for key in POLICY_KEYS:
         require(policy.get(key) is True,'missing sync safety policy '+key+': '+slug)
-    objects=m.get('materialization_objects',[])
-    require(isinstance(objects,list) and m.get('materialization_object_count')==len(objects),'bad materialization metadata: '+slug)
-    # C3 conservatively defers external materialization object validation to owner tooling.
-    require(len(objects)==0,'external materialization objects require C1/C2 validation: '+slug)
+    # The Kit binds materialization metadata through ai/INDEX.json, not through
+    # the sync manifest. Referenced blob bytes are NEVER implicitly hosted.
+    # Validate the exact inventory below; defer external blob qualification.
+    require(type(m.get('materialization_object_count')) is int and m['materialization_object_count'] >= 0,
+            'bad materialization metadata count: '+slug)
     files=m.get('files')
     require(isinstance(files,list) and files,'empty sync manifest files: '+slug)
     seen=set(); ordered=[]; total=0; actual=set()
@@ -158,12 +159,35 @@ def row_from_manifest(root, slug):
     require(isinstance(ai_index.get('files'),list),'ai/INDEX.json missing files array: '+slug)
     for listed in ai_index['files']:
         require(isinstance(listed,dict) and isinstance(listed.get('path'),str) and relpath(listed['path']).as_posix() in seen,'AI index references an unhosted path: '+slug)
+        hosted = next(item for item in ordered if item['path'] == listed['path'])
+        require(listed.get('sha256',hosted['sha256']) == hosted['sha256'] and
+                listed.get('size',hosted['size']) == hosted['size'],
+                'AI index file bytes mismatch: '+listed['path'])
+    objects = ai_index.get('materialization_blobs', [])
+    require(isinstance(objects, list) and len(objects) == m['materialization_object_count'],
+            'materialization metadata/AI index count drift: '+slug)
+    for i, obj in enumerate(objects):
+        require(isinstance(obj, dict), f'invalid materialization metadata [{i}]: '+slug)
+        require(isinstance(obj.get('sha256'),str) and DIGEST.fullmatch(obj['sha256']) and
+                type(obj.get('size')) is int and obj['size'] >= 0,
+                f'invalid materialization object digest/size [{i}]: '+slug)
+        key = obj.get('key')
+        require(isinstance(key,str) and key and '\\' not in key and not key.startswith('/') and
+                not re.match(r'^[A-Za-z]:',key) and '..' not in PurePosixPath(key).parts,
+                f'unsafe materialization key [{i}]: '+slug)
+        locator = obj.get('locator')
+        require(locator is None or isinstance(locator, (str,dict)),
+                f'invalid materialization locator [{i}]: '+slug)
+        if isinstance(locator,str):
+            require(not locator.startswith(('file:', '/', '\\')) and
+                    not re.match(r'^[A-Za-z]:',locator),
+                    f'local materialization locator cannot be published [{i}]: '+slug)
     ordered.sort(key=lambda x:x['path'].encode('utf-8'))
     projection={'format':SURFACE_FORMAT,'slug':slug,'state_ref':m['state_ref'],'state_logical_commitment':sc,'entrypoint':m['entrypoint'],'files':ordered,'materialization_objects':objects}
     require(sha(canonical(projection))==sd,'surface digest drift: '+slug)
     state=check_snapshot(root,slug)
     require(m['state_ref']==state['state_ref'] and sc==state['logical_commitment'],'state/manifest mismatch: '+slug)
-    return dict(slug=slug,title=m['title'],path=prefix,entrypoint=prefix+'/AI_START_HERE.md',state_ref=m['state_ref'],state_logical_commitment=sc,surface_digest=sd,file_count=len(files),total_bytes=total,materialization_object_count=0)
+    return dict(slug=slug,title=m['title'],path=prefix,entrypoint=prefix+'/AI_START_HERE.md',state_ref=m['state_ref'],state_logical_commitment=sc,surface_digest=sd,file_count=len(files),total_bytes=total,materialization_object_count=len(objects))
 
 def scan_slugs(root):
     folder = root/'kristals'
