@@ -15,6 +15,7 @@ from urllib.parse import quote
 
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from c3_collection import validate_index, C3Error
+from wiki_semantik import realize_page, WikiSemantikError
 
 REPO=re.compile(r'^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$')
 REV=re.compile(r'^[0-9a-f]{40}$')
@@ -69,26 +70,65 @@ def render(index: dict, repository: str, revision: str) -> dict[str,str]:
     return pages
 
 
-def generate(repo_root: Path, output: Path, repository: str, revision: str, *,write: bool=False) -> dict:
+def render_semantik(index: dict, repository: str, revision: str, *,
+                    projections: Path, semantik_root: Path, runtime_root: Path,
+                    realize=realize_page) -> tuple[dict[str,str], dict[str,dict]]:
+    """SemantiK is mandatory for every content page; no text-template fallback.
+
+    Navigation and versioned links remain ordinary Markdown; *all semantic prose*
+    must come from admitted SA CommunicationResults with complete coverage.
+    """
+    pages=render(index,repository,revision)  # link scaffolding ONLY
+    evidence={}
+    for row in index['kristals']:
+        content,meta=realize(row=row,revision=revision,projections=projections,
+                            semantik_root=semantik_root,runtime_root=runtime_root)
+        name='Kristal-'+row['slug']+'.md'
+        title,rest=pages[name].split('\n',1)
+        pages[name]=(title+'\n\n## Présentation sémantique (SemantiK Architect)\n\n'
+                     +content+'\n\n---\n\n'+rest
+                     +'\n\nProjection SemantiK : `'+meta['projection_digest']+'`'
+                     +'  \nRésultat : `'+meta['semantik_result_id']+'`'
+                     +'  \nRuntimeSet : `'+meta['runtime_set_id']+'`\n')
+        evidence[row['slug']]=meta
+    pages['Home.md']=pages['Home.md'].replace(
+        'Ce wiki présente des **projections de lecture vérifiables** du dépôt de collection.',
+        'Ce brouillon associe des surfaces vérifiées aux textes articulés par SemantiK Architect, '
+        'sur sélection explicite des assertions. Il reste soumis à une approbation de diffusion distincte.')
+    return pages,evidence
+
+
+def generate(repo_root: Path, output: Path, repository: str, revision: str, *,
+             projections: Path | None = None, semantik_root: Path | None = None,
+             runtime_root: Path | None = None, write: bool=False) -> dict:
     repo_root=Path(repo_root).resolve()
     output=Path(output).expanduser().resolve()
+    if projections is None or semantik_root is None or runtime_root is None:
+        raise WikiSemantikError('SemantiK Architect REQUIRED: --projections, --semantik-root and --runtime-root')
+    projections=Path(projections).expanduser().resolve(strict=True)
+    if projections.is_relative_to(repo_root) or repo_root.is_relative_to(projections):
+        raise WikiSemantikError('Semantic projections must be privately stored, outside public checkout')
     index=validate_index(repo_root)
-    pages=render(index,repository,revision)
+    pages,evidence=render_semantik(index,repository,revision,
+                projections=projections,semantik_root=semantik_root,runtime_root=runtime_root)
     if write:
         if output.exists():raise ValueError('Refusing to overwrite existing Wiki destination')
         if not output.parent.is_dir() or any((part/'.git').exists() for part in (output,*output.parents)):
             raise ValueError('Wiki output must be a new folder outside any Git checkout')
-        # A candidate can be prepared only outside the *public* repository.
         if output.is_relative_to(repo_root) or repo_root.is_relative_to(output):
             raise ValueError('Wiki output must be outside the source collection')
         output.mkdir(parents=False)
         for name,body in pages.items():
             (output/name).write_text(body,encoding='utf8')
+        (output/'SEMANTIK_EVIDENCE.json').write_text(json.dumps({
+            'status':'PRIVATE_WIKI_CANDIDATE','repository':repository,'revision':revision,
+            'authorization':'NOT_VERIFIED','semantik':evidence,
+        },ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     return {'status':'WIKI_CANDIDATE_ONLY' if write else 'DRY_RUN',
             'deployment':'NOT_PERFORMED','c1_c2':'NOT_VERIFIED',
-            'repository':repository,'revision':revision,
-            'pages':sorted(pages),'count':len(index['kristals'])}
-
+            'semantik_used':True,'repository':repository,'revision':revision,
+            'pages':sorted(pages),'count':len(index['kristals']),
+            'semantik_evidence':evidence}
 
 def main(argv=None) -> int:
     parser=argparse.ArgumentParser(description='Private GitHub Wiki Markdown candidate; never pushes')
@@ -96,13 +136,17 @@ def main(argv=None) -> int:
     parser.add_argument('--output',type=Path,required=True,help='New output directory')
     parser.add_argument('--repository',required=True,help='Exact GitHub owner/repo')
     parser.add_argument('--revision',required=True,help='Published commit SHA, not a floating branch')
+    parser.add_argument('--projections',type=Path,required=True,help='PRIVATE per-slug semantic envelopes')
+    parser.add_argument('--semantik-root',type=Path,required=True,help='Trusted local SemantiK-Architect clone')
+    parser.add_argument('--runtime-root',type=Path,required=True,help='SA released RuntimeSets root')
     parser.add_argument('--write',action='store_true',help='Write private draft; dry run otherwise')
     args=parser.parse_args(argv)
     try:
-        print(json.dumps(generate(args.collection,args.output,args.repository,args.revision,write=args.write),
+        print(json.dumps(generate(args.collection,args.output,args.repository,args.revision,projections=args.projections, semantik_root=args.semantik_root,
+                        runtime_root=args.runtime_root,write=args.write),
                          ensure_ascii=False,indent=2))
         return 0
-    except (C3Error,OSError,ValueError,KeyError,TypeError) as exc:
+    except (C3Error,WikiSemantikError,OSError,ValueError,KeyError,TypeError) as exc:
         print('WIKI BLOCKED: '+str(exc),file=sys.stderr)
         return 2
 
