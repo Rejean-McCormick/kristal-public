@@ -21,6 +21,14 @@ VALID_FILE=re.compile(r'[A-Za-z0-9_-]+\.md\Z')
 SHA40=re.compile(r'[a-f0-9]{40}\Z')
 HEXDIGEST=re.compile(r'[a-f0-9]{64}\Z')
 REPO='Rejean-McCormick/kristal-public'
+# The private Spek editorial handoff is intentionally richer than the public
+# Wiki projection. Never permit its identifiers or internal lock fields to
+# escape merely because a Markdown page has passed ordinary escaping.
+PRIVATE_SPEK_MARKERS=re.compile(
+    r'(?i)(?:spek\.private-editorial-handoff|PRIVATE_UNQUALIFIED_NOT_PUBLISHABLE|'
+    r'source_assertion_refs|source_sha256|request_sha256|'
+    r'urn:kristal:assertion:|\bsha256:[a-f0-9]{64}\b)'
+)
 BANNERS={
   '**Brouillon privé, non autorisé à la publication**': '**Projection publique dérivée des Kristals autorisés**',
   '**Private draft, not authorized for publication**': '**Public derived projection of approved Kristals**',
@@ -67,6 +75,8 @@ def _pages(private:Path)->tuple[dict,dict]:
         for a,b in BANNERS.items():raw=raw.replace(a,b)
         if 'Brouillon privé' in raw or 'Private draft' in raw or 'Bozza privata' in raw or 'DÉMONSTRATION' in raw:
             raise WikiDeployError('Private/demo marker persists in '+name)
+        if PRIVATE_SPEK_MARKERS.search(raw):
+            raise WikiDeployError('Private Spek/Kristal provenance leaked into Wiki page: '+name)
         output[name]=raw
     return output,pipe
 
