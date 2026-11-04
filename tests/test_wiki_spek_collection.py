@@ -61,3 +61,17 @@ class CollectionWikiTests(unittest.TestCase):
                     validator=lambda _:{'kristals':[{'slug':'ai'},{'slug':'other'}]})
 
 if __name__=='__main__':unittest.main()
+
+
+def test_collection_rejects_private_provenance_before_staging(tmp_path):
+    root=tmp_path
+    case=CollectionWikiTests()
+    col,packs,spek=case.setup_fixture(root)
+    def leaking_renderer(slug,out):
+        case.render_stub(slug,out)
+        (out/('Kristal-'+slug+'.md')).write_text('# Titre\n\nsource_assertion_refs: secret')
+    with unittest.TestCase().assertRaisesRegex(WikiSpekError,'Private provenance'):
+        generate(collection=col,packages=packs,spek_root=spek,output=root/'candidate',
+            repository='a/kristal-public',revision='b'*40,language='fr',write=True,
+            renderer=leaking_renderer,validator=lambda _: {'kristals':[{'slug':'ai','title':'AI'}]})
+    assert not (root/'candidate').exists()

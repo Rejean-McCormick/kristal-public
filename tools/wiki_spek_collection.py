@@ -21,6 +21,7 @@ from c3_collection import validate_index
 SHA=re.compile(r'[0-9a-f]{40}\Z')
 REPO=re.compile(r'[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+\Z')
 SLUG=re.compile(r'[a-z0-9][a-z0-9.-]*\Z')
+PRIVATE_PROVENANCE=re.compile(r'(?i)(?:source_assertion_refs|request_sha256|source_sha256|spek\.private-editorial-handoff|PRIVATE_UNQUALIFIED_NOT_PUBLISHABLE|urn:kristal:assertion:|sha256:[a-f0-9]{64})')
 
 class WikiSpekError(ValueError):pass
 
@@ -95,7 +96,10 @@ def generate(*,collection:Path,packages:Path,spek_root:Path,output:Path,
             import_context=json.loads((out/'manifest.json').read_text(encoding='utf8'))
             if import_context.get('format')!='spek.wiki-draft/1.0' or import_context.get('archetype')!=archetype or import_context.get('demonstration'):
                 raise WikiSpekError('Unqualified or mismatched Spek output '+slug)
-            pages[page.name]=page.read_text(encoding='utf8')
+            page_text=page.read_text(encoding='utf8')
+            if PRIVATE_PROVENANCE.search(page_text):
+                raise WikiSpekError('Private provenance in proposed Wiki page '+slug)
+            pages[page.name]=page_text
             bindings[slug]={'archetype':archetype,'spek_draft_sha256':_sha(page),
                 'article_sha256':_sha(article),'realizations_sha256':_sha(realizations)}
         if len(pages)!=len(rows):raise WikiSpekError('Missing Wiki page: C3 coverage incomplete')
