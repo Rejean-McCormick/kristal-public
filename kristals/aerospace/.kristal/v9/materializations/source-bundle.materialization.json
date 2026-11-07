@@ -1,0 +1,127 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:aerospace:artifact:editorial-sources:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:aerospace:artifact:editorial-sources",
+    "logical_contract": {
+      "id": "aerospace.editorial-source-bundle",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:a08b65373926f64686abc2fed21acb774ea5f8ebb3e6eecfb66493400ee7efac"
+    }
+  },
+  "profile": "kristal.materialization/native-json-bundle/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "external-source-library/source-cards/ecss-space-environment.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:f67c36bb4ab1887a6d7d83c9e1cf3ffd69b0f41acf6e3d2c08904e6c9a801420",
+        "size": 648
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-cards/ecss-space-environment.json"
+      }
+    },
+    {
+      "segment_key": "external-source-library/source-cards/ecss-system-engineering.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:7a6538cead8f9e9b3c50a3fed7b2d9495c6a6365d022bd71c5276b1d16fc98f7",
+        "size": 686
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-cards/ecss-system-engineering.json"
+      }
+    },
+    {
+      "segment_key": "external-source-library/source-cards/faa-phak-25c.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:bb465d38b00d256abc12287aeccde1d5357883b5991e639f97dc41de9ee15b57",
+        "size": 624
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-cards/faa-phak-25c.json"
+      }
+    },
+    {
+      "segment_key": "external-source-library/source-cards/nasa-se-handbook.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5cf294fe6a6ec18cb9a8961fd19648a9b1de4b28a2cc2aa37b3514be276cc63b",
+        "size": 580
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-cards/nasa-se-handbook.json"
+      }
+    },
+    {
+      "segment_key": "external-source-library/source-cards/nasa-smallspacecraft-soa.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:023f45ae1297689cc3d5fed520efb2a09b73ad20118fe782dbbf042b1abe7e54",
+        "size": 619
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-cards/nasa-smallspacecraft-soa.json"
+      }
+    },
+    {
+      "segment_key": "external-source-library/source-cards/nasa-spaceflight-navigation.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:6b19333a07fcf84f6f195ba290bbf10002956061f2e74ee21defb3722ed654d2",
+        "size": 588
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-cards/nasa-spaceflight-navigation.json"
+      }
+    },
+    {
+      "segment_key": "external-source-library/source-cards/nasa-trajectory-design.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:c840e597ddb115f6ce54b9ac3556ac88ccc0aa4ddc6883bf14031ac999cebaac",
+        "size": 575
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-cards/nasa-trajectory-design.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/source-catalog.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:40ae17f79105cd4c5d33958a4b276df56295b076456484c5dedcbd8d61737174",
+        "size": 5468
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/source-catalog.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "external-source-library/source-cards/ecss-space-environment.json",
+      "external-source-library/source-cards/ecss-system-engineering.json",
+      "external-source-library/source-cards/faa-phak-25c.json",
+      "external-source-library/source-cards/nasa-se-handbook.json",
+      "external-source-library/source-cards/nasa-smallspacecraft-soa.json",
+      "external-source-library/source-cards/nasa-spaceflight-navigation.json",
+      "external-source-library/source-cards/nasa-trajectory-design.json",
+      "knowledge-base/sources/source-catalog.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "aerospace.editorial-source-bundle/1.0"
+  }
+}

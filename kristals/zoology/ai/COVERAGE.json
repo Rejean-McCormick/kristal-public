@@ -1,0 +1,39 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:kristal-zoology",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:8d01ff8e0e9574125559dc7f348a5278a81776bb8344c4d4790b4e6df3517a22"
+  },
+  "subject": {
+    "domain": "zoology",
+    "id": "urn:kristal:subject:zoology",
+    "label": "Kristal-Zoology — lignée ↔ plan corporel ↔ adaptation ; convergence et incertitude",
+    "orientation": "lignée ↔ plan corporel ↔ adaptation ; convergence et incertitude"
+  },
+  "semantic_ownership": {
+    "does_not_own": [
+      "Les publications, licences ou mises à jour automatiques des sources externes.",
+      "La vérité d’un domaine au-delà des observations et des qualifications représentées.",
+      "Les caches, projections ou matérialisations en tant qu’autorité autonome."
+    ],
+    "owns": [
+      "Les assertions et identités canoniques historiques du domaine, dans les limites des documents de source.",
+      "Les relations typées et leur contexte/qualification explicitement documentés dans knowledge-base/."
+    ]
+  },
+  "canonical_artifact_count": 12,
+  "source_count": 6,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

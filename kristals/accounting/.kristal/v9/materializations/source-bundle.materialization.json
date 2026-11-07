@@ -1,0 +1,103 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:accounting:artifact:editorial-sources:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:accounting:artifact:editorial-sources",
+    "logical_contract": {
+      "id": "accounting.editorial-source-bundle",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:50529440042d1223317628a8082f8aa78218ab3f8e652ef7804bbf765ad2823a"
+    }
+  },
+  "profile": "kristal.materialization/native-json-bundle/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "external-source-library/source-store.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:6441c63d64ec3dd331c9292218cc9dc809fd8d1b406189700082950ff5bbb2e8",
+        "size": 5158
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-store.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/account_model.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:cf22b4b688883cafb43e99d25a55e67bcfb9d53cc03aee85a7d9c592e99a2e0c",
+        "size": 4108
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/account_model.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/domain_ontology.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:a394602e6cc815218e5dd58e9d9c485da6a8f9b4e246b8554b788c6e220e0b2c",
+        "size": 6478
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/domain_ontology.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/event_model.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:b12ce5b3446e6123f2e634662f3418597d2fc685cf08a0b251e3ba381d785477",
+        "size": 4965
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/event_model.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/period_close_model.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:279805c73cf1c76d7995338b60a25bdd504e6522747296cae5819ef25021a9b9",
+        "size": 2459
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/period_close_model.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/reporting_model.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:acaf82c720a9e545951a39d18cd5110ea2d69b29f5060b37dce65a148d9e44fa",
+        "size": 2377
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/reporting_model.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "external-source-library/source-store.json",
+      "knowledge-base/sources/account_model.json",
+      "knowledge-base/sources/domain_ontology.json",
+      "knowledge-base/sources/event_model.json",
+      "knowledge-base/sources/period_close_model.json",
+      "knowledge-base/sources/reporting_model.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "accounting.editorial-source-bundle/1.0"
+  }
+}

@@ -4,7 +4,7 @@
   "state_ref": "urn:kristal:state:kristal-zoology",
   "logical_commitment": {
     "profile": "kristal.state-commitment/jcs-sha256-v1",
-    "digest": "sha256:2503493eed8b2515107f9c32eed48286845f5468838ad3ae7b4a8f66a65f2ac8"
+    "digest": "sha256:8d01ff8e0e9574125559dc7f348a5278a81776bb8344c4d4790b4e6df3517a22"
   },
   "members": [
     {
@@ -16,6 +16,127 @@
       "logical_commitment": {
         "profile": "kristal.logical/jcs-sha256-v1",
         "digest": "sha256:f0d64c2bdfa8fe860449eea1a3e6e6b96a0b55aa76a5b5c5f13a3ebf1c5e7f56"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a86948e554068e524b3c4aaca7ca4b370fdb691e6751cc28061d75e62b8f88af"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8964a0ef1d19f47e0a76d1ce754a3027f8022ba95f79f823cccd5f7e0131e9b9"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4bb7b8148bc04df43411f420160161e193022d734956c99d6a9d899f660f7d27"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8beeeb63b826aa001cf14eeddcc2e3dc65060d384fbd63d20c356f540183ed96"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:d051536baba93d26fa73956548c51f890af1ed2826bdc76cda27b9941dbb3b65"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2a45bc483457c1207c2daa2a8accb2ef6634095ef40b84bd241436b0ac850827"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:784e7b35f488ffacd6214d90e02af3aa9bcb98546dca1133ad776563de46d139"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4827442179750f0cb66bee9cd539f05e32471af4b4cd27d35f8f22dbe7d35d6b"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c445745d74a03c2eb02c921076547326f42931da78ffcd1e1b634109aa347d1e"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a539b5fbc570f5ae053dae0c6db1c8525ad3ea7a03ba9287d5fabddff24736e4"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-zoology:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:d05866710cd533680ae54dc393c42b19e581790a1db3bdd909dca320c240ce88"
       }
     }
   ],

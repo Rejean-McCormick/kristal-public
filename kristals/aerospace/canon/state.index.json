@@ -1,0 +1,277 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:aerospace:artifact:canonical-state",
+      "path": "canon/domain/canonical_state.payload.json",
+      "logical_contract": {
+        "id": "aerospace.canonical-knowledge-state",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "aerospace"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:aerospace:artifact:identity-registry",
+      "path": "canon/domain/identity_registry.payload.json",
+      "logical_contract": {
+        "id": "aerospace.identity-registry",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "aerospace"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:aerospace:v11:identity:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:aerospace:v11:graph:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:aerospace:v11:crosswalk:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:aerospace:v11:catalog:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Aerospace:registry",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Aerospace:graph",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Aerospace:crosswalk",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Aerospace:catalog",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Aerospace:registry",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Aerospace:graph",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Aerospace:crosswalk",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Aerospace:catalog",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:aerospace:v11:catalog:fr-proposal-2026-11-06",
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": "knowledge-base/corpus/domain-coverage.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/index.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/mission-architecture-model.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/onboard-systems-model.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/operations-interface-model.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/quality-metrics.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/trajectory-phase-model.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/validation-report.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/vehicle-environment-model.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": ".kristal/v8/",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": ".kristal/v8",
+      "role": "v8 compatibility and indexes"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "historical v9 package retained, not replaced by the modern build"
+    }
+  ],
+  "historical_build_inputs": [
+    {
+      "artifact_id": "urn:kristal:aerospace:artifact:editorial-sources",
+      "path": "canon/epistemic/legacy-build-input-editorial-sources.payload.json",
+      "logical_contract": {
+        "id": "aerospace.editorial-source-bundle",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a08b65373926f64686abc2fed21acb774ea5f8ebb3e6eecfb66493400ee7efac"
+      },
+      "role": "build_input_not_state_member"
+    }
+  ],
+  "historical_materializations": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "profile": "kristal.materialization/native-blob/1",
+      "artifact_id": "urn:kristal:aerospace:artifact:canonical-state"
+    },
+    {
+      "path": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "profile": "kristal.materialization/native-blob/1",
+      "artifact_id": "urn:kristal:aerospace:artifact:identity-registry"
+    },
+    {
+      "path": "archive/historical-v9-materializations/source-bundle.materialization.json",
+      "profile": "kristal.materialization/native-json-bundle/1",
+      "artifact_id": "urn:kristal:aerospace:artifact:editorial-sources",
+      "preserved_original_path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "archived_sha256": "7ed5cc6061e8e937b264c452aa8b1daaf45b55994f80759f290ef2f8e6cbbc40"
+    }
+  ],
+  "notes": "Les membres State v9 sont recalculés depuis le payload exact de leurs Logical Artifacts historiques. Les build_inputs ne sont pas silencieusement ajoutés aux membres."
+}

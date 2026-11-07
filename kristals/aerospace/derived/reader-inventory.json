@@ -1,0 +1,405 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:aerospace:state",
+  "source_fingerprint": "sha256:2ec689a5a17f463df9b4b031ae5018eee2954b9147ae7b945fa982f34083bd1c",
+  "size_class": "small",
+  "measurement": {
+    "status": "partial",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 10,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 7623608,
+    "tracked_file_count": 34,
+    "max_tracked_file_bytes": 1048272,
+    "materialization_segment_count": 10,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 15,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1317,
+      "sha256": "sha256:d338d1fdb345d72608d3b6a9a35976a0fb076b8d0231f0564a16afc0e6147c8d"
+    },
+    {
+      "path": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1317,
+      "sha256": "sha256:3e889b91a4333dfacf6e66d82d110de105b1d738d3292b855115976682440a71"
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 4634,
+      "sha256": "sha256:7ed5cc6061e8e937b264c452aa8b1daaf45b55994f80759f290ef2f8e6cbbc40"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-aerospace-artifact-canonical-state-7d70788d93.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 849,
+      "sha256": "sha256:c58d417a8d39b54718befbcf4383f7f8838fb2a7d0ddfab9da87651e513310d4"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-aerospace-artifact-identity-registry-091995506b.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 861,
+      "sha256": "sha256:f27ea6df38664d23b1f358385b24c3f9a4b1eaf3557cbe480d7f1a6b79eb511e"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-aerospace-v11-catalog-2026-10-27-358321ac2d.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1988,
+      "sha256": "sha256:e85e2c27d8ebaab8f2618fc4473a83560c70ed07e587100f4d9f5d7d02d473c9"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-aerospace-v11-catalog-fr-proposal-2026-11-06-3bf8b3479f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3443,
+      "sha256": "sha256:243888d5b19e5b91b4ae99fd82221fad413fb5f3cb71ee3d99e43025c85885d3"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-aerospace-v11-crosswalk-2026-10-27-aebb642342.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 58346,
+      "sha256": "sha256:14ea12151e2988927fa6970a88cd028173525bcf1905e16b4f0120840a1e63d8"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-aerospace-v11-graph-2026-10-27-85e09e396e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1037926,
+      "sha256": "sha256:b9fc6cae75597b86800e9382bbc31e05d3c66a01f93a7224b3272f49c46d4c9a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-aerospace-v11-identity-2026-10-27-21612316d7.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 204374,
+      "sha256": "sha256:62445520810f00049be292e1fcd72025f42bfd39b273d9244e08d1c31392a1cc"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Aerospace-catalog-ffd213888a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2564,
+      "sha256": "sha256:ac3796b967cb7972f34f0a8ad8f958a52e49987b6e93ff5c5455e4c263cc2497"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Aerospace-crosswalk-7a32580eb4.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 58364,
+      "sha256": "sha256:0cd64053e258bffc3ccf3a2bdf34d96e48e10401c5336e2fc7b696e6faadafee"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Aerospace-graph-513bae5b37.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1045751,
+      "sha256": "sha256:736d97c22b218aefe5421e2c1bcc30fd608c4d09852c59d43e7c3b93be7788a9"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Aerospace-registry-6d9cff9472.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 209006,
+      "sha256": "sha256:d6bd95120445c8ccefa85f3996df8d71630e34ef00c8b01f58bd5e138376c7a3"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Aerospace-catalog-71d651afef.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3408,
+      "sha256": "sha256:8926cdf547d61504d80568a60b16a4cbf4ab7a1c7913a6a9c9fc0c175e8bba7a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Aerospace-crosswalk-c703f4bcb0.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 58364,
+      "sha256": "sha256:0ffb156713fb4235189d3f8e621ca08b8bd7a8675940f7c5486e3d6576290f42"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Aerospace-graph-872ac2b051.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1048272,
+      "sha256": "sha256:50b754e2481412dfd930dca21c5430dce55ac680015d6a8afeb8355cd0058237"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Aerospace-registry-334bc0cf3e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 210408,
+      "sha256": "sha256:098eaaf9d38203d75468071b9c7a19e636a68e779a415dad4f4457c11689575e"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 6084,
+      "sha256": "sha256:a5f9ef94b34d5add376cca97757531dee3a146d1cb1dee7171c2a5d5c56c1460"
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 355,
+      "sha256": "sha256:eb922285889139f5c996a38f646ff4663453452f4a7d2a098ac78bec1ed0c836"
+    },
+    {
+      "path": "canon/domain/identity_registry.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 373,
+      "sha256": "sha256:8dc8c3db66b6ed7b11eab6e6662254b21b98198708aeec73e54d15f914a4ab4c"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2833,
+      "sha256": "sha256:78b1dabdaa805a5da05f0ac09ff15b79262868b8784f67d9957dd6d64d69023a"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2007,
+      "sha256": "sha256:64ec2939d51254f220b0c572d973161d4ed97c26cd56cfe9400e22e5d9d2c51f"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 54015,
+      "sha256": "sha256:b39ac2554e039f00d4df8cac5b0b485473507f59e8820dccf3e9a8cad88021fe"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 190531,
+      "sha256": "sha256:35872dd85bedbc60ac79535109c6162c54cf9bf6ae46ff96eb3d33ed7b56f68e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 976932,
+      "sha256": "sha256:28d486f5014709a886a9ded619f0ed32d7649aa975425f3914e25d0600f347d6"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2807,
+      "sha256": "sha256:c6f4202c43714fdc87edc1630721de0993362bfb685033c0f07a2ef71ab43038"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 54015,
+      "sha256": "sha256:b39ac2554e039f00d4df8cac5b0b485473507f59e8820dccf3e9a8cad88021fe"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 191813,
+      "sha256": "sha256:507b322694d0423e88cdd43e86d2f5bceb8e28ffde89b60078dda3ad353e1792"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 979277,
+      "sha256": "sha256:5a04050adf606a79ce604b7ad575a0dfaf78f9c3f1685630bb54d6a1b2741286"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1462,
+      "sha256": "sha256:e7acfa1cd10f192b0e53b6d11f3d80715ed6eb76474251565064086638ac658d"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 54000,
+      "sha256": "sha256:c8cf66e0027d5fc3eb0eb2b56f375f6506473fd7c0100dd0aa6fcc6c5a626a75"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 186292,
+      "sha256": "sha256:7add4ab0782f6ccc4698454bf5f605744b5982308af125b007c937599fbe1bc4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 969620,
+      "sha256": "sha256:fd020d05f55f6e651a9bc15263696f22f8366d7c3af272f9d3c9ce516e47fe71"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "segment_key": "knowledge-base/corpus/aerospace.kristal-state.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 557793,
+      "digest_declared": "sha256:db2f3e67e25044e491210f07924bc80cbea46425172d4ac1e92ed69613684e3e",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-blob/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "segment_key": "knowledge-base/corpus/aerospace.referent-registry.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 117106,
+      "digest_declared": "sha256:01a43bd2a31e0bf67f2f07a4f92938e3d30ef5546f9d4ad8623618e8493bd2d4",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-blob/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "external-source-library/source-cards/ecss-space-environment.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 648,
+      "digest_declared": "sha256:f67c36bb4ab1887a6d7d83c9e1cf3ffd69b0f41acf6e3d2c08904e6c9a801420",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "external-source-library/source-cards/ecss-system-engineering.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 686,
+      "digest_declared": "sha256:7a6538cead8f9e9b3c50a3fed7b2d9495c6a6365d022bd71c5276b1d16fc98f7",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "external-source-library/source-cards/faa-phak-25c.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 624,
+      "digest_declared": "sha256:bb465d38b00d256abc12287aeccde1d5357883b5991e639f97dc41de9ee15b57",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "external-source-library/source-cards/nasa-se-handbook.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 580,
+      "digest_declared": "sha256:5cf294fe6a6ec18cb9a8961fd19648a9b1de4b28a2cc2aa37b3514be276cc63b",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "external-source-library/source-cards/nasa-smallspacecraft-soa.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 619,
+      "digest_declared": "sha256:023f45ae1297689cc3d5fed520efb2a09b73ad20118fe782dbbf042b1abe7e54",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "external-source-library/source-cards/nasa-spaceflight-navigation.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 588,
+      "digest_declared": "sha256:6b19333a07fcf84f6f195ba290bbf10002956061f2e74ee21defb3722ed654d2",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "external-source-library/source-cards/nasa-trajectory-design.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 575,
+      "digest_declared": "sha256:c840e597ddb115f6ce54b9ac3556ac88ccc0aa4ddc6883bf14031ac999cebaac",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "knowledge-base/sources/source-catalog.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 5468,
+      "digest_declared": "sha256:40ae17f79105cd4c5d33958a4b276df56295b076456484c5dedcbd8d61737174",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    }
+  ]
+}

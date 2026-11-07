@@ -1,0 +1,538 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Aerospace",
+  "run_id": "497a9eee42580556",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:26:38.052625+00:00",
+  "source_labels": {
+    "project": "Kristal-Aerospace",
+    "namespace_id": "kristal:bulk:kristal-aerospace",
+    "search_labels": 482,
+    "labeled_entities": 241,
+    "labeled_properties": 0,
+    "domain_entities": 241,
+    "domain_properties": 72,
+    "unlabeled": [
+      {
+        "legacy_id": "aero:allocates",
+        "semantic_id": "KP992460006326356572408337"
+      },
+      {
+        "legacy_id": "aero:bounds",
+        "semantic_id": "KP1123559811532286643946024"
+      },
+      {
+        "legacy_id": "aero:can_affect",
+        "semantic_id": "KP973990972118367733523992"
+      },
+      {
+        "legacy_id": "aero:can_be_represented_by",
+        "semantic_id": "KP615134579109349063626943"
+      },
+      {
+        "legacy_id": "aero:can_carry",
+        "semantic_id": "KP1067831270472903025532477"
+      },
+      {
+        "legacy_id": "aero:can_contain",
+        "semantic_id": "KP38022424218542748231305"
+      },
+      {
+        "legacy_id": "aero:can_follow",
+        "semantic_id": "KP122908846048877548587681"
+      },
+      {
+        "legacy_id": "aero:can_have",
+        "semantic_id": "KP225264501616137289756087"
+      },
+      {
+        "legacy_id": "aero:can_include",
+        "semantic_id": "KP622278925854086475394104"
+      },
+      {
+        "legacy_id": "aero:can_precede",
+        "semantic_id": "KP526571289216900587541469"
+      },
+      {
+        "legacy_id": "aero:can_support",
+        "semantic_id": "KP579532229951013385468998"
+      },
+      {
+        "legacy_id": "aero:can_transition_to",
+        "semantic_id": "KP128462177081611833630665"
+      },
+      {
+        "legacy_id": "aero:changes",
+        "semantic_id": "KP506218716479765202799232"
+      },
+      {
+        "legacy_id": "aero:characterizes",
+        "semantic_id": "KP162292436093731660868613"
+      },
+      {
+        "legacy_id": "aero:commands",
+        "semantic_id": "KP921085619822506154319714"
+      },
+      {
+        "legacy_id": "aero:conducts",
+        "semantic_id": "KP1036543886291709636309918"
+      },
+      {
+        "legacy_id": "aero:configures",
+        "semantic_id": "KP101317078464432542219124"
+      },
+      {
+        "legacy_id": "aero:connects",
+        "semantic_id": "KP285162532979104951709712"
+      },
+      {
+        "legacy_id": "aero:connects_through",
+        "semantic_id": "KP243255287676511378170761"
+      },
+      {
+        "legacy_id": "aero:constrains",
+        "semantic_id": "KP711596561837754233702505"
+      },
+      {
+        "legacy_id": "aero:consumes",
+        "semantic_id": "KP190081397099592952598127"
+      },
+      {
+        "legacy_id": "aero:contains",
+        "semantic_id": "KP15445910260590018890021"
+      },
+      {
+        "legacy_id": "aero:contains_component",
+        "semantic_id": "KP365201030939656112157583"
+      },
+      {
+        "legacy_id": "aero:contrasts_with",
+        "semantic_id": "KP736125283079516891158009"
+      },
+      {
+        "legacy_id": "aero:contributes_to",
+        "semantic_id": "KP844136775769593381779456"
+      },
+      {
+        "legacy_id": "aero:corrects_toward",
+        "semantic_id": "KP1024144236307175367628436"
+      },
+      {
+        "legacy_id": "aero:depends_on",
+        "semantic_id": "KP411278227394893960021477"
+      },
+      {
+        "legacy_id": "aero:describes_operation_of",
+        "semantic_id": "KP990787366879726718334840"
+      },
+      {
+        "legacy_id": "aero:encounters",
+        "semantic_id": "KP1031499584419531114541709"
+      },
+      {
+        "legacy_id": "aero:estimates",
+        "semantic_id": "KP23026754946677706467370"
+      },
+      {
+        "legacy_id": "aero:executes_on",
+        "semantic_id": "KP480638130342579358492394"
+      },
+      {
+        "legacy_id": "aero:follows",
+        "semantic_id": "KP547525755190254576077327"
+      },
+      {
+        "legacy_id": "aero:guides",
+        "semantic_id": "KP298179216160135421328923"
+      },
+      {
+        "legacy_id": "aero:has_definition",
+        "semantic_id": "KP369624971020678645957802"
+      },
+      {
+        "legacy_id": "aero:has_objective",
+        "semantic_id": "KP747594081234730037877467"
+      },
+      {
+        "legacy_id": "aero:has_phase",
+        "semantic_id": "KP442271523684061501156690"
+      },
+      {
+        "legacy_id": "aero:has_property",
+        "semantic_id": "KP666150975931692903628185"
+      },
+      {
+        "legacy_id": "aero:has_trajectory_segment",
+        "semantic_id": "KP618453187683907180716792"
+      },
+      {
+        "legacy_id": "aero:includes",
+        "semantic_id": "KP19544154883722395403464"
+      },
+      {
+        "legacy_id": "aero:influences",
+        "semantic_id": "KP752437485312694765113130"
+      },
+      {
+        "legacy_id": "aero:integrates",
+        "semantic_id": "KP618317778494308156661324"
+      },
+      {
+        "legacy_id": "aero:interacts_with",
+        "semantic_id": "KP293246857705311133260974"
+      },
+      {
+        "legacy_id": "aero:interfaces_with",
+        "semantic_id": "KP490149574708350393465512"
+      },
+      {
+        "legacy_id": "aero:is_a",
+        "semantic_id": "KP465767499968965372847270"
+      },
+      {
+        "legacy_id": "aero:is_assessed_by",
+        "semantic_id": "KP275251993915244533180112"
+      },
+      {
+        "legacy_id": "aero:is_characterized_by",
+        "semantic_id": "KP764785509078719533982354"
+      },
+      {
+        "legacy_id": "aero:is_component_of",
+        "semantic_id": "KP994503107195176892185453"
+      },
+      {
+        "legacy_id": "aero:is_example_of",
+        "semantic_id": "KP711491980878036764642165"
+      },
+      {
+        "legacy_id": "aero:is_not_equivalent_to",
+        "semantic_id": "KP732542153161660720140940"
+      },
+      {
+        "legacy_id": "aero:is_off_nominal_case_of",
+        "semantic_id": "KP861711694584444164378187"
+      },
+      {
+        "legacy_id": "aero:is_outside_core_of",
+        "semantic_id": "KP936039410273030368618892"
+      },
+      {
+        "legacy_id": "aero:is_produced_by",
+        "semantic_id": "KP620895642919382767319866"
+      },
+      {
+        "legacy_id": "aero:is_projection_of",
+        "semantic_id": "KP245277534664703847698320"
+      },
+      {
+        "legacy_id": "aero:is_relative_to",
+        "semantic_id": "KP176675718329867103191576"
+      },
+      {
+        "legacy_id": "aero:is_represented_by",
+        "semantic_id": "KP607201721240163846365484"
+      },
+      {
+        "legacy_id": "aero:is_specialization_of",
+        "semantic_id": "KP63027055670827775910534"
+      },
+      {
+        "legacy_id": "aero:mitigates",
+        "semantic_id": "KP223838558205147064461425"
+      },
+      {
+        "legacy_id": "aero:observes",
+        "semantic_id": "KP208780814136424362505705"
+      },
+      {
+        "legacy_id": "aero:occurs_within",
+        "semantic_id": "KP224089065366147766222718"
+      },
+      {
+        "legacy_id": "aero:operates_in",
+        "semantic_id": "KP393306525256879860743990"
+      },
+      {
+        "legacy_id": "aero:orders",
+        "semantic_id": "KP983227951400593699359698"
+      },
+      {
+        "legacy_id": "aero:provides",
+        "semantic_id": "KP1203736597199673396059649"
+      },
+      {
+        "legacy_id": "aero:realizes",
+        "semantic_id": "KP174232756689790659846444"
+      },
+      {
+        "legacy_id": "aero:reduces_error_to",
+        "semantic_id": "KP880441125976913528068040"
+      },
+      {
+        "legacy_id": "aero:reports",
+        "semantic_id": "KP633062305849698197455235"
+      },
+      {
+        "legacy_id": "aero:restricts",
+        "semantic_id": "KP978928349034473913753400"
+      },
+      {
+        "legacy_id": "aero:supports",
+        "semantic_id": "KP150630951732773251648533"
+      },
+      {
+        "legacy_id": "aero:supports_phase",
+        "semantic_id": "KP1158750053137269225820220"
+      },
+      {
+        "legacy_id": "aero:targets",
+        "semantic_id": "KP960509279887348897350885"
+      },
+      {
+        "legacy_id": "aero:uses",
+        "semantic_id": "KP1189573927062036033629735"
+      },
+      {
+        "legacy_id": "aero:uses_resource",
+        "semantic_id": "KP390233519737513064680079"
+      },
+      {
+        "legacy_id": "aero:uses_vehicle",
+        "semantic_id": "KP576339501068581332264234"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "9227967ae3c55aaf671d7757f8ab5e8e1cef24a66c5007c4d362b6a6f2b8d06c",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Aerospace",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "aerospace",
+        "content_version": "1.0.0"
+      },
+      "native_model": {
+        "kind": "mission_system_relational_graph",
+        "description": "Mission → phase → configuration véhicule → environnement → trajectoire → systèmes → opérations",
+        "key_distinction": "le domaine aéronautique et le domaine spatial conservent leurs régimes physiques distincts"
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "types de véhicules et systèmes spatiaux",
+        "missions et engins documentés",
+        "Respecter: Ne pas confondre mission, véhicule, trajectoire et événement."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Mission, véhicule, trajectoire, environnement et opérations forment des plans relationnels interdépendants.",
+        "guardrail": "Séparer aéronautique et spatial; référence et trajectoire réelle; aucune télémesure en temps réel présumée."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.83,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Aerospace\\497a9eee42580556",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "72c25b3915696c8f5f7d1af63b39ebd3fad1425068b74b39374169e0afae0c13",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 482,
+    "distinct_concepts": 241,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "72c25b3915696c8f5f7d1af63b39ebd3fad1425068b74b39374169e0afae0c13",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 482,
+    "distinct_concepts": 241,
+    "cached_queries": 480,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "no_exact_candidate": 78,
+      "ambiguous_exact_candidates": 36,
+      "unique_exact_candidate": 84,
+      "saturated_exact_search": 29,
+      "cross_language_conflict": 12,
+      "same_external_id_multiple_semantic_concepts": 2
+    },
+    "tentative_unverified": 84,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "72c25b3915696c8f5f7d1af63b39ebd3fad1425068b74b39374169e0afae0c13",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 84,
+    "distinct_qids": 84,
+    "qid_inventory_sha256": "bce56c0422a8e5355c3355b1eb90098e6fa88b2f5567a304693868d72ceb8e62",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 84,
+    "qids_acquired": 84,
+    "new_batches": 1,
+    "reused_records": 3,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Aerospace\\497a9eee42580556\\full-evidence\\bce56c0422a8e535",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 84,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 1871,
+    "raw_subject_entities": 84,
+    "related_unapproved_qids": 457,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-aerospace": 1871
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "cf7d6bfbc1e2a85221d24779b046d134b47fa3f19718cf062cdb36d2bb7b05f4",
+  "proposals_sha256": "9deddf04d6c36fb1f659527502df906d7b6fcfd924dd81c5e812cc957ab833f6"
+}

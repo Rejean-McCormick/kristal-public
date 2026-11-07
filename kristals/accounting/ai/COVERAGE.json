@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:accounting:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:5453336ee188d670da638c0afd1c86a6e7ea7b36df75fe58322bcfacfa4f2a3a"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:accounting",
+    "label": "Kristal-Accounting",
+    "domain": "accounting",
+    "orientation": "Événement économique → reconnaissance/mesure → écriture → compte/livre → période → état financier"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Le modèle sémantique local du domaine Accounting tel que défini par les sources/README historiques.",
+      "Les identités et assertions de référence structurées du domaine, avec cette distinction: événement économique, pièce justificative, écriture, compte, période et preuve demeurent distincts.",
+      "Les membres canoniques et les preuves engagées par le State Commitment v9 préexistant."
+    ],
+    "does_not_own": [
+      "Les dépôts sources externes, leurs mainteneurs et leur calendrier de publication.",
+      "Les caches, index de lecture, projections générées, état runtime, publication ou activation.",
+      "La réécriture automatique des hypothèses, contradictions ou frontières de sources."
+    ]
+  },
+  "canonical_artifact_count": 2,
+  "source_count": 10,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 3,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 8,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

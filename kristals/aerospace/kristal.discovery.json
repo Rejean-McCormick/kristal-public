@@ -1,0 +1,58 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:aerospace:state",
+  "classification": {
+    "primary_archetype": "ARK-09",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "6.50",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt6.50",
+          "label_en": "Manufacturing and transport engineering",
+          "domain": "6"
+        },
+        {
+          "code": "2.30",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.30",
+          "label_en": "Space sciences",
+          "domain": "2"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "mission_system_relational_graph",
+    "organization": "unknown",
+    "materialization_profiles": [
+      "kristal.materialization/native-blob/1",
+      "kristal.materialization/native-json-bundle/1"
+    ],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 7623608,
+    "completeness": "partial"
+  },
+  "source_fingerprint": "sha256:2ec689a5a17f463df9b4b031ae5018eee2954b9147ae7b945fa982f34083bd1c",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

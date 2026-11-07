@@ -1,0 +1,64 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Zoology:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-20261026-rebuilt-v2",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "019bc70dc5bf43b6385f9deb075deb1ab9d94b936760052127620ade970d0098"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-fr",
+          "path": "wikidata-fr.jsonl",
+          "priority": 100,
+          "sha256": "6ef6d660fb44cb5cf8b913cd9ecb7d6ba408da0ecced8a38c5852dcb033d19e1",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "b0cd73e916e3f752dc057521679686cd17d724af0a7bb38820b94b7b3982a53d"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-und",
+          "path": "wikidata-und.jsonl",
+          "priority": 100,
+          "sha256": "f6ef1615c4133bc9175e054b367c26e4bb455baf3b97f87d017402adf9860435",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "und"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-en",
+          "path": "wikidata-en.jsonl",
+          "priority": 100,
+          "sha256": "e42718b9878fce4cb38f156e16c1e8fc2d180ce1d4ad1c6a355ffb9d21438239",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "en"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-zoology",
+  "schema_version": "11.0"
+}
