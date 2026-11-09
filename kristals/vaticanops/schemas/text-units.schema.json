@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vaticanops:schema:text-units",
+  "type": "object",
+  "required": [
+    "format",
+    "units"
+  ],
+  "properties": {
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_id",
+          "locator",
+          "local_path",
+          "text_sha256",
+          "source_file_sha256"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "format": "recipes.technique-ontology.v2",
+  "version": "2.0.0",
+  "status": "model_seed_non_authoritative",
+  "techniques": [
+    {
+      "technique_id": "urn:kristal:recipes:technique:mix",
+      "label": "Mélanger",
+      "transformation_class": "mechanical_combination",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:mechanical_combination"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:knead",
+      "label": "Pétrir",
+      "transformation_class": "mechanical_structure_development",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:structure_development"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:ferment",
+      "label": "Fermenter",
+      "transformation_class": "biological_transformation",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:fermentation",
+        "urn:kristal:recipes:mechanism:gas_generation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:rest",
+      "label": "Reposer",
+      "transformation_class": "time_conditioning",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:hydration",
+        "urn:kristal:recipes:mechanism:relaxation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:bake",
+      "label": "Cuire au four",
+      "transformation_class": "thermal_transformation",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:protein_denaturation",
+        "urn:kristal:recipes:mechanism:starch_gelatinization",
+        "urn:kristal:recipes:mechanism:evaporation",
+        "urn:kristal:recipes:mechanism:maillard_browning"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:sear",
+      "label": "Saisir",
+      "transformation_class": "high_heat_surface_transformation",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:maillard_browning",
+        "urn:kristal:recipes:mechanism:evaporation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:braise",
+      "label": "Braiser",
+      "transformation_class": "combined_dry_moist_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:protein_denaturation",
+        "urn:kristal:recipes:mechanism:collagen_conversion",
+        "urn:kristal:recipes:mechanism:extraction"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:whisk",
+      "label": "Fouetter",
+      "transformation_class": "mechanical_aeration",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:aeration",
+        "urn:kristal:recipes:mechanism:mechanical_combination"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:pan_fry",
+      "label": "Cuire à la poêle",
+      "transformation_class": "contact_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:protein_denaturation",
+        "urn:kristal:recipes:mechanism:starch_gelatinization",
+        "urn:kristal:recipes:mechanism:maillard_browning"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:emulsify",
+      "label": "Émulsionner",
+      "transformation_class": "dispersion",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:emulsification"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:fold",
+      "label": "Incorporer délicatement",
+      "transformation_class": "gentle_combination",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:mechanical_combination"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:chop",
+      "label": "Hacher",
+      "transformation_class": "size_reduction",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:size_reduction"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:slice",
+      "label": "Trancher",
+      "transformation_class": "size_reduction",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:size_reduction"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:dice",
+      "label": "Couper en dés",
+      "transformation_class": "size_reduction",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:size_reduction"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:simmer",
+      "label": "Mijoter",
+      "transformation_class": "moist_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:protein_denaturation",
+        "urn:kristal:recipes:mechanism:starch_gelatinization",
+        "urn:kristal:recipes:mechanism:extraction",
+        "urn:kristal:recipes:mechanism:evaporation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:boil",
+      "label": "Bouillir",
+      "transformation_class": "moist_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:protein_denaturation",
+        "urn:kristal:recipes:mechanism:starch_gelatinization",
+        "urn:kristal:recipes:mechanism:evaporation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:steam",
+      "label": "Cuire à la vapeur",
+      "transformation_class": "steam_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:protein_denaturation",
+        "urn:kristal:recipes:mechanism:starch_gelatinization"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:roast",
+      "label": "Rôtir",
+      "transformation_class": "dry_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:maillard_browning",
+        "urn:kristal:recipes:mechanism:evaporation",
+        "urn:kristal:recipes:mechanism:protein_denaturation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:deep_fry",
+      "label": "Frire",
+      "transformation_class": "immersed_fat_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:maillard_browning",
+        "urn:kristal:recipes:mechanism:evaporation",
+        "urn:kristal:recipes:mechanism:starch_gelatinization"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:poach",
+      "label": "Pocher",
+      "transformation_class": "gentle_moist_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:protein_denaturation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:blend",
+      "label": "Mixer",
+      "transformation_class": "high_shear_mixing",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:size_reduction",
+        "urn:kristal:recipes:mechanism:dispersion"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:puree",
+      "label": "Réduire en purée",
+      "transformation_class": "mechanical_disintegration",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:size_reduction",
+        "urn:kristal:recipes:mechanism:dispersion"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:reduce",
+      "label": "Réduire",
+      "transformation_class": "concentration",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:evaporation",
+        "urn:kristal:recipes:mechanism:concentration"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:caramelize",
+      "label": "Caraméliser",
+      "transformation_class": "thermal_browning",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:caramelization"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:toast",
+      "label": "Griller / toaster",
+      "transformation_class": "dry_surface_heat",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:maillard_browning",
+        "urn:kristal:recipes:mechanism:evaporation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:cool",
+      "label": "Refroidir",
+      "transformation_class": "temperature_change",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:cooling"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:chill",
+      "label": "Réfrigérer",
+      "transformation_class": "temperature_change",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:cooling"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:freeze",
+      "label": "Congeler",
+      "transformation_class": "phase_change",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:freezing"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:strain",
+      "label": "Filtrer / passer",
+      "transformation_class": "separation",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:separation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:grate",
+      "label": "Râper",
+      "transformation_class": "size_reduction",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:size_reduction"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:whip",
+      "label": "Monter / fouetter",
+      "transformation_class": "mechanical_aeration",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:aeration"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:dissolve",
+      "label": "Dissoudre",
+      "transformation_class": "solution_formation",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:dissolution"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:gel",
+      "label": "Gélifier",
+      "transformation_class": "structure_setting",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:gelation"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    },
+    {
+      "technique_id": "urn:kristal:recipes:technique:coat",
+      "label": "Enrober",
+      "transformation_class": "surface_application",
+      "mechanism_refs": [
+        "urn:kristal:recipes:mechanism:coating"
+      ],
+      "input_state_classes": [
+        "contextual"
+      ],
+      "output_state_classes": [
+        "contextual"
+      ]
+    }
+  ]
+}

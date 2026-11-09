@@ -1,0 +1,201 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:internet:materialization:resource-basis",
+  "source": {
+    "artifact_id": "urn:kristal:internet:resource-basis",
+    "logical_contract": {
+      "id": "kristal.repository-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:1abcd7bbbb642bcacde2beb66254c09a84964ea72bbf90cd2c7a9ba8a71f5b97"
+    },
+    "authority_ref": "urn:kristal:authority:internet"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 12
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:internet:resource:semantic_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:c94115cd56c954aad5dfebc52aaf832f518480e942ea445ae2ecbeee6933ec03",
+        "size": 2408,
+        "locator": "knowledge-base/sources/semantic_model.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:semantic_model",
+        "role": "semantic_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:identifier_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:8c8decdd62829e3b1af2bb315a168f6c5097593e8b551f804060b0605b473039",
+        "size": 2425,
+        "locator": "knowledge-base/sources/identifiers.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:identifier_model",
+        "role": "identifier_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:layer_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:0c8ceba626e455015bbb0e4e75c0b9c10ef69fee1329c97c1ef6d8aff14162cb",
+        "size": 1422,
+        "locator": "knowledge-base/sources/layers.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:layer_model",
+        "role": "layer_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:addressing_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:cab24ca646d1cb34a5e1fbf0f5dfbc265b13d866006e317eda8c9adde54075e4",
+        "size": 6685,
+        "locator": "knowledge-base/sources/addressing.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:addressing_model",
+        "role": "addressing_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:protocol_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:3fe6b5b599a8979fdccf1528fae88d18861b1ea4ad1d3b2e067bfd1776fab447",
+        "size": 9153,
+        "locator": "knowledge-base/sources/protocols.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:protocol_model",
+        "role": "protocol_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:service_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:718277a8383aefcd4d0dcf48c342180b8e2fa2f4c8275b5bada19b8549073cba",
+        "size": 6423,
+        "locator": "knowledge-base/sources/services.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:service_model",
+        "role": "service_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:routing_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:330462ca8c7dc76e5f854981e1ded509dc1787a1f70bca9f6bf75f82e7b56487",
+        "size": 8502,
+        "locator": "knowledge-base/sources/routing.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:routing_model",
+        "role": "routing_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:security_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:87ba505fdb3cdb253610fe4f40571813488fd0c16eba8dbb2fe3d7cb58392f53",
+        "size": 2012,
+        "locator": "knowledge-base/sources/security.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:security_model",
+        "role": "security_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:failure_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:9259e2b0c45bf4f423427aba7947aef880c4a6f4ca9524521ef4ea9205731bf3",
+        "size": 3373,
+        "locator": "knowledge-base/sources/failures.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:failure_model",
+        "role": "failure_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:relation_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5af785236375cc8d1d0faaae30ce2bd695a79ad754e43a54ef627836743263db",
+        "size": 85984,
+        "locator": "knowledge-base/sources/relations.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:relation_model",
+        "role": "relation_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:semantic_invariants",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:e530ec2b5d24b7c26d207325be97be1b812a06524ba67a3c7b3430882b0b0370",
+        "size": 806,
+        "locator": "knowledge-base/sources/invariants.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:semantic_invariants",
+        "role": "semantic_invariants"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:internet:resource:source_catalog",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:8bbf2292da0358f64a100bdedf801eca1e56bbc6491f28a71f28b9c9b64d110d",
+        "size": 13495,
+        "locator": "knowledge-base/sources/source_catalog.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:internet:resource:source_catalog",
+        "role": "source_catalog"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:internet:resource:semantic_model",
+      "urn:kristal:internet:resource:identifier_model",
+      "urn:kristal:internet:resource:layer_model",
+      "urn:kristal:internet:resource:addressing_model",
+      "urn:kristal:internet:resource:protocol_model",
+      "urn:kristal:internet:resource:service_model",
+      "urn:kristal:internet:resource:routing_model",
+      "urn:kristal:internet:resource:security_model",
+      "urn:kristal:internet:resource:failure_model",
+      "urn:kristal:internet:resource:relation_model",
+      "urn:kristal:internet:resource:semantic_invariants",
+      "urn:kristal:internet:resource:source_catalog"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.repository-resource-set/jcs-v1"
+  }
+}

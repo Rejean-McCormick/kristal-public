@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:civilengineering",
+  "source_fingerprint": "sha256:fbecaf2f6ca39e4932dda53e652638d97862375576e8ee82b7d029c635ec9d9b",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 769668,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 399952,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-civilengineering-artifact-canonical-9a3306b37f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 399952,
+      "sha256": "sha256:462a733c359364dde3af0c796d21dfe96d6183d0a24c820cb0d05a230e721dec"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1036,
+      "sha256": "sha256:b077bfcbcbf983575b6f202677a9adc20b9d53ebb0559b1d5c5ae51cc5a631e9"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 368680,
+      "sha256": "sha256:613ae53d9a65cf2796f755ef711a6d26d96b2ea284401a2affb9b8ce5e8f25a6"
+    }
+  ],
+  "segments": []
+}

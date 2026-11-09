@@ -1,0 +1,183 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "forensics",
+  "title": "Forensics",
+  "target_root": "kristals/forensics",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:forensics",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:2d5d2d582e8b80fcb401058bd88652c708400c74b6c885b4544ac837810ea6da"
+  },
+  "surface_digest": "sha256:926448c69e608911dd3b7f5189c17843a1cf89a77edb1da2ab9abfcdd2efd744",
+  "file_count": 26,
+  "total_bytes": 49573,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 2102,
+      "sha256": "sha256:a4a6e026cc531c5a059097eda1578d53d84c1f546d478c95d16919892d1cc946"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1925,
+      "sha256": "sha256:6c2425c38f401ebd3889218238cb1496dd00f9206a4cc93f5bccee96b2e2af9d"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 3305,
+      "sha256": "sha256:1cc3465fca8a6b4b5423a4eb26b98f9558c7f542c7e9be5cc3f6ba075f3c9c33"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 5059,
+      "sha256": "sha256:2ba4497199676e88054811d746034e72afd031841018370b85df00f17a2b0ca1"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1501,
+      "sha256": "sha256:46c7bed8de4ac3d17a4199fbe29c79912678b0f540e556106415f7a08e34a6b6"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 3839,
+      "sha256": "sha256:31682b1b8e25cc91158fe3c786cdd875ea78001059d18cc006550bf3841399d9"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 581,
+      "sha256": "sha256:1f455119f4e9309f05d95f02d4533e6ee84178a19d5394a324e9ff9b5e87359e"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 751,
+      "sha256": "sha256:7187874d5226156adbf1dfd8f81d2fe4395ad84188c33c32759f025d370e7481"
+    },
+    {
+      "path": "canon/domain/forensics.logical-payload.json",
+      "role": "canonical_content",
+      "size": 288,
+      "sha256": "sha256:f1fbf00ba542df5df456da35aa955271b3316493858b77201b30dcb795c730b1"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1124,
+      "sha256": "sha256:495e02f552b6e07286389ee30bb6611cf1c8c293bd0d0b8bf510d13dcdbdecdc"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1846,
+      "sha256": "sha256:e505c37cd4f06c006ee3690a270451d8b04e0cfbd3773dd34fcae24441272994"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2658,
+      "sha256": "sha256:b809b84c44d08561b1cf50fab34da64e9a2ba23ff68017ed3a68dddde24c10d4"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 576,
+      "sha256": "sha256:55f491e652eb86b120930ba74981210fec0c4480c7edf9f91f6c8dde235e4dda"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 657,
+      "sha256": "sha256:e52bb754e47df3e3977046673a15f784c42a4c5e44a4589f16c89723edc243d2"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 888,
+      "sha256": "sha256:cb6b76e306e9b7cadfaf57d627a15b3640e9b3ce0b1930edc5b9e5c66a98c338"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 816,
+      "sha256": "sha256:41ab46d4df7bc67d6b07113ccf1000b5f2a1c1915a6306471d26ba0d7eef998d"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 920,
+      "sha256": "sha256:19922084cc44ad2eab97797b1aedbf171a7d48ea9ed91880eeb24abcbc22bb0d"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 548,
+      "sha256": "sha256:8ffc87bc5e01a0826f06a09cb5f899f9eb18dea505bafa54c88fa5ee3608f7d0"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 731,
+      "sha256": "sha256:529047c9b1d7d1763288df27552aec93477c1fd54c1c6cba7f0fc0f7ab3374b9"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 520,
+      "sha256": "sha256:fabef2b7b70b8d119165701d733d2792659573a54289341a08344f755ca72da1"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 3958,
+      "sha256": "sha256:fb8690fc3c7286785d074817ab312082314e677a4a56a03a6418d99d70944cfc"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1930,
+      "sha256": "sha256:7f76c7354be9514f41c61f016a4deb2d121aaf3e7535d652f58420a47b3e1e2d"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 9364,
+      "sha256": "sha256:b7e1e1dfa1d515487a05140d11b94f46bdb45462a23cc53c93944894bef6b47f"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 903,
+      "sha256": "sha256:324dd3b63a1d98058b7de0dc0565fa1dc995d596274c4b45b4040b7f8184dc3f"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

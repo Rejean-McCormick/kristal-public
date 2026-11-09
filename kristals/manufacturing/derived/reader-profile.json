@@ -1,0 +1,68 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:state:manufacturing",
+  "source_fingerprint": "sha256:00d693d2e66058b5ce4a74041b2bb48ac5edac5af46bc9772873a4d8af5ac782",
+  "specialization": "kristal.reader/generic-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "generic",
+  "materialization_profiles": [],
+  "artifact_strategies": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-manufacturing-artifact-canonical-knowledge-dabd3e465d.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 928297,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:bb6c4d5a07a3e3dd52af68919fd8d8298955bb72e35c134e833c03ac20ea8891",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 905,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:849f8d0dca9ac946e9c1eac7fbdb105273495c0aff4cc15f976523523ed89494",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/legacy-v6-logical-payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 866699,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:ffec8e47b63abaeeffd235f638ecad15bf73b91ae93313c0a9205c980b0befb6",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

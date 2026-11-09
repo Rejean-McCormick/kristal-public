@@ -1,0 +1,45 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:education-quebec",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:76020a229f3db812d3b10c3f51ebc56818281966bd0dd93c562003e0541a71b9"
+  },
+  "subject": {
+    "id": "education-quebec",
+    "label": "Parcours scolaire et sémantique éducative du Québec",
+    "jurisdiction": "Québec",
+    "domain": "education-quebec"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "assertions éducatives structurées et leur provenance",
+      "statut, certitude, typage et temporalité des connaissances du domaine",
+      "résolution logique authority → document → edition → representation",
+      "modèle des secteurs, ordres, cycles, années, parcours, sanctions et disciplines",
+      "règles atomiques, transitions conditionnelles, curriculum et sémantiques d’admission documentées",
+      "politique d’admission des sources et couverture du corpus"
+    ],
+    "does_not_own": [
+      "octets PDF/HTML, captures locales et métadonnées HTTP du Source Store",
+      "décisions réelles d’admission, de classement, de sanction ou d’équivalence des institutions",
+      "décisions pédagogiques ou administratives individuelles",
+      "conditions détaillées propres aux programmes universitaires institutionnels",
+      "vérité institutionnelle au-delà de la couverture explicitement représentée dans le Kristal"
+    ]
+  },
+  "canonical_artifact_count": 4,
+  "source_count": 122,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 4,
+  "local_materialization_blob_count": 48,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

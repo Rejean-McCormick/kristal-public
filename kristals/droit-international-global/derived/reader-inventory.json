@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:droit-international-global",
+  "source_fingerprint": "sha256:149c20d32b14b577a05eb433688a8de1a5d73d5c2e7daf77c1e1564cd0aa4cbf",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 298581,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 154093,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-droit-international-global-canonical-state-6a16c2c011.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 154093,
+      "sha256": "sha256:7f2911ded6a6543fa25d715f3afee744f9eeaf099c1c1675e2b1efe9d09c1d45"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1001,
+      "sha256": "sha256:ddc9b3e370e2692dc92b2e77cfe953a72dfa92eca2e804b23eef62b18fb5938a"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 143487,
+      "sha256": "sha256:2a5223cdcea9b5cccdef4427ed9743d10d1532888cf94c2aaad897071e6df333"
+    }
+  ],
+  "segments": []
+}

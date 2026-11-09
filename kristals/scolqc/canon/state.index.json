@@ -1,0 +1,160 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:education-quebec:authoring-basis",
+      "path": "canon/artifacts/authoring-basis.logical-artifact.json",
+      "logical_contract": {
+        "id": "education-quebec.authoring-resource-set",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "precomputed",
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:83242aff177c9b5a5e752f112854b1857ac0caa3851abd934b769d99f67faf6e"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec",
+      "scope": {
+        "domain": "education-quebec",
+        "edition": "1.4.0"
+      },
+      "extensions": {
+        "normalization": "promoted-byte-identical-from-legacy-v9-wrapper",
+        "legacy_path": ".kristal/v9/artifacts/authoring-basis.logical-artifact.json"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:education-quebec:contract-basis",
+      "path": "canon/artifacts/contract-basis.logical-artifact.json",
+      "logical_contract": {
+        "id": "education-quebec.contract-resource-set",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "precomputed",
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c10ed8324852bedd984fc669380e168ac0e74723c1bf20c4150ce7c5605c7287"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec",
+      "scope": {
+        "domain": "education-quebec",
+        "edition": "1.4.0"
+      },
+      "extensions": {
+        "normalization": "promoted-byte-identical-from-legacy-v9-wrapper",
+        "legacy_path": ".kristal/v9/artifacts/contract-basis.logical-artifact.json"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:education-quebec:canonical-epistemic-state",
+      "path": "canon/artifacts/canonical-state.logical-artifact.json",
+      "logical_contract": {
+        "id": "education-quebec.canonical-epistemic-state-resource",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "precomputed",
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bc3d992056b6659add6ec7af72f87aa882a1b3729e1b7f700cb6f943e51bb6e1"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec",
+      "scope": {
+        "domain": "education-quebec",
+        "edition": "1.4.0"
+      },
+      "extensions": {
+        "normalization": "promoted-byte-identical-from-legacy-v9-wrapper",
+        "legacy_path": ".kristal/v9/artifacts/canonical-state.logical-artifact.json"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:education-quebec:semantic-state",
+      "path": "canon/artifacts/domain-state.logical-artifact.json",
+      "logical_contract": {
+        "id": "education-quebec.semantic-state",
+        "version": "9.0"
+      },
+      "commitment": {
+        "mode": "precomputed",
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a194704f43e3005f6cc2b57244a12c023ce3bb93631f6c01d1d5bc39b1829609"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec",
+      "scope": {
+        "domain": "education-quebec",
+        "edition": "1.4.0",
+        "jurisdiction": "Québec"
+      },
+      "dependencies": [
+        {
+          "artifact_id": "urn:kristal:education-quebec:authoring-basis",
+          "logical_contract": {
+            "id": "education-quebec.authoring-resource-set",
+            "version": "1.0"
+          },
+          "logical_commitment": {
+            "profile": "kristal.logical/jcs-sha256-v1",
+            "digest": "sha256:83242aff177c9b5a5e752f112854b1857ac0caa3851abd934b769d99f67faf6e"
+          },
+          "authority_ref": "urn:kristal:authority:education-quebec"
+        },
+        {
+          "artifact_id": "urn:kristal:education-quebec:contract-basis",
+          "logical_contract": {
+            "id": "education-quebec.contract-resource-set",
+            "version": "1.0"
+          },
+          "logical_commitment": {
+            "profile": "kristal.logical/jcs-sha256-v1",
+            "digest": "sha256:c10ed8324852bedd984fc669380e168ac0e74723c1bf20c4150ce7c5605c7287"
+          },
+          "authority_ref": "urn:kristal:authority:education-quebec"
+        },
+        {
+          "artifact_id": "urn:kristal:education-quebec:canonical-epistemic-state",
+          "logical_contract": {
+            "id": "education-quebec.canonical-epistemic-state-resource",
+            "version": "1.0"
+          },
+          "logical_commitment": {
+            "profile": "kristal.logical/jcs-sha256-v1",
+            "digest": "sha256:bc3d992056b6659add6ec7af72f87aa882a1b3729e1b7f700cb6f943e51bb6e1"
+          },
+          "authority_ref": "urn:kristal:authority:education-quebec"
+        }
+      ],
+      "extensions": {
+        "normalization": "promoted-byte-identical-from-legacy-v9-wrapper",
+        "legacy_path": ".kristal/v9/artifacts/domain-state.logical-artifact.json"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": ".kristal/v8",
+      "role": "legacy portable/query projection; rebuildable"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "legacy v9 compatibility/build/materialization layer; retained for provenance"
+    },
+    {
+      "path": "external-source-library",
+      "role": "external Source Store operational state; bytes/snapshots are outside Kristal semantic ownership"
+    },
+    {
+      "path": "source-manager",
+      "role": "operational acquisition/resolution tooling"
+    },
+    {
+      "path": "knowledge-base/corpus/index.json",
+      "role": "derived corpus index"
+    },
+    {
+      "path": "knowledge-base/manifest.sha256.json",
+      "role": "physical integrity manifest"
+    }
+  ],
+  "notes": "3.2.2 normalization preserves the four v9 Logical Artifact commitments and the education-quebec State identity. Underlying domain authoring resources remain at their historical stable paths and are pinned by the promoted Logical Artifacts."
+}

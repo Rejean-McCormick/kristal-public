@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vaticanops:schema:conditions",
+  "type": "object",
+  "required": [
+    "format",
+    "guards"
+  ],
+  "properties": {
+    "guards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "procedure_id",
+          "from",
+          "to",
+          "type",
+          "default",
+          "normative_authority"
+        ]
+      }
+    }
+  }
+}

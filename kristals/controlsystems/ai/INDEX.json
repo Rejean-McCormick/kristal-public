@@ -1,0 +1,119 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:controlsystems",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:bbed949bcdefddcf6b9ceba55a2d6588ed3015fe9d9078c5614bee2a4d9287f7"
+  },
+  "files": [
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 374737,
+      "sha256": "sha256:3de772bde9e44937184cbb9c21c4fc7f6904a56f9a7b92d48e1c1905ac2baa5a",
+      "artifact_id": "urn:kristal:controlsystems:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 1345,
+      "sha256": "sha256:9b6afe38486a7cc5180115bc23332bded6d4daa311b6fec067c0a83cdfc35807"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 857,
+      "sha256": "sha256:cb37e0c4f37857516d3708f22f0bbf89169a7f9c974fc33d85e682298b79a0af"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1102,
+      "sha256": "sha256:722be1349ad0545914d5fb65ada2236e669599958371552f6de40926948f66f6"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1063,
+      "sha256": "sha256:51086a42fdd1d3b74c58098a5f7cabc8c90a57f3f1c1af0c85b01614210bd8b0"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 907,
+      "sha256": "sha256:8d86118e4660dbc2f1da7739669d942b2f30aacf527b778757ab0b17205d9c0e"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1362,
+      "sha256": "sha256:55b94383d374df6624d818809beda71e88eecef8396d4909a3a0e19df233d1c8"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 798,
+      "sha256": "sha256:1c773f15e8d3a86016185fef54668d784e0f2de9a3427ec54b0e47aae6c1e8a5"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 853,
+      "sha256": "sha256:20401bbf0e133085af05d262928b97b73dec499e0b359ad5b841d3384df091eb"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 650,
+      "sha256": "sha256:40092ec58be4cf0686eb9ffe657dcb08ca96a6a63ef6d8786625247b4232c29e"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 4066,
+      "sha256": "sha256:76232563577a7cede80929e9c0bbb187ebdfe9286494bf4b7cc4a8ba3dfff4f0"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 849,
+      "sha256": "sha256:dcba648578eaa7d0952eb39c576f7654605828074e799def853e26d6c7bdb2d2"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 3630,
+      "sha256": "sha256:2552f474edd1b92b923071a2ff673ceddea09903bfd3c79651c434c98892e9a6"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 1019,
+      "sha256": "sha256:deffdf36ab809930b2cfff573c59fd184176573964104090d14d9b422c0dbcbe",
+      "state_ref": "urn:kristal:state:controlsystems",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:bbed949bcdefddcf6b9ceba55a2d6588ed3015fe9d9078c5614bee2a4d9287f7"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

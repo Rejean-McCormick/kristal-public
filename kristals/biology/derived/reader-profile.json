@@ -1,0 +1,260 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:state:biology",
+  "source_fingerprint": "sha256:2afbca054444a180823c4991356d8c6257f0b46556d446b09da81ce7b178bfab",
+  "specialization": "kristal.reader/generic-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "generic",
+  "materialization_profiles": [],
+  "artifact_strategies": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-biology-artifact-canonical-7def329b1c.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 166257,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:9a11ed6c7b34fac9a0289fbb17e9ceea3ce33dd343c09e4b881f5067f4f0bfa2",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-biology-v11-catalog-2026-10-27-939ce5aafb.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1358,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:0ddab4db3fdc8762b0df7df86fd4f24522d0c306a40840eeeb8f201584bd8d86",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-biology-v11-crosswalk-2026-10-27-089aa20c3b.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 13547,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:9619d82ebdd2f8227941a177380d6e66cb07645ed96ddbce03b9e8566bf7edab",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-biology-v11-graph-2026-10-27-33a55b8edc.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 361207,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:19d375867de45bedcd465775f3930fe1ab63ea1bb4473920e09425d5605eb9dc",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-biology-v11-identity-2026-10-27-aefc9c0dd4.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 54068,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:fe5c2d5fcc9e557970b05dc32f9d75004b66703721f75816e8472f80e74b1ea6",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Biology-catalog-e49a54fa88.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1928,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:a406af78bb132518d3c5aafbf6d14bc4aff4d754a9276f7ad1fbb60ec0f7800d",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Biology-crosswalk-4e0cea8bc4.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 13559,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:3c56dbd8d02173db76dbea0ae40e0f3fda96c14553beacefaa43e9e551f7fa4c",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Biology-graph-df816bbfd5.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 363463,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d3f87484414405e9b638c4e4981b835f6c4b5ff3b6a5189fe92df674b16b4ca5",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Biology-registry-25ef10ceec.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 55617,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:6ee08a44b45c338d87688eafd4f16bf0488a2b562924a0107712ae592e7cd2be",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3997,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:b967023d5b4c6d7d97c24e7fbf5e47244184bbbdc5e843564845493917d3c15b",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 153648,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:6de5d4d75ad2d6493cdd17f074f8f24997d73f041f525ac47fb413e66d9f584e",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1415,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:3a6da80b96aeef4f32b46eb118070d90f0452bb2af0e26d39aa20960f03731f9",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 12242,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:b56268dc944c3e45fd325c960fdb9bec0617d89adaf780482d3003d83877592b",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 50424,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:1d043f25fcf1996915e665805494dce8652036598e2c25af8d86db2c652d6827",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 337640,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:5f5e34d23229603f24ba15aeae721d6361a98cb26a6af9636d61f2048b264553",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 870,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:5f1ac707d00f077638c4f305a1ca29199f074695e6bfc82fdd8f94342ce72a6b",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 12227,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:9581e9c7f58e829b7964775a49a8b712b4e0d60b8796c405b633c5f66f2202f1",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 49002,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:8ae23c41732234b8327b8cd2e655c391d9bec585d83236123fa78815dc0c0386",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 335527,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:8f88a4b19b3c8f110bf8aae89215298887fe0e4b782aa883c63dde575c05e38b",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "domain": "historytech",
+  "domain_version": "0.10.2",
+  "native_shape": "technology-manifestation-occurrence-sociotechnical-lineage-graph",
+  "basis": {
+    "artifact_id": "urn:kristal:historytech:resource-basis",
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:6b2b5eb13f77f658f7cf6702027f6e205652c530b1fe2f13096979f7c2bed969"
+    }
+  },
+  "canonical_roles": [
+    "structured_epistemic_state",
+    "source_authority_registry",
+    "editorial_semantic_policy"
+  ],
+  "compatibility": {
+    "inherited_content_preserved": true,
+    "v6_v5_payloads_unchanged": true,
+    "v8_read_models_preserved_as_derived": true
+  },
+  "semantic_boundaries": [
+    "technology != manifestation != occurrence",
+    "certainty_level != sociotechnical_state",
+    "earliest_known_attestation is derived",
+    "source_authority != automatic_validation"
+  ]
+}

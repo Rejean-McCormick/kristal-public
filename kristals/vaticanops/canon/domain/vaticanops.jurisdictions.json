@@ -1,0 +1,55 @@
+{
+  "format": "vaticanops.jurisdiction-matrix/1.0",
+  "non_executable": true,
+  "scopes": [
+    {
+      "id": "HolySee",
+      "label_fr": "Saint-Siège",
+      "notes": "Entité souveraine du droit international; ne pas fusionner avec État ni Curie."
+    },
+    {
+      "id": "VaticanState",
+      "label_fr": "État de la Cité du Vatican",
+      "notes": "Ordre juridique étatique distinct de la Curie romaine; loi fondamentale 2026."
+    },
+    {
+      "id": "LatinChurch",
+      "label_fr": "Église latine",
+      "notes": "Droit canonique latin; code et modifications historiques."
+    },
+    {
+      "id": "EasternChurches",
+      "label_fr": "Églises catholiques orientales",
+      "notes": "CCEO et droits particuliers; à documenter séparément."
+    },
+    {
+      "id": "RomanCuria",
+      "label_fr": "Curie romaine",
+      "notes": "Dicastères, personnel, organes; règlements généraux et particuliers."
+    }
+  ],
+  "adjudication": "manual_specialist_review_only",
+  "default_effective_norm": "unknown",
+  "link_rules": [
+    {
+      "scope": "VaticanState",
+      "catalog_id": "VO-N009",
+      "type": "foundational_reference_not_automatic_determination"
+    },
+    {
+      "scope": "RomanCuria",
+      "catalog_id": "VO-N001",
+      "type": "personnel_rules_reference"
+    },
+    {
+      "scope": "EasternChurches",
+      "catalog_id": "VO-N007",
+      "type": "code_index_reference"
+    },
+    {
+      "scope": "LatinChurch",
+      "catalog_id": "VO-N005",
+      "type": "amendments_collection_reference"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:bible:state",
+  "classification": {
+    "primary_archetype": "ARK-12",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "3.20",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt3.20",
+          "label_en": "Religion",
+          "domain": "3"
+        },
+        {
+          "code": "3.40",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt3.40",
+          "label_en": "Literature",
+          "domain": "3"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-08"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "polyphonic_multiplex_epistemic_graph",
+    "organization": "unknown",
+    "materialization_profiles": [
+      "kristal.materialization/native-blob/1",
+      "kristal.materialization/native-json-bundle/1"
+    ],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/comparative-collection-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 36849438,
+    "completeness": "partial"
+  },
+  "source_fingerprint": "sha256:4391cbf26e4aecfdbf97f065a98e7636740edafbca520ebbd00c64dc5b7ff226",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

@@ -1,0 +1,702 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:geology",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:c6182de3ca806c4086ce055fed58b5ac29d9c40761eeebebcc505a73ac4e3d28"
+  },
+  "files": [
+    {
+      "path": "canon/domain/geology.logical-payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 288,
+      "sha256": "sha256:71be38c258f3c4b65f52bcd949c228888ce32b7fe225d3dc84071ee2dd82c152",
+      "artifact_id": "urn:kristal:geology:canonical",
+      "logical_contract": {
+        "id": "kristal.v6-state-reference",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2223,
+      "sha256": "sha256:1ccbdc88288b9c5209235734d80b42866d3b450bbee8c752fee727070a27464b",
+      "artifact_id": "urn:kristal:geology:v11:catalog:fr-proposal-2026-11-06",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 8844,
+      "sha256": "sha256:d4b9656d6a0417264c9f0bcadedbb2bc0710d6d72e599fb2f67055554d65a3a2"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 30318,
+      "sha256": "sha256:455305b465cd734f232662d992d2a46526c5b00e242bf2c80e990916957c1ced"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1763,
+      "sha256": "sha256:6bab9bd95b41d3264abfcd590f2eeaf09ec3b3f328d7fb04751e557dbc7b5036"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1742,
+      "sha256": "sha256:206f8c536575eae88e554609749fbf924366a6492448b0ee5ba10c784513c169"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-link-fr-v13.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 558,
+      "sha256": "sha256:bcca187a9eff08e731d4f58bd89d7495188518d241f8bd9cfeed52faeb60db24"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-typed-fr-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2685,
+      "sha256": "sha256:5f76384ccc9e99275859ef350255933e850d21a12491dc41f767a9fa41cfe024"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-typed-und-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2657,
+      "sha256": "sha256:016fc697f60fddc28f986bab4ef39f34ae0d1fe862b6855ec016d2512c942920"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 107004,
+      "sha256": "sha256:47ba32f37f18a7035d1a180f3b6b0f08e525b01a8bbf66e3716048d2da7bea76"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1244,
+      "sha256": "sha256:e9afcba3c151763ff8f8582147a7a2592ab7ee1361ccb3c1bda1a6fe26bdc947"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1082,
+      "sha256": "sha256:8c4d55d7b90bdacae985f10f06f502a6da44c7420d4b2ca09dc41730b807fbf8"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1103,
+      "sha256": "sha256:6dfde4c43014966aebf52a6bef0b68357894bd5befcf087e9540731277c391ad"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 10376,
+      "sha256": "sha256:10a84f0f78a4c1c657e6df28918fab5f67362cbb44a5eff0cf841b672cc6880e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1671,
+      "sha256": "sha256:7a92207e366298fae3179b8f35dee6fb35743ed3f94bf644f43b26df82b42568",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Geology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1543,
+      "sha256": "sha256:b09804534acbebe42f0034967d50ad973c9efbd6a5b10c93dbcf4c3c6febb31d"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 30318,
+      "sha256": "sha256:455305b465cd734f232662d992d2a46526c5b00e242bf2c80e990916957c1ced"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1763,
+      "sha256": "sha256:6bab9bd95b41d3264abfcd590f2eeaf09ec3b3f328d7fb04751e557dbc7b5036"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1742,
+      "sha256": "sha256:206f8c536575eae88e554609749fbf924366a6492448b0ee5ba10c784513c169"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-link-fr-v13.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 558,
+      "sha256": "sha256:bcca187a9eff08e731d4f58bd89d7495188518d241f8bd9cfeed52faeb60db24"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 5837,
+      "sha256": "sha256:05bdb186ec5928f2a40ecff3de18fb2f3a6631d0959bf2cd32435f82eb814ee0"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 172510,
+      "sha256": "sha256:ddef9c7743abe03623b6580bdb447e3a7f76bbf03aa4e212246a4a742bc033eb",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Geology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 173301,
+      "sha256": "sha256:b658e56385c38c2990e3c7af470123f126167256ab0ac2597f8dd9b187e62c9d",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Geology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 306787,
+      "sha256": "sha256:86128d3a6d7ea88027667110a25e34e4ddde4c9143f866f5130f8c61880a49c9"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 831751,
+      "sha256": "sha256:caa61ad1140e419988d67dfb3c1253d94859b8c1b693bc40291ad3147c52704c",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Geology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 107004,
+      "sha256": "sha256:47ba32f37f18a7035d1a180f3b6b0f08e525b01a8bbf66e3716048d2da7bea76"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/KS_WIKIDATA_V11_2.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 45013,
+      "sha256": "sha256:9505fafe8d10ffda918ee82f5ba1adac804761244fc14c8e6d1d7ab1e4122a22"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1244,
+      "sha256": "sha256:e9afcba3c151763ff8f8582147a7a2592ab7ee1361ccb3c1bda1a6fe26bdc947"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1082,
+      "sha256": "sha256:8c4d55d7b90bdacae985f10f06f502a6da44c7420d4b2ca09dc41730b807fbf8"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/RAPPORT_V11_2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 685,
+      "sha256": "sha256:5fa1a110a351a191ddc7ee5e6c87be57c6caef7bf2012c7ea8bc2f4c231b98bb"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1103,
+      "sha256": "sha256:6dfde4c43014966aebf52a6bef0b68357894bd5befcf087e9540731277c391ad"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 10376,
+      "sha256": "sha256:10a84f0f78a4c1c657e6df28918fab5f67362cbb44a5eff0cf841b672cc6880e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2197,
+      "sha256": "sha256:fcdf433d18bd0be86f8db8c514df277b2fa8e76923509803e66145ad94a36724",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Geology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 8358,
+      "sha256": "sha256:00cfa55aa220acaea40499bd513a8c62b7dbc83c87c2ffab9a12885b2346735c"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 30318,
+      "sha256": "sha256:455305b465cd734f232662d992d2a46526c5b00e242bf2c80e990916957c1ced"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1763,
+      "sha256": "sha256:6bab9bd95b41d3264abfcd590f2eeaf09ec3b3f328d7fb04751e557dbc7b5036"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1742,
+      "sha256": "sha256:206f8c536575eae88e554609749fbf924366a6492448b0ee5ba10c784513c169"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-link-fr-v13.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 558,
+      "sha256": "sha256:bcca187a9eff08e731d4f58bd89d7495188518d241f8bd9cfeed52faeb60db24"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-typed-fr-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2685,
+      "sha256": "sha256:5f76384ccc9e99275859ef350255933e850d21a12491dc41f767a9fa41cfe024"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-typed-und-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2657,
+      "sha256": "sha256:016fc697f60fddc28f986bab4ef39f34ae0d1fe862b6855ec016d2512c942920"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 5837,
+      "sha256": "sha256:05bdb186ec5928f2a40ecff3de18fb2f3a6631d0959bf2cd32435f82eb814ee0"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 172510,
+      "sha256": "sha256:ddef9c7743abe03623b6580bdb447e3a7f76bbf03aa4e212246a4a742bc033eb",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Geology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 181505,
+      "sha256": "sha256:6a44f337fc1fac1071cf79f45328b75675c797a7f80f946d2abe32ebbfa8a422",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Geology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 306787,
+      "sha256": "sha256:86128d3a6d7ea88027667110a25e34e4ddde4c9143f866f5130f8c61880a49c9"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 837442,
+      "sha256": "sha256:34bb7fb302fca3611f26958ec430a2687baface6679f0ebb6514fb35a61d4bcd",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Geology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1244,
+      "sha256": "sha256:e9afcba3c151763ff8f8582147a7a2592ab7ee1361ccb3c1bda1a6fe26bdc947"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1103,
+      "sha256": "sha256:6dfde4c43014966aebf52a6bef0b68357894bd5befcf087e9540731277c391ad"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1126,
+      "sha256": "sha256:d20cbb1ba5b4ea6f12f665df4695937f2ab389683c6c911bcfb14ccf381dcd82",
+      "artifact_id": "urn:kristal:state:geology:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1543,
+      "sha256": "sha256:b09804534acbebe42f0034967d50ad973c9efbd6a5b10c93dbcf4c3c6febb31d"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 30318,
+      "sha256": "sha256:455305b465cd734f232662d992d2a46526c5b00e242bf2c80e990916957c1ced"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/wikidata-link-fr-v13.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 558,
+      "sha256": "sha256:bcca187a9eff08e731d4f58bd89d7495188518d241f8bd9cfeed52faeb60db24"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 5837,
+      "sha256": "sha256:05bdb186ec5928f2a40ecff3de18fb2f3a6631d0959bf2cd32435f82eb814ee0"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 172495,
+      "sha256": "sha256:41846d410f62051986513d39a932474dabe752d8c102e69a3c502dbd9c5da955",
+      "artifact_id": "urn:kristal:state:geology:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 159012,
+      "sha256": "sha256:331a0a0139f68edad8fbabfc2886ff79c1ac29e8b869506928eedab983077ad9",
+      "artifact_id": "urn:kristal:state:geology:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 306787,
+      "sha256": "sha256:86128d3a6d7ea88027667110a25e34e4ddde4c9143f866f5130f8c61880a49c9"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 806685,
+      "sha256": "sha256:1b402ccd436c873c1be660c05f8d4107194ef0ad6995f5feecee96105776af14",
+      "artifact_id": "urn:kristal:state:geology:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 6329,
+      "sha256": "sha256:78b8c8df4b64eea3dd420de83c3c9bb0eb8adf0dbf34e89e2d2fff1e185c1698"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 581,
+      "sha256": "sha256:2d242676495ae4c53fb173ef504b412c43ba75a139bcdbba2413a4dc5b6aa296"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 641,
+      "sha256": "sha256:44f4f31fbfd7246e730261193c2c0d195fbf131670e0d1ac2a96a8c970402771"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 861,
+      "sha256": "sha256:7165a72bcb1468e264b4b7ba8471840c3b825a6e59e29f2ce52309e54fda1c41"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 791,
+      "sha256": "sha256:026475987fb729eeeaf1cff0ad6aa88d5ca22cc1df9d61f8b5ecd8c7a704987e"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 916,
+      "sha256": "sha256:dc7f4215bfcf5f49c1468b51f1c108bccf1a727d110f32cd93141598f8b1435e"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 528,
+      "sha256": "sha256:3c053a22413838302927559a168cbd656adf049509e17fe5681bba2a570c65ce"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 731,
+      "sha256": "sha256:9118c8fd8ccf412de097bae316f89589ddf827d6406dbfe22a8ae1c222367a57"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 520,
+      "sha256": "sha256:fabef2b7b70b8d119165701d733d2792659573a54289341a08344f755ca72da1"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3924,
+      "sha256": "sha256:25763b365872e19c1f2c4acd35fd58952c2d7ebdd4c065949565869d8985f31f"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 14773,
+      "sha256": "sha256:bbc8e5dba8b2e2100fedcb16f10acb98ebc9b26e36d80f7a57fdf5e3764e4e8a"
+    },
+    {
+      "path": "sources/wikidata-skope/current.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 248,
+      "sha256": "sha256:e7311355e14667e7c3342655c40cb5c61833b23b01c1f2de8e1b0c27f489fb3d"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/README.md",
+      "role": "source_material",
+      "media_type": "text/markdown",
+      "size": 1840,
+      "sha256": "sha256:3724f683b7d652391a63c7da30f60492740556ecbea231b288581b436a58acfe"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/crosswalk-candidates.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 24202,
+      "sha256": "sha256:1c2baa4d98aef1102eb0e68246220c489c91ee72b522cc3dc3540d301ff077d7"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/priority-relations.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 122343,
+      "sha256": "sha256:60feacc1ae1b3e0166d196347be87acfb7d8dcd2fc28b7d5e7eee2d774ebeddb"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/enrichment-proposals.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 2997476,
+      "sha256": "sha256:bb87135e8e336e1d07d77e1b2e39c1f0a0c3813292220fe95373875b4472c1e1"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/enrichment-proposals.related-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 21015,
+      "sha256": "sha256:d4002cc2621e33cb4caf7cf58b3cd74afc8122b5e7e36fe0205d4b17618462e8"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/enrichment-proposals.report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 428,
+      "sha256": "sha256:a00916c8d1bdc175f4eb37909d20ff967b4eacb9766ad5ce29ecb721c3e8df4c"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/full-evidence/5497827873474613/part-000000.jsonl.gz",
+      "role": "source_material",
+      "media_type": "application/octet-stream",
+      "size": 413610,
+      "sha256": "sha256:e22bfed814a45b383d7c8043edf15888aee2c38dfbd3ab4ca4e23d95e6374bc1"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/full-evidence/5497827873474613/part-000000.manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1343,
+      "sha256": "sha256:a534233e0e6b540f1a5d287c2123b54d0b0fe4848411fb6e3b5393a3e0d336d6"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/full-evidence/5497827873474613/portfolio-extraction-state.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1515,
+      "sha256": "sha256:83df553f8c6231b99c9e4af77decfe8c4f75d57e6617adf001840a89ff018d35"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/full-evidence/5497827873474613/snapshot-manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 536,
+      "sha256": "sha256:7fc23988b402238da9563bb420ff2e057f73681f0dde865fbefc24752db8f56d"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/portfolio/identity-resolution.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 89794,
+      "sha256": "sha256:559947095c1a5ef43375040162b35038b16ab2d5a012b05552c632b644d444d5"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/portfolio/inventory.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 312,
+      "sha256": "sha256:41d7dccd3de408bdf14e6a8a3deac09ee70e4c5601c7b4967110b3e6d47ca32c"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/review-candidates.generated.csv",
+      "role": "source_material",
+      "media_type": "text/csv",
+      "size": 176835,
+      "sha256": "sha256:4487ccb15147039306185367daa107b9d1e1dbb4a5868f6d81955d506f32db82"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/run-report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 11963,
+      "sha256": "sha256:840e6fb73d6829eb463bca8f1d4009842975a76be61ead6682ffb0ceea5597e0"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/seeds/extraction-intent.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 693,
+      "sha256": "sha256:d05cb60dcf7cb5e1fd7724976a071d37f8fe67466d69811d9455118aa6207b60"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/seeds/portfolio-selected-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 2070,
+      "sha256": "sha256:54978278734746134a54d61e2ae3434a4bd5ef3f71d71c42dd9d7975a623ac36"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/seeds/reviewed-mappings.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 19414,
+      "sha256": "sha256:878c9b25e352565954bedaf1c71c0a6459e4497ef3a977a40e5376e635984197"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/raw/source-profiles/maxwd-local.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1123,
+      "sha256": "sha256:bfd799319ec26b173332cc843df66ba5b043937ce59d3bbedc973d9e8d00959b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/e65b858c197213f9/source-index.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1984,
+      "sha256": "sha256:d5e0acb97a69bd60b8f744855a18b38bf4e1c724a220cf8f37ba499a27000be8"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 5790,
+      "sha256": "sha256:ccc7cef6ca892319dc5729805aa402d3866a97321d9ac61feccc343dc3e77d46",
+      "state_ref": "urn:kristal:state:geology",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:c6182de3ca806c4086ce055fed58b5ac29d9c40761eeebebcc505a73ac4e3d28"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

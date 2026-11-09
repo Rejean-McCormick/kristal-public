@@ -1,0 +1,88 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Literature:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-20261026-rebuilt-v2:wikidata-structured-20261026-v3",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "legacy-fr",
+          "path": "legacy-fr.json",
+          "priority": 100,
+          "sha256": "af32d01591ae8138cc34c2f40f350bdc66083a95a7d25a90e9478f3197a9a1de"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "2e6d90d9a0e4f3630568e70082e19751d402a96c95406f9ff41dd6cfc054ac4b"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-fr",
+          "path": "wikidata-fr.jsonl",
+          "priority": 100,
+          "sha256": "795eb9dd46be9439cbc95fca29e192c0c63fe25a91386c53a65a1b31a18bfe68",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [
+        "fr"
+      ],
+      "layers": [],
+      "tag": "fr-CA"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "b4a5914927cbccb681717bfdd69679f78c6be5a27469b7f92aa4c85d1adfa7a2"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-und",
+          "path": "wikidata-und.jsonl",
+          "priority": 100,
+          "sha256": "af9b4382ed2cf925feccc65f1695097f2b7694a68e35243cb85d2fa218329afb",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "und"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-en",
+          "path": "wikidata-en.jsonl",
+          "priority": 100,
+          "sha256": "a3c8d1281d35817cafe6ab8225e440449d32d6c139d27e2d00c3f2001d97fc77",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        },
+        {
+          "kind": "external",
+          "layer_id": "structured-fields-v3",
+          "license": "CC0-1.0",
+          "path": "structured-fields-en.jsonl",
+          "priority": 100,
+          "sha256": "2f4e07fd7d13372b75413548964a2321106d9fe20f869c7c83dbeff78af9ec13",
+          "source_snapshot": "wikidata-structured-20261026-v3",
+          "source_system": "kristal-structured-value-model"
+        }
+      ],
+      "tag": "en"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-literature",
+  "schema_version": "11.0"
+}

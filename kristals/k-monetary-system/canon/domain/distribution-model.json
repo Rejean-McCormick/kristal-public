@@ -1,0 +1,54 @@
+{
+  "format": "k.monetary.domain/distribution-model/0.1.0",
+  "id": "urn:kristal:k-monetary-system:distribution-model",
+  "objective": "Reduce extreme concentration of economic power while preserving a real consumption floor and broad participation in capital returns.",
+  "target_metrics": [
+    "median_real_income",
+    "median_real_wealth",
+    "top_1_wealth_share",
+    "gini_wealth",
+    "poverty_or_material_deprivation_rate",
+    "K_C_beneficial_ownership_concentration",
+    "real_consumption_floor_coverage"
+  ],
+  "mechanisms": [
+    {
+      "id": "universal_real_floor",
+      "kind": "income_or_service_floor",
+      "design": "Protect a defined real consumption bundle; nominal transfers adapt to prices and real capacity rather than a permanently fixed nominal amount."
+    },
+    {
+      "id": "universal_capital_allocation",
+      "kind": "capital_distribution",
+      "design": "Broad recurring allocation of K_C or equivalent social-capital claims."
+    },
+    {
+      "id": "social_dividend",
+      "kind": "surplus_sharing",
+      "design": "A declared share of distributable system surplus may flow to broad beneficiaries subject to solvency and real-resource constraints."
+    },
+    {
+      "id": "anti_concentration",
+      "kind": "beneficial_exposure_control",
+      "design": "Measure ultimate beneficial economic exposure rather than simple wallet balances; treat direct and synthetic exposure as analytically relevant."
+    },
+    {
+      "id": "real_capacity_investment",
+      "kind": "supply_side",
+      "design": "Expand housing, energy, food, education, healthcare, infrastructure and productive capacity so redistributed purchasing power has real supply to purchase."
+    }
+  ],
+  "non_equivalences": [
+    "wallet_cap != wealth_cap",
+    "UBI != universal_capital_ownership",
+    "nominal_equality != real_resource_equality",
+    "currency_revaluation != redistribution_by_itself"
+  ],
+  "open_design_questions": [
+    "legal enforceability of beneficial-exposure limits",
+    "privacy-preserving ownership aggregation",
+    "treatment of trusts/corporations/derivatives",
+    "inheritance and intergenerational transfer",
+    "relationship between K_C and enterprise governance"
+  ]
+}

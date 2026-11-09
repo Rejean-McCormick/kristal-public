@@ -1,0 +1,29 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:robotics",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:31e7ed7434833bbd4a15aeb6371dd4571b822f5f607dae6c468733de92ac4d8b"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:robotics:artifact:canonical-knowledge",
+      "logical_contract": {
+        "id": "kristal.compat/v6-portable-state-logical-projection",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a86abf8d2847f9b0563609bc99b9d09c6850843a8907cabdfcb94e23c3302910"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "robotics",
+    "subdomain": "perceive-estimate-decide-act-feedback",
+    "language": "fr"
+  }
+}

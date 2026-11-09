@@ -1,0 +1,323 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:agriculture:state",
+  "source_fingerprint": "sha256:6b64891974ba7cdee15be25ef9a5d432b8a5c0f46d8301fcc197c085c2d2b2e5",
+  "specialization": "kristal.reader/generic-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "generic",
+  "materialization_profiles": [
+    "kristal.materialization/native-blob/1",
+    "kristal.materialization/native-json-bundle/1"
+  ],
+  "artifact_strategies": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1331,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:fb6f2d5150876ad7441d787267b641af81cd5983f1618f31ee0754929833ee5c",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1270,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:a77609ef9058b67983d4fede54187c7def562debdaec38cbc92cf0fb1b3a1cef",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1306,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d67187051e4d16377cf9d659be3f1c691f0d3d2275e6f513af1c6436b83ba268",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-agriculture-artifact-canonical-state-d4c92f6cdf.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 855,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:ee5843ac77bdd5c94eea372c7083929137d547ae821fb17b00e0263f06a1cb80",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-agriculture-artifact-identity-registry-9abab1fb7d.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 867,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:cd15b4939aafa0f83b395b1c256c25d4acdf427ff9a0c461c01fbf9394ad0aa5",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-agriculture-v11-catalog-2026-10-27-f0df15ca06.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1634,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:87d1f6f7430e5c7fab46792e78582b05dc3e38ec34db9ce4ad15df2cf82f39ac",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-agriculture-v11-crosswalk-2026-10-27-fe7605ce3f.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 22023,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:aa82040426f30b041dd22bd32c9a4ffaa18c1dc2ff3af9928afa192b4e5d3571",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-agriculture-v11-graph-2026-10-27-0d4c5b86a2.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 514439,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:ee054dd0f13ae7b1a2696897d007dc2a78482700f78e47a9e4e583c1a0fabe0f",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-agriculture-v11-identity-2026-10-27-1722f7bda0.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 115592,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:acbcf2d0049b68357a81d7c2778d0fec1f16befb2ceff6c99f1a6747412a179f",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Agriculture-catalog-507b31141d.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 2210,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:0f0adb635dba5a5bd4b3d5af1b77e903a3efcc59bac93e24568c9d8a905a2123",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Agriculture-crosswalk-6b997700cb.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 22041,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:703d422ea4543568614e22b8a8755d3346ada2ebebece4ac6537f5972418186f",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Agriculture-graph-6c25c0bfbd.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 521332,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:8edcef90b69c89993c33d91943c649e758399144f77aca0a5e9693412066fbda",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Agriculture-registry-487d8827a7.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 119742,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f7f0c9d800c2b883d7cb6766ec711cfb44050e5ae119a24dab479bf7c2348653",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 4217,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:4934ae18eee19c717100152b3baa930cd8aa58c5204abb676ae4d80504f828db",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 355,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:66aa9153bb2b036745580f34a4ee9960e12c956e99f799040e3ac637c2fff58e",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/identity_registry.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 373,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:fa49889145fbe7ae88d52d1b0bad8331c77838ce78d77ffc3f7573ca3f3c4605",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1679,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:70a05c450635d7eae4657bfc4b7702eeeaaa396b213b7922b2ed2391771636a3",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 20160,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:552c9b088fa10f6072a9a8f55ca223b977e5450c6fdc442b7c172e583fcb76f6",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 108995,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:98bee7b12b1935f506627f3b46aa77e4b5b3848e7bfc60b078ae874fb6ea79a5",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 485161,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d35ac9409c2457b1bcc7e60a697e5b05863d52498cfae8d8a5a8aad8de325026",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1134,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d75675dc1db35011259888ff545c9c4dfb7d6789327d133f76a80ba291a9ea19",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 20145,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:23bff03d3cf19d8d84abc22f525ee5b8dbed227429038926a607e9c771cef949",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 105198,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:8dafdf3c1ed2b75a422d45b51d676faab26617a8daaee554dfb1afea4df6d98d",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 478723,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:a085e094fd91811697dd7879699bffed4cc5c7bd49bf0e316eacf1b0ed31f528",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

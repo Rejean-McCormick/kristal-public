@@ -1,0 +1,47 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:education-quebec:materialization:canonical-state",
+  "source": {
+    "artifact_id": "urn:kristal:education-quebec:canonical-epistemic-state",
+    "logical_contract": {
+      "id": "education-quebec.canonical-epistemic-state-resource",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:bc3d992056b6659add6ec7af72f87aa882a1b3729e1b7f700cb6f943e51bb6e1"
+    },
+    "authority_ref": "urn:kristal:authority:education-quebec"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 1
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:canonical_epistemic_state_v5",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:2bd09f6984bb7beaf98a9d4e2964c2b15fa7eb10af6e81b15843a11e1a5feabc",
+        "size": 12280370,
+        "locator": "knowledge-base/corpus/education-quebec.structured-epistemic-state.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:canonical_epistemic_state_v5",
+        "role": "canonical_epistemic_state_v5"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:education-quebec:resource:canonical_epistemic_state_v5"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "education-quebec.canonical-epistemic-state-resource/jcs-v1"
+  }
+}

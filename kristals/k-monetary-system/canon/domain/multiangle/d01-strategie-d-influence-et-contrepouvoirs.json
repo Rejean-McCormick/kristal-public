@@ -1,0 +1,69 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d01",
+  "protocol_id": "D01",
+  "title": "D01 — Influence légitime et architecture des contre-pouvoirs",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:C01",
+    "source:multiangle:S06",
+    "source:multiangle:S08",
+    "source:multiangle:S09",
+    "source:multiangle:S11",
+    "source:multiangle:W01",
+    "source:multiangle:W02",
+    "source:multiangle:W18"
+  ],
+  "depends_on": [
+    "external:institution_democratic_process",
+    "canon/domain/system.json"
+  ],
+  "validation_gates": [
+    "mandat_institutionnel",
+    "consentement_libre",
+    "conflits_interets"
+  ],
+  "sections": [
+    {
+      "heading": "Mécanisme",
+      "level": 2,
+      "body_markdown": "Deux voies coexistent : (1) proposer une alternative économique et convaincre par usage, prix, fiabilité et bénéfices observables; (2) présenter des réformes aux institutions existantes et favoriser des décisions de leurs autorités légitimes. L'expression « contrôle par influence » est interprétée comme l'obtention d'adhésion volontaire et de mandats vérifiables, non comme l'acquisition d'un pouvoir par le capital ou une prérogative politique."
+    },
+    {
+      "heading": "Chaîne de décision",
+      "level": 3,
+      "body_markdown": "Problème documenté → projet d'option et étude de conséquence → divulgation des intérêts → débat contradictoire → décision dans l'organe compétent → publication du mandat → suivi annuel → révocation / recours."
+    },
+    {
+      "heading": "Limites de la capacité d'influence",
+      "level": 3,
+      "body_markdown": "La popularité d'un projet ne valide ni ses calculs, ni une élection, ni une licence, ni la propriété d'une infrastructure. L'entité kOA n'assume aucun pouvoir de direction de Desjardins par la seule adhésion de citoyens. Elle peut déposer des propositions et agir dans les mécanismes prévus."
+    },
+    {
+      "heading": "Anti-capture",
+      "level": 3,
+      "body_markdown": "Séparer conseil stratégique, opérations, vérification indépendante, médiation et attribution de ressources; registre public des liens financiers et des rémunérations; pas de droit de veto permanent pour le fondateur; transparence sur le financement des communications; procédure de contestation; votes accessibles aux membres et à ceux qui n'utilisent pas le numérique; audits régulièrement renouvelés."
+    },
+    {
+      "heading": "Indicateurs",
+      "level": 3,
+      "body_markdown": "Taux de participation représentatif, nombre de décisions contestables avec recours effectif, degré de concentration des accès, exactitude des promesses, part de projets livrés, confiance dans des enquêtes indépendantes."
+    },
+    {
+      "heading": "Échecs à simuler",
+      "level": 3,
+      "body_markdown": "Captation des canaux médiatiques; opposition majoritaire des membres; conflit entre comité d'experts et décision coopérative; désinformation; exclusion de populations moins connectées."
+    },
+    {
+      "heading": "Règle bloquante",
+      "level": 3,
+      "body_markdown": "Aucune transition institutionnelle n'est activée sans habilitation vérifiée et consentement de l'instance concernée."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D01_STRATEGIE_D_INFLUENCE_ET_CONTREPOUVOIRS.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

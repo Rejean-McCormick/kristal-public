@@ -1,0 +1,1060 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:education-quebec",
+  "source_fingerprint": "sha256:81ace515fec9492e0c3f6fa1ed46fb546ad597b13e3289c09ac7a8b94ee611bc",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 14725053,
+    "tracked_file_count": 57,
+    "max_tracked_file_bytes": 12280370,
+    "materialization_segment_count": 48,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 4,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4359,
+      "sha256": "sha256:60b17a4d1b012c72a07771771cb8c77a6a10389b8af6806e1f55ca71018107bd"
+    },
+    {
+      "path": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 10783,
+      "sha256": "sha256:b2dc91c7f5635eec5963c6c0a7a52ac391ebf41604a411d8cfebf577b8f12ce3"
+    },
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1618,
+      "sha256": "sha256:debc939e8481fd126330203398eedef010778a53c59f7a1886113c2cde84d42d"
+    },
+    {
+      "path": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 20113,
+      "sha256": "sha256:a705c2a51d3d3af630500b69ac4bdfc817b17eae1f47dd686e87b1b1b9c55338"
+    },
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1100,
+      "sha256": "sha256:9610deba5ee3d4a6bfd803e279845043f3686f2fa7e24e409f5edf0bfe3b4234"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 2330,
+      "sha256": "sha256:bc4d63631eb1d05f5a5774357f4aea0ed41e213272f13998959b4668b1147982"
+    },
+    {
+      "path": "canon/artifacts/authoring-basis.logical-artifact.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 9340,
+      "sha256": "sha256:0f233450b8ab1a0ddfb4bccd555e5913c550ba71639cf7890823af225d15688e"
+    },
+    {
+      "path": "canon/artifacts/canonical-state.logical-artifact.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2116,
+      "sha256": "sha256:7eff1b7d60b65b22a3a44f5ceedc4b445b6ac12794fffaf131ed02ad7e634ac0"
+    },
+    {
+      "path": "canon/artifacts/contract-basis.logical-artifact.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 16583,
+      "sha256": "sha256:f8bc3906496f89113a3896b72461e25ac4aab6552c2996c2a81edd359b494d5d"
+    },
+    {
+      "path": "canon/artifacts/domain-state.logical-artifact.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4359,
+      "sha256": "sha256:60b17a4d1b012c72a07771771cb8c77a6a10389b8af6806e1f55ca71018107bd"
+    },
+    {
+      "path": "knowledge-base/corpus/education-quebec.structured-epistemic-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 12280370,
+      "sha256": "sha256:2bd09f6984bb7beaf98a9d4e2964c2b15fa7eb10af6e81b15843a11e1a5feabc"
+    },
+    {
+      "path": "knowledge-base/edition/build-config.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 468,
+      "sha256": "sha256:2582ff0f558f40746b85b4fd64799ed3d72bef6ae14dd13f135f988df7ebe74b"
+    },
+    {
+      "path": "knowledge-base/edition/editorial.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 3047,
+      "sha256": "sha256:5a433ebff387d0642a141f1658e3358291d7d6f20d5cc56a722c07364a05e9ea"
+    },
+    {
+      "path": "knowledge-base/integration/admission-logic-contract.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 878,
+      "sha256": "sha256:71731e1acd3e83a8bb503b6af8d6ecf79077ee212e5396fe16d889f16034fc57"
+    },
+    {
+      "path": "knowledge-base/integration/semantic-identity-contract.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1897,
+      "sha256": "sha256:44e00340dfb36ef2901759c78de436b6782b2032bd9751989c74ea39d92f57f5"
+    },
+    {
+      "path": "knowledge-base/integration/source-acquisition-contract.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1795,
+      "sha256": "sha256:c024eb09236ceea6f944012257c6d69cf0b32164a1e884c9c994f60801108ecf"
+    },
+    {
+      "path": "knowledge-base/integration/source-resolution-contract.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 2197,
+      "sha256": "sha256:d4a704e392ea2766aca68e8b1220ba5cd75740dc29c7b5b473db57492af8f631"
+    },
+    {
+      "path": "knowledge-base/integration/source-versioning-contract.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1174,
+      "sha256": "sha256:bbbf5344b0dd071bfe25bad0edcd1521e0e6d409ba69888908a32f7d4f986b39"
+    },
+    {
+      "path": "knowledge-base/integration/vocational-admission-logic-contract.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1289,
+      "sha256": "sha256:9dda1ea24d32d267ad1c5fa7d96d0e3a7e1a729bad50b984134c676f736084a8"
+    },
+    {
+      "path": "knowledge-base/integration/vocational-program-identity-contract.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 3786,
+      "sha256": "sha256:0d7cf0407f0d676334d634efc58ebacbe2e8a96db2949a192c22767d83a47c6a"
+    },
+    {
+      "path": "knowledge-base/profiles/admission-auditor.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4642,
+      "sha256": "sha256:deb9f6ec6b8d51e51a3da850923bf92ebce18fe3390d3e788423c895ca279d4c"
+    },
+    {
+      "path": "knowledge-base/profiles/college-admission-planner.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4980,
+      "sha256": "sha256:c615ef468f5364da2ee70d1ee8c867ff342007b69bbfdd3a728406fa598a4f38"
+    },
+    {
+      "path": "knowledge-base/profiles/curriculum-researcher.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4498,
+      "sha256": "sha256:87e86608471876c0b530e1e3b995e6b775b972f1b4cfa03f9ff00162ef2a20af"
+    },
+    {
+      "path": "knowledge-base/profiles/educator-admin.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4631,
+      "sha256": "sha256:f29bb4da4faca826ca464f3e35064e9d946c5922d9bfa88db517319d85201aee"
+    },
+    {
+      "path": "knowledge-base/profiles/grade-planner.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4506,
+      "sha256": "sha256:662d53b2a34f16878bf72ff33ba41d3cc5f7ebedd689f68146419c9ac29c9455"
+    },
+    {
+      "path": "knowledge-base/profiles/parent-guardian.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4529,
+      "sha256": "sha256:fe7e0d98db78edd05be7fe49c4527b91b463e19a9605f40a54958a95d98a6acf"
+    },
+    {
+      "path": "knowledge-base/profiles/source-curator.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4550,
+      "sha256": "sha256:c5e76630a25435a642bfc2a7c69753b3a9b53d3521a43fc0b217211b12a05d65"
+    },
+    {
+      "path": "knowledge-base/profiles/student-guidance.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4585,
+      "sha256": "sha256:7f6addae4baa7e87f0b95d0056ea3b76f0f0588c61b655a83ebf8576cef9d41d"
+    },
+    {
+      "path": "knowledge-base/profiles/vocational-admission-planner.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 5380,
+      "sha256": "sha256:932b279029cab95414eeecb00039cc2b1184c1ef0c9ec040dced862bd2745fff"
+    },
+    {
+      "path": "knowledge-base/profiles/vocational-program-reader.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 5853,
+      "sha256": "sha256:eef71d9e67db1d64ebe4a682ce929511d302755cebedcb15aa9e9b3f147c9433"
+    },
+    {
+      "path": "knowledge-base/schemas/assessment-semantics.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1876,
+      "sha256": "sha256:f5975938d46a13f23e4a41e0793d002cbd98b8321730d048ff954235011929b4"
+    },
+    {
+      "path": "knowledge-base/schemas/college-admission-semantics.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 2016,
+      "sha256": "sha256:0aeb036e3409ae1988efb212f458641f8d5ade026d57afb4e8cf08232f721955"
+    },
+    {
+      "path": "knowledge-base/schemas/coverage.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 521,
+      "sha256": "sha256:baf9d46cd90dc1193c91fe7eb7a4bd03886c2d5e42fa41afa96270b28e9131e0"
+    },
+    {
+      "path": "knowledge-base/schemas/domain-ontology.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 625,
+      "sha256": "sha256:b4d8e75ba9e3a772697156c37b56559171a0f7b93d1587a7c565e6f9566c88fe"
+    },
+    {
+      "path": "knowledge-base/schemas/progression-semantics.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 3395,
+      "sha256": "sha256:c3e56c891af9f7b8f19c42c4984ebb74cb03ab27c6b91342de925355b904b39f"
+    },
+    {
+      "path": "knowledge-base/schemas/reader-policy.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 17386,
+      "sha256": "sha256:2a3f843eaf4e89515ebf40ce5514f85406e1d556f4ecd503f0075d35b43c565c"
+    },
+    {
+      "path": "knowledge-base/schemas/semantic-curriculum.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 5829,
+      "sha256": "sha256:acbae1e1da1161b21adad5017721416fbeb0f4563ba0b4a4b89e499985262dc0"
+    },
+    {
+      "path": "knowledge-base/schemas/source-acquisition-policy.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 2231,
+      "sha256": "sha256:976334218c5359c7da0a4029d3cf6b2aad8aaff6ebf1e8dec7180a276ac4ed1a"
+    },
+    {
+      "path": "knowledge-base/schemas/source-catalog.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 810,
+      "sha256": "sha256:41057f006f5534f71d60c28349d24995083a95f75206fafa77d0617f34b74521"
+    },
+    {
+      "path": "knowledge-base/schemas/structured-epistemic-state.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 37503,
+      "sha256": "sha256:23de5d84986c1f09235f619f41af0e6ef87f9c25aa240c00b5632bc84a5a8598"
+    },
+    {
+      "path": "knowledge-base/schemas/vocational-admission-semantics.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 3070,
+      "sha256": "sha256:99434a0fb83a798ea35b91a0f1636b89246f6e289cd4fae4357c8f39f6117612"
+    },
+    {
+      "path": "knowledge-base/schemas/vocational-program-semantics.schema.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 5182,
+      "sha256": "sha256:ca7a3c7b3342fd6b6924dc4fb0f5157777e1012d1fde5e6b7b2a405d5bb81642"
+    },
+    {
+      "path": "knowledge-base/sources/assessment_semantics.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 18538,
+      "sha256": "sha256:834790e2a907997dcdcabfede838916aa3e09a1993d14634cecce3c4f1e7b227"
+    },
+    {
+      "path": "knowledge-base/sources/atomic_rules.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 22754,
+      "sha256": "sha256:a34ebc30ce3ea7cdd0d536b2fff3504840b021f10531958923eefdebdf72ea92"
+    },
+    {
+      "path": "knowledge-base/sources/college_admission_semantics.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 109157,
+      "sha256": "sha256:8974dabbceccf4e55611e17b978156ecb5996188846e5f54c12dcd21a6b26ea8"
+    },
+    {
+      "path": "knowledge-base/sources/coverage.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 9760,
+      "sha256": "sha256:239ad3191bed12d0064ac6a06672ac95c0641e76443c0ed9953f0c993d016e82"
+    },
+    {
+      "path": "knowledge-base/sources/curriculum_catalog.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 73809,
+      "sha256": "sha256:57510147e3110c56d7dd19229e95b0653caeda80ca0249db083587ffa6cda80d"
+    },
+    {
+      "path": "knowledge-base/sources/domain_ontology.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 31919,
+      "sha256": "sha256:8cd3fbdf34bc81ec6eb69b4dc1e87d0af658143a6161558699141d795aa54768"
+    },
+    {
+      "path": "knowledge-base/sources/invariants.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 6481,
+      "sha256": "sha256:a5bf669f4ac9f5cd4850b93d7f99215c62443db81879b286390822ebea44c213"
+    },
+    {
+      "path": "knowledge-base/sources/inventaire_ressources_parcours_scolaire_quebec.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 35864,
+      "sha256": "sha256:e6655d9bae98bdaf49ec6e396ca5dcd3b33b7f29e054a210c0a7adbb0bec0942"
+    },
+    {
+      "path": "knowledge-base/sources/progression_semantics.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 95306,
+      "sha256": "sha256:ef573906cacef9d84b6155d0ee04dbc629d4f5a24a84c3b6c44083130b3dbc80"
+    },
+    {
+      "path": "knowledge-base/sources/semantic_curriculum.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 60242,
+      "sha256": "sha256:97acf917605823d9d0aacfc2b33efbb9125f927f05cb272ece0e2b6919cae354"
+    },
+    {
+      "path": "knowledge-base/sources/source_acquisition_policy.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1491,
+      "sha256": "sha256:2cf446d46eab0b8c92b35af8132442386b892e437b98a8fe026e9c6301fd1415"
+    },
+    {
+      "path": "knowledge-base/sources/source_catalog.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 228319,
+      "sha256": "sha256:dc8fd467db9236a3034fd246306136c7d8395aa6a258d6ab805abce935690669"
+    },
+    {
+      "path": "knowledge-base/sources/transitions.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 6209,
+      "sha256": "sha256:350b42a3270c8eadc6be47f753af5fd49843bd2103caf5cc1a9e5039dc43a960"
+    },
+    {
+      "path": "knowledge-base/sources/vocational_admission_semantics.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 107765,
+      "sha256": "sha256:bc4fe09058a57f39db3a6c12da0d7544d129abf239dd0d9af0b250cc0fa35594"
+    },
+    {
+      "path": "knowledge-base/sources/vocational_program_semantics.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1419239,
+      "sha256": "sha256:bd6c1f67ce5736c87730557a96027f60227fade9c4fad86ec8af158174fbaf75"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:build_configuration",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 468,
+      "digest_declared": "sha256:2582ff0f558f40746b85b4fd64799ed3d72bef6ae14dd13f135f988df7ebe74b",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/edition/build-config.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:editorial_configuration",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 3047,
+      "digest_declared": "sha256:5a433ebff387d0642a141f1658e3358291d7d6f20d5cc56a722c07364a05e9ea",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/edition/editorial.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:source_catalog",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 228319,
+      "digest_declared": "sha256:dc8fd467db9236a3034fd246306136c7d8395aa6a258d6ab805abce935690669",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/source_catalog.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:source_acquisition_policy",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1491,
+      "digest_declared": "sha256:2cf446d46eab0b8c92b35af8132442386b892e437b98a8fe026e9c6301fd1415",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/source_acquisition_policy.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_ontology",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 31919,
+      "digest_declared": "sha256:8cd3fbdf34bc81ec6eb69b4dc1e87d0af658143a6161558699141d795aa54768",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/domain_ontology.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:atomic_rules",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 22754,
+      "digest_declared": "sha256:a34ebc30ce3ea7cdd0d536b2fff3504840b021f10531958923eefdebdf72ea92",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/atomic_rules.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:conditional_transitions",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 6209,
+      "digest_declared": "sha256:350b42a3270c8eadc6be47f753af5fd49843bd2103caf5cc1a9e5039dc43a960",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/transitions.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:curriculum_catalog",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 73809,
+      "digest_declared": "sha256:57510147e3110c56d7dd19229e95b0653caeda80ca0249db083587ffa6cda80d",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/curriculum_catalog.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:semantic_curriculum",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 60242,
+      "digest_declared": "sha256:97acf917605823d9d0aacfc2b33efbb9125f927f05cb272ece0e2b6919cae354",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/semantic_curriculum.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:progression_semantics",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 95306,
+      "digest_declared": "sha256:ef573906cacef9d84b6155d0ee04dbc629d4f5a24a84c3b6c44083130b3dbc80",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/progression_semantics.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:assessment_and_sanction_semantics",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 18538,
+      "digest_declared": "sha256:834790e2a907997dcdcabfede838916aa3e09a1993d14634cecce3c4f1e7b227",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/assessment_semantics.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:college_admission_semantics",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 109157,
+      "digest_declared": "sha256:8974dabbceccf4e55611e17b978156ecb5996188846e5f54c12dcd21a6b26ea8",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/college_admission_semantics.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:vocational_admission_semantics",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 107765,
+      "digest_declared": "sha256:bc4fe09058a57f39db3a6c12da0d7544d129abf239dd0d9af0b250cc0fa35594",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/vocational_admission_semantics.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:vocational_program_semantics",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1419239,
+      "digest_declared": "sha256:bd6c1f67ce5736c87730557a96027f60227fade9c4fad86ec8af158174fbaf75",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/vocational_program_semantics.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_invariants",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 6481,
+      "digest_declared": "sha256:a5bf669f4ac9f5cd4850b93d7f99215c62443db81879b286390822ebea44c213",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/invariants.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:coverage_model",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 9760,
+      "digest_declared": "sha256:239ad3191bed12d0064ac6a06672ac95c0641e76443c0ed9953f0c993d016e82",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/coverage.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/authoring-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:source_inventory_support",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 35864,
+      "digest_declared": "sha256:e6655d9bae98bdaf49ec6e396ca5dcd3b33b7f29e054a210c0a7adbb0bec0942",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/inventaire_ressources_parcours_scolaire_quebec.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:canonical_epistemic_state_v5",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 12280370,
+      "digest_declared": "sha256:2bd09f6984bb7beaf98a9d4e2964c2b15fa7eb10af6e81b15843a11e1a5feabc",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/education-quebec.structured-epistemic-state.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:integration_contract:admission-logic-contract",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 878,
+      "digest_declared": "sha256:71731e1acd3e83a8bb503b6af8d6ecf79077ee212e5396fe16d889f16034fc57",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/integration/admission-logic-contract.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:integration_contract:semantic-identity-contract",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1897,
+      "digest_declared": "sha256:44e00340dfb36ef2901759c78de436b6782b2032bd9751989c74ea39d92f57f5",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/integration/semantic-identity-contract.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:integration_contract:source-acquisition-contract",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1795,
+      "digest_declared": "sha256:c024eb09236ceea6f944012257c6d69cf0b32164a1e884c9c994f60801108ecf",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/integration/source-acquisition-contract.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:integration_contract:source-resolution-contract",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 2197,
+      "digest_declared": "sha256:d4a704e392ea2766aca68e8b1220ba5cd75740dc29c7b5b473db57492af8f631",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/integration/source-resolution-contract.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:integration_contract:source-versioning-contract",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1174,
+      "digest_declared": "sha256:bbbf5344b0dd071bfe25bad0edcd1521e0e6d409ba69888908a32f7d4f986b39",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/integration/source-versioning-contract.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:integration_contract:vocational-admission-logic-contract",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1289,
+      "digest_declared": "sha256:9dda1ea24d32d267ad1c5fa7d96d0e3a7e1a729bad50b984134c676f736084a8",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/integration/vocational-admission-logic-contract.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:integration_contract:vocational-program-identity-contract",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 3786,
+      "digest_declared": "sha256:0d7cf0407f0d676334d634efc58ebacbe2e8a96db2949a192c22767d83a47c6a",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/integration/vocational-program-identity-contract.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:admission-auditor",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4642,
+      "digest_declared": "sha256:deb9f6ec6b8d51e51a3da850923bf92ebce18fe3390d3e788423c895ca279d4c",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/admission-auditor.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:college-admission-planner",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4980,
+      "digest_declared": "sha256:c615ef468f5364da2ee70d1ee8c867ff342007b69bbfdd3a728406fa598a4f38",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/college-admission-planner.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:curriculum-researcher",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4498,
+      "digest_declared": "sha256:87e86608471876c0b530e1e3b995e6b775b972f1b4cfa03f9ff00162ef2a20af",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/curriculum-researcher.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:educator-admin",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4631,
+      "digest_declared": "sha256:f29bb4da4faca826ca464f3e35064e9d946c5922d9bfa88db517319d85201aee",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/educator-admin.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:grade-planner",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4506,
+      "digest_declared": "sha256:662d53b2a34f16878bf72ff33ba41d3cc5f7ebedd689f68146419c9ac29c9455",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/grade-planner.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:parent-guardian",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4529,
+      "digest_declared": "sha256:fe7e0d98db78edd05be7fe49c4527b91b463e19a9605f40a54958a95d98a6acf",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/parent-guardian.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:source-curator",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4550,
+      "digest_declared": "sha256:c5e76630a25435a642bfc2a7c69753b3a9b53d3521a43fc0b217211b12a05d65",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/source-curator.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:student-guidance",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4585,
+      "digest_declared": "sha256:7f6addae4baa7e87f0b95d0056ea3b76f0f0588c61b655a83ebf8576cef9d41d",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/student-guidance.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:vocational-admission-planner",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 5380,
+      "digest_declared": "sha256:932b279029cab95414eeecb00039cc2b1184c1ef0c9ec040dced862bd2745fff",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/vocational-admission-planner.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:reader_policy:vocational-program-reader",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 5853,
+      "digest_declared": "sha256:eef71d9e67db1d64ebe4a682ce929511d302755cebedcb15aa9e9b3f147c9433",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/profiles/vocational-program-reader.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:assessment-semantics.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1876,
+      "digest_declared": "sha256:f5975938d46a13f23e4a41e0793d002cbd98b8321730d048ff954235011929b4",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/assessment-semantics.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:college-admission-semantics.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 2016,
+      "digest_declared": "sha256:0aeb036e3409ae1988efb212f458641f8d5ade026d57afb4e8cf08232f721955",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/college-admission-semantics.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:coverage.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 521,
+      "digest_declared": "sha256:baf9d46cd90dc1193c91fe7eb7a4bd03886c2d5e42fa41afa96270b28e9131e0",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/coverage.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:domain-ontology.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 625,
+      "digest_declared": "sha256:b4d8e75ba9e3a772697156c37b56559171a0f7b93d1587a7c565e6f9566c88fe",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/domain-ontology.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:progression-semantics.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 3395,
+      "digest_declared": "sha256:c3e56c891af9f7b8f19c42c4984ebb74cb03ab27c6b91342de925355b904b39f",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/progression-semantics.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:reader-policy.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 17386,
+      "digest_declared": "sha256:2a3f843eaf4e89515ebf40ce5514f85406e1d556f4ecd503f0075d35b43c565c",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/reader-policy.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:semantic-curriculum.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 5829,
+      "digest_declared": "sha256:acbae1e1da1161b21adad5017721416fbeb0f4563ba0b4a4b89e499985262dc0",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/semantic-curriculum.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:source-acquisition-policy.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 2231,
+      "digest_declared": "sha256:976334218c5359c7da0a4029d3cf6b2aad8aaff6ebf1e8dec7180a276ac4ed1a",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/source-acquisition-policy.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:source-catalog.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 810,
+      "digest_declared": "sha256:41057f006f5534f71d60c28349d24995083a95f75206fafa77d0617f34b74521",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/source-catalog.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:structured-epistemic-state.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 37503,
+      "digest_declared": "sha256:23de5d84986c1f09235f619f41af0e6ef87f9c25aa240c00b5632bc84a5a8598",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/structured-epistemic-state.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:vocational-admission-semantics.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 3070,
+      "digest_declared": "sha256:99434a0fb83a798ea35b91a0f1636b89246f6e289cd4fae4357c8f39f6117612",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/vocational-admission-semantics.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contract-basis.materialization.json",
+      "segment_key": "urn:kristal:education-quebec:resource:domain_schema:vocational-program-semantics.schema",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 5182,
+      "digest_declared": "sha256:ca7a3c7b3342fd6b6924dc4fb0f5157777e1012d1fde5e6b7b2a405d5bb81642",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/schemas/vocational-program-semantics.schema.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/domain-state.materialization.json",
+      "segment_key": "all",
+      "record_count_declared": 1,
+      "media_type": "application/json",
+      "size_bytes_declared": 4359,
+      "digest_declared": "sha256:60b17a4d1b012c72a07771771cb8c77a6a10389b8af6806e1f55ca71018107bd",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    }
+  ]
+}

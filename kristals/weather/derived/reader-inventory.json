@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:kristal-weather",
+  "source_fingerprint": "sha256:18971fd405a6d15989f491b44718ca112fe8c91a96daec58b81963e33b653f50",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 784804,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 405404,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-artifact-kristal-weather-portable-epistemic-state-7e83b1dd52.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 405404,
+      "sha256": "sha256:bfe25700894a7409128b49b25b4791c3ce72715d94d299f37d6ad49ae4114584"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 752,
+      "sha256": "sha256:55dd16364728d4715b8779fc2774a17a19a23c53de228ab4a3908e8ef1f6d6a3"
+    },
+    {
+      "path": "canon/domain/kristal-weather.canonical-payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 378648,
+      "sha256": "sha256:0778378dd8c2240267ed8184bad4b353d27f6aca74e727f41fa43eba20260ba7"
+    }
+  ],
+  "segments": []
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:anthropology:state",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:295dda54df336245779cf88a8649f048a3bfd3e3756bca08ce7821d47d21c9f6"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:anthropology:artifact:canonical-state",
+      "logical_contract": {
+        "id": "anthropology.canonical-knowledge-state",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e16eb462eb9d9749362a9a4adfe0d1ed8917c6ab1e07c50c6df9f272d8867ef5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:anthropology:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ab9416cb2cfbfae7ec6b1fa36a7a2efdff097b333e93f1d4295a243ed19bb655"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:anthropology:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bc4df7bc8f0b9f116e6a500be1812d1bad7ca7247e867c490ed25d956f1831c1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:anthropology:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:24af786e26e0026b752d71bb20b9ebeee3660d0e936f857ef96362365e7169fa"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:anthropology:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b10a704b46362afbb0368963c313ff1d27fe7069dc5e51a427dad94dd8be0f31"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f3a15106d062f5dd5d791384125985f8a99fdf4a5882b1d44f2c7a570967b9ff"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:be70e129b037e6a64fa92a869eaf1d28d771a24dd27eaddbdabbd779d970ed38"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:77f5ce7dac70f9164d204d7d570cc5147126b5b4ad183cf835b54103e28ffc4d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:74bcd4d28008ec009a3f992f6e5a1b0d1e2929ea3565b46bd2a420fd541dfa16"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "anthropology",
+    "content_version": "0.1.0"
+  }
+}

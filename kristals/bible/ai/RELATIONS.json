@@ -1,0 +1,111 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:bible:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:86f33ee3941aed8bd742e43d12264dec69f0ec0a9230b692c67b9a7a3432f66b"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:bible:artifact:canonical-state",
+      "logical_contract": {
+        "id": "bible.canonical-knowledge-state",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ad5f397ad58b9e9e87b9dfb4ea6529c3c3e0d54ab2757d2b0d97ca39e8eccbc5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:bible:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:753e8748e503951bd7a0b401b7b4e1fbb1f5ca7a26a2a1fe3c5c4b2310800fc4"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:bible:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3fd4f64015abd3879a1609b50a6619212848c7f9eaf44b0ff2a1d2ac0e5dcd99"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:bible:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5c58006d4e595bf1c404d76dee78e1368c3a42590746d24688c25dcf04eaa8c2"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:bible:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4d39827232ce5c13d0263901fc866d88b906e5dd42ada91c097a16bc80899aac"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Bible:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c7962703450f0fe06cd826400946cea99d796adebf8b0d055d056bd5e298cfe2"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Bible:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8735249510091197ec9840b468d588d661a1ec1575a3e0aca2cb5aefb42d8966"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Bible:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:d0b8aeb230a90d36aa445e9fbf6b910a635b90af2baa9246f8c69c5caa34852a"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Bible:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2c762bd5777ddb8906acfb24668d50b9d420c33561b05a44c3f95df66dae1340"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

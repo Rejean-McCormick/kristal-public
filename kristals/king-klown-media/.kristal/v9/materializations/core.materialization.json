@@ -1,0 +1,43 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:materialization:king-klown:core:inline",
+  "source": {
+    "artifact_id": "urn:kristal:king-klown:epistemic-core",
+    "logical_contract": {
+      "id": "king-klown.epistemic-claims",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:83ae517017ee3c268b5f1f8aade13cea01d05338ffae3a54ab1c2e2dc6cc30ad"
+    },
+    "authority_ref": "urn:kristal:authority:king-klown-canon"
+  },
+  "profile": "kristal.materialization/inline-json/1",
+  "partition_spec": {
+    "strategy": "single"
+  },
+  "segments": [
+    {
+      "segment_key": "all",
+      "record_count": 1,
+      "blob": {
+        "media_type": "application/vnd.kristal.logical-artifact+json",
+        "digest": "sha256:deaacb0da1b05a36e14541af5a06cc75e95747e628b595bf0b7e0ac8a3939f7d",
+        "size": 193577,
+        "locator": ".kristal/v9/artifacts/core.logical-artifact.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "full-artifact"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "king-klown.epistemic-claims/1.0"
+  }
+}

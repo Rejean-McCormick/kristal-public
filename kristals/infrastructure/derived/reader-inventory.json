@@ -1,0 +1,374 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:infrastructure",
+  "source_fingerprint": "sha256:0fb9134f2a8c05066ef567c8bed874cf8aa69eae2439076f0367590dd5b0c3ee",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 3797803,
+    "tracked_file_count": 37,
+    "max_tracked_file_bytes": 513076,
+    "materialization_segment_count": 6,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 14,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1873,
+      "sha256": "sha256:ccd79c2a38f1f2b3d66451a5a29230acb59d63c55524193392a2dfb2f5044c40"
+    },
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1090,
+      "sha256": "sha256:a13de3492bf5345efe87f8b7331e97a56db5ed02dc469e11c76bef743e3d2efd"
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 3686,
+      "sha256": "sha256:f19bfce1356ebf2bce0c0888160cba5a0bd972edb7dd0f9dbeefcbb2e58f1afc"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-infrastructure-resource-basis-7a7a6d792f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3001,
+      "sha256": "sha256:b0960aae658c431063e5064b3b4e1d2767e02f475bdf7430ec844a529041a0ee"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-infrastructure-semantic-state-dbeba57001.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1873,
+      "sha256": "sha256:debdaf11d0f278357049d608e24e7606ad48b7b227fa4362edded2605ff94182"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-infrastructure-v11-catalog-2026-10-27-d4b5d86c67.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1379,
+      "sha256": "sha256:60674740419d4840ecb836fd6a35237e255f60b4006c6f3e0cd530e379a7a0ba"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-infrastructure-v11-crosswalk-2026-10-27-84aa93b92e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 12276,
+      "sha256": "sha256:752be18440e7352caba0de0274c64d3dc00141e424f6c4e0c42a5fc86dd6a233"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-infrastructure-v11-graph-2026-10-27-026e4f9fa0.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 506269,
+      "sha256": "sha256:d808397f4239324d2f2d2c363a644b52cc491a36fcde95baa374558ec03101fa"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-infrastructure-v11-identity-2026-10-27-783ed67957.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 80432,
+      "sha256": "sha256:f3b83bba598974a1414e61b035cf4fde4adf83726165f8e8e62d4ff6a8114e77"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Infrastructure-catalog-937ee390e6.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1949,
+      "sha256": "sha256:0e61a76db1210d94f99e23f906517b4d962769eff60cb45a47b2693a90b980c7"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Infrastructure-crosswalk-c200894b4e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 12288,
+      "sha256": "sha256:7e9f85c3c9fe72a0c28b0b8314c9c8715bf5bfedde3b210b4a5c2b6eb73c8679"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Infrastructure-graph-bcbf6f65de.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 509774,
+      "sha256": "sha256:ea2c941158c14e171528e452a2ba49ec40de55ee2c72cb0ffa2bbb8149de1ad7"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Infrastructure-registry-2532bbfb32.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 82573,
+      "sha256": "sha256:af183684e002e7d97980b8bd27c8b317dff038c2d6662d4e3acf52884089c8ce"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Infrastructure-catalog-2a181cc703.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2503,
+      "sha256": "sha256:8820209f381dcec8d97add39b4085505137ed8153f43aaea34f32175f459790a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Infrastructure-crosswalk-c805c56ef7.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 12288,
+      "sha256": "sha256:07efa46fcd6087bd1bbbab8d50d2d0168aada583e9b44a63b67733669206247d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Infrastructure-graph-4fe6ac3b90.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 513076,
+      "sha256": "sha256:ee0a6072452a6185042a8d1809715a038952059dbd2746e5c747939a5a911bd7"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Infrastructure-registry-71830ce0b7.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 83741,
+      "sha256": "sha256:57ac493a26b0c85a592b8c2a1b9678f66b57f8e8b9c733498b56e1aec9bbdf16"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 5954,
+      "sha256": "sha256:b9693562b50cc7fc0ae9ba390103ebac69672b2f78ec9f0cc2944a28816aa990"
+    },
+    {
+      "path": "canon/domain/domain-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 815,
+      "sha256": "sha256:216cf7668860dd6d934878c6405445ff56d9a67318b1d3b8ab8f711b56afc85c"
+    },
+    {
+      "path": "canon/domain/resource-basis.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2330,
+      "sha256": "sha256:1c1e470777fd084f4b3246b6f36e5362a70eb39c0d7b0d5d5082875faf934ca5"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1429,
+      "sha256": "sha256:d65e6351964af9150ac2eba95c9c7c38614029b926f073d45103a35b6d76b036"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 11068,
+      "sha256": "sha256:69b71868dfc1101c87e341cb300d81f4ec1af8455f4df732f45c77ca769153ff"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 75033,
+      "sha256": "sha256:b5ba786e3b3bc9cc53522cc90e35ad9c13aaddda40c03feafc04ddff49931b70"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 473476,
+      "sha256": "sha256:5b4d8af98d430d71d5f9b85afec6dfb08a943c05bff58a9f1ab854fffdd85c34"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1955,
+      "sha256": "sha256:3fa2ef54bba0f4802443b469e62213bf33f257199f843d1e39db0dfafffeb3b1"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 11068,
+      "sha256": "sha256:69b71868dfc1101c87e341cb300d81f4ec1af8455f4df732f45c77ca769153ff"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 76101,
+      "sha256": "sha256:bade294c1317e92d95ec0254019990b86871d806ca71cdab7c51b269f91ed91e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 476542,
+      "sha256": "sha256:b9a3b8f396445d0bc45071b8088d348453846c56a5842f0ac2f66bc57782d2bc"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 884,
+      "sha256": "sha256:501a179bde8f4f8c2a594dee939b5da9666e8e50602175a9aa0c40b037a7ea2f"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 11053,
+      "sha256": "sha256:8995e88d125bc306d71ea9997575c159a895257af753dbb88b6ac5ffe25f86d5"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 73069,
+      "sha256": "sha256:3cb8a71edfb934cce6eaed70f2adf01d810fc784bb42a5b1b4aa02aa00942448"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 470196,
+      "sha256": "sha256:c8f8f024539bd4583ce2901995979d82fc13750327b58ced160dc8978bb41c1e"
+    },
+    {
+      "path": "knowledge-base/corpus/boundaries.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1743,
+      "sha256": "sha256:86105abe4778481ea9727f158bf2eb31ac0544fc7f635c78fc6096b3e60dd068"
+    },
+    {
+      "path": "knowledge-base/corpus/infrastructure.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 212174,
+      "sha256": "sha256:96b0a36dbb0e858f39fbf8456662583994b55da1b865e6b9b771a5ed39e8ce73"
+    },
+    {
+      "path": "knowledge-base/corpus/invariants.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 2613,
+      "sha256": "sha256:3a38ed80d0589b1d88376b97fb9a8a3e0cc7eea6150d448f83f6400c3609d784"
+    },
+    {
+      "path": "knowledge-base/corpus/referents.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 55790,
+      "sha256": "sha256:dca42399dc03d788728ed00b31e489ef014eeb524c88d5334ed2ad1124da0f40"
+    },
+    {
+      "path": "knowledge-base/sources/source-catalog.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4439,
+      "sha256": "sha256:f1ca144afc8f929a1b2aaf20371daf45ea0fb6bb6f8ae89b2ed8624e58af5af5"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/domain-state.materialization.json",
+      "segment_key": "all",
+      "record_count_declared": 1,
+      "media_type": "application/json",
+      "size_bytes_declared": 1873,
+      "digest_declared": "sha256:ccd79c2a38f1f2b3d66451a5a29230acb59d63c55524193392a2dfb2f5044c40",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:infrastructure:resource:portable_epistemic_state",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 212174,
+      "digest_declared": "sha256:96b0a36dbb0e858f39fbf8456662583994b55da1b865e6b9b771a5ed39e8ce73",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/infrastructure.kristal-state.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:infrastructure:resource:identity_registry",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 55790,
+      "digest_declared": "sha256:dca42399dc03d788728ed00b31e489ef014eeb524c88d5334ed2ad1124da0f40",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/referents.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:infrastructure:resource:semantic_invariants",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 2613,
+      "digest_declared": "sha256:3a38ed80d0589b1d88376b97fb9a8a3e0cc7eea6150d448f83f6400c3609d784",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/invariants.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:infrastructure:resource:scope_boundary",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1743,
+      "digest_declared": "sha256:86105abe4778481ea9727f158bf2eb31ac0544fc7f635c78fc6096b3e60dd068",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/boundaries.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:infrastructure:resource:source_catalog",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4439,
+      "digest_declared": "sha256:f1ca144afc8f929a1b2aaf20371daf45ea0fb6bb6f8ae89b2ed8624e58af5af5",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/source-catalog.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    }
+  ]
+}

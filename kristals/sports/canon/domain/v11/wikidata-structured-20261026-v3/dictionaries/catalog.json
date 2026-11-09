@@ -1,0 +1,74 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Sports:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-20261026-rebuilt-v2:wikidata-structured-20261026-v3",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "a215842213b56990364b851efc6870ad595bf40a0afcafb73e514f70ac78a19e"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-fr",
+          "path": "wikidata-fr.jsonl",
+          "priority": 100,
+          "sha256": "a681df5a61e9af6e51edb22ed30b3fcc4b642c4b36c9ed600e40c2e07fa68bbd",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "7d650f68acdd0fa3ad21390fc7c5bcde683bc0c6f2ce25b2d6519681ccbaa731"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-und",
+          "path": "wikidata-und.jsonl",
+          "priority": 100,
+          "sha256": "891dae3772ddec33847b0c4cd155c562eb5c6e261acee8ca88dd8b523ff164ad",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "und"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-en",
+          "path": "wikidata-en.jsonl",
+          "priority": 100,
+          "sha256": "de30685092d201170d9329595a9a2389d2f7e9ccee31c0759a36341c30e894c9",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        },
+        {
+          "kind": "external",
+          "layer_id": "structured-fields-v3",
+          "license": "CC0-1.0",
+          "path": "structured-fields-en.jsonl",
+          "priority": 100,
+          "sha256": "3eaf356059ba9de58b0641bbc5bd7ea1679913e987240b50e0c83abfb1a68d09",
+          "source_snapshot": "wikidata-structured-20261026-v3",
+          "source_system": "kristal-structured-value-model"
+        }
+      ],
+      "tag": "en"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-sports",
+  "schema_version": "11.0"
+}

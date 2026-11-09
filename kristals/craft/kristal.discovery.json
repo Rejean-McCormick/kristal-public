@@ -1,0 +1,55 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:craft",
+  "classification": {
+    "primary_archetype": "ARK-04",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "6.40",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt6.40",
+          "label_en": "Industry",
+          "domain": "6"
+        },
+        {
+          "code": "3.05",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt3.05",
+          "label_en": "Culture",
+          "domain": "3"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-02"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "typed_craft_process_graph",
+    "organization": "unknown",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 1690065,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:6c0e9a632db292a75ff5715e4f5c89f38d806d3e2f4608a22e36c8b8a2f03f52",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

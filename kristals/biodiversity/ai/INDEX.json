@@ -1,0 +1,328 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:biodiversity",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:3c42470f5064e3d1fe873b470b91c37ecb93367a3a1914fd8fbfa1d2d594d115"
+  },
+  "files": [
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 312533,
+      "sha256": "sha256:c7caf8471981dd18abfa6967986c3682ab89033c08b089f13ccb3f5a2a772039",
+      "artifact_id": "urn:kristal:biodiversity:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 74152,
+      "sha256": "sha256:07baee9d6c00ffa7485c21b34b5b5838cbc003f4139617c512260ff2164e5bd7",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1984,
+      "sha256": "sha256:8b2d7db29a6aa6b6dadf4e7cc5935b81f98920b036fecff135bf8ba261ac0fa2",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1218,
+      "sha256": "sha256:8a7fda602e967006948c8f4119456de2a06a8514ef0bf13a4df812e478b8364d"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 8605,
+      "sha256": "sha256:198a86cc6954e2f34546c0f3c33fdce7a331a21cd4f894227b409d5f139cb403"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 2217,
+      "sha256": "sha256:33c808ed9b556348e4ee4ffcd9a9412d61fb3e33fbb640a9d980aa58a3dfe04a"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-fr.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 2286,
+      "sha256": "sha256:5b0458013f4f1a396f511cc7403ed549b0c5956f32d302a3a00926dacfd56b51"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-und.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 28189,
+      "sha256": "sha256:5478f19000bd24fe34518ca201248a66eca66220f27020b1dce00ae5c51f4c99"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 832763,
+      "sha256": "sha256:aa47d21f67c5b83b7bcce7cbcaf9021cd672e25f7d98ff68d80c6ce3edad185c",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/import-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 657,
+      "sha256": "sha256:092f4d8da34950a14b2d7092b27f4966547b207b9c06513e684c5a06fb97e643",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 127355,
+      "sha256": "sha256:85f36b49d23da29fe08b3f9cfe70bd1bb8832c9494457b8832c14b9348972161",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/source-ledger.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 306329,
+      "sha256": "sha256:992e9edc14373406650b5fa19c0ee8bbe5be0691b263b87ec969c6f3adcf5ea6",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 74756,
+      "sha256": "sha256:62014c61754af8e2ea5369485a4676b20d2898a472e8a6325ff3228c7a393068",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2432,
+      "sha256": "sha256:f812053a288ad48bee648a18eb9267b454c7e9745c7622df25c4a4374f8db1a3",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 5557,
+      "sha256": "sha256:86d97283cf04e3757fbfe634f8c238625a6c1cff8f511b65d1090ef1c7c5c3e7"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 8605,
+      "sha256": "sha256:198a86cc6954e2f34546c0f3c33fdce7a331a21cd4f894227b409d5f139cb403"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/structured-fields-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 4448,
+      "sha256": "sha256:cb17a5236d1b4d8a103a24a02ec52555cb73186e3673add6b1d33769799c88f8"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 2217,
+      "sha256": "sha256:33c808ed9b556348e4ee4ffcd9a9412d61fb3e33fbb640a9d980aa58a3dfe04a"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-fr.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 2286,
+      "sha256": "sha256:5b0458013f4f1a396f511cc7403ed549b0c5956f32d302a3a00926dacfd56b51"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-und.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 28189,
+      "sha256": "sha256:5478f19000bd24fe34518ca201248a66eca66220f27020b1dce00ae5c51f4c99"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 854815,
+      "sha256": "sha256:44651d519d28ce0dff8be436e88adf4897a0f28d001dbb6fae117ce8a7b19157",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 155378,
+      "sha256": "sha256:266e9e3324c7dd30d6c64927a92ef4627b2c7705b3e5eb0b91876750df4b619b",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/structured-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 18095,
+      "sha256": "sha256:77686c9ba2f526cf67c8a72150c93f78d17ae1bdb6851ccbf73268f76f0a43ba",
+      "artifact_id": "kristal:bulk:kristal-biodiversity:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 6016,
+      "sha256": "sha256:c18ae3bd8eac1bd60839dcffeb3cc07b53903a02e499723bd808d8255c703175"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 868,
+      "sha256": "sha256:e8d4f3e242d74e7913bdf4745469e4a694a9b934686ed8c4ae0351b0cfd54f66"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1227,
+      "sha256": "sha256:740ca0e4eacbf185a020f211478d65c2b8988f815d298f2b3a172c97fab3c303"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1074,
+      "sha256": "sha256:1ef59dbb0e9c34df02fae271ca5176708067581555177a4a9cc96809742679e3"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 908,
+      "sha256": "sha256:45ec31bf1dbb1b3a7ce9fa5b7367f96f0befa6186b3d4f16712d8ae6d2c0c420"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1360,
+      "sha256": "sha256:2c037b1a4cad4101f592a05f9558a370b889fbf17a7363f7cdb4f5be839a9102"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 811,
+      "sha256": "sha256:1507bd5fcbbc2c4cbbfa43320acaf85e06a1f7ecdf7a15199475c0c5e27cac83"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 851,
+      "sha256": "sha256:7a37ec2cd85b5ad317f576c486f0c42c8102d45de858baf78289b7936565b826"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 648,
+      "sha256": "sha256:c1fd41b18a810a531502bed50455ba63af5f0e78be7cb6a9682d171137dba46d"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3770,
+      "sha256": "sha256:a8c422026823712490181f65b0af071b29a76f47d4c9d413fd6f293f9c036b3c"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 860,
+      "sha256": "sha256:a619553656f3cf4253efa9ba34f17ba4b0811d88919bfc7117a5e0317ac6c37e"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 5577,
+      "sha256": "sha256:d2fb225a78522729b6c251b9c4495a2af5f18c78601d9f2be2dc66b333d87c47"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 5498,
+      "sha256": "sha256:7f68991060abd39e1be7772f425c80af1d4936a189cf46abb03510904c8eebb3",
+      "state_ref": "urn:kristal:state:biodiversity",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:3c42470f5064e3d1fe873b470b91c37ecb93367a3a1914fd8fbfa1d2d594d115"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

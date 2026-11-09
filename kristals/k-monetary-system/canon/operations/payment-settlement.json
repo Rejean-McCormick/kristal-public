@@ -1,0 +1,36 @@
+{
+  "format": "k.monetary.operation/payment-settlement/0.1.0",
+  "id": "urn:kristal:k-monetary-system:op:payment-settlement",
+  "architecture": "online_first_logically_central_ledger_with_replicated_operational_infrastructure_allowed",
+  "money_model": "K_M balance exists on the authoritative settlement ledger; QR/card/phone are access and authorization surfaces, not the money itself.",
+  "flows": {
+    "merchant_presented_QR": [
+      "merchant_creates_payment_request",
+      "QR_encodes_merchant_amount_nonce_expiry",
+      "payer_scans",
+      "payer_authenticates_and_authorizes",
+      "server_validates",
+      "atomic_debit_credit",
+      "receipt"
+    ],
+    "consumer_presented_QR": [
+      "consumer_presents_non_secret_account_or_ephemeral_token",
+      "merchant_requests_amount",
+      "payer_confirmation_or_policy_limit",
+      "server_validates",
+      "atomic_debit_credit",
+      "receipt"
+    ]
+  },
+  "security_invariants": [
+    "No reusable spending secret in a static visible QR by default.",
+    "Payment requests include nonce/idempotency protection and expiration.",
+    "Debit and credit are atomic.",
+    "High-risk transactions require stronger authentication.",
+    "Lost/stolen credentials can be revoked without rewriting ownership history."
+  ],
+  "offline_mode": {
+    "status": "deferred_research",
+    "reason": "Offline value introduces double-spend and reconciliation risk; any future design must be separately modeled and bounded."
+  }
+}

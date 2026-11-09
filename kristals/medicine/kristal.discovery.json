@@ -1,0 +1,49 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:medicine",
+  "classification": {
+    "primary_archetype": "ARK-01",
+    "arketype_version": "1.6.0",
+    "organization": "single",
+    "structure_mode": "archetype",
+    "variant_description": "Graphe de référence des états et relations cliniques, preuves et incertitudes. Une chaîne de navigation clinique n’est ni un protocole, ni un diagnostic causal automatique. Sources : docs/01_SEMANTIC_BOUNDARY.md; docs/02_NATIVE_MODEL.md.",
+    "supporting_archetypes": [],
+    "classification_source": "assistant_structural_proposal__not_authority_or_validation",
+    "verification_status": "NOT_EVALUATED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "2.80",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.80",
+          "label_en": "Medical sciences",
+          "domain": "2"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "clinical_state_evidence_reference_graph",
+    "organization": "single",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 3608505,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:841960858f27b94639c9074d696840494f76d9668163b824fab7f7b6ea2bcc6f",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

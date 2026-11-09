@@ -1,0 +1,151 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:solar-system",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:436bd792f347185c3e21da9ef3d11400f7e32b113c6eff2b49b32fe3096f1d9b"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:solar-system:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      },
+      "authority_ref": "urn:kristal:authority:solar-system",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2c3eb4b347ad7afce1f6c3aa563d1f3eb38264a703f7f87a36ad3821affae581"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4b51752cf2b6ec473613e4dde59261d2146439f23bb1943da22194ba864abbb1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:abcafc2bbc7ab68686d32af3209975d87d70b9e3691d4660f8101b8c7a4a2e34"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b20fac73c3d2f124ac95654237c1edbd422a2297ac37b564de047e1e1d98a280"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:aabd77310d37e27c568aeda640ca6f057cebb7572cb8a82c5846b43d60d6686e"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:57f56890098b36d25573d8734995a889001b38bd00ac440fa8eba07c586b66bc"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2a45bc483457c1207c2daa2a8accb2ef6634095ef40b84bd241436b0ac850827"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f92f65b88b8cd09a4b1f84b06c5951465a7014f42d774c606fa147bdb403a6cd"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e05250a62509ef5ec891a6cc0d2a4f49be4dc37d1d46adf32a9983cf8b7ae07a"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:697d30da987c64a7274a658339199a9ca3e520a9c3b5b9862db93712bdf538ad"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c533777bc50b4bb482c5a1e756770d1cc2001a0738b066dcb89ae008dbff3e91"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4793a3d2bcae9aceb01f8d86569293d4030131c924d5c8c43e7a1d8a39621e92"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "solar_system",
+    "kristal_ref": "Kristal-SolarSystem"
+  },
+  "authority_ref": "urn:kristal:authority:solar-system"
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:pi-theory",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:20122cff77651fdd0a3767a9a9adafdbb86779cd3140eb4699ff67088c0d7477"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:pi-theory:resource-basis",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:pi-theory",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0aef1b6a1952b7f89738f3b8a6ffafbf8f07d804ce4cd40d1c1dd892b9e1e9a5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:pi-theory:semantic-state",
+      "logical_contract": {
+        "id": "pi-theory.semantic-state",
+        "version": "9.0"
+      },
+      "authority_ref": "urn:kristal:authority:pi-theory",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:57ce2796ff585f794bd2437491276ccbff40e3f028bc203f720a94f60759d6ed"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "pi-theory",
+    "edition": "0.2.0"
+  },
+  "authority_ref": "urn:kristal:authority:pi-theory"
+}

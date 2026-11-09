@@ -1,0 +1,58 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:metrology:state",
+  "classification": {
+    "primary_archetype": "ARK-01",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-03"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "2.20",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.20",
+          "label_en": "Physical sciences",
+          "domain": "2"
+        },
+        {
+          "code": "2.05",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.05",
+          "label_en": "Scientific approach",
+          "domain": "2"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "metrological_traceability_relation_graph",
+    "organization": "unknown",
+    "materialization_profiles": [
+      "kristal.materialization/inline-json/1",
+      "kristal.materialization/kristal-state-v6/1"
+    ],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 10754446,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:df9c5f045a8334eccda58d2cce332c72ff47f450db7b299166202ad762e3ae00",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

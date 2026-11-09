@@ -1,0 +1,62 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d03",
+  "protocol_id": "D03",
+  "title": "D03 — Allocation des excédents : ristournes individuelles vs fonds commun",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:C01",
+    "source:multiangle:S06",
+    "source:multiangle:W01",
+    "source:multiangle:W03",
+    "source:multiangle:W05",
+    "source:multiangle:W20"
+  ],
+  "depends_on": [
+    "D02",
+    "canon/domain/distribution-model.json"
+  ],
+  "validation_gates": [
+    "excedents_distribuables",
+    "incidence_distributive",
+    "maintenance_biens_publics"
+  ],
+  "sections": [
+    {
+      "heading": "Problème précis",
+      "level": 2,
+      "body_markdown": "La ristourne de Desjardins a une composante fixe « produits » (jusqu'à 75 $) et une composante variable selon produits et volumes (comptes, crédits, assurances, investissements); ce n'est pas uniquement un dividende proportionnel à la fortune. [W03] Les bénéfices d'un parc, d'une bibliothèque ou d'un centre communautaire sont répartis selon les usages réels, et ne bénéficient pas automatiquement davantage aux plus démunis. Il faut mesurer l'incidence nette."
+    },
+    {
+      "heading": "Formule de simulation (non formule officielle de Desjardins)",
+      "level": 2,
+      "body_markdown": "Avec `E` = enveloppe *légalement* distribuable après réserves/ajustements, `a` = fraction des excédents allant au FADM (`0 ≤ a ≤ 1`), `I = (1−a)*E` et `C = a*E`, seulement si le vote et les normes permettent cette variation.\n\nPour le décile `d`: `net_d = cash_direct_d − contributions_perdues_d + accès_monétisé_justifié_d − coûts_indirects_d`. **Important :** l'accès à un service public ne crée pas de revenu monétaire et une valorisation monétaire doit expliciter ses hypothèses, demander une enquête et éviter de compter à la fois valeur de l'actif et usage."
+    },
+    {
+      "heading": "Exemples mathématiques sans prévision",
+      "level": 2,
+      "body_markdown": "Enveloppe fictive `E = 1 000 000 $` :\n| Fraction communautaire a | Direct I | Collectif C | Observabilité |\n|---:|---:|---:|---|\n| 0,10 | 900 000 $ | 100 000 $ | baseline |\n| 0,25 | 750 000 $ | 250 000 $ | variations du service |\n| 0,50 | 500 000 $ | 500 000 $ | conséquences de la perte directe |\n| 0,75 | 250 000 $ | 750 000 $ | accès, maintenance, équité |\n\nLa caisse de Québec a publié en avril 2026 une ristourne totale de 6,2 M$, dont 5 397 688 $ individuellement et 794 007 $ FADM [W05]; cet exemple **ne** peut pas être extrapolé mécaniquement à toutes les caisses."
+    },
+    {
+      "heading": "Choix des projets",
+      "level": 2,
+      "body_markdown": "Audit de besoins local, exposition des options, devise de référence et coût total de possession (construction, terrain, entretien pluriannuel, fonctionnement, assurances, taxes, risques). Déclaration des conflits d'intérêts des organismes demandeurs. Critères d'accès : gratuité / prix, accessibilité handicap, transport, qualité réelle et financement des années futures."
+    },
+    {
+      "heading": "Indicateurs incontournables",
+      "level": 2,
+      "body_markdown": "1. Montants réellement reçus par ménage et décile de revenu ET patrimoine (sans collecter plus de données que nécessaire).\n2. Taux de fréquentation des projets par zone et revenu (anonymisé), bénéfices qualitatifs.\n3. Coût par visite/utilisateur unique, coût récurrent, pérennité à 5 ans.\n4. Effets redistributifs nets avec contrefactuel et intervalle d'incertitude.\n5. Conséquences pour les personnes qui utilisent la ristourne pour des dépenses essentielles."
+    },
+    {
+      "heading": "Condition d'arrêt",
+      "level": 2,
+      "body_markdown": "Un projet collectif ne peut recevoir des fonds s'il n'a pas de gestionnaire d'entretien, de mandat légal, de calendrier réalisable et de budget complet."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D03_RISTOURNES_ET_BIENS_COLLECTIFS.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

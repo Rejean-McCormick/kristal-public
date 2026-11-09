@@ -1,0 +1,24 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-france",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:abd1fe8fc65dfa6730886124c4b0cb159bf69ed8a46ccddb5dda3798d7e0f880"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:pouvoirs-france:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:pouvoirs-france:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:10f8e78144b6eb5d2f1ffda647aa139336f48594f615171bd17a571b0874a7c6"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

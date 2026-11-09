@@ -1,0 +1,122 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:architecture:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:09d7e283f66c5c414f8a345c8c14329f68c2348587998f1343771bb394ab33b1"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:architecture:artifact:canonical-state",
+      "logical_contract": {
+        "id": "architecture.canonical-knowledge-state",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:16bbec21d58cfc83324592982163f3b5c37219e3eb0ee3e9c652cbccc1546d96"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:architecture:artifact:identity-registry",
+      "logical_contract": {
+        "id": "architecture.identity-registry",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3b5aec97601de4f04645a565c45cb6d763c2bf414b02a0c7caafccf80be61926"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:architecture:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:03956a504f44a2c11b21f2591a2482a7d455365a3071736ab326c88916925148"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:architecture:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:553556b50536691c7f51c36bf0a9c80c3c5f2cc718fc0674c2a976c3931fa4b0"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:architecture:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:38fbad27a5bb661eb9bb9e8004c2de66c7d3d320a96845e8f80c1a18e8db7336"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:architecture:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:898d360f51a521e51f8c7fe0f8c0846aa0ca9649a67cabd1b95249a378249d7a"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Architecture:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ee0749ed2a923aa80182c75a372b0fd4068c8c4c31c76ca9dc00663618b017ea"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Architecture:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:999e7c7795491611e27d0e866bd417e20461e0d032fec130db6a97501eebc85e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Architecture:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f0b7617351e66fa4bccbf61bb3df90f3e93cd1876844328aeb9a0522f1730191"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Architecture:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:888b2d67b6fbc59aab7d1a711adb4b9a9ecd4b23427af421ae7f8ddf745c7a2f"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:agriculture:artifact:editorial-sources:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:agriculture:artifact:editorial-sources",
+    "logical_contract": {
+      "id": "agriculture.editorial-source-bundle",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:43996919759b4838c0aa2d7ed57a01921bb146ffba54b088ab20726754c8bb60"
+    }
+  },
+  "profile": "kristal.materialization/native-json-bundle/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "knowledge-base/sources/source_catalog.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:9cadee9d11dbed6149ddd033de80f0439a776115e03d00e142c7bac267138572",
+        "size": 5712
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/source_catalog.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "knowledge-base/sources/source_catalog.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "agriculture.editorial-source-bundle/1.0"
+  }
+}

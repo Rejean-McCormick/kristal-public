@@ -1,0 +1,374 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Maritime",
+  "run_id": "acad51df793752b3",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:29:51.181565+00:00",
+  "source_labels": {
+    "project": "Kristal-Maritime",
+    "namespace_id": "kristal:bulk:kristal-maritime",
+    "search_labels": 352,
+    "labeled_entities": 176,
+    "labeled_properties": 0,
+    "domain_entities": 176,
+    "domain_properties": 31,
+    "unlabeled": [
+      {
+        "legacy_id": "maritime.affected_by",
+        "semantic_id": "KP1206745042776244292672154"
+      },
+      {
+        "legacy_id": "maritime.can_affect",
+        "semantic_id": "KP996028751218979472143725"
+      },
+      {
+        "legacy_id": "maritime.can_change",
+        "semantic_id": "KP189816617545542398823781"
+      },
+      {
+        "legacy_id": "maritime.can_influence",
+        "semantic_id": "KP375431541272236469372924"
+      },
+      {
+        "legacy_id": "maritime.composed_using",
+        "semantic_id": "KP743136073603951788039469"
+      },
+      {
+        "legacy_id": "maritime.connects_axis",
+        "semantic_id": "KP133173880030725345147957"
+      },
+      {
+        "legacy_id": "maritime.constrains_or_informs",
+        "semantic_id": "KP1132285828066363255493797"
+      },
+      {
+        "legacy_id": "maritime.contributes_to_management_of",
+        "semantic_id": "KP702132170325373747362976"
+      },
+      {
+        "legacy_id": "maritime.depends_on",
+        "semantic_id": "KP1204262132630418853756449"
+      },
+      {
+        "legacy_id": "maritime.distinct_from",
+        "semantic_id": "KP1039620920181473666905452"
+      },
+      {
+        "legacy_id": "maritime.geometry_parameter_of",
+        "semantic_id": "KP325951391551307371352630"
+      },
+      {
+        "legacy_id": "maritime.has_axis",
+        "semantic_id": "KP758983450123151981212814"
+      },
+      {
+        "legacy_id": "maritime.has_definition",
+        "semantic_id": "KP1035878531690731662392125"
+      },
+      {
+        "legacy_id": "maritime.has_interface",
+        "semantic_id": "KP1013931585384645216427841"
+      },
+      {
+        "legacy_id": "maritime.has_pollution_relevance",
+        "semantic_id": "KP1086474700666771136469854"
+      },
+      {
+        "legacy_id": "maritime.includes",
+        "semantic_id": "KP274014391095248317315475"
+      },
+      {
+        "legacy_id": "maritime.influences",
+        "semantic_id": "KP27099515372452125502548"
+      },
+      {
+        "legacy_id": "maritime.informs",
+        "semantic_id": "KP622387047240316594717291"
+      },
+      {
+        "legacy_id": "maritime.interacts_with",
+        "semantic_id": "KP882445048624933259577935"
+      },
+      {
+        "legacy_id": "maritime.is_a",
+        "semantic_id": "KP1176924185020127145837631"
+      },
+      {
+        "legacy_id": "maritime.is_anchored_by_source",
+        "semantic_id": "KP733352337948323844155121"
+      },
+      {
+        "legacy_id": "maritime.managed_by",
+        "semantic_id": "KP727764003826652356642293"
+      },
+      {
+        "legacy_id": "maritime.may_be_subject_to",
+        "semantic_id": "KP647593039228179015178357"
+      },
+      {
+        "legacy_id": "maritime.may_contribute_to",
+        "semantic_id": "KP143748947053289425725654"
+      },
+      {
+        "legacy_id": "maritime.may_use",
+        "semantic_id": "KP14917674834315374500761"
+      },
+      {
+        "legacy_id": "maritime.organizes",
+        "semantic_id": "KP674036622684671930593186"
+      },
+      {
+        "legacy_id": "maritime.requires_or_is_handled_by",
+        "semantic_id": "KP914854986819369699061623"
+      },
+      {
+        "legacy_id": "maritime.supports",
+        "semantic_id": "KP1068393193604813213038347"
+      },
+      {
+        "legacy_id": "maritime.typically_carries_or_supports",
+        "semantic_id": "KP997083135747607340804475"
+      },
+      {
+        "legacy_id": "maritime.uses",
+        "semantic_id": "KP955173679998068785625382"
+      },
+      {
+        "legacy_id": "maritime.uses_or_extends",
+        "semantic_id": "KP416847085215965924786461"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "457b3db3bb89d7d4d4ce63b63b10c9ae9148b7d8e4a4de977a49268bf0fe1fc4",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Maritime",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "maritime",
+        "subdomain": "vessel_environment_navigation_cargo_operations",
+        "language": "mul"
+      },
+      "native_model": {
+        "kind": "sparse_multiplex_relational_graph",
+        "description": "Navire × environnement marin × navigation × opérations et cargaison",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "classes de navires et équipements",
+        "ports et navires représentatifs",
+        "Respecter: Conserver distinction navire, port, chargement, navigation et réglementation."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Modèle explicitement multiplexe : navire × environnement × navigation × cargaison/opération.",
+        "guardrail": "Relations éparses significatives; pas d’outil de navigation actif ni de conformité implicite."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.75,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Maritime\\acad51df793752b3",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "f784bfa0f1ad5960b88937b438d42d6ef83b5e258bfb7b67a64e2e443ad82602",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 352,
+    "distinct_concepts": 176,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "f784bfa0f1ad5960b88937b438d42d6ef83b5e258bfb7b67a64e2e443ad82602",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 352,
+    "distinct_concepts": 176,
+    "cached_queries": 352,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "unique_exact_candidate": 74,
+      "saturated_exact_search": 24,
+      "ambiguous_exact_candidates": 20,
+      "no_exact_candidate": 52,
+      "cross_language_conflict": 6
+    },
+    "tentative_unverified": 74,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "f784bfa0f1ad5960b88937b438d42d6ef83b5e258bfb7b67a64e2e443ad82602",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 74,
+    "distinct_qids": 74,
+    "qid_inventory_sha256": "a762ede8fea24a8059754ed5b23d304d0a9931e093a76bcc6194aabb11b10570",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 74,
+    "qids_acquired": 74,
+    "new_batches": 1,
+    "reused_records": 3,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Maritime\\acad51df793752b3\\full-evidence\\a762ede8fea24a80",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 74,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 1151,
+    "raw_subject_entities": 74,
+    "related_unapproved_qids": 234,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-maritime": 1151
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "6038d4aa3dfa18880ffd9f1c6975ca5054974b445db9a1f642e3309ad683779f",
+  "proposals_sha256": "2bf78e4ca419625aff960b9773f8f95d60632eefcaa706ae11f8dd053d84857d"
+}

@@ -1,0 +1,409 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:k-monetary-system",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:53cdf568c0a7fee24d2993968b09a25fd522cdafc6dc96877864023fb1982c9b"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:system",
+      "logical_contract": {
+        "id": "k.monetary.system",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9d69baae73d6e85463fd24058c0e6a4a822ea6259dab4d10df87c42c11bf245b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:constitution",
+      "logical_contract": {
+        "id": "k.monetary.constitution",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:32bba9578b56041412201dc9af730d5f345a0fd86e81e25a7fad2b298497414c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:statechart",
+      "logical_contract": {
+        "id": "k.monetary.statechart",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f817f6f964974a3819cbc3dc516e4bf81de40306603ce83a8f37d39d7319f6b7"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:causal-model",
+      "logical_contract": {
+        "id": "k.monetary.causal-model",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:af5587dc100057c71d45f3b1d97417145827ed82ad287217d9fcc4eab474940d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:distribution-model",
+      "logical_contract": {
+        "id": "k.monetary.distribution-model",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9fcaeab6446b2b3e8c92e036c440a8ee1f83f38dca6beb30a273944a24f7cfc3"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:event-ledger",
+      "logical_contract": {
+        "id": "k.monetary.event-ledger",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b188cbb3b29331dfae825dc57bb48f707e8dd3853cb6863171b058605c98cf68"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:smart-vote-interface",
+      "logical_contract": {
+        "id": "k.monetary.smart-vote-interface",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3a8fa95360c59aa2cc48686b5011fc843ffcd1320f52f1d513b34d122d853130"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:monetary-policy",
+      "logical_contract": {
+        "id": "k.monetary.monetary-policy",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ef32d87a758a939ceb2c8c66000f399db27e257478a8c1d1de11ca661e03a593"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:payment-settlement",
+      "logical_contract": {
+        "id": "k.monetary.payment-settlement",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ea5f2fa628b96007ecc067a96f54ad89dadf43271d9789dbc679bedb1ec2a0de"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:social-dividend",
+      "logical_contract": {
+        "id": "k.monetary.social-dividend",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:238aac03de1deaa2383cf0a6cd18444e5c6623d3bedafe74ce032d1f549e228c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:debt-transition",
+      "logical_contract": {
+        "id": "k.monetary.debt-transition",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c56480d613a441a918ad6935661a2679c6c1e55eed646e3ca4ea0e3301c83af4"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:simulation-model",
+      "logical_contract": {
+        "id": "k.monetary.simulation-model",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:cddfd942aac7ce4fe70a4f4604a7cb33f4ddd49d7c351c8f3c308db9d28a3d94"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:assumptions",
+      "logical_contract": {
+        "id": "k.monetary.assumptions",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:aa54aa8c8fc343348c7218e408fc560643446ec42e426f177fe3ddbe346f9df2"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:hypotheses",
+      "logical_contract": {
+        "id": "k.monetary.hypotheses",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ae0c80e5c00518691b25c8785bec38f9ccb00bf8aea6edb8b27a340cf0fa5c56"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:counterarguments",
+      "logical_contract": {
+        "id": "k.monetary.counterarguments",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:aac824f8105fd6e6235239086f7d10bcfddca21d139f584113a87fa65ae691b8"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:evidence-register",
+      "logical_contract": {
+        "id": "k.monetary.evidence-register",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f18bfcd0860ca7430741fecf7bb2961e5da08ea0013eb0f6b46529d3c76eec05"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:validation-state",
+      "logical_contract": {
+        "id": "k.monetary.validation-state",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6a52672870d7844b766084ae4d970d859aca65a84c63a68fda6808c821aec02c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d01",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d01",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b4b1f00ff5abc26f811362e81d73c288c47d02bb0ca58283bc03f3f0ef6b05d5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d02",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d02",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:226427f05563ac6d461915f7e836dc87906b0d9f37e31d55bd76e1f4b2b5e39d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d03",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d03",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b0b5dfd85f5d5130fdaa1b755270ef048b3ae31122e4a84c3db7faaea70c2536"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d04",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d04",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0c014c34a5e893f18f84c0bd80b0e905fdae217cf8049217bdb26d41081c32ab"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d05",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d05",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:09c7b9543fa5a807a2484bd49181a73795a6f26fc4c85b77a10e539a3a242853"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d06",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d06",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:cfceb4fb8d02d41a58283593eae2d392cf303eaf0014c55ba7c0d71e27a2a1fd"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d07",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d07",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:93d621444a03ec368614962a519dc7c01b3842bd018eee7da639caefc5e302fe"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d08",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d08",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:acb091ba0bd7197f9c3025f925dd72a16c157cd165309971fa5f438cb011bc89"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d09",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d09",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:dc85d1bb6ca3dc28bf2fc08f3194f9fcf5e5f7c7aca3ca5aac6d594edaa9c527"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d10",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d10",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:73a6b365c9ba5bee641f77d7325792f6212af83c4fa50b763d7e1463f6fb680e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d11",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d11",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b90315f5129abbbab13da3d0d0f61e8110d309e6f816ca9d0ed161e69c36b538"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d12",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d12",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:94b1dcd629976072d038f4741434428359905f132bff50f824c1f6d48e1797dd"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d13",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d13",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:22eccd1678f151314ff8d1c76a6b6ee3efe19699809dbc3452bca8fdeeb20f46"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d14",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d14",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5ce5f11a4d1163a22d5113cf00d2dcbc4542d44098fe1919490dc24590f96d23"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-provenance",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.provenance",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fe02d10cef87fe87de8c67478f49f5c88b360837b7951ef49c25f36b3133b934"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-claims",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.claims",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bcc01e2684f02bb96cb7d5e02ff556ed915f3212d45b34df7e6872c4f32ae4c1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-arbitrages",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.arbitrages",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f12a1279cc9957909b42e60d9b10c301e1e19fa4c3a847597e704fc554e8ca7d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-risques",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.risques",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c9a7163051e3f86759907c7d7695f0322fd630965d071eadf13722e8a1f058cf"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-graph",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.graph",
+        "version": "0.1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:63fb470a00211b441a5334508e2fb5ac94133001a39e1e00d6db2e4ed4d057db"
+      }
+    }
+  ],
+  "references": [],
+  "parents": []
+}

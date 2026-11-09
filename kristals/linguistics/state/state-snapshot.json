@@ -1,0 +1,161 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:linguistics",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:9b3ad6c57fdfd355d33f55eff2be2cb1cac0590d30352ca0c2efa14d47b563a2"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:linguistics:artifact:canonical-knowledge",
+      "logical_contract": {
+        "id": "kristal.compat/v6-portable-state-logical-projection",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:d12d763a681e3303b102738ef77c2542999f30613be95f79d0b09b771e3e1a3d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:linguistics:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:83f3c5aff4de13a973517cbb0fa7d96a728765d46d383ba3ce27ae587c2f158e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:linguistics:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:911b427ca3e066b945395fff7d4d793cea9a3f731cf52b89a895b00632febbb3"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:linguistics:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6f80a23dc359709ea927ceda403654e1b2c6081f69107bd419b45e6aa72eb946"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:linguistics:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bc9622ffb27e9a7b9930196c4ae1e67ac16f46f1dff10be46b282d6736315b50"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Linguistics:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:21c3938ee876302b90be76bf26b0cb462aba6787d59c882df5842c3b3a69041b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Linguistics:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5694ff079805b58af70e6b508a6c153e68765d1f72a715cf28c266359ded7c5f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Linguistics:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f29222e72e737cecbc865ce01488d601860e3aaa13f115d8beb87e16679e1660"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Linguistics:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5cab35020185b9e994eb2efdf9fcd2da675471db508898a08832e3b269ecb9ec"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Linguistics:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bbad06d7d723829e55a62e8ca89abfc8cd71f7a22344703464af943d9e62dc2d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Linguistics:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8a72fa059c132d1d8603e25c68730e213a7510812471c3ad311982ab60abebae"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Linguistics:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f29222e72e737cecbc865ce01488d601860e3aaa13f115d8beb87e16679e1660"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Linguistics:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:948c88923c2369edf2c3ec8d112e3d228878c2361f4446b1ad9b41fecc1d1d2d"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "science",
+    "subdomain": "linguistics",
+    "language": "mul"
+  }
+}

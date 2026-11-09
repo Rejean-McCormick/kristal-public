@@ -1,0 +1,39 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:craft",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:92fbb598e2452b02b0bcec5df97e352be44e899bed1f713c428d72775d49c8d5"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:craft",
+    "label": "Kristal-Craft — matière → outil → geste → opération → objet",
+    "domain": "craft",
+    "orientation": "matière → outil → geste → opération → objet"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Le corpus canonique local et ses assertions historiques engagées.",
+      "Les identités, prédicats et coordonnées explicites de son domaine, tels que documentés dans knowledge-base/."
+    ],
+    "does_not_own": [
+      "Les publications, les mises à jour et les licences des sources externes.",
+      "Une vérité empirique supplémentaire que les sources et les assertions locales ne démontrent pas.",
+      "Les matérialisations, index ou projections comme autorité indépendante du canon."
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 6,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

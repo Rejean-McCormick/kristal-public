@@ -1,0 +1,161 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:ocean:state",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:4c9232984a5dae6eec23470c5c293788869748223dec5d8001da93d5fb79b46b"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:ocean:artifact:epistemic-state",
+      "logical_contract": {
+        "id": "kristal_state.hash_target",
+        "version": "6.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:37047f7bffc021ec765e472c77b2c003317de719f5b005108d5db30710e19810"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:ocean:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e32696898ab6dda0227246e296a6505f55872b8f655ce733798f86cc200630c7"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:ocean:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:938655e862e0d6c2112a7676347f0c9f730ecc785928f413987c48c33f327e08"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:ocean:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b5bd4c904abce00e183e3d4a1e72e2fcd171b16b0a7ee012dc17b37f1470d160"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:ocean:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8448f65573a6b78e740dd045fdb6ef908bb9f89df7c125e27f1cb423017fff24"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Ocean:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:33a1e818f9485faec08e134e6e0e0096f137126f4097609c01a7803478da7fe1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Ocean:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f518c203b84863f18bf3405d02e002c1cbe2fd2b0d791853d0dffb4b45e25634"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Ocean:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8084bc7cadd12c201a06981cc19bd12b40e4cfc6fd8e34ec93d8a41abc448697"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Ocean:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b17bb5386504adad47a4b44b48162b4c6411e1918799944dfc48ba84b16d12dc"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Ocean:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bdb4fa8305bb7c908e8f12678ec5d33a606c27ac277947ff5fc3fab8aafcf54f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Ocean:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5d369b256f11d14a328d825f7631983d7d2d9c69e2ea499a8b5fc4c6d8083e6c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Ocean:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8084bc7cadd12c201a06981cc19bd12b40e4cfc6fd8e34ec93d8a41abc448697"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Ocean:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f1bf8f768d0222a1e2f6c7ab255a3c8baac5a306a9f810f5e666f9a453198a08"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "oceanography",
+    "subdomain": "water-masses-depth-temperature-salinity-circulation-chemistry-habitats",
+    "language": "fr"
+  }
+}

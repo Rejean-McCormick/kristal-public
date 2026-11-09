@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:nutrition:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:b206cdf0af0c1d5daf116b2c95d5abbe54d335fd1e541399d11a9c092372e367"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:nutrition",
+    "label": "Kristal-Nutrition",
+    "domain": "nutrition",
+    "orientation": "aliment → nutriment → digestion / absorption → métabolisme → besoin → effet physiologique"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Corpus statique et modèle d’assertions du domaine nutrition",
+      "aliment → nutriment → digestion / absorption → métabolisme → besoin → effet physiologique",
+      "identifiants sémantiques, provenance et état v9 historique"
+    ],
+    "does_not_own": [
+      "ne pas faire du modèle statique une recommandation clinique individualisée",
+      "les dépôts sources externes et leur publication",
+      "une autorité créée par l’IA ou la matérialisation"
+    ]
+  },
+  "canonical_artifact_count": 14,
+  "source_count": 9,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 2,
+  "local_materialization_blob_count": 2,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

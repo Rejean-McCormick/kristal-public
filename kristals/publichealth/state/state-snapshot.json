@@ -1,0 +1,161 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:public-health",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:852b67d5035c992a15bc1701608143cce7568a42c3236e521b9595d78ba4b1f2"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:public-health:artifact:canonical-knowledge",
+      "logical_contract": {
+        "id": "kristal.compat/v6-portable-state-logical-projection",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6cb098e967a88ae3145aed9979cc963f78e2e34ac7b2cb92e55aa04e1104723b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:public-health:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6b545b873aebf3285553a56b67e7187f4d60f2882b53b1e01e07d08e52afd03f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:public-health:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c2fa8b923ed45d67a16291a31d99a43a1b958c89377883d7597cb3b2953ff998"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:public-health:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:06cc329d4259710d6b22b2828841777d93e43795fbd7c642d021405294bb8e3c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:public-health:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:41b742c8c3baaf3cd4f7d6fd6c033426204632a29ade67cd6acf8180d9035f11"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-PublicHealth:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1caabcc969f774d233b4c261639b7b98364ddd3c4f36342250907173fb3e6252"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-PublicHealth:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:40bd66b033b468cd9fd614395bd0a04c4bfe247f25be1f043bcd2a707d4e6cf7"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-PublicHealth:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f0a2b7f35466504d6b5d6d786f90729c38bcc5c5a2c2f6b88740055d5e3834e1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-PublicHealth:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a9f4619b278a613b9788095236d96c14172e2ef9e2e40730beb9fbb89087e7c5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-PublicHealth:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1223486c389017b86228a09579664a176ee203c0d8e59c1420d1dc977456b48e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-PublicHealth:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:d372e263ec645448499584cb7cd4d74d7c1f855456900dd566a4acd351205eba"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-PublicHealth:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f0a2b7f35466504d6b5d6d786f90729c38bcc5c5a2c2f6b88740055d5e3834e1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-PublicHealth:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3480c0d84cad3eff2a8158c663cf0d00f2459ab15664ea2bd471b086a270510c"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "public_health",
+    "subdomain": "population_health",
+    "language": "fr"
+  }
+}

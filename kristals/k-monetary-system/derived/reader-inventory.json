@@ -1,0 +1,547 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:k-monetary-system",
+  "source_fingerprint": "sha256:8e6d95d12fa8aba05ac099dc6f1a33465a7f615b7949d56fcbae6dae13a096d7",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 348147,
+    "tracked_file_count": 73,
+    "max_tracked_file_bytes": 32380,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 36,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-assumptions-0dc6105aaf.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1891,
+      "sha256": "sha256:b774ebe5ac734129697382b75863c241e25374ffe06ded2456525b3c8a72a27d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-causal-model-56aaeb4abe.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 6011,
+      "sha256": "sha256:2b4eb09b60d5afcfd39ba3255ff2198f48ba36ba81b2fdc1656df254f820b6ad"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-constitution-39088c4b53.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2882,
+      "sha256": "sha256:eb390338e0b41806216151325a4603b93216e865424a82849248b28dd5200b81"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-counterarguments-b781baf50f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2789,
+      "sha256": "sha256:6b19c4cd4e39714b8c508d4ef0d3d4218720c9844c1e755ad35be8edb8eb2668"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-debt-transition-7214dd6791.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2480,
+      "sha256": "sha256:d0abc67ce5b8f72729e09bdda8351b1d2acaddd3a21e0f60585a9717b88c8b4e"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-distribution-model-1a30db9508.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2761,
+      "sha256": "sha256:1e349636816f6868b66185e3f3a67168ba2125dee5be098e265ebfa2dcb68096"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-event-ledger-9de9278b51.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1186,
+      "sha256": "sha256:24e3979cba458384d6e6ba7185769215a6690d448c72e73c95ff561111c3f748"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-evidence-register-f22e5efac1.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2835,
+      "sha256": "sha256:9071136de1e7e996da67f8f50dea135af3349d5d8ecd9c3efa6f1742c0dfa15a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-hypotheses-429eb9978c.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2816,
+      "sha256": "sha256:96f134fa7297456f5ff1b13e56e22f5d438d7a6ec04afd6edfcb2b2d0c23b59f"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-monetary-policy-95ad4379ca.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1984,
+      "sha256": "sha256:2748dc98d25b2c0f10c5605d860a128c865c7c88857a230af18b343d653513cf"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-arbitrages-b1d46de95a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 5092,
+      "sha256": "sha256:0e38165efd4f0071379d48d730728f8c9884ed74258b29d7a7ba6b3a33a8d6a0"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-claims-44ff61ec02.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 8386,
+      "sha256": "sha256:7b465282dfea656bf9084300b97655e0a5b0a12d6c10977034b7325d23cc29f9"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d01-877150cba2.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4363,
+      "sha256": "sha256:58d0b161be163f955cb7707e0647940f3b10fa2fa6db0e68a0825174c7ee6925"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d02-24c95fe718.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 5715,
+      "sha256": "sha256:9a8b378beb4fe7747def34fb174650893cb542e56244a20db2556aab20ebada8"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d03-960b820d8f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4994,
+      "sha256": "sha256:81d2a67a7672776d0da3984717689ff5ae05d1ac6bdab9316afcd318ce3eed07"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d04-3e60e1f237.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4759,
+      "sha256": "sha256:5a65a6c7b1d7738f61c57a9ab355b869731106878c67ad58223eb9c1d53c716b"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d05-a63dea25fa.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 5380,
+      "sha256": "sha256:1349e22e5b251324f2e867006f8063a90c1fd6c206f3c7043b27bde16016d07d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d06-c3a4a5f00c.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4055,
+      "sha256": "sha256:4c13299a6086f009dbd3493170da85f69bc051b5a61644c1bec5672b62785926"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d07-5e315c577a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4623,
+      "sha256": "sha256:a13f164fba9f4fb2b454b98b0885afb0b622afd70ad32230bbe7e809ee2e40a4"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d08-fdd3bbb7cf.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4048,
+      "sha256": "sha256:011a97d8b9ae96d570e87ecd2c6d84b1983c5c39fbcd10f8c649c333024665aa"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d09-705ae9fbd1.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3405,
+      "sha256": "sha256:75ae80a0aeca5f2c43434229b01fe9e14fba880eb1b7493d2c0a2a5463d3d97a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d10-684869c37c.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3651,
+      "sha256": "sha256:10613987b6ccfc78112250e92895baaf27712ec118831916e1b59a56e3260058"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d11-a0a0ec8f60.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4084,
+      "sha256": "sha256:b7e8a053bba8c2c06308b49b5bab06ada48e60c51b69cf2323c1d471d9f823c9"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d12-697f68c50b.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3570,
+      "sha256": "sha256:5260cb7dbd4a67631f20e619bfabdb6d93a41f924c5e8e49871ac3181db96d41"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d13-b6ee939fd1.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1484,
+      "sha256": "sha256:bd6444753f222d63630da10f8392599024d9250370587272c3351528fd57e4c7"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-d14-66644028bf.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1393,
+      "sha256": "sha256:4e1b44dd18e178ab84267d233a809ce24770963d50db4a392c8f1cc2dd8a4771"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-graph-5557470a40.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 32380,
+      "sha256": "sha256:9792c14b410e07bf6fb09ba589f9d40d1f06d280039470286a8941f9958dc532"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-provenance-0895fefe8e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 19809,
+      "sha256": "sha256:aef83584408df781b9118aa0252ea55a38111a75781c2d9d1a137f7e4a6311bc"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-multiangle-risques-c319edb52d.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 7008,
+      "sha256": "sha256:3de0d06ec0831eaa52739779bb3e52d1e510236d3360068de2d4691a71f409af"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-payment-settlement-65b60a47ed.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1983,
+      "sha256": "sha256:f073575f8c798da5f43788196e110a0c1abda7adcbbb5fb3adf0f4bc79502cc4"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-simulation-model-ec78e4ace4.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2976,
+      "sha256": "sha256:b92f4bad51f778ee8c91942f815d9942186b83d58f0b583d469487526bebf670"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-smart-vote-interface-9023e46e40.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2167,
+      "sha256": "sha256:df74b9db8a3d7c1ccbd3876ecef6a0234e4d2d0526ad02c2c170f3d2e87cbad6"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-social-dividend-936351d2b7.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1829,
+      "sha256": "sha256:5b6114f0f3eae6d64ea0df52215b23fd2eb20792157d2adc4c2c3b723897937f"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-statechart-b8738e536a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 7053,
+      "sha256": "sha256:92270f3f146a0c9cd9a54a939557d6fba5341c492f25840dde075804d8ba4f5d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-system-00c6addb81.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 5079,
+      "sha256": "sha256:f4406f65c88d5dfe6ad8bed89f0842c8c11e1305151d6e2a7057efab86ef5ffc"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-k-monetary-system-artifact-validation-state-b96f3afaa8.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1827,
+      "sha256": "sha256:fea10630a645caef35b67b0d1b35b7ed856181e06d6ef5d9a5b2066e57740f05"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 14089,
+      "sha256": "sha256:92e35e165f629ea9b67364edada0be93f646ccb56984721e2c48bd1e0b7d5463"
+    },
+    {
+      "path": "canon/domain/causal-model.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 5212,
+      "sha256": "sha256:5849d470538794c8b791854c9ca3b3c339112fb31dba5be44f62aa0a3b94bdad"
+    },
+    {
+      "path": "canon/domain/distribution-model.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2224,
+      "sha256": "sha256:5ba03ab1b751beb28b05b57c48cb3dab4f43499f1955cfd78b553dd0d85d59c3"
+    },
+    {
+      "path": "canon/domain/event-ledger.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 715,
+      "sha256": "sha256:521399eb65fe1b8958fb11dcbae8e981c69b5aa4a0489340343176d0b13ab205"
+    },
+    {
+      "path": "canon/domain/monetary-constitution.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2351,
+      "sha256": "sha256:e09f03cb93e54d0c41d226a0fadc37233b8bde424abfc64cc339d43473839201"
+    },
+    {
+      "path": "canon/domain/multiangle/d01-strategie-d-influence-et-contrepouvoirs.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 3804,
+      "sha256": "sha256:e0aed5d9490b754a2e484034b8061a68c5919d9d034173d062f2937d838c5f34"
+    },
+    {
+      "path": "canon/domain/multiangle/d02-desjardins-mandat-et-processus.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 5156,
+      "sha256": "sha256:5197d6963df088466fea96def512f5befd4282de4bcd5aba0159ea0c387cd434"
+    },
+    {
+      "path": "canon/domain/multiangle/d04-lingots-brandes-art-et-reserves.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4210,
+      "sha256": "sha256:240ebb043f165fce92dbe4911418996b0347dd6a40104deb6c57cfb62eb77ce2"
+    },
+    {
+      "path": "canon/domain/multiangle/d05-km-regimes-et-regles-monetaires.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4833,
+      "sha256": "sha256:debbeda52b0e9052bf97b7b7d3f454473122d2fc6aae960c27431aeae637626d"
+    },
+    {
+      "path": "canon/domain/multiangle/d06-kc-participation-productive.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 3518,
+      "sha256": "sha256:4c43b215f49273c91797a48a211232c263940f2858e3b5a1b906d9043ca8b5c5"
+    },
+    {
+      "path": "canon/domain/multiangle/d11-transition-scenarios-et-sorties.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 3555,
+      "sha256": "sha256:889b897c9134c25daf7142f8bc046596a9a4e1a009a34d90e07d1e962222824a"
+    },
+    {
+      "path": "canon/domain/multiangle/d13-medias-marque-et-conflits.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1005,
+      "sha256": "sha256:b8d97f3344eea9bf698e53cca88ae84421fb718b238f2389a0620653d19f4de1"
+    },
+    {
+      "path": "canon/domain/multiangle/d14-clauses-invariantes.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 912,
+      "sha256": "sha256:c2f45a1de47e1706c6202a004682562108495dc0b10e9d098a1e204bbc4af1d7"
+    },
+    {
+      "path": "canon/domain/multiangle/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 29607,
+      "sha256": "sha256:62b00c21dcd15ac4a09e4eafb652a512b9810e3e77f0072496bfe6056aca3c55"
+    },
+    {
+      "path": "canon/domain/system.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4428,
+      "sha256": "sha256:64cad563a8db13ca0219d58a8caab9eba8ed47bb40f74b0b12eb63e7860cb127"
+    },
+    {
+      "path": "canon/domain/transition-statechart.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 6234,
+      "sha256": "sha256:be244f712dcd3ee586cd48ba827792d0fdf8122b525a47a04db8873470fcad1b"
+    },
+    {
+      "path": "canon/epistemic/assumptions.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1404,
+      "sha256": "sha256:c2bd14ff95e252dc9fe3d9a80c998ebd1ae086de1e33ea975ee24efdc91f559f"
+    },
+    {
+      "path": "canon/epistemic/counterarguments.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2282,
+      "sha256": "sha256:f8924cca897bc0de40eabc128243fa4d88097d6155aa0018ffaf43d1ab8ec951"
+    },
+    {
+      "path": "canon/epistemic/evidence-register.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2248,
+      "sha256": "sha256:4658c2d4c7c92922a79f6faa798d54a2ae8ad20eb6dd658b4b59651af1c0ad41"
+    },
+    {
+      "path": "canon/epistemic/hypotheses.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2271,
+      "sha256": "sha256:e64e9e1e910e04155d08f3f1ebde8a68d9e750c047d5938d7416f2c647d2e6e1"
+    },
+    {
+      "path": "canon/epistemic/multiangle/arbitrages.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4363,
+      "sha256": "sha256:c60568f08455e4e3cad1c4d259af2f707415d029e5ca219b00af511d277adf0c"
+    },
+    {
+      "path": "canon/epistemic/multiangle/claims.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 7445,
+      "sha256": "sha256:c35e4fc26bd0abc4e4186f9345f03cacb7dec91d3d1d4ef8791919690379747e"
+    },
+    {
+      "path": "canon/epistemic/multiangle/provenance.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 18668,
+      "sha256": "sha256:ee2b3db47985b9627d3fa37b15ccb61542eba9bed08b6884b3af757869c7728d"
+    },
+    {
+      "path": "canon/epistemic/multiangle/risques.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 6153,
+      "sha256": "sha256:da4c098dd56bf3e9c675245e3aa0bc2c59225cad9152b9801362648c696c181c"
+    },
+    {
+      "path": "canon/epistemic/validation-state.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1328,
+      "sha256": "sha256:754832e3085e174e1d9ee0510e5caf95c584e35936aaa9dd84733083d43637c6"
+    },
+    {
+      "path": "canon/operations/debt-transition.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1969,
+      "sha256": "sha256:ced93ddd8ed134ea606c13da5b759a32fe487b69b39fb1dc112e83119ee13e8c"
+    },
+    {
+      "path": "canon/operations/monetary-policy.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1469,
+      "sha256": "sha256:e80a6750b5577316d28b98ed96fce1fe58e6de671b96541b32f17f7e42446647"
+    },
+    {
+      "path": "canon/operations/multiangle/d03-ristournes-et-biens-collectifs.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4449,
+      "sha256": "sha256:258db6dad69838a95823db8ea748833c7f8a3301eb1e12fd56db2c62d6334119"
+    },
+    {
+      "path": "canon/operations/multiangle/d07-dette-finances-publiques.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4078,
+      "sha256": "sha256:ec23fde8617ef33bb56e02ed71049a8cc78930c883f786612ec30a7536fd1a4f"
+    },
+    {
+      "path": "canon/operations/multiangle/d08-philanthropie-et-reddition.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 3501,
+      "sha256": "sha256:c5a3ababd41c5cb3ea901b26c727356a390b422afdd0f78a851c55f382474067"
+    },
+    {
+      "path": "canon/operations/multiangle/d09-identite-ethikos-konnaxion.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2886,
+      "sha256": "sha256:4a10b9b23cfa37d39b123537aaaf855788522c85776cb262be62336c608b3449"
+    },
+    {
+      "path": "canon/operations/multiangle/d10-pme-education-innovation-territoires.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 3116,
+      "sha256": "sha256:b6215a77d7e33d05018bfebe634221cc1ac72c6497ae6600d0893c7054710db7"
+    },
+    {
+      "path": "canon/operations/multiangle/d12-banque-credit-risques.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 3033,
+      "sha256": "sha256:6c4041ddfb7a37ac395553d9bc8134cf29e13f60af73c10ea021c1c42f315973"
+    },
+    {
+      "path": "canon/operations/payment-settlement.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1482,
+      "sha256": "sha256:6c5fdf11c9bec5ba8ba91636a3bfb0174212040ca72aaea9a432d538a7099e78"
+    },
+    {
+      "path": "canon/operations/simulation-model.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2387,
+      "sha256": "sha256:0e35cf8fe02b1dbaaaaecb92a681b7d1ed37cad5c60923c0428cc07d44a0bbfa"
+    },
+    {
+      "path": "canon/operations/smart-vote-policy-interface.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1670,
+      "sha256": "sha256:887bd9a6009f9930d288c4f574247995c27814d957bed14e1cf98adcaf2b4f22"
+    },
+    {
+      "path": "canon/operations/social-dividend.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1344,
+      "sha256": "sha256:e949da9a1b93c51ebd4921facfd209691ad48d8c9d96823e48c089aaa3d61d06"
+    }
+  ],
+  "segments": []
+}

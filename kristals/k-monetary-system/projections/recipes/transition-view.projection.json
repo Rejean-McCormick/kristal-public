@@ -1,0 +1,29 @@
+{
+  "format": "kristal.projection-recipe/2.0.0",
+  "slug": "transition-view",
+  "subject_ref": "urn:kristal:k-monetary-system",
+  "orientation": {
+    "primary_axis": "transition_phase",
+    "secondary_axis": "epistemic_status"
+  },
+  "context": {
+    "purpose": "Research and policy-design inspection"
+  },
+  "selection_policy": {
+    "mode": "explicit_or_query_defined"
+  },
+  "lineage": {
+    "canonical_inputs": [
+      "canon/domain/transition-statechart.json",
+      "canon/epistemic/hypotheses.json",
+      "canon/epistemic/validation-state.json"
+    ]
+  },
+  "projection_contract": {
+    "portable_contract": "kristal_state/6.0",
+    "relationship_to_v9_canon": "derived_projection"
+  },
+  "materialization": {
+    "target_path": "projections/materialized/transition-view.kristal-state.json"
+  }
+}

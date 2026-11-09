@@ -1,0 +1,183 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "pouvoirs-japon",
+  "title": "Pouvoirs-Japon",
+  "target_root": "kristals/pouvoirs-japon",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:pouvoirs-japon",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:e4696fab4e279bf24765b947c2d32a0f3b949567ae22d451a9f04ba840e98d58"
+  },
+  "surface_digest": "sha256:ea39a71c6e1b20a1851962ec32771816afe9fa16851c0a804f69a8ae816839dd",
+  "file_count": 26,
+  "total_bytes": 203033,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 2588,
+      "sha256": "sha256:dc591870c9ad7df0a54589dd8016e0a2fdc70c69a517a2c546d99cc70f8ed304"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1940,
+      "sha256": "sha256:41330a9610e4abb26da7ed588d07ed8e8fea922511282158919414534c57d185"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 1607,
+      "sha256": "sha256:bb59877b4a23374509f4a8bd209431875d1c049eccc1f383adb2c744fa0b2396"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 4838,
+      "sha256": "sha256:03f6257eb9da897d5402db4d6a3db2180726be0e5ac51d01f1b57914b3ad3dba"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1959,
+      "sha256": "sha256:8be9e2d64bf433ca83a9ce1fe470a484d0b2596e49370b780994426d143e95df"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 3876,
+      "sha256": "sha256:3beab313463c2608d23769a632eb3a04822c1dacb6338a087ff4110b6dd4afca"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 586,
+      "sha256": "sha256:2bfa65f2122c8a7eeb5d0c60e8769c05ef18f992db15a7e230c0b958c87fd047"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 806,
+      "sha256": "sha256:613bb82d409d9df65a8e48ec25d31feb5c940274ce4fd497db0720fbd880f1c6"
+    },
+    {
+      "path": "canon/domain/jurisdictional-power.payload.json",
+      "role": "canonical_content",
+      "size": 147240,
+      "sha256": "sha256:b95039f817aebc783685d7edd3d68aa0c622f83b71f87b250cbeaf70cacec005"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1612,
+      "sha256": "sha256:39412b8aeca2d86799937bc9192ada4ba324ca44a388e07e1e660b7cd62bf6a2"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1880,
+      "sha256": "sha256:985b3382446b9400226c87a3a76c020a95f7cae2a676ddc02484699d124dd37b"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2700,
+      "sha256": "sha256:59a175af548520ff2a8c34802f811f608a3644cd723c020eb3aca33337443d4d"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 540,
+      "sha256": "sha256:f8e92e30282cd6dcb2a9f2d6a812c7845a90390af3946ac7f72ee25295596f67"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 778,
+      "sha256": "sha256:5b96ff106630f2f7e864e5ef27b674912da8c4eb95eeb44d1df5f4c4b80cebc5"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 784,
+      "sha256": "sha256:160d3be822f324cb61281eb21aee2381d350efa4aed9a557cd2a45317d6166b6"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 697,
+      "sha256": "sha256:3ac83b3c657866cd1c02569ff4872cbe675a77feb0dfdf18efbbefdfe11c6577"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 813,
+      "sha256": "sha256:e7ba190b12cea888f24f518721d4caf5652091703096f6de4951cb0606e013b5"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 574,
+      "sha256": "sha256:1421c02076346f7f70150791f66eeb1a0fc690de929fdb06ff873f0eb358c45c"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 717,
+      "sha256": "sha256:737ec8261df2e484da7315e5cb716933af0d5ba2514d858037e946fcf046cc0c"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 451,
+      "sha256": "sha256:405435dfab5642f1d2779d1b5a7c69c395178a59fe70481776ab30672aa6b767"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 4048,
+      "sha256": "sha256:dfe113c8abc17f02ef62570c81bec4f99d0ee1da5cecfafe13d736a0449de4f2"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1966,
+      "sha256": "sha256:a133d46d7b77adceb0313f9864f3b136fcb3c3e6f3be322ef0ce9371ae8d37a9"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 16073,
+      "sha256": "sha256:1bd866f5ef82c6406044969afe70e3818615bc98a63e84ebfb9778298db9a304"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 1177,
+      "sha256": "sha256:43ad0f282e032b32dfc227a7e7c06d3710b4bb99999cd684708aaab6a94ca981"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

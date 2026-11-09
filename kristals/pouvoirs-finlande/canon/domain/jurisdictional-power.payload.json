@@ -1,0 +1,6776 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "working",
+  "created_at": "2026-10-02T22:34:00Z",
+  "updated_at": "2026-10-02T22:34:00Z",
+  "created_by": {
+    "type": "research_build",
+    "name": "OpenAI ChatGPT — structured legal research build"
+  },
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1",
+  "applicability": {
+    "domain": "mécanismes légaux de pouvoir",
+    "subdomain": "Finlande / national / municipal / wellbeing services counties / Åland / éducation / interface UE et externe",
+    "jurisdiction": "Finlande",
+    "language": "fr",
+    "time_window": {
+      "as_of": "2026-10-02"
+    }
+  },
+  "source_refs": [
+    {
+      "source_id": "SRC-FI-CONST",
+      "title": "Constitution of Finland (731/1999) — English translation",
+      "url": "https://www.finlex.fi/en/legislation/translations/1999/eng/731"
+    },
+    {
+      "source_id": "SRC-FI-PARL",
+      "title": "Matters and voting",
+      "url": "https://www.eduskunta.fi/en/matters-and-voting"
+    },
+    {
+      "source_id": "SRC-FI-PARL-ORG",
+      "title": "The Parliament of Finland as an organisation",
+      "url": "https://www.eduskunta.fi/en/parliament-and-its-activities/the-parliament-of-finland-as-an-organisation"
+    },
+    {
+      "source_id": "SRC-FI-PRES",
+      "title": "Duties — President of the Republic of Finland",
+      "url": "https://www.presidentti.fi/en/presidency/duties/"
+    },
+    {
+      "source_id": "SRC-FI-GOV-MIN",
+      "title": "Ministries",
+      "url": "https://valtioneuvosto.fi/en/ministries"
+    },
+    {
+      "source_id": "SRC-FI-GOV-PORT",
+      "title": "Ministerial portfolios and deputising",
+      "url": "https://valtioneuvosto.fi/en/governments/ministerial-portfolios-and-deputising"
+    },
+    {
+      "source_id": "SRC-FI-COURTS",
+      "title": "Judicial agencies",
+      "url": "https://www.oikeus.fi/en/judicial-agencies/"
+    },
+    {
+      "source_id": "SRC-FI-ADMIN-JUD",
+      "title": "Administrative Judicial Procedure Act (808/2019)",
+      "url": "https://www.finlex.fi/en/legislation/translations/2019/eng/808"
+    },
+    {
+      "source_id": "SRC-FI-MUNICIPAL",
+      "title": "Municipalities Act (410/2015)",
+      "url": "https://www.finlex.fi/en/legislation/translations/2015/eng/410"
+    },
+    {
+      "source_id": "SRC-FI-PUBLICADMIN",
+      "title": "How Finland's public administration works",
+      "url": "https://www.suomi.fi/citizen/rights-and-participation-in-society/legal-and-consumer-protection/guide/how-finlands-public-administration-works"
+    },
+    {
+      "source_id": "SRC-FI-WELLBEING-ACT",
+      "title": "Act on Wellbeing Services Counties (611/2021)",
+      "url": "https://www.finlex.fi/en/legislation/translations/2021/eng/611"
+    },
+    {
+      "source_id": "SRC-FI-WELLBEING",
+      "title": "Wellbeing services counties",
+      "url": "https://www.suomi.fi/citizen/rights-and-participation-in-society/legal-and-consumer-protection/guide/how-finlands-public-administration-works/wellbeing-services-county"
+    },
+    {
+      "source_id": "SRC-FI-ALAND",
+      "title": "Act on the Autonomy of Åland (1144/1991)",
+      "url": "https://www.finlex.fi/en/legislation/translations/1991/eng/1144"
+    },
+    {
+      "source_id": "SRC-FI-EDU-TASKS",
+      "title": "Tasks — Finnish National Agency for Education",
+      "url": "https://www.oph.fi/en/about-us/tasks"
+    },
+    {
+      "source_id": "SRC-FI-EDU-BASIC",
+      "title": "Primary and lower secondary education",
+      "url": "https://www.oph.fi/en/education-system/basic-education"
+    },
+    {
+      "source_id": "SRC-FI-SUPERVISORY-2026",
+      "title": "Regional government reform — Finnish Supervisory Agency from 1 January 2026",
+      "url": "https://valtioneuvosto.fi/en/-/154017715/tasks-of-the-occupational-safety-and-health-authority-to-be-transferred-to-the-finnish-supervisory-agency-on-1-january-2026"
+    },
+    {
+      "source_id": "SRC-FI-TREATIES",
+      "title": "Treaties — Finnish Treaty Series and treaty reference database",
+      "url": "https://www.finlex.fi/en/treaties"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "FI-POUVOIR-001",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-finlande"
+        },
+        "predicate": "norm.est_source_constitutionnelle",
+        "object": {
+          "kind": "proposition",
+          "value": "La Finlande est une république souveraine dont l’ordre constitutionnel est établi par la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Finlande"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "suprematie_normative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-002",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principe:pouvoir-du-peuple-finlande"
+        },
+        "predicate": "principle.locates_state_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Les pouvoirs de l’État appartiennent au peuple, représenté par le Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Finlande"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "source_de_legitimite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-003",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principe:legalite-finlande"
+        },
+        "predicate": "principle.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "L’exercice de la puissance publique doit reposer sur la loi et toute activité publique doit respecter strictement la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Finlande"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legalite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-004",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "institution.exercises",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir législatif est exercé par le Parlement, qui décide aussi des finances de l’État.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-005",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "institution.shares_governmental_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir gouvernemental est exercé par le Président de la République et le Gouvernement; les membres du Gouvernement doivent jouir de la confiance du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_executif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-006",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cours-finlande"
+        },
+        "predicate": "institution.exercises",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir judiciaire est exercé par des tribunaux indépendants, la Cour suprême et la Cour administrative suprême constituant les plus hautes instances de leurs ordres respectifs.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-007",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:etat:finlande"
+        },
+        "predicate": "state.is_eu_member",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution indique que la Finlande est un État membre de l’Union européenne; ce Kristal ne modélise toutefois que l’interface constitutionnelle finlandaise avec l’UE.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "interface_externe"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-008",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:autorites-publiques:finlande"
+        },
+        "predicate": "power.has_duty",
+        "object": {
+          "kind": "proposition",
+          "value": "Les autorités publiques doivent assurer la réalisation des droits fondamentaux et des droits humains dans l’ordre interne.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits_fondamentaux"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "obligation_positive"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-009",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "institution.has_structure",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement finlandais est monocaméral et compte 200 députés élus pour quatre ans.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-010",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement peut adopter des lois.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PARL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-011",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-finlande"
+        },
+        "predicate": "power.can_initiate",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement peut saisir le Parlement d’un projet de loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "initiative_legislative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-012",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:depute-finlande"
+        },
+        "predicate": "power.can_initiate",
+        "object": {
+          "kind": "proposition",
+          "value": "Un député peut présenter une motion législative lorsque le Parlement est en session.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "initiative_legislative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-013",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Les projets de loi sont préparés en commission avant leur décision finale en séance plénière.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-014",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Un projet de loi ordinaire est examiné en deux lectures en séance plénière après le rapport de la commission compétente.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-015",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commission-droit-constitutionnel-finlande"
+        },
+        "predicate": "power.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "La Commission du droit constitutionnel rend des avis sur la constitutionnalité des projets et autres affaires qui lui sont soumis.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_preventif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-016",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commission-droit-constitutionnel-finlande"
+        },
+        "predicate": "institution.has_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le contrôle constitutionnel finlandais repose de manière importante sur l’examen parlementaire préalable par la Commission du droit constitutionnel, distinct du contrôle judiciaire concret prévu à l’article 106.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_mixte"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-017",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement décide du budget annuel de l’État.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "budget"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-018",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.controls",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement supervise l’administration financière nationale et le respect du budget par sa Commission de l’audit et par l’Office national d’audit indépendant rattaché au Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_financier"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PARL-ORG"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-019",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.can_hold_confidence_vote",
+        "object": {
+          "kind": "proposition",
+          "value": "À la suite d’une interpellation ou d’une déclaration du Gouvernement, le Parlement peut être appelé à voter sur la confiance accordée au Gouvernement ou à un ministre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "confiance"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-020",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.can_amend_constitution",
+        "object": {
+          "kind": "proposition",
+          "value": "Une modification constitutionnelle suit la procédure renforcée de l’article 73, généralement avec report après élections puis majorité des deux tiers, ou procédure d’urgence à cinq sixièmes puis deux tiers.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-021",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "institution.is_elected",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président de la République est élu au suffrage direct pour six ans et une même personne ne peut exercer plus de deux mandats consécutifs.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mode_de_designation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-022",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.elects",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement élit le Premier ministre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "formation_gouvernement"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-023",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.appoints",
+        "object": {
+          "kind": "proposition",
+          "value": "Après l’élection parlementaire du Premier ministre, le Président le nomme formellement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination_formelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PRES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-024",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.appoints",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président nomme les autres ministres sur proposition du Premier ministre élu.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PRES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-025",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-finlande"
+        },
+        "predicate": "institution.requires_confidence",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement et chaque ministre doivent conserver la confiance du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "responsabilite_parlementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-026",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.must",
+        "object": {
+          "kind": "proposition",
+          "value": "Si le Gouvernement ou un ministre ne jouit plus de la confiance du Parlement, le Président doit accorder sa démission.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PRES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-027",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-finlande"
+        },
+        "predicate": "power.has_residual_governmental_competence",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement traite les affaires gouvernementales et administratives que la Constitution ou la loi lui attribue, ainsi que celles qui ne sont pas attribuées au Président ou à une autre autorité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_executive"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-028",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:premier-ministre-finlande"
+        },
+        "predicate": "power.directs",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre dirige le travail du Gouvernement, coordonne la préparation et l’examen de ses affaires et préside les séances plénières du Gouvernement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-GOV-PORT"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-029",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-finlande"
+        },
+        "predicate": "decision.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "Les affaires relevant du Gouvernement sont décidées en séance plénière ou par le ministère compétent; les questions de grande portée ou importantes par principe relèvent de la séance plénière.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "repartition_interne"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-030",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:ministere-finlande"
+        },
+        "predicate": "institution.has_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Chaque ministère prépare les affaires relevant de son domaine et veille au bon fonctionnement de l’administration dans ce domaine.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-GOV-MIN"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-031",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:ministre-finlande"
+        },
+        "predicate": "power.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre dirige son ministère ou les fonctions ministérielles qui lui sont attribuées; sa compétence dépend du portefeuille et des règles applicables, non d’un pouvoir général personnel.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "portefeuille"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-GOV-MIN",
+        "SRC-FI-GOV-PORT"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-032",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "decision.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "En principe, le Président décide en séance du Gouvernement sur la base d’une proposition soumise par le Gouvernement, sous réserve des exceptions constitutionnelles.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedure_decisionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-033",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Sur proposition motivée du Premier ministre, après consultation des groupes parlementaires et pendant que le Parlement siège, le Président peut ordonner des élections parlementaires anticipées.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "electoral"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "elections_anticipees"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PRES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-034",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.can_approve_bill",
+        "object": {
+          "kind": "proposition",
+          "value": "Une loi adoptée par le Parlement est présentée au Président pour approbation dans un délai de trois mois.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "sanction_legislative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-035",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.can_override",
+        "object": {
+          "kind": "proposition",
+          "value": "Si le Président n’approuve pas un projet de loi, le Parlement peut l’adopter de nouveau sans modification substantielle; il entre alors en vigueur sans approbation présidentielle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_reciproque"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-036",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:decret-finlande"
+        },
+        "predicate": "norm.derives_authority",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président, le Gouvernement et les ministères ne peuvent prendre des décrets que sur la base d’une habilitation constitutionnelle ou législative.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_delegue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-037",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:decret-finlande"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "Un décret ne peut remplacer une loi lorsque la Constitution exige que les fondements des droits et obligations des particuliers ou d’autres matières soient fixés par une loi du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-038",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-finlande"
+        },
+        "predicate": "institution.has_current_structure",
+        "object": {
+          "kind": "proposition",
+          "value": "Au 2 octobre 2026, le Gouvernement comprend douze ministères; leur nombre et leurs compétences reposent sur les règles d’organisation applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-GOV-MIN"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-039",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.is_supreme_commander",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président est le commandant suprême des Forces de défense finlandaises, selon les modalités constitutionnelles et légales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "defense"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "defense"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PRES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-040",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.can_mobilize",
+        "object": {
+          "kind": "proposition",
+          "value": "La mobilisation des Forces de défense est décidée par le Président sur proposition du Gouvernement; si le Parlement ne siège pas, il doit être convoqué immédiatement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "defense"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_partage"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-041",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-finlande"
+        },
+        "predicate": "institution.is_independent",
+        "object": {
+          "kind": "proposition",
+          "value": "Les tribunaux exercent le pouvoir judiciaire de manière indépendante.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "independance"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-042",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:ordre-judiciaire-finlande"
+        },
+        "predicate": "institution.has_structure",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juridictions générales comprennent la Cour suprême, les cours d’appel et les tribunaux de district.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-COURTS"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-043",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:ordre-administratif-finlande"
+        },
+        "predicate": "institution.has_structure",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juridictions administratives générales comprennent la Cour administrative suprême et les tribunaux administratifs régionaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-ADMIN-JUD"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-044",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-supreme-finlande"
+        },
+        "predicate": "power.is_highest_instance",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour suprême exerce le pouvoir judiciaire le plus élevé en matière civile et pénale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "juridiction"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-045",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-administrative-supreme-finlande"
+        },
+        "predicate": "power.is_highest_instance",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour administrative suprême exerce le pouvoir judiciaire le plus élevé en matière administrative.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "juridiction"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-046",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.appoints",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président nomme les juges permanents suivant la procédure prévue par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PRES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-047",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:juge-finlande"
+        },
+        "predicate": "institution.has_security_of_tenure",
+        "object": {
+          "kind": "proposition",
+          "value": "Un juge ne peut perdre sa charge que par décision d’un tribunal et ne peut en principe être muté sans son consentement, sous réserve des exceptions constitutionnelles.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "independance"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-048",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunal-finlande"
+        },
+        "predicate": "power.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans une affaire dont il est saisi, un tribunal doit donner priorité à la Constitution si l’application d’une loi serait en conflit manifeste avec celle-ci.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_concret"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-049",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunal-ou-autorite-finlande"
+        },
+        "predicate": "power.cannot_apply",
+        "object": {
+          "kind": "proposition",
+          "value": "Un tribunal ou une autre autorité ne doit pas appliquer une disposition réglementaire inférieure à la loi qui est contraire à la Constitution ou à une loi du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_normative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_de_legalite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-050",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunal-administratif-finlande"
+        },
+        "predicate": "power.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juridictions administratives assurent la protection juridictionnelle dans les litiges administratifs et autres relations de droit public selon la loi de procédure administrative contentieuse.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "recours"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ADMIN-JUD"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-051",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:chancelier-justice-finlande"
+        },
+        "predicate": "power.oversees",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Chancelier de justice contrôle la légalité des actes officiels du Gouvernement et du Président ainsi que, plus largement, le respect du droit par les autorités et les personnes exerçant une fonction publique.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_de_legalite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-052",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:ombudsman-parlementaire-finlande"
+        },
+        "predicate": "power.oversees",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Ombudsman parlementaire contrôle que les tribunaux, autorités, agents publics et autres personnes exerçant une fonction publique respectent la loi et leurs obligations.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_de_legalite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PARL-ORG"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-053",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:chancelier-justice-finlande"
+        },
+        "predicate": "power.protects_rights",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans l’exercice de ses fonctions, le Chancelier de justice surveille la mise en œuvre des droits fondamentaux et des droits humains.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits_fondamentaux"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-054",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:ombudsman-parlementaire-finlande"
+        },
+        "predicate": "power.protects_rights",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans l’exercice de ses fonctions, l’Ombudsman parlementaire surveille la mise en œuvre des droits fondamentaux et des droits humains.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits_fondamentaux"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-055",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:agent-public-finlande"
+        },
+        "predicate": "actor.is_liable",
+        "object": {
+          "kind": "proposition",
+          "value": "Les agents publics sont responsables de la légalité de leurs actes officiels; la Constitution prévoit aussi des voies de responsabilité pour les dommages ou violations causés par des actes ou omissions illégaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "responsabilite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "responsabilite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-056",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:haute-cour-impeachment-finlande"
+        },
+        "predicate": "institution.has_role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Haute Cour de mise en accusation connaît notamment des accusations pour conduite illégale dans l’exercice des fonctions contre des ministres et certains hauts titulaires prévus par la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "responsabilite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-057",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parquet-national-finlande"
+        },
+        "predicate": "institution.has_head",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Autorité nationale des poursuites est dirigée par le Procureur général, nommé par le Président.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-COURTS"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-058",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administration-etat-finlande"
+        },
+        "predicate": "institution.has_structure",
+        "object": {
+          "kind": "proposition",
+          "value": "Outre le Gouvernement et les ministères, l’administration de l’État peut comprendre des agences, organismes publics et autres institutions, ainsi que des autorités régionales et locales de l’État.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PUBLICADMIN"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-059",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administration-etat-finlande"
+        },
+        "predicate": "power.requires_statute",
+        "object": {
+          "kind": "proposition",
+          "value": "Lorsque les fonctions d’une institution administrative impliquent l’exercice de la puissance publique, ses fondements généraux doivent être prévus par une loi du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "base_legale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-060",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administration-etat-finlande"
+        },
+        "predicate": "norm.can_be_organized_by_decree",
+        "object": {
+          "kind": "proposition",
+          "value": "Sous réserve des matières qui doivent relever de la loi, certains aspects des unités de l’administration de l’État peuvent être organisés par décret.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_delegue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-061",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:entite-privee-finlande"
+        },
+        "predicate": "power.may_receive_public_task",
+        "object": {
+          "kind": "proposition",
+          "value": "Une tâche administrative publique peut être confiée à une personne autre qu’une autorité seulement sur une base législative et si les conditions constitutionnelles de bonne administration et de protection des droits sont respectées.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "delegation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-062",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:entite-privee-finlande"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "Une tâche comportant un exercice significatif de la puissance publique ne peut être confiée qu’à une autorité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_delegation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-063",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:finnish-supervisory-agency"
+        },
+        "predicate": "institution.has_current_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Depuis le 1er janvier 2026, la Finnish Supervisory Agency est une autorité nationale issue de la réforme de l’administration régionale; des fonctions de Valvira, des anciennes Regional State Administrative Agencies et certaines fonctions environnementales lui ont été transférées.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-SUPERVISORY-2026"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-064",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:regional-state-administrative-agencies-finlande"
+        },
+        "predicate": "institution.is_discontinued",
+        "object": {
+          "kind": "proposition",
+          "value": "Les anciennes Regional State Administrative Agencies ont cessé leurs activités à la fin de 2025 dans le cadre de la réforme entrée en vigueur le 1er janvier 2026.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "transition_institutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-SUPERVISORY-2026"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-065",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipalite-finlande"
+        },
+        "predicate": "institution.has_self_government",
+        "object": {
+          "kind": "proposition",
+          "value": "L’administration des municipalités repose constitutionnellement sur l’autonomie de leurs résidents.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-MUNICIPAL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-066",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipalite-finlande"
+        },
+        "predicate": "power.derives_from_statute",
+        "object": {
+          "kind": "proposition",
+          "value": "Les fondements généraux de l’administration municipale et les fonctions des municipalités sont fixés par une loi du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "base_legale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-MUNICIPAL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-067",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipalite-finlande"
+        },
+        "predicate": "power.can_tax",
+        "object": {
+          "kind": "proposition",
+          "value": "Les municipalités disposent constitutionnellement d’un droit de lever des impôts, sous réserve des règles établies par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "fiscalite_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-068",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-municipal-finlande"
+        },
+        "predicate": "power.is_highest_local_decision_body",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil municipal exerce le pouvoir de décision de la municipalité et est responsable de ses activités et de ses finances selon la Municipalities Act.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "decision_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-MUNICIPAL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-069",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-municipal-finlande"
+        },
+        "predicate": "power.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil municipal décide notamment de la stratégie, des règles administratives, du budget et du plan financier de la municipalité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "decision_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-MUNICIPAL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-070",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipalite-finlande"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "L’autonomie municipale n’autorise pas une municipalité à écarter la Constitution ou une loi nationale applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_normative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-MUNICIPAL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-071",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipalite-finlande"
+        },
+        "predicate": "institution.has_public_service_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les municipalités sont des unités autonomes responsables de services de base et d’autres fonctions qui leur sont attribuées par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "service_public"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-PUBLICADMIN",
+        "SRC-FI-MUNICIPAL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-072",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipalite-finlande"
+        },
+        "predicate": "power.can_organize_basic_education",
+        "object": {
+          "kind": "proposition",
+          "value": "Les municipalités sont responsables de l’organisation de l’éducation de base pour les enfants et jeunes relevant de leur responsabilité légale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-EDU-TASKS",
+        "SRC-FI-EDU-BASIC"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-073",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:wellbeing-services-county-finlande"
+        },
+        "predicate": "institution.has_self_government",
+        "object": {
+          "kind": "proposition",
+          "value": "Les wellbeing services counties constituent des zones administratives plus larges qu’une municipalité dans lesquelles s’exerce une autonomie prévue par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / wellbeing"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_regionale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_regionale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-WELLBEING-ACT",
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-074",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:wellbeing-services-counties-finlande"
+        },
+        "predicate": "institution.has_current_count",
+        "object": {
+          "kind": "proposition",
+          "value": "La Finlande compte 21 wellbeing services counties.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / wellbeing"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_regionale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-WELLBEING"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-075",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:county-council-finlande"
+        },
+        "predicate": "power.is_highest_decision_body",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil du wellbeing services county exerce le pouvoir de décision le plus élevé du county et ses membres sont élus au suffrage des résidents selon le cadre légal applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / wellbeing"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_regionale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "decision_regionale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-WELLBEING",
+        "SRC-FI-WELLBEING-ACT"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-076",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:wellbeing-services-county-finlande"
+        },
+        "predicate": "power.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Les wellbeing services counties sont responsables notamment des services de santé, des services sociaux et des services de secours dans leur territoire, sous réserve des règles spéciales applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / wellbeing"
+        },
+        {
+          "axis": "fonction",
+          "value": "services_publics"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_sectorielle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-WELLBEING"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-077",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:wellbeing-services-county-finlande"
+        },
+        "predicate": "finance.is_mainly_state_funded",
+        "object": {
+          "kind": "proposition",
+          "value": "Le financement des wellbeing services counties provient principalement de l’État et de certaines redevances; ils ne prélèvent pas d’impôt propre sur leurs résidents.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / wellbeing"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "financement"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-WELLBEING"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-078",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:ville-helsinki"
+        },
+        "predicate": "institution.is_exception",
+        "object": {
+          "kind": "proposition",
+          "value": "Helsinki organise ses propres services sociaux et de santé et n’appartient pas à un wellbeing services county.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal / régional"
+        },
+        {
+          "axis": "fonction",
+          "value": "services_publics"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "exception"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-WELLBEING"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-079",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:wellbeing-services-county-finlande"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "L’autonomie d’un wellbeing services county n’est pas une souveraineté ni une compétence législative générale; ses pouvoirs reposent sur la Constitution et les lois qui lui attribuent des fonctions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / wellbeing"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_normative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-WELLBEING-ACT"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-080",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:wellbeing-services-county-finlande"
+        },
+        "predicate": "institution.distinct_from_municipality",
+        "object": {
+          "kind": "proposition",
+          "value": "Le wellbeing services county est juridiquement distinct de la municipalité: les deux niveaux ont des organes et des responsabilités propres.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / wellbeing"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_regionale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "distinction_institutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-WELLBEING",
+        "SRC-FI-PUBLICADMIN"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-081",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:territoire:aland"
+        },
+        "predicate": "institution.has_special_status",
+        "object": {
+          "kind": "proposition",
+          "value": "Åland bénéficie d’un statut constitutionnel spécial d’autonomie régi par l’Act on the Autonomy of Åland.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "autonomie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_speciale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-082",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-aland"
+        },
+        "predicate": "institution.represents",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement d’Åland représente la population d’Åland pour les matières relevant de son autonomie.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "representation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-083",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-aland"
+        },
+        "predicate": "institution.administers",
+        "object": {
+          "kind": "proposition",
+          "value": "L’administration d’Åland est confiée au Gouvernement d’Åland et aux fonctionnaires qui lui sont subordonnés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-084",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-aland"
+        },
+        "predicate": "power.can_legislate",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement d’Åland adopte les lois d’Åland dans les matières relevant de la compétence législative d’Åland.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_legislatif_autonome"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-085",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-aland"
+        },
+        "predicate": "power.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "La compétence législative d’Åland couvre notamment son organisation, l’administration municipale, plusieurs matières de santé et de protection sociale, l’éducation, l’environnement et d’autres domaines énumérés par la loi d’autonomie.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_enumeree"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-086",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-aland"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement d’Åland ne dispose pas d’une compétence législative générale sur toutes les matières de l’État; le partage des compétences est fixé par la loi d’autonomie.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_normative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-087",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.can_annul_aland_act",
+        "object": {
+          "kind": "proposition",
+          "value": "Après avis de la Cour suprême, le Président peut annuler en tout ou partie une loi d’Åland si le Parlement d’Åland a dépassé sa compétence législative ou si la loi touche à la sécurité intérieure ou extérieure de l’État selon la loi d’autonomie.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_de_competence"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-088",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-aland"
+        },
+        "predicate": "power.can_issue_decrees",
+        "object": {
+          "kind": "proposition",
+          "value": "Sur habilitation d’une loi d’Åland, le Gouvernement d’Åland peut prendre des décrets d’Åland dans les matières relevant des compétences d’Åland.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_delegue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-089",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:decret-aland"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "Un décret d’Åland ne peut fixer les fondements des droits ou obligations individuels lorsque ces matières doivent relever d’une loi d’Åland.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-090",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:aland-delegation"
+        },
+        "predicate": "institution.is_joint_body",
+        "object": {
+          "kind": "proposition",
+          "value": "La Délégation d’Åland est un organe conjoint d’Åland et de l’État prévu par la loi d’autonomie.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Åland"
+        },
+        {
+          "axis": "fonction",
+          "value": "coordination"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "coordination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-091",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:droit:education-finlande"
+        },
+        "predicate": "right.is_guaranteed",
+        "object": {
+          "kind": "proposition",
+          "value": "Toute personne a droit à l’enseignement primaire et secondaire inférieur gratuit; les règles relatives à l’obligation scolaire sont fixées par une loi du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "droit_fondamental"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-092",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:universite-finlande"
+        },
+        "predicate": "institution.has_self_government",
+        "object": {
+          "kind": "proposition",
+          "value": "Les universités disposent d’une autonomie garantie par la Constitution, précisée par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_institutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-093",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement décide de la législation, du financement et des politiques structurantes concernant le système éducatif dans le cadre de ses compétences.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-EDU-TASKS"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-094",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-finlande"
+        },
+        "predicate": "power.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement, avec le ministère compétent, assure la planification et l’exécution de la politique éducative nationale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-EDU-TASKS"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-095",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:ministere-education-culture-finlande"
+        },
+        "predicate": "power.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Ministère de l’Éducation et de la Culture fixe les grandes orientations et la stratégie de la politique éducative et prépare les textes et décisions relevant de son domaine.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-EDU-TASKS"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-096",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:edufi"
+        },
+        "predicate": "power.can_issue_core_curricula",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Agence nationale finlandaise pour l’éducation élabore les programmes nationaux de base pour plusieurs niveaux d’enseignement et fixe certaines exigences nationales de qualifications selon la législation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "norme_educative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-EDU-TASKS"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-097",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:prestataire-education-finlande"
+        },
+        "predicate": "power.has_operational_autonomy",
+        "object": {
+          "kind": "proposition",
+          "value": "De nombreux choix d’organisation de l’éducation sont laissés aux prestataires dans les objectifs et limites fixés par la législation et les programmes nationaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_operationnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-EDU-TASKS",
+        "SRC-FI-EDU-BASIC"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-098",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:president-finlande"
+        },
+        "predicate": "power.co_leads_foreign_policy",
+        "object": {
+          "kind": "proposition",
+          "value": "La politique étrangère de la Finlande est dirigée par le Président en coopération avec le Gouvernement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "relations_exterieures"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "interface_externe"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PRES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-099",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.approves_international_obligations",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement approuve les obligations internationales et leur dénonciation dans les cas prévus par la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "interface_traite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-100",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.enacts_domestic_implementation",
+        "object": {
+          "kind": "proposition",
+          "value": "Les dispositions de nature législative contenues dans des obligations internationales sont mises en vigueur dans l’ordre interne par une loi du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reception_interne"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-101",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-finlande"
+        },
+        "predicate": "power.can_domestically_implement_other_obligations",
+        "object": {
+          "kind": "proposition",
+          "value": "Les autres éléments d’une obligation internationale peuvent être mis en vigueur par décret conformément à la Constitution et à la loi de mise en vigueur.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reception_interne"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-102",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-finlande"
+        },
+        "predicate": "power.prepares_eu_positions",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement est responsable de la préparation nationale des décisions à prendre dans l’Union européenne et décide des mesures finlandaises qui s’y rapportent, sauf lorsque l’approbation du Parlement est requise.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "union_europeenne"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "interface_ue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-103",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "power.participates_eu_preparation",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement participe à la préparation nationale des décisions de l’Union européenne pour les matières qui, sans la dimension UE, relèveraient de sa compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "union_europeenne"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "interface_ue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PARL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-104",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:grand-committee-finlande"
+        },
+        "predicate": "institution.has_eu_role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Grande Commission est l’organe parlementaire central pour la plupart des affaires UE transmises au Parlement; les matières de politique étrangère et de sécurité relèvent de la Commission des affaires étrangères.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "union_europeenne"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "interface_ue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-105",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:premier-ministre-finlande"
+        },
+        "predicate": "power.represents_in_european_council",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre représente la Finlande au Conseil européen et, sauf décision exceptionnelle du Gouvernement, dans d’autres activités de l’UE nécessitant la participation de la direction de l’État au plus haut niveau.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "union_europeenne"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "interface_ue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-106",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-finlande"
+        },
+        "predicate": "procedure.has_enhanced_majority",
+        "object": {
+          "kind": "proposition",
+          "value": "Une approbation d’obligation externe impliquant notamment un transfert de compétence important au regard de la souveraineté peut nécessiter une majorité des deux tiers conformément à l’article 94.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedure_renforcee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-107",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:kristal:finlande"
+        },
+        "predicate": "scope.excludes",
+        "object": {
+          "kind": "proposition",
+          "value": "Le présent Kristal exclut le contenu substantiel des traités, la coutume internationale, le jus cogens, les obligations erga omnes, le droit humanitaire, le droit de la mer et les autres régimes de droit international.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "scope"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "scope"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-TREATIES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-108",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:kristal:finlande"
+        },
+        "predicate": "scope.excludes",
+        "object": {
+          "kind": "proposition",
+          "value": "Le présent Kristal n’encode pas le droit matériel de l’Union européenne; il conserve uniquement les règles finlandaises déterminant qui prépare, décide, participe et applique au niveau national.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "scope"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "scope"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-PARL"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-109",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:kristal:finlande"
+        },
+        "predicate": "scope.links_out",
+        "object": {
+          "kind": "proposition",
+          "value": "Les traités et actes de l’UE peuvent être référencés comme objets externes, mais leurs obligations substantielles doivent résider dans le Kristal supranational/international séparé.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "scope"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "scope"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-TREATIES"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-110",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:charge-titulaire-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "CHARGE != TITULAIRE : le pouvoir attaché à une fonction est structurel; l’identité de la personne qui l’occupe est temporelle et n’appartient pas au cœur juridique.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-111",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:influence-autorite-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "INFLUENCE != AUTORITÉ : la pression politique, administrative ou partisane n’équivaut pas à une compétence juridiquement exécutoire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-112",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:loi-decret-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "LOI DU PARLEMENT != DÉCRET : les décrets reposent sur une habilitation et ne peuvent occuper les matières que la Constitution réserve à la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_normative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-113",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:delegation-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "POUVOIR DÉLÉGUÉ != COMPÉTENCE GÉNÉRALE : une habilitation réglementaire ou administrative doit conserver sa base et ses limites légales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-114",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:municipal-county-aland-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "MUNICIPALITÉ != WELLBEING SERVICES COUNTY != ÅLAND : ces trois niveaux ou régimes d’autonomie ont des bases et des compétences distinctes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_territoriale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST",
+        "SRC-FI-WELLBEING-ACT",
+        "SRC-FI-ALAND"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-115",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:national-external-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "DROIT FINLANDAIS != DROIT INTERNATIONAL/UE SUBSTANTIEL : le Kristal Finlande conserve uniquement l’interface nationale avec les normes externes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "scope"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-116",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:politique-privee-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "POLITIQUE PRIVÉE != INTERDICTION LÉGALE : une règle commerciale interne à Kristal Farms ne doit pas être présentée comme une interdiction du droit finlandais.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-117",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:controle-constitutionnel-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "CONTRÔLE PRÉALABLE PARLEMENTAIRE != CONTRÔLE JUDICIAIRE CONCRET : la Commission du droit constitutionnel et l’article 106 remplissent des fonctions différentes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FI-POUVOIR-118",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:validation-finlande"
+        },
+        "predicate": "model.invariant",
+        "object": {
+          "kind": "proposition",
+          "value": "VALIDATION HUMAINE : toute utilisation juridique opérationnelle exige une revalidation des textes, de la jurisprudence et de l’état institutionnel à la date d’usage.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "qualite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Finlande",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FI-CONST"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "PROV-FI-001",
+      "type": "research_build",
+      "created_at": "2026-10-02T22:34:00Z",
+      "method": "Synthèse structurée de la Constitution finlandaise, de lois et de sources institutionnelles officielles. Le droit international et le droit matériel de l’Union européenne sont explicitement exclus; seules les interfaces constitutionnelles et institutionnelles finlandaises avec ces ordres externes sont conservées. Les titulaires politiques actuels ne sont pas requis pour les règles structurelles.",
+      "tooling": "Kristal Standard 6.0.0"
+    }
+  ],
+  "warnings": [
+    "Ce paquet décrit les mécanismes institutionnels et juridiques; il ne constitue pas un avis juridique pour un dossier particulier.",
+    "Les traductions anglaises de Finlex sont indiquées comme non juridiquement contraignantes; les versions finnoise et suédoise font autorité.",
+    "Le droit international substantiel et le droit matériel de l’Union européenne sont exclus de ce Kristal et doivent être reliés au Kristal supranational/international séparé.",
+    "La réforme de l’administration régionale entrée en vigueur le 1er janvier 2026 doit être revalidée pour les fonctions sectorielles détaillées.",
+    "Le régime d’Åland repose sur une répartition spéciale de compétences qui doit être vérifiée matière par matière avant toute conclusion opérationnelle."
+  ],
+  "extensions": {
+    "kristal_series": "Qui décide quoi?",
+    "country_code": "FI",
+    "scope_policy": "national-law-only-with-external-interface",
+    "exclude_substantive_international_law": true,
+    "exclude_substantive_eu_law": true
+  }
+}

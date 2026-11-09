@@ -1,0 +1,127 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:catho",
+  "source_fingerprint": "sha256:df1893cacde746d1981caecd78458e74da0024895ca389629bc73f45f89cbf47",
+  "size_class": "medium",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 92552916,
+    "tracked_file_count": 13,
+    "max_tracked_file_bytes": 53995896,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 6,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-canonical-c5894325be.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 5065708,
+      "sha256": "sha256:e03b8e56e2933c2eab3a1e11eafe19f8ad35a36f966f96910a902b67f43b95ad"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-personnes-reconnaissances-67463698e4.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 364767,
+      "sha256": "sha256:f55352ea4bc1fcfa6d2881f63d6c7d04a7ca81b5c174110907d3b177fb12644f"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-semantic-links-763e7bac68.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1858352,
+      "sha256": "sha256:c4cfaf4fe607c1e7688d3d09b446e3a398feb07aa3e43f525fcc1d24054e2f01"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-topics-4500ee3833.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 430149,
+      "sha256": "sha256:c7f52e840dda0a7552f151f28507ed2ebe1fc6d22271b5049c7e0241d263427a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-wikidata-alignments-1f19dd3538.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1457127,
+      "sha256": "sha256:5c5ffa34641182e1e997a42a3d63060db96ca767f75d5ee80ee311486737cf2a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-wikidata-import-4e6b9f561d.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 53995896,
+      "sha256": "sha256:18e70eb396728c81dbc1d08103419f0be6725fb8be1d539dce2ec27578caba3d"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 3207,
+      "sha256": "sha256:6b728592e3558700392522aea1bcf4b8c2ab970ca1fb4d2c73da4328bb78d5aa"
+    },
+    {
+      "path": "canon/domain/catho-semantic-links.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1371468,
+      "sha256": "sha256:b85e401ca27bcd8b7c4252e93b20fb7ae5928755be9b5744130d59887fa2186b"
+    },
+    {
+      "path": "canon/domain/catho-topics.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 285173,
+      "sha256": "sha256:d02b34f6b06d276919a6cdf7b2d65687555b1f408fe02e839c02876e5fd281b0"
+    },
+    {
+      "path": "canon/domain/legacy-logical-artifact.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4802704,
+      "sha256": "sha256:f6ef49d9ef9fd8c39107e651f197b279e4a1f739459eb861b08b6401d25bfcf1"
+    },
+    {
+      "path": "canon/domain/personnes-reconnaissances.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 339847,
+      "sha256": "sha256:2358d00ce88140aa303c4dbe3e9a56e043157d9ca9442675928523d15668ccab"
+    },
+    {
+      "path": "canon/domain/wikidata-alignments.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 986587,
+      "sha256": "sha256:8824284dc6707eda066fb666cb06347bbad9f8a90f44740c7875e82dc56491be"
+    },
+    {
+      "path": "canon/domain/wikidata-import.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 21591931,
+      "sha256": "sha256:89db785f6af427c0f6a5a78d906a0cb068ebaf93134b74a34f378c14058b58a5"
+    }
+  ],
+  "segments": []
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "11.0",
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "vaticanops-curated-fr-v2",
+  "namespace_id": "vaticanops:editorial",
+  "languages": [
+    {
+      "tag": "fr",
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "editorial-fr",
+          "priority": 100,
+          "path": "curated-fr.json",
+          "sha256": "13afe753d35eb08e505706dc08375d05c5db01872dd3c24b5d60ecd21cd241d8"
+        }
+      ]
+    },
+    {
+      "tag": "fr-CA",
+      "fallbacks": [
+        "fr"
+      ],
+      "layers": []
+    }
+  ]
+}

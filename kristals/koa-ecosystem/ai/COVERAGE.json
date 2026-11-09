@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:koa-ecosystem:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:77e97e70d2d5aeb28faa7cecb43bd8c9a17855a42d1bdf6fe73e9e0b126735f1"
+  },
+  "subject": {
+    "id": "koa:digital-ecosystem",
+    "label": "kOA Digital Ecosystem",
+    "domain": "koa-digital-ecosystem"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "The curated cross-system map of the kOA Digital Ecosystem represented by the canonical state.",
+      "The local architectural assertions linking components, capabilities, operating functions, contracts, artifacts, workflows, lifecycles, repositories and evidence within this Kristal.",
+      "The editorial selection and qualification rules used to compile this ecosystem map."
+    ],
+    "does_not_own": [
+      "Internal implementation truth of owner repositories beyond the assertions explicitly imported here.",
+      "Authority of independent supporting ecosystems, external tools or reference systems merely linked by this Kristal.",
+      "Runtime deployment or activation unless explicit evidence in the canonical state supports it.",
+      "Financial, pricing, revenue, capital or other commercial claims excluded by the documented source-selection policy."
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 142,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 2,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 19,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

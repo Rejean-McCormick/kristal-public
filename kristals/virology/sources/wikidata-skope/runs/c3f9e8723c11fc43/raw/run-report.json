@@ -1,0 +1,327 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Virology",
+  "run_id": "c3f9e8723c11fc43",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:32:56.038216+00:00",
+  "source_labels": {
+    "project": "Kristal-Virology",
+    "namespace_id": "kristal:bulk:kristal-virology",
+    "search_labels": 175,
+    "labeled_entities": 175,
+    "labeled_properties": 0,
+    "domain_entities": 175,
+    "domain_properties": 20,
+    "unlabeled": [
+      {
+        "legacy_id": "vir.associated_with",
+        "semantic_id": "KP865300150056376494591991"
+      },
+      {
+        "legacy_id": "vir.can_establish",
+        "semantic_id": "KP651648271669251194251748"
+      },
+      {
+        "legacy_id": "vir.can_reactivate_to",
+        "semantic_id": "KP749916186115933324766816"
+      },
+      {
+        "legacy_id": "vir.constrains",
+        "semantic_id": "KP388659235261928647566690"
+      },
+      {
+        "legacy_id": "vir.contains",
+        "semantic_id": "KP263865688028630431448425"
+      },
+      {
+        "legacy_id": "vir.distinct_from",
+        "semantic_id": "KP614517919729009969868392"
+      },
+      {
+        "legacy_id": "vir.enables",
+        "semantic_id": "KP934237362864601662980801"
+      },
+      {
+        "legacy_id": "vir.exposes",
+        "semantic_id": "KP660206045012039582815939"
+      },
+      {
+        "legacy_id": "vir.has_property",
+        "semantic_id": "KP80746793202403277221370"
+      },
+      {
+        "legacy_id": "vir.has_replication_strategy",
+        "semantic_id": "KP727278921407226032831770"
+      },
+      {
+        "legacy_id": "vir.has_stage",
+        "semantic_id": "KP564374929599949740259382"
+      },
+      {
+        "legacy_id": "vir.has_taxonomic_rank",
+        "semantic_id": "KP418192258412523497154322"
+      },
+      {
+        "legacy_id": "vir.is_subtype_of",
+        "semantic_id": "KP348095582701581510422085"
+      },
+      {
+        "legacy_id": "vir.may_contain",
+        "semantic_id": "KP226737671511073940087365"
+      },
+      {
+        "legacy_id": "vir.packages",
+        "semantic_id": "KP933644250641795649336342"
+      },
+      {
+        "legacy_id": "vir.precedes",
+        "semantic_id": "KP1020515293803997938949776"
+      },
+      {
+        "legacy_id": "vir.produces",
+        "semantic_id": "KP1182483783489897113084544"
+      },
+      {
+        "legacy_id": "vir.requires",
+        "semantic_id": "KP757707891752710526260884"
+      },
+      {
+        "legacy_id": "vir.transmits_between",
+        "semantic_id": "KP1096105425429003339240609"
+      },
+      {
+        "legacy_id": "vir.uses_information_flow",
+        "semantic_id": "KP72460333469318570761804"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "8353b40d096511cc77c12cba93580bc47361755db367f2b435d76acf6ec479c2",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Virology",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "virology"
+      },
+      "native_model": {
+        "kind": "multiplane_viral_process_graph",
+        "description": "Génome/particule, cycle intracellulaire, transmission interhôtes et stratégie Baltimore.",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "taxons viraux ciblés",
+        "processus et cycles viraux",
+        "Respecter: Classification taxonomique et classification de Baltimore séparées."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-17",
+        "rationale": "Plusieurs plans : génome/particule, cycle intracellulaire, transmission interhôtes, classification Baltimore.",
+        "guardrail": "Cycle viral ≠ protocole de laboratoire; classification Baltimore est un axe distinct."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.68,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Virology\\c3f9e8723c11fc43",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "7601e1d7decccdba4b810ded762548f9c6c41290a7cfd8dfac6bc9302ed95b73",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 175,
+    "distinct_concepts": 175,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "7601e1d7decccdba4b810ded762548f9c6c41290a7cfd8dfac6bc9302ed95b73",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 175,
+    "distinct_concepts": 175,
+    "cached_queries": 173,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "no_exact_candidate": 127,
+      "unique_exact_candidate": 16,
+      "saturated_exact_search": 8,
+      "ambiguous_exact_candidates": 24
+    },
+    "tentative_unverified": 16,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "7601e1d7decccdba4b810ded762548f9c6c41290a7cfd8dfac6bc9302ed95b73",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 16,
+    "distinct_qids": 16,
+    "qid_inventory_sha256": "331ed37c18cbee8a103c542ec492fa8cddbbb6dda3456aabd40fc9ffc3430966",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 16,
+    "qids_acquired": 16,
+    "new_batches": 1,
+    "reused_records": 1,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Virology\\c3f9e8723c11fc43\\full-evidence\\331ed37c18cbee8a",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 16,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 253,
+    "raw_subject_entities": 16,
+    "related_unapproved_qids": 65,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-virology": 253
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "25f1dab543a4282fed49ff2739164f110856aa77feedb178286a6a262ae5bee4",
+  "proposals_sha256": "4227a3673b35b557204e5dbde4d8d5152b6341a57b29703a53344decb07bb46a"
+}

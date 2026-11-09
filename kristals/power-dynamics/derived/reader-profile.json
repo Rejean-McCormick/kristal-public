@@ -1,0 +1,82 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:state:power",
+  "source_fingerprint": "sha256:83cb2872e6ecad0815f62409902965e4994b47884b7fda43737782e35d7aa130",
+  "specialization": "kristal.reader/relational-network-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "selective",
+  "materialization_profiles": [
+    "kristal.materialization/native-blob/1"
+  ],
+  "artifact_strategies": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-power-canonical-state-e5eb6fbc9b.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 36201639,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "selective_on_demand_with_capacity_guard",
+      "must_verify_digest": "sha256:886fbff314efaf4226046e86e7670c8c9761392f3c0a6158dce5d71062d67af8",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 941,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:880c3d1a0c1b5e46dec40349160682b0e26dd087bd6d82cf22d7700060c40f29",
+      "authorization_required": true
+    },
+    {
+      "path": "knowledge-base/corpus/power-topology.structured-epistemic-state.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 34350571,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "selective_on_demand_with_capacity_guard",
+      "must_verify_digest": "sha256:91573ba1f265a43a06d0661bfb9d491f3e3aa40e946ab31481f736b8d0f82404",
+      "authorization_required": true
+    },
+    {
+      "path": "materializations/v9/manifests/urn-kristal-materialization-power-canonical-native-json-c84e9de907.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1387,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:c7db62bc5e8550de6310e05ac207fff76663d50b83aba28aca89a079c8b9699b",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

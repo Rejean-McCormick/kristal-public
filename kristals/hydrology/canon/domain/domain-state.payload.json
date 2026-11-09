@@ -1,0 +1,28 @@
+{
+  "domain": "hydrology",
+  "domain_version": "1.0.0",
+  "native_shape": "coupled-stock-flow-graph",
+  "basis": {
+    "artifact_id": "urn:kristal:hydrology:resource-basis",
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:693726a8d001135ff852d037714b93d29b5e8a597b47a37707dcdea0230c6260"
+    }
+  },
+  "canonical_roles": [
+    "portable_epistemic_state",
+    "identity_registry",
+    "domain_native_stock_flow_graph",
+    "source_catalog"
+  ],
+  "compatibility": {
+    "inherited_content_preserved": true,
+    "v6_v5_payloads_unchanged": true,
+    "v8_read_models_preserved_as_derived": true
+  },
+  "semantic_boundaries": [
+    "stock != flow != storage_change",
+    "infiltration != groundwater_recharge",
+    "surface_watershed != aquifer_system"
+  ]
+}

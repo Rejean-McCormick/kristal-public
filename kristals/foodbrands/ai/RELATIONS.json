@@ -1,0 +1,79 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:foodbrands",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:e41df7d28e730954db8ecea433571c99d77c09db3f7ebc0aee4b8480833b1eb9"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:foodbrands:canonical",
+      "logical_contract": {
+        "id": "foodbrands.source-catalog",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:foodbrands",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ab4fe707870ada575ec1fbdfa689f92725ecbf0c8ce50b7785340c73cc64d925"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:foodbrands:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:096a3e928ee445deaa556066685a14e283f78e5a00683a807ad486bffc50a78c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:foodbrands:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8171d0e753f8a6858dcc9b20a8d893d0dd216ac44305fd7ac8756882c31745dc"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:foodbrands:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1a1d02e0985a0c3ca9df6151a2958b3a9cf459ea0ce3e64a4dead69baa0d7758"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:foodbrands:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4ccc8689518395f8ff88439328310268a48858b8a1cfdbe119879178671e2748"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:foodbrands:v11:catalog:fr-proposal-2026-11-06",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:150c45eebe41e56ff7a7c01a51e2234ac7a0d16668c23d83234a94ad7af4f67d"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

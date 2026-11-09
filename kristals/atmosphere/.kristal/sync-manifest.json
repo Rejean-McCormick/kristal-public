@@ -1,0 +1,615 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "atmosphere",
+  "title": "Atmosphere",
+  "target_root": "kristals/atmosphere",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:atmosphere:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:eb52a5179f6aafa0f0aa32bdb0f8b95d2762dae5edfa7b1683463f85d4d4f3d9"
+  },
+  "surface_digest": "sha256:e228851410b1deaf500782f66bfcf49470cc8a6bc67ff9e296ec5ba57502af2f",
+  "file_count": 98,
+  "total_bytes": 5301109,
+  "materialization_object_count": 3,
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "role": "materialization_manifest",
+      "size": 1324,
+      "sha256": "sha256:984a7534c106bbc31592a96f1e5004ef86dbf8835a4e2f2aba4cc43a845b9cf9"
+    },
+    {
+      "path": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "role": "materialization_manifest",
+      "size": 1266,
+      "sha256": "sha256:e0d240608d477348aade1906428c77052419dbd6915daa2e88c1c9d6cc4ea8cb"
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "role": "materialization_manifest",
+      "size": 1302,
+      "sha256": "sha256:47453a12ae477fb992416d08c733222398cdb7bdd78af7c82b5e07420573cef9"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 2142,
+      "sha256": "sha256:2cdf6ba6cd2472923063f65d9c5261220eaf113bb12eff4b69f2419fa3f1db29"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1965,
+      "sha256": "sha256:305e9a9d70a230e8de4abff0a6bf7a72493f2a4725b7b7fc3ad4b8414054e32a"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 958,
+      "sha256": "sha256:8858ed036cfdb2708808ee08bfaa0b84611975933c9d13e9d5efe0bb3d21274b"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 4665,
+      "sha256": "sha256:65d3f1fa9c06ff43fc5661f965ac0c65cc635932af7a03058f598efb3b96b6e7"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1910,
+      "sha256": "sha256:a45ab3ac0cc9deb9e20c613a1cf216b18bdf709bd329930176d95c088af1ffa2"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 28892,
+      "sha256": "sha256:aaf7b6b1e6fdf52d8d990e4cb1d81179e5617d2f16fb0c6b12121a64a8787673"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 582,
+      "sha256": "sha256:797c6547abb5477dc7e4d490704fcf14732fd2b7eb1d0484d4df6f51cf173a74"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 5621,
+      "sha256": "sha256:fcc20797cfb265f438d7e2ffdb2e6b4d2d38a75fdef1e1472254265e1921dfcc"
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "role": "canonical_content",
+      "size": 355,
+      "sha256": "sha256:add22e544d91bebab9f2b4551220f60a0d90a5adc818333d55733cdb321778a2"
+    },
+    {
+      "path": "canon/domain/identity_registry.payload.json",
+      "role": "canonical_content",
+      "size": 377,
+      "sha256": "sha256:ed3a5f227a9508b7ea6fb4292baa5f3f7611379086e4e7ca6b5bf6762c0e0636"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "size": 53878,
+      "sha256": "sha256:70b7b4af11d990d66abe5245b574ca2d3a3de9341631c1ac5953534bda458f47"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "size": 1246,
+      "sha256": "sha256:9dcddb8475450aa32d4873f7da2b505ccb08ef19b1cda33828729d5197777a41"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "size": 1051,
+      "sha256": "sha256:97d2f05002c34d86e54d52738200cc189592124181cf208ef3a5dd6713fd03ad"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REPORT.json",
+      "role": "canonical_content",
+      "size": 1103,
+      "sha256": "sha256:bcde8b1583970673bbcb980708ad4a297fe8b3399b4b4a1edfa418b17cb264b4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "size": 1677,
+      "sha256": "sha256:daf93d5dc3c92ea07b8556cd970de14813c7db61b8874f264bcca8b3dc17d7e6"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "size": 2604,
+      "sha256": "sha256:892860c10eda3f88bf1abbf0f6d0d232521722ec6f70fc3359bb916243233e08"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "size": 13056,
+      "sha256": "sha256:24db7b5251546b65926f9396cdfb89fb38f8fb77ddf0ccf11b30108ddcf98981"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "size": 1767,
+      "sha256": "sha256:d1b4e19cadf3fb2742675d75680d965359bc4e919da77a166def7e8dcf83f925"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "size": 1746,
+      "sha256": "sha256:b7bc7a525d11b59f8d9501154098065d3195e668d087fbd2129549d63570590e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-link-fr-v13.json",
+      "role": "canonical_content",
+      "size": 559,
+      "sha256": "sha256:cc05b6eff1a03b3394ddc466ec1a84132c1407fe40599eaea5a07cfd6fd03052"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "size": 981,
+      "sha256": "sha256:d45e0df50ae0a8278bc7e71c1fc130154d830ca0daa6755fac93d053b2ad2d7a"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_content",
+      "size": 22228,
+      "sha256": "sha256:099e6bac7410f3ffcbf50e2f01821dab93021ad97c45d631775e425554b52cec"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_content",
+      "size": 91767,
+      "sha256": "sha256:aa132b3755a2c8f28750906083caa6cccde617defe6b80d18f94074c7bf53174"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "size": 186734,
+      "sha256": "sha256:69ba42165da57ca878c3e87eefb315586d7d1556c34071d423bb5e8f03d45686"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_content",
+      "size": 501011,
+      "sha256": "sha256:bb105c0d61e0510d2ac9c7fc17feefbbdb2ed73fcd926d2ee34f65f7286b3073"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "size": 53878,
+      "sha256": "sha256:70b7b4af11d990d66abe5245b574ca2d3a3de9341631c1ac5953534bda458f47"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/KS_WIKIDATA_V11_2.jsonl",
+      "role": "canonical_content",
+      "size": 2889,
+      "sha256": "sha256:3a25ee813e607798f6a518e77dadf0df317d522db8124e5555886c7abddcfcbb"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "size": 1246,
+      "sha256": "sha256:9dcddb8475450aa32d4873f7da2b505ccb08ef19b1cda33828729d5197777a41"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "size": 1051,
+      "sha256": "sha256:97d2f05002c34d86e54d52738200cc189592124181cf208ef3a5dd6713fd03ad"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/RAPPORT_V11_2.json",
+      "role": "canonical_content",
+      "size": 685,
+      "sha256": "sha256:d3166bd79e88f380fa115e1a047ed1264f2bf337c6200d97c1cb8e8c656ade63"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/REPORT.json",
+      "role": "canonical_content",
+      "size": 1103,
+      "sha256": "sha256:bcde8b1583970673bbcb980708ad4a297fe8b3399b4b4a1edfa418b17cb264b4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "size": 2203,
+      "sha256": "sha256:878375d5cd50b428c03b6e5d04daa6f05fe8ffdc20c2c95d3a4b55518cc061fe"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "size": 11005,
+      "sha256": "sha256:931dd0105c2fe4e118d9f59a826a36fd9f653e56b1a0568a1d172c83234d4a4d"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "size": 13056,
+      "sha256": "sha256:24db7b5251546b65926f9396cdfb89fb38f8fb77ddf0ccf11b30108ddcf98981"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "size": 1767,
+      "sha256": "sha256:d1b4e19cadf3fb2742675d75680d965359bc4e919da77a166def7e8dcf83f925"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "size": 1746,
+      "sha256": "sha256:b7bc7a525d11b59f8d9501154098065d3195e668d087fbd2129549d63570590e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-link-fr-v13.json",
+      "role": "canonical_content",
+      "size": 559,
+      "sha256": "sha256:cc05b6eff1a03b3394ddc466ec1a84132c1407fe40599eaea5a07cfd6fd03052"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-typed-fr-v11-2.json",
+      "role": "canonical_content",
+      "size": 2688,
+      "sha256": "sha256:1919b8e485e4d2869683f288760a10336bc668d63033613ccee397396b3653af"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-typed-und-v11-2.json",
+      "role": "canonical_content",
+      "size": 2660,
+      "sha256": "sha256:90311ec618e1be62f3e24738c999a2d36b5af1cdd12a4db456d8ca7db4c0c7fd"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "size": 981,
+      "sha256": "sha256:d45e0df50ae0a8278bc7e71c1fc130154d830ca0daa6755fac93d053b2ad2d7a"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_content",
+      "size": 22228,
+      "sha256": "sha256:099e6bac7410f3ffcbf50e2f01821dab93021ad97c45d631775e425554b52cec"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_content",
+      "size": 93155,
+      "sha256": "sha256:2e169b260e0c1814affffec6873e77e46646472b0e773f080e39789e117c21da"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "size": 186734,
+      "sha256": "sha256:69ba42165da57ca878c3e87eefb315586d7d1556c34071d423bb5e8f03d45686"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_content",
+      "size": 505525,
+      "sha256": "sha256:b18ade360d4c05e3e1fb25d73a7d6c85e1082a2cfde6c84ffb26281c0ea584b4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "size": 1246,
+      "sha256": "sha256:9dcddb8475450aa32d4873f7da2b505ccb08ef19b1cda33828729d5197777a41"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/REPORT.json",
+      "role": "canonical_content",
+      "size": 1103,
+      "sha256": "sha256:bcde8b1583970673bbcb980708ad4a297fe8b3399b4b4a1edfa418b17cb264b4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "size": 1132,
+      "sha256": "sha256:1def4f44e11cc352c54c4ac1b8fef2e335ed855a6f8c769e2b0e7bef534fea77"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "size": 2604,
+      "sha256": "sha256:892860c10eda3f88bf1abbf0f6d0d232521722ec6f70fc3359bb916243233e08"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "size": 13056,
+      "sha256": "sha256:24db7b5251546b65926f9396cdfb89fb38f8fb77ddf0ccf11b30108ddcf98981"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/wikidata-link-fr-v13.json",
+      "role": "canonical_content",
+      "size": 559,
+      "sha256": "sha256:cc05b6eff1a03b3394ddc466ec1a84132c1407fe40599eaea5a07cfd6fd03052"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "size": 981,
+      "sha256": "sha256:d45e0df50ae0a8278bc7e71c1fc130154d830ca0daa6755fac93d053b2ad2d7a"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_content",
+      "size": 22213,
+      "sha256": "sha256:ac147feb8fddde6d8bbdfbd3d12b426dd9d54a793a2e36b83eaba0e7b80d7e10"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_content",
+      "size": 84396,
+      "sha256": "sha256:2359085e3e6957a9eda78c3c60375ab7455704b7516dd4b6942e91283e6a4351"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "size": 186734,
+      "sha256": "sha256:69ba42165da57ca878c3e87eefb315586d7d1556c34071d423bb5e8f03d45686"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_content",
+      "size": 488246,
+      "sha256": "sha256:3dd1cf44efd93dbaf37d9649fe2a66fba7aa3aede004933adbac3b7fa6677f35"
+    },
+    {
+      "path": "canon/epistemic/legacy-build-input-editorial-sources.payload.json",
+      "role": "canonical_content",
+      "size": 445,
+      "sha256": "sha256:5fdde8b105986ae89cff0a25d79c5530f1224bba929e247099bc66e7622795c0"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 8767,
+      "sha256": "sha256:1745d6b65e903fc674b063e6a3458e0732029e23ffe32ffb842360ce3dd1b39b"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 12568,
+      "sha256": "sha256:348a895920476ff1699cb84ca01ae9603d7d6cebde5288b034629dd95f472f77"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 18232,
+      "sha256": "sha256:ef318a81476d6a5dd0fd25a769053503e50d84cc8b14e527f94b6a29b9991079"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 529,
+      "sha256": "sha256:14419fa223e4b5a788161111f2aaefcdb2196c532df8b19a254527e61331e0d7"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 501,
+      "sha256": "sha256:ea4083f7a520af9c54583e090da37d5214019e8d9d4bf016cc9412338265f77d"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 748,
+      "sha256": "sha256:57f34b6d95f5447e252689b7de552c4832f0e571987dd0d351642007d7566520"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 673,
+      "sha256": "sha256:948112bffde28fbe894fe64fb63e84bbbf0bb26f8aad35459bf786c791e24daf"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 1007,
+      "sha256": "sha256:302303fe3e9234bf7e3a0b0340afb73c683b55a8400960e69c716d2b88dbfc33"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 561,
+      "sha256": "sha256:4d92387a77dbcaab434fdb774dfd60905fecec67ef855402b37f0adb7391d176"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 673,
+      "sha256": "sha256:1731fc8449a9e9036f1d98e69d2f8b1b8b8d7cce528952d778316f584a1a5ba6"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 554,
+      "sha256": "sha256:77c58798da64c9fc046ac0792cc2c33239c5f92716053e2a81ec312a7c809168"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 3914,
+      "sha256": "sha256:b58180e748f1f618c757eac18d18dac9ad1b3b20133dd5e8aca1d23c271fd0fb"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1832,
+      "sha256": "sha256:87f3485ecbeec2998918cb6967c84bbbf55da4a045d614a4dcee53a33c5b1d10"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 9203,
+      "sha256": "sha256:e513a849d625a9bc49f91078a040817c1b78e5a12b224f617da02feba312daeb"
+    },
+    {
+      "path": "sources/wikidata-skope/current.json",
+      "role": "source_material",
+      "size": 251,
+      "sha256": "sha256:5577814be2da400bfb762135acb0a58d9bc7450cf55c29bb9ae5f6a1ca684333"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/README.md",
+      "role": "source_material",
+      "size": 1843,
+      "sha256": "sha256:e637f9087a8092dfb3498078bd716593454ad9415c8fc749f141ff971baed8a6"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/crosswalk-candidates.jsonl",
+      "role": "source_material",
+      "size": 18831,
+      "sha256": "sha256:83ba733dc6101bed3c1e77a663a44485aa20678b02a0bcb5fc723bb754fec748"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/priority-relations.jsonl",
+      "role": "source_material",
+      "size": 63544,
+      "sha256": "sha256:8d7cfd3cebbb033e85481e2ae474984302fa74b1f915fdc5717631e6e92d98a7"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/enrichment-proposals.jsonl",
+      "role": "source_material",
+      "size": 1890282,
+      "sha256": "sha256:7e166e7980c8e6a4bf79a92069c4724bec1906be4b84c957d69ad19cf301a4f1"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/enrichment-proposals.related-qids.jsonl",
+      "role": "source_material",
+      "size": 18539,
+      "sha256": "sha256:2f17f4b8a3f1601e2f62ca60ca3060618d57bb261c4e32470f299e6c39ae167c"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/enrichment-proposals.report.json",
+      "role": "source_material",
+      "size": 431,
+      "sha256": "sha256:b5059105541e1e375603b4fec0e665299c2c606a3c1dc84a623aa5f4a54140d1"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/full-evidence/3684006851b5b06c/part-000000.jsonl.gz",
+      "role": "source_material",
+      "size": 256382,
+      "sha256": "sha256:3f9a11cae9510da39fe027d2cf292297646bf2ca5d86af24b3dfb0c68b6771c7"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/full-evidence/3684006851b5b06c/part-000000.manifest.json",
+      "role": "source_material",
+      "size": 1078,
+      "sha256": "sha256:a8023274c175b9d6f367d69c2291180413dd92186aa6e3c4e36e742626b0091c"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/full-evidence/3684006851b5b06c/portfolio-extraction-state.json",
+      "role": "source_material",
+      "size": 1250,
+      "sha256": "sha256:4ef98aef8f63fd279e1dda688a0740502e505a112779d0d747e7e89b10bb194c"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/full-evidence/3684006851b5b06c/snapshot-manifest.json",
+      "role": "source_material",
+      "size": 536,
+      "sha256": "sha256:0cd060fe67118681832ce45c3f9879798f79d634417d2feb8c41dc9f3a195c3b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/portfolio/identity-resolution.json",
+      "role": "source_material",
+      "size": 67757,
+      "sha256": "sha256:98003e9ad917d743953327bcd8b65898d9f5d400a01e919ecb7d57f04e69a7d3"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/portfolio/inventory.json",
+      "role": "source_material",
+      "size": 312,
+      "sha256": "sha256:30832ed2297080373071f9d4c9ee8614f1b0ce833d8c7d0eb07160cc5ca93854"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/review-candidates.generated.csv",
+      "role": "source_material",
+      "size": 232695,
+      "sha256": "sha256:81a1270fb25f8366c9d4b9773320555566b4979fa140bd20c42cd964bc0db993"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/run-report.json",
+      "role": "source_material",
+      "size": 18061,
+      "sha256": "sha256:9d70d1061a20d7c4e94ea2dc6e39a0f46427aab5087c204802b7847bbfbf6c54"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/seeds/extraction-intent.json",
+      "role": "source_material",
+      "size": 693,
+      "sha256": "sha256:a4b2927943002e72a76aa156866ccf6e9123bfdcff994e09c1d6e8e6b16c7e91"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/seeds/portfolio-selected-qids.jsonl",
+      "role": "source_material",
+      "size": 1607,
+      "sha256": "sha256:3684006851b5b06c77701cd04facb3f17273d524605fcdbf94c0e5b3952f0e87"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/seeds/reviewed-mappings.jsonl",
+      "role": "source_material",
+      "size": 15003,
+      "sha256": "sha256:334d05eb84875cc5b400bc1a5a60181b8769750c0b2886c619ee41761536a2ce"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/raw/source-profiles/maxwd-local.json",
+      "role": "source_material",
+      "size": 1123,
+      "sha256": "sha256:bfd799319ec26b173332cc843df66ba5b043937ce59d3bbedc973d9e8d00959b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/5e475a7c9ae28e99/source-index.json",
+      "role": "source_material",
+      "size": 1990,
+      "sha256": "sha256:826324d60f769d1ffb9a166dda6f30d47b22ef79515184c26d526b9a92e0dc1c"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 5715,
+      "sha256": "sha256:91d04ab72dee11643254829bb6d103460f0f77ac73b4be1a29a55ac14f999ad4"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "controlsystems",
+  "title": "ControlSystems",
+  "target_root": "kristals/controlsystems",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:controlsystems",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:bbed949bcdefddcf6b9ceba55a2d6588ed3015fe9d9078c5614bee2a4d9287f7"
+  },
+  "surface_digest": "sha256:bd8c087de27e48bf040c7dae1dfa6401dc04fec7e86e8c0b09559cf46bf275c3",
+  "file_count": 27,
+  "total_bytes": 423380,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 2217,
+      "sha256": "sha256:5c6633b953d16a0b54bdeed8b4c8fe8cfa60aa7a70ae45ee62b4f9c90974bff2"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1940,
+      "sha256": "sha256:98866b095be1fb6c8d73ff688834ee808de1b45a91a298be6f4568723537c4ad"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 2088,
+      "sha256": "sha256:da8efe2f40cd21856d49120b863e224ff8c7e5d9020975016065475029087831"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 6520,
+      "sha256": "sha256:a7ee32a11a80c407864bd3a98daac0256cf78d2956dee15f331c5b54ef903ab6"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1857,
+      "sha256": "sha256:3a9a2656e8efb105ab37a687342c2c5cb3148813ef36659f9da3f8e2f0d1ffad"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 849,
+      "sha256": "sha256:dcba648578eaa7d0952eb39c576f7654605828074e799def853e26d6c7bdb2d2"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 4100,
+      "sha256": "sha256:4e12674e7d49ccfa75e16fa23eba4a32bbf1754fa6f274253c8e2a26fa56aa48"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 586,
+      "sha256": "sha256:8452858c8d2f7c7abee12d35d166fc3e6c88a3c1f31b07a1f33787e114ada1c0"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 806,
+      "sha256": "sha256:70c103ab4a36f620c216b81eb4a7765cbfcf653aca23db516ab974822a92e89a"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "size": 374737,
+      "sha256": "sha256:3de772bde9e44937184cbb9c21c4fc7f6904a56f9a7b92d48e1c1905ac2baa5a"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1345,
+      "sha256": "sha256:9b6afe38486a7cc5180115bc23332bded6d4daa311b6fec067c0a83cdfc35807"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1875,
+      "sha256": "sha256:b2ee6e50c395db15ad23ba886b5c418de345958214d0fffcaa814943d1f2f2a8"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2682,
+      "sha256": "sha256:2a11bbef0a6e24c0d08550d15741018507b7c79c0fd047f2d5867b4b50a84d7a"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 857,
+      "sha256": "sha256:cb37e0c4f37857516d3708f22f0bbf89169a7f9c974fc33d85e682298b79a0af"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 1102,
+      "sha256": "sha256:722be1349ad0545914d5fb65ada2236e669599958371552f6de40926948f66f6"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 1063,
+      "sha256": "sha256:51086a42fdd1d3b74c58098a5f7cabc8c90a57f3f1c1af0c85b01614210bd8b0"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 907,
+      "sha256": "sha256:8d86118e4660dbc2f1da7739669d942b2f30aacf527b778757ab0b17205d9c0e"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 1362,
+      "sha256": "sha256:55b94383d374df6624d818809beda71e88eecef8396d4909a3a0e19df233d1c8"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 798,
+      "sha256": "sha256:1c773f15e8d3a86016185fef54668d784e0f2de9a3427ec54b0e47aae6c1e8a5"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 853,
+      "sha256": "sha256:20401bbf0e133085af05d262928b97b73dec499e0b359ad5b841d3384df091eb"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 650,
+      "sha256": "sha256:40092ec58be4cf0686eb9ffe657dcb08ca96a6a63ef6d8786625247b4232c29e"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 4066,
+      "sha256": "sha256:76232563577a7cede80929e9c0bbb187ebdfe9286494bf4b7cc4a8ba3dfff4f0"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "size": 849,
+      "sha256": "sha256:dcba648578eaa7d0952eb39c576f7654605828074e799def853e26d6c7bdb2d2"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1995,
+      "sha256": "sha256:fcf49ea1ddbd91a85bcb7b734d1fd064b60d879d26898497e2404f27298d5927"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 3630,
+      "sha256": "sha256:2552f474edd1b92b923071a2ff673ceddea09903bfd3c79651c434c98892e9a6"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 1019,
+      "sha256": "sha256:deffdf36ab809930b2cfff573c59fd184176573964104090d14d9b422c0dbcbe"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

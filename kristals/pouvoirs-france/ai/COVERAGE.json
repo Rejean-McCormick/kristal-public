@@ -1,0 +1,41 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-france",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:abd1fe8fc65dfa6730886124c4b0cb159bf69ed8a46ccddb5dda3798d7e0f880"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:pouvoirs-france",
+    "label": "Kristal-Pouvoirs-France",
+    "domain": "mécanismes légaux de pouvoir",
+    "jurisdiction": "France"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Le modèle de répartition des pouvoirs juridiques internes pour la juridiction France.",
+      "Les rôles, habilitations, contraintes et mécanismes de contrôle documentés dans les sources locales, au niveau de référence temporelle du corpus.",
+      "Les engagements logiques des assertions et les liens de provenance présents dans le membre v9 canonique."
+    ],
+    "does_not_own": [
+      "Le droit international ou européen substantiel au-delà des interfaces constitutionnelles internes expressément modélisées.",
+      "Les titulaires actuels de fonctions politiques, sauf dispositions explicitement présentes dans le canon historique.",
+      "Les sources officielles externes et leurs changements après la date de référence.",
+      "Les projections v8, le runtime, les canaux de publication et l’activation."
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 21,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

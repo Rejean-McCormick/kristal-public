@@ -1,0 +1,123 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:cartography",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:173bf3dc7ceefb0cfc674bae53ad74392999128bd38d6a306899a4218a6ea40c"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:cartography:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:cartography:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8f37edae89a502330949cebeaacf10d90753988663ceab7a4412e8a6b7961538"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:cartography:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fb0d32c0a8358861d2d5481eddd9683f029580c3e70c4f310bd9641e689a41e4"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:cartography:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6c5d9c54d6d3498eedd33a9506b675b16cc12dbfe67b3743d2246cb8192467ea"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:cartography:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:af305128eb2ecb23afab2c8c276bf3ab0062c1ef69eea36828683d3149839ae0"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:cartography:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:879012ed3100f7f9a5a213610997d927959962f9051f202a3de0a5d1acb49cd5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Cartography:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3a8af94fedd435c8b42e30f49d8ef6e1d940306ab71694ec315392cfbeead322"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Cartography:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:78da0d5ebd95d292fde620029b3e72a60b94233c0a55c10b42169df543017f2b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Cartography:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ccbed164b0d3d5c06b80025c5e66b83646c006c09b80bbd838350faa48714638"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Cartography:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c6b600e00d6486b3d14e30c8465f97faf7c7be750c83b86cabcd3b2e5b8c7edb"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:cartography:v11:catalog:fr-proposal-2026-11-06",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:86bf530448bd21cc68498e4f9ea50d9ade9712a6f406a3553d2041ad01be5f65"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

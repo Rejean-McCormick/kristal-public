@@ -1,0 +1,47 @@
+{
+  "domain": "historytech",
+  "domain_version": "0.10.2",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:historytech:resource:structured_epistemic_state",
+      "role": "structured_epistemic_state",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:e4d9cc033e9ffe03616b1aa5d864177070af2566b840a999e77004420a47abd1"
+      },
+      "legacy_schema_version": "5.0",
+      "legacy_artifact_type": "structured_epistemic_state",
+      "legacy_state_id": "sha256:66ca0f9c59eb34e211b2051a87b7a24457deb62b1f88bdeff9dd7b002dbffba4",
+      "legacy_content_hash": {
+        "alg": "sha256",
+        "value": "66ca0f9c59eb34e211b2051a87b7a24457deb62b1f88bdeff9dd7b002dbffba4"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:historytech:resource:source_authority_registry",
+      "role": "source_authority_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:717bc3b78e53513731345333c2ce1cb7e89c48a23f32b6da11e56e0783ae275f"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:historytech:resource:editorial_semantic_policy",
+      "role": "editorial_semantic_policy",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:1b7f94ae152086ade2a7acfbac2a4d06573c98daa404a1f5dc982ac50a982013"
+      }
+    }
+  ],
+  "semantic_boundaries": [
+    "technology != manifestation != occurrence",
+    "certainty_level != sociotechnical_state",
+    "earliest_known_attestation is derived",
+    "source_authority != automatic_validation"
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-HumanBody",
+  "run_id": "84a74e7804047b4d",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:29:06.298700+00:00",
+  "source_labels": {
+    "project": "Kristal-HumanBody",
+    "namespace_id": "kristal:bulk:kristal-humanbody",
+    "search_labels": 538,
+    "labeled_entities": 495,
+    "labeled_properties": 43,
+    "domain_entities": 495,
+    "domain_properties": 43,
+    "unlabeled": [],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "6da7bb9ea11d2595b4215f19f228c0a405153b69d96f321f551f8f7a0549ead9",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-HumanBody",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "humanbody",
+        "edition": "1.1.0"
+      },
+      "native_model": {
+        "kind": "multiplex-multiscale-epistemic-graph",
+        "description": "Native model declared by the historical v9 domain-state logical artifact; not replaced with a universal schema.",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "structures et organes anatomiques",
+        "fonctions et systèmes corporels",
+        "Respecter: Structure humaine ≠ résultat clinique; garder niveaux anatomiques."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Modèle explicitement multiplexe et multi-échelle des structures et fonctions corporelles.",
+        "guardrail": "Référence anatomique ≠ dossier patient ni validation clinique."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.77,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-HumanBody\\84a74e7804047b4d",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "f8009f80f8bc37c41b8c8e984da1c46e11f8433da90a98159a8a65f5df570957",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 538,
+    "distinct_concepts": 538,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "f8009f80f8bc37c41b8c8e984da1c46e11f8433da90a98159a8a65f5df570957",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 538,
+    "distinct_concepts": 538,
+    "cached_queries": 529,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "no_exact_candidate": 269,
+      "unique_exact_candidate": 120,
+      "ambiguous_exact_candidates": 104,
+      "saturated_exact_search": 35,
+      "same_external_id_multiple_semantic_concepts": 10
+    },
+    "tentative_unverified": 120,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "f8009f80f8bc37c41b8c8e984da1c46e11f8433da90a98159a8a65f5df570957",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 120,
+    "distinct_qids": 111,
+    "qid_inventory_sha256": "c82411269ffd5d4bd0d649c3b1398a9945b868ae9e162370f534eca4ca2baaab",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 111,
+    "qids_acquired": 111,
+    "new_batches": 1,
+    "reused_records": 9,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-HumanBody\\84a74e7804047b4d\\full-evidence\\c82411269ffd5d4b",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 111,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 4351,
+    "raw_subject_entities": 111,
+    "related_unapproved_qids": 795,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-humanbody": 4351
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "18e76a53ae7affeb4ed98954b46c8e9deebae893d1cd76f26dd0ce90d4f018d1",
+  "proposals_sha256": "f5bcd0cacb7c3db07042555aa25df9010658bfa20381e5bb152ccfa31921b376"
+}

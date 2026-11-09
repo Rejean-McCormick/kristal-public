@@ -1,0 +1,386 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "src:ics:chart-2026-06",
+      "title": "International Chronostratigraphic Chart v2026/06",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:ics:chart-2026-06",
+        "publisher": "International Commission on Stratigraphy (ICS/IUGS)",
+        "title": "International Chronostratigraphic Chart v2026/06",
+        "url": "https://stratigraphy.org/chart/",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "geologic_time",
+          "chronostratigraphy",
+          "numeric_boundaries"
+        ],
+        "authority_note": "Official ICS chart; frozen to chart version 2026/06 for this Kristal."
+      },
+      "locator": "https://stratigraphy.org/chart/",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:ics:chart-github-2026-06.5",
+      "title": "ICS chart data release v2026-06.5",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:ics:chart-github-2026-06.5",
+        "publisher": "International Commission on Stratigraphy (ICS/IUGS)",
+        "title": "ICS chart data release v2026-06.5",
+        "url": "https://github.com/i-c-stratigraphy/chart/releases/tag/v2026-06.5",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "geologic_time",
+          "machine_readable_timescale"
+        ],
+        "authority_note": "Authoritative ICS chart repository release; CC BY 4.0."
+      },
+      "locator": "https://github.com/i-c-stratigraphy/chart/releases/tag/v2026-06.5",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:geosciml:geologic-event",
+      "title": "GeoSciML GeologicEvent",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:geosciml:geologic-event",
+        "publisher": "IUGS Commission for the Management and Application of Geoscience Information / GeoSciML",
+        "title": "GeoSciML GeologicEvent",
+        "url": "https://geosciml.org/doc/geosciml/3.0/documentation/html/GeoSciML/GeologicAge/GeologicEvent.html",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "geologic_event",
+          "geologic_process",
+          "age"
+        ]
+      },
+      "locator": "https://geosciml.org/doc/geosciml/3.0/documentation/html/GeoSciML/GeologicAge/GeologicEvent.html",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:geosciml:geologic-unit",
+      "title": "GeoSciML GeologicUnit package",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:geosciml:geologic-unit",
+        "publisher": "IUGS CGI / GeoSciML",
+        "title": "GeoSciML GeologicUnit package",
+        "url": "https://geosciml.org/doc/geosciml/3.0/documentation/html/GeoSciML/GeologicUnit/package-summary.html",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "geologic_unit",
+          "stratigraphic_unit",
+          "lithology"
+        ]
+      },
+      "locator": "https://geosciml.org/doc/geosciml/3.0/documentation/html/GeoSciML/GeologicUnit/package-summary.html",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:geosciml:unit-types",
+      "title": "CGI Geologic unit type vocabulary",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:geosciml:unit-types",
+        "publisher": "IUGS CGI / GeoSciML",
+        "title": "CGI Geologic unit type vocabulary",
+        "url": "https://geosciml.org/resource/vocabulary/cgi/201211/geologicunittype.html",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "geologic_unit_types",
+          "stratigraphy"
+        ]
+      },
+      "locator": "https://geosciml.org/resource/vocabulary/cgi/201211/geologicunittype.html",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:usgs:geologic-maps",
+      "title": "Geologic Maps",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:usgs:geologic-maps",
+        "publisher": "U.S. Geological Survey",
+        "title": "Geologic Maps",
+        "url": "https://pubs.usgs.gov/gip/usgsmaps/usgsmaps.html",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "geologic_maps",
+          "materials",
+          "structures",
+          "map_units"
+        ]
+      },
+      "locator": "https://pubs.usgs.gov/gip/usgsmaps/usgsmaps.html",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:usgs:fgdc-symbol-standard",
+      "title": "Digital Cartographic Standard for Geologic Map Symbolization",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:usgs:fgdc-symbol-standard",
+        "publisher": "U.S. Geological Survey / Federal Geographic Data Committee",
+        "title": "Digital Cartographic Standard for Geologic Map Symbolization",
+        "url": "https://ngmdb.usgs.gov/fgdc_gds/geolsymstd.php",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "contacts",
+          "faults",
+          "folds",
+          "bedding",
+          "foliation",
+          "map_representation"
+        ]
+      },
+      "locator": "https://ngmdb.usgs.gov/fgdc_gds/geolsymstd.php",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:nps:superposition",
+      "title": "Geologic Principles—Superposition and Original Horizontality",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:nps:superposition",
+        "publisher": "U.S. National Park Service",
+        "title": "Geologic Principles—Superposition and Original Horizontality",
+        "url": "https://www.nps.gov/articles/geologic-principles-superposition-and-original-horizontality.htm",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "superposition",
+          "original_horizontality",
+          "relative_dating"
+        ]
+      },
+      "locator": "https://www.nps.gov/articles/geologic-principles-superposition-and-original-horizontality.htm",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:nps:cross-cutting",
+      "title": "Geologic Principles—Cross-cutting Relationships",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:nps:cross-cutting",
+        "publisher": "U.S. National Park Service",
+        "title": "Geologic Principles—Cross-cutting Relationships",
+        "url": "https://www.nps.gov/articles/geologic-principles-cross-cutting-relationships.htm",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "cross_cutting",
+          "relative_dating",
+          "intrusions",
+          "faults"
+        ]
+      },
+      "locator": "https://www.nps.gov/articles/geologic-principles-cross-cutting-relationships.htm",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:nps:geologic-time",
+      "title": "Geologic Time",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:nps:geologic-time",
+        "publisher": "U.S. National Park Service",
+        "title": "Geologic Time",
+        "url": "https://www.nps.gov/subjects/geology/geotime.htm",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "relative_age",
+          "numeric_age",
+          "geologic_time_scale"
+        ]
+      },
+      "locator": "https://www.nps.gov/subjects/geology/geotime.htm",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:nps:dating-techniques",
+      "title": "Geologic Timescale, Geologic Dating Techniques, and Numeric Ages",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:nps:dating-techniques",
+        "publisher": "U.S. National Park Service",
+        "title": "Geologic Timescale, Geologic Dating Techniques, and Numeric Ages",
+        "url": "https://www.nps.gov/articles/000/grcatime-timescale.htm",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "radiometric_dating",
+          "relative_dating",
+          "unconformity",
+          "stratigraphy"
+        ]
+      },
+      "locator": "https://www.nps.gov/articles/000/grcatime-timescale.htm",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:nps:rock-sets",
+      "title": "Grand Canyon’s Three Sets of Rocks — glossary and stratigraphic concepts",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:nps:rock-sets",
+        "publisher": "U.S. National Park Service",
+        "title": "Grand Canyon’s Three Sets of Rocks — glossary and stratigraphic concepts",
+        "url": "https://www.nps.gov/articles/000/grcatime-grand-canyon-s-three-sets-of-rocks.htm",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "formation",
+          "stratigraphic_rank",
+          "foliation",
+          "rock_types"
+        ]
+      },
+      "locator": "https://www.nps.gov/articles/000/grcatime-grand-canyon-s-three-sets-of-rocks.htm",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:nps:faults-fractures",
+      "title": "Faults and Fractures",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:nps:faults-fractures",
+        "publisher": "U.S. National Park Service",
+        "title": "Faults and Fractures",
+        "url": "https://home.nps.gov/articles/faults-and-fractures.htm",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "faults",
+          "fractures",
+          "normal_fault",
+          "reverse_fault",
+          "strike_slip_fault"
+        ]
+      },
+      "locator": "https://home.nps.gov/articles/faults-and-fractures.htm",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:usgs:rock-cycle",
+      "title": "The Rock Cycle",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:usgs:rock-cycle",
+        "publisher": "U.S. Geological Survey",
+        "title": "The Rock Cycle",
+        "url": "https://pubs.usgs.gov/of/1994/0636/report.pdf",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "rock_cycle",
+          "igneous",
+          "sedimentary",
+          "metamorphic",
+          "erosion",
+          "lithification"
+        ]
+      },
+      "locator": "https://pubs.usgs.gov/of/1994/0636/report.pdf",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:usgs:plate-motions",
+      "title": "Understanding plate motions — This Dynamic Earth",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:usgs:plate-motions",
+        "publisher": "U.S. Geological Survey",
+        "title": "Understanding plate motions — This Dynamic Earth",
+        "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "plate_tectonics",
+          "divergent",
+          "convergent",
+          "transform",
+          "subduction"
+        ]
+      },
+      "locator": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:nps:plate-boundaries",
+      "title": "Types of Plate Boundaries",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:nps:plate-boundaries",
+        "publisher": "U.S. National Park Service",
+        "title": "Types of Plate Boundaries",
+        "url": "https://home.nps.gov/subjects/geology/plate-tectonics-types-of-plate-boundaries.htm",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "plate_tectonics",
+          "divergence",
+          "convergence",
+          "transform"
+        ]
+      },
+      "locator": "https://home.nps.gov/subjects/geology/plate-tectonics-types-of-plate-boundaries.htm",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:usgs:sedimentology",
+      "title": "Sedimentology: general introduction and definitions",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:usgs:sedimentology",
+        "publisher": "U.S. Geological Survey",
+        "title": "Sedimentology: general introduction and definitions",
+        "url": "https://www.usgs.gov/publications/sedimentology-general-introduction-and-definitions-fluvial-sediment-and-channel",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "weathering",
+          "erosion",
+          "transport",
+          "deposition",
+          "diagenesis"
+        ]
+      },
+      "locator": "https://www.usgs.gov/publications/sedimentology-general-introduction-and-definitions-fluvial-sediment-and-channel",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    },
+    {
+      "id": "src:usgs:relative-time",
+      "title": "Geologic Time: Relative Time Scale",
+      "kind": "source_reference",
+      "original_metadata": {
+        "source_id": "src:usgs:relative-time",
+        "publisher": "U.S. Geological Survey",
+        "title": "Geologic Time: Relative Time Scale",
+        "url": "https://pubs.usgs.gov/gip/geotime/relative.html",
+        "accessed_on": "2026-10-02",
+        "scope": [
+          "relative_time",
+          "stratigraphy",
+          "geologic_history"
+        ]
+      },
+      "locator": "https://pubs.usgs.gov/gip/geotime/relative.html",
+      "locator_provenance": "original_metadata.url",
+      "locator_verification": "historical_unverified"
+    }
+  ],
+  "source_files": [
+    "knowledge-base/sources/source_catalog.json"
+  ],
+  "notes": "Inventaire dérivé des références existantes; l’autorité et la politique originales restent dans les fichiers historiques. Liste vide ≠ absence de sources externes."
+}

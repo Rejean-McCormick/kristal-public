@@ -1,0 +1,147 @@
+{
+  "format": "k.monetary.multiangle/open-decisions/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:arbitrages",
+  "epistemic_regime": "open_design_decisions",
+  "items": [
+    {
+      "id": "DEC01",
+      "object": "Régime monétaire K_M",
+      "alternatives": "M0,M1,M2,M3,M4",
+      "criteria": "Qualification, liquidité, droits de rachat",
+      "gates": [
+        "G01",
+        "G02",
+        "G07"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC02",
+      "object": "KingCoin vs K_M",
+      "alternatives": "synonyme historique, instrument distinct, ancienne version",
+      "criteria": "compatibilité sémantique/engagements",
+      "gates": [
+        "G10"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC03",
+      "object": "Rôle des lingots",
+      "alternatives": "vente seule, apport K_C, actif de réserve sous conditions",
+      "criteria": "propriété, marché, assurance, niveau de preuve",
+      "gates": [
+        "G04",
+        "G05"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC04",
+      "object": "Structure du véhicule K_C",
+      "alternatives": "coop, fiducie, fonds, société",
+      "criteria": "nature des titres, droits, valeurs mobilières",
+      "gates": [
+        "G05",
+        "G07"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC05",
+      "object": "Premier pilote Desjardins",
+      "alternatives": "caisse volontaire non précisée, simulation seule",
+      "criteria": "règlement caisse et pouvoir organe compétent",
+      "gates": [
+        "G03"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC06",
+      "object": "Ristourne et fonds communautaires",
+      "alternatives": "divers ratios a, protection minima",
+      "criteria": "incidence, solvabilité et participation",
+      "gates": [
+        "G03",
+        "G08"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC07",
+      "object": "Place d Ethikos",
+      "alternatives": "outil d aide aux membres, outil institutionnel si accord",
+      "criteria": "sécurité, vie privée, juridicité des votes",
+      "gates": [
+        "G06"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC08",
+      "object": "Rémunération coopérative",
+      "alternatives": "symbolique, ratio médian, benchmark transparent",
+      "criteria": "pouvoir de décision, recrutements, risques",
+      "gates": [
+        "G03"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC09",
+      "object": "Philanthropie",
+      "alternatives": "plateforme intermédiaire, organisme enregistré, partenariat",
+      "criteria": "fiscalité, fraude, outcome, coûts complets",
+      "gates": [
+        "G07",
+        "G08"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC10",
+      "object": "Transition historique",
+      "alternatives": "G1 progressif ou G2 historique mondial",
+      "criteria": "souveraineté, compatibilité, résolutions",
+      "gates": [
+        "G09"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC11",
+      "object": "Arbitrage inter-projets",
+      "alternatives": "réserves monnaie séparées des dons/biens/actifs",
+      "criteria": "audit droits sur actifs",
+      "gates": [
+        "G02",
+        "G05"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    },
+    {
+      "id": "DEC12",
+      "object": "Autorité d activation",
+      "alternatives": "structure et consentements à construire",
+      "criteria": "signatures valides, organigramme et recours",
+      "gates": [
+        "G10"
+      ],
+      "status": "OPEN",
+      "decision_maker": "autorité compétente à identifier"
+    }
+  ],
+  "no_decisions_recorded": true
+}

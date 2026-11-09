@@ -1,0 +1,60 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "ucck-youtube-catalog",
+      "title": "inventory.youtube.catalog.json",
+      "kind": "external-media-catalog",
+      "locator": "UCKK Médiathèque/inventory.youtube.catalog.json",
+      "version_or_date": "2026-02-13T18:30:21.046Z",
+      "sha256": "sha256:b5fd1c3a479f976ded3e5146c71c7b86aaa5978c334d9b72fd05fce5fc6b300c",
+      "authority_scope": "raw media inventory / URL registry",
+      "trust_class": "primary external catalog",
+      "notes": "Pinned external catalog; content not packaged here. Declared item_count=66."
+    },
+    {
+      "id": "ucck-audio-catalog",
+      "title": "inventory.audio.catalog.json",
+      "kind": "external-media-catalog",
+      "locator": "UCKK Médiathèque/inventory.audio.catalog.json",
+      "version_or_date": "2026-02-13T18:30:21.046Z",
+      "sha256": "sha256:ebb19e7873461de28a244a12f80582618b9c9abfc7aa24aa4d15a5897536df14",
+      "authority_scope": "raw media inventory / URL registry",
+      "trust_class": "primary external catalog",
+      "notes": "Pinned external catalog; content not packaged here. Declared item_count=11."
+    },
+    {
+      "id": "ucck-root-taxonomy",
+      "title": "inventory.root.json",
+      "kind": "external-media-catalog",
+      "locator": "UCKK Médiathèque/inventory.root.json",
+      "version_or_date": "2026-02-13T00:00:00Z",
+      "sha256": "sha256:cedb7e621b06ca51998c4524ad178895214d1398498816557190f5c7cd6ded89",
+      "authority_scope": "raw media inventory / URL registry",
+      "trust_class": "primary external catalog",
+      "notes": "Pinned external catalog; content not packaged here. Declared item_count=n/a."
+    },
+    {
+      "id": "creator-clarification-mediatheque-kristal-2026-10-02",
+      "title": "Clarification — Médiathèque ↔ Kristal",
+      "kind": "creator-clarification",
+      "locator": "knowledge-base/sources/creator-clarifications/2026-10-02-mediatheque-kristal.md",
+      "version_or_date": "2026-10-02",
+      "sha256": "sha256:a6361432ca0e908b9aabaff82f654eee888efe5a126e3d6aaed848ceac0f4711",
+      "authority_scope": "boundary between UCKK Médiathèque raw media inventory and King Klown semantic media relations",
+      "trust_class": "current explicit creator clarification",
+      "notes": "Packaged local source; highest authority under the existing reader-policy authority order."
+    },
+    {
+      "id": "legacy-portable-state-v6",
+      "title": "King Klown portable compatibility state v6",
+      "kind": "legacy-state-build-input",
+      "locator": "knowledge-base/corpus/kristal_state.json",
+      "version_or_date": "6.0",
+      "sha256": "sha256:27c4bb6ef25dad66e6e1027ff90c878d88f086629ea649676fb2b50832bdd4cd",
+      "authority_scope": "migration/build provenance only; not the sole v9 native canon",
+      "trust_class": "preserved compatibility projection",
+      "notes": "state_id=sha256:dc1d33eaf27eb7d54878dbb12ffbe5de704fde7aefeda71a6eb2ca405b903e27"
+    }
+  ]
+}

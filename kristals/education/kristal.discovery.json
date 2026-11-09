@@ -1,0 +1,55 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:kristal-education",
+  "classification": {
+    "primary_archetype": "ARK-10",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "1.60",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt1.60",
+          "label_en": "Teaching and training",
+          "domain": "1"
+        },
+        {
+          "code": "1.40",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt1.40",
+          "label_en": "Curriculum",
+          "domain": "1"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "learner_objective_activity_evidence_progression_cycle",
+    "organization": "unknown",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 1073218,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:58656eb2a9c97bf3404d1180393003c4c0329ae18298c52db75f0a18bd9f706c",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

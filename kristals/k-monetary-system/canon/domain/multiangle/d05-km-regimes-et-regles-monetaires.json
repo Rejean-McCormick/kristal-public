@@ -1,0 +1,63 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d05",
+  "protocol_id": "D05",
+  "title": "D05 — Spécification de K_M : choisir un régime avant l'émission",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:C01",
+    "source:multiangle:S01",
+    "source:multiangle:S10",
+    "source:multiangle:W06",
+    "source:multiangle:W07",
+    "source:multiangle:W08",
+    "source:multiangle:W10",
+    "source:multiangle:W12",
+    "source:multiangle:W14",
+    "source:multiangle:W19",
+    "source:multiangle:W22"
+  ],
+  "depends_on": [
+    "canon/domain/monetary-constitution.json",
+    "canon/operations/monetary-policy.json"
+  ],
+  "validation_gates": [
+    "qualification_reglementaire",
+    "actif_passif",
+    "reserve_et_rachat",
+    "stress"
+  ],
+  "sections": [
+    {
+      "heading": "Problème de définition",
+      "level": 2,
+      "body_markdown": "Le K_M actuel est un « candidat de monnaie / règlement »; il n'indique pas encore clairement qui est débiteur, quelle valeur un détenteur peut exiger, quand, auprès de qui, ni si les émissions sont couvertes."
+    },
+    {
+      "heading": "Options MUTUELLEMENT DISTINCTES",
+      "level": 2,
+      "body_markdown": "| Option | Promesse contractuelle | Contrepartie minimale | Effet probable de qualification | Difficulté déterminante |\n|---|---|---|---|---|\n| M0 points fermés sans rachat | échange de services limités, non monétaire général | obligations commerciales et consommation | analyse de portée nécessaire | pas monnaie générale |\n| M1 créance CAD 1:1 | remboursement de 1 CAD par unité | réserves admissibles et ségrégation | stablecoin fiat et/ou PSP, autres règles | rachat, liquidité, gouvernance |\n| M2 panier multi-actifs | prix cible d'indice, droits spécifiés | actif correspondant et marché | pas automatiquement stablecoin CAD; titres possible | risque de change / rachat |\n| M3 flottant sans rachat | valeur de marché seulement | aucun rachat promis | actifs/monnaie virtuelle + PSP selon usage | volatilité |\n| M4 unité de compte / compensation | règles de règlement et crédit mutuel | contreparties, garanties, défauts | crédit et paiement, dépend dispositif | solvabilité des émetteurs |\n\n**M1** doit anticiper la loi et le projet de règlement sur les stablecoins [W07,W08] tout en notant leur entrée en vigueur non encore achevée au 01-11-2026. **M2/M3** ne constituent pas une échappatoire automatique aux régulateurs. **M4** nécessite la qualification du risque de crédit et du dépôt. Ne pas appeler K_M « monnaie légale », « garanti par l'État » ni « dépôt assuré » sans fondement."
+    },
+    {
+      "heading": "Contrat minimal d'émission (exemple de structure, non décision)",
+      "level": 2,
+      "body_markdown": "`issuer_id`, `legal_form`, `currency_reference`, `claim_type`, `redeemability`, `redemption_deadline`, `fees`, `liquidity_policy`, `reserve_asset_universe`, `custodian`, `redemption_priority`, `proof_of_reserves`, `auditor`, `governance`, `recovery`, `winding_down`, `privacy`, `complaints`, `tax_reporting`, `jurisdiction`, `consumer_warning`."
+    },
+    {
+      "heading": "Conditions de conservation / règlement",
+      "level": 2,
+      "body_markdown": "- Pour un **portefeuille interne sans émission**, transfert de 10 unités : `solde_A' = solde_A − 10`, `solde_B' = solde_B + 10`; total circulation invariant hors émission et destruction.\n- Pour **créance rachetable M1**, `K_M_circulant × 1 CAD = dette_de_rachat`, dont les réserves doivent supporter la liquidité au pair et exigences légales. La disponibilité d'un lingot brandé n'équivaut pas à une liquidité CAD.\n- Autorité de monnaie, dépositaire, auditeur et médiateur sont des rôles séparés dans l'architecture cible."
+    },
+    {
+      "heading": "Tests bloquants",
+      "level": 2,
+      "body_markdown": "Refuser l'émission si le régime M? n'est pas choisi, l'identité du débiteur non déclarée, le mécanisme de résolution absent ou le périmètre de licences non qualifié. Stress-test de ruée, fraude, cyberattaque, arbitrage, dépeg, catastrophe opérationnelle et clôture ordonnée. Critères BIS : unité, élasticité et intégrité [W19], sans prétendre reproduire la puissance d'une banque centrale."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D05_KM_REGIMES_ET_REGLES_MONETAIRES.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

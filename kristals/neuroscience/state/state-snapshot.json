@@ -1,0 +1,161 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:neuroscience:state",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:c88498e74e3f56f1c22fcf787f6ca2fec423903826be59c13aa4cd0987ae518b"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:neuroscience:artifact:epistemic-state",
+      "logical_contract": {
+        "id": "kristal_state.hash_target",
+        "version": "6.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8d62f538149a75b73b41ba509625b80069b63d0d599c31c613099f5e1cb4434f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:neuroscience:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bca83fe251c4604f1848c4e6dec1face81a4a640d07d0b9bcda0764479ea7be6"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:neuroscience:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f62ef4494e6ea1096b841c0d4b53024aaa2d36c283e2dc9ae6d311806770acc8"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:neuroscience:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a76146af2ca43040fef892ca5ca094f91c5d9770fc9fbb9ff0be0ca6e3636a02"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:neuroscience:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fe0566f5eb9693750666c6f188ad12b9ff77c5ce193ebcf99f06f7cfaf4c9dee"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Neuroscience:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:11db4ab09899afa1b842bedfd6d508b235f7a02fd3f94cf8dc71f035ea96053a"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Neuroscience:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bb5a49f041b5aadfca00e6511c4d7f4f0c50d2e306bed6c5a2c914789a9573ed"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Neuroscience:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3e557564542e26404aafee1a91ec60c3629ec50ffbaf01dbc783f252d24cf8ac"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Neuroscience:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1a652c232ea2027f5775c2329e2111149de4cd825119fadfed51c23209d01d67"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Neuroscience:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5abb1973e16900c48846e059020f2b58d18aeff763e3e5e91118063de81672c9"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Neuroscience:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:7584bffc3cfd3cac183e03abc9b5c2ecec372e6c9e12fa1956aec02bc428fdee"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Neuroscience:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3e557564542e26404aafee1a91ec60c3629ec50ffbaf01dbc783f252d24cf8ac"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Neuroscience:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1d3f85a1906a88f06f83aedf1d8e6310e5256be1e838a5c76cf16d8d8ae90d70"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "neuroscience",
+    "subdomain": "cells_connections_circuits_regions_signals_behavior",
+    "language": "fr"
+  }
+}

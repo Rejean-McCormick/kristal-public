@@ -1,0 +1,39 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:microbiology:materialization:inline-v9",
+  "source": {
+    "artifact_id": "urn:kristal:microbiology:artifact:epistemic-state",
+    "logical_contract": {
+      "id": "kristal_state.hash_target",
+      "version": "6.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:f20afb5def1469338979b4d645e8889f6e610c52e863a56468fcdf8d9daa4647"
+    }
+  },
+  "profile": "kristal.materialization/inline-json/1",
+  "segments": [
+    {
+      "segment_key": "artifact",
+      "record_count": 387,
+      "blob": {
+        "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+        "digest": "sha256:1fb76439d4a73a639b01f49d3df723ecabdda280983a32cb8d7325278ab538f8",
+        "size": 348253,
+        "locator": ".kristal/v9/logical/epistemic-state.logical-artifact.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "logical-artifact"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.reconstruct/inline-logical-artifact/1"
+  }
+}

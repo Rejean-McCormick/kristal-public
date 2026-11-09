@@ -1,0 +1,135 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:earth:canonical-state",
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "kristal_ref": "Kristal-Earth",
+        "domain": "earth",
+        "role": "canonical_knowledge_state"
+      },
+      "authority_ref": "urn:kristal:authority:earth"
+    },
+    {
+      "artifact_id": "urn:kristal:state:earth:v11:identity:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:earth:v11:graph:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:earth:v11:crosswalk:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:earth:v11:catalog:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Earth:registry",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Earth:graph",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Earth:crosswalk",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Earth:catalog",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": ".kristal/v8",
+      "role": "legacy v8 query/index outputs"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "historical v9 artifacts, manifests, qualification, activation metadata"
+    },
+    {
+      "path": "knowledge-base/corpus",
+      "role": "historical portable v6 and derived read-model outputs"
+    }
+  ],
+  "notes": "Authoring adapter 3.2.2 ; v6 payload originally committed inside .kristal/v9/canonical.logical-artifact.json. Original legacy materializations retained unchanged."
+}

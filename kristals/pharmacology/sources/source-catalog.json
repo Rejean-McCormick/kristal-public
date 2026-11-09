@@ -1,0 +1,573 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "source:pharm:iuphar-gtopdb",
+      "title": "IUPHAR/BPS Guide to PHARMACOLOGY",
+      "kind": "curated_scientific_database",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:iuphar-gtopdb",
+        "url": "https://www.guidetopharmacology.org/"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:iuphar-gtopdb",
+        "title": "IUPHAR/BPS Guide to PHARMACOLOGY",
+        "authors": [
+          "International Union of Basic and Clinical Pharmacology",
+          "British Pharmacological Society"
+        ],
+        "year": 2026,
+        "venue": "Guide to PHARMACOLOGY",
+        "source_type": "curated_scientific_database",
+        "evidence_class": "authoritative_scientific_reference",
+        "url": "https://www.guidetopharmacology.org/",
+        "supports": [
+          "ligands",
+          "targets",
+          "receptors",
+          "enzymes",
+          "ion_channels",
+          "transporters",
+          "affinity",
+          "agonism",
+          "antagonism"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:fda-exposure-response",
+      "title": "Exposure-Response Relationships — Study Design, Data Analysis, and Regulatory Applications",
+      "kind": "regulatory_guidance",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:fda-exposure-response",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/exposure-response-relationships-study-design-data-analysis-and-regulatory-applications"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:fda-exposure-response",
+        "title": "Exposure-Response Relationships — Study Design, Data Analysis, and Regulatory Applications",
+        "authors": [
+          "U.S. Food and Drug Administration"
+        ],
+        "year": 2003,
+        "venue": "FDA Guidance for Industry",
+        "source_type": "regulatory_guidance",
+        "evidence_class": "authoritative_reference",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/exposure-response-relationships-study-design-data-analysis-and-regulatory-applications",
+        "supports": [
+          "exposure_response",
+          "dose_response",
+          "concentration_response",
+          "pkpd",
+          "efficacy",
+          "safety"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ich-e4",
+      "title": "E4: Dose-Response Information to Support Drug Registration",
+      "kind": "international_guideline",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ich-e4",
+        "url": "https://database.ich.org/sites/default/files/E4_Guideline.pdf"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ich-e4",
+        "title": "E4: Dose-Response Information to Support Drug Registration",
+        "authors": [
+          "International Council for Harmonisation"
+        ],
+        "year": 1994,
+        "venue": "ICH Harmonised Guideline",
+        "source_type": "international_guideline",
+        "evidence_class": "authoritative_reference",
+        "url": "https://database.ich.org/sites/default/files/E4_Guideline.pdf",
+        "supports": [
+          "dose_response",
+          "dose_interval",
+          "time_course",
+          "tolerance",
+          "adverse_effects"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:fda-pop-pk",
+      "title": "Population Pharmacokinetics",
+      "kind": "regulatory_guidance",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:fda-pop-pk",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/population-pharmacokinetics"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:fda-pop-pk",
+        "title": "Population Pharmacokinetics",
+        "authors": [
+          "U.S. Food and Drug Administration"
+        ],
+        "year": 2022,
+        "venue": "FDA Guidance for Industry",
+        "source_type": "regulatory_guidance",
+        "evidence_class": "authoritative_reference",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/population-pharmacokinetics",
+        "supports": [
+          "population_pk",
+          "variability",
+          "covariates",
+          "individualization",
+          "clearance",
+          "exposure"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:fda-bioavailability",
+      "title": "Bioavailability Studies Submitted in NDAs or INDs — General Considerations",
+      "kind": "regulatory_guidance",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:fda-bioavailability",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/bioavailability-studies-submitted-ndas-or-inds-general-considerations"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:fda-bioavailability",
+        "title": "Bioavailability Studies Submitted in NDAs or INDs — General Considerations",
+        "authors": [
+          "U.S. Food and Drug Administration"
+        ],
+        "year": 2022,
+        "venue": "FDA Guidance for Industry",
+        "source_type": "regulatory_guidance",
+        "evidence_class": "authoritative_reference",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/bioavailability-studies-submitted-ndas-or-inds-general-considerations",
+        "supports": [
+          "bioavailability",
+          "systemic_exposure",
+          "route",
+          "formulation",
+          "auc",
+          "cmax"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:fda-food-effect",
+      "title": "Assessing the Effects of Food on Drugs in INDs and NDAs — Clinical Pharmacology Considerations",
+      "kind": "regulatory_guidance",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:fda-food-effect",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/assessing-effects-food-drugs-inds-and-ndas-clinical-pharmacology-considerations"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:fda-food-effect",
+        "title": "Assessing the Effects of Food on Drugs in INDs and NDAs — Clinical Pharmacology Considerations",
+        "authors": [
+          "U.S. Food and Drug Administration"
+        ],
+        "year": 2026,
+        "venue": "FDA Guidance for Industry",
+        "source_type": "regulatory_guidance",
+        "evidence_class": "authoritative_reference",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/assessing-effects-food-drugs-inds-and-ndas-clinical-pharmacology-considerations",
+        "supports": [
+          "food_effect",
+          "absorption",
+          "bioavailability",
+          "systemic_exposure"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:fda-ddi",
+      "title": "Drug Interactions & Labeling",
+      "kind": "official_reference",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:fda-ddi",
+        "url": "https://www.fda.gov/drugs/development-resources/drug-interactions-labeling"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:fda-ddi",
+        "title": "Drug Interactions & Labeling",
+        "authors": [
+          "U.S. Food and Drug Administration"
+        ],
+        "year": 2026,
+        "venue": "FDA Office of Clinical Pharmacology",
+        "source_type": "official_reference",
+        "evidence_class": "authoritative_reference",
+        "url": "https://www.fda.gov/drugs/development-resources/drug-interactions-labeling",
+        "supports": [
+          "drug_interaction",
+          "pk_interaction",
+          "safety",
+          "efficacy"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:fda-cyp-transporters",
+      "title": "FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems",
+      "kind": "official_reference",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:fda-cyp-transporters",
+        "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:fda-cyp-transporters",
+        "title": "FDA's Examples of Drugs that Interact with CYP Enzymes and Transporter Systems",
+        "authors": [
+          "U.S. Food and Drug Administration"
+        ],
+        "year": 2026,
+        "venue": "FDA Office of Clinical Pharmacology",
+        "source_type": "official_reference",
+        "evidence_class": "authoritative_reference",
+        "url": "https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems",
+        "supports": [
+          "cyp",
+          "transporters",
+          "substrate",
+          "inhibitor",
+          "inducer",
+          "auc",
+          "cmax"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ema-ddi",
+      "title": "Guideline on the Investigation of Drug Interactions",
+      "kind": "regulatory_guidance",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ema-ddi",
+        "url": "https://www.ema.europa.eu/en/scientific-guidelines/investigation-drug-interactions"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ema-ddi",
+        "title": "Guideline on the Investigation of Drug Interactions",
+        "authors": [
+          "European Medicines Agency"
+        ],
+        "year": 2015,
+        "venue": "EMA Scientific Guideline",
+        "source_type": "regulatory_guidance",
+        "evidence_class": "authoritative_reference",
+        "url": "https://www.ema.europa.eu/en/scientific-guidelines/investigation-drug-interactions",
+        "supports": [
+          "drug_interaction",
+          "enzyme_inhibition",
+          "enzyme_induction",
+          "transporters",
+          "food_interaction",
+          "pk",
+          "pd"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:who-pv",
+      "title": "WHO Programme for International Drug Monitoring",
+      "kind": "official_reference",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:who-pv",
+        "url": "https://www.who.int/teams/regulation-prequalification/regulation-and-safety/pharmacovigilance/networks/pidm"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:who-pv",
+        "title": "WHO Programme for International Drug Monitoring",
+        "authors": [
+          "World Health Organization"
+        ],
+        "year": 2026,
+        "venue": "WHO Pharmacovigilance",
+        "source_type": "official_reference",
+        "evidence_class": "authoritative_reference",
+        "url": "https://www.who.int/teams/regulation-prequalification/regulation-and-safety/pharmacovigilance/networks/pidm",
+        "supports": [
+          "pharmacovigilance",
+          "adverse_effect",
+          "safety_signal",
+          "risk"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ich-s7a",
+      "title": "S7A: Safety Pharmacology Studies for Human Pharmaceuticals",
+      "kind": "international_guideline",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ich-s7a",
+        "url": "https://database.ich.org/sites/default/files/S7A_Guideline.pdf"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ich-s7a",
+        "title": "S7A: Safety Pharmacology Studies for Human Pharmaceuticals",
+        "authors": [
+          "International Council for Harmonisation"
+        ],
+        "year": 2000,
+        "venue": "ICH Harmonised Guideline",
+        "source_type": "international_guideline",
+        "evidence_class": "authoritative_reference",
+        "url": "https://database.ich.org/sites/default/files/S7A_Guideline.pdf",
+        "supports": [
+          "safety_pharmacology",
+          "adverse_effect",
+          "dose_response",
+          "concentration_effect",
+          "metabolites"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ich-m3r2",
+      "title": "M3(R2): Nonclinical Safety Studies for the Conduct of Human Clinical Trials and Marketing Authorization for Pharmaceuticals",
+      "kind": "international_guideline",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ich-m3r2",
+        "url": "https://database.ich.org/sites/default/files/M3_R2__Guideline.pdf"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ich-m3r2",
+        "title": "M3(R2): Nonclinical Safety Studies for the Conduct of Human Clinical Trials and Marketing Authorization for Pharmaceuticals",
+        "authors": [
+          "International Council for Harmonisation"
+        ],
+        "year": 2009,
+        "venue": "ICH Harmonised Guideline",
+        "source_type": "international_guideline",
+        "evidence_class": "authoritative_reference",
+        "url": "https://database.ich.org/sites/default/files/M3_R2__Guideline.pdf",
+        "supports": [
+          "toxicity",
+          "toxicokinetics",
+          "genotoxicity",
+          "carcinogenicity",
+          "reproductive_toxicity",
+          "safety"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ncbi-pk",
+      "title": "Pharmacokinetics",
+      "kind": "scientific_reference",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ncbi-pk",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK557744/"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ncbi-pk",
+        "title": "Pharmacokinetics",
+        "authors": [
+          "StatPearls Publishing"
+        ],
+        "year": 2023,
+        "venue": "NCBI Bookshelf",
+        "source_type": "scientific_reference",
+        "evidence_class": "secondary_scientific_reference",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK557744/",
+        "supports": [
+          "adme",
+          "clearance",
+          "half_life",
+          "steady_state",
+          "volume_distribution",
+          "elimination"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ncbi-pd",
+      "title": "Pharmacodynamics",
+      "kind": "scientific_reference",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ncbi-pd",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK507791/"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ncbi-pd",
+        "title": "Pharmacodynamics",
+        "authors": [
+          "StatPearls Publishing"
+        ],
+        "year": 2023,
+        "venue": "NCBI Bookshelf",
+        "source_type": "scientific_reference",
+        "evidence_class": "secondary_scientific_reference",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK507791/",
+        "supports": [
+          "pharmacodynamics",
+          "receptors",
+          "agonist",
+          "antagonist",
+          "effect",
+          "dose_response"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ncbi-drug-metabolism",
+      "title": "Drug Metabolism",
+      "kind": "scientific_reference",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ncbi-drug-metabolism",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK442023/"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ncbi-drug-metabolism",
+        "title": "Drug Metabolism",
+        "authors": [
+          "StatPearls Publishing"
+        ],
+        "year": 2023,
+        "venue": "NCBI Bookshelf",
+        "source_type": "scientific_reference",
+        "evidence_class": "secondary_scientific_reference",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK442023/",
+        "supports": [
+          "metabolism",
+          "enzymes",
+          "cyp",
+          "first_order",
+          "saturation",
+          "genetic_variability"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ncbi-pk-principles",
+      "title": "Principles of Pharmacokinetics",
+      "kind": "scientific_reference",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ncbi-pk-principles",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK12815/"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ncbi-pk-principles",
+        "title": "Principles of Pharmacokinetics",
+        "authors": [
+          "Mark J. Ratain",
+          "William K. Plunkett Jr."
+        ],
+        "year": 2003,
+        "venue": "Holland-Frei Cancer Medicine, NCBI Bookshelf",
+        "source_type": "scientific_reference",
+        "evidence_class": "secondary_scientific_reference",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK12815/",
+        "supports": [
+          "pk",
+          "pd",
+          "auc",
+          "clearance",
+          "volume_distribution",
+          "half_life"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:kenakin-receptors",
+      "title": "Overview of receptor interactions of agonists and antagonists",
+      "kind": "peer_reviewed_article",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:kenakin-receptors",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22294222/"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:kenakin-receptors",
+        "title": "Overview of receptor interactions of agonists and antagonists",
+        "authors": [
+          "Terry Kenakin"
+        ],
+        "year": 2008,
+        "venue": "Current Protocols in Pharmacology",
+        "source_type": "peer_reviewed_article",
+        "evidence_class": "peer_reviewed_reference",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22294222/",
+        "supports": [
+          "affinity",
+          "efficacy",
+          "agonist",
+          "partial_agonist",
+          "antagonist",
+          "competitive_antagonism"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:ncbi-gpcr-assay",
+      "title": "Pharmacological Characterization of GPCR Agonists, Antagonists, Allosteric Modulators and Biased Ligands",
+      "kind": "scientific_reference",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:ncbi-gpcr-assay",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK549462/"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:ncbi-gpcr-assay",
+        "title": "Pharmacological Characterization of GPCR Agonists, Antagonists, Allosteric Modulators and Biased Ligands",
+        "authors": [
+          "NCBI Assay Guidance Manual contributors"
+        ],
+        "year": 2019,
+        "venue": "NCBI Bookshelf",
+        "source_type": "scientific_reference",
+        "evidence_class": "secondary_scientific_reference",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK549462/",
+        "supports": [
+          "potency",
+          "efficacy",
+          "affinity",
+          "selectivity",
+          "allosteric_modulation",
+          "biased_agonism"
+        ]
+      }
+    },
+    {
+      "id": "source:pharm:fda-pharmacogenomics",
+      "title": "Pharmacogenomic Data Submissions",
+      "kind": "regulatory_guidance_draft",
+      "locator": {
+        "legacy_catalog": "knowledge-base/sources/source-catalog.json",
+        "source_key": "source:pharm:fda-pharmacogenomics",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pharmacogenomic-data-submissions-0"
+      },
+      "legacy_record": {
+        "source_id": "source:pharm:fda-pharmacogenomics",
+        "title": "Pharmacogenomic Data Submissions",
+        "authors": [
+          "U.S. Food and Drug Administration"
+        ],
+        "year": 2023,
+        "venue": "FDA Draft Guidance",
+        "source_type": "regulatory_guidance_draft",
+        "evidence_class": "authoritative_context",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pharmacogenomic-data-submissions-0",
+        "supports": [
+          "pharmacogenomics",
+          "genetic_variability",
+          "drug_response"
+        ]
+      }
+    }
+  ],
+  "notes": "Concordance lossless ; legacy_record contient la notice originale inchangée.",
+  "legacy_catalog_path": "knowledge-base/sources/source-catalog.json"
+}

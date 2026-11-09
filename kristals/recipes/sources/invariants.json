@@ -1,0 +1,114 @@
+{
+  "format": "recipes.invariants.v2",
+  "version": "2.0.0",
+  "invariants": [
+    {
+      "id": "RCP-I001",
+      "rule": "RecipeFamily != RecipeVariant != RecipeSourceInstance"
+    },
+    {
+      "id": "RCP-I002",
+      "rule": "IngredientConcept != IngredientOccurrence"
+    },
+    {
+      "id": "RCP-I003",
+      "rule": "ingredient != role"
+    },
+    {
+      "id": "RCP-I004",
+      "rule": "substitution != equivalence"
+    },
+    {
+      "id": "RCP-I005",
+      "rule": "facet classification != recipe identity"
+    },
+    {
+      "id": "RCP-I006",
+      "rule": "procedural fingerprint != semantic identity"
+    },
+    {
+      "id": "RCP-I007",
+      "rule": "duplicate candidate != duplicate confirmed"
+    },
+    {
+      "id": "RCP-I008",
+      "rule": "derived projection != source of truth"
+    },
+    {
+      "id": "RCP-I009",
+      "rule": "RecipeVariant procedure graph must be acyclic"
+    },
+    {
+      "id": "RCP-I010",
+      "rule": "every terminal output must resolve to a graph node"
+    },
+    {
+      "id": "RCP-I011",
+      "rule": "every edge endpoint must resolve to a graph node"
+    },
+    {
+      "id": "RCP-I012",
+      "rule": "every ingredient_ref and technique_ref must resolve to a controlled concept"
+    },
+    {
+      "id": "RCP-I013",
+      "rule": "cultural_context must not be inferred solely from ingredient presence"
+    },
+    {
+      "id": "RCP-I014",
+      "rule": "source occurrence != culinary authority"
+    },
+    {
+      "id": "RCP-I015",
+      "rule": "PreparationEvent != RecipeVariant specification"
+    },
+    {
+      "id": "RCP-I016",
+      "rule": "CulinaryState != IngredientConcept"
+    },
+    {
+      "id": "RCP-I017",
+      "rule": "termination criterion != guaranteed outcome"
+    },
+    {
+      "id": "RCP-I018",
+      "rule": "substitution rule must carry context or be explicitly marked broad"
+    },
+    {
+      "id": "RCP-I019",
+      "rule": "substitution != nutritional, allergen, cultural or sensory equivalence"
+    },
+    {
+      "id": "RCP-I020",
+      "rule": "failure candidate != confirmed cause"
+    },
+    {
+      "id": "RCP-I021",
+      "rule": "recovery action != guaranteed recovery"
+    },
+    {
+      "id": "RCP-I022",
+      "rule": "sensory target != observed sensory result"
+    },
+    {
+      "id": "RCP-I023",
+      "rule": "food-safety suitability must not be derived from unsourced seed metadata"
+    },
+    {
+      "id": "RCP-I024",
+      "rule": "mechanism projection must be traceable to an operation or explicit technique rule"
+    },
+    {
+      "id": "RCP-I025",
+      "rule": "preparation observations append history; they do not rewrite the canonical recipe"
+    },
+    {
+      "id": "RCP-I026",
+      "rule": "family variation statistics describe observed members only, not normative boundaries"
+    },
+    {
+      "id": "RCP-I027",
+      "rule": "scale transformation may alter time, geometry and heat transfer; quantity multiplication alone is not universal scaling"
+    }
+  ]
+}

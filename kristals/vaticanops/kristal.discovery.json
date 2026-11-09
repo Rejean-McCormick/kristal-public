@@ -1,0 +1,55 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:vaticanops",
+  "classification": {
+    "arketype_version": "1.6.0",
+    "primary_archetype": "ARK-04",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "primary_usage": "PRF-02",
+    "usage_slug": "environnement-protocolaire",
+    "usage_family": "procedures",
+    "domain": "operations",
+    "organization": "single",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "3.20",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt3.20",
+          "label_en": "Religion",
+          "domain": "3"
+        },
+        {
+          "code": "6.15",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt6.15",
+          "label_en": "Politics and government",
+          "domain": "6"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "procedure_graph_conditionnelle",
+    "organization": "single",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/conditional-process-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 4779387,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:c072ba093b224cbc417015f6bb1412b13d400ce57c432f6e169ee8422c90b133",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

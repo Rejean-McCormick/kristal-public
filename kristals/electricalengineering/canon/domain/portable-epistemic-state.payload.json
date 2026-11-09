@@ -1,0 +1,7370 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "reference",
+  "created_at": "2026-10-02T17:50:00Z",
+  "created_by": {
+    "kind": "editorial_process",
+    "label": "AI-assisted curated build",
+    "human_authority_claimed": false
+  },
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1",
+  "applicability": {
+    "domain": "electrical_engineering",
+    "subdomain": "source-circuit-charge-voltage-current-power-signal",
+    "language": "fr"
+  },
+  "source_refs": [
+    "src:bipm:si-brochure:2026",
+    "src:bipm:ampere",
+    "src:openstax:up2:7.2",
+    "src:openstax:up2:8.1",
+    "src:openstax:up2:9.1",
+    "src:openstax:up2:9.3",
+    "src:openstax:up2:9.5",
+    "src:openstax:up2:10.1",
+    "src:openstax:up2:10.2",
+    "src:openstax:up2:10.3",
+    "src:openstax:up2:15.1",
+    "src:mit:6.002",
+    "src:mit:res6.007"
+  ],
+  "assertions": [
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-engineering"
+        },
+        "predicate": "ee.models",
+        "object": {
+          "kind": "item",
+          "id": "concept:circuit"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "discipline"
+        },
+        {
+          "axis": "theme",
+          "value": "circuit"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:42fcc7dd706f6681ba63506acb8054663b540c91b63027f8467996768186c43b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-charge"
+        },
+        "predicate": "ee.can_be_carried_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:charge-carrier"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "microscopic"
+        },
+        {
+          "axis": "theme",
+          "value": "charge"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:2256d9a3f296fe2d0ae7e8a5b92dd4d3b475c4636a03eb0a50c0a7b8f9abfb4c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electron"
+        },
+        "predicate": "ee.is_a",
+        "object": {
+          "kind": "item",
+          "id": "concept:charge-carrier"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "microscopic"
+        },
+        {
+          "axis": "theme",
+          "value": "charge"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4595e063f0df801386c9e53521e13a43b045aa86ef08044790a1f79630f89eab"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ion"
+        },
+        "predicate": "ee.is_a",
+        "object": {
+          "kind": "item",
+          "id": "concept:charge-carrier"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "microscopic"
+        },
+        {
+          "axis": "theme",
+          "value": "charge"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:307a0fe89ea1846453bb6abf69c8bc6fdf3b58097bb46bf5d003353617c882ff"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        },
+        "predicate": "ee.is_rate_of_transfer_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-charge"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "current"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e1b3e34ed73e01dd4926747c0c51b77df47ebb58fce40796f5e4e36a4777b417"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:conventional-current"
+        },
+        "predicate": "ee.is_reference_direction_for",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "current"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:860060fcada15a22d3612a7ae412b78bc49b612c75152f88c9f31cb626679c33"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electron"
+        },
+        "predicate": "ee.can_move_opposite_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:conventional-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "microscopic"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f97fe52ff8c5fb1feffa8cd502ef6a783879f61a94a7aa7c889b2fe9be69a7b5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:drift-velocity"
+        },
+        "predicate": "ee.characterizes_average_motion_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:charge-carrier"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "microscopic"
+        },
+        {
+          "axis": "theme",
+          "value": "current"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7cc0353b5206229d7f21b2f3f55c948a2f8f92db7c1b4ee5ffb3778ed12d61a2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:drift-velocity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:83b280da7b832ca0ff1c2ad492d78e8679c1069c7c10bd63bf1b992ceca892d8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltage"
+        },
+        "predicate": "ee.is_difference_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-potential"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "voltage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:7.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fc83d4a8b277471c1e15cb4a0d00739f429f466074805ac5e146249492797f11"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-potential"
+        },
+        "predicate": "ee.relates",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-energy"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "voltage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:7.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f8a9b855ce53d1bfbb26419c5bc3a972d5acc5105544cfb22eb7754e9812da4a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltage"
+        },
+        "predicate": "ee.relates_charge_transfer_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-energy"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "voltage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:7.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c2991d41c97aea25299356af3ec1fac76b9a0493d4cd49b965f4e8cca0ef7625"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltage"
+        },
+        "predicate": "ee.requires_reference_between",
+        "object": {
+          "kind": "item",
+          "id": "concept:node"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:7.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8490f722ae8febe0ba2c35da05e2edc78afd2ed89fcb3b2a644632856d25b2e3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltage"
+        },
+        "predicate": "ee.is_not_property_of_single_point_without",
+        "object": {
+          "kind": "item",
+          "id": "concept:reference-node"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:7.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c7076eb07ca9f97596f4c1ed124e3975e0469c4ef2c3a581f6846988ff5c235f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-field"
+        },
+        "predicate": "ee.can_drive",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "physical"
+        },
+        {
+          "axis": "theme",
+          "value": "current"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:6345977b10e641701ebc8565e68ac3fdb36172fd99e40b4e04098d7bed570cdb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:source"
+        },
+        "predicate": "ee.can_maintain",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8549ec16d8f9272637f135aec2bea796e716b3510fd58eac5eefc8bcb2d94e0b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:source"
+        },
+        "predicate": "ee.can_drive",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5fa3d15dbcaf74c2f03313679232eae1a8b0bb5c4f2e07b59f070bd2302a7178"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:source"
+        },
+        "predicate": "ee.exchanges",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1",
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:346090e180a30ba79cf1477dc754b4fc25cb83d24e3c153cbd1289ce2c6f9069"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:emf"
+        },
+        "predicate": "ee.is_energy_per_charge_associated_with",
+        "object": {
+          "kind": "item",
+          "id": "concept:source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:90640968b052e14fedb9ce825aeced3de8537684623cf057a427b5b8f911f546"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:emf"
+        },
+        "predicate": "ee.is_not_mechanical",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-field"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Le terme historique « force électromotrice » ne désigne pas une force au sens newtonien.",
+      "assertion_id": "sha256:b3cd3123b18845543e513b2e5354a5cdda07977acf99473952f5ced9fd520112"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltage-source"
+        },
+        "predicate": "ee.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7a98e630a150ab29f00a475c9ea08f608afe78d3b45e7f0bd4b903d2e9cdc83b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:current-source"
+        },
+        "predicate": "ee.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a6037719ca205401de992f629e37e0537a74e610dddf325e34faee8dea7a9a71"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ideal-voltage-source"
+        },
+        "predicate": "ee.is_idealization_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage-source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:af5da472241aa45d6732ab33dc5bea1a639e4ccddf7bf29bc2c19fcc4d6bc09f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ideal-current-source"
+        },
+        "predicate": "ee.is_idealization_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:current-source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1716bd4bcee041a357c9c6f8c1a1deb7afa03f4b6ffd31c1d4eda89af580daf7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:internal-resistance"
+        },
+        "predicate": "ee.contributes_to_behavior_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9e11798a16b2cf4211c25fee6dbb643e784bd632b606cbcf7ace3a0024473611"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:terminal-voltage"
+        },
+        "predicate": "ee.is_measured_across",
+        "object": {
+          "kind": "item",
+          "id": "concept:source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ccea795055643b33558c2a13ead001f208a3c706769f42946767c23a25b45575"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:terminal-voltage"
+        },
+        "predicate": "ee.can_differ_from",
+        "object": {
+          "kind": "item",
+          "id": "concept:emf"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "source"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:0a0d56f076ec5e26f83ee4e49096912bda7a0de9509955cc68a717a04f94b05e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:circuit"
+        },
+        "predicate": "ee.can_be_approximated_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:lumped-circuit-model"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "circuit"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d9285cbb7032704b82614e00c6621ba3325693a63765d16a74bbdc3ee1cb31e0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:circuit"
+        },
+        "predicate": "ee.contains",
+        "object": {
+          "kind": "item",
+          "id": "concept:component"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "circuit"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:92635eb812b61f43fed3a3be7b57c779d201f18494d3a0a28709917a97786e58"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:component"
+        },
+        "predicate": "ee.connects_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:node"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "topology"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b18fd41b6e768ee2933268c5c0fa83c9708c8d75ed2c9a649e9913fdb14b7455"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:branch"
+        },
+        "predicate": "ee.connects",
+        "object": {
+          "kind": "item",
+          "id": "concept:node"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "topology"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.3",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:095ae27572912a71f85a95387540f4262283708ddabe878df6e013089f3c1394"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:loop"
+        },
+        "predicate": "ee.is_closed_path_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:circuit"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "topology"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.3",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ae6c2097d30432b8b6799e0966388cd41de5da1c73d2f7cef024f40917d245ea"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:reference-node"
+        },
+        "predicate": "ee.defines_zero_reference_for",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-potential"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "voltage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3c6dd8fba4efaa958ce9d87d1dd8f3b0bf89f7277ed8b029f3e81d651ed47286"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ground"
+        },
+        "predicate": "ee.can_serve_as",
+        "object": {
+          "kind": "item",
+          "id": "concept:reference-node"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "voltage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:af367ab8d520177532ba3ac8f636b5d0aba8a8624ba905654cc5e52259d6a706"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ground"
+        },
+        "predicate": "ee.is_not_necessarily",
+        "object": {
+          "kind": "item",
+          "id": "concept:earth-ground"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c842aeb162bffacd6f25a5174208d98ae0e04523052ccb11fed396f6052ba758"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:open-circuit"
+        },
+        "predicate": "ee.ideally_constrains",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "boundary"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Dans une branche ouverte idéale, le courant de conduction est nul; une tension peut néanmoins exister.",
+      "assertion_id": "sha256:af8cd69aca7b58a5c5db4b0ea58dbfc606b972f1842b48f1c49aa364a4d57470"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:open-circuit"
+        },
+        "predicate": "ee.can_support",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "voltage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:df46ee54874da1f730ea4a86295fed590f6de05db4a1fa4a95f3f44bf1815d0a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:short-circuit"
+        },
+        "predicate": "ee.ideally_constrains",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "boundary"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Un court-circuit idéal impose une différence de potentiel nulle; le courant réel reste limité par les impédances non idéales.",
+      "assertion_id": "sha256:b913dff3f845bc8e4d88f46f384473981af9a802e4576d0592475d98375dc64d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:short-circuit"
+        },
+        "predicate": "ee.can_enable_large",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "current"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:61cd22d974ecf03276f3b93ff21dc24cb911ec3698bca98e147fec4475456f04"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:conductor"
+        },
+        "predicate": "ee.has_relatively_high",
+        "object": {
+          "kind": "item",
+          "id": "concept:conductivity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "material"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a2ca8c60f8343f717a4d1b8809bff0660d99356439a3f027e65b99670bf0f0b9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:insulator"
+        },
+        "predicate": "ee.has_relatively_low",
+        "object": {
+          "kind": "item",
+          "id": "concept:conductivity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "material"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:570830f69059e321364aa6556d9cd19169ebb708bb91f1477be8aa5ffbab9bf4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:kcl"
+        },
+        "predicate": "ee.applies_at",
+        "object": {
+          "kind": "item",
+          "id": "concept:node"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "conservation"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.3",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4e128b15a04d5d4c02731ebbcde106ee5044384c22d73a6a6610ade04d170658"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:kcl"
+        },
+        "predicate": "ee.expresses",
+        "object": {
+          "kind": "item",
+          "id": "concept:charge-conservation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "conservation"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.3",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:adad546cdfa698ade39c6802fae126fc72af907853dbf1b336732df3e169b8f3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:kvl"
+        },
+        "predicate": "ee.applies_around",
+        "object": {
+          "kind": "item",
+          "id": "concept:loop"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "conservation"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.3",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4d80f8b5bf8fc150bf6af5d0eb08542e09c26462c888d3e503409a915275c795"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:kvl"
+        },
+        "predicate": "ee.is_consistent_with",
+        "object": {
+          "kind": "item",
+          "id": "concept:energy-conservation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "conservation"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.3",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:aa6900939b8857a53d9b5be0165cd764e46e10311a7c9fed1b94be53df30af9b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:kvl"
+        },
+        "predicate": "ee.depends_on_validity_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:lumped-circuit-model"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3c23dd2e952cbfbd3ddd0f0cacff58e320ca0016a9774fbd498a8591a8e9b615"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        },
+        "predicate": "ee.is_not_consumed_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:component"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.3",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Un composant peut convertir de l’énergie; la charge ne disparaît pas pour autant.",
+      "assertion_id": "sha256:bf011610079ae76c984a15b59b5dd7157c8dc3a8579210c55cf89f2b2f8f481d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:resistivity"
+        },
+        "predicate": "ee.is_material_property_related_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:conductivity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "material"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:55eed73842dd7ac25206cb4291f7f6b6bb75f2a40022409d6282022b669e1717"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:resistance"
+        },
+        "predicate": "ee.depends_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:resistivity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:2b76b81bc89d8a32531c7eae189410e69a0d04a0beb022790c56939770d6fea5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:resistor"
+        },
+        "predicate": "ee.is_component_characterized_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:resistance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ea5694b5e67404ebf2ed87fdb04e4f37342fac6d39cc0ae826e2f72fa8f5b17e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:conductance"
+        },
+        "predicate": "ee.is_inverse_measure_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:resistance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:db4f71655da160fdb7cb6eed2d48985f225d023a49206ab7975f738bd0d97729"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ohms-law"
+        },
+        "predicate": "ee.relates",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "law"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e402e16f7491f20239521e1d7e7f404fb59ce8095572a714a98c2ba1ba268a22"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ohms-law"
+        },
+        "predicate": "ee.relates",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "law"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7894f88e57ef985502dea3ac2d6eddacef8959ff53e756dbb9cacc92390df2cf"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ohms-law"
+        },
+        "predicate": "ee.relates",
+        "object": {
+          "kind": "item",
+          "id": "concept:resistance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "law"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a116a05345e4b57dda12b37bbfaad86bdc4444498e7c3204751fe0e48a3aa5f9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ohms-law"
+        },
+        "predicate": "ee.is_model_for",
+        "object": {
+          "kind": "item",
+          "id": "concept:resistor"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:04733b366bb7121ef313202e4e64d1dcc826e5976d7ad450c44510a8d2f5748d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ohms-law"
+        },
+        "predicate": "ee.is_not_universal_for",
+        "object": {
+          "kind": "item",
+          "id": "concept:nonlinear-element"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3ff8323422413f869dfeec50db8ce109e862e3e103820550f4faa5e858363b16"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:series-connection"
+        },
+        "predicate": "ee.shares_same",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "topology"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5877f7992259dcef0763925916f337b764beaa17e9406a5c1bd3bf493352e995"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:parallel-connection"
+        },
+        "predicate": "ee.shares_same",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "topology"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:62f8b545b78e375cef7eb5e2ff3b329e6100665a17c95ebd0b74ee13a106129b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:series-connection"
+        },
+        "predicate": "ee.can_be_reduced_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:equivalent-resistance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7829828cacddd6d941fae74a32c2a23b964d7fc6c9d8ffe3efa6539340ac732e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:parallel-connection"
+        },
+        "predicate": "ee.can_be_reduced_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:equivalent-resistance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "network"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b13c4a98522200363ebe71353c762a3c969b00b6ada19bd95d77e838172526c2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:equivalent-resistance"
+        },
+        "predicate": "ee.preserves_external_relation_between",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b127636141a4aade76d8bcf1ea3ad2535268d1e02595920b0f827012e4d419da"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:equivalent-resistance"
+        },
+        "predicate": "ee.preserves_external_relation_between",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7b5a99c820ffcd9bf7609f42ccb16c2604a6a7a0aeca6c1f3b95363783609551"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:resistance"
+        },
+        "predicate": "ee.is_not_identical_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:resistivity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:32acce3a9b4cae0d4505e15b6def0b3a91259bc3c7ebac6b32b8d064a7d11b2e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:linear-element"
+        },
+        "predicate": "ee.supports",
+        "object": {
+          "kind": "item",
+          "id": "concept:superposition"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "linearity"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a5949cb79132a706651b20af7623eb970264d63f901dcddfda97d85dbc22a95a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:superposition"
+        },
+        "predicate": "ee.does_not_generally_apply_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:nonlinear-element"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:342bae86bc470f6512f51af503ad217df1202f0ccd2cc8930df37c123539c94c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        },
+        "predicate": "ee.is_rate_of_transfer_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-energy"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e24fc63c0bb35f403cf8f999b39848e59f8cf268f15341cbb40bc75c8bf1d187"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        },
+        "predicate": "ee.depends_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c53a2f8c049bcf8b6b5e2f4ba3ed762c38ffe0dd8dee1b620512ca686e42f41b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        },
+        "predicate": "ee.depends_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9cc48ea0a27e5d73533cd7c07c97ff654e802fc994169fa12c6e15dfad6402e5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:passive-sign-convention"
+        },
+        "predicate": "ee.defines_positive_as",
+        "object": {
+          "kind": "item",
+          "id": "concept:power-absorption"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b92384ebd6a3a272fb53b5fb9fcc5629b77130a4a19674da18b3237c1d3da3eb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:load"
+        },
+        "predicate": "ee.typically_has_role",
+        "object": {
+          "kind": "item",
+          "id": "concept:power-absorption"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d06e768bcee590b601022610671b1f4eba47fcb8e1023360c4ab79b7e69847bb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:source"
+        },
+        "predicate": "ee.can_have_role",
+        "object": {
+          "kind": "item",
+          "id": "concept:power-delivery"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4667acd5b2b42122169d936ea2cd5cd72e6f763d807469318472f45573d0fcd1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:source"
+        },
+        "predicate": "ee.can_also_have_role",
+        "object": {
+          "kind": "item",
+          "id": "concept:power-absorption"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5",
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Exemple conceptuel: une batterie en charge peut absorber de la puissance.",
+      "assertion_id": "sha256:8f905bcc3875f6141878c01ae14be769a503cdbd1c127355aaf40c7a481e542b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:load"
+        },
+        "predicate": "ee.can_temporarily_have_role",
+        "object": {
+          "kind": "item",
+          "id": "concept:power-delivery"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Un élément de stockage peut restituer de l’énergie; les rôles source/charge dépendent de l’état.",
+      "assertion_id": "sha256:288919b898746b46bd84fbda40b90ba7208cd7c670b56048ca769ad6b22631f6"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:40fe48a7b0087a9d424a131f71af4552b8dfa1c0db23888bf08d9acbffbea1ee"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d79ae7464d344ac7529ad4449cb6fbbce1a413ccddd1ea8b6ac316f04378b015"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:efficiency"
+        },
+        "predicate": "ee.compares_input_and_output",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:0e0b4cf8f80a6e7f4b76506d274acecbf98537b002e2282a2f1ef0a9e722fb2d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitor"
+        },
+        "predicate": "ee.is_characterized_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:capacitance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:8.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:420b419345bb5c8b9de73ce1a88ba58770ea06210c4c1d9d0e7806d61551ea13"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitor"
+        },
+        "predicate": "ee.stores",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-charge"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:8.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5107a8864ee583ba251e3ff4bb206b80763e9fcc8790f1c70e3f10829e01f583"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitor"
+        },
+        "predicate": "ee.stores",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-energy"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:8.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a62790bb55779eb650563df06ac5d09c757beb52f9a0db00bd733eff4a522d91"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitance"
+        },
+        "predicate": "ee.relates",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-charge"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:8.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3fad27c07d34ace5b71c108edbf33abcba12ef8cc2034de3a6c4e7da7139ab37"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitance"
+        },
+        "predicate": "ee.relates",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:8.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:159c60a40378fecb7e3ea37a4c35a7dca29a6cdac4e0a2142d83ad7f71dff6a7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:inductor"
+        },
+        "predicate": "ee.is_characterized_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:inductance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:60331fe22c574621bb42311c4a6f36285f78443a1c42edfcec3206ff5b86a437"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:inductor"
+        },
+        "predicate": "ee.stores",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-energy"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "component"
+        },
+        {
+          "axis": "theme",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:bb69f4a0a887cb2e0d549f80c25dfd21bf7553f67f3a3ebc2a85cfef5dc6837b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitor"
+        },
+        "predicate": "ee.can_create",
+        "object": {
+          "kind": "item",
+          "id": "concept:transient"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "dynamic"
+        },
+        {
+          "axis": "theme",
+          "value": "dynamics"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c22c694a20879025d133910694d824de5ea6421c56e2317a234f2e50af387b91"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:inductor"
+        },
+        "predicate": "ee.can_create",
+        "object": {
+          "kind": "item",
+          "id": "concept:transient"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "dynamic"
+        },
+        {
+          "axis": "theme",
+          "value": "dynamics"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c6a7f1ae4286403c26865a45b2bc07afd72d798469545a59c72c03cb2db59cb4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:time-constant"
+        },
+        "predicate": "ee.characterizes",
+        "object": {
+          "kind": "item",
+          "id": "concept:transient"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "dynamic"
+        },
+        {
+          "axis": "theme",
+          "value": "dynamics"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ff69e4257c06c9dbbb76dee1eec9c79a99c12d7dc6a0ea4538b09ceea4b8b157"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:steady-state"
+        },
+        "predicate": "ee.follows_decay_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:transient"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "dynamic"
+        },
+        {
+          "axis": "theme",
+          "value": "dynamics"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:bd9c8eaad2602484beb7e9b3016aea3a990f11e5e35557b55523843e6b748e39"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:impedance"
+        },
+        "predicate": "ee.generalizes",
+        "object": {
+          "kind": "item",
+          "id": "concept:resistance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "frequency-domain"
+        },
+        {
+          "axis": "theme",
+          "value": "ac"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b25911f07e5ae7a066ba4272480545b9ea90e5fe7ff2f09498661b247df615c5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:reactance"
+        },
+        "predicate": "ee.is_part_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:impedance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "frequency-domain"
+        },
+        {
+          "axis": "theme",
+          "value": "ac"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3b56516af5d9cb78a61be31c1d93feee279c3398b86cc773c13dbc5939df6dcc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitor"
+        },
+        "predicate": "ee.contributes_frequency_dependent",
+        "object": {
+          "kind": "item",
+          "id": "concept:reactance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "frequency-domain"
+        },
+        {
+          "axis": "theme",
+          "value": "ac"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:eddd01c91971fd5b2a7969cf7ab9d317512f1b6cbafefeb18328beb301f965bc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:inductor"
+        },
+        "predicate": "ee.contributes_frequency_dependent",
+        "object": {
+          "kind": "item",
+          "id": "concept:reactance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "frequency-domain"
+        },
+        {
+          "axis": "theme",
+          "value": "ac"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4d570e76ab21045725534471a8f8617dd55620e9d2bc9a72f8dca817a39f455b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:thevenin-equivalent"
+        },
+        "predicate": "ee.represents_two_terminal",
+        "object": {
+          "kind": "item",
+          "id": "concept:circuit"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "equivalent"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5b7a2ae039f3172ae1e51657158ee36d6dc7dab468edcf2586b2a12a6411a55e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:norton-equivalent"
+        },
+        "predicate": "ee.represents_two_terminal",
+        "object": {
+          "kind": "item",
+          "id": "concept:circuit"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "equivalent"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1cbdf9edbf1c1fb880b48d1ab2036b9565c84f2c111314ed334e7cf9fc95a723"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:thevenin-equivalent"
+        },
+        "predicate": "ee.is_external_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:norton-equivalent"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "equivalent"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c6754951a74a4acad48c6845a28987b0c343077d5abcbb826131af14be2de833"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:dc"
+        },
+        "predicate": "ee.can_describe",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:14d02e07f280d33e13f63178c615b68b2094148892cca4d81aea6730135d1c76"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:dc"
+        },
+        "predicate": "ee.can_describe",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b466fe3b329b6fd771983122ed3761a7d673c75e2acd63e83a558646dc5a286f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ac"
+        },
+        "predicate": "ee.can_describe",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1bd0bcb28791e65d045c4db7df60d18e5ac38933533f0fae57082bd032228f1b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ac"
+        },
+        "predicate": "ee.can_describe",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8b64da28773767e7a9a89a183e4fd9b01e1c1c2ac02598a9ef832f951cf2a3e1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:waveform"
+        },
+        "predicate": "ee.describes_time_dependence_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1",
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:54a2f1a3c8e8617766c415a70fb9420f1a14f159b650b5272561a60575b1c67f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:waveform"
+        },
+        "predicate": "ee.describes_time_dependence_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1",
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:82dab97c34d37da60b270eb161e0e76b3d15da5535fa28c1fefd093c817b3da9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:sinusoid"
+        },
+        "predicate": "ee.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:waveform"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:781d67ad483e77ea82fc671dc41830597e1754037a223a3e020086dbb0de6212"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:sinusoid"
+        },
+        "predicate": "ee.has",
+        "object": {
+          "kind": "item",
+          "id": "concept:amplitude"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7640ff31d857f94604a7a2bc0975e7d8f4271d996ee3af67e967d7c1b67c4d1a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:sinusoid"
+        },
+        "predicate": "ee.has",
+        "object": {
+          "kind": "item",
+          "id": "concept:frequency"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1b7ba1dc2c1daa02ee2b5a2b927eef11c2fb669b8c13fa343307ac15128322ed"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:sinusoid"
+        },
+        "predicate": "ee.has",
+        "object": {
+          "kind": "item",
+          "id": "concept:phase"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:db2aaef83392c9e864d8b74e0388ba9f639ba03e1dc856a50dfb935269a61537"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:period"
+        },
+        "predicate": "ee.is_inverse_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:frequency"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e3314a4e29a9fdeb2483fd9bb115a739e84388309b1a9ffebc547c5f6304c8c4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:rms-value"
+        },
+        "predicate": "ee.characterizes_effective_magnitude_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:waveform"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "quantity"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1",
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9a44ada2080cac244b3a4e218812e3d4a6a412bff736269605590f195b9d7f2d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:rms-value"
+        },
+        "predicate": "ee.is_not_same_as",
+        "object": {
+          "kind": "item",
+          "id": "concept:amplitude"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fc2169a07214b84a56c92334362faf5c2862ffc8937673b9f03ed8de2c578290"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:dc-offset"
+        },
+        "predicate": "ee.can_shift",
+        "object": {
+          "kind": "item",
+          "id": "concept:waveform"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "temporal"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:691e962e6bc09babd040cfa274b0f40f3d5116e1af571a4be80626c8f25bcbb2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:signal"
+        },
+        "predicate": "ee.represents",
+        "object": {
+          "kind": "item",
+          "id": "concept:information"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "information"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4abf18e20e90c34fefa3d26a19a8801585f1c1c1afa13b39e64f396edcf5e3d9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-signal"
+        },
+        "predicate": "ee.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "information"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:48dbe43d1d9c58131f8fdac621b0c797cc9bc5ac00ad59e4ac1d53e4abf18921"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-signal"
+        },
+        "predicate": "ee.can_be_encoded_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "information"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:851df1c09bba4918beb576b0c369db862af174198564bdd812f04e88596fdfa5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-signal"
+        },
+        "predicate": "ee.can_be_encoded_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "information"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4f02efaaac72b43bf78a1e7e5390d686e6645a55d187ccb76fe9d05aca0c6c15"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:analog-signal"
+        },
+        "predicate": "ee.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "information"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:66ac76ca7d7caa3edfb246690c2bde20d281eb197c98877b919132aaa0610942"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:digital-signal"
+        },
+        "predicate": "ee.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "information"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:6d8d1e0082f5610275f9dd7dc02b680e4f12c6867f9e9e8bf87880c8e5fa759c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:digital-signal"
+        },
+        "predicate": "ee.is_physically_realized_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "La représentation symbolique peut être discrète alors que la grandeur physique sous-jacente reste continue.",
+      "assertion_id": "sha256:018d891c7abd76bdec59ee503cf9c45032237338c1171e014c739d5b07a98723"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:noise"
+        },
+        "predicate": "ee.can_obscure",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "information"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9aeb92223d0d0b415388949b09e82b24c91d039423c0306b4e17e2b1f55b50f0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:bandwidth"
+        },
+        "predicate": "ee.constrains",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "frequency-domain"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4c729671cee4edd0d60fa02d71c27b303d0a2610082cdad0438d209837ced4c1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:sampling"
+        },
+        "predicate": "ee.maps_continuous_time",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "information"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:2d048bc6d5877e7a39e43974759d3d02355cb656430fa966477e65792f486c25"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:signal"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002",
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:0710ce4fe16485258b70f91c4747014660288be1725ff19e05762196342422d0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-signal"
+        },
+        "predicate": "ee.can_exist_with_small",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002",
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c52c33512b79b629358af95a2a2069ff2a596113b666504e30f3fc283839a0cb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ac"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1",
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1a6b1b42a8da5c85619dfa9b2f53efd316c06812508cc357cf58cbdb3572f822"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:dc"
+        },
+        "predicate": "ee.can_carry",
+        "object": {
+          "kind": "item",
+          "id": "concept:information"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "signal"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3eb5fb2186edf8fa9352cd464fd6e1d97364fafd755047f3f780e04f7dcbb352"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:digital-signal"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:binary-waveform"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Numérique signifie représentation discrète; tous les systèmes numériques ne se réduisent pas nécessairement à deux niveaux physiques idéaux.",
+      "assertion_id": "sha256:ec62d2738f7dacf3d8394af94e196c778e1d279aae00d2ba00599efd7ab3f514"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:measurement"
+        },
+        "predicate": "ee.can_observe",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d9579a774113e7d5e3933277742cf45281f5f9ae11516aff2aab81f2db0a19d8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:measurement"
+        },
+        "predicate": "ee.can_observe",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d3e74bba2182d35807d197133748bdce14d2580feddbccf757e117ce21fdd9c0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:measurement"
+        },
+        "predicate": "ee.can_observe",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a31bdd99cf1f8e31dccd4c8c7e8709f3b008ee0a7154c49999eca5dc644aeedf"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltmeter"
+        },
+        "predicate": "ee.measures",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e6c4729c6f2828d4ce2eca83634335bffe481b25d8e52b81b929cf8848981ef7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ammeter"
+        },
+        "predicate": "ee.measures",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:aed07d72c1ba536bdc27d1863722d3061581946c408069a4177e64bba70929ee"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:oscilloscope"
+        },
+        "predicate": "ee.measures_time_variation_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7eb49f268991628482a5d2c92d7e7d021bfd530b51bc1f1764c05697cd29a2ba"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltmeter"
+        },
+        "predicate": "ee.is_connected_across",
+        "object": {
+          "kind": "item",
+          "id": "concept:node"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:066d9d407ea6b770ab6f21cf95ce0d3c0cb6ee3f4015ad0fa3d31733d555e22c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ammeter"
+        },
+        "predicate": "ee.is_inserted_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:branch"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:786aafda9dab26823c3ba671cf080237198717e885394b87fa6ec111e2dc8e5f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:measurement-loading"
+        },
+        "predicate": "ee.can_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:circuit"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:0f39318949e79ac585969031dddba140c5658e345f838c384a35647ded71b034"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltmeter"
+        },
+        "predicate": "ee.can_cause",
+        "object": {
+          "kind": "item",
+          "id": "concept:measurement-loading"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:820278c819214aad239e8d7114a0dd38a3a5f11026f770afae0d7028e9c6659c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ammeter"
+        },
+        "predicate": "ee.can_cause",
+        "object": {
+          "kind": "item",
+          "id": "concept:measurement-loading"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "measurement"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a112f62b8169ce4e4fdf2377948a7412898040e7219e681dc82394c07a372f02"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "ampere (A)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b738e4c9a90468cba4393f8545b528528c68c569ed8423018aee90748993eb0d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-charge"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "coulomb (C)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4960fa92b4beab62ad31ac35507c106111040cacad49c31f3f6b9d9232b2ae94"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltage"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "volt (V)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:6f45c14742cd991f3c49f8e3b9da76231dfbd2c401a9077763d2bb4de57552dc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "watt (W)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:727e9563906c38c043b16666db4e31c74d09f82bea49e29b43860ef72427c87f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:resistance"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "ohm (Ω)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:6578ed29c164607ac46ec70b9f8c126339d20e03c4a6cb3813d95e1f4510c07e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:conductance"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "siemens (S)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9d653cc6a090d26c1468928afcb926f4cb8844949660942a6926672262db617c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitance"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "farad (F)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:62aa69641a66b9e0d7b3996f772c431566953198b0e013eb60fae8f75a3c2a8e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:inductance"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "henry (H)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:54ac471fcb94f245b1617708bbebcb3fa689d82a4efc8fdf292e6678401e4432"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:frequency"
+        },
+        "predicate": "ee.has_SI_unit",
+        "object": {
+          "kind": "literal",
+          "value": "hertz (Hz)"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "metrology"
+        },
+        {
+          "axis": "theme",
+          "value": "units"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:bipm:si-brochure:2026",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:27b6d3dcd7199a798d4f477f826b47f4af536fe18e2fd44f82f87062992b2e9a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        },
+        "predicate": "ee.has_defining_relation",
+        "object": {
+          "kind": "literal",
+          "value": "I = dQ/dt"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "equation"
+        },
+        {
+          "axis": "theme",
+          "value": "current"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b6da1c717742e42442dc813f59164b332e5ac1bc8454c6f9336ecc9b21b968a2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltage"
+        },
+        "predicate": "ee.has_energy_relation",
+        "object": {
+          "kind": "literal",
+          "value": "ΔV = ΔU/q"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "equation"
+        },
+        {
+          "axis": "theme",
+          "value": "voltage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:7.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:12a0890f26799282b0ce764394096d9ae95c38eadf72cc46b2901916d2bc6346"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ohms-law"
+        },
+        "predicate": "ee.has_form",
+        "object": {
+          "kind": "literal",
+          "value": "V = R I"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "equation"
+        },
+        {
+          "axis": "theme",
+          "value": "resistance"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c05f4979be8e88963da3671e5ef2a5c75dd3c7a6b88bed7b63173b2026a83e01"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        },
+        "predicate": "ee.has_instantaneous_form",
+        "object": {
+          "kind": "literal",
+          "value": "p = v i"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "equation"
+        },
+        {
+          "axis": "theme",
+          "value": "power"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:659650ac08caa26b5ca2b8da23ddaff7cf3c32facf9c101439c691a2d47a05db"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:capacitance"
+        },
+        "predicate": "ee.has_ideal_linear_relation",
+        "object": {
+          "kind": "literal",
+          "value": "C = Q/V"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "equation"
+        },
+        {
+          "axis": "theme",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:8.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e274bc3b9f4100e8e625327a99f2b6a30f6d2dc06c6a0918b48d70e584729d45"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:period"
+        },
+        "predicate": "ee.has_period_frequency_relation",
+        "object": {
+          "kind": "literal",
+          "value": "T = 1/f"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "equation"
+        },
+        {
+          "axis": "theme",
+          "value": "waveform"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:15.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:071b33c3611aa73f600e22f109c7049f067c8438a3fae746d0e4e702a2b4ab94"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-charge"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.1",
+        "ev:bipm:ampere"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "La charge est une quantité; le courant est un débit de charge.",
+      "assertion_id": "sha256:d6541fa7b96872d9ff738677bafdf9008278e18d00e14f0ee474f45f7120afca"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:voltage"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-energy"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:7.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "La tension est une énergie par unité de charge entre deux points.",
+      "assertion_id": "sha256:fb1a97c1279f83e2a9e8537c9884f38debc3483a9828ebbac26abeac3b4f9ec0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:source"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage-source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Une source peut être mieux modélisée comme source de courant ou par un modèle plus général.",
+      "assertion_id": "sha256:43e8d8111d1a89dc1e9de86a3903f6228df043fbdd227d864c1b47be48f642ea"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ideal-voltage-source"
+        },
+        "predicate": "ee.is_not_physical_identity_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:source"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:10.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Le modèle idéal omet notamment résistance interne et limites de puissance.",
+      "assertion_id": "sha256:937060ba8302dbdc6e2b0e4e09da7b159588aa2e571352aa18dd7042f1875977"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:resistor"
+        },
+        "predicate": "ee.is_not_necessarily_perfectly",
+        "object": {
+          "kind": "item",
+          "id": "concept:linear-element"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Les composants réels peuvent varier avec température, tension et fréquence.",
+      "assertion_id": "sha256:03fe489e6b27e67a0a1613eca31820e534e62cc7f8006286ea5f6542561c7ee7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:open-circuit"
+        },
+        "predicate": "ee.does_not_imply_zero",
+        "object": {
+          "kind": "item",
+          "id": "concept:voltage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Une branche ouverte peut porter une tension non nulle.",
+      "assertion_id": "sha256:ba296cd0717ddc0121ce8bda9ebd0073c347b1638a57be5c5d3219edba909628"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:short-circuit"
+        },
+        "predicate": "ee.does_not_imply_infinite",
+        "object": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Les sources et connexions réelles possèdent des impédances qui limitent le courant.",
+      "assertion_id": "sha256:cd38caad49cd7c8db313990ac029ebe97ffd0739ba93f27d15c8371adc632863"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:electric-current"
+        },
+        "predicate": "ee.does_not_measure",
+        "object": {
+          "kind": "item",
+          "id": "concept:electrical-power"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:up2:9.5"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Même courant peut correspondre à des puissances différentes selon la tension et le signe.",
+      "assertion_id": "sha256:a0a032992ab1d7a30cd7971ed366822579e0616c084e87a0c63561bf537ab6ae"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:signal"
+        },
+        "predicate": "ee.does_not_require",
+        "object": {
+          "kind": "item",
+          "id": "concept:ac"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Un niveau continu ou lentement variable peut porter une information.",
+      "assertion_id": "sha256:a861f0f95871382ccc3e32913d59bcd46abaf1047b3cdf20a71b64169a4538c8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ground"
+        },
+        "predicate": "ee.does_not_guarantee_zero_between",
+        "object": {
+          "kind": "item",
+          "id": "concept:earth-ground"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Deux références dites « masse » peuvent être à des potentiels différents.",
+      "assertion_id": "sha256:986869a4de47e29f2af7d624d24dd6a6714afa7c4076a163d3150ba8d8539eae"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:waveform"
+        },
+        "predicate": "ee.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "electrical_engineering",
+        "subdomain": "source-circuit-charge-voltage-current-power-signal",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:mit:res6.007",
+        "ev:mit:6.002"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Une forme d’onde n’est un signal qu’en fonction de son rôle de représentation/communication.",
+      "assertion_id": "sha256:9e5f67dc95be78e25e3d9199e430d906475f610d0cc48b915220e44b77abd84c"
+    }
+  ],
+  "provenance": [
+    {
+      "event": "curated_build",
+      "created_at": "2026-10-02T17:50:00Z",
+      "method": "domain modeling + deterministic serialization",
+      "inputs": [
+        "Kristal v6 core schema",
+        "BIPM SI references",
+        "OpenStax University Physics Volume 2",
+        "MIT OpenCourseWare circuits and signals references"
+      ],
+      "notes": "Corpus conceptuel statique. Grandeurs électriques, topologie de circuit, puissance, dynamiques et signaux sont séparés; les modèles idéaux sont distingués des systèmes physiques."
+    }
+  ],
+  "build": {
+    "package_version": "1.0.0",
+    "generator": "build_electrical_kristal.py",
+    "assertion_count": 160,
+    "referent_count": 92
+  },
+  "warnings": [
+    "Les relations de circuit sont des modèles à paramètres concentrés et ont des domaines de validité.",
+    "Les modèles de source idéale ne décrivent pas les limites physiques d’une source réelle.",
+    "Les assertions de signal décrivent la représentation de l’information, pas la sémantique du contenu.",
+    "Ce Kristal n’est pas un guide de sécurité électrique ni un manuel de conception conforme aux codes."
+  ],
+  "extensions": {
+    "electrical_engineering_profile": "source-circuit-charge.v1",
+    "primary_axes": [
+      "microscopic",
+      "quantity",
+      "component",
+      "network",
+      "system",
+      "dynamic",
+      "frequency-domain",
+      "information",
+      "measurement",
+      "boundary"
+    ],
+    "primary_themes": [
+      "charge",
+      "voltage",
+      "current",
+      "source",
+      "circuit",
+      "resistance",
+      "power",
+      "storage",
+      "waveform",
+      "signal",
+      "measurement",
+      "guardrail"
+    ],
+    "ontology_boundary": "fundamental lumped electrical engineering: sources, circuits, charge, voltage, current, resistance, power, first-order storage concepts and signals; excludes electromagnetic field theory detail, semiconductor device physics, RF transmission lines, power-system standards, control theory and electrical safety codes"
+  }
+}

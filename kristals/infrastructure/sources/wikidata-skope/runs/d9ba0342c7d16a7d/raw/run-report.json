@@ -1,0 +1,633 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Infrastructure",
+  "run_id": "d9ba0342c7d16a7d",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:29:25.185442+00:00",
+  "source_labels": {
+    "project": "Kristal-Infrastructure",
+    "namespace_id": "kristal:bulk:kristal-infrastructure",
+    "search_labels": 302,
+    "labeled_entities": 151,
+    "labeled_properties": 0,
+    "domain_entities": 151,
+    "domain_properties": 96,
+    "unlabeled": [
+      {
+        "legacy_id": "capacity.can_result_from",
+        "semantic_id": "KP764117099050249499248181"
+      },
+      {
+        "legacy_id": "capacity.constrains",
+        "semantic_id": "KP1157019958736011380834987"
+      },
+      {
+        "legacy_id": "capacity.derived_from",
+        "semantic_id": "KP742913579099257307535225"
+      },
+      {
+        "legacy_id": "capacity.increases",
+        "semantic_id": "KP936263631014380835496594"
+      },
+      {
+        "legacy_id": "capacity.is_kind_of",
+        "semantic_id": "KP678016073908781714737805"
+      },
+      {
+        "legacy_id": "capacity.limits",
+        "semantic_id": "KP339961622393695132568565"
+      },
+      {
+        "legacy_id": "capacity.may_be_less_than",
+        "semantic_id": "KP1158896539893433686139316"
+      },
+      {
+        "legacy_id": "capacity.measures",
+        "semantic_id": "KP524855546537092704953315"
+      },
+      {
+        "legacy_id": "capacity.measures_performance_of",
+        "semantic_id": "KP312182528820957866269650"
+      },
+      {
+        "legacy_id": "capacity.measures_realized",
+        "semantic_id": "KP1155370565932115292787018"
+      },
+      {
+        "legacy_id": "capacity.parameter_of",
+        "semantic_id": "KP899239088346943008109906"
+      },
+      {
+        "legacy_id": "capacity.reduces",
+        "semantic_id": "KP312910895425577501535436"
+      },
+      {
+        "legacy_id": "capacity.relates",
+        "semantic_id": "KP507204015292213287699442"
+      },
+      {
+        "legacy_id": "capacity.results_from_pressure_on",
+        "semantic_id": "KP1186952970330150677572549"
+      },
+      {
+        "legacy_id": "dependency.can_affect",
+        "semantic_id": "KP404510930046454834010135"
+      },
+      {
+        "legacy_id": "dependency.can_create",
+        "semantic_id": "KP58292224743549136771230"
+      },
+      {
+        "legacy_id": "dependency.composed_of",
+        "semantic_id": "KP680428266862502300159733"
+      },
+      {
+        "legacy_id": "dependency.connects_need_to",
+        "semantic_id": "KP1173160962623717870547361"
+      },
+      {
+        "legacy_id": "dependency.interrupts",
+        "semantic_id": "KP398030908782108571505281"
+      },
+      {
+        "legacy_id": "dependency.is_kind_of",
+        "semantic_id": "KP99809638908242129541971"
+      },
+      {
+        "legacy_id": "dependency.is_minimal_form_of",
+        "semantic_id": "KP557372526721931453614625"
+      },
+      {
+        "legacy_id": "dependency.is_not_equivalent_to",
+        "semantic_id": "KP174435438563961541185756"
+      },
+      {
+        "legacy_id": "dependency.modulates",
+        "semantic_id": "KP659012438680494922274579"
+      },
+      {
+        "legacy_id": "dependency.propagates_through",
+        "semantic_id": "KP1006178848373108254464582"
+      },
+      {
+        "legacy_id": "dependency.property_of",
+        "semantic_id": "KP857444185306511677988234"
+      },
+      {
+        "legacy_id": "dependency.reduces_effect_of",
+        "semantic_id": "KP723298701253755130069898"
+      },
+      {
+        "legacy_id": "failure.addresses",
+        "semantic_id": "KP487224651547523323161174"
+      },
+      {
+        "legacy_id": "failure.affects",
+        "semantic_id": "KP426188018838160884660380"
+      },
+      {
+        "legacy_id": "failure.can_cause",
+        "semantic_id": "KP1138430225314502085889170"
+      },
+      {
+        "legacy_id": "failure.can_lead_to",
+        "semantic_id": "KP758951471960901359925562"
+      },
+      {
+        "legacy_id": "failure.causes_loss_of_function_in",
+        "semantic_id": "KP1066465701971823827205721"
+      },
+      {
+        "legacy_id": "failure.describes",
+        "semantic_id": "KP645371142359880758638689"
+      },
+      {
+        "legacy_id": "failure.increases_susceptibility_to",
+        "semantic_id": "KP69895413442981304732672"
+      },
+      {
+        "legacy_id": "failure.interrupts",
+        "semantic_id": "KP557936370712336148491029"
+      },
+      {
+        "legacy_id": "failure.is_kind_of",
+        "semantic_id": "KP97808254382796891437618"
+      },
+      {
+        "legacy_id": "failure.is_not_equivalent_to",
+        "semantic_id": "KP768466813362798237422098"
+      },
+      {
+        "legacy_id": "failure.reduces",
+        "semantic_id": "KP1187619001058015428534793"
+      },
+      {
+        "legacy_id": "failure.relates_asset_to",
+        "semantic_id": "KP555393641294718134437466"
+      },
+      {
+        "legacy_id": "failure.relates_intensity_to",
+        "semantic_id": "KP1062599762469089273419174"
+      },
+      {
+        "legacy_id": "failure.results_from",
+        "semantic_id": "KP141451626310118366902193"
+      },
+      {
+        "legacy_id": "failure.results_from_excess",
+        "semantic_id": "KP764512583008224603774070"
+      },
+      {
+        "legacy_id": "infrastructure.has_axis",
+        "semantic_id": "KP1106290530705912750187059"
+      },
+      {
+        "legacy_id": "infrastructure.is_kind_of",
+        "semantic_id": "KP1008197990855987985957982"
+      },
+      {
+        "legacy_id": "infrastructure.provides",
+        "semantic_id": "KP329089670976346107799250"
+      },
+      {
+        "legacy_id": "resilience.applies_to",
+        "semantic_id": "KP612192759523456567111224"
+      },
+      {
+        "legacy_id": "resilience.can_use",
+        "semantic_id": "KP633236920722301320639841"
+      },
+      {
+        "legacy_id": "resilience.constrains",
+        "semantic_id": "KP1085282201995300566478001"
+      },
+      {
+        "legacy_id": "resilience.creates_temporary",
+        "semantic_id": "KP354938083808079464885006"
+      },
+      {
+        "legacy_id": "resilience.increases",
+        "semantic_id": "KP685283981597284797565502"
+      },
+      {
+        "legacy_id": "resilience.informs",
+        "semantic_id": "KP331020716084551259071734"
+      },
+      {
+        "legacy_id": "resilience.is_kind_of",
+        "semantic_id": "KP901136542473067739017539"
+      },
+      {
+        "legacy_id": "resilience.is_not_equivalent_to",
+        "semantic_id": "KP703593035790047525826228"
+      },
+      {
+        "legacy_id": "resilience.limits",
+        "semantic_id": "KP455800619158673037378511"
+      },
+      {
+        "legacy_id": "resilience.maintains",
+        "semantic_id": "KP855003200908370940324739"
+      },
+      {
+        "legacy_id": "resilience.measures",
+        "semantic_id": "KP1085155434949588683252655"
+      },
+      {
+        "legacy_id": "resilience.modifies",
+        "semantic_id": "KP198736956088623703481053"
+      },
+      {
+        "legacy_id": "resilience.precedes",
+        "semantic_id": "KP26531780777339862797550"
+      },
+      {
+        "legacy_id": "resilience.preserves",
+        "semantic_id": "KP724396611600901813637143"
+      },
+      {
+        "legacy_id": "resilience.provides_alternative_for",
+        "semantic_id": "KP529557055430645948757171"
+      },
+      {
+        "legacy_id": "resilience.reduces",
+        "semantic_id": "KP698788496344203265065292"
+      },
+      {
+        "legacy_id": "resilience.responds_to",
+        "semantic_id": "KP13282857872171589282654"
+      },
+      {
+        "legacy_id": "resilience.restores",
+        "semantic_id": "KP254466688916539921067705"
+      },
+      {
+        "legacy_id": "resilience.restores_or_improves",
+        "semantic_id": "KP1090455304600242754377973"
+      },
+      {
+        "legacy_id": "resilience.substitutes_for",
+        "semantic_id": "KP459664740031460390597002"
+      },
+      {
+        "legacy_id": "resilience.supports",
+        "semantic_id": "KP983536663934240186258966"
+      },
+      {
+        "legacy_id": "service.applies_demand_to",
+        "semantic_id": "KP461599014505796043886008"
+      },
+      {
+        "legacy_id": "service.buffers",
+        "semantic_id": "KP764174739263309536686064"
+      },
+      {
+        "legacy_id": "service.controls",
+        "semantic_id": "KP291097680444173532197858"
+      },
+      {
+        "legacy_id": "service.depends_on",
+        "semantic_id": "KP680125240787074511955755"
+      },
+      {
+        "legacy_id": "service.injects",
+        "semantic_id": "KP863860542287304130379715"
+      },
+      {
+        "legacy_id": "service.is_distinct_from",
+        "semantic_id": "KP496394436045354826448290"
+      },
+      {
+        "legacy_id": "service.measures",
+        "semantic_id": "KP266088686623864836555953"
+      },
+      {
+        "legacy_id": "service.moves",
+        "semantic_id": "KP86106850415199267064528"
+      },
+      {
+        "legacy_id": "service.moves_between",
+        "semantic_id": "KP1024024432026328453885721"
+      },
+      {
+        "legacy_id": "service.property_of",
+        "semantic_id": "KP510621880816708455901467"
+      },
+      {
+        "legacy_id": "service.provides",
+        "semantic_id": "KP911737424866270664114728"
+      },
+      {
+        "legacy_id": "service.realizes",
+        "semantic_id": "KP1092876172516788652510408"
+      },
+      {
+        "legacy_id": "service.receives",
+        "semantic_id": "KP6962461230915101625509"
+      },
+      {
+        "legacy_id": "service.redistributes",
+        "semantic_id": "KP496809331994657013898261"
+      },
+      {
+        "legacy_id": "service.responds_to",
+        "semantic_id": "KP50225000668737082143681"
+      },
+      {
+        "legacy_id": "service.routes_from",
+        "semantic_id": "KP585962811164207665977404"
+      },
+      {
+        "legacy_id": "service.routes_to",
+        "semantic_id": "KP583358646530122100785820"
+      },
+      {
+        "legacy_id": "service.supports",
+        "semantic_id": "KP305142222815762477458465"
+      },
+      {
+        "legacy_id": "service.transfers",
+        "semantic_id": "KP73736052014118991680234"
+      },
+      {
+        "legacy_id": "service.transforms",
+        "semantic_id": "KP126237783656618777079507"
+      },
+      {
+        "legacy_id": "topology.composed_of",
+        "semantic_id": "KP1091785942300888935639149"
+      },
+      {
+        "legacy_id": "topology.connects",
+        "semantic_id": "KP700731820944855569189553"
+      },
+      {
+        "legacy_id": "topology.contains",
+        "semantic_id": "KP4587798403327020784320"
+      },
+      {
+        "legacy_id": "topology.delimits",
+        "semantic_id": "KP79764968523421013081313"
+      },
+      {
+        "legacy_id": "topology.is_kind_of",
+        "semantic_id": "KP89121172869060097952380"
+      },
+      {
+        "legacy_id": "topology.is_not_intrinsically",
+        "semantic_id": "KP96473893746754928808457"
+      },
+      {
+        "legacy_id": "topology.is_role_of",
+        "semantic_id": "KP735869810418805873786014"
+      },
+      {
+        "legacy_id": "topology.may_share",
+        "semantic_id": "KP593366799244095135226267"
+      },
+      {
+        "legacy_id": "topology.represents",
+        "semantic_id": "KP1134905011796799010183767"
+      },
+      {
+        "legacy_id": "topology.selects",
+        "semantic_id": "KP301666766343113169148787"
+      },
+      {
+        "legacy_id": "topology.served_by",
+        "semantic_id": "KP471629213425843105974939"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "1d524497ee69f8a261ece35d2b4f7e520286fd087badef55eeaddd0f47157801",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Infrastructure",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "infrastructure",
+        "edition": "1.0.0"
+      },
+      "native_model": {
+        "kind": "physical-service-network-resilience-graph",
+        "description": "Native model declared by the historical v9 domain-state logical artifact; not replaced with a universal schema.",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "catégories de réseaux et ouvrages",
+        "infrastructures documentées",
+        "Respecter: Séparer réseau physique de service rendu."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Deux plans au moins : réseau physique et réseau de services, avec dépendances/résilience.",
+        "guardrail": "Une topologie technique n’est pas un état opérationnel observé; éviter ARK-18 sans relevés datés."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.76,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Infrastructure\\d9ba0342c7d16a7d",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "6c4711dbcf63ba0f2d3aca71f0b12626afd3fcbd89b35bd8cf5c579fd46e14c4",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 302,
+    "distinct_concepts": 151,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "6c4711dbcf63ba0f2d3aca71f0b12626afd3fcbd89b35bd8cf5c579fd46e14c4",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 302,
+    "distinct_concepts": 151,
+    "cached_queries": 302,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "ambiguous_exact_candidates": 35,
+      "saturated_exact_search": 33,
+      "no_exact_candidate": 48,
+      "unique_exact_candidate": 30,
+      "cross_language_conflict": 5
+    },
+    "tentative_unverified": 30,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "6c4711dbcf63ba0f2d3aca71f0b12626afd3fcbd89b35bd8cf5c579fd46e14c4",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 30,
+    "distinct_qids": 30,
+    "qid_inventory_sha256": "0c33a3347af73d4121843bde3fa4f3d7d862d22cf1fb51115eeb83b1c577b39f",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 30,
+    "qids_acquired": 30,
+    "new_batches": 1,
+    "reused_records": 5,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Infrastructure\\d9ba0342c7d16a7d\\full-evidence\\0c33a3347af73d41",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 30,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 495,
+    "raw_subject_entities": 30,
+    "related_unapproved_qids": 156,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-infrastructure": 495
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "bc2df14109c237d30774b924edabde29d1fc7bf020aa3df15cb81b2e71ae0dcd",
+  "proposals_sha256": "826a36843fb883522c64d4543c433ece22b636ddb6e80a660369de441337b69e"
+}

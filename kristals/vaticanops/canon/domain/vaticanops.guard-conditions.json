@@ -1,0 +1,3948 @@
+{
+  "format": "vaticanops.guard-conditions/2.0",
+  "logical_semantics": "kleene_three_valued",
+  "defaults": "unknown",
+  "not_executable": true,
+  "guards": [
+    {
+      "id": "vo:guard:VO-P01-T01",
+      "procedure_id": "VO-P01",
+      "from": "M1",
+      "to": "M2",
+      "text_fr": "compétence mixte vérifiée",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P01-T02",
+      "procedure_id": "VO-P01",
+      "from": "M2",
+      "to": "M3",
+      "text_fr": "commission permanente pertinente",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:28",
+        "urn:vaticanops:passage:curie-reglement-2025:article:14"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P01-T03",
+      "procedure_id": "VO-P01",
+      "from": "M2",
+      "to": "M4",
+      "text_fr": "commission ad hoc envisagée et conditions vérifiées",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:28",
+        "urn:vaticanops:passage:curie-reglement-2025:article:15"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P01-T04",
+      "procedure_id": "VO-P01",
+      "from": "M2",
+      "to": "M5",
+      "text_fr": "aucune commission supplémentaire pertinente",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P01-T05",
+      "procedure_id": "VO-P01",
+      "from": "M3",
+      "to": "M5",
+      "text_fr": "issue de consultation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:14",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P01-T06",
+      "procedure_id": "VO-P01",
+      "from": "M4",
+      "to": "M5",
+      "text_fr": "issue de la décision sur constitution",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:15",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P02-T01",
+      "procedure_id": "VO-P02",
+      "from": "G1",
+      "to": "G2",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:29"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P02-T02",
+      "procedure_id": "VO-P02",
+      "from": "G2",
+      "to": "G3",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:29",
+        "urn:vaticanops:passage:curie-reglement-2025:article:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P02-T03",
+      "procedure_id": "VO-P02",
+      "from": "G3",
+      "to": "G4",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:37",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:29"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P03-T01",
+      "procedure_id": "VO-P03",
+      "from": "C1",
+      "to": "C2",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:35",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:22"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T01",
+      "procedure_id": "VO-P04",
+      "from": "R1",
+      "to": "R2",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1732",
+        "urn:vaticanops:passage:cic-1983:canon:1733"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T02",
+      "procedure_id": "VO-P04",
+      "from": "R5",
+      "to": "R6",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1735",
+        "urn:vaticanops:passage:cic-1983:canon:1736"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T03",
+      "procedure_id": "VO-P04",
+      "from": "R6",
+      "to": "R7",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1736",
+        "urn:vaticanops:passage:cic-1983:canon:1737"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T04",
+      "procedure_id": "VO-P04",
+      "from": "R7",
+      "to": "R8",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1737",
+        "urn:vaticanops:passage:cic-1983:canon:1738"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T05",
+      "procedure_id": "VO-P04",
+      "from": "R8",
+      "to": "R9",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1738",
+        "urn:vaticanops:passage:cic-1983:canon:1739"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T06",
+      "procedure_id": "VO-P04",
+      "from": "R2",
+      "to": "R3",
+      "text_fr": "demande préalable exigée",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1733",
+        "urn:vaticanops:passage:cic-1983:canon:1734"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T07",
+      "procedure_id": "VO-P04",
+      "from": "R2",
+      "to": "R4",
+      "text_fr": "exception du can. 1734 §3",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1733",
+        "urn:vaticanops:passage:cic-1983:canon:1734"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T08",
+      "procedure_id": "VO-P04",
+      "from": "R3",
+      "to": "R5",
+      "text_fr": "demande remise",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1734",
+        "urn:vaticanops:passage:cic-1983:canon:1735"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T09",
+      "procedure_id": "VO-P04",
+      "from": "R4",
+      "to": "R6",
+      "text_fr": "calcul direct selon can. 1737 §2",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1734",
+        "urn:vaticanops:passage:cic-1983:canon:1736"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P04-T10",
+      "procedure_id": "VO-P04",
+      "from": "R5",
+      "to": "R6",
+      "text_fr": "délai calculé",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1735",
+        "urn:vaticanops:passage:cic-1983:canon:1736"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T01",
+      "procedure_id": "VO-P05",
+      "from": "D1",
+      "to": "D2",
+      "text_fr": "information reçue",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:9",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:18"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T02",
+      "procedure_id": "VO-P05",
+      "from": "D2",
+      "to": "D3",
+      "text_fr": "vraisemblance minimale",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:18",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:16"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T03",
+      "procedure_id": "VO-P05",
+      "from": "D2",
+      "to": "D4",
+      "text_fr": "défaut manifeste de vraisemblance",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:18",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:16"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T04",
+      "procedure_id": "VO-P05",
+      "from": "D4",
+      "to": "D5",
+      "text_fr": "conservation documentation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:16",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:19"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T05",
+      "procedure_id": "VO-P05",
+      "from": "D3",
+      "to": "D6",
+      "text_fr": "enquête requise",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:16",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:21"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T06",
+      "procedure_id": "VO-P05",
+      "from": "D6",
+      "to": "D7",
+      "text_fr": "enquête sous responsabilité compétente",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:21",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:26"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T07",
+      "procedure_id": "VO-P05",
+      "from": "D7",
+      "to": "D8",
+      "text_fr": "collecte appropriée",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:26",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:34"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T08",
+      "procedure_id": "VO-P05",
+      "from": "D8",
+      "to": "D9",
+      "text_fr": "poursuite conformément aux règles",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:34",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:30"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T09",
+      "procedure_id": "VO-P05",
+      "from": "D9",
+      "to": "D10",
+      "text_fr": "protection et accompagnement continus",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:30",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:55"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P05-T10",
+      "procedure_id": "VO-P05",
+      "from": "D10",
+      "to": "D11",
+      "text_fr": "enquête conclue",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:55",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:69"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P06-T01",
+      "procedure_id": "VO-P06",
+      "from": "E1",
+      "to": "E2",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:33",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P06-T02",
+      "procedure_id": "VO-P06",
+      "from": "E2",
+      "to": "E3",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:37",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:52"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P06-T03",
+      "procedure_id": "VO-P06",
+      "from": "E3",
+      "to": "E4",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:52",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:53"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P06-T04",
+      "procedure_id": "VO-P06",
+      "from": "E4",
+      "to": "E5",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:53",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:54"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P06-T05",
+      "procedure_id": "VO-P06",
+      "from": "E5",
+      "to": "E6",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:54",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:62"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P06-T06",
+      "procedure_id": "VO-P06",
+      "from": "E6",
+      "to": "E7",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:62",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:87"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P06-T07",
+      "procedure_id": "VO-P06",
+      "from": "E7",
+      "to": "E8",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:87",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:88"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P06-T08",
+      "procedure_id": "VO-P06",
+      "from": "E8",
+      "to": "E9",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:88",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:89"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T01",
+      "procedure_id": "VO-P07",
+      "from": "L1",
+      "to": "L2",
+      "text_fr": "séquence générale sous adaptations prévues",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:46",
+        "urn:vaticanops:passage:missel-general:numero:50"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T02",
+      "procedure_id": "VO-P07",
+      "from": "L2",
+      "to": "L3",
+      "text_fr": "séquence générale sous adaptations prévues",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:50",
+        "urn:vaticanops:passage:missel-general:numero:51"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T03",
+      "procedure_id": "VO-P07",
+      "from": "L3",
+      "to": "L4",
+      "text_fr": "séquence générale sous adaptations prévues",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:51",
+        "urn:vaticanops:passage:missel-general:numero:52"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T04",
+      "procedure_id": "VO-P07",
+      "from": "L6",
+      "to": "L7",
+      "text_fr": "séquence générale sous adaptations prévues",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:54",
+        "urn:vaticanops:passage:missel-general:numero:55"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T05",
+      "procedure_id": "VO-P07",
+      "from": "L7",
+      "to": "L8",
+      "text_fr": "séquence générale sous adaptations prévues",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:55",
+        "urn:vaticanops:passage:missel-general:numero:72"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T06",
+      "procedure_id": "VO-P07",
+      "from": "L8",
+      "to": "L9",
+      "text_fr": "séquence générale sous adaptations prévues",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:72",
+        "urn:vaticanops:passage:missel-general:numero:80"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T07",
+      "procedure_id": "VO-P07",
+      "from": "L9",
+      "to": "L10",
+      "text_fr": "séquence générale sous adaptations prévues",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:80",
+        "urn:vaticanops:passage:missel-general:numero:90"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T08",
+      "procedure_id": "VO-P07",
+      "from": "L4",
+      "to": "L5",
+      "text_fr": "Gloria prescrit",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:52",
+        "urn:vaticanops:passage:missel-general:numero:53"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T09",
+      "procedure_id": "VO-P07",
+      "from": "L4",
+      "to": "L6",
+      "text_fr": "Gloria non prescrit",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:52",
+        "urn:vaticanops:passage:missel-general:numero:54"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P07-T10",
+      "procedure_id": "VO-P07",
+      "from": "L5",
+      "to": "L6",
+      "text_fr": "après le Gloria",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:53",
+        "urn:vaticanops:passage:missel-general:numero:54"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P08-T01",
+      "procedure_id": "VO-P08",
+      "from": "A1",
+      "to": "A2",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:40",
+        "urn:vaticanops:passage:curie-reglement-2025:article:41"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P08-T02",
+      "procedure_id": "VO-P08",
+      "from": "A2",
+      "to": "A3",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:41",
+        "urn:vaticanops:passage:curie-reglement-2025:article:43"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P08-T03",
+      "procedure_id": "VO-P08",
+      "from": "A3",
+      "to": "A4",
+      "text_fr": "continuation décrite / sous réserve de conditions propres à la source",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:43",
+        "urn:vaticanops:passage:curie-reglement-2025:article:42"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P09-T01",
+      "procedure_id": "VO-P09",
+      "from": "I1",
+      "to": "I2",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:7"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P09-T02",
+      "procedure_id": "VO-P09",
+      "from": "I2",
+      "to": "I3",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:7",
+        "urn:vaticanops:passage:curie-reglement-2025:article:8"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P09-T03",
+      "procedure_id": "VO-P09",
+      "from": "I3",
+      "to": "I4",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:8"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P09-T04",
+      "procedure_id": "VO-P09",
+      "from": "I4",
+      "to": "I5",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:8",
+        "urn:vaticanops:passage:curie-reglement-2025:article:9"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P09-T05",
+      "procedure_id": "VO-P09",
+      "from": "I5",
+      "to": "I6Z",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:9"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P10-T01",
+      "procedure_id": "VO-P10",
+      "from": "F1",
+      "to": "F2",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:31"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P10-T02",
+      "procedure_id": "VO-P10",
+      "from": "F2",
+      "to": "F3",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:31"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P10-T03",
+      "procedure_id": "VO-P10",
+      "from": "F3",
+      "to": "F4Z",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:31"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P11-T01",
+      "procedure_id": "VO-P11",
+      "from": "P1",
+      "to": "P2",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P11-T02",
+      "procedure_id": "VO-P11",
+      "from": "P2",
+      "to": "P3",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P11-T03",
+      "procedure_id": "VO-P11",
+      "from": "P3",
+      "to": "P4",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P11-T04",
+      "procedure_id": "VO-P11",
+      "from": "P4",
+      "to": "P5",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P11-T05",
+      "procedure_id": "VO-P11",
+      "from": "P5",
+      "to": "P6",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P11-T06",
+      "procedure_id": "VO-P11",
+      "from": "P6",
+      "to": "P7Z",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P12-T01",
+      "procedure_id": "VO-P12",
+      "from": "V1",
+      "to": "V2",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:46",
+        "urn:vaticanops:passage:curie-reglement-2025:article:47"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P12-T02",
+      "procedure_id": "VO-P12",
+      "from": "V2",
+      "to": "V3",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:47",
+        "urn:vaticanops:passage:curie-reglement-2025:article:48"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P12-T03",
+      "procedure_id": "VO-P12",
+      "from": "V3",
+      "to": "V4",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:48"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P12-T04",
+      "procedure_id": "VO-P12",
+      "from": "V4",
+      "to": "V5Z",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:48",
+        "urn:vaticanops:passage:curie-reglement-2025:article:47"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P13-T01",
+      "procedure_id": "VO-P13",
+      "from": "H1",
+      "to": "H2",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:51"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P13-T02",
+      "procedure_id": "VO-P13",
+      "from": "H2",
+      "to": "H3Z",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:51"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P14-T01",
+      "procedure_id": "VO-P14",
+      "from": "O1",
+      "to": "O2",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:39"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P14-T02",
+      "procedure_id": "VO-P14",
+      "from": "O2",
+      "to": "O3Z",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:39"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P15-T01",
+      "procedure_id": "VO-P15",
+      "from": "T1",
+      "to": "T2",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:74",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:75"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P15-T02",
+      "procedure_id": "VO-P15",
+      "from": "T2",
+      "to": "T3",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:75",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:76"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P15-T03",
+      "procedure_id": "VO-P15",
+      "from": "T3",
+      "to": "T4Z",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:76",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:77"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P16-T01",
+      "procedure_id": "VO-P16",
+      "from": "J1",
+      "to": "J2",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:34"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P16-T02",
+      "procedure_id": "VO-P16",
+      "from": "J2",
+      "to": "J3Z",
+      "text_fr": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:34",
+        "urn:vaticanops:passage:curie-reglement-2025:article:35"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P17-T01",
+      "procedure_id": "VO-P17",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:165",
+        "urn:vaticanops:passage:cic-1983:canon:167"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P17-T02",
+      "procedure_id": "VO-P17",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:167",
+        "urn:vaticanops:passage:cic-1983:canon:177"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P17-T03",
+      "procedure_id": "VO-P17",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:177",
+        "urn:vaticanops:passage:cic-1983:canon:179"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P18-T01",
+      "procedure_id": "VO-P18",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:187",
+        "urn:vaticanops:passage:cic-1983:canon:189"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P19-T01",
+      "procedure_id": "VO-P19",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:87",
+        "urn:vaticanops:passage:cic-1983:canon:90"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P20-T01",
+      "procedure_id": "VO-P20",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:461",
+        "urn:vaticanops:passage:cic-1983:canon:463"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P20-T02",
+      "procedure_id": "VO-P20",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:463",
+        "urn:vaticanops:passage:cic-1983:canon:466"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P20-T03",
+      "procedure_id": "VO-P20",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:466",
+        "urn:vaticanops:passage:cic-1983:canon:467"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P21-T01",
+      "procedure_id": "VO-P21",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:486",
+        "urn:vaticanops:passage:cic-1983:canon:488"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P21-T02",
+      "procedure_id": "VO-P21",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:488",
+        "urn:vaticanops:passage:cic-1983:canon:489"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P21-T03",
+      "procedure_id": "VO-P21",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:489",
+        "urn:vaticanops:passage:cic-1983:canon:490"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P21-T04",
+      "procedure_id": "VO-P21",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:490",
+        "urn:vaticanops:passage:cic-1983:canon:491"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P22-T01",
+      "procedure_id": "VO-P22",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:850",
+        "urn:vaticanops:passage:cic-1983:canon:851"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P22-T02",
+      "procedure_id": "VO-P22",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:851",
+        "urn:vaticanops:passage:cic-1983:canon:868"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P23-T01",
+      "procedure_id": "VO-P23",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1066",
+        "urn:vaticanops:passage:cic-1983:canon:1067"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P23-T02",
+      "procedure_id": "VO-P23",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1067",
+        "urn:vaticanops:passage:cic-1983:canon:1071"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P24-T01",
+      "procedure_id": "VO-P24",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1277",
+        "urn:vaticanops:passage:cic-1983:canon:1281"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P24-T02",
+      "procedure_id": "VO-P24",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1281",
+        "urn:vaticanops:passage:cic-1983:canon:1284"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P25-T01",
+      "procedure_id": "VO-P25",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1291",
+        "urn:vaticanops:passage:cic-1983:canon:1292"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P25-T02",
+      "procedure_id": "VO-P25",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1292",
+        "urn:vaticanops:passage:cic-1983:canon:1295"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P26-T01",
+      "procedure_id": "VO-P26",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1341",
+        "urn:vaticanops:passage:cic-1983:canon:1342"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P26-T02",
+      "procedure_id": "VO-P26",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1342",
+        "urn:vaticanops:passage:cic-1983:canon:1720"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P27-T01",
+      "procedure_id": "VO-P27",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1501",
+        "urn:vaticanops:passage:cic-1983:canon:1505"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P27-T02",
+      "procedure_id": "VO-P27",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1505",
+        "urn:vaticanops:passage:cic-1983:canon:1513"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P28-T01",
+      "procedure_id": "VO-P28",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1526",
+        "urn:vaticanops:passage:cic-1983:canon:1547"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P28-T02",
+      "procedure_id": "VO-P28",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1547",
+        "urn:vaticanops:passage:cic-1983:canon:1558"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P28-T03",
+      "procedure_id": "VO-P28",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1558",
+        "urn:vaticanops:passage:cic-1983:canon:1598"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P29-T01",
+      "procedure_id": "VO-P29",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1607",
+        "urn:vaticanops:passage:cic-1983:canon:1614"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P29-T02",
+      "procedure_id": "VO-P29",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1614",
+        "urn:vaticanops:passage:cic-1983:canon:1628"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P29-T03",
+      "procedure_id": "VO-P29",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1628",
+        "urn:vaticanops:passage:cic-1983:canon:1645"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P30-T01",
+      "procedure_id": "VO-P30",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1717",
+        "urn:vaticanops:passage:cic-1983:canon:1718"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P30-T02",
+      "procedure_id": "VO-P30",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1718",
+        "urn:vaticanops:passage:cic-1983:canon:1719"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P31-T01",
+      "procedure_id": "VO-P31",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1740",
+        "urn:vaticanops:passage:cic-1983:canon:1742"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P31-T02",
+      "procedure_id": "VO-P31",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1742",
+        "urn:vaticanops:passage:cic-1983:canon:1744"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P31-T03",
+      "procedure_id": "VO-P31",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1744",
+        "urn:vaticanops:passage:cic-1983:canon:1745"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P31-T04",
+      "procedure_id": "VO-P31",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1745",
+        "urn:vaticanops:passage:cic-1983:canon:1747"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P32-T01",
+      "procedure_id": "VO-P32",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1748",
+        "urn:vaticanops:passage:cic-1983:canon:1750"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P32-T02",
+      "procedure_id": "VO-P32",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1750",
+        "urn:vaticanops:passage:cic-1983:canon:1752"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P33-T01",
+      "procedure_id": "VO-P33",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:57",
+        "urn:vaticanops:passage:cic-1983:canon:58"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P34-T01",
+      "procedure_id": "VO-P34",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:1",
+        "urn:vaticanops:passage:curie-reglement-2025:article:5"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P34-T02",
+      "procedure_id": "VO-P34",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:5",
+        "urn:vaticanops:passage:curie-reglement-2025:article:7"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P35-T01",
+      "procedure_id": "VO-P35",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:3",
+        "urn:vaticanops:passage:curie-reglement-2025:article:4"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P35-T02",
+      "procedure_id": "VO-P35",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:4",
+        "urn:vaticanops:passage:curie-reglement-2025:article:6"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P36-T01",
+      "procedure_id": "VO-P36",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:23",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:29"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P36-T02",
+      "procedure_id": "VO-P36",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:29",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:30"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P37-T01",
+      "procedure_id": "VO-P37",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:36",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P38-T01",
+      "procedure_id": "VO-P38",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:190",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:191"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P38-T02",
+      "procedure_id": "VO-P38",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:191",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:193"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P39-T01",
+      "procedure_id": "VO-P39",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:194",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:198"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P39-T02",
+      "procedure_id": "VO-P39",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:198",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:200"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P40-T01",
+      "procedure_id": "VO-P40",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:205",
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:206"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P41-T01",
+      "procedure_id": "VO-P41",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:10",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:21"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P41-T02",
+      "procedure_id": "VO-P41",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:21",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:31"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P42-T01",
+      "procedure_id": "VO-P42",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:26",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:34"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P42-T02",
+      "procedure_id": "VO-P42",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:34",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:38"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P42-T03",
+      "procedure_id": "VO-P42",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:38",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:41"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P42-T04",
+      "procedure_id": "VO-P42",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:41",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:49"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P43-T01",
+      "procedure_id": "VO-P43",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:30",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:62"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P43-T02",
+      "procedure_id": "VO-P43",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:62",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:65"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P44-T01",
+      "procedure_id": "VO-P44",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:68",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:69"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P44-T02",
+      "procedure_id": "VO-P44",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:69",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:72"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P44-T03",
+      "procedure_id": "VO-P44",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:72",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:75"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P45-T01",
+      "procedure_id": "VO-P45",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:85",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:95"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P45-T02",
+      "procedure_id": "VO-P45",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:95",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:105"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P45-T03",
+      "procedure_id": "VO-P45",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:105",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:112"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P45-T04",
+      "procedure_id": "VO-P45",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:112",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:122"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P46-T01",
+      "procedure_id": "VO-P46",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:145",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:150"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P46-T02",
+      "procedure_id": "VO-P46",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:150",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:155"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P47-T01",
+      "procedure_id": "VO-P47",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:160",
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:161"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P48-T01",
+      "procedure_id": "VO-P48",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:1",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:7"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P48-T02",
+      "procedure_id": "VO-P48",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:7",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:13"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P49-T01",
+      "procedure_id": "VO-P49",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:33",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:37"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P49-T02",
+      "procedure_id": "VO-P49",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:37",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:38"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P50-T01",
+      "procedure_id": "VO-P50",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:54",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:55"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P50-T02",
+      "procedure_id": "VO-P50",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:55",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:56"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P50-T03",
+      "procedure_id": "VO-P50",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:56",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:59"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P51-T01",
+      "procedure_id": "VO-P51",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:62",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:64"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P51-T02",
+      "procedure_id": "VO-P51",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:64",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:65"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P51-T03",
+      "procedure_id": "VO-P51",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:65",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:66"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P51-T04",
+      "procedure_id": "VO-P51",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:66",
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:70"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P52-T01",
+      "procedure_id": "VO-P52",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:92",
+        "urn:vaticanops:passage:missel-general:numero:94"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P52-T02",
+      "procedure_id": "VO-P52",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:94",
+        "urn:vaticanops:passage:missel-general:numero:98"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P52-T03",
+      "procedure_id": "VO-P52",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:98",
+        "urn:vaticanops:passage:missel-general:numero:99"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P52-T04",
+      "procedure_id": "VO-P52",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:99",
+        "urn:vaticanops:passage:missel-general:numero:111"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P53-T01",
+      "procedure_id": "VO-P53",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:117",
+        "urn:vaticanops:passage:missel-general:numero:118"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P53-T02",
+      "procedure_id": "VO-P53",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:118",
+        "urn:vaticanops:passage:missel-general:numero:119"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P54-T01",
+      "procedure_id": "VO-P54",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:120",
+        "urn:vaticanops:passage:missel-general:numero:122"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P54-T02",
+      "procedure_id": "VO-P54",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:122",
+        "urn:vaticanops:passage:missel-general:numero:124"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P54-T03",
+      "procedure_id": "VO-P54",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:124",
+        "urn:vaticanops:passage:missel-general:numero:125"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P54-T04",
+      "procedure_id": "VO-P54",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:125",
+        "urn:vaticanops:passage:missel-general:numero:127"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P55-T01",
+      "procedure_id": "VO-P55",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:128",
+        "urn:vaticanops:passage:missel-general:numero:129"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P55-T02",
+      "procedure_id": "VO-P55",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:129",
+        "urn:vaticanops:passage:missel-general:numero:131"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P55-T03",
+      "procedure_id": "VO-P55",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:131",
+        "urn:vaticanops:passage:missel-general:numero:134"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P55-T04",
+      "procedure_id": "VO-P55",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:134",
+        "urn:vaticanops:passage:missel-general:numero:136"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P55-T05",
+      "procedure_id": "VO-P55",
+      "from": "S5",
+      "to": "S6",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:136",
+        "urn:vaticanops:passage:missel-general:numero:138"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P56-T01",
+      "procedure_id": "VO-P56",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:139",
+        "urn:vaticanops:passage:missel-general:numero:140"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P56-T02",
+      "procedure_id": "VO-P56",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:140",
+        "urn:vaticanops:passage:missel-general:numero:141"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P56-T03",
+      "procedure_id": "VO-P56",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:141",
+        "urn:vaticanops:passage:missel-general:numero:142"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P56-T04",
+      "procedure_id": "VO-P56",
+      "from": "S4",
+      "to": "S5",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:142",
+        "urn:vaticanops:passage:missel-general:numero:146"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P57-T01",
+      "procedure_id": "VO-P57",
+      "from": "S1",
+      "to": "S2",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:147",
+        "urn:vaticanops:passage:missel-general:numero:148"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P57-T02",
+      "procedure_id": "VO-P57",
+      "from": "S2",
+      "to": "S3",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:148",
+        "urn:vaticanops:passage:missel-general:numero:149"
+      ]
+    },
+    {
+      "id": "vo:guard:VO-P57-T03",
+      "procedure_id": "VO-P57",
+      "from": "S3",
+      "to": "S4",
+      "text_fr": "vérifier les conditions normatives et la version avant toute interprétation",
+      "type": "manual_attestation",
+      "evaluation": "three_valued",
+      "default": "unknown",
+      "attestation_required": true,
+      "allowed_inputs": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "requires_review": true,
+      "normative_authority": "none",
+      "source_refs": [
+        "urn:vaticanops:passage:missel-general:numero:149",
+        "urn:vaticanops:passage:missel-general:numero:151"
+      ]
+    }
+  ],
+  "interpretation": "A true attestation records a hypothetical reviewer input, not real-world applicability or authority"
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:historytech:materialization:resource-basis",
+  "source": {
+    "artifact_id": "urn:kristal:historytech:resource-basis",
+    "logical_contract": {
+      "id": "kristal.repository-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:6b2b5eb13f77f658f7cf6702027f6e205652c530b1fe2f13096979f7c2bed969"
+    },
+    "authority_ref": "urn:kristal:authority:historytech"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 3
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:historytech:resource:structured_epistemic_state",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:4dcd0c286d142d3541c8384a5e6beb7d83deae46a8e3c1f9aa12c812f82124f9",
+        "size": 6148692,
+        "locator": "knowledge-base/corpus/historytech.structured-epistemic-state.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:historytech:resource:structured_epistemic_state",
+        "role": "structured_epistemic_state"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:historytech:resource:source_authority_registry",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:16fdd04c12224cd4cb6f1bf0c0ba07a5b323a6781369b38e081b86f666198f52",
+        "size": 81084,
+        "locator": "knowledge-base/sources/source_authority_registry.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:historytech:resource:source_authority_registry",
+        "role": "source_authority_registry"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:historytech:resource:editorial_semantic_policy",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:b35d428c37766785e639cd42326702d26c7032ff6f2888f626b528c78ba29862",
+        "size": 1793,
+        "locator": "knowledge-base/sources/historytech_design_principles_v1.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:historytech:resource:editorial_semantic_policy",
+        "role": "editorial_semantic_policy"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:historytech:resource:structured_epistemic_state",
+      "urn:kristal:historytech:resource:source_authority_registry",
+      "urn:kristal:historytech:resource:editorial_semantic_policy"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.repository-resource-set/jcs-v1"
+  }
+}

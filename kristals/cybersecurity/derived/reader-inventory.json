@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:cybersecurity",
+  "source_fingerprint": "sha256:f087019e3ed48f7546e94f773bf7329cf827c60d07554072be8d67d078845dd9",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 1835025,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 948424,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-cybersecurity-canonical-state-d4ecde62a1.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 948424,
+      "sha256": "sha256:dc4b62971d8762bad6e6903f8baab742da5ec4f807775a309e8b3cdd95fb1219"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 923,
+      "sha256": "sha256:fde412ce5b6c21ef689c1258d7243c18e2974a0f32a1dd481df8a7ceb50789a5"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 885678,
+      "sha256": "sha256:7e16d3927b3d616d8e0ae8e97005a67911b03e219231368b3feb3b8d81b3de50"
+    }
+  ],
+  "segments": []
+}

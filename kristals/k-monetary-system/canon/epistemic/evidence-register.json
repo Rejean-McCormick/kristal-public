@@ -1,0 +1,80 @@
+{
+  "format": "k.monetary.epistemic/evidence-register/0.1.0",
+  "id": "urn:kristal:k-monetary-system:epistemic:evidence-register",
+  "records": [
+    {
+      "id": "E_SMART_VOTE",
+      "supports_or_contextualizes": [
+        "A2",
+        "H3"
+      ],
+      "source_id": "source:konnaxion-smart-vote",
+      "claim": "An external Smart Vote/EkoH system exists as the intended governance dependency.",
+      "status": "external_system_reference_not_pinned"
+    },
+    {
+      "id": "E_AUTHORING_KIT",
+      "supports_or_contextualizes": [
+        "model_shape",
+        "epistemic_separation"
+      ],
+      "source_id": "source:kristal-authoring-kit-3.0.0",
+      "claim": "The Kristal is authored as a hybrid executable model with explicit epistemic regimes.",
+      "status": "authoring_constraint"
+    },
+    {
+      "id": "E_DESIGN_SESSION",
+      "supports_or_contextualizes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "H1",
+        "H2",
+        "H4",
+        "H5",
+        "H6"
+      ],
+      "source_id": "source:design-session-2026-10-07",
+      "claim": "The scenario and mechanisms originate in the design conversation.",
+      "status": "design_intent_only"
+    }
+  ],
+  "open_evidence_obligations": [
+    {
+      "id": "O1",
+      "needed_for": [
+        "H1"
+      ],
+      "question": "Empirical evidence on unit-of-account adoption, currency substitution and network effects."
+    },
+    {
+      "id": "O2",
+      "needed_for": [
+        "H2"
+      ],
+      "question": "Distributional modeling of broad capital allocation, UBI/basic-services floors and avoidance behavior."
+    },
+    {
+      "id": "O3",
+      "needed_for": [
+        "H3"
+      ],
+      "question": "Evidence on committee/collective monetary governance, forecast calibration and expertise-weighted decision systems."
+    },
+    {
+      "id": "O4",
+      "needed_for": [
+        "H5"
+      ],
+      "question": "Sectoral balance-sheet data for legacy debt holders and debtors; inflation-indexation and maturity composition."
+    },
+    {
+      "id": "O5",
+      "needed_for": [
+        "H6"
+      ],
+      "question": "Payment-rail security, fraud, cost and adoption benchmarks for QR and account-based real-time settlement."
+    }
+  ]
+}

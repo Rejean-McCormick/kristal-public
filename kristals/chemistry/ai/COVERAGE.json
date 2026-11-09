@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:chemistry",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:2aaec70df77b0c6c5ce92c923e1708fcb70255bd457c33d0fdb717cde88963f0"
+  },
+  "subject": {
+    "domain": "chemistry",
+    "id": "urn:kristal:subject:kristal-chemistry",
+    "label": "Kristal-Chemistry",
+    "orientation": "ENTITY ↔ STATE ↔ PROCESS, sous conditions thermodynamiques, cinétiques et observations ; processus de réaction potentiellement cycliques"
+  },
+  "semantic_ownership": {
+    "does_not_own": [
+      "les classifications dérivées ne remplacent pas les registres d’identité ni le contexte expérimental",
+      "les dépôts sources externes et leur publication",
+      "une autorité créée par l’IA ou la matérialisation"
+    ],
+    "owns": [
+      "Corpus statique et modèle d’assertions du domaine chemistry",
+      "ENTITY ↔ STATE ↔ PROCESS, sous conditions thermodynamiques, cinétiques et observations ; processus de réaction potentiellement cycliques",
+      "identifiants sémantiques, provenance et état v9 historique"
+    ]
+  },
+  "canonical_artifact_count": 12,
+  "source_count": 32,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

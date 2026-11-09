@@ -1,0 +1,167 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:finance",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:abc779908a04e40dfe8a4ba6ee745f9316ddb759b24c9b878f8aa4999134b85b"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:finance:canonical",
+      "logical_contract": {
+        "id": "kristal.v6-state-reference",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:finance",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:43320d2ff82c28ffd5cad99ccf9d182c52a049c535a7250c307ddbe4c29479d2"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:finance:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9829a30fa17f37fac6f450b5c191af3019f25dbe62e24870b527a7089ca2bbe0"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:finance:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:54cd25e739d481f790f35a92341c378ec13cab2b30a15572b39bcb4899367995"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:finance:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:68ba4a9912caf199044755eb4b24a4253d909efa7e6d0e0a344ae8c34f6ab5eb"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:finance:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:49cdae3aa5403ab5aeaac4d33e47755c459f899791039ffa71125bfef92d86e5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Finance:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:848b4b3aecc30058175262567278ecaa442a602203a3fac3cf975374c2ea4b6b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Finance:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:949445e010c52267fe8aace4e6a3ed650f0b76be704bd697f96de28e5b85a9b5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Finance:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9c35d142cb76b7b7d1d6e481a1177e213fe3c3d0db4253dc3d69cc51008735d5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Finance:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:72cb3c00df68a6d3667b7b0889f1c0232724804e800b7e4fbca97868ecfbb989"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Finance:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b6e588ac563a1ad80439c80b9ccc5f3510878274097076009296c7de3de9efb5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Finance:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fd634f38c9379a8f88a61dea2227c0922a12238c83b0e7f66b0dc539c31414a5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Finance:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9c35d142cb76b7b7d1d6e481a1177e213fe3c3d0db4253dc3d69cc51008735d5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Finance:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:de5ecb8920b286d82b29f6a2cb0aded23eb628ba5e474e8f0926efd12a167d76"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:finance:v11:catalog:fr-proposal-2026-11-06",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:348474bfe5a9ca00db755b32b8a0a480663e89477a5da8974cd2ea6498fef666"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

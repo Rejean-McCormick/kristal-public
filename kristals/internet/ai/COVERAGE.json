@@ -1,0 +1,47 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:internet",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:4dc021e3ffeb97a69e8edfbd87be18766852d73bf4d44fdd128a72e51e4f38f0"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:internet",
+    "label": "Kristal-Internet",
+    "domain": "internet"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Logical resource role: semantic_model",
+      "Logical resource role: identifier_model",
+      "Logical resource role: layer_model",
+      "Logical resource role: addressing_model",
+      "Logical resource role: protocol_model",
+      "Logical resource role: service_model",
+      "Logical resource role: routing_model",
+      "Logical resource role: security_model",
+      "Logical resource role: failure_model",
+      "Logical resource role: relation_model",
+      "Logical resource role: semantic_invariants",
+      "Logical resource role: source_catalog"
+    ],
+    "does_not_own": [
+      "Upstream publishers, source availability and their editorial lifecycle",
+      "Physical compression, runtime indexes, build, GitHub publication or activation"
+    ]
+  },
+  "canonical_artifact_count": 10,
+  "source_count": 51,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 2,
+  "local_materialization_blob_count": 13,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

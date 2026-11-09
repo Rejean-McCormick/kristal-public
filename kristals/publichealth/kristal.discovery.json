@@ -1,0 +1,55 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:public-health",
+  "classification": {
+    "primary_archetype": "ARK-01",
+    "arketype_version": "1.6.0",
+    "organization": "single",
+    "structure_mode": "archetype",
+    "variant_description": "Graphe de référence population/contexte/exposition/intervention/résultat et mesures; n’est ni politique ni procédure opérationnelle. Sources : docs/01_SEMANTIC_BOUNDARY.md; knowledge-base/documentation/ARCHITECTURE.md.",
+    "supporting_archetypes": [],
+    "classification_source": "assistant_structural_proposal__not_authority_or_validation",
+    "verification_status": "NOT_EVALUATED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "2.80",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.80",
+          "label_en": "Medical sciences",
+          "domain": "2"
+        },
+        {
+          "code": "4.25",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt4.25",
+          "label_en": "Social policy and welfare",
+          "domain": "4"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "population_exposure_intervention_outcome_graph",
+    "organization": "single",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 4775858,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:d678014e5b6f4aadde4b2c5d96f1f2c4cfb6f2394569c5605f3d3ff93fc27e66",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

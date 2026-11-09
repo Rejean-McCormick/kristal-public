@@ -1,0 +1,39 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:kristal-time",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:a9d9f876c87cfc77e610ea7c2c3da276fed236b4ddfaecb77ffbc523ca38c52c"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:kristal-time",
+    "label": "Kristal-Time",
+    "domain": "time"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "La représentation sémantique de Kristal-Time décrite dans les sources et le contrat logique d’origine.",
+      "Entités temporelles, durée, ordre, récurrence, calendrier, fuseau horaire et référentiel.",
+      "Les assertions et leurs qualificatifs de provenance, de statut et d’applicabilité tels que consignés dans le state v9 historique."
+    ],
+    "does_not_own": [
+      "Les sources externes elles-mêmes, leurs mises à jour éditoriales et leurs droits.",
+      "Le contenu des autres Kristals, leurs références ou autorités.",
+      "La publication, activation ou mutation de canaux hébergés."
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 16,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

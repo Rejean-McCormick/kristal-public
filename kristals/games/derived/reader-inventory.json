@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:games",
+  "source_fingerprint": "sha256:e5fed79d96a019534b7203c02621e540c0ea6837eb477946c3e73168ee8292a3",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 1996,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 883,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-games-canonical-b27137fc4d.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 825,
+      "sha256": "sha256:9aaeb9eaff31fabaff07ee0c797d5e9ac8f09ce3b5f891a77580af25a729a43d"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 883,
+      "sha256": "sha256:7322e9e188e908ea21bcbbf589e450e5b0027fafcfbc63cc6d577dd15907f599"
+    },
+    {
+      "path": "canon/domain/games.logical-payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 288,
+      "sha256": "sha256:437b37990c8090a6bf7d22fbdf5f264c8196568d216516d80f754c01416655be"
+    }
+  ],
+  "segments": []
+}

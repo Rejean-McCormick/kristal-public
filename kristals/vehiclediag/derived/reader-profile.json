@@ -1,0 +1,167 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:vehiclediag:state:reference",
+  "source_fingerprint": "sha256:8f41222b0e1adc347a47d59f527cff0b7805f216cf42a0f63f6e1c4249553864",
+  "specialization": "kristal.reader/causal-graph-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "selective",
+  "materialization_profiles": [
+    "kristal.materialization/inline-json/1",
+    "kristal.materialization/kristal-state-v6/1"
+  ],
+  "artifact_strategies": [
+    {
+      "path": ".kristal/v9/logical/epistemic-overlay.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3895766,
+      "suggested_parser_family": null,
+      "suggested_mode": "format_specific_or_opaque",
+      "must_verify_digest": "sha256:e73be6a4a61b8a478210ca7bbec7520e232e45a52b14952c51d026dda1799f02",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/logical/reference-model.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 452056,
+      "suggested_parser_family": null,
+      "suggested_mode": "format_specific_or_opaque",
+      "must_verify_digest": "sha256:900d749419eb9a6153b58001e48578dac9dcb1d2450cc50e80766e82aea55d9d",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/epistemic-overlay.inline.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1147,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:e9f1bdebd8b9016f0545c15dc851c79c8a36762abf5fbaf56fee0c02d8e45b2c",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/epistemic-overlay.portable-v6.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1184,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:daf6f434ecde89ceb26e26ce69aa3ca8b244a58f957b2944d60b5c933b2bd01c",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/reference-model.inline.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1142,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:df7a8cd4e88aab7b5af41bc65eefcd5028bca7e3da98f372397945d1e07d9d38",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/vnd.kristal.state+json;version=6.0",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3669113,
+      "suggested_parser_family": null,
+      "suggested_mode": "format_specific_or_opaque",
+      "must_verify_digest": "sha256:df75c6693c130d7ac70a129d86860afafcf3ce7c69f3a3f70f423c377c82c816",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-vehiclediag-artifact-epistemic-overlay-427a123654.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3895766,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:def54b6a5c973f84cf00b746ecc3dbf3abd58b9d52fdca6e42f1751cc1f07571",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-vehiclediag-artifact-reference-model-540f90e8c0.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 452056,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:ef55567c7873058de52c889ea9be610f97e83e544d562b47e32c7ad398ec3596",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1231,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:832d011897a2225cf79ce9d394b8b3f2a72bf161d266e720c075c37ac6a6b0e8",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/reference-model.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 423933,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:32a438d150af1460f256804fcd631ad198ba300f9c34e9e64ddbac44fa9c0290",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/epistemic/epistemic-overlay.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3668898,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:1d699d72577b3335046a65e75143d5c5d13c4e3a1c82e7a9b38bbbc1a0d62c84",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:humanbody:materialization:resource-basis",
+  "source": {
+    "artifact_id": "urn:kristal:humanbody:resource-basis",
+    "logical_contract": {
+      "id": "kristal.repository-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:6f04134aa853ea628484ff64c5da5db750c7b015c13f83919ae93dd153a31f0d"
+    },
+    "authority_ref": "urn:kristal:authority:humanbody"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 3
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:humanbody:resource:structured_epistemic_state",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:752d2f5f418944f6fcaef8c42b11acc70ab7febe76cd9112ba892a75d83a4539",
+        "size": 3635179,
+        "locator": "knowledge-base/corpus/humanbody.structured-epistemic-state.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:humanbody:resource:structured_epistemic_state",
+        "role": "structured_epistemic_state"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:humanbody:resource:identity_registry",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:1eb9b8bded3af339036d59140f081b367f1a77b9e39ae7d19bb229f456c36b68",
+        "size": 355337,
+        "locator": "knowledge-base/corpus/referents.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:humanbody:resource:identity_registry",
+        "role": "identity_registry"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:humanbody:resource:source_resolution_contract",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:b483f12b922638eb2b9ca0f84845b1810c8a9fb809c2fc74105716bdbe2d64c2",
+        "size": 3070,
+        "locator": "knowledge-base/integration/source-resolution-contract.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:humanbody:resource:source_resolution_contract",
+        "role": "source_resolution_contract"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:humanbody:resource:structured_epistemic_state",
+      "urn:kristal:humanbody:resource:identity_registry",
+      "urn:kristal:humanbody:resource:source_resolution_contract"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.repository-resource-set/jcs-v1"
+  }
+}

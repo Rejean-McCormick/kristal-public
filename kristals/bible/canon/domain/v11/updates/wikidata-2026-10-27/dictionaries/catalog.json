@@ -1,0 +1,48 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Bible:v11:dictionaries:bulk-secondpass-candidate.2",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "legacy-fr",
+          "path": "legacy-fr.json",
+          "priority": 100,
+          "sha256": "35746359eec58a7a3b8e813c393703b8f411c7ea3080b38e1daa0120fd4104f9"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "5a70e913a5b4fd9843366078365da0cffe6eb5970ae8938d7a547ff43bfdaf20"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [
+        "fr"
+      ],
+      "layers": [],
+      "tag": "fr-CA"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "20755ec8a4144a929f561673577c50051f6ffd2ce3624b1845cd42853342c959"
+        }
+      ],
+      "tag": "und"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-bible",
+  "schema_version": "11.0"
+}

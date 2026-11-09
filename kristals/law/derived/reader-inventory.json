@@ -1,0 +1,434 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:law",
+  "source_fingerprint": "sha256:4cab5283e06271e40b7cb8e415f66c6a8c4fb3de1f671e943a973259cf41b797",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 6416919,
+    "tracked_file_count": 40,
+    "max_tracked_file_bytes": 763620,
+    "materialization_segment_count": 9,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 14,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1962,
+      "sha256": "sha256:67e731baf2b67fbbae4e7d7a79f774f8aa3ed9791bb9be61098d1beef2cf7b5f"
+    },
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1035,
+      "sha256": "sha256:53ebc32c826b4c39eaa6e5ad7260c29e479d0b2bc69736d584b99482069be53c"
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 5073,
+      "sha256": "sha256:598312601cfd566e770c69157734fdba2b80de39a3755a3e9115aaad2b737686"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-law-resource-basis-41fdaa8c42.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3886,
+      "sha256": "sha256:bccd1bfd3c4505d9a5e95d6f89fb893cc5f88b55e3307ef4480807dfd0a1fc23"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-law-semantic-state-93a9854baf.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1962,
+      "sha256": "sha256:412eb2fc8f306c9958a695f6c80c5e5156a8a3f8175ead19dfb50ad230f89e7c"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-law-v11-catalog-2026-10-27-b20457b4dc.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1616,
+      "sha256": "sha256:adfbd33bebcf11718e1b3cb25a9527b847f687b15219ed7596acae98b0de1053"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-law-v11-crosswalk-2026-10-27-7fe5a17f44.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 135816,
+      "sha256": "sha256:e762228399666107f39798fa12fd342a217b6fb03a50021c4da9e16bec01ad0f"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-law-v11-graph-2026-10-27-0d48686079.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 733695,
+      "sha256": "sha256:b497d728a7576f163d97f9b28a5107755b0a2845d71c12a32bea60f79aff715c"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-law-v11-identity-2026-10-27-757eeed1fc.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 120404,
+      "sha256": "sha256:66578def56dffe7a906d838e7a393662c126e50413906bbb91064261721b8f3c"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Law-catalog-b598eefdac.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2186,
+      "sha256": "sha256:eb528d2d8d75cdbfe5ceb209cbf81cdadff08cf1ef7cd0ab673dbb926ad53302"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Law-crosswalk-32e4a771ff.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 135828,
+      "sha256": "sha256:3cb8e80fd57deee4a3d5927c144fb228cd55715f7e6c693f1e4a0720b433a24b"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Law-graph-01d9999d12.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 762909,
+      "sha256": "sha256:d08ae1bc99f965f75bdc62dce95e8a67ec275ad32dfbb3ed8d3ae0f295210a62"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Law-registry-cc9a0030e5.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 136969,
+      "sha256": "sha256:72018364aab41041519739e73e4bb80cd4fc434a19d82c0aaa8cfdf6a7e365ca"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Law-catalog-a58eda9029.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2740,
+      "sha256": "sha256:f4171d5e9a737b7facda994fa7b890ac6e77e08a9a141068e966f4d4a850068e"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Law-crosswalk-4215de0dbf.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 135828,
+      "sha256": "sha256:a70e153619bb72c0083d9476fe2614b6e669db0b7fe3d020e45f4a4cce311eee"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Law-graph-b6769007da.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 763620,
+      "sha256": "sha256:bbfc7f33c7c160e6799842854af764a55a9dd3afd360d507359bfd3d6cb3f9f5"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Law-registry-5ccb70f4c4.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 137436,
+      "sha256": "sha256:efb03eca2e1608260c9e83821e7beef6487638da5140e291a44bc3e186324dcd"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 5734,
+      "sha256": "sha256:056f9dd99eaed7f0b2c4c32094142f2f3112bcd8e77d99fe05f69d5c11831100"
+    },
+    {
+      "path": "canon/domain/domain-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 962,
+      "sha256": "sha256:d21dd1b5748fb3a88bc354a2bb35a5d361360ce19988f3e45797f022337b1792"
+    },
+    {
+      "path": "canon/domain/resource-basis.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 3198,
+      "sha256": "sha256:db13ff0068cdbfc1e27120040d8567736633d310d26890518a164075c3818609"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1663,
+      "sha256": "sha256:e3d3f7ecea66d6a2a79a697f35a55ecceb6cffd9072549cdcb3641213cb82943"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 126099,
+      "sha256": "sha256:887f1f4643b5b7e90a8e19fdb1634a1fee4e18dcfcdc18bc3e252b339113ae96"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 124760,
+      "sha256": "sha256:2aba8985a424c9d2947839783233ce973fd622abf653760f391a3f4f350c8572"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 710234,
+      "sha256": "sha256:0f385cd28605f33291aa25fee74982e2f637861770cf26ecb5644aa55fac1d98"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2189,
+      "sha256": "sha256:f161e13a80176afb106c2db80954ed00b0638c7ac1f41c3b0515d9f9d2888c27"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 126099,
+      "sha256": "sha256:887f1f4643b5b7e90a8e19fdb1634a1fee4e18dcfcdc18bc3e252b339113ae96"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 125187,
+      "sha256": "sha256:96f340705f5a149488d7126079a7a954fcda65284b728d602872912da36cf0be"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 710893,
+      "sha256": "sha256:df67b08c0371035bc87ba0905d20e869872f7c8d67958e04b0ff7c3ffaa17ffb"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1118,
+      "sha256": "sha256:ec83d9555c7d4240bc68c079a4793693d77732e8b06606ea095e0d8fd18f4ecd"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 126084,
+      "sha256": "sha256:ae8a82110afa77f01cee74d829775c17e5955371e473946e2c8b68e06deb9e9b"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 109592,
+      "sha256": "sha256:9437bc3a82017c807ac772a51efdf3bb362a9af1625594a00b582f28a9093ea6"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 682929,
+      "sha256": "sha256:28759bd25d9877fa7dcd710b4fb88b8ebfc46e7bef28765ab17eb978f19bd152"
+    },
+    {
+      "path": "knowledge-base/corpus/law.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 396716,
+      "sha256": "sha256:bbccd9e062b45fd9b01f349ed6ea1e37e0504e9e57edde94a3f3b657af7a595c"
+    },
+    {
+      "path": "knowledge-base/corpus/law.referent-registry.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 68998,
+      "sha256": "sha256:639a40a59b887bebe153801806c2b2aff7fe16a17c3e8333a785e8e4ca4ea57c"
+    },
+    {
+      "path": "knowledge-base/sources/decision_model.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 427,
+      "sha256": "sha256:1b871f85ce98339ec3b712549dbd74affa44df50f935f8f440edef3a64b5fdef"
+    },
+    {
+      "path": "knowledge-base/sources/jurisdiction_model.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 305,
+      "sha256": "sha256:94bf3e6016568207f50d4b32305327d0e82a00db4c89cfc56f614c948a7e0131"
+    },
+    {
+      "path": "knowledge-base/sources/norm_model.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 943,
+      "sha256": "sha256:bbdcdb40f475f127df5d510d40702cc5943d3ac24734d3492212265e873c7c9d"
+    },
+    {
+      "path": "knowledge-base/sources/rule_exemplars.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 9148,
+      "sha256": "sha256:15481e992769b6998a454991beed733858201fef837ac71a97847bdab9c8b388"
+    },
+    {
+      "path": "knowledge-base/sources/source_semantics.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 328,
+      "sha256": "sha256:5dace50899c362ee757d701da29449d6bb60e264e4076f3f55aedea981aefd05"
+    },
+    {
+      "path": "knowledge-base/sources/temporal_validity_model.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 348,
+      "sha256": "sha256:e18e95532b1b61f88df9a0f5a819e3c2c9274e70cc6e93dea66e1a1fe90f93f3"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/domain-state.materialization.json",
+      "segment_key": "all",
+      "record_count_declared": 1,
+      "media_type": "application/json",
+      "size_bytes_declared": 1962,
+      "digest_declared": "sha256:67e731baf2b67fbbae4e7d7a79f774f8aa3ed9791bb9be61098d1beef2cf7b5f",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:law:resource:portable_epistemic_state",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 396716,
+      "digest_declared": "sha256:bbccd9e062b45fd9b01f349ed6ea1e37e0504e9e57edde94a3f3b657af7a595c",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/law.kristal-state.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:law:resource:identity_registry",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 68998,
+      "digest_declared": "sha256:639a40a59b887bebe153801806c2b2aff7fe16a17c3e8333a785e8e4ca4ea57c",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/law.referent-registry.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:law:resource:source_semantics",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 328,
+      "digest_declared": "sha256:5dace50899c362ee757d701da29449d6bb60e264e4076f3f55aedea981aefd05",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/source_semantics.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:law:resource:jurisdiction_model",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 305,
+      "digest_declared": "sha256:94bf3e6016568207f50d4b32305327d0e82a00db4c89cfc56f614c948a7e0131",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/jurisdiction_model.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:law:resource:temporal_validity_model",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 348,
+      "digest_declared": "sha256:e18e95532b1b61f88df9a0f5a819e3c2c9274e70cc6e93dea66e1a1fe90f93f3",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/temporal_validity_model.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:law:resource:norm_model",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 943,
+      "digest_declared": "sha256:bbdcdb40f475f127df5d510d40702cc5943d3ac24734d3492212265e873c7c9d",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/norm_model.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:law:resource:decision_model",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 427,
+      "digest_declared": "sha256:1b871f85ce98339ec3b712549dbd74affa44df50f935f8f440edef3a64b5fdef",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/decision_model.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:law:resource:positive_law_snapshots",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 9148,
+      "digest_declared": "sha256:15481e992769b6998a454991beed733858201fef837ac71a97847bdab9c8b388",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/rule_exemplars.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    }
+  ]
+}

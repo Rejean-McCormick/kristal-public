@@ -1,0 +1,294 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:nutrition:state",
+  "source_fingerprint": "sha256:db67b9cfb66ed50acd664dc13c4d45568e6fe2a0ca34f20dc0281707a2f712c2",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 9393145,
+    "tracked_file_count": 33,
+    "max_tracked_file_bytes": 968135,
+    "materialization_segment_count": 2,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 14,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 550802,
+      "sha256": "sha256:a18a9cab4d3b5c9b4387a775f09fc676aee74ba5d80e5b141eb9cab0812ff4f5"
+    },
+    {
+      "path": ".kristal/v9/materializations/inline-json.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1174,
+      "sha256": "sha256:fbe81548d0055c31c14e40e16dc86e71c700e3fdb1dc5bf76b11a726b0f21f2e"
+    },
+    {
+      "path": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1175,
+      "sha256": "sha256:4ef394db6981562c1e03f9c205891d553bb94ce9b5198ec5d7c9306038052ff3"
+    },
+    {
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 515791,
+      "sha256": "sha256:8dd95688c162945dc137f83611b987a37b788c84aa0f4351431d90fd3a2c4c4a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-nutrition-artifact-epistemic-state-4310f8bef6.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 550802,
+      "sha256": "sha256:a18a9cab4d3b5c9b4387a775f09fc676aee74ba5d80e5b141eb9cab0812ff4f5"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-nutrition-v11-catalog-2026-10-27-15f8144384.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1988,
+      "sha256": "sha256:65621da600306b33191a617df88174b9c6b9b49333ff38a7923a521157eea55d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-nutrition-v11-catalog-fr-proposal-2026-11-06-9d183ba94a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3443,
+      "sha256": "sha256:9563b6c393948fcef1d42d61b5471386877b23f41fa4a9cbe687cc67d189184b"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-nutrition-v11-crosswalk-2026-10-27-edef79d010.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 97204,
+      "sha256": "sha256:d840f3ead34535a97f3ab06edb54cc45a3b4f82ca614e987517dd31182a3c274"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-nutrition-v11-graph-2026-10-27-391f896a9d.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 948892,
+      "sha256": "sha256:2ec5c6ab1f064db86cb56e0fa82db086cc1067cc05670c7e240c52b533be629d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-nutrition-v11-identity-2026-10-27-87f7032b5e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 187360,
+      "sha256": "sha256:d29f39e52f55c83b9348e536eba4ce44b3fee4e7549fed937b2d9b3de289e58a"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Nutrition-catalog-3542ce2981.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2564,
+      "sha256": "sha256:4deac68ee81ae226a1505f495f5ee9e443cf8f331ce6307eb3e4c8a2c49faa82"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Nutrition-crosswalk-d9cff4cca8.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 97222,
+      "sha256": "sha256:ce82c9ced010a1afbe999b8737721e40061e5239ba527317e81297c2cd2c8270"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Nutrition-graph-0ca7c370df.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 960170,
+      "sha256": "sha256:d5451df1a6281be8aa4921c23dd7e5b65683a308f712c9a3daeea975ffde220b"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Nutrition-registry-379296e067.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 194005,
+      "sha256": "sha256:f51dea4529052fd02a25879125e2bd584baccf7e177047d1a358cce4a1ac93ce"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Nutrition-catalog-c653288835.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3408,
+      "sha256": "sha256:a460fa187cd3baa09b0d3c93c3f97081a0648e5cec07074b839db8d00ea861f3"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Nutrition-crosswalk-575703eb27.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 97222,
+      "sha256": "sha256:c6fdd713e32d70c21ffd19f3df69bd0aa4412e89fd9112bfd57f5fa0b2dc4e31"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Nutrition-graph-b9a466be3d.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 968135,
+      "sha256": "sha256:c0124eb2e6c7d0ef89132646457e8ac28e13976f420f097273f13e2a5eca6086"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Nutrition-registry-9bc25e1388.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 195872,
+      "sha256": "sha256:4919b0406efe9d71b062b68cd40ac7326fc1271de4ef54ad49fe84c61ecf85ab"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 5725,
+      "sha256": "sha256:d2b3f6ab0a674a2fefab16b8a9011f04d2de4b9ce83767bbd3eafb15e684abd5"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 515556,
+      "sha256": "sha256:639bf4e41a2d105b84373a3c6b8af0572284e517453e5e6829b7f8dbbdce1cd0"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2833,
+      "sha256": "sha256:bff81e90b35567f94d5712aa3fb30dce8c344dd2159eccdab2667e6f5c2fbb42"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2007,
+      "sha256": "sha256:f40aae694d4b8ed438bca06a5399c4ab7f99746e4bcdfac5f1a3ac27a6002b66"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 90243,
+      "sha256": "sha256:75592ad947942a746a37d0883d120fa2e471f7f6bc0442d1b141195188f4080b"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 176840,
+      "sha256": "sha256:8183516932b03f36d5247aee764d2ef6bc870e44c7c2e365402cbee810b43342"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 897271,
+      "sha256": "sha256:d5cb307b41b0c196865f0eeffae7cf23f5bb79021525e01af32a0ed4142bcc28"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2807,
+      "sha256": "sha256:5aebec71a807ab1553d5402ffc8b9462845732f73bd6d2849ff25a1d082f1a73"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 90243,
+      "sha256": "sha256:75592ad947942a746a37d0883d120fa2e471f7f6bc0442d1b141195188f4080b"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 178547,
+      "sha256": "sha256:6dbad9cf078ff39d4ccc715acd26bd575f6eaf813fdaa847e918c0bc2897d0c3"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 904664,
+      "sha256": "sha256:17b9ca708c97d7357ca0ed2f64b800fe2988a3c8d6d4716e79427d7e87ba7118"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1462,
+      "sha256": "sha256:bb65e747e15d3503cbeeb01c47cccb76792b089a496d60140731f384882d6e77"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 90228,
+      "sha256": "sha256:6aa85fd1a07d30cb30fa230e51731fd50ab90db608fb9c3256d4a02222a3746f"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 170758,
+      "sha256": "sha256:d578efe084220b5fbb9e448db375b3a0ae485d70f5dda0eb87362d68bf25dfa8"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 886732,
+      "sha256": "sha256:cd25e9211cd18f45398f35f647037c4bf55d0dc8a1d45295f603c0ea1b1b82a9"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/inline-json.materialization.json",
+      "segment_key": "artifact",
+      "record_count_declared": 647,
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size_bytes_declared": 550802,
+      "digest_declared": "sha256:a18a9cab4d3b5c9b4387a775f09fc676aee74ba5d80e5b141eb9cab0812ff4f5",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "segment_key": "portable-state",
+      "record_count_declared": 647,
+      "media_type": "application/vnd.kristal.state+json;version=6.0",
+      "size_bytes_declared": 515791,
+      "digest_declared": "sha256:8dd95688c162945dc137f83611b987a37b788c84aa0f4351431d90fd3a2c4c4a",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "materialization_profile": "kristal.materialization/kristal-state-v6/1"
+    }
+  ]
+}

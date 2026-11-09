@@ -1,0 +1,64 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Chemistry:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-20261026-rebuilt-v2",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "a4dcafbb9b78323593762345edcefac07b28db2f881efb1697b6a86219438cfb"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-fr",
+          "path": "wikidata-fr.jsonl",
+          "priority": 100,
+          "sha256": "609fd73a693a43e4eaf9bd1f9e4ca7624e3eb691b6aaf6e06750b94caf1a23ba",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "8c8f4d9dc5306065f6201e8d687746ef0f2ae08ae2a1f46bd31e4ab7298a28ff"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-und",
+          "path": "wikidata-und.jsonl",
+          "priority": 100,
+          "sha256": "47a8d951ab5b466cabf3283677762be0563377b89f86c50be0d0dfa7f71cdff5",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "und"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-en",
+          "path": "wikidata-en.jsonl",
+          "priority": 100,
+          "sha256": "a58a1d4ae89eee5b456082d98ce73d4d8149a4eedc30b37dad74846c1f8a01e8",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "en"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-chemistry",
+  "schema_version": "11.0"
+}

@@ -1,0 +1,6326 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "reference",
+  "created_at": "2026-10-02T15:44:00Z",
+  "updated_at": "2026-10-02T15:44:00Z",
+  "created_by": {
+    "kind": "editorial_pipeline",
+    "name": "Kristal-Computing build"
+  },
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1",
+  "applicability": {
+    "domain": "computing",
+    "subdomain": "information_transformation",
+    "language": "fr"
+  },
+  "source_refs": [
+    "SRC-NIST-BIT",
+    "SRC-NIST-BYTE",
+    "SRC-NIST-DATA",
+    "SRC-NIST-ALGORITHM",
+    "SRC-UNICODE",
+    "SRC-RFC4648",
+    "SRC-RFC8259",
+    "SRC-RFC1951",
+    "SRC-RFC9110",
+    "SRC-RFC9293",
+    "SRC-RFC8200",
+    "SRC-RFC1035",
+    "SRC-RFC768",
+    "SRC-RISCV",
+    "SRC-CS2023",
+    "SRC-KRISTAL-V6"
+  ],
+  "assertions": [
+    {
+      "assertion_id": "KC-0001",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computing"
+        },
+        "predicate": "computing.has_axis",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:representation"
+        }
+      },
+      "assertion_status": "reviewed",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "root"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "root",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ]
+    },
+    {
+      "assertion_id": "KC-0002",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computing"
+        },
+        "predicate": "computing.has_axis",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computation"
+        }
+      },
+      "assertion_status": "reviewed",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "root"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "root",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ]
+    },
+    {
+      "assertion_id": "KC-0003",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computing"
+        },
+        "predicate": "computing.has_axis",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:storage"
+        }
+      },
+      "assertion_status": "reviewed",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "root"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "root",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ]
+    },
+    {
+      "assertion_id": "KC-0004",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computing"
+        },
+        "predicate": "computing.has_axis",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:communication"
+        }
+      },
+      "assertion_status": "reviewed",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "root"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "root",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ]
+    },
+    {
+      "assertion_id": "KC-0005",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computing"
+        },
+        "predicate": "computing.has_axis",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:abstraction"
+        }
+      },
+      "assertion_status": "reviewed",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "root"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "root",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ]
+    },
+    {
+      "assertion_id": "KC-0006",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        },
+        "predicate": "representation.represents",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:information"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-NIST-DATA"
+      ]
+    },
+    {
+      "assertion_id": "KC-0007",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        },
+        "predicate": "representation.uses",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:symbol"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-NIST-DATA"
+      ]
+    },
+    {
+      "assertion_id": "KC-0008",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:bit"
+        },
+        "predicate": "representation.has_allowed_value",
+        "object": {
+          "kind": "integer",
+          "value": 0
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-NIST-BIT"
+      ]
+    },
+    {
+      "assertion_id": "KC-0009",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:bit"
+        },
+        "predicate": "representation.has_allowed_value",
+        "object": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-NIST-BIT"
+      ]
+    },
+    {
+      "assertion_id": "KC-0010",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:byte"
+        },
+        "predicate": "representation.contains_count",
+        "object": {
+          "kind": "integer",
+          "value": 8
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-NIST-BYTE"
+      ]
+    },
+    {
+      "assertion_id": "KC-0011",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:binary-encoding"
+        },
+        "predicate": "representation.uses",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:bit"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-NIST-BIT"
+      ]
+    },
+    {
+      "assertion_id": "KC-0012",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:hexadecimal"
+        },
+        "predicate": "representation.encodes_bits_per_symbol",
+        "object": {
+          "kind": "integer",
+          "value": 4
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC4648"
+      ]
+    },
+    {
+      "assertion_id": "KC-0013",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:base64"
+        },
+        "predicate": "representation.encodes_bits_per_symbol",
+        "object": {
+          "kind": "integer",
+          "value": 6
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC4648"
+      ]
+    },
+    {
+      "assertion_id": "KC-0014",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:base64"
+        },
+        "predicate": "representation.input_unit",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:byte"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC4648"
+      ]
+    },
+    {
+      "assertion_id": "KC-0015",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:unicode"
+        },
+        "predicate": "representation.assigns_identifier",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:code-point"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-UNICODE"
+      ]
+    },
+    {
+      "assertion_id": "KC-0016",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:code-point"
+        },
+        "predicate": "representation.identifies",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:character"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-UNICODE"
+      ]
+    },
+    {
+      "assertion_id": "KC-0017",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:utf8"
+        },
+        "predicate": "representation.encodes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:code-point"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-UNICODE"
+      ]
+    },
+    {
+      "assertion_id": "KC-0018",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:serialization"
+        },
+        "predicate": "representation.transforms",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8259"
+      ]
+    },
+    {
+      "assertion_id": "KC-0019",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:json"
+        },
+        "predicate": "representation.is_serialization_format_for",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8259"
+      ]
+    },
+    {
+      "assertion_id": "KC-0020",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:compression"
+        },
+        "predicate": "representation.transforms",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC1951"
+      ]
+    },
+    {
+      "assertion_id": "KC-0021",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:lossless-compression"
+        },
+        "predicate": "representation.is_kind_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:compression"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC1951"
+      ]
+    },
+    {
+      "assertion_id": "KC-0022",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:lossless-compression"
+        },
+        "predicate": "representation.preserves_exact_reconstruction",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC1951"
+      ]
+    },
+    {
+      "assertion_id": "KC-0023",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data-type"
+        },
+        "predicate": "representation.constrains_interpretation_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0024",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:endianness"
+        },
+        "predicate": "representation.orders_units",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:byte"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0025",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:metadata"
+        },
+        "predicate": "representation.describes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0026",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:schema"
+        },
+        "predicate": "representation.constrains",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8259"
+      ]
+    },
+    {
+      "assertion_id": "KC-0027",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:identifier"
+        },
+        "predicate": "representation.refers_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:information"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0028",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:hash"
+        },
+        "predicate": "representation.derived_from",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0029",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:canonicalization"
+        },
+        "predicate": "representation.selects_deterministic_form_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-KRISTAL-V6"
+      ]
+    },
+    {
+      "assertion_id": "KC-0030",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:base64"
+        },
+        "predicate": "representation.provides_confidentiality",
+        "object": {
+          "kind": "boolean",
+          "value": false
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC4648"
+      ],
+      "notes": "Un encodage de représentation ne constitue pas à lui seul un mécanisme de confidentialité."
+    },
+    {
+      "assertion_id": "KC-0031",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:binary-encoding"
+        },
+        "predicate": "representation.is_not_equivalent_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:compression"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "representation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "representation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC4648",
+        "SRC-RFC1951"
+      ]
+    },
+    {
+      "assertion_id": "KC-0032",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:algorithm"
+        },
+        "predicate": "computation.specifies",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-NIST-ALGORITHM"
+      ]
+    },
+    {
+      "assertion_id": "KC-0033",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:program"
+        },
+        "predicate": "computation.encodes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:algorithm"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0034",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:program"
+        },
+        "predicate": "computation.contains",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:instruction"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0035",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:instruction"
+        },
+        "predicate": "computation.defined_by",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:isa"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0036",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:isa"
+        },
+        "predicate": "abstraction.interfaces",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:program"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0037",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computation"
+        },
+        "predicate": "computation.transforms",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:state"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0038",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:state-transition"
+        },
+        "predicate": "computation.transforms",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:state"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0039",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:control-flow"
+        },
+        "predicate": "computation.orders",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:instruction"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0040",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:selection"
+        },
+        "predicate": "computation.is_control_structure",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:control-flow"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0041",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:iteration"
+        },
+        "predicate": "computation.is_control_structure",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:control-flow"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0042",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:recursion"
+        },
+        "predicate": "computation.is_control_structure",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:control-flow"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0043",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:determinism"
+        },
+        "predicate": "computation.constrains_next_state_count",
+        "object": {
+          "kind": "integer",
+          "value": 1
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0044",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:nondeterminism"
+        },
+        "predicate": "computation.allows_multiple_successors",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:state"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0045",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:termination"
+        },
+        "predicate": "computation.property_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0046",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:time-complexity"
+        },
+        "predicate": "computation.measures_resource_growth_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:algorithm"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0047",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:space-complexity"
+        },
+        "predicate": "computation.measures_resource_growth_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:algorithm"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0048",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:compiler"
+        },
+        "predicate": "computation.transforms",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:program"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0049",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interpreter"
+        },
+        "predicate": "computation.executes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:program"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0050",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:virtual-machine"
+        },
+        "predicate": "computation.executes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:program"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0051",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:process"
+        },
+        "predicate": "computation.instantiates_execution_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:program"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0052",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:thread"
+        },
+        "predicate": "computation.is_execution_flow_within",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:process"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0053",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:concurrency"
+        },
+        "predicate": "computation.applies_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:thread"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0054",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:parallelism"
+        },
+        "predicate": "computation.applies_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0055",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:race-condition"
+        },
+        "predicate": "computation.depends_on_ordering_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:thread"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0056",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:synchronization"
+        },
+        "predicate": "computation.constrains_ordering_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:thread"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0057",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:atomic-operation"
+        },
+        "predicate": "computation.appears_indivisible_within",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:state-transition"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023",
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0058",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:exception"
+        },
+        "predicate": "computation.redirects",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:control-flow"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0059",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:system-call"
+        },
+        "predicate": "abstraction.crosses_interface",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:process"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0060",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:scheduler"
+        },
+        "predicate": "computation.allocates_execution_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:thread"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0061",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:algorithm"
+        },
+        "predicate": "abstraction.is_distinct_from",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:implementation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "computation"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "computation",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0062",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:memory"
+        },
+        "predicate": "storage.stores",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0063",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:register"
+        },
+        "predicate": "storage.is_kind_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:memory"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0064",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:register"
+        },
+        "predicate": "storage.named_by",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:isa"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0065",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:address"
+        },
+        "predicate": "storage.selects_location_in",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:address-space"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0066",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:address-space"
+        },
+        "predicate": "storage.organizes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:memory"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV",
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0067",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:cache"
+        },
+        "predicate": "storage.stores_copy_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0068",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:memory-hierarchy"
+        },
+        "predicate": "storage.contains_level",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:cache"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0069",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:memory-hierarchy"
+        },
+        "predicate": "storage.contains_level",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:memory"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0070",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:persistent-storage"
+        },
+        "predicate": "storage.persists",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0071",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:file"
+        },
+        "predicate": "storage.contains",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0072",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:directory"
+        },
+        "predicate": "storage.maps_name_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:file"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0073",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:filesystem"
+        },
+        "predicate": "storage.organizes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:file"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0074",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:filesystem"
+        },
+        "predicate": "storage.organizes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:directory"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0075",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:database"
+        },
+        "predicate": "storage.organizes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0076",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:key-value-store"
+        },
+        "predicate": "storage.maps_key_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0077",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:relation"
+        },
+        "predicate": "storage.organizes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0078",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:index"
+        },
+        "predicate": "storage.accelerates_lookup_in",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:database"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0079",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:index"
+        },
+        "predicate": "storage.requires_additional",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:storage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0080",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:transaction"
+        },
+        "predicate": "storage.groups_operations_on",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:database"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0081",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:log"
+        },
+        "predicate": "storage.orders",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0082",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:snapshot"
+        },
+        "predicate": "storage.captures",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:state"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0083",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:replication"
+        },
+        "predicate": "storage.creates_multiple_copies_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0084",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:backup"
+        },
+        "predicate": "storage.supports_recovery_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0085",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:garbage-collection"
+        },
+        "predicate": "storage.reclaims",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:memory"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0086",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:compression"
+        },
+        "predicate": "storage.can_reduce_space_for",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "storage"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "storage",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "supporting"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC1951"
+      ]
+    },
+    {
+      "assertion_id": "KC-0087",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:communication"
+        },
+        "predicate": "communication.transfers",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-NIST-DATA"
+      ]
+    },
+    {
+      "assertion_id": "KC-0088",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:message"
+        },
+        "predicate": "communication.carries",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0089",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:protocol"
+        },
+        "predicate": "communication.defines_exchange_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:message"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0090",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:protocol"
+        },
+        "predicate": "communication.constrains_interpretation_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:message"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023",
+        "SRC-RFC9110"
+      ]
+    },
+    {
+      "assertion_id": "KC-0091",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:protocol-layer"
+        },
+        "predicate": "abstraction.is_layer_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:protocol"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0092",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:packet"
+        },
+        "predicate": "communication.carries",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:payload"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8200"
+      ]
+    },
+    {
+      "assertion_id": "KC-0093",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:packet"
+        },
+        "predicate": "communication.contains",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:header"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8200"
+      ]
+    },
+    {
+      "assertion_id": "KC-0094",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:endpoint"
+        },
+        "predicate": "communication.participates_in",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:protocol"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0095",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:network-address"
+        },
+        "predicate": "communication.identifies_for_routing",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:endpoint"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8200"
+      ]
+    },
+    {
+      "assertion_id": "KC-0096",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:name"
+        },
+        "predicate": "abstraction.can_resolve_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:network-address"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC1035"
+      ]
+    },
+    {
+      "assertion_id": "KC-0097",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:dns"
+        },
+        "predicate": "communication.resolves",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:name"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC1035"
+      ]
+    },
+    {
+      "assertion_id": "KC-0098",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:ip"
+        },
+        "predicate": "communication.transports",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:packet"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8200"
+      ]
+    },
+    {
+      "assertion_id": "KC-0099",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:ipv6"
+        },
+        "predicate": "communication.is_version_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:ip"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8200"
+      ]
+    },
+    {
+      "assertion_id": "KC-0100",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:tcp"
+        },
+        "predicate": "communication.transports",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9293"
+      ]
+    },
+    {
+      "assertion_id": "KC-0101",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:tcp"
+        },
+        "predicate": "communication.provides_ordered_byte_stream",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:byte"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9293"
+      ]
+    },
+    {
+      "assertion_id": "KC-0102",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:tcp"
+        },
+        "predicate": "communication.uses",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:retransmission"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9293"
+      ]
+    },
+    {
+      "assertion_id": "KC-0103",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:tcp"
+        },
+        "predicate": "communication.uses",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:flow-control"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9293"
+      ]
+    },
+    {
+      "assertion_id": "KC-0104",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:tcp"
+        },
+        "predicate": "communication.uses",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:congestion-control"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9293"
+      ]
+    },
+    {
+      "assertion_id": "KC-0105",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:udp"
+        },
+        "predicate": "communication.transports",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:message"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC768"
+      ]
+    },
+    {
+      "assertion_id": "KC-0106",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:http"
+        },
+        "predicate": "communication.is_request_response_protocol",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:protocol"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9110"
+      ]
+    },
+    {
+      "assertion_id": "KC-0107",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:http"
+        },
+        "predicate": "communication.operates_on",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:resource"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9110"
+      ]
+    },
+    {
+      "assertion_id": "KC-0108",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:http"
+        },
+        "predicate": "communication.transfers",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:representation-http"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9110"
+      ]
+    },
+    {
+      "assertion_id": "KC-0109",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:framing"
+        },
+        "predicate": "communication.delimits",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:message"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0110",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:multiplexing"
+        },
+        "predicate": "communication.shares_channel_among",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:message"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0111",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:latency"
+        },
+        "predicate": "communication.measures_delay_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:message"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0112",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:throughput"
+        },
+        "predicate": "communication.measures_transfer_rate_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0113",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interoperability"
+        },
+        "predicate": "communication.depends_on",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:protocol"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0114",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:serialization"
+        },
+        "predicate": "communication.enables_exchange_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC8259"
+      ]
+    },
+    {
+      "assertion_id": "KC-0115",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:network-address"
+        },
+        "predicate": "abstraction.is_distinct_from",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:name"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "communication"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "communication",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC1035",
+        "SRC-RFC8200"
+      ]
+    },
+    {
+      "assertion_id": "KC-0116",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:abstraction"
+        },
+        "predicate": "abstraction.separates",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0117",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        },
+        "predicate": "abstraction.is_distinct_from",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:implementation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023",
+        "SRC-RFC9110"
+      ]
+    },
+    {
+      "assertion_id": "KC-0118",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:module"
+        },
+        "predicate": "abstraction.exposes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0119",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:encapsulation"
+        },
+        "predicate": "abstraction.protects",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:implementation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0120",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:api"
+        },
+        "predicate": "abstraction.is_kind_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0121",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:abstract-data-type"
+        },
+        "predicate": "abstraction.defined_by",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0122",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:layering"
+        },
+        "predicate": "abstraction.composes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0123",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:indirection"
+        },
+        "predicate": "abstraction.mediates_reference_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:identifier"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0124",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:namespace"
+        },
+        "predicate": "abstraction.scopes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:identifier"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0125",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:contract"
+        },
+        "predicate": "abstraction.specifies",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0126",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:invariant"
+        },
+        "predicate": "abstraction.constrains",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:state"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0127",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:precondition"
+        },
+        "predicate": "abstraction.constrains_input_to",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0128",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:postcondition"
+        },
+        "predicate": "abstraction.constrains_output_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0129",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:composition"
+        },
+        "predicate": "abstraction.combines",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:module"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0130",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:virtualization"
+        },
+        "predicate": "abstraction.decouples",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:implementation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0131",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:virtual-memory"
+        },
+        "predicate": "abstraction.virtualizes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:address-space"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0132",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data-model"
+        },
+        "predicate": "abstraction.structures",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:data"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0133",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:declarative-specification"
+        },
+        "predicate": "abstraction.specifies_result_without_ordering",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0134",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:imperative-procedure"
+        },
+        "predicate": "abstraction.specifies_ordered_steps_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:computation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0135",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:compatibility"
+        },
+        "predicate": "abstraction.measured_against",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:contract"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0136",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:versioning"
+        },
+        "predicate": "abstraction.evolves",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:contract"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0137",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:information-hiding"
+        },
+        "predicate": "abstraction.stabilizes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0138",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:isa"
+        },
+        "predicate": "abstraction.is_kind_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RISCV"
+      ]
+    },
+    {
+      "assertion_id": "KC-0139",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:protocol"
+        },
+        "predicate": "abstraction.is_kind_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0140",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:filesystem"
+        },
+        "predicate": "abstraction.exposes",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:file"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0141",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:virtual-machine"
+        },
+        "predicate": "abstraction.is_machine_model",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:interface"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-CS2023"
+      ]
+    },
+    {
+      "assertion_id": "KC-0142",
+      "statement": {
+        "subject": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:resource"
+        },
+        "predicate": "abstraction.independent_of",
+        "object": {
+          "kind": "referent",
+          "id": "urn:kristal:computing:implementation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "computing_axis",
+          "value": "abstraction"
+        }
+      ],
+      "applicability": {
+        "domain": "computing",
+        "subdomain": "abstraction",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "domain_centrality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "core"
+        }
+      ],
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "provenance_refs": [
+        "prov:editorial-synthesis-v1"
+      ],
+      "evidence_refs": [
+        "SRC-RFC9110"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "prov:editorial-synthesis-v1",
+      "method": "curated_editorial_synthesis",
+      "description": "Corpus atomique construit à partir de concepts fondamentaux et de standards primaires; formulations paraphrasées et normalisées.",
+      "created_at": "2026-10-02T15:44:00Z"
+    },
+    {
+      "provenance_id": "prov:kristal-v6-build",
+      "method": "deterministic_build",
+      "description": "Validation de schéma, intégrité des références, indexation et manifeste SHA-256.",
+      "created_at": "2026-10-02T15:44:00Z"
+    }
+  ],
+  "validation_refs": [
+    "validation:structural-v1",
+    "validation:referential-v1",
+    "validation:evidence-v1"
+  ],
+  "reader_policy_refs": [
+    "profile:computing-reference-v1"
+  ],
+  "build": {
+    "edition": "1.0.0",
+    "generator": "build_kristal_computing.py",
+    "source_policy": "primary-or-consensus references; no vendor-product knowledge"
+  },
+  "warnings": [
+    "Le Kristal décrit les concepts stables du computing; il ne catalogue pas les produits, versions logicielles ou vulnérabilités courantes.",
+    "Les frontières Math, Physique/électronique et Security restent externes; seuls les concepts d'interface nécessaires sont conservés."
+  ],
+  "extensions": {
+    "domain_model": {
+      "thesis": "transformation d'information",
+      "axes": [
+        "representation",
+        "computation",
+        "storage",
+        "communication",
+        "abstraction"
+      ]
+    },
+    "content_policy": {
+      "temporality": "foundational_static",
+      "product_specific": false,
+      "operational_security": false
+    }
+  }
+}

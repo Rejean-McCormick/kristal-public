@@ -1,0 +1,145 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:law:materialization:resource-basis",
+  "source": {
+    "artifact_id": "urn:kristal:law:resource-basis",
+    "logical_contract": {
+      "id": "kristal.repository-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:b9c6809b75e2212317dda5415f570e15fe57bb4f07b0c259596338f24ab0f52a"
+    },
+    "authority_ref": "urn:kristal:authority:law"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 8
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:law:resource:portable_epistemic_state",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:bbccd9e062b45fd9b01f349ed6ea1e37e0504e9e57edde94a3f3b657af7a595c",
+        "size": 396716,
+        "locator": "knowledge-base/corpus/law.kristal-state.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:law:resource:portable_epistemic_state",
+        "role": "portable_epistemic_state"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:law:resource:identity_registry",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:639a40a59b887bebe153801806c2b2aff7fe16a17c3e8333a785e8e4ca4ea57c",
+        "size": 68998,
+        "locator": "knowledge-base/corpus/law.referent-registry.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:law:resource:identity_registry",
+        "role": "identity_registry"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:law:resource:source_semantics",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5dace50899c362ee757d701da29449d6bb60e264e4076f3f55aedea981aefd05",
+        "size": 328,
+        "locator": "knowledge-base/sources/source_semantics.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:law:resource:source_semantics",
+        "role": "source_semantics"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:law:resource:jurisdiction_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:94bf3e6016568207f50d4b32305327d0e82a00db4c89cfc56f614c948a7e0131",
+        "size": 305,
+        "locator": "knowledge-base/sources/jurisdiction_model.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:law:resource:jurisdiction_model",
+        "role": "jurisdiction_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:law:resource:temporal_validity_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:e18e95532b1b61f88df9a0f5a819e3c2c9274e70cc6e93dea66e1a1fe90f93f3",
+        "size": 348,
+        "locator": "knowledge-base/sources/temporal_validity_model.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:law:resource:temporal_validity_model",
+        "role": "temporal_validity_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:law:resource:norm_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:bbdcdb40f475f127df5d510d40702cc5943d3ac24734d3492212265e873c7c9d",
+        "size": 943,
+        "locator": "knowledge-base/sources/norm_model.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:law:resource:norm_model",
+        "role": "norm_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:law:resource:decision_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:1b871f85ce98339ec3b712549dbd74affa44df50f935f8f440edef3a64b5fdef",
+        "size": 427,
+        "locator": "knowledge-base/sources/decision_model.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:law:resource:decision_model",
+        "role": "decision_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:law:resource:positive_law_snapshots",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:15481e992769b6998a454991beed733858201fef837ac71a97847bdab9c8b388",
+        "size": 9148,
+        "locator": "knowledge-base/sources/rule_exemplars.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:law:resource:positive_law_snapshots",
+        "role": "positive_law_snapshots"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:law:resource:portable_epistemic_state",
+      "urn:kristal:law:resource:identity_registry",
+      "urn:kristal:law:resource:source_semantics",
+      "urn:kristal:law:resource:jurisdiction_model",
+      "urn:kristal:law:resource:temporal_validity_model",
+      "urn:kristal:law:resource:norm_model",
+      "urn:kristal:law:resource:decision_model",
+      "urn:kristal:law:resource:positive_law_snapshots"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.repository-resource-set/jcs-v1"
+  }
+}

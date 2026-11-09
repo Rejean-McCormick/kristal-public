@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:bible:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:86f33ee3941aed8bd742e43d12264dec69f0ec0a9230b692c67b9a7a3432f66b"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:bible",
+    "label": "Kristal-Bible",
+    "domain": "biblical-human-social-spiritual-systems",
+    "orientation": "Témoins source → corpus → observations textuelles → modèles humains → polyphonie → herméneutique"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Le modèle sémantique local du domaine Bible tel que défini par les sources/README historiques.",
+      "Les identités et assertions de référence structurées du domaine, avec cette distinction: voix, interprétations, témoins et faits textuels sont distincts ; des unités peuvent avoir plusieurs capacités simultanées.",
+      "Les membres canoniques et les preuves engagées par le State Commitment v9 préexistant."
+    ],
+    "does_not_own": [
+      "Les dépôts sources externes, leurs mainteneurs et leur calendrier de publication.",
+      "Les caches, index de lecture, projections générées, état runtime, publication ou activation.",
+      "La réécriture automatique des hypothèses, contradictions ou frontières de sources."
+    ]
+  },
+  "canonical_artifact_count": 9,
+  "source_count": 5,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 2,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 34,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

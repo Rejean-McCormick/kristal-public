@@ -1,0 +1,33 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:logic:artifact:canonical-knowledge",
+      "path": "canon/domain/legacy-v6-logical-payload.json",
+      "logical_contract": {
+        "id": "kristal.compat/v6-portable-state-logical-projection",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": ".kristal/v9/materialization.json",
+      "role": "legacy v9 materialization manifest, preserved"
+    },
+    {
+      "path": "build/v9/materialization-registry.json",
+      "role": "post-build materialization registration"
+    },
+    {
+      "path": ".kristal/v8/",
+      "role": "legacy derived v8 query/read models"
+    }
+  ],
+  "notes": "State v9 imported without changing logical semantics. Parents, if present, must be preserved separately; here historical state has no parents."
+}

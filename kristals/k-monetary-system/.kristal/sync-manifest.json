@@ -1,0 +1,675 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "k-monetary-system",
+  "title": "K Monetary System — Socio-Monetary Transition Model",
+  "target_root": "kristals/k-monetary-system",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:k-monetary-system",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:53cdf568c0a7fee24d2993968b09a25fd522cdafc6dc96877864023fb1982c9b"
+  },
+  "surface_digest": "sha256:1b0b26e4710188b302e81fc1d514e9d9bb93d8971b21d7ac91cfba1323d7c543",
+  "file_count": 108,
+  "total_bytes": 1181142,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 1197,
+      "sha256": "sha256:e5cec1e2df3a57b6f10c6f538e908c48a6c41d829e487b6f129b25cb00d1b86b"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1963,
+      "sha256": "sha256:6a900efa07b1c0fc78e8d0df4a189c5523b1b9907a69627ae07c40aa5bddf523"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 2868,
+      "sha256": "sha256:06b417cf54538c54504eb6b9e52c3b8667c4cf29fa13b914a6019cc6042a606b"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 5073,
+      "sha256": "sha256:4c3c979c86b4125b1eafa0e30a7d6cc9648c7d4c771e92834e3da4fac1ff1142"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1941,
+      "sha256": "sha256:8fc143440a23ab8d8f5b75825d5750f4c3a8d071acc607873d597cc9a9dbc53b"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 218,
+      "sha256": "sha256:1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 32027,
+      "sha256": "sha256:0a895478fa9bdda93417241b45ecd26e153c60e5cd029b56f6e7987f42d2bb96"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 625,
+      "sha256": "sha256:c80af9a89ed15e7ea2b13a046c251ef8e1c6bca778f41958b02083df7516cc5c"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 14072,
+      "sha256": "sha256:542426f5cdffc5153cd03d30a0ec028b6c7b7a215de5c0ff26307612cfb8f689"
+    },
+    {
+      "path": "canon/domain/causal-model.json",
+      "role": "canonical_content",
+      "size": 5212,
+      "sha256": "sha256:5849d470538794c8b791854c9ca3b3c339112fb31dba5be44f62aa0a3b94bdad"
+    },
+    {
+      "path": "canon/domain/distribution-model.json",
+      "role": "canonical_content",
+      "size": 2224,
+      "sha256": "sha256:5ba03ab1b751beb28b05b57c48cb3dab4f43499f1955cfd78b553dd0d85d59c3"
+    },
+    {
+      "path": "canon/domain/event-ledger.json",
+      "role": "canonical_content",
+      "size": 715,
+      "sha256": "sha256:521399eb65fe1b8958fb11dcbae8e981c69b5aa4a0489340343176d0b13ab205"
+    },
+    {
+      "path": "canon/domain/monetary-constitution.json",
+      "role": "canonical_content",
+      "size": 2351,
+      "sha256": "sha256:e09f03cb93e54d0c41d226a0fadc37233b8bde424abfc64cc339d43473839201"
+    },
+    {
+      "path": "canon/domain/multiangle/d01-strategie-d-influence-et-contrepouvoirs.json",
+      "role": "canonical_content",
+      "size": 3804,
+      "sha256": "sha256:e0aed5d9490b754a2e484034b8061a68c5919d9d034173d062f2937d838c5f34"
+    },
+    {
+      "path": "canon/domain/multiangle/d02-desjardins-mandat-et-processus.json",
+      "role": "canonical_content",
+      "size": 5156,
+      "sha256": "sha256:5197d6963df088466fea96def512f5befd4282de4bcd5aba0159ea0c387cd434"
+    },
+    {
+      "path": "canon/domain/multiangle/d04-lingots-brandes-art-et-reserves.json",
+      "role": "canonical_content",
+      "size": 4210,
+      "sha256": "sha256:240ebb043f165fce92dbe4911418996b0347dd6a40104deb6c57cfb62eb77ce2"
+    },
+    {
+      "path": "canon/domain/multiangle/d05-km-regimes-et-regles-monetaires.json",
+      "role": "canonical_content",
+      "size": 4833,
+      "sha256": "sha256:debbeda52b0e9052bf97b7b7d3f454473122d2fc6aae960c27431aeae637626d"
+    },
+    {
+      "path": "canon/domain/multiangle/d06-kc-participation-productive.json",
+      "role": "canonical_content",
+      "size": 3518,
+      "sha256": "sha256:4c43b215f49273c91797a48a211232c263940f2858e3b5a1b906d9043ca8b5c5"
+    },
+    {
+      "path": "canon/domain/multiangle/d11-transition-scenarios-et-sorties.json",
+      "role": "canonical_content",
+      "size": 3555,
+      "sha256": "sha256:889b897c9134c25daf7142f8bc046596a9a4e1a009a34d90e07d1e962222824a"
+    },
+    {
+      "path": "canon/domain/multiangle/d13-medias-marque-et-conflits.json",
+      "role": "canonical_content",
+      "size": 1005,
+      "sha256": "sha256:b8d97f3344eea9bf698e53cca88ae84421fb718b238f2389a0620653d19f4de1"
+    },
+    {
+      "path": "canon/domain/multiangle/d14-clauses-invariantes.json",
+      "role": "canonical_content",
+      "size": 912,
+      "sha256": "sha256:c2f45a1de47e1706c6202a004682562108495dc0b10e9d098a1e204bbc4af1d7"
+    },
+    {
+      "path": "canon/domain/multiangle/graph.json",
+      "role": "canonical_content",
+      "size": 29607,
+      "sha256": "sha256:62b00c21dcd15ac4a09e4eafb652a512b9810e3e77f0072496bfe6056aca3c55"
+    },
+    {
+      "path": "canon/domain/system.json",
+      "role": "canonical_content",
+      "size": 4428,
+      "sha256": "sha256:64cad563a8db13ca0219d58a8caab9eba8ed47bb40f74b0b12eb63e7860cb127"
+    },
+    {
+      "path": "canon/domain/transition-statechart.json",
+      "role": "canonical_content",
+      "size": 6234,
+      "sha256": "sha256:be244f712dcd3ee586cd48ba827792d0fdf8122b525a47a04db8873470fcad1b"
+    },
+    {
+      "path": "canon/epistemic/assumptions.json",
+      "role": "canonical_content",
+      "size": 1404,
+      "sha256": "sha256:c2bd14ff95e252dc9fe3d9a80c998ebd1ae086de1e33ea975ee24efdc91f559f"
+    },
+    {
+      "path": "canon/epistemic/counterarguments.json",
+      "role": "canonical_content",
+      "size": 2282,
+      "sha256": "sha256:f8924cca897bc0de40eabc128243fa4d88097d6155aa0018ffaf43d1ab8ec951"
+    },
+    {
+      "path": "canon/epistemic/evidence-register.json",
+      "role": "canonical_content",
+      "size": 2248,
+      "sha256": "sha256:4658c2d4c7c92922a79f6faa798d54a2ae8ad20eb6dd658b4b59651af1c0ad41"
+    },
+    {
+      "path": "canon/epistemic/hypotheses.json",
+      "role": "canonical_content",
+      "size": 2271,
+      "sha256": "sha256:e64e9e1e910e04155d08f3f1ebde8a68d9e750c047d5938d7416f2c647d2e6e1"
+    },
+    {
+      "path": "canon/epistemic/multiangle/arbitrages.json",
+      "role": "canonical_content",
+      "size": 4363,
+      "sha256": "sha256:c60568f08455e4e3cad1c4d259af2f707415d029e5ca219b00af511d277adf0c"
+    },
+    {
+      "path": "canon/epistemic/multiangle/claims.json",
+      "role": "canonical_content",
+      "size": 7445,
+      "sha256": "sha256:c35e4fc26bd0abc4e4186f9345f03cacb7dec91d3d1d4ef8791919690379747e"
+    },
+    {
+      "path": "canon/epistemic/multiangle/provenance.json",
+      "role": "canonical_content",
+      "size": 18668,
+      "sha256": "sha256:ee2b3db47985b9627d3fa37b15ccb61542eba9bed08b6884b3af757869c7728d"
+    },
+    {
+      "path": "canon/epistemic/multiangle/risques.json",
+      "role": "canonical_content",
+      "size": 6153,
+      "sha256": "sha256:da4c098dd56bf3e9c675245e3aa0bc2c59225cad9152b9801362648c696c181c"
+    },
+    {
+      "path": "canon/epistemic/validation-state.json",
+      "role": "canonical_content",
+      "size": 1328,
+      "sha256": "sha256:754832e3085e174e1d9ee0510e5caf95c584e35936aaa9dd84733083d43637c6"
+    },
+    {
+      "path": "canon/operations/debt-transition.json",
+      "role": "canonical_content",
+      "size": 1969,
+      "sha256": "sha256:ced93ddd8ed134ea606c13da5b759a32fe487b69b39fb1dc112e83119ee13e8c"
+    },
+    {
+      "path": "canon/operations/monetary-policy.json",
+      "role": "canonical_content",
+      "size": 1469,
+      "sha256": "sha256:e80a6750b5577316d28b98ed96fce1fe58e6de671b96541b32f17f7e42446647"
+    },
+    {
+      "path": "canon/operations/multiangle/d03-ristournes-et-biens-collectifs.json",
+      "role": "canonical_content",
+      "size": 4449,
+      "sha256": "sha256:258db6dad69838a95823db8ea748833c7f8a3301eb1e12fd56db2c62d6334119"
+    },
+    {
+      "path": "canon/operations/multiangle/d07-dette-finances-publiques.json",
+      "role": "canonical_content",
+      "size": 4078,
+      "sha256": "sha256:ec23fde8617ef33bb56e02ed71049a8cc78930c883f786612ec30a7536fd1a4f"
+    },
+    {
+      "path": "canon/operations/multiangle/d08-philanthropie-et-reddition.json",
+      "role": "canonical_content",
+      "size": 3501,
+      "sha256": "sha256:c5a3ababd41c5cb3ea901b26c727356a390b422afdd0f78a851c55f382474067"
+    },
+    {
+      "path": "canon/operations/multiangle/d09-identite-ethikos-konnaxion.json",
+      "role": "canonical_content",
+      "size": 2886,
+      "sha256": "sha256:4a10b9b23cfa37d39b123537aaaf855788522c85776cb262be62336c608b3449"
+    },
+    {
+      "path": "canon/operations/multiangle/d10-pme-education-innovation-territoires.json",
+      "role": "canonical_content",
+      "size": 3116,
+      "sha256": "sha256:b6215a77d7e33d05018bfebe634221cc1ac72c6497ae6600d0893c7054710db7"
+    },
+    {
+      "path": "canon/operations/multiangle/d12-banque-credit-risques.json",
+      "role": "canonical_content",
+      "size": 3033,
+      "sha256": "sha256:6c4041ddfb7a37ac395553d9bc8134cf29e13f60af73c10ea021c1c42f315973"
+    },
+    {
+      "path": "canon/operations/payment-settlement.json",
+      "role": "canonical_content",
+      "size": 1482,
+      "sha256": "sha256:6c5fdf11c9bec5ba8ba91636a3bfb0174212040ca72aaea9a432d538a7099e78"
+    },
+    {
+      "path": "canon/operations/simulation-model.json",
+      "role": "canonical_content",
+      "size": 2387,
+      "sha256": "sha256:0e35cf8fe02b1dbaaaaecb92a681b7d1ed37cad5c60923c0428cc07d44a0bbfa"
+    },
+    {
+      "path": "canon/operations/smart-vote-policy-interface.json",
+      "role": "canonical_content",
+      "size": 1670,
+      "sha256": "sha256:887bd9a6009f9930d288c4f574247995c27814d957bed14e1cf98adcaf2b4f22"
+    },
+    {
+      "path": "canon/operations/social-dividend.json",
+      "role": "canonical_content",
+      "size": 1344,
+      "sha256": "sha256:e949da9a1b93c51ebd4921facfd209691ad48d8c9d96823e48c089aaa3d61d06"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 14001,
+      "sha256": "sha256:92cb5e65bd9384eb23f5e610f20458c0e8e1aa86710c029d1be4c41246fd259e"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 23052,
+      "sha256": "sha256:5016bbab785236303c2857ad5bdf2b9bd5955b1c62a11b73a61b84bf9aa9bfe9"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 39551,
+      "sha256": "sha256:ea751f224478a7928cbf16c76dc723076a6090ad0c9455863fa0ca9b25529e93"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 913,
+      "sha256": "sha256:24b6d242e707cdff47054c7d47549b35210b621ae2683be769a085b0647f6247"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 725,
+      "sha256": "sha256:6ba16158fed9356dd9127f9992784fd629fb30b2b690c0a6ac49fae8cb275126"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 812,
+      "sha256": "sha256:8b7f29c1637c69822278e4b51070b5287cd268136c096cb2125ea879a841b52e"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 645,
+      "sha256": "sha256:b6fdca28b94722cf164efa3fc5126de8c6be26db24ed6f9465b8f5bd7a7d6151"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 697,
+      "sha256": "sha256:61939dde09458c811f9f541c7620738e1e2b1da3e67482c2d36bd9c0f49fc4cd"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 403,
+      "sha256": "sha256:f3ebab93b49855d76167b04cc06aaaade78188516681c049ee7814e9e6ce2857"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 736,
+      "sha256": "sha256:4cc9069a6f356ed096d3eb0ded6dcd305b240681f885e9ce109d10f40e0f3855"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 576,
+      "sha256": "sha256:c4bd5c58b714d6929789a9d70c181e38a8094ddc62eadaeae0163f54de78b2cb"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 4299,
+      "sha256": "sha256:1bedca2d46e3f6ebacb257dc5eae11426930d61731e38371860b90b43dc8e95a"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "size": 218,
+      "sha256": "sha256:1f6375e83316f360dc9e98383876a5cea39f9d826293c9a9ee4dbb22a7928c01"
+    },
+    {
+      "path": "docs/PROFILE_NOTES.md",
+      "role": "documentation",
+      "size": 281,
+      "sha256": "sha256:d300e3dab8bb2c5dee62b779fb88c0290763b0b175b677ed600f8b881cd57ca9"
+    },
+    {
+      "path": "docs/multiangle/dossier/00_CADRAGE/00_LIRE_EN_PREMIER.md",
+      "role": "documentation",
+      "size": 2317,
+      "sha256": "sha256:a5b42fa9a591f1f6e5958b3ba6658007fea552c78b20b5a4921543bafc090c64"
+    },
+    {
+      "path": "docs/multiangle/dossier/00_CADRAGE/STATUTS_ET_VOCABULAIRE.md",
+      "role": "documentation",
+      "size": 1736,
+      "sha256": "sha256:347b3606585435529226a458aebd9ee3e0040ffd2b78406647409a135b22fc26"
+    },
+    {
+      "path": "docs/multiangle/dossier/00_CADRAGE/SYNTHESE_EXECUTIVE.md",
+      "role": "documentation",
+      "size": 8784,
+      "sha256": "sha256:2ce0627690d9e203c029df13f1e81f1a5367169744142d05aadc32bacf46d56e"
+    },
+    {
+      "path": "docs/multiangle/dossier/01_ARCHITECTURE/GRAPHE_LISIBILITE.md",
+      "role": "documentation",
+      "size": 1227,
+      "sha256": "sha256:9d77ffde1f0b60df6090b2bc8cb416c2b0816b8b944761703195154ffb4501c4"
+    },
+    {
+      "path": "docs/multiangle/dossier/01_ARCHITECTURE/INTERFACES_ET_DEPENDANCES.md",
+      "role": "documentation",
+      "size": 3212,
+      "sha256": "sha256:946274170ebf66df97b56c6cb0c7f20a2bd611dd120d0aa49419ad2f30cfbb92"
+    },
+    {
+      "path": "docs/multiangle/dossier/01_ARCHITECTURE/THESE_ET_SYSTEME.md",
+      "role": "documentation",
+      "size": 4645,
+      "sha256": "sha256:3c4089d45fd4630fbe5f258b438a20e0ce3d10437e0f545ec23cb4c82f2e80a9"
+    },
+    {
+      "path": "docs/multiangle/dossier/03_RECHERCHE/ASSERTIONS_ET_PREUVES.md",
+      "role": "documentation",
+      "size": 3970,
+      "sha256": "sha256:565e08ea0bd204f294cdbb2ba56eebba4dc59f5430997be13c92a6e6b048b108"
+    },
+    {
+      "path": "docs/multiangle/dossier/03_RECHERCHE/REFERENCES_VERIFIEES.md",
+      "role": "documentation",
+      "size": 7865,
+      "sha256": "sha256:84ca2a05b5dafa448ad9b79cb99c8b492f9c99e555bdae9fd13af5a263c4542b"
+    },
+    {
+      "path": "docs/multiangle/dossier/04_MODELES/HYPOTHESES_ET_IDENTITES.md",
+      "role": "documentation",
+      "size": 1829,
+      "sha256": "sha256:99d9edc3146870856485952e81059ae84c275f53042979ff86235f532161512d"
+    },
+    {
+      "path": "docs/multiangle/dossier/05_VALIDATION/RESULTATS_EXECUTION.md",
+      "role": "documentation",
+      "size": 509,
+      "sha256": "sha256:a2f85270bfe64b89802ad7847c277d6e9b76bdcdc6d4673033d5f4bab1bfedd1"
+    },
+    {
+      "path": "docs/multiangle/dossier/05_VALIDATION/RISQUES_ET_MESURES.md",
+      "role": "documentation",
+      "size": 2259,
+      "sha256": "sha256:1c537e2450432a09b14c7294de5ca6185d8ba53b73945b69681f53c573fdf57d"
+    },
+    {
+      "path": "docs/multiangle/dossier/06_DECISIONS/ARBITRAGES.md",
+      "role": "documentation",
+      "size": 1714,
+      "sha256": "sha256:85f1ff748b8060144c4da576a824fc3f1c45ac37a25730c784661028893823d6"
+    },
+    {
+      "path": "docs/multiangle/dossier/06_DECISIONS/PLAN_D_EXECUTION_ET_PREUVES.md",
+      "role": "documentation",
+      "size": 2366,
+      "sha256": "sha256:7f97ab89ad69c34eaee8d80c7273fa3a9f4d8bb4a26dd7c22ab49e13fad00d5b"
+    },
+    {
+      "path": "docs/multiangle/dossier/07_SOURCE_ANCHORS/INDEX_SOURCES.md",
+      "role": "documentation",
+      "size": 2178,
+      "sha256": "sha256:6722aa7f7f7c623f167dab5f2371a3b4d9af919f104a16c0e85fc6fbcad754d4"
+    },
+    {
+      "path": "docs/multiangle/dossier/README.md",
+      "role": "documentation",
+      "size": 2020,
+      "sha256": "sha256:a61fa11373c2bfac0a4321ad007790c5ee818242d31a4f0cf4bacc8b91b5e6d8"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D01_STRATEGIE_D_INFLUENCE_ET_CONTREPOUVOIRS.md",
+      "role": "documentation",
+      "size": 2300,
+      "sha256": "sha256:4f4ebd30d7f4743ffafe5a2d0802c68f7552f6349e3ff8059a582349ea0e1669"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D02_DESJARDINS_MANDAT_ET_PROCESSUS.md",
+      "role": "documentation",
+      "size": 3700,
+      "sha256": "sha256:e5ca3eea5b55c03c8e62699ed79cb4036b36195a0fbd8a041ba6c00a82250be0"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D03_RISTOURNES_ET_BIENS_COLLECTIFS.md",
+      "role": "documentation",
+      "size": 3004,
+      "sha256": "sha256:f5938a9ef18305539dda2aeb9ab514df7685f65fdd44d3ddf38beb4d85171c55"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D04_LINGOTS_BRANDES_ART_ET_RESERVES.md",
+      "role": "documentation",
+      "size": 2839,
+      "sha256": "sha256:1c1d92a1821f0887e868211ca2143d8bf709f4c5957439a39080ab302d4668ba"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D05_KM_REGIMES_ET_REGLES_MONETAIRES.md",
+      "role": "documentation",
+      "size": 3360,
+      "sha256": "sha256:3a35ec6be405927a02b55b6a1efbaa88f868242b45f9ef62d0d9b78835363be7"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D06_KC_PARTICIPATION_PRODUCTIVE.md",
+      "role": "documentation",
+      "size": 2228,
+      "sha256": "sha256:5ca2374c72f4b36158b167504a1a754879cdb8554ca04809c3cde894a4208e60"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D07_DETTE_FINANCES_PUBLIQUES.md",
+      "role": "documentation",
+      "size": 2712,
+      "sha256": "sha256:22301e553c6c1bd0c6699338e77e12f686e6e531889805c020b0bd65c4cff380"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D08_PHILANTHROPIE_ET_REDDITION.md",
+      "role": "documentation",
+      "size": 2083,
+      "sha256": "sha256:d1cbdd5fcf62b6b88862e956214b1f2461a7cf8b568a0a85b8de2eba8d52130f"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D09_IDENTITE_ETHIKOS_KONNAXION.md",
+      "role": "documentation",
+      "size": 1689,
+      "sha256": "sha256:4027f5ad4bc4af2bf5cd888eb68a94b6b74adf6926772a16d3d0690e70c9bf58"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D10_PME_EDUCATION_INNOVATION_TERRITOIRES.md",
+      "role": "documentation",
+      "size": 1847,
+      "sha256": "sha256:064db4943126d9886d9b2356ee0cabd21da3e06a0ccd6a7c8abc5ccaeab85c8b"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D11_TRANSITION_SCENARIOS_ET_SORTIES.md",
+      "role": "documentation",
+      "size": 2282,
+      "sha256": "sha256:b4e153be41aee412e60aee6855fd13f333e0c02bbe0280c9c61195a99199222a"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D12_BANQUE_CREDIT_RISQUES.md",
+      "role": "documentation",
+      "size": 1687,
+      "sha256": "sha256:ded657971d0cf27d75d1ee58be4f18bb3d7888444d154f4def661a6604c0d7a0"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D13_MEDIAS_MARQUE_ET_CONFLITS.md",
+      "role": "documentation",
+      "size": 1370,
+      "sha256": "sha256:71e6e289e55f143974cff63e7d688f8f1c1556becb45bbf6514297bce4431274"
+    },
+    {
+      "path": "docs/multiangle/protocoles/D14_CLAUSES_INVARIANTES.md",
+      "role": "documentation",
+      "size": 1586,
+      "sha256": "sha256:75ce3161e60fe33400f673c70c05e3440359c32c33344591836f47c85c3abe6a"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 2139,
+      "sha256": "sha256:3200bf746cf21b1891439704513ce45c48e5135c9bbb9540978c39b3c90c24d5"
+    },
+    {
+      "path": "projections/recipes/transition-view.projection.json",
+      "role": "projection_recipe",
+      "size": 806,
+      "sha256": "sha256:7070ee3c9eb95405314bfd2fa7bf576c5906e6672a6e178249b0a05cec484711"
+    },
+    {
+      "path": "sources/multiangle/anciennes_assertions.json",
+      "role": "source_material",
+      "size": 7192,
+      "sha256": "sha256:5a05f3a3c5a841281a2218442e7e555b837411ddfb9eb1609568d0b1e8cace64"
+    },
+    {
+      "path": "sources/multiangle/originaux/S01.docx",
+      "role": "source_material",
+      "size": 11355,
+      "sha256": "sha256:bccd1ef2f120b7980c0651c3872db7a809e4ed29f4c73ddea67298178ebb8f72"
+    },
+    {
+      "path": "sources/multiangle/originaux/S02.docx",
+      "role": "source_material",
+      "size": 10132,
+      "sha256": "sha256:6984e912033ef029b9bcfb21177d4ef61f3acc66a65b8e5083becd556e0b9b75"
+    },
+    {
+      "path": "sources/multiangle/originaux/S03.docx",
+      "role": "source_material",
+      "size": 13507,
+      "sha256": "sha256:42fcf780c347e65268424035b8392ca41abb2cf2bf1d838439362d96b39146e9"
+    },
+    {
+      "path": "sources/multiangle/originaux/S04.docx",
+      "role": "source_material",
+      "size": 13305,
+      "sha256": "sha256:5c82bd2cc1be822e516a40e5c908f142d23d2f651f73aec16efc292dc19cf42b"
+    },
+    {
+      "path": "sources/multiangle/originaux/S05.docx",
+      "role": "source_material",
+      "size": 9671,
+      "sha256": "sha256:4cc1c0e51c853ca0d1c012abef63aa5fed7dadb4688eea99ac9a01d4689b9d7f"
+    },
+    {
+      "path": "sources/multiangle/originaux/S06.docx",
+      "role": "source_material",
+      "size": 136916,
+      "sha256": "sha256:72f1e1d6d95ce0e57bff7c59f7b18db613cc0fa6c36b18760bf7a86dbda0a2c1"
+    },
+    {
+      "path": "sources/multiangle/originaux/S07.docx",
+      "role": "source_material",
+      "size": 9338,
+      "sha256": "sha256:c40c8a59261093563a4613ef2c005be2dfcd0cb115e1dc24d5cb69c18ad6b4af"
+    },
+    {
+      "path": "sources/multiangle/originaux/S08.docx",
+      "role": "source_material",
+      "size": 143969,
+      "sha256": "sha256:62ead29428be7fb84b6a40bf6b8c23cf602c07702e312de5639da0e969565c41"
+    },
+    {
+      "path": "sources/multiangle/originaux/S09.docx",
+      "role": "source_material",
+      "size": 255151,
+      "sha256": "sha256:c6a3e8552342cd55ac760f7387f63487db8984be1e39a4e7fd8bc20421b6c11b"
+    },
+    {
+      "path": "sources/multiangle/originaux/S10.docx",
+      "role": "source_material",
+      "size": 116929,
+      "sha256": "sha256:6f0d88febfc29cf0c0ee62e260db43db7901033c92bc3858b6294704ec80b3ba"
+    },
+    {
+      "path": "sources/multiangle/originaux/S11.docx",
+      "role": "source_material",
+      "size": 11069,
+      "sha256": "sha256:6ee57b008427cab7b5337e18e35c0bcb79f691449ffd57bf7296c904d8e4f9a5"
+    },
+    {
+      "path": "sources/multiangle/references_publiques.json",
+      "role": "source_material",
+      "size": 13542,
+      "sha256": "sha256:1a3e1d416adc6d92dc201639d2e6862394bef47df0e19b8c322b37ad86e93cb8"
+    },
+    {
+      "path": "sources/multiangle/registre_documents.json",
+      "role": "source_material",
+      "size": 6991,
+      "sha256": "sha256:f371dfe1421877346684347a263f414ab0cb83486e7bad6919c0533e766b3681"
+    },
+    {
+      "path": "sources/multiangle/registre_sources_liees.json",
+      "role": "source_material",
+      "size": 345,
+      "sha256": "sha256:8629f9cd83fda1131dd4e335d1381927114cebf4f8a32a6d31b74f9f5a1de6f6"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 20548,
+      "sha256": "sha256:f7bf8cf6788902ce156b9d93edda18ed4d26af3640a562548b5552fb3c5c702e"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 14089,
+      "sha256": "sha256:92e35e165f629ea9b67364edada0be93f646ccb56984721e2c48bd1e0b7d5463"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

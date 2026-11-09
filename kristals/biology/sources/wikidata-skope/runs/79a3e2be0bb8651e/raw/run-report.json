@@ -1,0 +1,589 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Biology",
+  "run_id": "79a3e2be0bb8651e",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:27:16.254528+00:00",
+  "source_labels": {
+    "project": "Kristal-Biology",
+    "namespace_id": "kristal:bulk:kristal-biology",
+    "search_labels": 128,
+    "labeled_entities": 64,
+    "labeled_properties": 0,
+    "domain_entities": 64,
+    "domain_properties": 85,
+    "unlabeled": [
+      {
+        "legacy_id": "biology.acts_through",
+        "semantic_id": "KP65966569692907807310226"
+      },
+      {
+        "legacy_id": "biology.can_be_characterized_by",
+        "semantic_id": "KP348029257267692798304944"
+      },
+      {
+        "legacy_id": "biology.can_change",
+        "semantic_id": "KP1154117568735762909286738"
+      },
+      {
+        "legacy_id": "biology.can_change_by",
+        "semantic_id": "KP956367188099557178890040"
+      },
+      {
+        "legacy_id": "biology.can_create",
+        "semantic_id": "KP424026910848000126506284"
+      },
+      {
+        "legacy_id": "biology.can_exist_without",
+        "semantic_id": "KP108439318316628506686654"
+      },
+      {
+        "legacy_id": "biology.can_modify",
+        "semantic_id": "KP313438539873768907834244"
+      },
+      {
+        "legacy_id": "biology.can_reflect",
+        "semantic_id": "KP96853811749981614061320"
+      },
+      {
+        "legacy_id": "biology.can_shape",
+        "semantic_id": "KP474770809852946008014845"
+      },
+      {
+        "legacy_id": "biology.carries",
+        "semantic_id": "KP965271149080720350795584"
+      },
+      {
+        "legacy_id": "biology.changes",
+        "semantic_id": "KP412659213016125112369852"
+      },
+      {
+        "legacy_id": "biology.combines",
+        "semantic_id": "KP995370889512804026505323"
+      },
+      {
+        "legacy_id": "biology.concerns",
+        "semantic_id": "KP433099186788507842172310"
+      },
+      {
+        "legacy_id": "biology.connects_scale",
+        "semantic_id": "KP961876467917651865323153"
+      },
+      {
+        "legacy_id": "biology.contributes_to",
+        "semantic_id": "KP538556544227479367222382"
+      },
+      {
+        "legacy_id": "biology.definition_depends_on",
+        "semantic_id": "KP915075329538192238674019"
+      },
+      {
+        "legacy_id": "biology.depends_on",
+        "semantic_id": "KP1024855399631494856010378"
+      },
+      {
+        "legacy_id": "biology.describes",
+        "semantic_id": "KP665150974957507404251075"
+      },
+      {
+        "legacy_id": "biology.does_not_create",
+        "semantic_id": "KP178634811410472250383287"
+      },
+      {
+        "legacy_id": "biology.does_not_imply",
+        "semantic_id": "KP1083347983033388363714387"
+      },
+      {
+        "legacy_id": "biology.does_not_measure",
+        "semantic_id": "KP1012895898046850910701523"
+      },
+      {
+        "legacy_id": "biology.does_not_require",
+        "semantic_id": "KP110237892100879837568664"
+      },
+      {
+        "legacy_id": "biology.does_not_undergo_population_genetic",
+        "semantic_id": "KP526729031823402039669069"
+      },
+      {
+        "legacy_id": "biology.enables",
+        "semantic_id": "KP185171125757145011412823"
+      },
+      {
+        "legacy_id": "biology.generates",
+        "semantic_id": "KP174145926294789874482677"
+      },
+      {
+        "legacy_id": "biology.generates_new",
+        "semantic_id": "KP232319628140369139326245"
+      },
+      {
+        "legacy_id": "biology.has_cell_count_class",
+        "semantic_id": "KP165565198935907434360062"
+      },
+      {
+        "legacy_id": "biology.has_component",
+        "semantic_id": "KP539717464182302226949799"
+      },
+      {
+        "legacy_id": "biology.has_property",
+        "semantic_id": "KP500001349743266534342633"
+      },
+      {
+        "legacy_id": "biology.includes",
+        "semantic_id": "KP942877326678107255700280"
+      },
+      {
+        "legacy_id": "biology.individual_reproduction_is_not_required_for",
+        "semantic_id": "KP353641711448557298293788"
+      },
+      {
+        "legacy_id": "biology.influences",
+        "semantic_id": "KP29798055553721556774634"
+      },
+      {
+        "legacy_id": "biology.integrates",
+        "semantic_id": "KP1207328484682546741047074"
+      },
+      {
+        "legacy_id": "biology.interacts_with",
+        "semantic_id": "KP1143435325133271261656940"
+      },
+      {
+        "legacy_id": "biology.introduces",
+        "semantic_id": "KP672062322422844666078685"
+      },
+      {
+        "legacy_id": "biology.is_acellular",
+        "semantic_id": "KP435067170193761760847469"
+      },
+      {
+        "legacy_id": "biology.is_analysis_unit_for",
+        "semantic_id": "KP792526429577521935033781"
+      },
+      {
+        "legacy_id": "biology.is_basic_unit_of",
+        "semantic_id": "KP1069915157850497534953869"
+      },
+      {
+        "legacy_id": "biology.is_carried_on",
+        "semantic_id": "KP806312204099085229898721"
+      },
+      {
+        "legacy_id": "biology.is_composed_of",
+        "semantic_id": "KP715663037572337965351862"
+      },
+      {
+        "legacy_id": "biology.is_context_dependent_on",
+        "semantic_id": "KP319102868395638682114331"
+      },
+      {
+        "legacy_id": "biology.is_described_as",
+        "semantic_id": "KP920980195222329917473422"
+      },
+      {
+        "legacy_id": "biology.is_driven_by",
+        "semantic_id": "KP1032274239258251817392380"
+      },
+      {
+        "legacy_id": "biology.is_mechanism_affecting",
+        "semantic_id": "KP259377035616698563138194"
+      },
+      {
+        "legacy_id": "biology.is_mechanism_of",
+        "semantic_id": "KP1203158729366928236604219"
+      },
+      {
+        "legacy_id": "biology.is_not_equivalent_to",
+        "semantic_id": "KP201414531918602328813168"
+      },
+      {
+        "legacy_id": "biology.is_not_identical_to",
+        "semantic_id": "KP1148686540486928151946800"
+      },
+      {
+        "legacy_id": "biology.is_not_property_of",
+        "semantic_id": "KP1054139175095915729816076"
+      },
+      {
+        "legacy_id": "biology.is_not_required_for",
+        "semantic_id": "KP85859946680685145063"
+      },
+      {
+        "legacy_id": "biology.is_not_universal_level_of",
+        "semantic_id": "KP1106217474160404178231054"
+      },
+      {
+        "legacy_id": "biology.is_property_of",
+        "semantic_id": "KP993886214751568991625605"
+      },
+      {
+        "legacy_id": "biology.is_stochastic_process_at",
+        "semantic_id": "KP303407078248367680519949"
+      },
+      {
+        "legacy_id": "biology.is_subset_or_component_of",
+        "semantic_id": "KP565135744086803942871514"
+      },
+      {
+        "legacy_id": "biology.is_subtype_of",
+        "semantic_id": "KP325191223384743260629739"
+      },
+      {
+        "legacy_id": "biology.is_type_of",
+        "semantic_id": "KP52708081314566328594044"
+      },
+      {
+        "legacy_id": "biology.is_unit_of",
+        "semantic_id": "KP995719672109468185265780"
+      },
+      {
+        "legacy_id": "biology.is_variant_of",
+        "semantic_id": "KP307211054082156588014598"
+      },
+      {
+        "legacy_id": "biology.lacks_membrane_bound",
+        "semantic_id": "KP40088131074236568988072"
+      },
+      {
+        "legacy_id": "biology.level_process_can_scale_to",
+        "semantic_id": "KP440716758278446213282322"
+      },
+      {
+        "legacy_id": "biology.level_variation_can_scale_to",
+        "semantic_id": "KP307033551102566731447366"
+      },
+      {
+        "legacy_id": "biology.maintains",
+        "semantic_id": "KP1196765905601331987518143"
+      },
+      {
+        "legacy_id": "biology.may_be",
+        "semantic_id": "KP726393237957872899521508"
+      },
+      {
+        "legacy_id": "biology.may_have_component",
+        "semantic_id": "KP1061541750713704576028438"
+      },
+      {
+        "legacy_id": "biology.may_include",
+        "semantic_id": "KP340792810539446350606199"
+      },
+      {
+        "legacy_id": "biology.may_reproduce_by",
+        "semantic_id": "KP198799311519679728645445"
+      },
+      {
+        "legacy_id": "biology.members_share_taxonomic_unit",
+        "semantic_id": "KP817591237601716552692998"
+      },
+      {
+        "legacy_id": "biology.modifies",
+        "semantic_id": "KP80438339841660124384689"
+      },
+      {
+        "legacy_id": "biology.moves",
+        "semantic_id": "KP942620225057289622848607"
+      },
+      {
+        "legacy_id": "biology.occurs_across",
+        "semantic_id": "KP773276597006247944204500"
+      },
+      {
+        "legacy_id": "biology.performs",
+        "semantic_id": "KP540973424322255305929569"
+      },
+      {
+        "legacy_id": "biology.precedes_in_organization",
+        "semantic_id": "KP690037710994354134532605"
+      },
+      {
+        "legacy_id": "biology.precedes_or_supports",
+        "semantic_id": "KP651979924687463718678559"
+      },
+      {
+        "legacy_id": "biology.produces",
+        "semantic_id": "KP788021569699541761942066"
+      },
+      {
+        "legacy_id": "biology.regulates",
+        "semantic_id": "KP75354868039512785041388"
+      },
+      {
+        "legacy_id": "biology.requires",
+        "semantic_id": "KP619675424837332284989396"
+      },
+      {
+        "legacy_id": "biology.requires_definition_of",
+        "semantic_id": "KP910475524586642078243570"
+      },
+      {
+        "legacy_id": "biology.reshuffles",
+        "semantic_id": "KP1033841053428375220888411"
+      },
+      {
+        "legacy_id": "biology.segregates",
+        "semantic_id": "KP282390303664575941896938"
+      },
+      {
+        "legacy_id": "biology.supplies_new",
+        "semantic_id": "KP1032103199544154303170122"
+      },
+      {
+        "legacy_id": "biology.supports",
+        "semantic_id": "KP60612327141063989135062"
+      },
+      {
+        "legacy_id": "biology.supports_model_of",
+        "semantic_id": "KP937532095631181674992104"
+      },
+      {
+        "legacy_id": "biology.transmits",
+        "semantic_id": "KP669470101711352154202248"
+      },
+      {
+        "legacy_id": "biology.uses",
+        "semantic_id": "KP714018257652212409407838"
+      },
+      {
+        "legacy_id": "biology.uses_cell_division_for",
+        "semantic_id": "KP1036081739941872983969591"
+      },
+      {
+        "legacy_id": "biology.uses_process",
+        "semantic_id": "KP920892899417141585739168"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "c7a3fcbb3b1dfbe1267df2b13b2a7e61e80f3232a1b4562549b36f66b122c2c6",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Biology",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "native_model": {
+        "kind": "multiscale_biological_organization_graph",
+        "description": "cellule → tissu → organisme → population, avec fonction, reproduction, hérédité et évolution comme processus transversaux",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "processus et fonctions du vivant",
+        "structures et organisations biologiques",
+        "Respecter: Référentiel transversal, ne pas déclencher une importation globale de taxons."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-01",
+        "support": "ARK-09",
+        "rationale": "Référentiel général de l’organisation du vivant et des processus transversaux, explicitement non encyclopédie taxonomique.",
+        "guardrail": "Cellule, organisme et population à distinguer; ne pas forcer une taxonomie des espèces."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.81,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Biology\\79a3e2be0bb8651e",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "93bee42a767fac08f6761607aaf611c4a0e02790879e4b782b3db6f8a42f32c9",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 128,
+    "distinct_concepts": 64,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "93bee42a767fac08f6761607aaf611c4a0e02790879e4b782b3db6f8a42f32c9",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 128,
+    "distinct_concepts": 64,
+    "cached_queries": 128,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "saturated_exact_search": 17,
+      "unique_exact_candidate": 34,
+      "ambiguous_exact_candidates": 9,
+      "no_exact_candidate": 4
+    },
+    "tentative_unverified": 34,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "93bee42a767fac08f6761607aaf611c4a0e02790879e4b782b3db6f8a42f32c9",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 34,
+    "distinct_qids": 34,
+    "qid_inventory_sha256": "c533676f91a773ad6cc9f6525dc8a749c524fe3e3ae89aae435449dd8231a209",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 34,
+    "qids_acquired": 34,
+    "new_batches": 1,
+    "reused_records": 3,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Biology\\79a3e2be0bb8651e\\full-evidence\\c533676f91a773ad",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 34,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 1376,
+    "raw_subject_entities": 34,
+    "related_unapproved_qids": 250,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-biology": 1376
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "080dcbd53297c16ec0f4ac487401cfa11813911991b6076fff659121a41bfa73",
+  "proposals_sha256": "2d29bbb7710b6f44625e2dc40fec43534f5808c715fb649bea8df9a830f1e09d"
+}

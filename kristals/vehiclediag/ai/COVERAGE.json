@@ -1,0 +1,41 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:vehiclediag:state:reference",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:1d35e4a939ea4ab9eb6d28cdef1cff1cf1a8a22cd9299a9417524ee28160190b"
+  },
+  "subject": {
+    "id": "urn:vehiclediag:subject:automotive-diagnostic-reference-model",
+    "label": "Modèle de référence de diagnostic automobile causal multiplexe",
+    "domain": "technology"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Modèle générique et illustratif de diagnostic automobile comme réseau causal multiplexe observable",
+      "Topologies de démonstration, chemins fonctionnels, états opératoires et points de test du corpus VehiculeDiag",
+      "Modes de panne, archétypes, mesures, symptômes, DTC génériques et règles de sécurité du corpus éditorial",
+      "Overlay épistémique portable associé au modèle de référence"
+    ],
+    "does_not_own": [
+      "Topologies, procédures, tolérances, pinouts ou numéros de pièces OEM propres à un véhicule réel",
+      "Mesures terrain ou cas réels non explicitement ingérés avec applicabilité et provenance",
+      "Décisions de réparation, diagnostic final ou autorité de sécurité opérationnelle sur un véhicule réel",
+      "Rankings, postérieurs, plans, fermeture diagnostique et priors appris lorsqu’ils sont calculés comme projections"
+    ]
+  },
+  "canonical_artifact_count": 2,
+  "source_count": 18,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 3,
+  "local_materialization_blob_count": 3,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

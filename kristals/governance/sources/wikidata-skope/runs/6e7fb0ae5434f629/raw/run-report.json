@@ -1,0 +1,625 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Governance",
+  "run_id": "6e7fb0ae5434f629",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:29:00.354001+00:00",
+  "source_labels": {
+    "project": "Kristal-Governance",
+    "namespace_id": "kristal:bulk:kristal-governance",
+    "search_labels": 238,
+    "labeled_entities": 119,
+    "labeled_properties": 0,
+    "domain_entities": 119,
+    "domain_properties": 94,
+    "unlabeled": [
+      {
+        "legacy_id": "governance.allocates",
+        "semantic_id": "KP906335458957186720511047"
+      },
+      {
+        "legacy_id": "governance.assesses",
+        "semantic_id": "KP185333260708426384800823"
+      },
+      {
+        "legacy_id": "governance.assigns",
+        "semantic_id": "KP159338803120429828192547"
+      },
+      {
+        "legacy_id": "governance.authorizes_or_directs",
+        "semantic_id": "KP905501371466994921720726"
+      },
+      {
+        "legacy_id": "governance.can_be_examined_by",
+        "semantic_id": "KP1026967866972689680365783"
+      },
+      {
+        "legacy_id": "governance.can_be_influenced_by",
+        "semantic_id": "KP765509876707453282097508"
+      },
+      {
+        "legacy_id": "governance.can_be_produced_by",
+        "semantic_id": "KP729564241495079120043855"
+      },
+      {
+        "legacy_id": "governance.can_distort",
+        "semantic_id": "KP468401062726530966091747"
+      },
+      {
+        "legacy_id": "governance.can_impair",
+        "semantic_id": "KP1045896848247173331321686"
+      },
+      {
+        "legacy_id": "governance.can_inform",
+        "semantic_id": "KP358539438873016481275020"
+      },
+      {
+        "legacy_id": "governance.can_manage",
+        "semantic_id": "KP722572367180471137096199"
+      },
+      {
+        "legacy_id": "governance.can_protect",
+        "semantic_id": "KP154347838493133021660270"
+      },
+      {
+        "legacy_id": "governance.can_support",
+        "semantic_id": "KP415924390140600850898348"
+      },
+      {
+        "legacy_id": "governance.can_trigger",
+        "semantic_id": "KP268964596724256373965922"
+      },
+      {
+        "legacy_id": "governance.concerns",
+        "semantic_id": "KP914914556819823173873191"
+      },
+      {
+        "legacy_id": "governance.concerns_conformity_of",
+        "semantic_id": "KP879592383458589819130197"
+      },
+      {
+        "legacy_id": "governance.conditions",
+        "semantic_id": "KP794525435362764372194102"
+      },
+      {
+        "legacy_id": "governance.connects",
+        "semantic_id": "KP976103958103831208348192"
+      },
+      {
+        "legacy_id": "governance.constrains",
+        "semantic_id": "KP625113518772319407504647"
+      },
+      {
+        "legacy_id": "governance.creates_conditions_for",
+        "semantic_id": "KP194180576381179948319146"
+      },
+      {
+        "legacy_id": "governance.delimits",
+        "semantic_id": "KP1088988805691973736511894"
+      },
+      {
+        "legacy_id": "governance.depends_on",
+        "semantic_id": "KP879926285443030633934840"
+      },
+      {
+        "legacy_id": "governance.derives_from",
+        "semantic_id": "KP1001122383483393739993219"
+      },
+      {
+        "legacy_id": "governance.directs_and_oversees",
+        "semantic_id": "KP1165440280156086656207424"
+      },
+      {
+        "legacy_id": "governance.distribute",
+        "semantic_id": "KP617131406728833668574257"
+      },
+      {
+        "legacy_id": "governance.documents",
+        "semantic_id": "KP849051970461189002595825"
+      },
+      {
+        "legacy_id": "governance.does_not_automatically_create",
+        "semantic_id": "KP615923841755886298988477"
+      },
+      {
+        "legacy_id": "governance.does_not_create",
+        "semantic_id": "KP7838169057983785442875"
+      },
+      {
+        "legacy_id": "governance.does_not_eliminate",
+        "semantic_id": "KP1089191492088478601284142"
+      },
+      {
+        "legacy_id": "governance.does_not_guarantee",
+        "semantic_id": "KP214590799392483444182953"
+      },
+      {
+        "legacy_id": "governance.does_not_imply_unlimited",
+        "semantic_id": "KP968260814884885658855848"
+      },
+      {
+        "legacy_id": "governance.does_not_necessarily_confer",
+        "semantic_id": "KP1076084890969481961911055"
+      },
+      {
+        "legacy_id": "governance.does_not_necessarily_remove",
+        "semantic_id": "KP923418597801391976283097"
+      },
+      {
+        "legacy_id": "governance.enables",
+        "semantic_id": "KP656204966799157141094884"
+      },
+      {
+        "legacy_id": "governance.exceeds",
+        "semantic_id": "KP728536472008849419714403"
+      },
+      {
+        "legacy_id": "governance.exercises",
+        "semantic_id": "KP1022432728462467324271116"
+      },
+      {
+        "legacy_id": "governance.feeds",
+        "semantic_id": "KP430734639571967812875988"
+      },
+      {
+        "legacy_id": "governance.frames",
+        "semantic_id": "KP397868139177771201925250"
+      },
+      {
+        "legacy_id": "governance.guides",
+        "semantic_id": "KP1187201350005966174118687"
+      },
+      {
+        "legacy_id": "governance.includes",
+        "semantic_id": "KP987210647295032178348178"
+      },
+      {
+        "legacy_id": "governance.increases_need_for",
+        "semantic_id": "KP315165786247131248375881"
+      },
+      {
+        "legacy_id": "governance.informs",
+        "semantic_id": "KP255267112604666920080644"
+      },
+      {
+        "legacy_id": "governance.is_a_form_of",
+        "semantic_id": "KP882030963756900446513855"
+      },
+      {
+        "legacy_id": "governance.is_constrained_by",
+        "semantic_id": "KP455479071964363983974902"
+      },
+      {
+        "legacy_id": "governance.is_difference_between",
+        "semantic_id": "KP1166141062805800660047556"
+      },
+      {
+        "legacy_id": "governance.is_distinct_from",
+        "semantic_id": "KP1099943452995445205276861"
+      },
+      {
+        "legacy_id": "governance.is_not_equivalent_to",
+        "semantic_id": "KP121851291643184334144085"
+      },
+      {
+        "legacy_id": "governance.may_assess",
+        "semantic_id": "KP521267239790325757086089"
+      },
+      {
+        "legacy_id": "governance.may_be_defined_by",
+        "semantic_id": "KP534512912484318704521398"
+      },
+      {
+        "legacy_id": "governance.may_be_limited_by",
+        "semantic_id": "KP1082174822263929380800736"
+      },
+      {
+        "legacy_id": "governance.may_be_required_for",
+        "semantic_id": "KP538568936991214506301360"
+      },
+      {
+        "legacy_id": "governance.may_be_subject_to",
+        "semantic_id": "KP874911435124811556696345"
+      },
+      {
+        "legacy_id": "governance.may_change",
+        "semantic_id": "KP817487127226449951018493"
+      },
+      {
+        "legacy_id": "governance.may_compare",
+        "semantic_id": "KP499686896526988320493813"
+      },
+      {
+        "legacy_id": "governance.may_condition_validity_of",
+        "semantic_id": "KP826582440246771824235467"
+      },
+      {
+        "legacy_id": "governance.may_contribute_to",
+        "semantic_id": "KP65716828461535844663774"
+      },
+      {
+        "legacy_id": "governance.may_create",
+        "semantic_id": "KP1031359038410132171008210"
+      },
+      {
+        "legacy_id": "governance.may_hold",
+        "semantic_id": "KP637984565431835238293178"
+      },
+      {
+        "legacy_id": "governance.may_include",
+        "semantic_id": "KP618422715587490712082675"
+      },
+      {
+        "legacy_id": "governance.may_increase",
+        "semantic_id": "KP775814896544078792577412"
+      },
+      {
+        "legacy_id": "governance.may_limit",
+        "semantic_id": "KP594318446520269247871682"
+      },
+      {
+        "legacy_id": "governance.may_participate_in",
+        "semantic_id": "KP716793647894077349252815"
+      },
+      {
+        "legacy_id": "governance.may_produce",
+        "semantic_id": "KP391222506406625962719446"
+      },
+      {
+        "legacy_id": "governance.may_receive",
+        "semantic_id": "KP455077284119121427135700"
+      },
+      {
+        "legacy_id": "governance.may_result_in",
+        "semantic_id": "KP1201433840980673472375337"
+      },
+      {
+        "legacy_id": "governance.mediates",
+        "semantic_id": "KP53066365673381547497843"
+      },
+      {
+        "legacy_id": "governance.modifies",
+        "semantic_id": "KP752540928995089787139169"
+      },
+      {
+        "legacy_id": "governance.must_have",
+        "semantic_id": "KP153893194641917532912730"
+      },
+      {
+        "legacy_id": "governance.must_remain_within",
+        "semantic_id": "KP780453989915638425909296"
+      },
+      {
+        "legacy_id": "governance.observes",
+        "semantic_id": "KP250682155120704417922002"
+      },
+      {
+        "legacy_id": "governance.operates_within",
+        "semantic_id": "KP735116360919174329193252"
+      },
+      {
+        "legacy_id": "governance.organizes",
+        "semantic_id": "KP714531879781696821457486"
+      },
+      {
+        "legacy_id": "governance.performs",
+        "semantic_id": "KP666576706227584828609363"
+      },
+      {
+        "legacy_id": "governance.precedes",
+        "semantic_id": "KP704410182167604074576434"
+      },
+      {
+        "legacy_id": "governance.preserves",
+        "semantic_id": "KP561204007103355569028062"
+      },
+      {
+        "legacy_id": "governance.produces",
+        "semantic_id": "KP10723381239101124559149"
+      },
+      {
+        "legacy_id": "governance.provides_goal_for",
+        "semantic_id": "KP43475014630501962100087"
+      },
+      {
+        "legacy_id": "governance.provides_reference_for",
+        "semantic_id": "KP93845910107603937349150"
+      },
+      {
+        "legacy_id": "governance.reduces_risk_in",
+        "semantic_id": "KP661025920437088760296067"
+      },
+      {
+        "legacy_id": "governance.relies_on",
+        "semantic_id": "KP1158836414565244887970111"
+      },
+      {
+        "legacy_id": "governance.requests",
+        "semantic_id": "KP550126680334779842501390"
+      },
+      {
+        "legacy_id": "governance.requires",
+        "semantic_id": "KP520492305440475973807627"
+      },
+      {
+        "legacy_id": "governance.requires_applicable",
+        "semantic_id": "KP832210992438384440230732"
+      },
+      {
+        "legacy_id": "governance.requires_authorized",
+        "semantic_id": "KP296705852668257212093205"
+      },
+      {
+        "legacy_id": "governance.requires_authorized_human_process_for",
+        "semantic_id": "KP996903554187382374239801"
+      },
+      {
+        "legacy_id": "governance.requires_defined",
+        "semantic_id": "KP194375516027651981549611"
+      },
+      {
+        "legacy_id": "governance.requires_human_or_formal_validation_of",
+        "semantic_id": "KP142493330864488211581399"
+      },
+      {
+        "legacy_id": "governance.specifies",
+        "semantic_id": "KP804469298365987607931672"
+      },
+      {
+        "legacy_id": "governance.structures",
+        "semantic_id": "KP355441167345678494093714"
+      },
+      {
+        "legacy_id": "governance.supplies_information_to",
+        "semantic_id": "KP443989351527852116775804"
+      },
+      {
+        "legacy_id": "governance.supports",
+        "semantic_id": "KP422497930043470075734922"
+      },
+      {
+        "legacy_id": "governance.supports_comparison_of",
+        "semantic_id": "KP976659481574238264116306"
+      },
+      {
+        "legacy_id": "governance.supports_justification_of",
+        "semantic_id": "KP564380253560853741296908"
+      },
+      {
+        "legacy_id": "governance.transfers_exercise_of",
+        "semantic_id": "KP816101984317100704312287"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "d68c04ff0ebf04b0cc13c386d1d6912f1fca4cd6a740528bf37769086d868ad0",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Governance",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "governance",
+        "edition": "1.0.0"
+      },
+      "native_model": {
+        "kind": "mandate-institution-competence-decision-implementation-accountability-graph",
+        "description": "Native model declared by the historical v9 domain-state logical artifact; not replaced with a universal schema.",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "institutions et fonctions publiques",
+        "organismes et instances de gouvernance",
+        "Respecter: Documenter juridiction, mandat et validité temporelle."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Mandats, compétences, institutions, décisions, mise en œuvre et reddition se croisent.",
+        "guardrail": "Norme ou description d’autorité ≠ autorisation réelle; territoire et date d’applicabilité."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.77,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Governance\\6e7fb0ae5434f629",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "af27ca14daf84c0c09a3404db5e6cad61a2b2217b86cfa939e1d50e57bcb4dbe",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 238,
+    "distinct_concepts": 119,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "af27ca14daf84c0c09a3404db5e6cad61a2b2217b86cfa939e1d50e57bcb4dbe",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 238,
+    "distinct_concepts": 119,
+    "cached_queries": 238,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "no_exact_candidate": 21,
+      "unique_exact_candidate": 23,
+      "saturated_exact_search": 38,
+      "ambiguous_exact_candidates": 31,
+      "cross_language_conflict": 6
+    },
+    "tentative_unverified": 23,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "af27ca14daf84c0c09a3404db5e6cad61a2b2217b86cfa939e1d50e57bcb4dbe",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 23,
+    "distinct_qids": 23,
+    "qid_inventory_sha256": "83f8cc3a5b6f7439a59eb5e597fd93651600c0050e49a118ddcb9b00b31a523b",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 23,
+    "qids_acquired": 23,
+    "new_batches": 1,
+    "reused_records": 1,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Governance\\6e7fb0ae5434f629\\full-evidence\\83f8cc3a5b6f7439",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 23,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 380,
+    "raw_subject_entities": 23,
+    "related_unapproved_qids": 108,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-governance": 380
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "362ea822238f723fc57caadf4af38499613eca4f79a0aa3f9bc62516797e7c16",
+  "proposals_sha256": "c18bf0f915adc77559969a74e8ef1b43a5c936bb9fcab70cca42a5d8b43f8e45"
+}

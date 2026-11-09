@@ -1,0 +1,164 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:mind:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:129263889ac0fb66334cb45240e30fc07f0905bd70ff3994638b2741a63a8b2a"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/inline-json.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1164,
+      "sha256": "sha256:b3a3ea1944dba9b9b1417f15c264bb69b6d0db9a6bf5a1eaa853e982156afa97"
+    },
+    {
+      "path": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1165,
+      "sha256": "sha256:e1e20f7a578542c9f67eb0693cb55c4e1ed42f520818375bf34db7cd480bc729"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 284340,
+      "sha256": "sha256:dc3c4e58f285f48260aaa3a4f73e71ed2a7b1edcdea6a25ceb7b9ea58c508d43",
+      "artifact_id": "urn:kristal:mind:artifact:epistemic-state",
+      "logical_contract": {
+        "id": "kristal_state.hash_target",
+        "version": "6.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 1077,
+      "sha256": "sha256:dd6ac8084a6b6afa103a35b4ac56b2b10fbb559aec1cfe8d5d004f5b0376851c"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 796,
+      "sha256": "sha256:35f4bd17cf21ddd30c31255012ef6d9365e3c1b47f7c2b7499cccaa86acdbd20"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1011,
+      "sha256": "sha256:fa0420ec65f0482d3ec07b46d0355a6b966bb9ec548e55c527b5b38ba333de34"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 949,
+      "sha256": "sha256:eb7c755105ad5af3b4feb0338402af13b30ee074eb9d227b421efb6c12db0dab"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 909,
+      "sha256": "sha256:7d8a32486f472d02329ff76b55de99ff827211ad54ab67b6bf8513ea9b2ffd32"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1342,
+      "sha256": "sha256:2868800df4f761c2ff1590399da869dba8689f32ed574588782e2e42820e3692"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 711,
+      "sha256": "sha256:64c047034daf78c54676a8202a7aef48614662deff206a7113b43ba3dced1054"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 853,
+      "sha256": "sha256:bd4901ba23a60745c31fcf123e0e2f2722eefa343ab5d107866e6c389c220b42"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 655,
+      "sha256": "sha256:156171e63d5d6a865553c634d846c262e748ed714bb25fcb31644424ceb0ed8e"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3932,
+      "sha256": "sha256:efa6a82e07238b663ee94d879e69c6faef2594141176bd98efe307be1b8e422b"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 765,
+      "sha256": "sha256:b1ff604e12c9cb6f9404a4ea35d43eb7837485729b6c7c2dd66527715bf575cb"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 6907,
+      "sha256": "sha256:a707cc1631c6538cc68bccb13de44a8fdc154ef3d78e28d75d2e0d2e9c0fb1d0"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 815,
+      "sha256": "sha256:c815af29ff5f4a2d839bc9ab1e168eee9f4da5e97e49c2e7d67f7ffb934ce065",
+      "state_ref": "urn:kristal:mind:state",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:129263889ac0fb66334cb45240e30fc07f0905bd70ff3994638b2741a63a8b2a"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/inline-json.materialization.json",
+      "source_artifact_id": "urn:kristal:mind:artifact:epistemic-state",
+      "kind": "segment",
+      "key": "artifact",
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size": 308291,
+      "sha256": "sha256:950a0b944e664021a2ecc00e27f1ee44ee64a307923f18227d18ae4c6472f81d",
+      "locator": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:950a0b944e664021a2ecc00e27f1ee44ee64a307923f18227d18ae4c6472f81d",
+      "verified_size": 308291
+    },
+    {
+      "manifest": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "source_artifact_id": "urn:kristal:mind:artifact:epistemic-state",
+      "kind": "segment",
+      "key": "portable-state",
+      "media_type": "application/vnd.kristal.state+json;version=6.0",
+      "size": 284575,
+      "sha256": "sha256:ca403f130063baaf5ae66691acec5139b2bca1049e05e23f8cc3dcb43ec94859",
+      "locator": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:ca403f130063baaf5ae66691acec5139b2bca1049e05e23f8cc3dcb43ec94859",
+      "verified_size": 284575
+    }
+  ]
+}

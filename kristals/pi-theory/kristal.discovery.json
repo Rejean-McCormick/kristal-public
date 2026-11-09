@@ -1,0 +1,61 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:pi-theory",
+  "classification": {
+    "primary_archetype": "ARK-12",
+    "arketype_version": "1.6.0",
+    "organization": "hybrid",
+    "structure_mode": "hybrid",
+    "variant_description": "Couche mécanique, interprétation structurelle et ontologique, limites épistémiques.",
+    "supporting_archetypes": [
+      "ARK-06",
+      "ARK-07"
+    ],
+    "classification_source": "assistant_structural_proposal__not_authority_or_validation",
+    "verification_status": "NOT_EVALUATED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "2.15",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.15",
+          "label_en": "Mathematics and statistics",
+          "domain": "2"
+        },
+        {
+          "code": "2.05",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.05",
+          "label_en": "Scientific approach",
+          "domain": "2"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-11"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "layered-mechanical-structural-ontological-epistemic-corpus",
+    "organization": "hybrid",
+    "materialization_profiles": [
+      "kristal.materialization/inline-json/1",
+      "kristal.materialization/native-json-set/1"
+    ],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/proof-navigation-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "tiny",
+    "tracked_local_bytes": 109878,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:0936a2be1f1212fdab11062b9961dfa595cedb31796ccb229a8c9acd1e662b0d",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

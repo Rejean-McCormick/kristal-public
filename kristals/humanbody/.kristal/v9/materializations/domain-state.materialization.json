@@ -1,0 +1,34 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:humanbody:materialization:domain-state",
+  "source": {
+    "artifact_id": "urn:kristal:humanbody:semantic-state",
+    "logical_contract": {
+      "id": "humanbody.semantic-state",
+      "version": "9.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:94342c3eac389e4bb4d254b30489ac5603ec02f62283fa326a7bb4b10b65a230"
+    },
+    "authority_ref": "urn:kristal:authority:humanbody"
+  },
+  "profile": "kristal.materialization/inline-json/1",
+  "segments": [
+    {
+      "segment_key": "all",
+      "record_count": 1,
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:e4b65d72bd5cce5a2136a31c5d7a1b7f08d250be73d43946deb4a69aec88d927",
+        "size": 1834,
+        "locator": ".kristal/v9/artifacts/domain-state.logical-artifact.json"
+      }
+    }
+  ],
+  "reconstructability": {
+    "lossless": true,
+    "profile": "humanbody.semantic-state/9.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:maritime",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:c89b8de12a868674d3c1c9a510f9491dcd88fdfafa6bfb0f21b1421b4985e877"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:maritime",
+    "label": "Navire × environnement marin × navigation × opérations et cargaison",
+    "domain": "maritime",
+    "orientation": "Navire × environnement marin × navigation × opérations et cargaison"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Navire × environnement marin × navigation × opérations et cargaison",
+      "Le modèle de distinctions, assertions et provenance engagé par le Logical Artifact v9 existant."
+    ],
+    "does_not_own": [
+      "N’est ni un service de navigation en direct, ni un corpus juridique exhaustif.",
+      "Le cycle de publication des sources externes, les activations réseau ou un arbitrage implicite par une sortie IA."
+    ]
+  },
+  "canonical_artifact_count": 13,
+  "source_count": 13,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

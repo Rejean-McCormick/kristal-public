@@ -1,0 +1,60 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:king-klown-media",
+  "classification": {
+    "primary_archetype": "ARK-13",
+    "arketype_version": "1.6.0",
+    "organization": "hybrid",
+    "structure_mode": "hybrid",
+    "variant_description": "Registres oeuvres/personnages, manifestations médias, alias et chronologie.",
+    "supporting_archetypes": [
+      "ARK-11",
+      "ARK-01"
+    ],
+    "classification_source": "assistant_structural_proposal__not_authority_or_validation",
+    "verification_status": "NOT_EVALUATED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "3.45",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt3.45",
+          "label_en": "Art",
+          "domain": "3"
+        },
+        {
+          "code": "5.25",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt5.25",
+          "label_en": "Documentary information systems",
+          "domain": "5"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "layered-registry-ledger-semantic-graph",
+    "organization": "hybrid",
+    "materialization_profiles": [
+      "kristal.materialization/inline-json/1"
+    ],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "tiny",
+    "tracked_local_bytes": 812005,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:f5e9631bd21d5388534badecc59bd69d7daa809aa5ae5bfa8b3f7b8cb0267ac4",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_logical_artifact",
+  "artifact_id": "urn:kristal:education-quebec:canonical-epistemic-state",
+  "logical_contract": {
+    "id": "education-quebec.canonical-epistemic-state-resource",
+    "version": "1.0"
+  },
+  "payload": {
+    "domain": "education-quebec",
+    "domain_version": "1.4.0",
+    "resource_model": "canonical-json-resource-set",
+    "basis_role": "canonical_epistemic_state",
+    "resources": [
+      {
+        "resource_id": "urn:kristal:education-quebec:resource:canonical_epistemic_state_v5",
+        "role": "canonical_epistemic_state_v5",
+        "media_type": "application/json",
+        "logical_content": {
+          "profile": "kristal.resource/jcs-sha256-v1",
+          "digest": "sha256:21b11462fe4c434587bb7745942188fd13ea74eb805de4176eec5a438deddcc3"
+        },
+        "legacy_schema_version": "5.0",
+        "legacy_artifact_type": "structured_epistemic_state",
+        "legacy_state_id": "sha256:edab75761e2f0db680202d125afedc40a5ce297605d2ccb2d0460793fd2f3f8f",
+        "legacy_content_hash": {
+          "alg": "sha256",
+          "value": "edab75761e2f0db680202d125afedc40a5ce297605d2ccb2d0460793fd2f3f8f"
+        }
+      }
+    ],
+    "semantic_boundaries": [
+      "SOURCE OFFICIELLE != DÉCISION INSTITUTIONNELLE",
+      "AUTORITÉ != DOCUMENT != ÉDITION != REPRÉSENTATION",
+      "PAGE-INDEX != CRAWL IMPLICITE",
+      "LIEN DÉCOUVERT != SOURCE_REF CANONIQUE",
+      "SNAPSHOT LOCAL != IDENTITÉ CANONIQUE",
+      "PDF RENDU DEPUIS HTML != PDF OFFICIEL ORIGINAL",
+      "TRANSITION != ADMISSION",
+      "CURRICULUM != RÈGLE D’ADMISSION",
+      "COUVERTURE DU KRISTAL != VÉRITÉ INSTITUTIONNELLE",
+      "VALIDATION TECHNIQUE != RECONNAISSANCE INSTITUTIONNELLE",
+      "SOURCE STORE != CANONICAL GRAPH"
+    ]
+  },
+  "logical_commitment": {
+    "profile": "kristal.logical/jcs-sha256-v1",
+    "digest": "sha256:bc3d992056b6659add6ec7af72f87aa882a1b3729e1b7f700cb6f943e51bb6e1"
+  },
+  "scope": {
+    "domain": "education-quebec",
+    "edition": "1.4.0"
+  },
+  "authority_ref": "urn:kristal:authority:education-quebec"
+}

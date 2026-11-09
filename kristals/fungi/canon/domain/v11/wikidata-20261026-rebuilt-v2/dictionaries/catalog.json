@@ -1,0 +1,64 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Fungi:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-20261026-rebuilt-v2",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "f295bbb44293b9925576f6ff30dbe66af5052f172faa16bb13e588e5986ee0dc"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-fr",
+          "path": "wikidata-fr.jsonl",
+          "priority": 100,
+          "sha256": "d4c4a14f671caac59431c374a9f715e39a22985e7bea338406b8060cc6f703de",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "3a0a5e57e111c207860420833b8b3dba26f15d73834b07ba84b9ff2db001f031"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-und",
+          "path": "wikidata-und.jsonl",
+          "priority": 100,
+          "sha256": "cc6be7d889ae4bb536c9975bd8e3dda86b2ac9f79f7052ca33cdbf6bd5026b08",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "und"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-en",
+          "path": "wikidata-en.jsonl",
+          "priority": 100,
+          "sha256": "3316392b6b04301f5b75a5229fd5bef10f7c457c7b45ac85580910b6bf5a6e46",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "en"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-fungi",
+  "schema_version": "11.0"
+}

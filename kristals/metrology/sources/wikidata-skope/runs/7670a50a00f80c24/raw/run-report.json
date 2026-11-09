@@ -1,0 +1,593 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Metrology",
+  "run_id": "7670a50a00f80c24",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:30:15.758282+00:00",
+  "source_labels": {
+    "project": "Kristal-Metrology",
+    "namespace_id": "kristal:bulk:kristal-metrology",
+    "search_labels": 125,
+    "labeled_entities": 125,
+    "labeled_properties": 0,
+    "domain_entities": 184,
+    "domain_properties": 27,
+    "unlabeled": [
+      {
+        "legacy_id": "metrology.combined_standard_uncertainty",
+        "semantic_id": "KP100293880304378210017735"
+      },
+      {
+        "legacy_id": "metrology.confidence",
+        "semantic_id": "KP310072024322155316035751"
+      },
+      {
+        "legacy_id": "metrology.coverage_factor",
+        "semantic_id": "KP683329480698566050825878"
+      },
+      {
+        "legacy_id": "metrology.definition_fr",
+        "semantic_id": "KP220746120298752676139113"
+      },
+      {
+        "legacy_id": "metrology.expanded_uncertainty",
+        "semantic_id": "KP70611119938301326661582"
+      },
+      {
+        "legacy_id": "metrology.instrument_family",
+        "semantic_id": "KP669407787990630335729471"
+      },
+      {
+        "legacy_id": "metrology.instrument_ref",
+        "semantic_id": "KP254140654612091157569703"
+      },
+      {
+        "legacy_id": "metrology.kind",
+        "semantic_id": "KP604391342368298717386296"
+      },
+      {
+        "legacy_id": "metrology.label_fr",
+        "semantic_id": "KP886289503411893998529349"
+      },
+      {
+        "legacy_id": "metrology.measurand",
+        "semantic_id": "KP514573087048514349807010"
+      },
+      {
+        "legacy_id": "metrology.measurement_ref",
+        "semantic_id": "KP1158452564202412773429026"
+      },
+      {
+        "legacy_id": "metrology.object_ref",
+        "semantic_id": "KP1172456457582074659103412"
+      },
+      {
+        "legacy_id": "metrology.predicate",
+        "semantic_id": "KP1203697069778980430594302"
+      },
+      {
+        "legacy_id": "metrology.quantity_kind",
+        "semantic_id": "KP536989456831931421960951"
+      },
+      {
+        "legacy_id": "metrology.quantity_ref",
+        "semantic_id": "KP497391131801216051585742"
+      },
+      {
+        "legacy_id": "metrology.quantity_refs",
+        "semantic_id": "KP114204359952530943491702"
+      },
+      {
+        "legacy_id": "metrology.record_role",
+        "semantic_id": "KP568631750768584926417275"
+      },
+      {
+        "legacy_id": "metrology.rule",
+        "semantic_id": "KP964062703315249758965217"
+      },
+      {
+        "legacy_id": "metrology.si_status",
+        "semantic_id": "KP21500504973830281550079"
+      },
+      {
+        "legacy_id": "metrology.standard_level",
+        "semantic_id": "KP659445540937732348668061"
+      },
+      {
+        "legacy_id": "metrology.subject_ref",
+        "semantic_id": "KP249068324260772151025736"
+      },
+      {
+        "legacy_id": "metrology.symbol",
+        "semantic_id": "KP166937051635747710559050"
+      },
+      {
+        "legacy_id": "metrology.traceability_kind",
+        "semantic_id": "KP643518999411621135438276"
+      },
+      {
+        "legacy_id": "metrology.traceability_ref",
+        "semantic_id": "KP589580108757270263356643"
+      },
+      {
+        "legacy_id": "metrology.uncertainty_kind",
+        "semantic_id": "KP92564295541564365388898"
+      },
+      {
+        "legacy_id": "metrology.unit_ref",
+        "semantic_id": "KP674743220315523558080425"
+      },
+      {
+        "legacy_id": "metrology.value",
+        "semantic_id": "KP920196318920307100174535"
+      },
+      {
+        "legacy_id": "rel:budget-components",
+        "semantic_id": "KQ868736033839162428031609"
+      },
+      {
+        "legacy_id": "rel:calibration-standard",
+        "semantic_id": "KQ786312852158728365282062"
+      },
+      {
+        "legacy_id": "rel:calibration-traceability",
+        "semantic_id": "KQ396387643353339894305010"
+      },
+      {
+        "legacy_id": "rel:certificate-calibration",
+        "semantic_id": "KQ1016182131362897192103558"
+      },
+      {
+        "legacy_id": "rel:chain-traceability",
+        "semantic_id": "KQ385712500855472781438282"
+      },
+      {
+        "legacy_id": "rel:combined-expanded",
+        "semantic_id": "KQ439652931372901815640055"
+      },
+      {
+        "legacy_id": "rel:correction-model",
+        "semantic_id": "KQ848691532171066240866998"
+      },
+      {
+        "legacy_id": "rel:factor-expanded",
+        "semantic_id": "KQ944976104315363993139984"
+      },
+      {
+        "legacy_id": "rel:hierarchy-chain",
+        "semantic_id": "KQ787742789823989853477700"
+      },
+      {
+        "legacy_id": "rel:indication-result",
+        "semantic_id": "KQ388875009155064950015865"
+      },
+      {
+        "legacy_id": "rel:influence-model",
+        "semantic_id": "KQ562812080188145955726181"
+      },
+      {
+        "legacy_id": "rel:instrument-balance-mass",
+        "semantic_id": "KQ196807672138848465503767"
+      },
+      {
+        "legacy_id": "rel:instrument-caliper-length",
+        "semantic_id": "KQ894838439082530186084407"
+      },
+      {
+        "legacy_id": "rel:instrument-digital-multimeter-electric-current",
+        "semantic_id": "KQ210567316462266159656888"
+      },
+      {
+        "legacy_id": "rel:instrument-digital-multimeter-electric-potential",
+        "semantic_id": "KQ1186094291241145178142439"
+      },
+      {
+        "legacy_id": "rel:instrument-digital-multimeter-electrical-resistance",
+        "semantic_id": "KQ512240914969173722175275"
+      },
+      {
+        "legacy_id": "rel:instrument-frequency-counter-frequency",
+        "semantic_id": "KQ515626155410201047485720"
+      },
+      {
+        "legacy_id": "rel:instrument-load-cell-force",
+        "semantic_id": "KQ517602322298848308046540"
+      },
+      {
+        "legacy_id": "rel:instrument-micrometer-length",
+        "semantic_id": "KQ1205491051012772031162645"
+      },
+      {
+        "legacy_id": "rel:instrument-pressure-gauge-pressure",
+        "semantic_id": "KQ478788576144120642759051"
+      },
+      {
+        "legacy_id": "rel:instrument-ruler-length",
+        "semantic_id": "KQ750475831261977546422624"
+      },
+      {
+        "legacy_id": "rel:instrument-stopwatch-time",
+        "semantic_id": "KQ636278046114870777500089"
+      },
+      {
+        "legacy_id": "rel:instrument-thermocouple-thermodynamic-temperature",
+        "semantic_id": "KQ996769433205412430433039"
+      },
+      {
+        "legacy_id": "rel:instrument-thermometer-thermodynamic-temperature",
+        "semantic_id": "KQ502615571281681415360476"
+      },
+      {
+        "legacy_id": "rel:measurement-measurand",
+        "semantic_id": "KQ954191271970253465676258"
+      },
+      {
+        "legacy_id": "rel:measurement-result",
+        "semantic_id": "KQ764020244677967230421443"
+      },
+      {
+        "legacy_id": "rel:model-result",
+        "semantic_id": "KQ1148802343306562472329070"
+      },
+      {
+        "legacy_id": "rel:primary-standard",
+        "semantic_id": "KQ827455452503649260770076"
+      },
+      {
+        "legacy_id": "rel:reference-secondary",
+        "semantic_id": "KQ375576365319290990055169"
+      },
+      {
+        "legacy_id": "rel:secondary-primary",
+        "semantic_id": "KQ266888333199676014301961"
+      },
+      {
+        "legacy_id": "rel:si-traceability",
+        "semantic_id": "KQ375811692009169696748311"
+      },
+      {
+        "legacy_id": "rel:standard-combined",
+        "semantic_id": "KQ444501626834599664969936"
+      },
+      {
+        "legacy_id": "rel:traceability-result",
+        "semantic_id": "KQ964757235304089087967911"
+      },
+      {
+        "legacy_id": "rel:typea-standard",
+        "semantic_id": "KQ356178800449594886937422"
+      },
+      {
+        "legacy_id": "rel:typeb-standard",
+        "semantic_id": "KQ41308635119185120749464"
+      },
+      {
+        "legacy_id": "rel:uncertainty-result",
+        "semantic_id": "KQ305982392885957988966500"
+      },
+      {
+        "legacy_id": "rel:unit-ampere-quantity",
+        "semantic_id": "KQ353829419299251423203901"
+      },
+      {
+        "legacy_id": "rel:unit-candela-quantity",
+        "semantic_id": "KQ466889833706229676244024"
+      },
+      {
+        "legacy_id": "rel:unit-coulomb-quantity",
+        "semantic_id": "KQ786710764367895638031554"
+      },
+      {
+        "legacy_id": "rel:unit-cubic-metre-quantity",
+        "semantic_id": "KQ1180184670303070306399666"
+      },
+      {
+        "legacy_id": "rel:unit-degree-celsius-quantity",
+        "semantic_id": "KQ681848997871880277091243"
+      },
+      {
+        "legacy_id": "rel:unit-hertz-quantity",
+        "semantic_id": "KQ1128018628400950331632923"
+      },
+      {
+        "legacy_id": "rel:unit-joule-quantity",
+        "semantic_id": "KQ1108310549783161326414228"
+      },
+      {
+        "legacy_id": "rel:unit-kelvin-quantity",
+        "semantic_id": "KQ1007981541091166925630387"
+      },
+      {
+        "legacy_id": "rel:unit-kilogram-per-cubic-metre-quantity",
+        "semantic_id": "KQ209758268092166262680067"
+      },
+      {
+        "legacy_id": "rel:unit-kilogram-quantity",
+        "semantic_id": "KQ59846685368983035009354"
+      },
+      {
+        "legacy_id": "rel:unit-metre-per-second-quantity",
+        "semantic_id": "KQ724344003896957426043915"
+      },
+      {
+        "legacy_id": "rel:unit-metre-per-second-squared-quantity",
+        "semantic_id": "KQ37883998872625806608980"
+      },
+      {
+        "legacy_id": "rel:unit-metre-quantity",
+        "semantic_id": "KQ1008532042756500306107338"
+      },
+      {
+        "legacy_id": "rel:unit-mole-quantity",
+        "semantic_id": "KQ1054353249359659167214924"
+      },
+      {
+        "legacy_id": "rel:unit-newton-quantity",
+        "semantic_id": "KQ827371308036108437974878"
+      },
+      {
+        "legacy_id": "rel:unit-ohm-quantity",
+        "semantic_id": "KQ349330601074451053768170"
+      },
+      {
+        "legacy_id": "rel:unit-pascal-quantity",
+        "semantic_id": "KQ172605111698745498778802"
+      },
+      {
+        "legacy_id": "rel:unit-radian-quantity",
+        "semantic_id": "KQ949523723322128946660781"
+      },
+      {
+        "legacy_id": "rel:unit-second-quantity",
+        "semantic_id": "KQ748402470076178375067147"
+      },
+      {
+        "legacy_id": "rel:unit-square-metre-quantity",
+        "semantic_id": "KQ1111292484256618928460991"
+      },
+      {
+        "legacy_id": "rel:unit-volt-quantity",
+        "semantic_id": "KQ1020287232177191896821914"
+      },
+      {
+        "legacy_id": "rel:unit-watt-quantity",
+        "semantic_id": "KQ1168912032974975576787023"
+      },
+      {
+        "legacy_id": "rel:working-reference",
+        "semantic_id": "KQ71460482569374296793060"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "c7e961cbc25df932dcc50c4dc29f48104f0b84335091bb5b9cffaaf730c3c0a2",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Metrology",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "metrology",
+        "subdomain": "quantity_unit_instrument_measurement_uncertainty_traceability",
+        "language": "fr"
+      },
+      "native_model": {
+        "kind": "metrological_traceability_relation_graph",
+        "description": "grandeur → unité → instrument ou système → mesure → incertitude → traçabilité",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "grandeurs et concepts métrologiques",
+        "unités et étalons",
+        "Respecter: Préserver unités, traçabilité, incertitudes et conditions de mesure."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-01",
+        "support": "ARK-09",
+        "rationale": "Graphe de référence grandeur–unité–mesure–incertitude–traçabilité.",
+        "guardrail": "Incertitude ≠ erreur; mesure ≠ vérité et traçabilité ≠ autorité automatique."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.74,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Metrology\\7670a50a00f80c24",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "ecdd2ae36659558a69574e0691ab2bbd62702219c1de37f565cfa08eda1b1da1",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 125,
+    "distinct_concepts": 125,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "ecdd2ae36659558a69574e0691ab2bbd62702219c1de37f565cfa08eda1b1da1",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 125,
+    "distinct_concepts": 125,
+    "cached_queries": 125,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "unique_exact_candidate": 48,
+      "saturated_exact_search": 16,
+      "no_exact_candidate": 27,
+      "ambiguous_exact_candidates": 34
+    },
+    "tentative_unverified": 48,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "ecdd2ae36659558a69574e0691ab2bbd62702219c1de37f565cfa08eda1b1da1",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 48,
+    "distinct_qids": 48,
+    "qid_inventory_sha256": "0e0acf3433ec6f87a5025359486c14223b88fcf44b0ce7abd01f2075c94a5016",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 48,
+    "qids_acquired": 48,
+    "new_batches": 1,
+    "reused_records": 4,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Metrology\\7670a50a00f80c24\\full-evidence\\0e0acf3433ec6f87",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 48,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 1045,
+    "raw_subject_entities": 48,
+    "related_unapproved_qids": 188,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-metrology": 1045
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "39deb552f91b04e5d80407a8cea976e42fbee39028c2f42be65fe289ae939e20",
+  "proposals_sha256": "0a73a6201c53c62fddb5dc3aaa17015e212c1495086cb6f74bdd7eb4860cfee5"
+}

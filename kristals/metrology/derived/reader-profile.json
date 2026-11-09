@@ -1,0 +1,311 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:metrology:state",
+  "source_fingerprint": "sha256:df9c5f045a8334eccda58d2cce332c72ff47f450db7b299166202ad762e3ae00",
+  "specialization": "kristal.reader/generic-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "generic",
+  "materialization_profiles": [
+    "kristal.materialization/inline-json/1",
+    "kristal.materialization/kristal-state-v6/1"
+  ],
+  "artifact_strategies": [
+    {
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 866282,
+      "suggested_parser_family": null,
+      "suggested_mode": "format_specific_or_opaque",
+      "must_verify_digest": "sha256:7f191246716b79e98a618ab3e07e1258cabdfa4071fc0e116ac9a9eaee981e5f",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/inline-json.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1174,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:5a936837e097f6c6eec560726f6596de61d830ebf4c1b7a1b62dac528f1902a4",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1175,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:bf38bbcec70b518aa12500c1758cdd8032888ea7b6d28d442650e81c481f99f7",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/vnd.kristal.state+json;version=6.0",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 803401,
+      "suggested_parser_family": null,
+      "suggested_mode": "format_specific_or_opaque",
+      "must_verify_digest": "sha256:bde9fe685680b16dc8cd5837b48456fed2b83a4eed6823f6f8c1587038fba478",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-metrology-artifact-epistemic-state-9ca4b9af81.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 866282,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:7f191246716b79e98a618ab3e07e1258cabdfa4071fc0e116ac9a9eaee981e5f",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-metrology-v11-catalog-2026-10-27-a2c574a491.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1358,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:291e365e706c66333ed050155724c22aa1c774b55f7f3e2508ba67e6465d1ad2",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-metrology-v11-crosswalk-2026-10-27-92f92ebb0e.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 19021,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:355d952dcbc2a8dd8ba14187d674a3ff3606beb3975b1ad65357ae159e81f4de",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-metrology-v11-graph-2026-10-27-acf3edd8fe.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1664113,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:a25dfcc45e8b7bc1764e0aa5dbefbaa6fabad4c12568b9b77e7f81b6439b6c89",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-metrology-v11-identity-2026-10-27-377ce26296.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 203896,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d1531193f732375225474fc6a7cb5fd3d27773d2165c4815d493ee1407052761",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Metrology-catalog-dc867b8dd6.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1934,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:de7b0ddf720e93a67f61f7194f91600ae7e013bbe1a715218ca40f6743d21e6e",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Metrology-crosswalk-ebf95aa281.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 19039,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f9a5d061f7532711825e81598933bc567e00a087dc06be235edeb41bb333d713",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Metrology-graph-ef785452ea.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1704274,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:ceaba2c2e9e17c18aae8f321860c5c26e39cbee8d2c635e2cbf009fa952a95da",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Metrology-registry-e43c29ee43.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 226829,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:3b598b41f56f3af7c3a3a6ff5860f1c48e6f6d4eafbc6e7d599db53e9076aea0",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3876,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:5ec6480117926919f719d42a947920a07b0a9c5dfec2a8db6731d8e571effadb",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 803166,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:b9f121957ef9eae8d4603fbdbaca7281ab8654b63b71c7eb44fe792638b5cbfc",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1419,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:795617b29b6e4afeb5805995a5e0323180652325e08c132e3c6106196ca061ae",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 17356,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:5e6b6930bb9a6dd079d7bd03ce7a36692a575ba2e021725f43668b17aa8c21bc",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 206844,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f863a243bbbdf53215616d0ab6bbc46731eaebfdae71b327451f60b77a0f79c6",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1588227,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:91047a420b776e8a1b0075aaca9f9d9292a361ceefd8413795714e5170bb85b3",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 874,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d362869c7b0c6d7b2c379ca589ca1ef889781a3c38cb2f0ce52b890763075d50",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 17341,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:0f764b3d24c82bcabecebfafd1057e20234ba1a9d4210f2978e49dceae37bb0b",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 185854,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:e9aa74f3359ae969aeec87807058bd8d50847bfa42dede942c710abd949c308e",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1550711,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:356880adb8a85d34f6a1ed78a214d0fc34e2a5291fc339860a3a814018c89c04",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

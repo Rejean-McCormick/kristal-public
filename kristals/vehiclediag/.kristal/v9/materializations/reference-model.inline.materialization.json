@@ -1,0 +1,38 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:vehiclediag:materialization:reference-model:inline",
+  "source": {
+    "artifact_id": "urn:vehiclediag:artifact:reference-model",
+    "logical_contract": {
+      "id": "vehiclediag.reference-model",
+      "version": "3.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:69f50af116271f203f80ceda0cae31e7c39d0840f931385541d35853e5d77f5f"
+    }
+  },
+  "profile": "kristal.materialization/inline-json/1",
+  "segments": [
+    {
+      "segment_key": "artifact",
+      "blob": {
+        "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+        "digest": "sha256:900d749419eb9a6153b58001e48578dac9dcb1d2450cc50e80766e82aea55d9d",
+        "size": 452056,
+        "locator": ".kristal/v9/logical/reference-model.logical-artifact.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "complete"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.reconstruct/inline-logical-artifact/1"
+  }
+}

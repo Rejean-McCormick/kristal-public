@@ -1,0 +1,321 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:solar-system",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:436bd792f347185c3e21da9ef3d11400f7e32b113c6eff2b49b32fe3096f1d9b"
+  },
+  "files": [
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 356973,
+      "sha256": "sha256:25d35b7bff56bc4fa7560f2ee0ccbb544190987a99d23ab3a884659e30d15466",
+      "artifact_id": "urn:kristal:solar-system:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1300488,
+      "sha256": "sha256:e6953aed4e456c660ec8b96c7a9ec0cb206437e6c65dfd491119aa86f2a2bc09",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1982,
+      "sha256": "sha256:44119433e935b9dafb630298d069472387061fc362c53579d70f6fab73fb4d9b",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1919,
+      "sha256": "sha256:f050267eb4fda5ef06cfd76e361211780f724cb1eb97bb211bf59ccf9934e72e"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 20442,
+      "sha256": "sha256:e06e09004fa1387e9c8bcbd79daf59de5b2b685271ae5858deb84d1275e387d4"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 6562,
+      "sha256": "sha256:b682ebf0a5b1bc731b27594171bb5351791d8c4739a7ac4ddbf60b9bfd54e8a0"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-fr.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 6593,
+      "sha256": "sha256:38ac01f5ce88e9121d2d2d8768843ef8f2ba5b1dacecebe11a505bd4e75efbbc"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-und.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 521102,
+      "sha256": "sha256:00a5ad303d6fa61399418a299d256db92b367dde3dae051407e1aa0e077ad2b7"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 9173336,
+      "sha256": "sha256:98558f6ce5f450d954beef884f98f998a28e7e490ba660d01956a18bf3d57ddd",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/import-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 657,
+      "sha256": "sha256:092f4d8da34950a14b2d7092b27f4966547b207b9c06513e684c5a06fb97e643",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1505935,
+      "sha256": "sha256:0cb622fcec3b6b23b3980f30717478c984ffc8decd720a9ba2ab74548591da58",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/source-ledger.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 9873947,
+      "sha256": "sha256:7f67ed8e1d907ecae51b570d65a1466235667ea7649316629ecdabda8c0ecf40",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1324495,
+      "sha256": "sha256:2b1dd7ca44a3bb71608365e898a6e6bdb48f06bbad164d61f26d365d110a3af8",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2430,
+      "sha256": "sha256:e7cd7334e886ec7f396c4bdc2b57036dffc760e31c72f0300ac332d68d69007d",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 11444,
+      "sha256": "sha256:5cfd4ad495306bab833f2b8dbe2f3f6bb3f3675aa5b14d8bdc9bf45b025537fa"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 20442,
+      "sha256": "sha256:e06e09004fa1387e9c8bcbd79daf59de5b2b685271ae5858deb84d1275e387d4"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/structured-fields-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 6455,
+      "sha256": "sha256:7d6451611643c40659906af26865696b7262675b2aa67035352ccab1484e7927"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 6562,
+      "sha256": "sha256:b682ebf0a5b1bc731b27594171bb5351791d8c4739a7ac4ddbf60b9bfd54e8a0"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-fr.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 6593,
+      "sha256": "sha256:38ac01f5ce88e9121d2d2d8768843ef8f2ba5b1dacecebe11a505bd4e75efbbc"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-und.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 521102,
+      "sha256": "sha256:00a5ad303d6fa61399418a299d256db92b367dde3dae051407e1aa0e077ad2b7"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 10502820,
+      "sha256": "sha256:4599f623d7026e2843ce28fc4efaba0bf09638c076926688f86a67dfe88e8d7b",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2687591,
+      "sha256": "sha256:637163da47b7b060aee271d31ca8340f7ea9afac69fdae7cee82f34194007ec7",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/structured-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 982502,
+      "sha256": "sha256:afcedd51f6d22fdcd38f6f9c7cc50e50e58a3ebc31e34328877085d1a64346ae",
+      "artifact_id": "kristal:bulk:kristal-solarsystem:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 5879,
+      "sha256": "sha256:6d895932f475cea9bf22a103408e16deb71e65d6434f75f3de6e18656828f2f8"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 827,
+      "sha256": "sha256:1af9ba5a6d22a2d3b17d68bc768ad9a0ad652d5598a22649918e86addad46bce"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 728,
+      "sha256": "sha256:434310bf0bc495acdaa224523ddcfb8892acddaceb2cf5ba52303fa327459a55"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 604,
+      "sha256": "sha256:dcaf52716cfa880156ecd6ef3749c0d9cde580b81405b03dfe1dc2509e546d4b"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 445,
+      "sha256": "sha256:a0df29089bbc8c0014070f75274b751215142ffbbf7c6ffe77da8c851126997f"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 794,
+      "sha256": "sha256:8b2515868b1673a6b6748cb4614b9651f1b7891736ca6541bca9c084d0ab83ec"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 505,
+      "sha256": "sha256:3989850d71af604719790dd03473625a19c1cba678748c67a1fa19583bf822fe"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 584,
+      "sha256": "sha256:1d718fe997c2d14b4e3fa75675df74c721cf1d076b30c83160628e9c320debfa"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 352,
+      "sha256": "sha256:0e9b4ae272dda8254b0861795a33acb38e446e9f41fce5c3210d684648d64603"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3824,
+      "sha256": "sha256:6db9ac00a9a3ec07ce8d0426fb35d1b5118ed93074d7005c8ab5680da79dc2bd"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 12178,
+      "sha256": "sha256:e2b25616fbadb68666553d754ec34d42cdfd05a5fc054c8b8a9ff36a2baeec1f"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 5362,
+      "sha256": "sha256:5a169e6fb5910dec5c89ff6d47a4a5627fcb6e519f20bbe89d53f272b560ff94",
+      "state_ref": "urn:kristal:state:solar-system",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:436bd792f347185c3e21da9ef3d11400f7e32b113c6eff2b49b32fe3096f1d9b"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

@@ -1,0 +1,55 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:telecommunications",
+  "classification": {
+    "primary_archetype": "ARK-09",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "5.25",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt5.25",
+          "label_en": "Documentary information systems",
+          "domain": "5"
+        },
+        {
+          "code": "5.45",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt5.45",
+          "label_en": "Information technology (hardware)",
+          "domain": "5"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "communication_system_graph",
+    "organization": "unknown",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 1900607,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:fe69fc308abf373ebbeef2a4238644f7c632a0c28658dd68b0798e1b18f3e91a",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

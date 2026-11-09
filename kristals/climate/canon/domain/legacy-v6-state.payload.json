@@ -1,0 +1,7320 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "reference",
+  "created_at": "2026-10-02T15:50:00Z",
+  "created_by": {
+    "kind": "editorial_process",
+    "label": "AI-assisted curated build",
+    "human_authority_claimed": false
+  },
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1",
+  "applicability": {
+    "domain": "climate",
+    "subdomain": "long-term-distributions",
+    "language": "fr"
+  },
+  "source_refs": [
+    "src:ipcc:ar6-wg1:glossary",
+    "src:ipcc:ar6-wg1:ch1",
+    "src:ipcc:ar6-wg1:ch2",
+    "src:ipcc:ar6-wg1:ch3",
+    "src:ipcc:ar6-wg1:ch4",
+    "src:ipcc:ar6-wg1:ch7",
+    "src:ipcc:ar6-wg1:ch10",
+    "src:ipcc:ar6-wg1:ch11",
+    "src:wmo:climatological-normals",
+    "src:noaa:ncei:weather-vs-climate",
+    "src:noaa:climate:enso-faq",
+    "src:nasa:earth-energy-budget"
+  ],
+  "assertions": [
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate"
+        },
+        "predicate": "climate.is_statistical_description_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-variable"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:noaa:ncei:weather-vs-climate"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c4e3c7e4d8f15f7c42f6f731e8d6fed6aad3b7f9796c0e38d19e6377276dce51"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate"
+        },
+        "predicate": "climate.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:mean"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:noaa:ncei:weather-vs-climate"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:425d4e9b46857f1091d57c8e05b28a6ab5a327876a2aaf5d874b144b342e3446"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate"
+        },
+        "predicate": "climate.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8422c25773795d2d33f25d5edcb3f26eacd18eb904b5e2c400c1fca28e66d7fd"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate"
+        },
+        "predicate": "climate.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-extreme"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:13e2aa0ef8f4a20342b1df24ac1fa4dc0b8ad8329770bffe0f5219b9978e09f0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate"
+        },
+        "predicate": "climate.is_not_identical_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:weather"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:noaa:ncei:weather-vs-climate"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5ce3189ebe2e985ba5c5162e4c22823de414914326702ca23d9d62d3676b9bdf"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:weather"
+        },
+        "predicate": "climate.operates_at_shorter_timescale_than",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "weather_to_climate"
+        },
+        {
+          "axis": "theme",
+          "value": "timescale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:noaa:ncei:weather-vs-climate"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:416c5658d7d003313c9f6514358c532f6ef03605daa0059f52ca67adb226a654"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        },
+        "predicate": "climate.characterizes",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-variable"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b94a8cd091a4bafd184490b1ef93a1d9ea894300492432083f9ddd1392a2330e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        },
+        "predicate": "climate.has_property",
+        "object": {
+          "kind": "item",
+          "id": "concept:mean"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:021fc89c9a8358643b5377a5a000302a91b92463e1f3ca4ed3b3fe10b1e63f23"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        },
+        "predicate": "climate.has_property",
+        "object": {
+          "kind": "item",
+          "id": "concept:variance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:06b79d05544303c4d0d8474e7c45343877ce73e93155d1f4b313e4deeec8721f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        },
+        "predicate": "climate.has_region",
+        "object": {
+          "kind": "item",
+          "id": "concept:distribution-tail"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1be8f95ed1cc7e88ef879af1888102ac1f6c3341daea654919229eadb119872f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-extreme"
+        },
+        "predicate": "climate.occupies",
+        "object": {
+          "kind": "item",
+          "id": "concept:distribution-tail"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:21aa70ae1686ea94647498cd32d3cf22196187a7c4e32aef35baeb156a4eba8a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:percentile"
+        },
+        "predicate": "climate.can_define",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-extreme"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b449782f24d571a208d3b7023979cfbb12639508961b986c4a85360873315ce4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-extreme"
+        },
+        "predicate": "climate.has_property",
+        "object": {
+          "kind": "item",
+          "id": "concept:frequency"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fc8c14130d70b946495dd70b8dcdc98c43d4b7e6cfe86468f2ba133d33710154"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-extreme"
+        },
+        "predicate": "climate.has_property",
+        "object": {
+          "kind": "item",
+          "id": "concept:intensity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e6ee3281e0559e165613d710abb8d9c7e30aa95710d1c64926e736e4acd8f5d2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-extreme"
+        },
+        "predicate": "climate.has_property",
+        "object": {
+          "kind": "item",
+          "id": "concept:duration"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:42db796d1c5b9f0ef7d1bca6738e4a08425875f5760b1361229b46cca9f2617f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:mean"
+        },
+        "predicate": "climate.does_not_fully_determine",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:45573b333eb16a49fea4118114b39dda8b0c034ba486f47a6d0a982141e82931"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:variance"
+        },
+        "predicate": "climate.can_change_without_equal_change_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:mean"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a0b8456e1bc6d0252d0b350c3a7e2a4366e24ecd1e3fb9a8606cfd5b2331a2fc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:mean"
+        },
+        "predicate": "climate.can_shift_frequency_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:distribution-tail"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Un déplacement de moyenne peut modifier la fréquence de dépassement d’un seuil même si la dispersion reste inchangée.",
+      "assertion_id": "sha256:a0864cb32b76bd75ea3e46ac96b0eab7c76c1365a220d5871981653785faa6ef"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:variance"
+        },
+        "predicate": "climate.can_shift_frequency_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:distribution-tail"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Une modification de dispersion peut modifier les queues même sans déplacement identique de la moyenne.",
+      "assertion_id": "sha256:eacb2a42fa4b7c1a20049efd06b55e85ef314cb95693b042f2ad14b182748718"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:seasonal-cycle"
+        },
+        "predicate": "climate.is_component_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "seasonal"
+        },
+        {
+          "axis": "theme",
+          "value": "distribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:34230ccb550e615561d54716498bbee6230eeb8d25c671b8874835d7dd72cfb2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-normal"
+        },
+        "predicate": "climate.summarizes",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-variable"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "reference"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:wmo:climatological-normals"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d689349ca1c8496a094c43d64d5a6cb2e5f4ed2f360bfe7901fd483010b33ad5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-normal"
+        },
+        "predicate": "climate.uses",
+        "object": {
+          "kind": "item",
+          "id": "concept:reference-period"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "reference"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:wmo:climatological-normals"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:767b559fbfa62a1ae38ee7ac99124b0bf2690e511f3bc8333ccb37814f73c11a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:reference-period"
+        },
+        "predicate": "climate.can_have_duration_years",
+        "object": {
+          "kind": "number",
+          "value": 30
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "reference"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:wmo:climatological-normals"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "La WMO définit les normales climatologiques standard sur des périodes consécutives de 30 ans; d’autres périodes peuvent servir à d’autres analyses.",
+      "assertion_id": "sha256:e0a431377272972e725676582c5cf7c591b0e0a3a11191b3b6e5f898b0e6c5a7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-normal"
+        },
+        "predicate": "climate.is_not",
+        "object": {
+          "kind": "item",
+          "id": "concept:stationarity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:wmo:climatological-normals",
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Une normale est une convention de référence; elle ne garantit pas que la distribution sous-jacente soit stationnaire.",
+      "assertion_id": "sha256:ddb891a5365052693b460363149fbd0a21c2b45994bbbb3bfe1ba11ab2668f4c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:baseline"
+        },
+        "predicate": "climate.supports_calculation_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:anomaly"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "reference"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:32bcb131aaa8c729a7b630f8feacef1786ca3333b155ea4d7496c871bb0b2b46"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:anomaly"
+        },
+        "predicate": "climate.is_difference_from",
+        "object": {
+          "kind": "item",
+          "id": "concept:baseline"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "reference"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:09b1a03a674c578b0df38afc6c3108e002b38c408833d3f0ef5029b797ffec3d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:anomaly"
+        },
+        "predicate": "climate.is_not_synonym_of",
+        "object": {
+          "kind": "string",
+          "value": "anormalité pathologique ou erreur de mesure",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4b3dbe52e50da0da3795025a0f3cd112dfdbeec5edd1ef8fa643f4348cd64c97"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:anomaly"
+        },
+        "predicate": "climate.can_reduce_effect_of",
+        "object": {
+          "kind": "string",
+          "value": "différences de niveaux absolus entre jeux de données",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "method"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:de3b72d33bddb616a6e75d6f4bab487462bb914db0a16702d7a6c9865de32d2d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:spatial-scale"
+        },
+        "predicate": "climate.conditions_interpretation_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:6aedb1fc35b0073012e7e8998f04163f6547b50413f30ee7d2a6c899ae4783a3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:temporal-scale"
+        },
+        "predicate": "climate.conditions_interpretation_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:cf12d48275919c4e336acd3efb4b88ddeb18693f2d9d609e798a7053427f1b60"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:global-climate"
+        },
+        "predicate": "climate.is_aggregation_at",
+        "object": {
+          "kind": "string",
+          "value": "échelle planétaire",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:cba4854bcdfa345ef151f474885a383434f9dfc47c87204ba53bfa90f0e7a3a5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:regional-climate"
+        },
+        "predicate": "climate.is_aggregation_at",
+        "object": {
+          "kind": "string",
+          "value": "région définie",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a35e4cd1e7c485b9a717b694bc5c26d9b0492ae25e7c56d685f9f23ea15f799b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:regional-climate"
+        },
+        "predicate": "climate.is_not_simple_copy_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:global-climate"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d482845d215e3951f181ef08cb99641873d1cad11d7785d9e6d5d7852c7af5e4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        },
+        "predicate": "climate.changes",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "change"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:70b944dd447da5e4b23249839139bb699238fb01ed9a52b7766828a969f96231"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        },
+        "predicate": "climate.may_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:mean"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "change"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3fdecb48448360b7eb399ad50e7adfc8cc0c85525da8d7636edc77520468a103"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        },
+        "predicate": "climate.may_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:variance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "change"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e8ef30cc08420b53e51f9671d323b143f4185a8343ea4fe24e828301db88fef2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        },
+        "predicate": "climate.may_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:frequency"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "change"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d7279babc8be8704d251b8bfc1e2f5038bd8b544809cebd61659b47642cb7253"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        },
+        "predicate": "climate.may_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:intensity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "change"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:42ac8b3f4915adc0e924149b709b644b21d692756f53ddcf7a83df3e8f60be5d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        },
+        "predicate": "climate.may_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:seasonal-cycle"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "seasonal"
+        },
+        {
+          "axis": "theme",
+          "value": "change"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7eac4dc9c8c865964bf0045abdec5a0910497cb9c35b6e06264f87bbad2ab6b9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-system"
+        },
+        "predicate": "climate.has_component",
+        "object": {
+          "kind": "string",
+          "value": "atmosphère",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "system"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d4c2aeb85dfdc1aa7bb25a5b583c85625195034ddd2a20cd072ae25d99916699"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-system"
+        },
+        "predicate": "climate.has_component",
+        "object": {
+          "kind": "string",
+          "value": "hydrosphère",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "system"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7dd94a9e9ab6c20f354d8dc2f0fb2c335ffde422e6286cfe612c35f5c6f55706"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-system"
+        },
+        "predicate": "climate.has_component",
+        "object": {
+          "kind": "string",
+          "value": "cryosphère",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "system"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:2061130627a29ac48d1381ad9708763c92a32a305ec7051c1d3cae6d024063ff"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-system"
+        },
+        "predicate": "climate.has_component",
+        "object": {
+          "kind": "string",
+          "value": "lithosphère",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "system"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5ffcc484eb6ca0ab8449f1aa0e8d0293611eb3fb80f96b24338071313bb3fec1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-system"
+        },
+        "predicate": "climate.has_component",
+        "object": {
+          "kind": "string",
+          "value": "biosphère",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "system"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:aa572b69f871d9ebd68568bdbafae2225801e244ac7975efe7dd6b99e9f1eaf3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-system"
+        },
+        "predicate": "climate.changes_due_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4df50c8c8e17d856ab85af8bf31c15ba5746847023c2f3568f4e81aa313e703f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-system"
+        },
+        "predicate": "climate.responds_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "system"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e2282413759b6c1f0ca18abb77fe82bfa4518894a4a1c01bc5deeb6a60dc2af6"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:energy-budget"
+        },
+        "predicate": "climate.is_evaluated_at",
+        "object": {
+          "kind": "item",
+          "id": "concept:top-of-atmosphere"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "energy"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7",
+        "ev:nasa:earth-energy-budget"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f27aebae727c93865948c4d287ac53d0e2ee691ad177c08ab736d70e3681a1e2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:energy-budget"
+        },
+        "predicate": "climate.compares",
+        "object": {
+          "kind": "string",
+          "value": "énergie entrante et énergie sortante",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "energy"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7",
+        "ev:nasa:earth-energy-budget"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e0e6772f6ae46bee0f1e98429580a2c196dc890dc30f1e7d28e99dd2e17f1f52"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:energy-imbalance"
+        },
+        "predicate": "climate.is_difference_within",
+        "object": {
+          "kind": "item",
+          "id": "concept:energy-budget"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "energy"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7",
+        "ev:nasa:earth-energy-budget"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:46ca3c9b2e42892bc00ec7e72da5936d0659532e456ca259d3061c9d2e3208d7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:positive-forcing"
+        },
+        "predicate": "climate.tends_to_increase",
+        "object": {
+          "kind": "item",
+          "id": "concept:energy-imbalance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8a4e4be568892a4a0437f898e35bf5514d1f4a465076e2c92b7e43ee6e905793"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:negative-forcing"
+        },
+        "predicate": "climate.tends_to_decrease",
+        "object": {
+          "kind": "item",
+          "id": "concept:energy-imbalance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a76283723dcc16cd49de14e428049abdc2ad4458366724c60a67fd2ef80a95c0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:radiative-forcing"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:25743c9937882a00e806044bec74d48678995ba03aec542422d33a3b927af891"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:effective-radiative-forcing"
+        },
+        "predicate": "climate.is_measure_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:radiative-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1ed13c922f7d198f6014f9d8f11d7c30badd72859ebb38b755feecade84a4ddd"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:effective-radiative-forcing"
+        },
+        "predicate": "climate.is_expressed_in",
+        "object": {
+          "kind": "string",
+          "value": "W m⁻²",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "measurement"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a2a8b43fb243922527d9be25392a1d1274e268389ae062b4c08fa332db908d49"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:anthropogenic-forcing"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1337534a1bf5c1ed960a9edac350b4ec8891bacf9830b48c99d81080089a7fb3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:natural-forcing"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:14bde6a048b145641ecaea9944ccbe77c9bbf67b48dd0fe7aec376d59f32b49c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:greenhouse-gas"
+        },
+        "predicate": "climate.can_contribute_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:anthropogenic-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch2",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e4da8c49ec2380ff8cb08019e49ccc64e4e21d4818b07243e3ec7c690c855c41"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:aerosol"
+        },
+        "predicate": "climate.can_contribute_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:anthropogenic-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch2",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b6ab2abfd8badec86f2816ab64969d3f6513a26768ae424fe824478f7413068c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:land-use-change"
+        },
+        "predicate": "climate.can_contribute_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:anthropogenic-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch2",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:621bcd50b646c689a4508f9a25a1a9dc6c58c854426fe9c47d1e0a6dfbe05bdf"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:solar-variation"
+        },
+        "predicate": "climate.can_contribute_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:natural-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:05229b04c00b64e680be1ec2625dbc7e9507fcbcd68d66d6a8b0a9cacf18e3b3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:volcanic-eruption"
+        },
+        "predicate": "climate.can_contribute_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:natural-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e34c7c3b8eadaf17f918372186e13403f6a056c8b75dd943688ff0cd74e51990"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        },
+        "predicate": "climate.can_be",
+        "object": {
+          "kind": "item",
+          "id": "concept:positive-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c80e8219f27057b998bdb0e2e0d782a73c2e81f0a1cdc07c0de08b615138d787"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        },
+        "predicate": "climate.can_be",
+        "object": {
+          "kind": "item",
+          "id": "concept:negative-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b8903aecec8a17c62ce4faab1dd62255f5694751a28bfb458dca39d20b050bdb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        },
+        "predicate": "climate.is_not",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:26475c974a5b68478077c3ed6408b67f977e905e82f0d87beb3556e33a8e77bb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:radiative-forcing"
+        },
+        "predicate": "climate.is_not_identical_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3ddd93881ca024a1670af409baa356285943e95e74467ed14aa2fa6d2ba79d3e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:effective-radiative-forcing"
+        },
+        "predicate": "climate.precedes_response_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-system"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:bfa46259b6df5ef7a4128b3c3e7a399c6d5f7b87aae5d2c79206f70cf6cbb263"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:energy-imbalance"
+        },
+        "predicate": "climate.drives_change_in",
+        "object": {
+          "kind": "string",
+          "value": "stockage d’énergie du système climatique",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "energy"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:nasa:earth-energy-budget",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5b2c80f3be2ff3b8ce29d15c11d342340b52bfbdfbd8495c7ea5b32bcfe9069f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ocean-heat-capacity"
+        },
+        "predicate": "climate.contributes_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:thermal-inertia"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:nasa:earth-energy-budget",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:2f3cfdbc3d291eab60cdc9e263410eb0cd4abda6b3cdc81837c20da356d79943"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:thermal-inertia"
+        },
+        "predicate": "climate.delays",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:nasa:earth-energy-budget",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9f3f8a2f49ea5277f005b68576f47b0f75c21d9103b9156b8e7fe39d032f3c88"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:thermal-inertia"
+        },
+        "predicate": "climate.does_not_cancel",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:nasa:earth-energy-budget",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:90d83102545e5d8665c457bf3d809b31ab8342b10e0e1564ea6eccecc9b1fdd8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:transient-response"
+        },
+        "predicate": "climate.is_conditioned_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:thermal-inertia"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch4",
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:91b81102268fb9dff90214ff2e825927d1c1af0fe5887a800a1860c9bdc2f352"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:equilibrium"
+        },
+        "predicate": "climate.differs_from",
+        "object": {
+          "kind": "item",
+          "id": "concept:transient-response"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e0cbd0de6d812205363de5fa02ac74b88c6abb567dd82decb8dc8d6e921cff0c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        },
+        "predicate": "climate.is_triggered_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:86ebd8ad31a77c766835e38e3e7b5ffe6e575ba002f03e726c54f0ce17466bd2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        },
+        "predicate": "climate.modifies",
+        "object": {
+          "kind": "item",
+          "id": "concept:energy-budget"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:17437c77c1aa8a57e31ba9fc66839a5f95dfda12b730c84da77a45c6ff60724c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:positive-feedback"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ceaf677bc6f578c78bf7f29ddba7b6a2fd3c456a141c800af741ba6d5a20968a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:negative-feedback"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:560f24374d5ecdaf7559c69cbcbbbab4de75239ef5da0a5ec1a4ee8076456567"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:positive-feedback"
+        },
+        "predicate": "climate.amplifies",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8436e489c3d67c2873c89fe679c43fd5d516a32c59c236d90896ff59afefbc9c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:negative-feedback"
+        },
+        "predicate": "climate.attenuates",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:eabc6ae572fd2f8a9f24069df04c82dee205dcb2556f42ec81f937995ed735ec"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:positive-feedback"
+        },
+        "predicate": "climate.does_not_necessarily_imply",
+        "object": {
+          "kind": "string",
+          "value": "emballement sans limite",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fceef3123abf1782ca728cea827d950643545f61ad4537b49c55a9967b895c3c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:positive-forcing"
+        },
+        "predicate": "climate.is_not_synonym_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:positive-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a580eb24a0a9ab62ab4ba9c91f6dcb8a42bc383b6061721eb5f87222914cf44c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:negative-forcing"
+        },
+        "predicate": "climate.is_not_synonym_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:negative-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3f2659dea10df6ba57f0b759feb0469701c0ab586879090c1ae4602da1ad7df1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:planck-response"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:negative-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8f7f9e6dcafadda9a3309396b136de81ecc2eed89987bda6400155e1d2597d2d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:water-vapor-feedback"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:db15b8c40391dda8b1e7e79881fe250bde02f1653b822fcd19758e88b58afa3a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:lapse-rate-feedback"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d589cfc8bff996933ac23c008b069e95cada438ca035a3979d440f5bf35c49d8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:surface-albedo-feedback"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8dd74552840ea6f07ba397aadc4df25e4478d1fd1a354ff4a9705883df6f5c90"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cloud-feedback"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:bbdff515e34985b3ad04f9e172a02257995772f057263eef60a3d057198910f5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:carbon-cycle-feedback"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:dd86ade04e96e8732d5f32b63661b5ffc4578374563a72988bf05798813b9ba5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        },
+        "predicate": "climate.depends_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:59140b47a02657905444729e5f2c5494eb98f35ad7c455ca326b60907ec0628b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        },
+        "predicate": "climate.depends_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b2d1dcc6285c887d9cb83db1b1e0661ab0ee3156eee8117a89c56ad631a768dc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        },
+        "predicate": "climate.depends_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:thermal-inertia"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f94cfbcaf41cde90cd38718e0a8e33c50a627f986fc0116458faddabb52d0467"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-sensitivity"
+        },
+        "predicate": "climate.quantifies_aspect_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f73cc68b51d125869f8b57fff8703e4190c844ac40e62c2cb092d57ffd6f0134"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-sensitivity"
+        },
+        "predicate": "climate.is_not_identical_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:radiative-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:cee76bad4a7fe7a46cb637e80a3d025f556905130ecf7643ea4d8364ee81e56a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-sensitivity"
+        },
+        "predicate": "climate.is_not_direct_measure_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7",
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:95ea2ea6b5413c6b0f750e8d44f5340e139ce8a50f5271665a428e7434f389ff"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-feedback"
+        },
+        "predicate": "climate.can_operate_on_multiple",
+        "object": {
+          "kind": "item",
+          "id": "concept:temporal-scale"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "feedback"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch7"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fa032413ec7c4b321684041571bbb4ae517c083e2897442db67643c3b0e2fe2b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-response"
+        },
+        "predicate": "climate.can_differ_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:spatial-scale"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a3f05936430b0fbfe57a0b3ca22360e82c7fe13d012f28253e9b1ffc629dbe40"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:regional-climate"
+        },
+        "predicate": "climate.can_have_response_different_from",
+        "object": {
+          "kind": "item",
+          "id": "concept:global-climate"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "response"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:50380e1d672f118560d51beaadf7bb84f881d2b4a8689db21e862fae5e199e4c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:variability"
+        },
+        "predicate": "climate.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9f0a6bfac98c88610acb00e24156b6d87aed1d6577a63cef50bbbdf412ffbaf3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:variability"
+        },
+        "predicate": "climate.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:forced-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d8feb8debeee1586f5331626e62a03abbd38aa60c005334e3384308af382da74"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:natural-variability"
+        },
+        "predicate": "climate.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c95fad914f94cffe4f0d2205ae13efe73d4568e32ba500246493339377c4ec84"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:natural-variability"
+        },
+        "predicate": "climate.includes_response_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:natural-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:0e0bf12df19d11eab7879ede3b0ae8bc6b5358cbea137de2a1e0c35e2118319a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        },
+        "predicate": "climate.can_occur_without_change_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4aa04c49b315d164406086dbf0b67542047f42fdb5909acacff4c7d1e25395d1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:forced-variability"
+        },
+        "predicate": "climate.requires_variation_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:699735df065fa44618ff0b9a030d95f50bb7776ef373f40e35da95e6e0fbf647"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        },
+        "predicate": "climate.is_not_synonym_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:natural-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f93b763179d51d7761f7e3c927a8d0ee66d10f8987d890063965b5d2bed7f30c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:mode-of-variability"
+        },
+        "predicate": "climate.is_expression_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional_to_global"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5101cdbb0610dd7b8e0ec9b3744694b946765c6e4fad60cc3d77ef90968781a4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:enso"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:mode-of-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional_to_global"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:noaa:climate:enso-faq"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d1f6be271fc2fd42a2fd9895dcc8261d558670a2a2e911509d7c387c19ce2ff0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:enso"
+        },
+        "predicate": "climate.redistributes",
+        "object": {
+          "kind": "string",
+          "value": "chaleur entre océan et atmosphère et entre régions",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional_to_global"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:noaa:climate:enso-faq"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f85608f39bf2b9b6c494b7e4c4dd6ca07c95dd2fb8537ca2ada36ad100d3e7d7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:enso"
+        },
+        "predicate": "climate.does_not_require_change_in",
+        "object": {
+          "kind": "item",
+          "id": "concept:energy-budget"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional_to_global"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:noaa:climate:enso-faq"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "ENSO peut redistribuer l’énergie interne sans constituer lui-même un forçage radiatif externe.",
+      "assertion_id": "sha256:434c7867643b2b099674535986b54008abbda208c777233774106baad01bc6a0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:teleconnection"
+        },
+        "predicate": "climate.can_link",
+        "object": {
+          "kind": "string",
+          "value": "régions éloignées",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ea8b91fc4f86cf0bf027ca47e7a1bb3c4f66deeb7f8a507b0ebf87e45e3374a4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:mode-of-variability"
+        },
+        "predicate": "climate.can_generate",
+        "object": {
+          "kind": "item",
+          "id": "concept:teleconnection"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ed2fbb4ddae8f8e657c1f61a1782c76116f484c144c5573f4a5b365352cdcafc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        },
+        "predicate": "climate.can_mask",
+        "object": {
+          "kind": "item",
+          "id": "concept:trend"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional_to_global"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:26c811219face54aaad202de5ae306034ce9e594cb39ddfb93e1ee5c136d1edc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        },
+        "predicate": "climate.can_amplify",
+        "object": {
+          "kind": "item",
+          "id": "concept:trend"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional_to_global"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:95db63b7b5b763aae64de2dc2717b039bcb5a6e5c0d5944d8784fcbb47158c01"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        },
+        "predicate": "climate.relative_importance_increases_at",
+        "object": {
+          "kind": "string",
+          "value": "petites échelles spatiales et périodes courtes",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1",
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:caa211b292ea822ab75bdf16e851980642a97cbd5003ae6d4b7b1d4968ff924d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:large-ensemble"
+        },
+        "predicate": "climate.samples",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "method"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1",
+        "ev:ipcc:ar6-wg1:ch4"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:769abc6f7d6b7c011a3920d5fb2203bedac63fd99ecbecd3a49212738ce3afe3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ensemble"
+        },
+        "predicate": "climate.represents_multiple",
+        "object": {
+          "kind": "string",
+          "value": "simulations compatibles avec un cadre donné",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "method"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch4"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a702164d76c8852a5ce8d1f25c8602a398d99e58706fab0dd76a0c834b6f25a5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:large-ensemble"
+        },
+        "predicate": "climate.can_share_same",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "method"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:dd2bcf6a064b39adcabe007adeb70ee0897a4ba6699668de7bc0527abf5a6e41"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:large-ensemble"
+        },
+        "predicate": "climate.can_differ_in",
+        "object": {
+          "kind": "string",
+          "value": "conditions initiales et phase de variabilité interne",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "method"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:379fb2aa0e05758e6701e3f8fa52a698a7f8c1ed8903065be018ad37ae71c341"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:regional-climate"
+        },
+        "predicate": "climate.is_influenced_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d21e1682dc9db64d57e3f970448bb8e87f23e4917d02c55003da7bef3fe974d9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:regional-climate"
+        },
+        "predicate": "climate.is_influenced_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "forcing"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:51bfe8edb1c12c0192909baf9e77c9d7317c8d8a40664e3ff14d4622d7c22511"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:regional-climate"
+        },
+        "predicate": "climate.is_influenced_by",
+        "object": {
+          "kind": "item",
+          "id": "concept:teleconnection"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "variability"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9866187f07d00247aaf13b071144ebc4e8dc1ad3c7024c0f135cc620b4ce5ae1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:global-climate"
+        },
+        "predicate": "climate.averaging_can_reduce_relative_effect_of",
+        "object": {
+          "kind": "string",
+          "value": "certaines fluctuations régionales",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1",
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f9acdd4f0da03d8062f3f171575892b10b79ec2ca99206fab67a9a9cd020e40d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:variability"
+        },
+        "predicate": "climate.can_depend_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:temporal-scale"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fe980e0d8e0ca7706d9280249d6b2f6c31e2f56983466b11f443da67a61da293"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:variability"
+        },
+        "predicate": "climate.can_depend_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:spatial-scale"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f9002454d584dfc048993a4b0d0a1e75032a0d0fcd90f172c8daaa7f49d2c016"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-extreme"
+        },
+        "predicate": "climate.must_be_defined_relative_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-distribution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:cb629e2b754fd6c6dcd1c170063e07bb193118a51cc100c88279507ca52d2074"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:frequency"
+        },
+        "predicate": "climate.depends_on",
+        "object": {
+          "kind": "string",
+          "value": "définition d’événement, seuil, période et domaine spatial",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ce4505aaac7850f769705461a31e73d0f65c4ce277f9b935b6092dcf487001ad"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:trend"
+        },
+        "predicate": "climate.is_estimated_over",
+        "object": {
+          "kind": "item",
+          "id": "concept:temporal-scale"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "trend"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9be9a7a876c8c9345a6e0074001563f8b6bbb802300d970d2dfef2c8b2871948"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:linear-trend"
+        },
+        "predicate": "climate.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:trend"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "trend"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:318b075dfa3c5686f8ab11955cfbb32121927abb1f586b9ce57c5969803b9395"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:linear-trend"
+        },
+        "predicate": "climate.depends_on",
+        "object": {
+          "kind": "string",
+          "value": "fenêtre temporelle choisie",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "trend"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:74705121fbe3dea6ca829f00eaecad4edbfe4653d58c4b62b7be3b6bf3c95609"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:trend"
+        },
+        "predicate": "climate.can_include_effect_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "trend"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:dabcf1319f40c8697717c50713e1d994a6cbd6fa416d79cee3343daff23a2bd2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:trend"
+        },
+        "predicate": "climate.can_include_effect_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:external-forcing"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "trend"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1",
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a106528bf3bcae00cf33abdf2de872fb0eb76a48535637c8e06a0396970b7f7f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:trend"
+        },
+        "predicate": "climate.is_not_by_itself_proof_of",
+        "object": {
+          "kind": "string",
+          "value": "cause particulière",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:34b42f759f78941f05076ecbca42276e42ba1eded365f5ebbd8469505436c5af"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:detection"
+        },
+        "predicate": "climate.addresses_presence_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "detection"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:04417c306aa263dc793485309234f6dfa760d850e91edba3c3a6d0b2e5951704"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:attribution"
+        },
+        "predicate": "climate.addresses_causes_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:signal"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "attribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d832368e50a3759aab48f7fceeb477019721370796e6ea0f46ac7f254b074208"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:detection"
+        },
+        "predicate": "climate.is_not_identical_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:attribution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:69703a6d9f6d6e160ca13db361bc579f16fce2b6d50d3b92173dd5315d1e4f78"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:attribution"
+        },
+        "predicate": "climate.can_compare",
+        "object": {
+          "kind": "string",
+          "value": "réponse observée avec empreintes attendues de différents forçages",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "attribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7eec6c0c4733394c8e900b032d73f31b1cdb9a874f970477693ccefc4cb10289"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:attribution"
+        },
+        "predicate": "climate.must_consider",
+        "object": {
+          "kind": "item",
+          "id": "concept:internal-variability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "attribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f8aab21bbfcf9763b740f08fd5bca7ab464473948328a295a67ff758c97cd5c1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:attribution"
+        },
+        "predicate": "climate.must_consider",
+        "object": {
+          "kind": "item",
+          "id": "concept:uncertainty"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "attribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:899c8bb022ac71cd3d530e245af43de448d4aba2c3e358fffe43736faf6b44ed"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:observation"
+        },
+        "predicate": "climate.contributes_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:detection"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "observation"
+        },
+        {
+          "axis": "theme",
+          "value": "evidence"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1",
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fd76fbac9385307d4e8379d5581a17910bb27735e7cfdb4cd647c7b01044ad8c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-model"
+        },
+        "predicate": "climate.contributes_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:attribution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "evidence"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c7e91717398faf0209de80831e1b2238e58fa785effbe185b146784f7b5e2b0e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:observational-record"
+        },
+        "predicate": "climate.has",
+        "object": {
+          "kind": "item",
+          "id": "concept:measurement-uncertainty"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "observation"
+        },
+        {
+          "axis": "theme",
+          "value": "uncertainty"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:2306370cd5c01907d6cc62c22c1002b77f2ff3f998a13af934a46536e657a570"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-model"
+        },
+        "predicate": "climate.has",
+        "object": {
+          "kind": "item",
+          "id": "concept:model-uncertainty"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "model"
+        },
+        {
+          "axis": "theme",
+          "value": "uncertainty"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1",
+        "ev:ipcc:ar6-wg1:ch4"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d78e153844e2e65045d7ac967908cbad4557c72af7319307a1a72fb68b26ea36"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:scenario-uncertainty"
+        },
+        "predicate": "climate.applies_to",
+        "object": {
+          "kind": "string",
+          "value": "projections conditionnelles de futurs forçages",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "projection"
+        },
+        {
+          "axis": "theme",
+          "value": "uncertainty"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch4"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b140beec166332f0a00fadf4d6dc8ae1645428edb9f3d24b8bbc5dbbd475ff0f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:uncertainty"
+        },
+        "predicate": "climate.has_multiple_sources",
+        "object": {
+          "kind": "string",
+          "value": "observations, variabilité interne, modèles et scénarios",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "uncertainty"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1",
+        "ev:ipcc:ar6-wg1:ch4"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fd3e386aa26148ca942386d5f1378b2f0c595961f42af13b37926aca2f28a1a4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:uncertainty"
+        },
+        "predicate": "climate.does_not_mean",
+        "object": {
+          "kind": "string",
+          "value": "absence totale de connaissance",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:af496b1e8fc2e9e1d0cbd9bb6cdfc4ef2e4c96f8b7584d430768fe567f539854"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:signal"
+        },
+        "predicate": "climate.can_emerge_from",
+        "object": {
+          "kind": "item",
+          "id": "concept:noise"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "detection"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:49f5b058b09f0c8b20b373ebff504b316164a4d85f747012f6bdfee034c94d47"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:signal"
+        },
+        "predicate": "climate.emergence_depends_on",
+        "object": {
+          "kind": "string",
+          "value": "amplitude du changement et amplitude de la variabilité",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "detection"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:16cafb2626555cdd6a86263417947e2403ffb5ed7b28fd528e1d000abbdee052"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:signal"
+        },
+        "predicate": "climate.emergence_depends_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:spatial-scale"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e2f5083bc01de34ab11e7e49a9c020759294464cb8b6e27d203f948c3106efe5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:signal"
+        },
+        "predicate": "climate.emergence_depends_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:temporal-scale"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "scale"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d9010731d3a72f16ecd13e3e0aab0c9d51d2c090778eaeba1d860bacd0824af1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        },
+        "predicate": "climate.can_reduce_appropriateness_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:stationarity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "nonstationarity"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:wmo:climatological-normals",
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Dans un climat non stationnaire, une référence fixe peut devenir moins représentative pour certaines applications.",
+      "assertion_id": "sha256:5716b4687184a0316c411280ed9b7ab8a5daae9073184f971c2e883021be2efc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:nonstationarity"
+        },
+        "predicate": "climate.can_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:mean"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "nonstationarity"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e2fb86e328f57536dfe081329d9f4b7a058d25e23acbf362eeb433eae86210fe"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:nonstationarity"
+        },
+        "predicate": "climate.can_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:variance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "nonstationarity"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a2b1741fbba159c494fd10e0319e292af46620683d13c62e8979dbcf3577ffcf"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:nonstationarity"
+        },
+        "predicate": "climate.can_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:distribution-tail"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "nonstationarity"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:902ff6136e36263d1871df81644653cfc0c29f839db4e8638594ecb837e49cd8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-normal"
+        },
+        "predicate": "climate.can_be_updated_because_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:nonstationarity"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "reference"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:wmo:climatological-normals"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c2f1cfd946306b9152d06d0b745d7e9f4e87cef8db900b1bfa81eda96f53126b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:global-climate"
+        },
+        "predicate": "climate.trend_does_not_require_same_sign_in",
+        "object": {
+          "kind": "string",
+          "value": "toutes les régions et toutes les périodes courtes",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "global_to_regional"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch10",
+        "ev:ipcc:ar6-wg1:ch1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:2db3c483243955fee20ba550e2225cae83e86a001b605960d783a4139f50231e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:regional-climate"
+        },
+        "predicate": "climate.short_term_trend_can_differ_from",
+        "object": {
+          "kind": "string",
+          "value": "tendance globale de long terme",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "regional"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch1",
+        "ev:ipcc:ar6-wg1:ch10"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:16ba703daaa75b03a3cdcab83df7f1fb19968288e16034e94fca37415184ee94"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:weather"
+        },
+        "predicate": "climate.single_event_does_not_by_itself_establish",
+        "object": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "weather_to_climate"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:glossary",
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3b9ca078b9a6b8894be358601b6b4c277b1038a1a2a5b1a6c438a409ef0e1c2a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-change"
+        },
+        "predicate": "climate.does_not_require_every_weather_event_to_change",
+        "object": {
+          "kind": "string",
+          "value": "vrai",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "weather_to_climate"
+        },
+        {
+          "axis": "theme",
+          "value": "guardrail"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:883277c83ffce761013c2bc71b457063c5ba0fd9f92195d84bc7de133c3685ef"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:climate-extreme"
+        },
+        "predicate": "climate.change_can_be_expressed_as",
+        "object": {
+          "kind": "string",
+          "value": "changement de fréquence, intensité, durée ou étendue",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "climatology"
+        },
+        {
+          "axis": "theme",
+          "value": "extremes"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:bb1d647c69395d6b58c9db5072f51aa03ed6d2b8d3c3ee01aeeb0647d5b65341"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:attribution"
+        },
+        "predicate": "climate.can_be_applied_to",
+        "object": {
+          "kind": "string",
+          "value": "tendances et changements climatiques",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "attribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a665de09564f29e901fc8dcacaf59255c24198cac0da25b347547773470c7509"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:attribution"
+        },
+        "predicate": "climate.can_be_applied_to",
+        "object": {
+          "kind": "string",
+          "value": "certains événements extrêmes avec méthodes dédiées",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "analysis"
+        },
+        {
+          "axis": "theme",
+          "value": "attribution"
+        }
+      ],
+      "applicability": {
+        "domain": "climate",
+        "subdomain": "long-term-distributions",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ipcc:ar6-wg1:ch11"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "L’attribution d’événements est un domaine spécifique; ce Kristal n’encode pas de conclusion sur un événement individuel.",
+      "assertion_id": "sha256:20ab9c22255b8ef5f487751e05b0c16c6e92a1b976c3dfb5cc6d05171ccf35ff"
+    }
+  ],
+  "provenance": [
+    {
+      "event": "curated_build",
+      "created_at": "2026-10-02T15:50:00Z",
+      "method": "domain modeling + deterministic serialization",
+      "inputs": [
+        "Kristal v6 core schema",
+        "IPCC AR6 WGI",
+        "WMO climatological normals",
+        "NOAA/NASA institutional references"
+      ],
+      "notes": "Corpus conceptuel statique. Il distingue définitions, mécanismes, statistiques et garde-fous sans encoder de bulletin climatique courant."
+    }
+  ],
+  "build": {
+    "package_version": "1.0.0",
+    "generator": "build_climate_kristal.py",
+    "assertion_count": 159,
+    "referent_count": 77
+  },
+  "warnings": [
+    "Les statistiques climatiques exigent une période, une variable, une saison, une région et une méthode explicitement définies.",
+    "Une tendance descriptive ne constitue pas à elle seule une attribution causale.",
+    "Les normales climatologiques sont des références statistiques et non une hypothèse de stationnarité."
+  ],
+  "extensions": {
+    "climate_profile": "long-term-distributions.v1",
+    "primary_axes": [
+      "system",
+      "climatology",
+      "global",
+      "regional",
+      "analysis",
+      "observation",
+      "model"
+    ],
+    "primary_themes": [
+      "distribution",
+      "forcing",
+      "feedback",
+      "variability",
+      "trend",
+      "detection",
+      "attribution",
+      "uncertainty"
+    ],
+    "ontology_boundary": "physical climate concepts and statistics; no weather forecasting; no impacts, adaptation or mitigation policy; no live climate status"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "kristal.catho.canonical-upgrade-manifest/1.0",
+  "campaign_job": "fb7791e61d814ca1879044a5c82f8c62",
+  "base_zip_sha256": "01e1a4b0bd75398660478a7ee28c7caf60d038bb27dc6cec37cbeb7105fbddd3",
+  "base_expected_sha256": {
+    "canon/state.index.json": "923f6560e9402b152bb05f9cdefd38279994390c5a79ef72dc10e0c56b96fe12",
+    "canon/domain/personnes-reconnaissances.json": "2358d00ce88140aa303c4dbe3e9a56e043157d9ca9442675928523d15668ccab",
+    "canon/domain/legacy-logical-artifact.payload.json": "f6ef49d9ef9fd8c39107e651f197b279e4a1f739459eb861b08b6401d25bfcf1",
+    "kristal.workspace.json": "a41a18a5c34e8e1f53e40e2baed14db7e7402704df8483e42d0224f1b1707bd3",
+    "state/state-snapshot.json": "05f4d447197179c0e82c185a0b3888eff23c3095babf5212b8e5a2abe3325fba"
+  },
+  "new_files": {
+    "canon/state.index.json": "1717b76e62ea7a82927070944031a907fb8d3a0e78b0723e96593dfd5bef2084",
+    "canon/domain/wikidata-import.json": "89db785f6af427c0f6a5a78d906a0cb068ebaf93134b74a34f378c14058b58a5",
+    "canon/domain/wikidata-alignments.json": "8824284dc6707eda066fb666cb06347bbad9f8a90f44740c7875e82dc56491be",
+    "kristal.workspace.json": "3e49aa3504caff84b9fb7d682e4b7ee174ae4cbda8578d100373882bcebdb5ca",
+    "docs/WIKIDATA_CANON_2026-10-15.md": "5ed0c3734802f83f672d45507a023db9adac86cbe606c0a07b60e1e19615bc86",
+    "tools/validate_catho_wikidata.py": "5d3b85a7fc22cba11e7c95099dc5cab6d2ec734d33c5e2677b26ef392173e6f6",
+    "state/state-snapshot.json": "6e2de962f1af160696a798776896872b7e03d011f1d31dc25ca2e285f8095c53"
+  },
+  "existing_canon_data_unchanged": true,
+  "source_archives": {
+    "Kristal-Catho-Extraction.zip": "0409a40555be3207f7bf64ccd2b5575b122faf4628b071de05b8a0e709ae351c",
+    "Kristal-Catho-Provenance.zip": "84b18edeca7f78fe10aedc48c19ee1e012208b68660e10b316a2b502fcff7857"
+  },
+  "expected_members": 4,
+  "expected_state_commitment": "sha256:08b9cf96632b39ba619655cec852c71a3450317a9e64c944c4b8af3df3d51d8d",
+  "generated_artifact_counts": {
+    "wikidata_items": 1692,
+    "index_author_work_links": 1455,
+    "campaign_people": 406,
+    "exact_index_matches": 245,
+    "unresolved": 161,
+    "research_proposals": 21,
+    "algorithmic_suggestions": 3,
+    "research_claims": 339,
+    "source_urls": 24
+  }
+}

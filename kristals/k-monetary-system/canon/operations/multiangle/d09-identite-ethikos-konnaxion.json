@@ -1,0 +1,49 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d09",
+  "protocol_id": "D09",
+  "title": "D09 — Guichets de confiance, Ethikos, Konnaxion : frontières de système",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:S06",
+    "source:multiangle:S08",
+    "source:multiangle:W17"
+  ],
+  "depends_on": [
+    "canon/operations/smart-vote-policy-interface.json",
+    "external:konnaxion"
+  ],
+  "validation_gates": [
+    "consentement_et_privacy",
+    "habilitation_professionnelle",
+    "separation_systemes"
+  ],
+  "sections": [
+    {
+      "heading": "Quatre services S06, avec autorités distinctes",
+      "level": 2,
+      "body_markdown": "(1) authentification haute assurance, (2) examen supervisé et certificat de compétence, (3) actes notariés standards par professionnels habilités, (4) dons à impact mesuré. Les caisses ne deviennent pas automatiquement autorités de certification, notaires ou organismes de bienfaisance. Chacun exige une habilitation et un contrat propres."
+    },
+    {
+      "heading": "Traitement technique",
+      "level": 2,
+      "body_markdown": "- La caisse transmet une **attestation bornée** d'identité, non un dossier bancaire ni une identification réutilisable à volonté.\n- Biométrie uniquement si nécessaire, libre, limitée et avec option alternative; le seul consentement ne suffit pas [W17].\n- Un examen peut prouver la réussite d'une épreuve; l'équivalence professionnelle n'existe que si une autorité compétente la reconnaît.\n- Smart Vote/Ethikos est une **interface externe** : `request_id`, `member_verified`, `scope`, `eligible_choices`, `vote_receipt`, `audit_ref`, `appeal_ref`; pas d'appropriation de sa base électorale."
+    },
+    {
+      "heading": "Modèle de menace",
+      "level": 2,
+      "body_markdown": "Création de comptes fictifs, membre exclu numériquement, biométrie compromise, vote altéré, client croyant recevoir acte notarié sans notaire, conservation excessive des données bancaires, preuve cryptographique non interprétable."
+    },
+    {
+      "heading": "Réussite observable",
+      "level": 2,
+      "body_markdown": "Contrôle externe des identités, audits de sécurité, taux d'accès pour publics non numériques, erreurs corrigées, délai de contestation, absence de couplage abusif entre données de vote et données financières."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D09_IDENTITE_ETHIKOS_KONNAXION.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

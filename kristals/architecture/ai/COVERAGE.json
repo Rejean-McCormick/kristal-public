@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:architecture:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:09d7e283f66c5c414f8a345c8c14329f68c2348587998f1343771bb394ab33b1"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:architecture",
+    "label": "Kristal-Architecture",
+    "domain": "architecture",
+    "orientation": "Site/contexte → programme → espace → enveloppe → structure → usage, avec performance/temps"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Le modèle sémantique local du domaine Architecture tel que défini par les sources/README historiques.",
+      "Les identités et assertions de référence structurées du domaine, avec cette distinction: le chemin est une orientation, les relations de conception et d’usage restent réciproques.",
+      "Les membres canoniques et les preuves engagées par le State Commitment v9 préexistant."
+    ],
+    "does_not_own": [
+      "Les dépôts sources externes, leurs mainteneurs et leur calendrier de publication.",
+      "Les caches, index de lecture, projections générées, état runtime, publication ou activation.",
+      "La réécriture automatique des hypothèses, contradictions ou frontières de sources."
+    ]
+  },
+  "canonical_artifact_count": 10,
+  "source_count": 9,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 3,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 3,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

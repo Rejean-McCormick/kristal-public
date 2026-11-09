@@ -1,0 +1,897 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:bible:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:86f33ee3941aed8bd742e43d12264dec69f0ec0a9230b692c67b9a7a3432f66b"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1329,
+      "sha256": "sha256:585b7538594f4acdc7c10f86b184f91b3a4aad14911be83785c389d82daecd5e"
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 15489,
+      "sha256": "sha256:c13545f0801930eaf1555d4fc5f385afcadc30f6509b1626d68406c780a538d1"
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 368,
+      "sha256": "sha256:b531482a42cb06613a667192e316a0a6d07cc93fb22a8d57606c2629dbd085e7",
+      "artifact_id": "urn:kristal:bible:artifact:canonical-state",
+      "logical_contract": {
+        "id": "bible.canonical-knowledge-state",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1241,
+      "sha256": "sha256:08681afd07b658a13d7a611670e0907bb258dc9aa61682fe00bf1ddd9ba1eb23"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 906,
+      "sha256": "sha256:04bde472cc095f50d4d12caffc9d08068cb18c75bd1d503e3702c78b0e134d47"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1099,
+      "sha256": "sha256:ab6c1aba27ce7ac186dd7bdf67aa482d9cd66b4bd568103f20c79ed269ca28d7"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1213,
+      "sha256": "sha256:5cbb1f1fea382151572dddd97eaf5ed19d3a86ccf88fd9138943b5eb625ee8b3",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Bible:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/legacy-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 146627,
+      "sha256": "sha256:35746359eec58a7a3b8e813c393703b8f411c7ea3080b38e1daa0120fd4104f9"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 5983,
+      "sha256": "sha256:3a6512b07edcc2ee24a6cbddc1040f23928c19ef9f2dc2b5ffe71cf9b6bb8067"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 5416,
+      "sha256": "sha256:20755ec8a4144a929f561673577c50051f6ffd2ce3624b1845cd42853342c959"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 11089,
+      "sha256": "sha256:9d2879c7c58351c85d366f1b631697963854adb875051a8505ab15248e29352d",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Bible:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 840801,
+      "sha256": "sha256:08b7e1007cf6f40843e715648ed29cab5d440755b2fc9cfa8ac02e31f9a90fa0",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Bible:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 221302,
+      "sha256": "sha256:c0abee92eba438d992d33a4dedef40f9440d7dd5c79f64b8b80b5dd597ff55cb"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 8018425,
+      "sha256": "sha256:f04f8cd0cfa0b072be57c3f76f24c0c0ed6cc776319b3f5f519e0d8360b4bd60",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Bible:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1241,
+      "sha256": "sha256:08681afd07b658a13d7a611670e0907bb258dc9aa61682fe00bf1ddd9ba1eb23"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1099,
+      "sha256": "sha256:ab6c1aba27ce7ac186dd7bdf67aa482d9cd66b4bd568103f20c79ed269ca28d7"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1198,
+      "sha256": "sha256:414d2c562e4aa96ec155476451c8d407639eff03f1ffb430b3b887a5258647b6",
+      "artifact_id": "urn:kristal:bible:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/legacy-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 146627,
+      "sha256": "sha256:35746359eec58a7a3b8e813c393703b8f411c7ea3080b38e1daa0120fd4104f9"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2247,
+      "sha256": "sha256:5a70e913a5b4fd9843366078365da0cffe6eb5970ae8938d7a547ff43bfdaf20"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 5416,
+      "sha256": "sha256:20755ec8a4144a929f561673577c50051f6ffd2ce3624b1845cd42853342c959"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 11074,
+      "sha256": "sha256:fe8edb1c2b4fd8f9dcc41442fae646fbfc89a936a9abb70c7fbb06c879d16a63",
+      "artifact_id": "urn:kristal:bible:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 840786,
+      "sha256": "sha256:9d1fd5a870205b33a776642ac274a1ce2af909cfd686e26aadb8d2d3e677e265",
+      "artifact_id": "urn:kristal:bible:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 221302,
+      "sha256": "sha256:c0abee92eba438d992d33a4dedef40f9440d7dd5c79f64b8b80b5dd597ff55cb"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 8018410,
+      "sha256": "sha256:e692d5f4601354fd5c12c33a28d82b44327f2c456b25afc489e64794cfdacd07",
+      "artifact_id": "urn:kristal:bible:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/epistemic/legacy-build-input-editorial-sources.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 13322,
+      "sha256": "sha256:1ca15d97716b5bbe62a857f288a0bf69ba5cacbc3d2a47981cf48c6f3b88aa6d"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 6276,
+      "sha256": "sha256:869c03b2ffcfeef58c2399e36f68c49e1e3a3669bb151f39f0ece511f6fe3f5a"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 525,
+      "sha256": "sha256:50bbe1d1f29e43717874cca8bebd6f2d47109fb49816b8ba4d638a880e7c166d"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 561,
+      "sha256": "sha256:ff6cca8a6125cf08b00093e8ae7759fba49b9f0993a3fa95e372c2b9b112c5a3"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 651,
+      "sha256": "sha256:d4d03658efefde2e3fc1c28df1d9bdb37aee7be9544e4b0fa7e1cbc9c17aea7c"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 678,
+      "sha256": "sha256:4fd746411ebb2c7fadabd36340b6dc59761c970c7b4cc5cb2136b9c9858515a7"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1002,
+      "sha256": "sha256:1320b07a4b38e05ccef66bd2718c46be9d94222dd56b5d555b2a365a75558125"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 562,
+      "sha256": "sha256:e21b7c8208f636fdb4a423af61ae4dc52eeacd9cb7e5ddf1e44f0ec1d43a2e9a"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 668,
+      "sha256": "sha256:466b0b58c6ca04d7f8d5d1eaf2313440eec18bb51da38429f61dfe0148a2d5ff"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 549,
+      "sha256": "sha256:17dbbb251824a74d4ab963081a408dc8ee22cfffc4494f8cf4ead85be6bcceb5"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3936,
+      "sha256": "sha256:8a005249adbe8ca98f1aa3c45d48c58f17555de5c0ef4f9697c2c6c54432ac95"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 4938,
+      "sha256": "sha256:b72adb8249d937953bd0849f02105b602292b7dfc4244417c2ea86c75bca8408"
+    },
+    {
+      "path": "sources/wikidata-skope/current.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 246,
+      "sha256": "sha256:ca06d8856f604538cbd3c389eaef71a9cddf02a5eab69dcc51fc41e6684bd91b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/README.md",
+      "role": "source_material",
+      "media_type": "text/markdown",
+      "size": 1838,
+      "sha256": "sha256:7044df16fcfdf055f62a576d26ad8f8795265320975e593b3c79d84957f1dcf6"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/crosswalk-candidates.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 9720,
+      "sha256": "sha256:84a84cfe780dee5ddadbd0f040f26597805cbe364fefb72b1c8240db1bf918b8"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/priority-relations.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 232006,
+      "sha256": "sha256:b3f028cece6e332181d474319da193caeee26468588c57b20b22cbfcf2522c72"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/enrichment-proposals.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 2229863,
+      "sha256": "sha256:17e615935596f2a8d48817ac15dc3162f738b876fd0607124675a184a17e1a42"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/enrichment-proposals.related-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 43660,
+      "sha256": "sha256:f9487c24f9eef93f178bb8be7749a987111c4d1f2c6e7e373da736f134705062"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/enrichment-proposals.report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 426,
+      "sha256": "sha256:1b4fa8252fb867ca76df8600835398b7bd2bbe9557143ad47282f9c3a06813e8"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/full-evidence/af37c1fcd8b9db4e/part-000000.jsonl.gz",
+      "role": "source_material",
+      "media_type": "application/octet-stream",
+      "size": 301732,
+      "sha256": "sha256:80419fa5f639665a54d39203563bcba309ee4a40973af7c8bed81e00efa74941"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/full-evidence/af37c1fcd8b9db4e/part-000000.manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 507,
+      "sha256": "sha256:dab95249516c8b00836ce252dd67f37596ae8411c4b45db5f2d9975ada33e347"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/full-evidence/af37c1fcd8b9db4e/portfolio-extraction-state.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 679,
+      "sha256": "sha256:7a617b3510c2aff835d9c7bed69a4cd5c77796c9e074a5ca4ab5df5697cc16d2"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/full-evidence/af37c1fcd8b9db4e/snapshot-manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 536,
+      "sha256": "sha256:f115d9f16ab2dd8339c24079534e3063e9d89056ded74119a9c6523358f2880b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/portfolio/identity-resolution.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 162936,
+      "sha256": "sha256:0adaba87ae1c0f2a42df6470eb63d7edd6afa5fafe30a9ea625d8f31c35b3344"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/portfolio/inventory.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 312,
+      "sha256": "sha256:9c726ffe7faeb28c44f12145e30d16cbb5d1c59ee986980e164ec87f543fbf61"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/review-candidates.generated.csv",
+      "role": "source_material",
+      "media_type": "text/csv",
+      "size": 474038,
+      "sha256": "sha256:6fc60dc6d286d4bf4f410eca723eeb728a0091eef757f5cb92e30d06084f3264"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/run-report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 10428,
+      "sha256": "sha256:ef77d38ea2a072cc658f0636ffa9ce6a89cca72ed5060778f73caf0a85fc76c8"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/seeds/extraction-intent.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 693,
+      "sha256": "sha256:cb270f16dfe6ee8211df8c80425676fa0d78d2c891b2f78ec8655ec5952f8f2c"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/seeds/portfolio-selected-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 673,
+      "sha256": "sha256:af37c1fcd8b9db4ee37fcf3ac4bb0809176071801ed766595bb89a9ec82d4a97"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/seeds/reviewed-mappings.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 7829,
+      "sha256": "sha256:5201a61b964ebacfda743c19951a183aa0eb7d79f33aa45b86a04125d298e5c0"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/raw/source-profiles/maxwd-local.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1123,
+      "sha256": "sha256:bfd799319ec26b173332cc843df66ba5b043937ce59d3bbedc973d9e8d00959b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/40712f0b4c78c766/source-index.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1980,
+      "sha256": "sha256:bf05ae1a27109b97367be09bff857e95c63e9b4b0d30d8886dac49b1d9c7108a"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 3800,
+      "sha256": "sha256:0fb3098dec7dfbc311305b5aa324c1863b88b62abc90222682ff77f7b4ed0d7a",
+      "state_ref": "urn:kristal:bible:state",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:86f33ee3941aed8bd742e43d12264dec69f0ec0a9230b692c67b9a7a3432f66b"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:canonical-state",
+      "kind": "segment",
+      "key": "knowledge-base/corpus/bible.structured-epistemic-state.json",
+      "media_type": "application/json",
+      "size": 5262442,
+      "sha256": "sha256:781732ba6351638a548ab06003ae4701cadbea605588d97dd46a3b88ce6b50c4",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "external-source-library/evidence/source-catalog.json",
+      "media_type": "application/json",
+      "size": 3036,
+      "sha256": "sha256:c605a0f01f6e6463e151583beac761abfada2ff694bd3a281cb939255f00877e",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "external-source-library/source-texts/source-text-manifest.json",
+      "media_type": "application/json",
+      "size": 1663,
+      "sha256": "sha256:a7e530bae407ea10b5749eb736dbbf1c66363d5d720228289e5fb7395755af33",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/canon/book-witness-map.json",
+      "media_type": "application/json",
+      "size": 15820,
+      "sha256": "sha256:7a775edfaabb7fc048e679bca7e6a42a344a0db0344d1354868421601651d560",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/canon/books.json",
+      "media_type": "application/json",
+      "size": 15788,
+      "sha256": "sha256:25a696f617726452c4dc131f937667db47bb09b346a20e51322092916db4fdb6",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/canon/canon-registry.json",
+      "media_type": "application/json",
+      "size": 6055,
+      "sha256": "sha256:670f4f479f8cbd3c4296f7e9e2cffc31f97d3381160f607b1a76158250fe6902",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/canon/source-language-policy.json",
+      "media_type": "application/json",
+      "size": 810,
+      "sha256": "sha256:ac53d292cd932336bcc380cabd793722a5d6a79d9af731be06b686a0a620caa7",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/ontology/domain-ontology.json",
+      "media_type": "application/json",
+      "size": 4516,
+      "sha256": "sha256:f9a50727372c4ae7aec2c92834c24b2d2e2a1a20444f12e55dee733e2aafb2cc",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/ontology/epistemic-tiers.json",
+      "media_type": "application/json",
+      "size": 800,
+      "sha256": "sha256:665c4af765b042adaa005f18b547691b1a6179bb734293ad19e943b26139db55",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/ontology/normativity.json",
+      "media_type": "application/json",
+      "size": 412,
+      "sha256": "sha256:d01586fe8e902c0c6dddaa2e074c6dff7c85b461d53acbd8d0e660026a4bc97f",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/polyphony/relations.json",
+      "media_type": "application/json",
+      "size": 3752,
+      "sha256": "sha256:de1fd334217ad55e7bcdbf67fa9b66d18776ea30c450d1cdaab01395ab9e9841",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/polyphony/tension-types.json",
+      "media_type": "application/json",
+      "size": 1102,
+      "sha256": "sha256:5191510ac2f9df1d625b74b4f76187b0cddd13b0dc3f4fb1ed5b12dfd80b5258",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/polyphony/voice-registry.json",
+      "media_type": "application/json",
+      "size": 8783,
+      "sha256": "sha256:931cb5ab96f765e802c65206d2591cc7129faf9ed431e825c767f40b5aaa6cf2",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/consciousness_pattern.json",
+      "media_type": "application/json",
+      "size": 14434,
+      "sha256": "sha256:9e9540e9a0ac0ee0539092a89e92e353c826852616bebedbce4ce080756bfa97",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/countermodel.json",
+      "media_type": "application/json",
+      "size": 21876,
+      "sha256": "sha256:30075da9a7236a3732a6bb283dfe53d633718b934e64211840e0d144363538c5",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/desire_pattern.json",
+      "media_type": "application/json",
+      "size": 16266,
+      "sha256": "sha256:22f39cd4db746fb816b6fa4f78e2ccace9c7e993ed7a60ec04fa97b395dceb8f",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/dynamic.json",
+      "media_type": "application/json",
+      "size": 44727,
+      "sha256": "sha256:29c4e555874cb8dc205dae79c812e35a46258a3309da8b62d929c67e62ae48e2",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/emotion_pattern.json",
+      "media_type": "application/json",
+      "size": 22547,
+      "sha256": "sha256:a2b54fb6bea1d4957416c19a3ac9c13a1d5b9bbe8877c24cb0dc03f03b982d61",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/mechanism.json",
+      "media_type": "application/json",
+      "size": 60132,
+      "sha256": "sha256:14637c5f15e798dc1c6d8de20bf1f2688bddd6e1ad96b74c518767b5d8ead041",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/motif.json",
+      "media_type": "application/json",
+      "size": 35327,
+      "sha256": "sha256:3c56ebabe0c1f6060d846c5c890e35e76cf4ff5f033eff7d261f530e5911b27d",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/power_configuration.json",
+      "media_type": "application/json",
+      "size": 10520,
+      "sha256": "sha256:40a8d318662df797ab5b4cd1b122f53e18aa93958d6541a6ffb62da18dc4ef9f",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/practice.json",
+      "media_type": "application/json",
+      "size": 14650,
+      "sha256": "sha256:7efe232c833741502de2c3fae6a8c6680e4f587a712eafe3b872c9d4053e6eb4",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/subtle_world_pattern.json",
+      "media_type": "application/json",
+      "size": 16848,
+      "sha256": "sha256:f95d4010288d0f2055491c8ee3a4e5b61f73c374ba5b6b495aa16987c89ae2bd",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/tension.json",
+      "media_type": "application/json",
+      "size": 39747,
+      "sha256": "sha256:44bf6035a2ba103da357bffdb1677a8b2448908269d27537bfe31c901f75ccf3",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/trajectory.json",
+      "media_type": "application/json",
+      "size": 11715,
+      "sha256": "sha256:86900a642989820352be69fd45bed7d67e4a4e51385121deea352a87b1d0dc32",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/transformation.json",
+      "media_type": "application/json",
+      "size": 18007,
+      "sha256": "sha256:df3dcba88b6e7c5e58be5d907e4234eecf2f704294f9cc4702fecf7be3c8f176",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/knowledge-units/voice.json",
+      "media_type": "application/json",
+      "size": 29020,
+      "sha256": "sha256:73988e850c8c7d24a276c6e6ca7d866e125e8ec0eb480e2267dedba643a7c069",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/navigation/pathways.json",
+      "media_type": "application/json",
+      "size": 3404,
+      "sha256": "sha256:cd16432e548d5b33c536792d90e788d61accc3cc162d90854e292b9d0665ba0d",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/observations/textual-observations.json",
+      "media_type": "application/json",
+      "size": 57135,
+      "sha256": "sha256:23b8330c2cf2d462aed4fd2dbd30deb0c157452bd23de8daea2cba1f8eea214d",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/relations/grounding-relations.json",
+      "media_type": "application/json",
+      "size": 175656,
+      "sha256": "sha256:ef9c361d25d0f3752566138771701ba9164d92541c622d91f85b3d832d7b9cc5",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/relations/polyphony-relations.json",
+      "media_type": "application/json",
+      "size": 3742,
+      "sha256": "sha256:37bf43f0a7f0636b8677e3ef0de05e94bb55cffba56a2c93523ac6407add5e58",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/relations/semantic-relations.json",
+      "media_type": "application/json",
+      "size": 26405,
+      "sha256": "sha256:f40d838db8e147499050ab48c58d3ceeeb6026c38dd57a1db3f688b0354741fa",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/relations/textual-relations.json",
+      "media_type": "application/json",
+      "size": 20158,
+      "sha256": "sha256:3168c2b14807961e6489cecdc982f08126f80ebe031997f11d6213a550656cbc",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/textual-witnesses.json",
+      "media_type": "application/json",
+      "size": 4444,
+      "sha256": "sha256:97991a51fce4810a9a1b3e5356a9a78a473795956aa75b9eef6aa1659d179bb3",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    }
+  ]
+}

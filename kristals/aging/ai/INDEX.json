@@ -1,0 +1,537 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:aging:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:b3a52020a6774ff8d58615d11366ec994d8d81aa8f3519500c959cf285b91903"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1289,
+      "sha256": "sha256:4c0a7dcfe7313503193dbbad43c7cc997df5b5d60c3dc56420423f1b948de7ed"
+    },
+    {
+      "path": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1263,
+      "sha256": "sha256:9c3c8ba395f0a27d00682c6d51cb2fab798907c67aaff59278180a47bb7a5f3d"
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 13584,
+      "sha256": "sha256:eaec4a545ea93f7b3dd06658c2c68b6c4448acc9ec40c50044649f6c7f36a2fc"
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 355,
+      "sha256": "sha256:e267c3b1f345b7e1c48ad86d27e6870b64379c85e7bae3b0abbea8db278715bf",
+      "artifact_id": "urn:kristal:aging:artifact:canonical-state",
+      "logical_contract": {
+        "id": "aging.canonical-knowledge-state",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/identity_registry.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 373,
+      "sha256": "sha256:50856556c4440e7d27027ae475ce1ef4ce2641557ee66e96b29f68feed760753",
+      "artifact_id": "urn:kristal:aging:artifact:identity-registry",
+      "logical_contract": {
+        "id": "aging.identity-registry",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/epistemic/legacy-build-input-editorial-sources.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 11541,
+      "sha256": "sha256:ec744cc8c4d17c9440b53bf17f8404b2c3ae32ebdbdcd08bc9e86e9702843533"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 3552,
+      "sha256": "sha256:1e96cfb47891e3751c33a2fe5567a2adc3435e0300abe43b2428b1cf37e1615e"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 523,
+      "sha256": "sha256:cee9b999cafb9a2d0f6e1f9807969d3899e75d8aa506366c5e64e32099521bfa"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 500,
+      "sha256": "sha256:c25e8f3bea09f0e857104b9acbdef6abc1fe57df5159144a12e34d162e0b9549"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 721,
+      "sha256": "sha256:b4b0ad2d23e40a680deb2196ffdd111caaca354bfcbf8c605a57250ad304acdc"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 668,
+      "sha256": "sha256:0eb44c23bb97df57b5297dd7d7857850ee1bbf4cd0e103bc544fb4b912b91545"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1002,
+      "sha256": "sha256:d530d800c499b02e12fa096df10b25356860e7642907c85fcee62fd2ec5265b9"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 560,
+      "sha256": "sha256:eee9c780b1f14eca0e60130191a8a82f0d9c3dc5686ace92d385c774d36aabc0"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 668,
+      "sha256": "sha256:921a06c2d2be782059bbd5f441b86b4a654f61eb64133d6ff2db521047f906de"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 549,
+      "sha256": "sha256:96f6826e12f0a42c383061f5661d4d15e9cce2a0494d7591cb8f9d7db171d979"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3937,
+      "sha256": "sha256:2585cf8d7168f3542fd02df61ce8481bb71cf502c4107b9499b2d25b7f04e38a"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 16359,
+      "sha256": "sha256:299e93767fa080fcc979f989021bc6fdc51ed8b357c68df55c5aa3d12c2b6070"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 1161,
+      "sha256": "sha256:9b51cd828c59076b41bd734b0252a3df2db5d7a35aa9b393bb0fae2ad7e89595",
+      "state_ref": "urn:kristal:aging:state",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:b3a52020a6774ff8d58615d11366ec994d8d81aa8f3519500c959cf285b91903"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:canonical-state",
+      "kind": "segment",
+      "key": "knowledge-base/corpus/aging.kristal-state.json",
+      "media_type": "application/json",
+      "size": 374044,
+      "sha256": "sha256:59167e2a836b8e3a00dc74b487c29ebb7517819187479748e32458b9f92a6554",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:identity-registry",
+      "kind": "segment",
+      "key": "knowledge-base/corpus/aging.referents.json",
+      "media_type": "application/json",
+      "size": 7235,
+      "sha256": "sha256:3a79f3d5586e22629afb6212e381fab3a2735960c32152aff08e26523491b74c",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "external-source-library/source-store.json",
+      "media_type": "application/json",
+      "size": 7189,
+      "sha256": "sha256:6199f16b8f69a0930a563845582dbb2c97118aa2dc99d7e6de4fee5baeb4ab49",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/bone_connective.json",
+      "media_type": "application/json",
+      "size": 6212,
+      "sha256": "sha256:8f45b66cba10f1155c95636b2f1b74dbfa1df3aa9105479142b0322ab3cfff2d",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/cardiovascular.json",
+      "media_type": "application/json",
+      "size": 6117,
+      "sha256": "sha256:776cc9c0537341588766c4bbde940d15c00d76b82b5a30d47e93ee5175daab76",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/cognition_brain.json",
+      "media_type": "application/json",
+      "size": 6363,
+      "sha256": "sha256:1e0e11e60758fc78c50d21cc31391c3cef7bb4b846b89dc66fb87538cf879d11",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/compensation_adaptation.json",
+      "media_type": "application/json",
+      "size": 6368,
+      "sha256": "sha256:8bd52ec208397e709bf317d367bfcb7d1ca19a88d4ffa6cc4b13e6e81eec7b0b",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/environment_social.json",
+      "media_type": "application/json",
+      "size": 6336,
+      "sha256": "sha256:ea0db576fe6bf9506030739dbf926de19fbde54c4a301c3bf8428bcb3c98356b",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/foundations.json",
+      "media_type": "application/json",
+      "size": 5434,
+      "sha256": "sha256:5948b97f90d1af9c3fff73367aab4021c8f6d4449243a6d2684f158d5b1c22de",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/frailty_vulnerability.json",
+      "media_type": "application/json",
+      "size": 6458,
+      "sha256": "sha256:27387079676cee7e9629d21dd4bcdb2f85978941081c44f4038a6e3716f1df01",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/functional_ability.json",
+      "media_type": "application/json",
+      "size": 5862,
+      "sha256": "sha256:cb6dd9adbd27a466e339ec2dec472b26622ce977c833146ba16a8a144ea8c682",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/genome_epigenome.json",
+      "media_type": "application/json",
+      "size": 6274,
+      "sha256": "sha256:1197ce1f3140f426a2c51d9c14f0d867478324d1c6258a45be86e2a88bd0bcae",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/immune_inflammation.json",
+      "media_type": "application/json",
+      "size": 6384,
+      "sha256": "sha256:7eb596e876fb05fed980485772eb4476d8f3fc9cb571a3868afa61e30b5782d6",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/intercellular_microbiome.json",
+      "media_type": "application/json",
+      "size": 6392,
+      "sha256": "sha256:e886f56b99137d90630dc5d919308b4f749417bcf7774861e85ec73f12992ef6",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/invariants.json",
+      "media_type": "application/json",
+      "size": 8747,
+      "sha256": "sha256:556a9c7239ba95cc2a7fa24b8b6dfd7f9890364a6af88827b5dd03f050206f2a",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/life_course.json",
+      "media_type": "application/json",
+      "size": 5817,
+      "sha256": "sha256:232d927f55ad8c59e511915856057369407cae94037eb45fef39ff397348303b",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/longevity_mortality.json",
+      "media_type": "application/json",
+      "size": 6483,
+      "sha256": "sha256:2524eb272dc5f03bf1e2f9f535958796c305a3467513750c2e3355a7c696977d",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/measurement_biomarkers.json",
+      "media_type": "application/json",
+      "size": 6486,
+      "sha256": "sha256:c1e031fa451185c07bcdb79e9b0afc1dc14358ee2055cf1b6fd26713d49e0924",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/mechanisms_hallmarks.json",
+      "media_type": "application/json",
+      "size": 6239,
+      "sha256": "sha256:8ccd830f0561cb4f8c1311e7b4d6fdc1d25b1b2fee38c7da0f65d223523588f6",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/metabolic_endocrine.json",
+      "media_type": "application/json",
+      "size": 6321,
+      "sha256": "sha256:7d9f954f4c6a6fb6195387b5bdb7f3208c5e66db3e1cf5e647bdccb2a9c3fd74",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/metabolism_mitochondria.json",
+      "media_type": "application/json",
+      "size": 6456,
+      "sha256": "sha256:256bb2f98df7ecd73e1deca2a6078de9f8dfba13263972fcfda2b8fe3d2b40c6",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/muscle_mobility.json",
+      "media_type": "application/json",
+      "size": 6250,
+      "sha256": "sha256:d3015f07f5e0e18b4f6bf8e1fa3508f5304676cbb2b392770508056ac00816cf",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/proteostasis_autophagy.json",
+      "media_type": "application/json",
+      "size": 6292,
+      "sha256": "sha256:5b255ba83043e5b1421d86367d8f74a53555b366c8bc9c35487bb0d71aa9c30b",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/renal_fluid.json",
+      "media_type": "application/json",
+      "size": 6104,
+      "sha256": "sha256:c88cbaf9aac1c7a74aebddea979b59e294a2904ea27b69c2eaf7082d7ee7ccd3",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/reserve_homeostasis.json",
+      "media_type": "application/json",
+      "size": 6308,
+      "sha256": "sha256:2e190e1b448df0998b7704f3c1aa01aee72ff519de6e2484533a2a8a76139025",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/resilience_recovery.json",
+      "media_type": "application/json",
+      "size": 6353,
+      "sha256": "sha256:72da7c742cc3a81118d2d24374db70539259ccc287652315b016d6fd99e2feac",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/respiratory.json",
+      "media_type": "application/json",
+      "size": 6020,
+      "sha256": "sha256:40d73b27ce3afe2e68104774a2036c61dc08932f17694430a0ef455932959509",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/senescence_stem_cells.json",
+      "media_type": "application/json",
+      "size": 6366,
+      "sha256": "sha256:0fa369f5c2e89c0cd697884ebfd039bc26f7f08b6863061b26647db13a9c79f9",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/sensory.json",
+      "media_type": "application/json",
+      "size": 6064,
+      "sha256": "sha256:a56e05792382d7334558c1f2b3dedab12e734ca6aed4c37d126f4d8c5a7a444e",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/sleep_circadian.json",
+      "media_type": "application/json",
+      "size": 6072,
+      "sha256": "sha256:7a903d08502dc7097d4e7b60a37acdfcebea3dca236d48e126429ec2627561ec",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/source_catalog.json",
+      "media_type": "application/json",
+      "size": 7182,
+      "sha256": "sha256:02765e877d260e6bab7bf6224b1cdf22ed1193ed272539fae15a888cf34c02e1",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/trajectories_variability.json",
+      "media_type": "application/json",
+      "size": 6429,
+      "sha256": "sha256:33f642a2d41b17533d2587553331f7d8370c18928fedaf4625646d6d4b4bcafb",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    }
+  ]
+}

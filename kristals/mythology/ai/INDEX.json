@@ -1,0 +1,373 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:mythology:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:0e89289e4488b7735882bfe4a08fe3ac59fb099e85c37e950f2bce536980b21a"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/inline-json.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1174,
+      "sha256": "sha256:39d26e1fd93a76a6ba906c249c4acd232d8315d001a86a55ac82b6ef4f469229"
+    },
+    {
+      "path": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1175,
+      "sha256": "sha256:2a5008eaf986540c032de36e8e0e34b4035034417737f95e91e3fc8e5e264a4d"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 365310,
+      "sha256": "sha256:dde4ed9aa99e39f3e33a3ae288036126e6e03f3dd91a19a9d634b74373669998",
+      "artifact_id": "urn:kristal:mythology:artifact:epistemic-state",
+      "logical_contract": {
+        "id": "kristal_state.hash_target",
+        "version": "6.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 247010,
+      "sha256": "sha256:2fb7625e3848b889d38b8e71987c4c4470d7944c4cc47ef3f955c706d444414f",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1978,
+      "sha256": "sha256:766d5f65ccee97a831ca85dd8b702580f4f438167a28e7614d8fdc8615bd5ecd",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1917,
+      "sha256": "sha256:7b4fc854035952e71efe2cb734d756b3b65aa3c151fc095c7a9e1f13f0d1ce56"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 24233,
+      "sha256": "sha256:282aacf5140377cd040151b9aadb32abe9d76df6492febc6770ac02f44e26ee5"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 1181,
+      "sha256": "sha256:8a8cba5f8af7ef5dc12fb505cde518ee3e962813958b64b88ddd97cd74db7fa1"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-fr.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 1191,
+      "sha256": "sha256:f674899295ba0032320f33549bf9d30215a4a7dbb0a9a05c7eb3c4083a227e7c"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-und.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 98479,
+      "sha256": "sha256:45620a13cbb4e1d7a9f6f823cf9fd1904ab8bf5889b9b4263bcc04e5f4f38514"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1518300,
+      "sha256": "sha256:3dbd39a875749fc94c1ace967245287faaabf325e183602d0e167d77c4ee4892",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/import-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 657,
+      "sha256": "sha256:092f4d8da34950a14b2d7092b27f4966547b207b9c06513e684c5a06fb97e643",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 241385,
+      "sha256": "sha256:cdd59d3f9982df76ce93d57309fa8f5e0c2f7bbd0be81db8516b3490175073a9",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/source-ledger.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 908323,
+      "sha256": "sha256:0f2759cf71fdcad6a8ad820d4088fd49ab2ac411c52cbec01ad58b22f2459fb1",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 248801,
+      "sha256": "sha256:98bae9c05999e3f3280a3b12ea04da0fffa969e84904c0ef0ede9260e23b1b32",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2426,
+      "sha256": "sha256:a03dd7de92690ed14b4fec6cba5aba5cf25368d821b1bac1075e73c10dc17c18",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 12842,
+      "sha256": "sha256:4ac061674c07b8614bb9fd60ab0c691e4f3d24af20cf63a688db4324d0d0002d"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 24233,
+      "sha256": "sha256:282aacf5140377cd040151b9aadb32abe9d76df6492febc6770ac02f44e26ee5"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/structured-fields-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 3991,
+      "sha256": "sha256:c5bc180fabc6a0d31dace2d0fb325fdf1b08b22de24a8d08f6317de6a9197a3b"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 1181,
+      "sha256": "sha256:8a8cba5f8af7ef5dc12fb505cde518ee3e962813958b64b88ddd97cd74db7fa1"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-fr.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 1191,
+      "sha256": "sha256:f674899295ba0032320f33549bf9d30215a4a7dbb0a9a05c7eb3c4083a227e7c"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-und.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 98479,
+      "sha256": "sha256:45620a13cbb4e1d7a9f6f823cf9fd1904ab8bf5889b9b4263bcc04e5f4f38514"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1614043,
+      "sha256": "sha256:31ffdeb76da2b9d4c0ee75152ff2e09c5487c0339bdd77c2a298d82ee6ac3ae8",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 336838,
+      "sha256": "sha256:8e8b9ad2d56d35f3286541847534700d5d5d74b6333e563826af79fb273a6699",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/structured-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 65596,
+      "sha256": "sha256:2febe0a1ae9e45ef556badd82cc65e02d17409e2d0ac19fd3a106c3aca97aee1",
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 5690,
+      "sha256": "sha256:a216ae8497975be0c4d919ba06f137c8b269fda7848024740563e2f9b1a64108"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 774,
+      "sha256": "sha256:cc48d7f638f66572b8ef05576b129d9f0572ed005b251c81a27d000ba6712675"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1090,
+      "sha256": "sha256:36cf9a45024313a8f9e915b032d7067f1fccd1b7a3deb01c2e38813318a93274"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 895,
+      "sha256": "sha256:8668524ea78d959e61c6501728f9ea175a8b30c95443c507d90b332bd27b6160"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 888,
+      "sha256": "sha256:1b1f811af3d47a747c818e117977dd5318f58c3a8f8a92629e61c149d35b9c1c"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1347,
+      "sha256": "sha256:44c824d4976815cca1b959b8190eaabf9c2e2853e5245ed76ce4db6713c87d8b"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 684,
+      "sha256": "sha256:95ae5376eb3dfdc003566705bb13debccaabbe703c63780ad3874587ac1e8585"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 858,
+      "sha256": "sha256:5333f83d9aaabf1076b977172b0321162d1c3684220315ed8c11ec7d67d2cd2e"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 660,
+      "sha256": "sha256:ba777d24300c3f6a3acddd4a547a6c912999c41931005f04654611d557850b89"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3677,
+      "sha256": "sha256:964b2ec06b3fbe5d79ac95f9ba95dfe20b75bee3254056568c0f543011d768c0"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 711,
+      "sha256": "sha256:08d44e4ccd7f1e1b3291505baf500183ba2248d3e0947f16057befd92073481c"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 6654,
+      "sha256": "sha256:d08f354e9ce12af5e7dda5ac5a93bf34fe696972711138e9835263a22ef121cd"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 5287,
+      "sha256": "sha256:d79daf5ad56f6b4669165f820e26a019af83aab4ef61e4184d1ad0a4ec419cfa",
+      "state_ref": "urn:kristal:mythology:state",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:0e89289e4488b7735882bfe4a08fe3ac59fb099e85c37e950f2bce536980b21a"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/inline-json.materialization.json",
+      "source_artifact_id": "urn:kristal:mythology:artifact:epistemic-state",
+      "kind": "segment",
+      "key": "artifact",
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size": 390966,
+      "sha256": "sha256:ec6f38714d6fce4ca0d97ca637ba76327a4ccf7a908a3ab0f0273f74f8f0bc32",
+      "locator": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:ec6f38714d6fce4ca0d97ca637ba76327a4ccf7a908a3ab0f0273f74f8f0bc32",
+      "verified_size": 390966
+    },
+    {
+      "manifest": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "source_artifact_id": "urn:kristal:mythology:artifact:epistemic-state",
+      "kind": "segment",
+      "key": "portable-state",
+      "media_type": "application/vnd.kristal.state+json;version=6.0",
+      "size": 365525,
+      "sha256": "sha256:b290adb1584c05ce0529188dba23bce5ce2e69925b84b4eb1fcb7c5d3cce4fc1",
+      "locator": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:b290adb1584c05ce0529188dba23bce5ce2e69925b84b4eb1fcb7c5d3cce4fc1",
+      "verified_size": 365525
+    }
+  ]
+}

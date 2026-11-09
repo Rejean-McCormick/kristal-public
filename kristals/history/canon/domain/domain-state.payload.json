@@ -1,0 +1,27 @@
+{
+  "domain": "history",
+  "domain_version": "0.1.0",
+  "native_shape": "temporal-causal-epistemic-graph",
+  "basis": {
+    "artifact_id": "urn:kristal:history:resource-basis",
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:65fda42089f45881c0d97bd9dd61f6e47d2c95d93f65e77bed5bc12a9e81d2c5"
+    }
+  },
+  "canonical_roles": [
+    "portable_epistemic_state",
+    "identity_registry",
+    "source_catalog"
+  ],
+  "compatibility": {
+    "inherited_content_preserved": true,
+    "v6_v5_payloads_unchanged": true,
+    "v8_read_models_preserved_as_derived": true
+  },
+  "semantic_boundaries": [
+    "before(A,B) != cause(A,B)",
+    "temporal_relation != causality",
+    "competing_explanations_may_coexist"
+  ]
+}

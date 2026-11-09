@@ -1,0 +1,145 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:kristal-visualarts",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:d7ae4fe1c31c04a9412e86506ad225ca9eef447ffd50ef099aa26e47fed2155c"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:artifact:kristal-visualarts:portable-epistemic-state",
+      "logical_contract": {
+        "id": "kristal.portable-epistemic-state",
+        "version": "6.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b7b4efe1866b3ea9546f6c42e56c648f861d2a1b456452b069700d684e134ed7"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:93bdf3e1373ca410826f73e9dde009a43a12ac5b1677c0352d0feec9a04446bd"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0a35623e4c5843a73654e014baf22e76a51ab97bbf2eea43f980f50890054f20"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:eeaa6568793e7a55ad3373e7dc09c21bb140e0cf952fc8f5fcce6fb88f4d9382"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:489a25bdf3468ebf15a2640e486082aac4133b201eed3f9aaf90bc408a7c57d3"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9ab8531acaef3e367237ca1bab4e7e704d9c191324b4eac433c9ecd56134d986"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2a45bc483457c1207c2daa2a8accb2ef6634095ef40b84bd241436b0ac850827"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3534f452cd434ed09d2c6f9175cffc29cc2de8e925d812acaf552691258d2e79"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bd5e8e708d0d329037c6ca4e6f99b5e5949558dae14f1eeaf2088667b8eabb33"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ccfab95883b604c114ca79d09d265014d54f73f25c7016f3c48762c153d1e8d2"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1cef5e30e2a6bf9e5786140176766654370d288fccb5e56ef7dfc01b90977f62"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-visualarts:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:46df7407d8906f504452c6c97f4a4cbcca6426b613ae5135753673156d289e98"
+      }
+    }
+  ],
+  "references": [],
+  "parents": []
+}

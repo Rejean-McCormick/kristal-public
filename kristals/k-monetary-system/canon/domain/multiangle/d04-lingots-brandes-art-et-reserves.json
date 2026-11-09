@@ -1,0 +1,64 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d04",
+  "protocol_id": "D04",
+  "title": "D04 — Métaux précieux brandés : produit commercial, capital ou réserve ?",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:C01",
+    "source:multiangle:S04",
+    "source:multiangle:S07",
+    "source:multiangle:W11",
+    "source:multiangle:W13",
+    "source:multiangle:W14"
+  ],
+  "depends_on": [
+    "D05",
+    "D06",
+    "external:precious-metal-dealers"
+  ],
+  "validation_gates": [
+    "provenance_metaux",
+    "transactions_independantes",
+    "liquidite",
+    "anti_blanchiment"
+  ],
+  "sections": [
+    {
+      "heading": "Trois rôles qui ne doivent pas se mélanger",
+      "level": 2,
+      "body_markdown": "A. **Objet vendu** : propriété transférée à l'acheteur, prix libre de marché. La marge nette réellement encaissée peut financer une entreprise, si elle y est consacrée.\nB. **Actif d'investissement K_C** : lingots *détenus réellement* dans un véhicule, droits juridiques, garde, inventaire et valeur de liquidation attestés. Ne pas émettre des droits multiples sur un même objet.\nC. **Réserve K_M** : uniquement si la constitution monétaire choisie l'autorise et si risque de prix/liquidité/rachat est traité; une prime de collection supposée ne peut pas être intégrée sans un processus prudent de valorisation et de liquidité."
+    },
+    {
+      "heading": "Prix et couverture",
+      "level": 2,
+      "body_markdown": "Prix de vente réalisable `P = M + A`, avec `M = poids fin × prix du métal`, `A = prime artistique payée par un acheteur indépendant`. `P` est un prix d'une transaction, pas une garantie de revente. Valeur prudente liquidable `L = max(0, M × (1−haircut_metal) + A_justifiée × (1−haircut_art) − frais_de_vente)` avec `A_justifiée=0` par défaut si marché secondaire insuffisant. Un contrat d'assurance ou un certificat de rareté n'est pas une contrepartie liquide."
+    },
+    {
+      "heading": "Passeport de provenance",
+      "level": 2,
+      "body_markdown": "ID physique unique; masse et pureté par assayeur indépendant; lot et fournisseur; artiste/contrat de licence et redevances; tirage et règles d'édition; propriété actuelle attestée (sans exposition de données privées); document contre-contrefaçon; prix/frais/taxes de vente. L'enregistrement numérique peut constater la provenance mais n'empêche pas matériellement une contrefaçon."
+    },
+    {
+      "heading": "Obligations légales à vérifier par rôle",
+      "level": 2,
+      "body_markdown": "CANAFE pour négociants métaux dès les conditions d'assujettissement [W11]; fiscalité vente et gains [W14, à compléter selon nature exacte]; droit de la consommation, garanties, import/export, assurances et stockage; qualification en placement si promesse de rendement, fractionnement ou gestion collective [W13]. Une galerie d'art peut être légale sans être une autorité fiable de prix."
+    },
+    {
+      "heading": "Tests d'échec",
+      "level": 2,
+      "body_markdown": "Baisse du prix de l'or 40 %; prime qui tombe à zéro; rachat forcé sous 5 jours; scandale de marque; lingot non traçable; demande de 100 % de liquidité simultanée; risque d'entreposage; discordance des certificats."
+    },
+    {
+      "heading": "Pare-feu de valeur",
+      "level": 2,
+      "body_markdown": "`Prix d'affichage ≠ prix de transaction vérifiable ≠ valeur de liquidation ≠ qualité d'une réserve bancaire.` Les primes artificielles issues d'échanges non indépendants sont exclues des valorisations de réserve. Aucune obligation de rachat à un prix de collection garanti n'est présumée."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D04_LINGOTS_BRANDES_ART_ET_RESERVES.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

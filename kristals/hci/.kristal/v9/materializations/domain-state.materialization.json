@@ -1,0 +1,34 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:hci:materialization:domain-state",
+  "source": {
+    "artifact_id": "urn:kristal:hci:semantic-state",
+    "logical_contract": {
+      "id": "hci.semantic-state",
+      "version": "9.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:210050babbdbf0737a79e7082d853e56ef3f6c2200f8f6ea7d7f468cbd02ba54"
+    },
+    "authority_ref": "urn:kristal:authority:hci"
+  },
+  "profile": "kristal.materialization/inline-json/1",
+  "segments": [
+    {
+      "segment_key": "all",
+      "record_count": 1,
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:ca91d60a9140c766c73c92ca7f555e397493f98bd300d655ea5141591fd72de9",
+        "size": 1816,
+        "locator": ".kristal/v9/artifacts/domain-state.logical-artifact.json"
+      }
+    }
+  ],
+  "reconstructability": {
+    "lossless": true,
+    "profile": "hci.semantic-state/9.0"
+  }
+}

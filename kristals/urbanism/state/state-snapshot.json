@@ -1,0 +1,112 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:kristal-urbanism",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:25bc8a4788b109d3c3244d386b518df3a586b02944e3f8a8b3320f35612c921d"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:artifact:kristal-urbanism:portable-epistemic-state",
+      "logical_contract": {
+        "id": "kristal.portable-epistemic-state",
+        "version": "6.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9ca17d43e46c9f1d05bfbf4f8a096d95cdf97f937a761a95bea0ee6459da70a0"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:kristal-urbanism:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5ab760c7201b7f63bb879d41e7bb5e59d6a4e1d308a8d4c9a878c6d68e67c5e3"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:kristal-urbanism:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:76b0f32aa48d696153039391322e12b9711f2c7c5819293c238d6bfd45710183"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:kristal-urbanism:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bf9e63ca39f1bb08f96b551de6b73a9f2e39049cd3df4624999f50538df1d3ab"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:kristal-urbanism:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ce893e71ead3ddb581021bd408c632e396b78ac8340dfb42778c357e0d7077f7"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Urbanism:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:11b01f939314ad397472edfe3ec64dcc6687ff9cb2014cfd670849dc8d4432c9"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Urbanism:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:aed9cc247925312ca410c36cbbb12a6ee253208ecbc15254da9e2bdda879fd0d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Urbanism:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c379bea30e3b724a54321475e215241e190250eb1d7b7322f48d229f96fabaac"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Urbanism:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:231216887303893cf5f053ce6ac1e32a5634b6e5a72dee3b9b0fc8e7b3c67218"
+      }
+    }
+  ],
+  "references": [],
+  "parents": []
+}

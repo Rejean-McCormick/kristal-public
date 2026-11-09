@@ -1,0 +1,52 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:koa-sales-pitch:canonical",
+      "path": "canon/domain/sales-pitch.kristal-state.json",
+      "logical_contract": {
+        "id": "kristal.v6-state-reference",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "precomputed",
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:7b93562350b278aa9a126d28b0c3712e17847cac88620b97c9f6d31c36fcbe71"
+      },
+      "authority_ref": "urn:kristal:authority:koa-sales-pitch",
+      "scope": {
+        "domain": "koa-sales-pitch",
+        "role": "canonical_knowledge"
+      },
+      "extensions": {
+        "commitment_origin": ".kristal/v9/canonical.logical-artifact.json",
+        "legacy_compatibility_mirror": "knowledge-base/corpus/sales-pitch.kristal-state.json",
+        "native_state_id": "sha256:1f57e369832e69a3930c6cec03bc822ea0450b99de88003488be6bf7f32d548a"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": ".kristal/v8",
+      "role": "legacy_rebuildable_read_model"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "historical_v9_migration_envelope"
+    },
+    {
+      "path": "views",
+      "role": "meeting_read_surfaces"
+    },
+    {
+      "path": "knowledge-base/profiles",
+      "role": "reader_profiles"
+    },
+    {
+      "path": "knowledge-base/corpus/sales-pitch.kristal-state.json",
+      "role": "legacy_byte_identical_canonical_mirror"
+    }
+  ],
+  "notes": "The Local 3.2.2 canonical materialization is under canon/domain. The legacy knowledge-base/corpus copy is retained byte-identically for compatibility with native v6/v8 tooling. The precomputed Logical Commitment preserves the existing v9 semantic identity."
+}

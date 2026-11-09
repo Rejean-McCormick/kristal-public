@@ -1,0 +1,74 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Paleontology:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-20261026-rebuilt-v2:wikidata-structured-20261026-v3",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "cbefb3c071a0614a3020934b5539abcb9cd884e76ec7af455f5d8c9a13753773"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-fr",
+          "path": "wikidata-fr.jsonl",
+          "priority": 100,
+          "sha256": "29fd19227b25a0ea2a05f407d2a31cc2c6d7442b580036b4488c7b2b07661647",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "4df31cc071643e0f5050b304ea7b6536c2ce79683e5152b3405c0f21b42219f5"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-und",
+          "path": "wikidata-und.jsonl",
+          "priority": 100,
+          "sha256": "cb23f198441ad756ebd49c1c48ee81ac35644bad00b5d90c0bdb7ad6f3b422e6",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "und"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-en",
+          "path": "wikidata-en.jsonl",
+          "priority": 100,
+          "sha256": "c69d732534f3d55aadf998b9b0cb8ba842551bc8516b8383f4c61a9040eea2df",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        },
+        {
+          "kind": "external",
+          "layer_id": "structured-fields-v3",
+          "license": "CC0-1.0",
+          "path": "structured-fields-en.jsonl",
+          "priority": 100,
+          "sha256": "f4c5704267faee662823958b1a32c068cc980ba8eb4d723fdd30d1e4dd6b904e",
+          "source_snapshot": "wikidata-structured-20261026-v3",
+          "source_system": "kristal-structured-value-model"
+        }
+      ],
+      "tag": "en"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-paleontology",
+  "schema_version": "11.0"
+}

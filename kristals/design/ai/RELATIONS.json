@@ -1,0 +1,24 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:design",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:45b1c8fa68e71451468b9bb2e30350d1570e0fcf81849f92a76218c6c3e5e8a2"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:design:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      },
+      "authority_ref": "urn:kristal:authority:design",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e8f9110ce5d57820983ea0950cf1373cd90e3f6ffa6f26b6c82c1dc56f7c51ae"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

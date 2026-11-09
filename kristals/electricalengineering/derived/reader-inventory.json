@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:kristal-electricalengineering",
+  "source_fingerprint": "sha256:4033e14a1cadc738d870fc9bdbe81c71a28f6706c79963288585b43e2b4379f0",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 395128,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 204768,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-artifact-kristal-electricalengineering-portable-epistemic-state-0680e6cbaa.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 204768,
+      "sha256": "sha256:c5bd9de1e232bf2ef6ee31bea5d7c1939e2994e8c34b3ab02f102506e5d0b135"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 780,
+      "sha256": "sha256:45e0d06d68a6cfec75332347f2a20959106c71f497737b2043dfbc27306e98e9"
+    },
+    {
+      "path": "canon/domain/portable-epistemic-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 189580,
+      "sha256": "sha256:8e85b98997b06fa0d4a7c46d09c005d8cb3d310a1545558f678fa0467679202c"
+    }
+  ],
+  "segments": []
+}

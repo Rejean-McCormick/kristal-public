@@ -1,0 +1,287 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:anthropology:state",
+  "source_fingerprint": "sha256:cd04f49ac0c04e607d3a1a5e37238ebd5ea0f9a3e378af5c21fb9e7c2b2e0782",
+  "specialization": "kristal.reader/generic-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "generic",
+  "materialization_profiles": [
+    "kristal.materialization/native-blob/1",
+    "kristal.materialization/native-json-bundle/1"
+  ],
+  "artifact_strategies": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1338,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d0bebf138f6d051c1596a472bddd4f2ed4d5cb253de083b0ea0063fb91e8ad83",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1310,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:b6306caa7ec449b54e0966b6264b8f651132f88c889c70e5b44de746fe42dc16",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-anthropology-artifact-canonical-state-f418548891.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 858,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:c75257f4274bbf5c5068758b1f15de024bb7669f71d23cfb5717756fdbfb0bc8",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-anthropology-v11-catalog-2026-10-27-80e363dccb.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1367,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:e6478d093b4cbfa83fbae4b8431da51d4c9654657adf6a4264e5ac0cd7e5103e",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-anthropology-v11-crosswalk-2026-10-27-3a11e61c4c.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 2536,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:93aaa4a4e58f975722aa9f04422088f8e1707e919b27b37ba7b136d13b571d13",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-anthropology-v11-graph-2026-10-27-7538c42d51.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 338044,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:5ce95935789f1f08992aa8d3987ea47a1d6066d1e5fc8137569979cbf1fcd879",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-anthropology-v11-identity-2026-10-27-96490c55c6.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 54612,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:35399efddbeeb9b3d56b6cb750cdaaf86a1d05328d03deeaf19c70c86bfcecdf",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Anthropology-catalog-68c9acb147.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1943,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f570a323a6653666015b2a36e68ca0a679b683ed1d381257a26450d48b9562a4",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Anthropology-crosswalk-fa41412b03.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 2554,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:6d1e9efb63ac861120ff3aa4950870e021dcac8e30b4a0ea823c0ed8a44d3521",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Anthropology-graph-a64f0d4424.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 339846,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:b58df5692bb17df4b897cecaa6ca816441ee810c7d9a7deb97539ed5216371a8",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Anthropology-registry-b8af17068f.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 55809,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:5f5758773d0d4ce81c226c90f9197440780b98b1691b6f53803812d4d82d1027",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3850,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d385ead6569d2563241fb34442cbfa9ebf084175167f70899c266e680179eaef",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 355,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:35f733c5d9eb0cc4163d36ca2e770087ffe133d9aded5728fdf72cd0703f33af",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1425,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:9d38c9006e6fcf7a9e5827f624ca3836e1a6b860138ad1a26a11b24249bb5060",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1986,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:98680a5daa0fcbe5ed37bbb7adba9e07f5b375f38a1347804b9a740fa0169318",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 50591,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:368a9bff8e7b1d5de3c5baa2853104efb57007b44b5e424faed6dd0bdfa67fd4",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 316348,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:deed646df0c298e7d1f092d959d2fb2ebbb1bce266aef0d9bea7a904c2577105",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 880,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:1be4fbff14103ce2b8b40e5536b203e1b11b7631082f411b45c2a871c642912d",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1971,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:ad679af804df530bfade5784ca4dc102210fc3d2e67e6a2c249aca8a3478723a",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 49497,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:486ab023e88ee0edfd4b4a2603792d5f361804172e714815841f77fa45e935f9",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 314665,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:e0539278e7d01571e91ef3d2246e8426f09c2a03dda20f091a6ec477a7dac4d5",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

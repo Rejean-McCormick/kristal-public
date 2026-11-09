@@ -1,0 +1,74 @@
+{
+  "format": "recipes.preparation-events.v1",
+  "version": "2.0.0",
+  "status": "synthetic_seed",
+  "events": [
+    {
+      "event_id": "urn:kristal:recipes:preparation:synthetic_bread_run_001",
+      "variant_ref": "urn:kristal:recipes:variant:generic_yeast_bread.v1",
+      "occurred_at": "2026-10-01T12:00:00-04:00",
+      "status": "synthetic",
+      "batch_scale": 1.0,
+      "environment": {
+        "ambient_temperature_c": 22.0
+      },
+      "actual_operation_metrics": [
+        {
+          "operation_id": "ferment",
+          "duration_min": 82
+        },
+        {
+          "operation_id": "bake",
+          "duration_min": 34
+        }
+      ],
+      "observations": [
+        {
+          "kind": "volume_change",
+          "value": 1.9,
+          "unit": "relative_volume",
+          "note": "Observation synthétique"
+        }
+      ],
+      "outcome": {
+        "sensory_refs": [
+          "urn:kristal:recipes:sensory:appearance:browned"
+        ],
+        "tags": [
+          "completed"
+        ]
+      },
+      "notes": "Événement synthétique pour tester l’agrégation; ne décrit pas une préparation réelle."
+    },
+    {
+      "event_id": "urn:kristal:recipes:preparation:synthetic_emulsion_run_001",
+      "variant_ref": "urn:kristal:recipes:variant:generic_emulsified_sauce.v1",
+      "occurred_at": "2026-10-01T13:00:00-04:00",
+      "status": "synthetic",
+      "batch_scale": 1.0,
+      "environment": {},
+      "actual_operation_metrics": [
+        {
+          "operation_id": "emulsify",
+          "duration_min": 5
+        }
+      ],
+      "observations": [
+        {
+          "kind": "consistency",
+          "value": "stable",
+          "note": "Observation synthétique"
+        }
+      ],
+      "outcome": {
+        "sensory_refs": [
+          "urn:kristal:recipes:sensory:texture:creamy"
+        ],
+        "tags": [
+          "completed"
+        ]
+      },
+      "notes": "Événement synthétique pour tester les observations de préparation."
+    }
+  ]
+}

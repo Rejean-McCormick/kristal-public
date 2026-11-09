@@ -1,0 +1,48 @@
+{
+  "domain": "humanbody",
+  "domain_version": "1.1.0",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:humanbody:resource:structured_epistemic_state",
+      "role": "structured_epistemic_state",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:d7d42275422ac810d2fe8c191da80ea25480a30cf7239a10b2295c1390323f10"
+      },
+      "legacy_schema_version": "5.0",
+      "legacy_artifact_type": "structured_epistemic_state",
+      "legacy_state_id": "sha256:416d4172c2f9d42feeb0883c8a73f606974f6d68f85b5ee617288343b7c99dae",
+      "legacy_content_hash": {
+        "alg": "sha256",
+        "value": "416d4172c2f9d42feeb0883c8a73f606974f6d68f85b5ee617288343b7c99dae"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:humanbody:resource:identity_registry",
+      "role": "identity_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:f90ef82902e3ed8a80e17a1d5e67610873ce4fb88cc600d233086e6590885551"
+      },
+      "legacy_schema_version": "5.0",
+      "legacy_artifact_type": "referent_registry"
+    },
+    {
+      "resource_id": "urn:kristal:humanbody:resource:source_resolution_contract",
+      "role": "source_resolution_contract",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:8ddfdfd00df6578c23a7c8321700bee16d423317dc9451cc782825642e12ed74"
+      }
+    }
+  ],
+  "semantic_boundaries": [
+    "derived_feedback_loop != validated_causal_model",
+    "sourced != validated",
+    "biological_reference != clinical_recommendation"
+  ]
+}

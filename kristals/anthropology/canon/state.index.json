@@ -1,0 +1,189 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:anthropology:artifact:canonical-state",
+      "path": "canon/domain/canonical_state.payload.json",
+      "logical_contract": {
+        "id": "anthropology.canonical-knowledge-state",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "anthropology"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:anthropology:v11:identity:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:anthropology:v11:graph:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:anthropology:v11:crosswalk:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:anthropology:v11:catalog:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:registry",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:graph",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:crosswalk",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:catalog",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": "knowledge-base/corpus/comparison-axes.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/coverage.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/elements.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/index.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/referents.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/relations.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": "knowledge-base/corpus/systems.json",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": ".kristal/v8/",
+      "role": "legacy v6/v8 read model or companion, authority per native documentation"
+    },
+    {
+      "path": ".kristal/v8",
+      "role": "v8 compatibility and indexes"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "historical v9 package retained, not replaced by the modern build"
+    }
+  ],
+  "historical_build_inputs": [
+    {
+      "artifact_id": "urn:kristal:anthropology:artifact:editorial-sources",
+      "path": "canon/epistemic/legacy-build-input-editorial-sources.payload.json",
+      "logical_contract": {
+        "id": "anthropology.editorial-source-bundle",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e2042a0bb02b8817cebb59b1c8dc1c64a401b12519b6d561a1307910264a2aeb"
+      },
+      "role": "build_input_not_state_member"
+    }
+  ],
+  "historical_materializations": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "profile": "kristal.materialization/native-blob/1",
+      "artifact_id": "urn:kristal:anthropology:artifact:canonical-state"
+    },
+    {
+      "path": "archive/historical-v9-materializations/source-bundle.materialization.json",
+      "profile": "kristal.materialization/native-json-bundle/1",
+      "artifact_id": "urn:kristal:anthropology:artifact:editorial-sources",
+      "preserved_original_path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "archived_sha256": "b6306caa7ec449b54e0966b6264b8f651132f88c889c70e5b44de746fe42dc16"
+    }
+  ],
+  "notes": "Les membres State v9 sont recalculés depuis le payload exact de leurs Logical Artifacts historiques. Les build_inputs ne sont pas silencieusement ajoutés aux membres."
+}

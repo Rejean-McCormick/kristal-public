@@ -1,0 +1,280 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:vaticanops:artifact:procedures",
+      "path": "canon/domain/vaticanops.procedures.json",
+      "logical_contract": {
+        "id": "vaticanops.native-procedures",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary"
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:taxonomy",
+      "path": "canon/domain/vaticanops.taxonomy.json",
+      "logical_contract": {
+        "id": "vaticanops.domain-taxonomy",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary"
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:passage-evidence",
+      "path": "canon/epistemic/vaticanops.passage-evidence.json",
+      "logical_contract": {
+        "id": "vaticanops.passage-evidence",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary"
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-text-units",
+      "path": "canon/domain/vaticanops.text-unit-registry.json",
+      "logical_contract": {
+        "id": "vaticanops.text-units",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-source-versions",
+      "path": "canon/domain/vaticanops.source-versions.json",
+      "logical_contract": {
+        "id": "vaticanops.source-versions",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-institutions",
+      "path": "canon/domain/vaticanops.institutions.json",
+      "logical_contract": {
+        "id": "vaticanops.institutions",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-guards",
+      "path": "canon/domain/vaticanops.guard-conditions.json",
+      "logical_contract": {
+        "id": "vaticanops.guards",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-links",
+      "path": "canon/domain/vaticanops.procedure-links.json",
+      "logical_contract": {
+        "id": "vaticanops.links",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-assertions",
+      "path": "canon/epistemic/vaticanops.assertions.json",
+      "logical_contract": {
+        "id": "vaticanops.assertions",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:kristal-v11-identity-registry",
+      "path": "canon/domain/v11/registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:kristal-v11-semantic-graph",
+      "path": "canon/domain/v11/graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:kristal-v11-external-crosswalk",
+      "path": "canon/domain/v11/crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:kristal-v11-dictionary-catalog",
+      "path": "canon/domain/v11/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:normative-catalog",
+      "path": "canon/domain/vaticanops.normative-scope-catalog.json",
+      "logical_contract": {
+        "id": "vaticanops.normative-scope-catalog",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary"
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:version-graph",
+      "path": "canon/domain/vaticanops.version-relations.json",
+      "logical_contract": {
+        "id": "vaticanops.version-relations",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary"
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:jurisdiction-matrix",
+      "path": "canon/domain/vaticanops.jurisdictions.json",
+      "logical_contract": {
+        "id": "vaticanops.jurisdiction-matrix",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary"
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:remote-anchored-claims",
+      "path": "canon/epistemic/vaticanops.remote-anchored-claims.json",
+      "logical_contract": {
+        "id": "vaticanops.remote-anchored-claims",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary"
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:public-competences",
+      "path": "canon/domain/vaticanops.public-competence-relations.json",
+      "logical_contract": {
+        "id": "vaticanops.public-competence-relations",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary"
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:official-remote-reference-register",
+      "path": "extensions/verified_norms/documents.json",
+      "logical_contract": {
+        "id": "vaticanops.official-remote-reference-register",
+        "version": "1.0.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:editorial-article-locators",
+      "path": "extensions/verified_norms/dispositions.json",
+      "logical_contract": {
+        "id": "vaticanops.editorial-article-locators",
+        "version": "1.0.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:external-editorial-research-paths",
+      "path": "extensions/verified_norms/parcours.json",
+      "logical_contract": {
+        "id": "vaticanops.external-editorial-research-paths",
+        "version": "1.0.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:external-version-cautions",
+      "path": "extensions/verified_norms/relations_versions.json",
+      "logical_contract": {
+        "id": "vaticanops.external-version-cautions",
+        "version": "1.0.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [],
+  "notes": "Register authoritative Logical Artifacts here. Physical materializations, indexes, caches and build outputs stay derived."
+}

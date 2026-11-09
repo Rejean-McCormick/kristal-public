@@ -1,0 +1,346 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "urn:policeops:source:glossary-v2",
+      "title": "PoliceOps — glossaire complet v2",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/policeops_glossaire_complet_v2.json",
+      "availability": "included_local_input",
+      "content_hash": {
+        "alg": "sha256",
+        "value": "43698df24b23677931bfb19959a484c8adee29de6506952e3cb6c41abaa82151"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource-inventory-v1",
+      "title": "Inventaire des ressources — procédures policières et règlements civiques",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/inventaire_ressources_police_reglements_civiques.json",
+      "availability": "included_local_input",
+      "content_hash": {
+        "alg": "sha256",
+        "value": "6529c5ff9085da16d6635aaaf32bd0bd78eae3e9cd649ae3f87e5c47e96cc554"
+      }
+    },
+    {
+      "id": "urn:policeops:source:judicial-alignment-v3",
+      "title": "PoliceOps — alignement Orgo × police × judiciaire v3",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/police_orgo_judicial_alignment_v3.json",
+      "availability": "included_local_input",
+      "content_hash": {
+        "alg": "sha256",
+        "value": "9916aa9c873c341193476037f11643d3c583d9e3e7fd27016ca1a88c6b8a8d05"
+      }
+    },
+    {
+      "id": "urn:policeops:source:kristal-v5-spec",
+      "title": "Kristal v5 — spécification et schémas de référence",
+      "kind": "document",
+      "locator": "unresolved:provenance-reference-only",
+      "availability": "not_present_in_snapshot",
+      "limitations": "Native source_ref provides identity/hash but this snapshot provides no local path or network locator.",
+      "content_hash": {
+        "alg": "sha256",
+        "value": "23de5d84986c1f09235f619f41af0e6ef87f9c25aa240c00b5632bc84a5a8598"
+      }
+    },
+    {
+      "id": "urn:policeops:source:corpus-chretien-design-reference",
+      "title": "Corpus chrétien enrichi v0.2.1 — référence de structure éditoriale",
+      "kind": "other",
+      "locator": "unresolved:provenance-reference-only",
+      "availability": "not_present_in_snapshot",
+      "limitations": "Native source_ref provides identity/hash but this snapshot provides no local path or network locator.",
+      "content_hash": {
+        "alg": "sha256",
+        "value": "228be90f30852e6549255f195d73e3fd3a9ef3f067dfdabd0b0b35ad23d875b0"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:intl_ohchr_force_firearms:1",
+      "title": "Principes de base sur le recours à la force et l'utilisation des armes à feu par les responsables de l'application des lois",
+      "kind": "document",
+      "locator": "https://www.ohchr.org/sites/default/files/Documents/ProfessionalInterest/firearms.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Nations Unies",
+      "authority_channel": {
+        "authority_channel_id": "authority:un",
+        "name": "Nations Unies"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:intl_un_detention_principles:2",
+      "title": "Ensemble de principes pour la protection de toutes les personnes soumises à une forme quelconque de détention ou d'emprisonnement",
+      "kind": "web_page",
+      "locator": "https://digitallibrary.un.org/record/53865?ln=fr",
+      "availability": "external_locator_declared",
+      "publisher": "Nations Unies",
+      "authority_channel": {
+        "authority_channel_id": "authority:un",
+        "name": "Nations Unies"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:intl_un_investigative_interviewing_2024:3",
+      "title": "Manual on Investigative Interviewing for Criminal Investigation (2024)",
+      "kind": "document",
+      "locator": "https://www.mineaction.org/sites/default/files/2026-02/Manual%20on%20Investigative%20Interviewing%20for%20Criminal%20Investigation%20%282024%29.pdf",
+      "availability": "external_locator_declared"
+    },
+    {
+      "id": "urn:policeops:source:resource:intl_unodc_accountability:4",
+      "title": "Handbook on Police Accountability, Oversight and Integrity",
+      "kind": "document",
+      "locator": "https://www.unodc.org/res/e4j/import/handbook_on_police_accountability_oversight_and_integrity/handbook_on_police_accountability_oversight_and_integrity.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Nations Unies",
+      "authority_channel": {
+        "authority_channel_id": "authority:un",
+        "name": "Nations Unies"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:intl_cpt_police_custody_safeguards:5",
+      "title": "Garanties fondamentales en garde policière",
+      "kind": "web_page",
+      "locator": "https://hudoc.cpt.coe.int/eng?i=p-bgr-20211001-en-7",
+      "availability": "external_locator_declared",
+      "publisher": "Conseil de l’Europe",
+      "authority_channel": {
+        "authority_channel_id": "authority:council-of-europe",
+        "name": "Conseil de l’Europe"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:uk_pace_code_c_2023:6",
+      "title": "PACE Code C 2023",
+      "kind": "web_page",
+      "locator": "https://www.gov.uk/government/publications/pace-code-c-2023",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Royaume-Uni",
+      "authority_channel": {
+        "authority_channel_id": "authority:uk.government",
+        "name": "Gouvernement du Royaume-Uni"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:fr_cpp_garde_vue_avocat:7",
+      "title": "Code de procédure pénale — garde à vue / assistance d'un avocat",
+      "kind": "web_page",
+      "locator": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049461462/2026-03-02",
+      "availability": "external_locator_declared",
+      "publisher": "Légifrance",
+      "authority_channel": {
+        "authority_channel_id": "authority:france.legifrance",
+        "name": "Légifrance"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:ca_chartepedia_art10:8",
+      "title": "Chartepédia — article 10 : arrestation ou détention",
+      "kind": "web_page",
+      "locator": "https://justice.gc.ca/fra/sjc-csj/dlc-rfc/ccdl-ccrf/check/art10.html",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Canada",
+      "authority_channel": {
+        "authority_channel_id": "authority:canada.government",
+        "name": "Gouvernement du Canada"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_gpp_parent:9",
+      "title": "Guide de pratiques policières (GPP)",
+      "kind": "web_page",
+      "locator": "https://www.quebec.ca/securite-situations-urgence/police-prevention-criminalite/structure-fonctionnement-police/pratiques-policieres/guide-pratiques-policieres",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_gpp_21_operations_generales:10",
+      "title": "Guide de pratiques policières — 2.1 — Opérations générales",
+      "kind": "document",
+      "locator": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/securite-publique/publications-adm/publications-secteurs/police/approches-pratiques/guide_pratiques_policieres/GUI_pratiques_policieres_operations_generales.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_gpp_22_surveillance_territoire:11",
+      "title": "Guide de pratiques policières — 2.2 — Surveillance du territoire",
+      "kind": "document",
+      "locator": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/securite-publique/publications-adm/publications-secteurs/police/approches-pratiques/guide_pratiques_policieres/GUI_pratiques_policieres_surveillance_territoire.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_gpp_23_arrestation_detention:12",
+      "title": "Guide de pratiques policières — 2.3 — Arrestation et détention",
+      "kind": "document",
+      "locator": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/securite-publique/publications-adm/publications-secteurs/police/approches-pratiques/guide_pratiques_policieres/GUI_pratiques_policieres_arrestation_detention.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_gpp_24_enquetes:13",
+      "title": "Guide de pratiques policières — 2.4 — Enquêtes",
+      "kind": "document",
+      "locator": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/securite-publique/publications-adm/publications-secteurs/police/approches-pratiques/guide_pratiques_policieres/GUI_pratiques_policieres_enquetes.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_gpp_25_services_techniques_specialises:14",
+      "title": "Guide de pratiques policières — 2.5 — Services techniques et spécialisés",
+      "kind": "document",
+      "locator": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/securite-publique/publications-adm/publications-secteurs/police/approches-pratiques/guide_pratiques_policieres/GUI_pratiques_policieres_services_techniques_specialises.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_gpp_26_services_communautaires:15",
+      "title": "Guide de pratiques policières — 2.6 — Services communautaires, prévention et assistance",
+      "kind": "document",
+      "locator": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/securite-publique/publications-adm/publications-secteurs/police/approches-pratiques/guide_pratiques_policieres/GUI_pratiques_policieres_services_communautaires_prevention_assistance.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_lignes_directrices_activite_policiere:16",
+      "title": "Lignes directrices sur l'activité policière",
+      "kind": "web_page",
+      "locator": "https://www.quebec.ca/securite-situations-urgence/police-prevention-criminalite/structure-fonctionnement-police/pratiques-policieres/lignes-directrices-activite-policiere",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_demandes_acces_securite_interieure:17",
+      "title": "Demandes d'accès et réponses publiées — ministère responsable de la sécurité intérieure",
+      "kind": "web_page",
+      "locator": "https://www.quebec.ca/gouvernement/ministeres-organismes/securite-interieure/cadre-legal-transparence/acces-information/demandes-acces",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:ca_constitution_1867_art92:18",
+      "title": "Loi constitutionnelle de 1867 — article 92",
+      "kind": "web_page",
+      "locator": "https://laws-lois.justice.gc.ca/fra/const/page-3.html#h-19",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Canada",
+      "authority_channel": {
+        "authority_channel_id": "authority:canada.government",
+        "name": "Gouvernement du Canada"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:levis_charte:19",
+      "title": "Charte de la Ville de Lévis",
+      "kind": "web_page",
+      "locator": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-11.2",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_loi_cites_villes:20",
+      "title": "Loi sur les cités et villes",
+      "kind": "web_page",
+      "locator": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-19",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_loi_competences_municipales:21",
+      "title": "Loi sur les compétences municipales",
+      "kind": "web_page",
+      "locator": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-47.1",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:qc_lau:22",
+      "title": "Loi sur l'aménagement et l'urbanisme",
+      "kind": "web_page",
+      "locator": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-19.1",
+      "availability": "external_locator_declared",
+      "publisher": "Gouvernement du Québec",
+      "authority_channel": {
+        "authority_channel_id": "authority:quebec.government",
+        "name": "Gouvernement du Québec"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:levis_repertoire_reglements:23",
+      "title": "Répertoire officiel des règlements municipaux de Lévis",
+      "kind": "web_page",
+      "locator": "https://www.ville.levis.qc.ca/taxes-permis-reglements/reglements-municipaux/repertoire/",
+      "availability": "external_locator_declared",
+      "publisher": "Ville de Lévis",
+      "authority_channel": {
+        "authority_channel_id": "authority:levis",
+        "name": "Ville de Lévis"
+      }
+    },
+    {
+      "id": "urn:policeops:source:resource:levis_rv_2011_11_23:24",
+      "title": "Règlement sur le zonage et le lotissement",
+      "kind": "document",
+      "locator": "https://www.ville.levis.qc.ca/fileadmin/documents/reglements/codification/Codification_administrative_RV-2011-11-23_sur_le_zonage_et_le_lotissement__RV-2024-34-57_.pdf",
+      "availability": "external_locator_declared",
+      "publisher": "Ville de Lévis",
+      "authority_channel": {
+        "authority_channel_id": "authority:levis",
+        "name": "Ville de Lévis"
+      }
+    }
+  ],
+  "notes": "Catalog normalized from the 29 source_refs embedded in the unchanged native corpus. A source entry is provenance; it is not automatically a canonical Logical Artifact or an authority grant."
+}

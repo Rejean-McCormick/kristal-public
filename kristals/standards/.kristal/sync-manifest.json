@@ -1,0 +1,183 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "standards",
+  "title": "Standards",
+  "target_root": "kristals/standards",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:standards",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:d89185186866417ef3d76e19754c7317b002ce0c6e53ad0a9b9f1455fac4a05f"
+  },
+  "surface_digest": "sha256:c9040d5acb8a5de12182869e2d853f9cd2510d735f162b031f226c539cdc0bd8",
+  "file_count": 26,
+  "total_bytes": 729329,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 2133,
+      "sha256": "sha256:941f9e9640850c5a7af3a1744e3c4cceea7fb88b668631b4d05dc267baaeda49"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1925,
+      "sha256": "sha256:e74781c7eb55d280976c4c5ba871e04d33951212d98c906f39bab1592fc327cc"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 2545,
+      "sha256": "sha256:ae77ddda7bf7b72e671264e63a10807681185cf17318814499dedcba173fe57a"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 4248,
+      "sha256": "sha256:aefd3ce79aacc8cda4f4d4d5eeb302901038c77c0d5063d074cfc0f8d9b9e817"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1795,
+      "sha256": "sha256:4493868acdc8c8d6e3c3a2e844fb909a7054bc0659260fb9dd1199a14f8029bf"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 3834,
+      "sha256": "sha256:66a1201af9ee0f271133f8660130365d002f7a9b0ea7e2170dd3755ecc794113"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 581,
+      "sha256": "sha256:8386cbda843786b397366387d0e9371c985efa927653e6bfffe92afec07cf2dd"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 744,
+      "sha256": "sha256:4a636636653677f6404b385a3fd7145d424d2af0cae6a21da84c7e7f3873ff19"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "size": 681198,
+      "sha256": "sha256:4aeb12f85076d357b25e91ca96f72f9a8112a6165ba77f6082868e0eb26ff43c"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1238,
+      "sha256": "sha256:f878acf12977febb97389c37b5fd3a8aa11d7d88e4f552048494d60ca4247a9b"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1863,
+      "sha256": "sha256:5c799272f1e6d47441e0c0c73563a2011028113362205faacea941ea2f76dfe9"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2668,
+      "sha256": "sha256:c59d6e4303becefacf5aae0ff40fbc8e95f7bba1ecba135a9ee83688a8599e26"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 429,
+      "sha256": "sha256:734dc30d59ab5ba933902224ba4faf0574cc3b7d9cce647d8fe54945698e92b1"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 746,
+      "sha256": "sha256:85d5fd417542d34b362458f9adbac7302c8ccff39c9f226814d9c06f30b42d5d"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 627,
+      "sha256": "sha256:ec11a7e3285eecd538adb44be0d0a7637a1f1d3bbbba8bdf1994fc4338d1bc1e"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 443,
+      "sha256": "sha256:57c252e6626ddf2c3073b60d82757cea75c0da51e9ba6d7599a1f859d80ec2bc"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 792,
+      "sha256": "sha256:22a62b70ee175182b1209bcc371faee096f2267de39091c0c180b26e9004cd18"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 529,
+      "sha256": "sha256:fdea2204ba3bb3f598ea2c9c915438baefaa959c9362d3425d736e75dcf26275"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 582,
+      "sha256": "sha256:a410d6077edfe52ea90985f4e6eb155a5a33687a2d918af9ed37d624d5149559"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 350,
+      "sha256": "sha256:8fc155db7204cc2d79b65dd343e55e265d59853c4d268d5183f8b13c000613c8"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 4079,
+      "sha256": "sha256:5e127ca6be31f974f4e5e389f0f5a022d79383069c50799fef40b4a7b627ed76"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1953,
+      "sha256": "sha256:cd7541afd2f9f841b43070b635674f603565339c9b8448d3c686860734e98212"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 10345,
+      "sha256": "sha256:20d860139bf07d293fa22b9544d9bc2e8dcc8f5151d153e37c3e5234e7a02c17"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 899,
+      "sha256": "sha256:4d2f5dbc3a97832bb40dfc5bc25610bd0ccd75a10cd4857286be8e2f6c5a3d77"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

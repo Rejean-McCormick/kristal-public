@@ -1,0 +1,89 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:hydrology:materialization:resource-basis",
+  "source": {
+    "artifact_id": "urn:kristal:hydrology:resource-basis",
+    "logical_contract": {
+      "id": "kristal.repository-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:693726a8d001135ff852d037714b93d29b5e8a597b47a37707dcdea0230c6260"
+    },
+    "authority_ref": "urn:kristal:authority:hydrology"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 4
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:hydrology:resource:portable_epistemic_state",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:000f4a21c59280e66a634fd623113a39119ed4e795a2c95c7810b6e2d68efa17",
+        "size": 319230,
+        "locator": "knowledge-base/corpus/hydrology.kristal-state.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hydrology:resource:portable_epistemic_state",
+        "role": "portable_epistemic_state"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:hydrology:resource:identity_registry",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:9bb4db195f5ed04c1839cb4b97ac236103c856409a21c5e009240f3d8a75bd15",
+        "size": 36848,
+        "locator": "knowledge-base/corpus/referents.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hydrology:resource:identity_registry",
+        "role": "identity_registry"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:hydrology:resource:domain_native_stock_flow_graph",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:e214da9753862c86ca572781d046c3c4f1e319f9fcccac873bcb55a242cfd42c",
+        "size": 91242,
+        "locator": "knowledge-base/corpus/hydrologic-stock-flow-graph.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hydrology:resource:domain_native_stock_flow_graph",
+        "role": "domain_native_stock_flow_graph"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:hydrology:resource:source_catalog",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:9346299bcfed5f1a513ee7b84987f16e57d9918171585f42f3f189d2bdc0c14e",
+        "size": 9101,
+        "locator": "knowledge-base/sources/source-catalog.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hydrology:resource:source_catalog",
+        "role": "source_catalog"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:hydrology:resource:portable_epistemic_state",
+      "urn:kristal:hydrology:resource:identity_registry",
+      "urn:kristal:hydrology:resource:domain_native_stock_flow_graph",
+      "urn:kristal:hydrology:resource:source_catalog"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.repository-resource-set/jcs-v1"
+  }
+}

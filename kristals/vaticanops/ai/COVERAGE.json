@@ -1,0 +1,44 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:vaticanops",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:0af3674eef560da6d3e91f56d12feca3b0dc0b56447b13ec1c314dc8dc7a4575"
+  },
+  "subject": {
+    "id": "urn:vaticanops:subject:public-normative-procedures",
+    "label": "VaticanOps — procédures publiques et catalogue normatif multijuridictionnel (étude indépendante)",
+    "domain": "institutional-procedural-referential"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "descriptions éditoriales de procédures et transitions publiques",
+      "sources et digests référencés",
+      "notes d’applicabilité et statuts épistémiques du projet",
+      "catalogue de textes publics référencés sans copie locale ni certification",
+      "cartographie des lacunes et des juridictions distinctes"
+    ],
+    "does_not_own": [
+      "normes et décisions officielles du Vatican",
+      "autorisation ou exécution de procédures canoniques, judiciaires ou liturgiques",
+      "dossiers réels, signalements, identités",
+      "archives confidentielles ou non publiées",
+      "certification de la validité du droit de l’État de la Cité du Vatican ou du droit des Églises orientales",
+      "intégralité des textes externes non encore téléchargés ou interprétés"
+    ]
+  },
+  "canonical_artifact_count": 22,
+  "source_count": 6,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

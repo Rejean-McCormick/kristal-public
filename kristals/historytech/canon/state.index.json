@@ -1,0 +1,201 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:historytech:resource-basis",
+      "path": "canon/domain/resource-basis.payload.json",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "historytech",
+        "edition": "0.10.2"
+      },
+      "authority_ref": "urn:kristal:authority:historytech"
+    },
+    {
+      "artifact_id": "urn:kristal:historytech:semantic-state",
+      "path": "canon/domain/domain-state.payload.json",
+      "logical_contract": {
+        "id": "historytech.semantic-state",
+        "version": "9.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "historytech",
+        "edition": "0.10.2"
+      },
+      "authority_ref": "urn:kristal:authority:historytech",
+      "dependencies": [
+        {
+          "artifact_id": "urn:kristal:historytech:resource-basis",
+          "logical_contract": {
+            "id": "kristal.repository-resource-set",
+            "version": "1.0"
+          },
+          "logical_commitment": {
+            "profile": "kristal.logical/jcs-sha256-v1",
+            "digest": "sha256:6b2b5eb13f77f658f7cf6702027f6e205652c530b1fe2f13096979f7c2bed969"
+          },
+          "authority_ref": "urn:kristal:authority:historytech"
+        }
+      ]
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-20261026-rebuilt-v2:registry",
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-20261026-rebuilt-v2:graph",
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-20261026-rebuilt-v2:crosswalk",
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-20261026-rebuilt-v2:source-ledger",
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/source-ledger.json",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-20261026-rebuilt-v2:import-model",
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/import-model.json",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-structured-20261026-v3:registry",
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-structured-20261026-v3:graph",
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-structured-20261026-v3:crosswalk",
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-historytech:wikidata-structured-20261026-v3:structured-model",
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/structured-model.json",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": ".kristal/v8",
+      "role": "historical v8 read models"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "historical v9 materializations and records"
+    },
+    {
+      "path": "build/v9",
+      "role": "modern 3.2.2 state candidate + registered legacy materializations"
+    }
+  ],
+  "notes": "Expects identical v9 Logical and State Commitments as the historical candidate."
+}

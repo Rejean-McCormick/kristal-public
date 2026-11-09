@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-finlande",
+  "source_fingerprint": "sha256:93abf2a16cf48cd14fced23853c78677ae7eea72c060fb546ad357b744f58683",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 396482,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 204811,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-pouvoirs-finlande-artifact-canonical-a5c2e52c16.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 204811,
+      "sha256": "sha256:182ae2ba8a8140e1850c5cce4411ea8aa81749d9b4a8e398dda552ed28e8cab1"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1225,
+      "sha256": "sha256:f9e16f541e1752b5cbc3f0c277c255d14e79741a76c720a7a2c6544bdadb0fb8"
+    },
+    {
+      "path": "canon/domain/jurisdictional-power.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 190446,
+      "sha256": "sha256:392edb5f2825bf4689513592f5c12bf08a46fe7541bdbcc475954c5bc03d4772"
+    }
+  ],
+  "segments": []
+}

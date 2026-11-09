@@ -1,0 +1,88 @@
+{
+  "format": "recipes.unit-ontology.v1",
+  "version": "1.0.0",
+  "units": [
+    {
+      "unit_id": "g",
+      "dimension": "mass",
+      "to_base_factor": 1.0,
+      "base_unit": "g",
+      "aliases": [
+        "gram",
+        "grams",
+        "gramme",
+        "grammes"
+      ]
+    },
+    {
+      "unit_id": "kg",
+      "dimension": "mass",
+      "to_base_factor": 1000.0,
+      "base_unit": "g",
+      "aliases": [
+        "kilogram",
+        "kilograms",
+        "kilogramme",
+        "kilogrammes"
+      ]
+    },
+    {
+      "unit_id": "ml",
+      "dimension": "volume",
+      "to_base_factor": 1.0,
+      "base_unit": "ml",
+      "aliases": [
+        "milliliter",
+        "milliliters",
+        "millilitre",
+        "millilitres"
+      ]
+    },
+    {
+      "unit_id": "l",
+      "dimension": "volume",
+      "to_base_factor": 1000.0,
+      "base_unit": "ml",
+      "aliases": [
+        "liter",
+        "liters",
+        "litre",
+        "litres"
+      ]
+    },
+    {
+      "unit_id": "tsp",
+      "dimension": "volume",
+      "to_base_factor": 4.92892159375,
+      "base_unit": "ml",
+      "aliases": [
+        "teaspoon",
+        "c. à thé",
+        "cuillère à thé"
+      ]
+    },
+    {
+      "unit_id": "tbsp",
+      "dimension": "volume",
+      "to_base_factor": 14.78676478125,
+      "base_unit": "ml",
+      "aliases": [
+        "tablespoon",
+        "c. à soupe",
+        "cuillère à soupe"
+      ]
+    },
+    {
+      "unit_id": "piece",
+      "dimension": "count",
+      "to_base_factor": 1.0,
+      "base_unit": "piece",
+      "aliases": [
+        "unit",
+        "unité",
+        "pièce"
+      ]
+    }
+  ],
+  "policy": "Conversions exactes seulement lorsque le facteur est contextuellement indépendant; aucune densité implicite volume↔masse."
+}

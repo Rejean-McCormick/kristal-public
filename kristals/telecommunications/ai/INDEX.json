@@ -1,0 +1,181 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:telecommunications",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:f20182119784db1b3482be830259518a3dc42395496a83a70bd7084e5276ddc4"
+  },
+  "files": [
+    {
+      "path": "canon/domain/kristal-telecommunications.canonical-payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 267535,
+      "sha256": "sha256:49a21a7ae7689cb49d3e70b337a5ccf1547a4637bf384ebbfce5b7242adeb7fb",
+      "artifact_id": "urn:kristal:telecommunications:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 173,
+      "sha256": "sha256:70a2fba097bb467be4ebc5e5e491ac982ea5e8951964fb15db059880cf8f5e08",
+      "artifact_id": "urn:kristalizer:2026-10-27:telecommunications:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1130,
+      "sha256": "sha256:bcee87793fc6f6f3a18eaad3d960f6de7b164ce834b5482510a440fb8a007adb",
+      "artifact_id": "urn:kristalizer:2026-10-27:telecommunications:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 10740,
+      "sha256": "sha256:c4c50d45588544690cc273bf550c6fa5925eabbd0debfa8a4a21ce5ce167d956"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 21095,
+      "sha256": "sha256:e193e53e683b1f8639a885bf83507bc48dc03a42268a921cb0481f253bc6a6f7"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/themes-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 11997,
+      "sha256": "sha256:db2d880a4d1c84ba22074a63ab809ae6d1fb881197a38419bf2e938d07cd9bd0"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 568134,
+      "sha256": "sha256:afe594bb5fe136d29df8a533eb399778a74facb4963793b88cd6c3b54c6b273c",
+      "artifact_id": "urn:kristalizer:2026-10-27:telecommunications:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 77740,
+      "sha256": "sha256:8f3be5f2b81509ccc9bd2c1951a10804ebd7f1d9f75d864b774ab370d1ff2bd6",
+      "artifact_id": "urn:kristalizer:2026-10-27:telecommunications:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 2956,
+      "sha256": "sha256:1f68b6f09ffc4282b884541eddd5f3b48fc682da52d06bd93aad9bf7c7076b7c"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 390,
+      "sha256": "sha256:81a649337145340f41a7c6682cf5bec646604759cc7a4746acdfb9ec77ed4133"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 391,
+      "sha256": "sha256:34b0363aeab969eab5c5f03a58228f87ddfe3f075fe8445dd3e0654a3ca6f083"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 406,
+      "sha256": "sha256:d6696fde73fd811492bf722ff314b3c60a8bb2e914e701c10f29c39672c968f6"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 541,
+      "sha256": "sha256:2ad4c241326c67b1afaf4c110bd175fb13c9a677c7a8693f5960a0544f0c8170"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 701,
+      "sha256": "sha256:ff5138db7bc80aaadcb4e43439f48e3b40413d2ea7f8bcfd9a7e1e9b5f257d7a"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 396,
+      "sha256": "sha256:25f79ad0c6d325c7ff29be48b8eef48cc4a1159d61ecb7ac6804b0ba56ce455e"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 474,
+      "sha256": "sha256:b20d375625f1a01feb225591eaf61ae4f39b152763265b9627ba323351c97e9f"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 410,
+      "sha256": "sha256:ce29fffbc029aab94c4b8b3390f229f93fe5b4a909bc76c738a6c032824f0299"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3978,
+      "sha256": "sha256:c9bf243e3790395393ca313824c3ad13cffc7347d79614dff6c0cae3b7b55fd4"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 13055,
+      "sha256": "sha256:60bd90a49bcfa056b34dea43dc4cb784848c273ae6cd81e025501aa9eef65d86"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 2485,
+      "sha256": "sha256:a327282651141679c2722d3aec481cb8f881f2f1004ca986ef8ea4be805b8cd4",
+      "state_ref": "urn:kristal:state:telecommunications",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:f20182119784db1b3482be830259518a3dc42395496a83a70bd7084e5276ddc4"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

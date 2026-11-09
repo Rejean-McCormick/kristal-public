@@ -1,0 +1,338 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-NaturalHazards",
+  "run_id": "f50e5154114b192e",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:30:39.863620+00:00",
+  "source_labels": {
+    "project": "Kristal-NaturalHazards",
+    "namespace_id": "kristal:bulk:kristal-naturalhazards",
+    "search_labels": 314,
+    "labeled_entities": 157,
+    "labeled_properties": 0,
+    "domain_entities": 157,
+    "domain_properties": 22,
+    "unlabeled": [
+      {
+        "legacy_id": "naturalhazards.also_relates_to_family",
+        "semantic_id": "KP1091341520241900158863168"
+      },
+      {
+        "legacy_id": "naturalhazards.belongs_to_family",
+        "semantic_id": "KP1163759437033826623465401"
+      },
+      {
+        "legacy_id": "naturalhazards.can_affect",
+        "semantic_id": "KP233229847590215992612584"
+      },
+      {
+        "legacy_id": "naturalhazards.can_trigger_or_contribute_to",
+        "semantic_id": "KP260033384849709476159543"
+      },
+      {
+        "legacy_id": "naturalhazards.characterized_by",
+        "semantic_id": "KP578984991768015171237475"
+      },
+      {
+        "legacy_id": "naturalhazards.depends_on",
+        "semantic_id": "KP575133024950602017004916"
+      },
+      {
+        "legacy_id": "naturalhazards.has_axis",
+        "semantic_id": "KP301134507039610703175121"
+      },
+      {
+        "legacy_id": "naturalhazards.has_definition",
+        "semantic_id": "KP478563077561385994954097"
+      },
+      {
+        "legacy_id": "naturalhazards.includes",
+        "semantic_id": "KP184424926395216949018136"
+      },
+      {
+        "legacy_id": "naturalhazards.interaction_operator_note",
+        "semantic_id": "KP1106855788207331914170225"
+      },
+      {
+        "legacy_id": "naturalhazards.is_dimension_of",
+        "semantic_id": "KP122592672379230437778610"
+      },
+      {
+        "legacy_id": "naturalhazards.is_element_of",
+        "semantic_id": "KP262667369297553615749197"
+      },
+      {
+        "legacy_id": "naturalhazards.is_manifestation_of",
+        "semantic_id": "KP884132826192114459585761"
+      },
+      {
+        "legacy_id": "naturalhazards.is_modulated_by",
+        "semantic_id": "KP1133641182699726434627995"
+      },
+      {
+        "legacy_id": "naturalhazards.is_not_synonym_of",
+        "semantic_id": "KP78040801191221595705226"
+      },
+      {
+        "legacy_id": "naturalhazards.may_describe",
+        "semantic_id": "KP268522114287709065076324"
+      },
+      {
+        "legacy_id": "naturalhazards.produces",
+        "semantic_id": "KP837758470636713266730462"
+      },
+      {
+        "legacy_id": "naturalhazards.quantifies_or_describes",
+        "semantic_id": "KP187287943052259865527095"
+      },
+      {
+        "legacy_id": "naturalhazards.realizes_potential_from",
+        "semantic_id": "KP712266540113545449204087"
+      },
+      {
+        "legacy_id": "naturalhazards.requires_component",
+        "semantic_id": "KP651666741164894847812865"
+      },
+      {
+        "legacy_id": "naturalhazards.targets_or_manages",
+        "semantic_id": "KP467697914374258676086980"
+      },
+      {
+        "legacy_id": "naturalhazards.vulnerability_factor",
+        "semantic_id": "KP1002636981358040186798761"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "53ef0dec534f5d35e6a1d8e5b24a73916e2d8f70e22e32dc2a92af8d4678466f",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-NaturalHazards",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "natural_hazards",
+        "subdomain": "hazard_exposure_vulnerability_risk",
+        "language": "mul"
+      },
+      "native_model": {
+        "kind": "sparse_hazard_exposure_vulnerability_risk_graph",
+        "description": "hazard → exposure → vulnerability → risk, avec capacité, résilience et incertitude",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "types d'aléas naturels",
+        "événements et phénomènes associés",
+        "Respecter: Risque = aléa × exposition × vulnérabilité; événements séparés."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Risque construit par couches aléa, exposition, vulnérabilité, capacité et résilience.",
+        "guardrail": "Risque calculé ≠ événement observé; aucune prédiction locale sans données adaptées."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.73,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-NaturalHazards\\f50e5154114b192e",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "1d987145a791441ac28002368c352829f73ff5588a10caa51089a72492d5ca55",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 314,
+    "distinct_concepts": 157,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "1d987145a791441ac28002368c352829f73ff5588a10caa51089a72492d5ca55",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 314,
+    "distinct_concepts": 157,
+    "cached_queries": 314,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "ambiguous_exact_candidates": 22,
+      "no_exact_candidate": 65,
+      "unique_exact_candidate": 38,
+      "saturated_exact_search": 26,
+      "cross_language_conflict": 6
+    },
+    "tentative_unverified": 38,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "1d987145a791441ac28002368c352829f73ff5588a10caa51089a72492d5ca55",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 38,
+    "distinct_qids": 38,
+    "qid_inventory_sha256": "6756d8cfa72956af83f91b7b2f52ee2b9d762f25a9025382dbb9a01afee264c7",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 38,
+    "qids_acquired": 38,
+    "new_batches": 1,
+    "reused_records": 6,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-NaturalHazards\\f50e5154114b192e\\full-evidence\\6756d8cfa72956af",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 38,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 1051,
+    "raw_subject_entities": 38,
+    "related_unapproved_qids": 288,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-naturalhazards": 1051
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "1903dec74706742f796eb5c8e46069e3f85454e4da0c47bf2488313519c2c8d5",
+  "proposals_sha256": "6926cd9e1263d522c3279927212768e874f5820fb937232026ac8261b339be67"
+}

@@ -1,0 +1,31 @@
+{
+  "format": "k.monetary.operation/social-dividend/0.1.0",
+  "id": "urn:kristal:k-monetary-system:op:social-dividend",
+  "components": [
+    {
+      "id": "real_consumption_floor",
+      "instrument": "K_M transfer and/or guaranteed basic services",
+      "indexation": "cost-of-essential-basket adjusted with real-capacity and inflation safeguards"
+    },
+    {
+      "id": "capital_allocation",
+      "instrument": "K_C or equivalent social-capital claim",
+      "frequency": "policy_defined_recurring_allocation"
+    },
+    {
+      "id": "system_surplus_dividend",
+      "instrument": "distribution from legally distributable system surplus",
+      "constraint": "must not be financed by pretending nominal issuance creates unavailable real resources"
+    }
+  ],
+  "automatic_stabilizer_inputs": [
+    "essential_price_index",
+    "median_real_income",
+    "unemployment_or_underemployment",
+    "capacity_utilization",
+    "inflation",
+    "supply_bottlenecks"
+  ],
+  "anti_inflation_guardrail": "When nominal transfers threaten to outrun real capacity, adjustment may shift toward direct capacity expansion, targeted services, timing changes or other policy rather than mechanically escalating nominal transfers.",
+  "distributional_rule": "Evaluate outcomes using household real consumption and balance sheets, not only K_M received."
+}

@@ -1,0 +1,113 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:demography",
+  "source_fingerprint": "sha256:f93faafbdc7ac3fa6042e001d51e208ed956369aaa3cc043dfcf9a1527005633",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 2314333,
+    "tracked_file_count": 11,
+    "max_tracked_file_bytes": 748954,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 5,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-demography-canonical-state-488432468b.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 343834,
+      "sha256": "sha256:6b9ea450e30b48ae8ad13ae51883f35e8bdffa46cfbb45b6d73bb216aca93fb5"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-demography-catalog-6b81b9ad70.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1613,
+      "sha256": "sha256:afb78914699e243be9abcb71188ee62a741e4206a602e2c39fc5780f7a327ba6"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-demography-crosswalk-1fc335d5fa.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 596,
+      "sha256": "sha256:ec29fed834fa581837f3a1f30419effa226fdc495d3b8d21603eafa1b9284821"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-demography-graph-6bb592c0bf.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 748954,
+      "sha256": "sha256:02eb682d03af0d5765b777b3dd796ec109c7a69338f77b1ac3136d7caa9c7901"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-demography-registry-36c867054f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 102843,
+      "sha256": "sha256:a7c90d570a393be357db57a11e3bb54b8b4a72906c08fd655407b6d50227ab7b"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 2405,
+      "sha256": "sha256:082cc6a642d0643614ed5949e39858dab669f65c9c58ea54bc7515841a38eb37"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 321304,
+      "sha256": "sha256:cf7cde036dbcf4a9d52ccda93b10121fcf3ced938150ebbd99a705a451a6373c"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 165,
+      "sha256": "sha256:cce01d7a759dc44318a2f08f6668dc9035a9c57ce2a0dd0ec1c16a6feac4df41"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1114,
+      "sha256": "sha256:a0f1e52fca1a673a31348494aed57db5df313b93e2b758e9a38e788c412085b0"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 697945,
+      "sha256": "sha256:eee70e1b48333c26478ceee02664f4164b651a86fc1d6ff77a307e9ca954534c"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 93560,
+      "sha256": "sha256:f880db9bf7620d6128259985f0f0c7bd913d9e4cc815016b36ec5d809d888877"
+    }
+  ],
+  "segments": []
+}

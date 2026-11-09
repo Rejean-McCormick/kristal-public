@@ -1,0 +1,56 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_logical_artifact",
+  "artifact_id": "urn:kristal:king-klown:contradictions",
+  "logical_contract": {
+    "id": "king-klown.contradiction-register",
+    "version": "1.0"
+  },
+  "payload": {
+    "schema": "kk-contradictions/1.1",
+    "items": [
+      {
+        "id": "CR-COLIN-ARREST",
+        "topic": "cause de l’incarcération de Colin / King Klown",
+        "governing_position": "Tentative de sauver son fils par effraction dans une pharmacie.",
+        "conflicting_branch": "Une branche de travail du corpus Colin décrit un coup au policier.",
+        "resolution": "PRESERVE_AS_CONFLICTING_SOURCE_BRANCH; DO_NOT_PROMOTE"
+      },
+      {
+        "id": "CR-NINJA-CONTINUITY",
+        "topic": "Ninja ↔ King Klown",
+        "governing_position": "Même continuité identitaire selon clarification créateur courante.",
+        "conflicting_branch": "Ancien dépôt: lien volontairement faible.",
+        "resolution": "SUPERSEDED_BY_CURRENT_CREATOR_CLARIFICATION"
+      },
+      {
+        "id": "CR-AIDA-NAMES",
+        "topic": "Aïda Mansour / Aïda Éloïse",
+        "governing_position": "Entités distinctes.",
+        "resolution": "DISTINCT_ENTITIES"
+      }
+    ]
+  },
+  "logical_commitment": {
+    "profile": "kristal.logical/jcs-sha256-v1",
+    "digest": "sha256:528ba9aa4c288e6f696449c4b05aaccd0874232758e552dd3c491274e2412f03"
+  },
+  "scope": {
+    "domain": "king-klown",
+    "package": "MEDIA"
+  },
+  "authority_ref": "urn:kristal:authority:king-klown-canon",
+  "dependencies": [
+    {
+      "artifact_id": "urn:kristal:king-klown:epistemic-core",
+      "logical_contract": {
+        "id": "king-klown.epistemic-claims",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:83ae517017ee3c268b5f1f8aade13cea01d05338ffae3a54ab1c2e2dc6cc30ad"
+      }
+    }
+  ]
+}

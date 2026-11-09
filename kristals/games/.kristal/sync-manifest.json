@@ -1,0 +1,183 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "games",
+  "title": "Games",
+  "target_root": "kristals/games",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:games",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:89dca6fbac6c23f463d65d97b8d190d4d6703ec73972ec611d06a3eee9eb546e"
+  },
+  "surface_digest": "sha256:a0735b68a7f661527376a22dcb73d67382ac9c59293a27c963ee19e80fcae16c",
+  "file_count": 26,
+  "total_bytes": 54335,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 2062,
+      "sha256": "sha256:20590d3a9fc66a2b972986624154af1555b19d38f46c537c4f09773e9958eaa9"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1913,
+      "sha256": "sha256:e0769b18c5660e230c2f7cf26faff13db2cc0ddca0aeec6ad656d937df8c2749"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 1252,
+      "sha256": "sha256:fbd68e1f9dc80f0ef8e41fc2eb0677f2fa298974d9d2e6791a9a258318619be6"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 4895,
+      "sha256": "sha256:74f60192766552383fbbccb12524e1e584d299e64d46a064a00a86aead81868f"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1499,
+      "sha256": "sha256:04e2c1ce5eba19dce1f395f0b20c6010aa331d4b95319c3b3f69213cf2c694ab"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 3824,
+      "sha256": "sha256:ffa47c42912f0cd9be341065999b9c1f1b3fd25604df05bbbe7e731a6fb1f588"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 577,
+      "sha256": "sha256:16959196c9928155b01c9eba06508c6bb41e441c98f34b5b1a51c8cf155e352f"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 739,
+      "sha256": "sha256:7af5fc658e43db14c3690123f6e717ea650b120b106179fe48a99b51b81a0d4d"
+    },
+    {
+      "path": "canon/domain/games.logical-payload.json",
+      "role": "canonical_content",
+      "size": 288,
+      "sha256": "sha256:437b37990c8090a6bf7d22fbdf5f264c8196568d216516d80f754c01416655be"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1108,
+      "sha256": "sha256:4dffd64e3ca9ea16252fe8f9784047820d87523e853bf6aa647e41e0d9255663"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1834,
+      "sha256": "sha256:c9ff385939279b1521d81437ed3dda53e4f1cba7d7e46eb6abb12f2f0f31ef38"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2646,
+      "sha256": "sha256:df8657bd4f532526f715d952adc45fbee915b38f8ea6bce74887bf6fecafee0c"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 573,
+      "sha256": "sha256:29adf969f25b6a1aa28fa9b8f0a32fd9a78628646ade314fb532932b66b1f277"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 621,
+      "sha256": "sha256:68180b290615142c60de63531fe22ee6c63fdd05cc601ce6c7066767204fc1e3"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 815,
+      "sha256": "sha256:6202e2a0b9171d2353a48113f32ae974b04b2a9d5152ca8ac0f2ad5777527403"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 775,
+      "sha256": "sha256:6269fccebc2c5716562241e0ef0dc1bc72f3ad8a75e323cab95b20efd13724e4"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 912,
+      "sha256": "sha256:0d47658c8295bfb39abe12a56e87e3a7eb9c732aa0b7f896890ad36040ea9c76"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 514,
+      "sha256": "sha256:bd589b3fc2563e09265c38f17eee5ad2bd9cbad69dc72cdb835950f41213f1d5"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 731,
+      "sha256": "sha256:34530743e14e72318616f5b779be9cb28bc49ecd0057541838efc42fd4596fec"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 520,
+      "sha256": "sha256:fabef2b7b70b8d119165701d733d2792659573a54289341a08344f755ca72da1"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 3855,
+      "sha256": "sha256:8be239e899cbc6caa097515dcf5b5c1696600a0f2fa0103dd9fc9f2bb163fa53"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1741,
+      "sha256": "sha256:ea968b83d4b360decf87c138135669266ae74bf4d88d86cb1a356cbb275943fa"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 16975,
+      "sha256": "sha256:9677499fdb53c02ae16bb258e57b48e40c95243601911fc032770b969b6e6b5b"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 883,
+      "sha256": "sha256:7322e9e188e908ea21bcbbf589e450e5b0027fafcfbc63cc6d577dd15907f599"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

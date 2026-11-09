@@ -1,0 +1,266 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:mineralogy:state",
+  "source_fingerprint": "sha256:d4abdcba2f9139cc2425e173aa62347f86c53558f244a2517b0b68eafe8a9fe7",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 38104234,
+    "tracked_file_count": 29,
+    "max_tracked_file_bytes": 5210161,
+    "materialization_segment_count": 2,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 12,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 674793,
+      "sha256": "sha256:156dc0d97b620abd7ab1c39f6a0b64b3a9758aa8692925cbf73b4ebdda3fc46f"
+    },
+    {
+      "path": ".kristal/v9/materializations/inline-json.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1176,
+      "sha256": "sha256:a43f3ec3bc8ed4031643aa6e2c23f115c1ba90c2f4af72cbd88859439506ee87"
+    },
+    {
+      "path": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1177,
+      "sha256": "sha256:93a1006514aa883361b92afce338e116e5b547efa007f1c7083f01984d427ecb"
+    },
+    {
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 620801,
+      "sha256": "sha256:806862d10e3e3dc983479f8a598f11db532a414f602a3f5c8edd04769bafd2f9"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-20261026-rebuilt-v2-crosswalk-2db5c671f0.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 446181,
+      "sha256": "sha256:a838fcabc6a0ae42fd8e57998dcec08ef020f6552025b58619dfb7b851db0f5e"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-20261026-rebuilt-v2-dictionaries-catalo-5e702a0a80.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2561,
+      "sha256": "sha256:b0a2d6951ecd9764bfebf34d498ed84019ce73475aae2313ffd0dad355eb6c7e"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-20261026-rebuilt-v2-graph-9a97545104.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4998368,
+      "sha256": "sha256:831d529a729f4ed9fdc16bcd7a16a4a5a5af117ab41ab08471c9d4f0101cc960"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-20261026-rebuilt-v2-import-model-603b16477a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1116,
+      "sha256": "sha256:982bd77d7b43b4af8207bb37066126338f077e469aedf9bb5052e5047c762f68"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-20261026-rebuilt-v2-registry-dc345fe9a2.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 854079,
+      "sha256": "sha256:8c16a278eaa2649d14184fbc3537224b79b6ae1601e62793934cabce100fac1d"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-20261026-rebuilt-v2-source-ledger-7513fd37c8.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 4986838,
+      "sha256": "sha256:afb548f3d42379c068ed0ee82c4f80e7379ea96696ddbbc6e65e0d88c3de6146"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-structured-20261026-v3-crosswalk-e2cb5a7953.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 451305,
+      "sha256": "sha256:8c85eabe727f5957f79cc7d59515eb2d740c307122f310e4b8b539727d552a83"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-structured-20261026-v3-dictionaries-cat-a3736e1d8f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3032,
+      "sha256": "sha256:19fc02dc803efadcd696c39d57e9c2a18a392d2871d2b23e2f0dfcbfe21e2904"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-structured-20261026-v3-graph-4648c73bd8.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 5210161,
+      "sha256": "sha256:85eaaf0b0ebca91b0f49ee7b9b0b8d8747386a3c8154eeacada055ae1374c27c"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-structured-20261026-v3-registry-6086911f0d.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1220456,
+      "sha256": "sha256:13cacaff47331ac55c7820f6ef93649e90855fca8b0a2b6aaab388b3259033d0"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-mineralogy-wikidata-structured-20261026-v3-structured-model-b91cc80e4d.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 160004,
+      "sha256": "sha256:6f98a2c6fe09235059a7ee1fdd97b44dbd2fb2e8d2b04b85d18f182673adbb59"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-mineralogy-artifact-epistemic-state-435e09627f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 674793,
+      "sha256": "sha256:156dc0d97b620abd7ab1c39f6a0b64b3a9758aa8692925cbf73b4ebdda3fc46f"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 5272,
+      "sha256": "sha256:745029accc5045160a0e439277bf5e79091fa9c5752181c9a139837abfdbe449"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 620586,
+      "sha256": "sha256:a18aa3e9f80c3b3052c4ef94c927bd73f57c9855a4e7a863cfdb93e724cb58cf"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 417543,
+      "sha256": "sha256:b883d80a3559741df47597ee131aafffcdf2cb27f3ebf59b20a8acb35da157ee"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1980,
+      "sha256": "sha256:8631d3132a33e8b21125e8e63e7ad80d04dc1ce6d091753ab010794411f573d2"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4672186,
+      "sha256": "sha256:4c7049cacec8afeccf68922faa67a4dedd657b28542a842ed4508052396c1ce4"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/import-model.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 657,
+      "sha256": "sha256:092f4d8da34950a14b2d7092b27f4966547b207b9c06513e684c5a06fb97e643"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 785743,
+      "sha256": "sha256:34f72756013ee41291e7f9f5ad9ea4bc8bdbd567a4448f131e60698b53fc81fa"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/source-ledger.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4723895,
+      "sha256": "sha256:5ef0ee91b43e4c56b5200513745545f75ba13b6ca5e37de171e87e9774cdd6c8"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 422344,
+      "sha256": "sha256:486a078131334dbab7cbda3e1018deef45f5cbfae557fd53d3814abcd05f412d"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2428,
+      "sha256": "sha256:8ff192901eea50b1608642df075e3a66f3115b5dd54da7c6163b80bd97cde5b2"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 4869412,
+      "sha256": "sha256:9e483dde23ce7769d2c9994f24f431ff333f77b329f5f6e6e824863d41b07064"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1124247,
+      "sha256": "sha256:06d5319782283df49c1272220f9bdcdeb316acb403906c0dc601bdf7af96bcce"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/structured-model.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 151100,
+      "sha256": "sha256:b974d54b77263413f74a606a23d28c7f848cff2e01cbc822b2e48eadb7151a7a"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/inline-json.materialization.json",
+      "segment_key": "artifact",
+      "record_count_declared": 893,
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size_bytes_declared": 674793,
+      "digest_declared": "sha256:156dc0d97b620abd7ab1c39f6a0b64b3a9758aa8692925cbf73b4ebdda3fc46f",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "segment_key": "portable-state",
+      "record_count_declared": 893,
+      "media_type": "application/vnd.kristal.state+json;version=6.0",
+      "size_bytes_declared": 620801,
+      "digest_declared": "sha256:806862d10e3e3dc983479f8a598f11db532a414f602a3f5c8edd04769bafd2f9",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "materialization_profile": "kristal.materialization/kristal-state-v6/1"
+    }
+  ]
+}

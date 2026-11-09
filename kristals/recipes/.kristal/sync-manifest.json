@@ -1,0 +1,273 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "recipes",
+  "title": "Recipes",
+  "target_root": "kristals/recipes",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:recipes",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:5318163afb08353c04e72112999d91e8b48d97e5f527235e932a603b85fd33c4"
+  },
+  "surface_digest": "sha256:102bec562a1a918d2b4a8f1bcde591851c2152c6d080cb43485d5da10ce0a817",
+  "file_count": 41,
+  "total_bytes": 315226,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 1950,
+      "sha256": "sha256:cc9b63908819913f9fb2695a86ab8cfb47b895a0666ba9405946c8a80ea032e4"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1919,
+      "sha256": "sha256:c00951939a44d554942f9ee4491532729acec49012dade81930d16c2ab38c5c9"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 2747,
+      "sha256": "sha256:90c84f07b949fb803b5f5c34441995a018b42bb8aba40f2eaa893bcc51ffd845"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 5129,
+      "sha256": "sha256:4dd36010e70f11b19677c13ed48fdc737ac9d36251979f0396f98486397b7116"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1383,
+      "sha256": "sha256:1a4abf619437b6bdd009b55de5746b963a13e09c7bd4835e0fdf5fe153162441"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 7513,
+      "sha256": "sha256:fc2a077cd5e9fff469cdf041565bf5827ce7c34242171751e81db328e6495a07"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 579,
+      "sha256": "sha256:5ce4433fb409f396a3282d5bbc7de882c40cb3999e3756bce7060db4241137db"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 721,
+      "sha256": "sha256:be6884c97c4e40d1923c5b6295e75b392a37e1b6576ab200538684ebc756df58"
+    },
+    {
+      "path": "canon/domain/v9-logical-payload.json",
+      "role": "canonical_content",
+      "size": 157701,
+      "sha256": "sha256:6b721c16453294221607876d4ed4c24ed329a237f535190f0f74bc8ace524c4a"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1203,
+      "sha256": "sha256:465a04b1406d7f4abbc0a59def07e44998db208f0cbc1fd0ea66f8d5a2e60bdd"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1865,
+      "sha256": "sha256:b71bbff56faba47556855ff5b12b902a76ccec87d94fb9dfdc14114718718aae"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2672,
+      "sha256": "sha256:b94a4c62a985b5b06eebab65fb13880799b4e5a310b7379fa4147a45f4c3691a"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 694,
+      "sha256": "sha256:3ea4a539bc006bed1d4d3f64f779e35b1cb9917704279be7c061634bf50f915e"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 624,
+      "sha256": "sha256:69659390e2a7bf06fa9a5af722c496ea662da430400c029fa09929afbd2307d3"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 793,
+      "sha256": "sha256:1a7d814bc314d46f9037d9a5a7d81b978080b85f59aaba17038042f3fcb7b1f9"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 669,
+      "sha256": "sha256:258a96b0f0bad3f0522ad72e5a445ba5afc7378c45e952cb6ed0f98f0ff99fe2"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 1129,
+      "sha256": "sha256:b30240497d8135ecdf0c709632c47cb1da71bab38600ae3a7398a570c34505c9"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 480,
+      "sha256": "sha256:423c8d83f2468403f87a48b45bbaa21b2e9939c245289dfe57f5d5e987783570"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 791,
+      "sha256": "sha256:c1f3d240c0bf199cb1956bbd984ec31c364d87964b3981c593dc3e8c4670088e"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 471,
+      "sha256": "sha256:4b67e7f71d0493a886f73f9ed5c34be1e9257d7e69e73949c0dd1948e7aa7ea2"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 3901,
+      "sha256": "sha256:aa8105a2d8f2a1f577c7fa48e0f0f1db67641b3c4ba4afeed3c929006a28c2d1"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1935,
+      "sha256": "sha256:cfac505e530361b2578b527b44ba945eb759c67d2839670854577e04ae244c33"
+    },
+    {
+      "path": "sources/equipment_ontology.json",
+      "role": "source_material",
+      "size": 5667,
+      "sha256": "sha256:f6fdcf0b3133a310089917c4db7b6c968f55a3e14c6b31b84e0dde2d402fc612"
+    },
+    {
+      "path": "sources/failure_modes.json",
+      "role": "source_material",
+      "size": 2159,
+      "sha256": "sha256:51f29f2e18f62c922af87f91f0e80f20a547581939932bddec9d2fde483f6202"
+    },
+    {
+      "path": "sources/ingredient_ontology.json",
+      "role": "source_material",
+      "size": 15179,
+      "sha256": "sha256:14f5804687dab601eb255931eb6b3f8a0acac29bd86cfd4bf6b0d445f5cf3bf5"
+    },
+    {
+      "path": "sources/ingredient_roles.json",
+      "role": "source_material",
+      "size": 3067,
+      "sha256": "sha256:c01c3753618edeafb9fb58c708f88bac9cc44b3f5802451ac4c8676d177c5402"
+    },
+    {
+      "path": "sources/invariants.json",
+      "role": "source_material",
+      "size": 2980,
+      "sha256": "sha256:42fcb065200d2655ce36bb968ddc02f4562052f5720da1f186be3e6be459ef46"
+    },
+    {
+      "path": "sources/preparation_events.json",
+      "role": "source_material",
+      "size": 2005,
+      "sha256": "sha256:acfe1515bef33aee70c7299b0292e4dc0cca736f095eb3d5a2d16dd7a6d782b4"
+    },
+    {
+      "path": "sources/recipe_families.json",
+      "role": "source_material",
+      "size": 1949,
+      "sha256": "sha256:795353bb03336a368f23bb13f77aea1101dbff6fafbd41207c06a974dc5f8a59"
+    },
+    {
+      "path": "sources/recipe_variants.json",
+      "role": "source_material",
+      "size": 40935,
+      "sha256": "sha256:6d90e660df0d813387dade7ef642e58922a78e765db642980bc010582295b9dd"
+    },
+    {
+      "path": "sources/semantic_model.json",
+      "role": "source_material",
+      "size": 2472,
+      "sha256": "sha256:3fb52d53ae285b7ea52b7285080a8076ccf52b332878a5a54a745e92a70a2113"
+    },
+    {
+      "path": "sources/sensory_ontology.json",
+      "role": "source_material",
+      "size": 6158,
+      "sha256": "sha256:ed4406d31d0b899e96ff11919c1a5a3b1f80e8d899408b81e746cf4b0282e671"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 6885,
+      "sha256": "sha256:218e5533cfd31c9ce3e4ce4b6983ba27cd6ea61e561344f539e9f8397e3109ec"
+    },
+    {
+      "path": "sources/source_instances.json",
+      "role": "source_material",
+      "size": 243,
+      "sha256": "sha256:267584211c86c283e2966fed3dde2fe5b8dd2207e603e55e030167e661a8f76d"
+    },
+    {
+      "path": "sources/substitution_rules.json",
+      "role": "source_material",
+      "size": 1469,
+      "sha256": "sha256:56e7d1e2f59d5bcaa8c1987138507874b4de973296a928761669b3bf6c3a0c32"
+    },
+    {
+      "path": "sources/technique_ontology.json",
+      "role": "source_material",
+      "size": 14040,
+      "sha256": "sha256:be94ac24babdfd82cab1d9e08c71ac3c25615bb09cece4bb95621cbab5b8a7c4"
+    },
+    {
+      "path": "sources/transformation_mechanisms.json",
+      "role": "source_material",
+      "size": 7720,
+      "sha256": "sha256:4f54826436a5167dd0b89d0c9c07bdf414f9e1520dbda84f8c9d06dae8aac2e8"
+    },
+    {
+      "path": "sources/unit_ontology.json",
+      "role": "source_material",
+      "size": 1779,
+      "sha256": "sha256:196fe9506b491760ea62d3fcfebd8720d9f2b3d21b872f75dfb9b9e3ef8e0190"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 867,
+      "sha256": "sha256:dda43516d1c53d766051d79fc15542f58712d6cf8e788db4a451bd7ccfad16dd"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

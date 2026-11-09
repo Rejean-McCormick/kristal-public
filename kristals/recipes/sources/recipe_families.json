@@ -1,0 +1,66 @@
+{
+  "format": "recipes.recipe-families.v2",
+  "version": "2.0.0",
+  "status": "synthetic_seed",
+  "families": [
+    {
+      "family_id": "urn:kristal:recipes:family:generic_braise",
+      "labels": [
+        {
+          "text": "Ragoût braisé générique",
+          "lang": "fr"
+        }
+      ],
+      "description": "Famille synthétique illustrant saisie puis cuisson humide prolongée.",
+      "status": "working",
+      "facet_refs": [
+        "urn:kristal:recipes:facet:dish_family:stew",
+        "urn:kristal:recipes:facet:meal_function:main"
+      ]
+    },
+    {
+      "family_id": "urn:kristal:recipes:family:generic_emulsified_sauce",
+      "labels": [
+        {
+          "text": "Sauce émulsionnée générique",
+          "lang": "fr"
+        }
+      ],
+      "description": "Famille synthétique illustrant une émulsion culinaire; non autoritative.",
+      "status": "working",
+      "facet_refs": [
+        "urn:kristal:recipes:facet:dish_family:emulsified_sauce",
+        "urn:kristal:recipes:facet:meal_function:condiment"
+      ]
+    },
+    {
+      "family_id": "urn:kristal:recipes:family:generic_pancake",
+      "labels": [
+        {
+          "text": "Pancake générique",
+          "lang": "fr"
+        }
+      ],
+      "description": "Famille synthétique illustrant un appareil mélangé puis cuit en portions à la poêle.",
+      "status": "working",
+      "facet_refs": [
+        "urn:kristal:recipes:facet:dish_family:pancake",
+        "urn:kristal:recipes:facet:meal_function:breakfast"
+      ]
+    },
+    {
+      "family_id": "urn:kristal:recipes:family:generic_yeast_bread",
+      "labels": [
+        {
+          "text": "Pain levé générique",
+          "lang": "fr"
+        }
+      ],
+      "description": "Famille synthétique illustrant un produit à pâte fermentée puis cuite.",
+      "status": "working",
+      "facet_refs": [
+        "urn:kristal:recipes:facet:dish_family:bread"
+      ]
+    }
+  ]
+}

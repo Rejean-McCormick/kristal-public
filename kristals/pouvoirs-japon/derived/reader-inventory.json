@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-japon",
+  "source_fingerprint": "sha256:c590caae15d6f9851d00add33b371daa7f85b67c9eef4a47fcf8d3ac1489983b",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 306714,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 158297,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-pouvoirs-japon-artifact-canonical-58634a5218.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 158297,
+      "sha256": "sha256:472d58ddc173aede07c0543709ffb21183924c6f8c2f8dd3bd990eff171b1489"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1177,
+      "sha256": "sha256:43ad0f282e032b32dfc227a7e7c06d3710b4bb99999cd684708aaab6a94ca981"
+    },
+    {
+      "path": "canon/domain/jurisdictional-power.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 147240,
+      "sha256": "sha256:b95039f817aebc783685d7edd3d68aa0c622f83b71f87b250cbeaf70cacec005"
+    }
+  ],
+  "segments": []
+}

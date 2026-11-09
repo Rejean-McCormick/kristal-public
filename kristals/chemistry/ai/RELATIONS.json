@@ -1,0 +1,145 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:chemistry",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:2aaec70df77b0c6c5ce92c923e1708fcb70255bd457c33d0fdb717cde88963f0"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:chemistry:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:chemistry:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6f2d8bc02c54ad9dc24d7733cdd1d879c9171ee6a02e829364ae8dbecda0cc7a"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3e9d4b5251980e01504333f6a029c19ba1d6ce8613cca1a0a8e0e11ffaab8ae3"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:39f7aa581e7ec10fb75cb677fcca01d436db0cb96d1e3e79374fc8c27cc5bfa8"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:161ecbeca99046aa210b56ca050c5ef7bc175743c4bef00d688c08cd8c20207c"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fabbaea5c6975b8a61346828f8c65640f24dc8b9deb8225969383b6c2ac1959b"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:199f441f543ca9bbe60a597cf39f78a569c8914cd1e7c6b97a213fc364dbb965"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2a45bc483457c1207c2daa2a8accb2ef6634095ef40b84bd241436b0ac850827"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bfe56f0fe80d3fb7bf593e40b5fe60f9ae3a24ef70d86b081263012ec6a5c654"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2edd220f07ee3bc4e18e855107f128af0a4792b8a68999efcc0e73e9935b58b4"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:18c1519f106cfa96b1fa04aada9414ced9c2bf44b59ee747e5714f433acb967e"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e95236970831042aaed07c6097d8b56b06e6f4798c4bc37f47ea52603649e64d"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-chemistry:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:85bbd2410f6308c9928334ae2319a7b2172ee2956e5e84affc2c4b3b5dfbfd9a"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

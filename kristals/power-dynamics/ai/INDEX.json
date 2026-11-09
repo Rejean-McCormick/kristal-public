@@ -1,0 +1,137 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:power",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:7b9a4cbfa76756d13a50753ecb9faf0bdeaae015da5487366ad09c48b02f696e"
+  },
+  "files": [
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 1135,
+      "sha256": "sha256:ce438ff75f345231a8754c55c04b284d9cd1ee155b0e956db9717ec45d51bb28"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1065,
+      "sha256": "sha256:a1a8ce6e231b9ab1d71c7b4e842fdbde6f46e0f879740a972a334c8aae4986c3"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1457,
+      "sha256": "sha256:e9c76adf581f0b465b3c4843fc8a3611b14432afe3c6e79fe7f7f2562aeed19f"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 2047,
+      "sha256": "sha256:e6f07aefd37be7089813b4f6d2d46bac2e8b1c4054a966189ece04a323f08773"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1859,
+      "sha256": "sha256:0e4326478ad2092c1faa2df1fef4a93a2b029c10de5d257e9756ea422980eb82"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1529,
+      "sha256": "sha256:ca53ba7934f68853f22eca956a8bb75760a060e97e96d81679c33104117dbc59"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 931,
+      "sha256": "sha256:df0fa6bfe6c2714b1c25c578c7d78858dc100fe04cfb853f093bb5dfecbe00c3"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1739,
+      "sha256": "sha256:edf464cea0c63b3c68d00fb8b705d9997926ed7a7b2d1a2df35a96dc18c5df03"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 989,
+      "sha256": "sha256:b5b0ea57e7643bbcc9db8b6911a95065051786779873a36510bb562a69147ec2"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3932,
+      "sha256": "sha256:3baeb408c64ab20204cdf61d9a3edf9cfd9ab46c52e29715778a1c929c711e80"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 462,
+      "sha256": "sha256:6d212367a9decff17d9e3cfa3f84080b1bdc7855db77d4b26bb2d65cf771403b"
+    },
+    {
+      "path": "docs/PROFILE_NOTES.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 282,
+      "sha256": "sha256:8969c2266e5a33fa3fdaaee021f1fb48eade6c98ab6914a5c57983d03db056e8"
+    },
+    {
+      "path": "materializations/v9/manifests/urn-kristal-materialization-power-canonical-native-json-c84e9de907.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1387,
+      "sha256": "sha256:c7db62bc5e8550de6310e05ac207fff76663d50b83aba28aca89a079c8b9699b"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 970,
+      "sha256": "sha256:992e5b5f217c37eefdf6651adb1f29ecf32b4fd7f929730acf2ad42199715f22"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 941,
+      "sha256": "sha256:880c3d1a0c1b5e46dec40349160682b0e26dd087bd6d82cf22d7700060c40f29",
+      "state_ref": "urn:kristal:state:power",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:7b9a4cbfa76756d13a50753ecb9faf0bdeaae015da5487366ad09c48b02f696e"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": "materializations/v9/manifests/urn-kristal-materialization-power-canonical-native-json-c84e9de907.materialization.json",
+      "source_artifact_id": "urn:kristal:power:canonical-state",
+      "kind": "segment",
+      "key": "canonical",
+      "media_type": "application/json",
+      "size": 34350571,
+      "sha256": "sha256:91573ba1f265a43a06d0661bfb9d491f3e3aa40e946ab31481f736b8d0f82404",
+      "locator": "knowledge-base/corpus/power-topology.structured-epistemic-state.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/corpus/power-topology.structured-epistemic-state.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:91573ba1f265a43a06d0661bfb9d491f3e3aa40e946ab31481f736b8d0f82404",
+      "verified_size": 34350571
+    }
+  ]
+}

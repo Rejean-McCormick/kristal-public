@@ -1,0 +1,155 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:astronomy:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:ca38ce41bcc7a5e817c4129686e72119980d962d1f7097bcd76b49813c82db17"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:astronomy:artifact:canonical-state",
+      "logical_contract": {
+        "id": "astronomy.canonical-knowledge-state",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:7d6e30dd0b654a2b6a4644f034e15fb37080e2fe8a5fe8efca89fa896fe47500"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:astronomy:artifact:identity-registry",
+      "logical_contract": {
+        "id": "astronomy.identity-registry",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:db7d69904ec9272af7cb14d9c370ef644c45cecd5610a51ee2527e9b21d12a61"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ea51a4dd75615a8b6f4516b6324c79d2c5f87203a0ffd74be36abf499dc4d1a4"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c1d9b9b509b417e6f85b0ecc7ba4f53f32ebb9e4459d541004b71ac6a3975724"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:16d7852e29d384b086e724c2d14da147c1c3baf4a66736f459738569597f45e4"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c9318b91fd5ca4a8bbaf3fc61c08b9f8c4de16870d3504c4e1a01eefffb7311e"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:69cd83d791567b3690326e0f1befa0294cc3039691a8749ce7037f667137324c"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2a45bc483457c1207c2daa2a8accb2ef6634095ef40b84bd241436b0ac850827"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:52ba170f6b80dfe70d3902f800bea4febe5887ab1f766e44616384455b85a37c"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c784188c5d006a05c890436d25c362ea9493ede67b33c01067bd3b314786c1a1"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:637e2d970685c7f16df9993e8486a30b385cc25ef51052a00902f42e13eb9dcb"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:15e1dd861668dcd0c3e1f0cf5fe221cfc59c3bfabb64276a250f86a6b79007d4"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3faba7bebc1490cb74068a4171b7788448bb9fd42d535b53d89f52887e3885e8"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

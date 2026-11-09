@@ -1,0 +1,36 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:religion",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:9c4c1f6374d2803514ebb06de8ae96d9e5e3cc308870b79b5f9e3a65c8f77a22"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:religion",
+    "label": "Kristal-Religion",
+    "domain": "religion"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Cartographie comparative des pratiques, traditions, croyances, institutions, communautés et sources."
+    ],
+    "does_not_own": [
+      "Hiérarchie universelle de valeur des traditions ou affirmation de linéarité de leur développement.",
+      "Les dépôts des sources externes, leur publication et leur autorité éditoriale."
+    ]
+  },
+  "canonical_artifact_count": 13,
+  "source_count": 18,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

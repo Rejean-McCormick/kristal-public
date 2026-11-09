@@ -1,0 +1,63 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d08",
+  "protocol_id": "D08",
+  "title": "D08 — Canal philanthropique transparent et performant",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:S05",
+    "source:multiangle:S06",
+    "source:multiangle:S11",
+    "source:multiangle:W15",
+    "source:multiangle:W16",
+    "source:multiangle:W21",
+    "source:multiangle:W23"
+  ],
+  "depends_on": [
+    "D02",
+    "external:registered-charities"
+  ],
+  "validation_gates": [
+    "comptabilite_dons",
+    "autorisation_fiscale",
+    "controle_impact"
+  ],
+  "sections": [
+    {
+      "heading": "Finalité et distinction",
+      "level": 2,
+      "body_markdown": "Réduire les frais évitables de collecte, sécuriser les dons, améliorer la capacité de vérifier le bénéfice obtenu et donner une alternative aux institutions dont le public critique les coûts. Les documents S11 présentent plusieurs chiffres anciens sur les frais des organismes : **non vérifiés**, donc ni reproduits comme faits généraux ni utilisés dans une prévision."
+    },
+    {
+      "heading": "Modèle de circuit",
+      "level": 2,
+      "body_markdown": "Donateur → validation de l'organisme et du projet → intermédiaire de paiements autorisé → compte séparé → affectation conforme au don → débours conditionnel → reçus authentiques si habilitation → suivi de résultats indépendant."
+    },
+    {
+      "heading": "Régimes juridiques distincts",
+      "level": 2,
+      "body_markdown": "Organisme de bienfaisance enregistré ≠ OBNL ≠ entreprise commerciale ≠ fondation. Seul le donataire reconnu peut émettre certains reçus officiels [W16,W21]. Les plateformes ne peuvent utiliser un numéro d'organisme comme le leur ni transformer une vente de marchandise en don complet par narration."
+    },
+    {
+      "heading": "Mesurer les frais sans tricher",
+      "level": 2,
+      "body_markdown": "`Coût_complet = paiement + vérification + audit + service + cybersécurité + suivi + conformité + frais du partenaire`; `impact_par_dollar = résultat mesuré / coût_complet`. Le seuil « ≤ 10 % » dans S06 est un **objectif de conception** à expérimenter, pas un critère légal universel ni une preuve d'efficacité. L'ARC examine aussi pertinence de l'activité, pratiques d'achat et résultats [W15]."
+    },
+    {
+      "heading": "Gouvernance",
+      "level": 2,
+      "body_markdown": "Contrats entre donateur, organisme, prestataire et auditeur; conflits déclarés; choix contestable des bénéficiaires; publication agrégée; consentement, correction et retrait des données quand possible; mécanisme de recours."
+    },
+    {
+      "heading": "Contrefactuels",
+      "level": 2,
+      "body_markdown": "Mesurer qualité et volume des services, sécurité, continuité et équité; un modèle peu coûteux qui abandonne les cas difficiles peut avoir un impact inférieur à un modèle exigeant plus de frais administratifs."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D08_PHILANTHROPIE_ET_REDDITION.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

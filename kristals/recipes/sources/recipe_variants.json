@@ -1,0 +1,1351 @@
+{
+  "format": "recipes.recipe-variants.v2",
+  "version": "2.0.0",
+  "status": "synthetic_seed",
+  "variants": [
+    {
+      "variant_id": "urn:kristal:recipes:variant:generic_braise.v1",
+      "family_ref": "urn:kristal:recipes:family:generic_braise",
+      "version": "1",
+      "labels": [
+        {
+          "text": "Ragoût braisé synthétique v1",
+          "lang": "fr"
+        }
+      ],
+      "servings": 6,
+      "procedure": {
+        "graph_id": "graph:generic_braise.v1",
+        "nodes": [
+          {
+            "node_id": "beef",
+            "node_type": "ingredient_input",
+            "label": "Bœuf",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:beef",
+            "quantity": {
+              "value": 800,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:primary"
+            ]
+          },
+          {
+            "node_id": "oil",
+            "node_type": "ingredient_input",
+            "label": "Huile",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:oil",
+            "quantity": {
+              "value": 20,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:cooking_medium"
+            ]
+          },
+          {
+            "node_id": "onion",
+            "node_type": "ingredient_input",
+            "label": "Oignon",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:onion",
+            "quantity": {
+              "value": 200,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:aromatic"
+            ]
+          },
+          {
+            "node_id": "carrot",
+            "node_type": "ingredient_input",
+            "label": "Carotte",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:carrot",
+            "quantity": {
+              "value": 200,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:vegetable_component"
+            ]
+          },
+          {
+            "node_id": "stock",
+            "node_type": "ingredient_input",
+            "label": "Bouillon",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:stock",
+            "quantity": {
+              "value": 600,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:braising_liquid"
+            ]
+          },
+          {
+            "node_id": "sear",
+            "node_type": "operation",
+            "label": "Saisie",
+            "technique_ref": "urn:kristal:recipes:technique:sear",
+            "parameters": {
+              "duration_min": 12
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:maillard_browning",
+              "urn:kristal:recipes:mechanism:evaporation"
+            ],
+            "termination": [
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed synthétique",
+                "target": 12,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "browned",
+            "node_type": "state",
+            "label": "Bœuf saisi",
+            "state_type": "browned_food",
+            "state_ref": "browned_food"
+          },
+          {
+            "node_id": "combine",
+            "node_type": "operation",
+            "label": "Assemblage",
+            "technique_ref": "urn:kristal:recipes:technique:mix",
+            "parameters": {
+              "duration_min": 5
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:mechanical_combination"
+            ],
+            "termination": [
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed synthétique",
+                "target": 5,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "pot_state",
+            "node_type": "state",
+            "label": "Mélange prêt à braiser",
+            "state_type": "braise_mix",
+            "state_ref": "braise_mix"
+          },
+          {
+            "node_id": "braise",
+            "node_type": "operation",
+            "label": "Braisage",
+            "technique_ref": "urn:kristal:recipes:technique:braise",
+            "parameters": {
+              "duration_min": 150
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:protein_denaturation",
+              "urn:kristal:recipes:mechanism:collagen_conversion",
+              "urn:kristal:recipes:mechanism:extraction"
+            ],
+            "termination": [
+              {
+                "criterion_type": "texture",
+                "description": "Texture tendre visée",
+                "confidence": 0.35
+              },
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed",
+                "target": 150,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "stew",
+            "node_type": "output",
+            "label": "Ragoût braisé",
+            "state_type": "braised_food",
+            "state_ref": "braised_food"
+          },
+          {
+            "node_id": "eq_dutch",
+            "node_type": "equipment",
+            "label": "Cocotte",
+            "equipment_ref": "urn:kristal:recipes:equipment:dutch_oven"
+          },
+          {
+            "node_id": "eq_bowl",
+            "node_type": "equipment",
+            "label": "Bol à mélanger",
+            "equipment_ref": "urn:kristal:recipes:equipment:mixing_bowl"
+          }
+        ],
+        "edges": [
+          {
+            "from": "beef",
+            "to": "sear",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "oil",
+            "to": "sear",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "sear",
+            "to": "browned",
+            "relation": "produces"
+          },
+          {
+            "from": "browned",
+            "to": "combine",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "onion",
+            "to": "combine",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "carrot",
+            "to": "combine",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "stock",
+            "to": "combine",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "combine",
+            "to": "pot_state",
+            "relation": "produces"
+          },
+          {
+            "from": "pot_state",
+            "to": "braise",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "braise",
+            "to": "stew",
+            "relation": "produces"
+          },
+          {
+            "from": "sear",
+            "to": "eq_dutch",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "combine",
+            "to": "eq_bowl",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "braise",
+            "to": "eq_dutch",
+            "relation": "uses_equipment"
+          }
+        ],
+        "terminal_outputs": [
+          "stew"
+        ]
+      },
+      "declared_facet_refs": [
+        "urn:kristal:recipes:facet:difficulty:simple"
+      ],
+      "status": "working",
+      "notes": "Exemple synthétique destiné à tester la structure.",
+      "declared_sensory_refs": [
+        "urn:kristal:recipes:sensory:texture:tender",
+        "urn:kristal:recipes:sensory:appearance:browned"
+      ],
+      "scaling_policy": {
+        "mode": "contextual",
+        "notes": "Les quantités peuvent être rescalées; temps, géométrie et transfert thermique exigent une réévaluation."
+      },
+      "source_instance_refs": []
+    },
+    {
+      "variant_id": "urn:kristal:recipes:variant:generic_emulsified_sauce.v1",
+      "family_ref": "urn:kristal:recipes:family:generic_emulsified_sauce",
+      "version": "1",
+      "labels": [
+        {
+          "text": "Sauce émulsionnée synthétique v1",
+          "lang": "fr"
+        }
+      ],
+      "servings": 6,
+      "procedure": {
+        "graph_id": "graph:generic_emulsified_sauce.v1",
+        "nodes": [
+          {
+            "node_id": "yolk",
+            "node_type": "ingredient_input",
+            "label": "Jaune d’œuf",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:egg_yolk",
+            "quantity": {
+              "value": 18,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:emulsifier",
+              "urn:kristal:recipes:ingredient-role:binder"
+            ]
+          },
+          {
+            "node_id": "acid",
+            "node_type": "ingredient_input",
+            "label": "Jus de citron",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:lemon_juice",
+            "quantity": {
+              "value": 15,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:acid",
+              "urn:kristal:recipes:ingredient-role:hydration"
+            ]
+          },
+          {
+            "node_id": "oil",
+            "node_type": "ingredient_input",
+            "label": "Huile neutre",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:neutral_oil",
+            "quantity": {
+              "value": 160,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:fat",
+              "urn:kristal:recipes:ingredient-role:primary"
+            ]
+          },
+          {
+            "node_id": "salt",
+            "node_type": "ingredient_input",
+            "label": "Sel",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:salt",
+            "quantity": {
+              "value": 2,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:seasoning"
+            ]
+          },
+          {
+            "node_id": "premix",
+            "node_type": "operation",
+            "label": "Pré-mélange",
+            "technique_ref": "urn:kristal:recipes:technique:whisk",
+            "parameters": {
+              "duration_min": 1
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:mechanical_combination",
+              "urn:kristal:recipes:mechanism:aeration"
+            ],
+            "termination": [
+              {
+                "criterion_type": "consistency",
+                "description": "Mélange homogène",
+                "confidence": 0.35
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "base",
+            "node_type": "state",
+            "label": "Base aqueuse",
+            "state_type": "mixture",
+            "state_ref": "mixture"
+          },
+          {
+            "node_id": "emulsify",
+            "node_type": "operation",
+            "label": "Émulsionner progressivement",
+            "technique_ref": "urn:kristal:recipes:technique:emulsify",
+            "parameters": {
+              "duration_min": 4
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:emulsification"
+            ],
+            "termination": [
+              {
+                "criterion_type": "consistency",
+                "description": "Émulsion homogène et stable visuellement",
+                "confidence": 0.35
+              }
+            ],
+            "control_points": [
+              {
+                "observation": "phase_separation",
+                "purpose": "Détecter une rupture d’émulsion"
+              }
+            ]
+          },
+          {
+            "node_id": "sauce",
+            "node_type": "output",
+            "label": "Sauce émulsionnée",
+            "state_type": "stable_emulsion",
+            "state_ref": "stable_emulsion",
+            "sensory_target_refs": [
+              "urn:kristal:recipes:sensory:texture:creamy",
+              "urn:kristal:recipes:sensory:appearance:emulsified"
+            ]
+          },
+          {
+            "node_id": "eq_bowl",
+            "node_type": "equipment",
+            "label": "Bol",
+            "equipment_ref": "urn:kristal:recipes:equipment:mixing_bowl"
+          },
+          {
+            "node_id": "eq_whisk",
+            "node_type": "equipment",
+            "label": "Fouet",
+            "equipment_ref": "urn:kristal:recipes:equipment:whisk"
+          }
+        ],
+        "edges": [
+          {
+            "from": "yolk",
+            "to": "premix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "acid",
+            "to": "premix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "salt",
+            "to": "premix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "premix",
+            "to": "base",
+            "relation": "produces"
+          },
+          {
+            "from": "base",
+            "to": "emulsify",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "oil",
+            "to": "emulsify",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "emulsify",
+            "to": "sauce",
+            "relation": "produces"
+          },
+          {
+            "from": "premix",
+            "to": "eq_bowl",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "premix",
+            "to": "eq_whisk",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "emulsify",
+            "to": "eq_whisk",
+            "relation": "uses_equipment"
+          }
+        ],
+        "terminal_outputs": [
+          "sauce"
+        ],
+        "notes": "Exemple structurel synthétique."
+      },
+      "declared_facet_refs": [
+        "urn:kristal:recipes:facet:difficulty:intermediate",
+        "urn:kristal:recipes:facet:procedure_structure:emulsion"
+      ],
+      "declared_sensory_refs": [
+        "urn:kristal:recipes:sensory:texture:creamy",
+        "urn:kristal:recipes:sensory:appearance:emulsified"
+      ],
+      "scaling_policy": {
+        "mode": "contextual",
+        "notes": "Le rapport des phases peut être rescalé; vitesse d’incorporation et géométrie restent contextuelles."
+      },
+      "source_instance_refs": [],
+      "status": "working",
+      "notes": "Exemple synthétique destiné à tester émulsion, contrôle et dépannage."
+    },
+    {
+      "variant_id": "urn:kristal:recipes:variant:generic_pancake.v1",
+      "family_ref": "urn:kristal:recipes:family:generic_pancake",
+      "version": "1",
+      "labels": [
+        {
+          "text": "Pancake synthétique v1",
+          "lang": "fr"
+        }
+      ],
+      "servings": 4,
+      "procedure": {
+        "graph_id": "graph:generic_pancake.v1",
+        "nodes": [
+          {
+            "node_id": "flour",
+            "node_type": "ingredient_input",
+            "label": "Farine",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:wheat_flour",
+            "quantity": {
+              "value": 200,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:structure"
+            ]
+          },
+          {
+            "node_id": "milk",
+            "node_type": "ingredient_input",
+            "label": "Lait",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:milk",
+            "quantity": {
+              "value": 300,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:hydration"
+            ]
+          },
+          {
+            "node_id": "egg",
+            "node_type": "ingredient_input",
+            "label": "Œuf",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:egg",
+            "quantity": {
+              "value": 100,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:binder"
+            ]
+          },
+          {
+            "node_id": "butter",
+            "node_type": "ingredient_input",
+            "label": "Beurre",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:butter",
+            "quantity": {
+              "value": 30,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:fat"
+            ]
+          },
+          {
+            "node_id": "mix",
+            "node_type": "operation",
+            "label": "Mélange",
+            "technique_ref": "urn:kristal:recipes:technique:whisk",
+            "parameters": {
+              "duration_min": 3
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:aeration",
+              "urn:kristal:recipes:mechanism:mechanical_combination"
+            ],
+            "termination": [
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed synthétique",
+                "target": 3,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "batter",
+            "node_type": "state",
+            "label": "Appareil",
+            "state_type": "batter",
+            "state_ref": "batter"
+          },
+          {
+            "node_id": "cook",
+            "node_type": "operation",
+            "label": "Cuisson à la poêle",
+            "technique_ref": "urn:kristal:recipes:technique:pan_fry",
+            "parameters": {
+              "duration_min": 12
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:protein_denaturation",
+              "urn:kristal:recipes:mechanism:starch_gelatinization",
+              "urn:kristal:recipes:mechanism:maillard_browning"
+            ],
+            "termination": [
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed synthétique",
+                "target": 12,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "pancakes",
+            "node_type": "output",
+            "label": "Pancakes cuits",
+            "state_type": "pan_cooked_batter"
+          },
+          {
+            "node_id": "eq_whisk",
+            "node_type": "equipment",
+            "label": "Fouet",
+            "equipment_ref": "urn:kristal:recipes:equipment:whisk"
+          },
+          {
+            "node_id": "eq_skillet",
+            "node_type": "equipment",
+            "label": "Poêle",
+            "equipment_ref": "urn:kristal:recipes:equipment:skillet"
+          }
+        ],
+        "edges": [
+          {
+            "from": "flour",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "milk",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "egg",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "butter",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "mix",
+            "to": "batter",
+            "relation": "produces"
+          },
+          {
+            "from": "batter",
+            "to": "cook",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "cook",
+            "to": "pancakes",
+            "relation": "produces"
+          },
+          {
+            "from": "mix",
+            "to": "eq_whisk",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "cook",
+            "to": "eq_skillet",
+            "relation": "uses_equipment"
+          }
+        ],
+        "terminal_outputs": [
+          "pancakes"
+        ]
+      },
+      "declared_facet_refs": [
+        "urn:kristal:recipes:facet:difficulty:simple"
+      ],
+      "status": "working",
+      "notes": "Exemple synthétique destiné à tester la structure.",
+      "declared_sensory_refs": [
+        "urn:kristal:recipes:sensory:texture:fluffy",
+        "urn:kristal:recipes:sensory:appearance:browned"
+      ],
+      "scaling_policy": {
+        "mode": "contextual",
+        "notes": "Les quantités peuvent être rescalées; temps, géométrie et transfert thermique exigent une réévaluation."
+      },
+      "source_instance_refs": []
+    },
+    {
+      "variant_id": "urn:kristal:recipes:variant:generic_yeast_bread.v1",
+      "family_ref": "urn:kristal:recipes:family:generic_yeast_bread",
+      "version": "1",
+      "labels": [
+        {
+          "text": "Pain levé synthétique v1",
+          "lang": "fr"
+        }
+      ],
+      "servings": 8,
+      "procedure": {
+        "graph_id": "graph:generic_yeast_bread.v1",
+        "nodes": [
+          {
+            "node_id": "flour",
+            "node_type": "ingredient_input",
+            "label": "Farine",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:wheat_flour",
+            "quantity": {
+              "value": 500,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:structure"
+            ]
+          },
+          {
+            "node_id": "water",
+            "node_type": "ingredient_input",
+            "label": "Eau",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:water",
+            "quantity": {
+              "value": 350,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:hydration"
+            ]
+          },
+          {
+            "node_id": "yeast",
+            "node_type": "ingredient_input",
+            "label": "Levure",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:yeast",
+            "quantity": {
+              "value": 5,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:fermentation_agent"
+            ]
+          },
+          {
+            "node_id": "salt",
+            "node_type": "ingredient_input",
+            "label": "Sel",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:salt",
+            "quantity": {
+              "value": 10,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:seasoning"
+            ]
+          },
+          {
+            "node_id": "mix",
+            "node_type": "operation",
+            "label": "Mélange",
+            "technique_ref": "urn:kristal:recipes:technique:mix",
+            "parameters": {
+              "duration_min": 3
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:mechanical_combination"
+            ],
+            "termination": [
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed synthétique",
+                "target": 3,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "dough",
+            "node_type": "state",
+            "label": "Pâte",
+            "state_type": "dough",
+            "state_ref": "dough"
+          },
+          {
+            "node_id": "knead",
+            "node_type": "operation",
+            "label": "Pétrissage",
+            "technique_ref": "urn:kristal:recipes:technique:knead",
+            "parameters": {
+              "duration_min": 8
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:structure_development"
+            ],
+            "termination": [
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed synthétique",
+                "target": 8,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "developed",
+            "node_type": "state",
+            "label": "Pâte développée",
+            "state_type": "developed_dough",
+            "state_ref": "developed_dough"
+          },
+          {
+            "node_id": "ferment",
+            "node_type": "operation",
+            "label": "Fermentation",
+            "technique_ref": "urn:kristal:recipes:technique:ferment",
+            "parameters": {
+              "duration_min": 75
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:fermentation",
+              "urn:kristal:recipes:mechanism:gas_generation"
+            ],
+            "termination": [
+              {
+                "criterion_type": "volume_change",
+                "description": "Fin selon expansion observée plutôt que temps seul",
+                "target": 2.0,
+                "unit": "relative_volume",
+                "confidence": 0.35
+              },
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed",
+                "target": 75,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": [
+              {
+                "observation": "volume_change",
+                "purpose": "Suivre la progression de fermentation"
+              }
+            ]
+          },
+          {
+            "node_id": "proofed",
+            "node_type": "state",
+            "label": "Pâte fermentée",
+            "state_type": "fermented_dough",
+            "state_ref": "fermented_dough"
+          },
+          {
+            "node_id": "bake",
+            "node_type": "operation",
+            "label": "Cuisson au four",
+            "technique_ref": "urn:kristal:recipes:technique:bake",
+            "parameters": {
+              "temperature_c": 220,
+              "duration_min": 35
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:protein_denaturation",
+              "urn:kristal:recipes:mechanism:starch_gelatinization",
+              "urn:kristal:recipes:mechanism:evaporation",
+              "urn:kristal:recipes:mechanism:maillard_browning"
+            ],
+            "conditions": [
+              {
+                "kind": "temperature",
+                "parameter": "environment_temperature",
+                "operator": "approximately",
+                "value": 220,
+                "unit": "C"
+              }
+            ],
+            "termination": [
+              {
+                "criterion_type": "visual",
+                "description": "Croûte suffisamment colorée",
+                "confidence": 0.35
+              },
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed",
+                "target": 35,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "bread",
+            "node_type": "output",
+            "label": "Pain cuit",
+            "state_type": "baked_bread",
+            "state_ref": "baked_bread"
+          },
+          {
+            "node_id": "eq_bowl",
+            "node_type": "equipment",
+            "label": "Bol à mélanger",
+            "equipment_ref": "urn:kristal:recipes:equipment:mixing_bowl"
+          },
+          {
+            "node_id": "eq_surface",
+            "node_type": "equipment",
+            "label": "Surface de travail",
+            "equipment_ref": "urn:kristal:recipes:equipment:work_surface"
+          },
+          {
+            "node_id": "eq_oven",
+            "node_type": "equipment",
+            "label": "Four",
+            "equipment_ref": "urn:kristal:recipes:equipment:oven"
+          }
+        ],
+        "edges": [
+          {
+            "from": "flour",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "water",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "yeast",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "salt",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "mix",
+            "to": "dough",
+            "relation": "produces"
+          },
+          {
+            "from": "dough",
+            "to": "knead",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "knead",
+            "to": "developed",
+            "relation": "produces"
+          },
+          {
+            "from": "developed",
+            "to": "ferment",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "ferment",
+            "to": "proofed",
+            "relation": "produces"
+          },
+          {
+            "from": "proofed",
+            "to": "bake",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "bake",
+            "to": "bread",
+            "relation": "produces"
+          },
+          {
+            "from": "mix",
+            "to": "eq_bowl",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "knead",
+            "to": "eq_surface",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "bake",
+            "to": "eq_oven",
+            "relation": "uses_equipment"
+          }
+        ],
+        "terminal_outputs": [
+          "bread"
+        ]
+      },
+      "declared_facet_refs": [
+        "urn:kristal:recipes:facet:difficulty:intermediate"
+      ],
+      "status": "working",
+      "notes": "Exemple synthétique destiné à tester la structure.",
+      "declared_sensory_refs": [
+        "urn:kristal:recipes:sensory:appearance:browned",
+        "urn:kristal:recipes:sensory:texture:chewy"
+      ],
+      "scaling_policy": {
+        "mode": "contextual",
+        "notes": "Les quantités peuvent être rescalées; temps, géométrie et transfert thermique exigent une réévaluation."
+      },
+      "source_instance_refs": []
+    },
+    {
+      "variant_id": "urn:kristal:recipes:variant:generic_yeast_bread.v2",
+      "family_ref": "urn:kristal:recipes:family:generic_yeast_bread",
+      "version": "2",
+      "labels": [
+        {
+          "text": "Pain levé synthétique v2 — hydratation réduite",
+          "lang": "fr"
+        }
+      ],
+      "servings": 8,
+      "procedure": {
+        "graph_id": "graph:generic_yeast_bread.v2",
+        "nodes": [
+          {
+            "node_id": "flour",
+            "node_type": "ingredient_input",
+            "label": "Farine",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:wheat_flour",
+            "quantity": {
+              "value": 500,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:structure"
+            ]
+          },
+          {
+            "node_id": "water",
+            "node_type": "ingredient_input",
+            "label": "Eau",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:water",
+            "quantity": {
+              "value": 325,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:hydration"
+            ]
+          },
+          {
+            "node_id": "yeast",
+            "node_type": "ingredient_input",
+            "label": "Levure",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:yeast",
+            "quantity": {
+              "value": 5,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:fermentation_agent"
+            ]
+          },
+          {
+            "node_id": "salt",
+            "node_type": "ingredient_input",
+            "label": "Sel",
+            "ingredient_ref": "urn:kristal:recipes:ingredient:salt",
+            "quantity": {
+              "value": 10,
+              "unit": "g"
+            },
+            "role_refs": [
+              "urn:kristal:recipes:ingredient-role:seasoning"
+            ]
+          },
+          {
+            "node_id": "mix",
+            "node_type": "operation",
+            "label": "Mélange",
+            "technique_ref": "urn:kristal:recipes:technique:mix",
+            "parameters": {
+              "duration_min": 3
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:mechanical_combination"
+            ],
+            "termination": [
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed synthétique",
+                "target": 3,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "dough",
+            "node_type": "state",
+            "label": "Pâte",
+            "state_type": "dough",
+            "state_ref": "dough"
+          },
+          {
+            "node_id": "knead",
+            "node_type": "operation",
+            "label": "Pétrissage",
+            "technique_ref": "urn:kristal:recipes:technique:knead",
+            "parameters": {
+              "duration_min": 8
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:structure_development"
+            ],
+            "termination": [
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed synthétique",
+                "target": 8,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "developed",
+            "node_type": "state",
+            "label": "Pâte développée",
+            "state_type": "developed_dough",
+            "state_ref": "developed_dough"
+          },
+          {
+            "node_id": "ferment",
+            "node_type": "operation",
+            "label": "Fermentation",
+            "technique_ref": "urn:kristal:recipes:technique:ferment",
+            "parameters": {
+              "duration_min": 75
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:fermentation",
+              "urn:kristal:recipes:mechanism:gas_generation"
+            ],
+            "termination": [
+              {
+                "criterion_type": "volume_change",
+                "description": "Fin selon expansion observée plutôt que temps seul",
+                "target": 2.0,
+                "unit": "relative_volume",
+                "confidence": 0.35
+              },
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed",
+                "target": 75,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": [
+              {
+                "observation": "volume_change",
+                "purpose": "Suivre la progression de fermentation"
+              }
+            ]
+          },
+          {
+            "node_id": "proofed",
+            "node_type": "state",
+            "label": "Pâte fermentée",
+            "state_type": "fermented_dough",
+            "state_ref": "fermented_dough"
+          },
+          {
+            "node_id": "bake",
+            "node_type": "operation",
+            "label": "Cuisson au four",
+            "technique_ref": "urn:kristal:recipes:technique:bake",
+            "parameters": {
+              "temperature_c": 220,
+              "duration_min": 35
+            },
+            "mechanism_refs": [
+              "urn:kristal:recipes:mechanism:protein_denaturation",
+              "urn:kristal:recipes:mechanism:starch_gelatinization",
+              "urn:kristal:recipes:mechanism:evaporation",
+              "urn:kristal:recipes:mechanism:maillard_browning"
+            ],
+            "conditions": [
+              {
+                "kind": "temperature",
+                "parameter": "environment_temperature",
+                "operator": "approximately",
+                "value": 220,
+                "unit": "C"
+              }
+            ],
+            "termination": [
+              {
+                "criterion_type": "visual",
+                "description": "Croûte suffisamment colorée",
+                "confidence": 0.35
+              },
+              {
+                "criterion_type": "time",
+                "description": "Durée indicative du seed",
+                "target": 35,
+                "unit": "min",
+                "confidence": 0.4
+              }
+            ],
+            "control_points": []
+          },
+          {
+            "node_id": "bread",
+            "node_type": "output",
+            "label": "Pain cuit",
+            "state_type": "baked_bread",
+            "state_ref": "baked_bread"
+          },
+          {
+            "node_id": "eq_bowl",
+            "node_type": "equipment",
+            "label": "Bol à mélanger",
+            "equipment_ref": "urn:kristal:recipes:equipment:mixing_bowl"
+          },
+          {
+            "node_id": "eq_surface",
+            "node_type": "equipment",
+            "label": "Surface de travail",
+            "equipment_ref": "urn:kristal:recipes:equipment:work_surface"
+          },
+          {
+            "node_id": "eq_oven",
+            "node_type": "equipment",
+            "label": "Four",
+            "equipment_ref": "urn:kristal:recipes:equipment:oven"
+          }
+        ],
+        "edges": [
+          {
+            "from": "flour",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "water",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "yeast",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "salt",
+            "to": "mix",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "mix",
+            "to": "dough",
+            "relation": "produces"
+          },
+          {
+            "from": "dough",
+            "to": "knead",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "knead",
+            "to": "developed",
+            "relation": "produces"
+          },
+          {
+            "from": "developed",
+            "to": "ferment",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "ferment",
+            "to": "proofed",
+            "relation": "produces"
+          },
+          {
+            "from": "proofed",
+            "to": "bake",
+            "relation": "consumed_by"
+          },
+          {
+            "from": "bake",
+            "to": "bread",
+            "relation": "produces"
+          },
+          {
+            "from": "mix",
+            "to": "eq_bowl",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "knead",
+            "to": "eq_surface",
+            "relation": "uses_equipment"
+          },
+          {
+            "from": "bake",
+            "to": "eq_oven",
+            "relation": "uses_equipment"
+          }
+        ],
+        "terminal_outputs": [
+          "bread"
+        ]
+      },
+      "declared_facet_refs": [
+        "urn:kristal:recipes:facet:difficulty:intermediate"
+      ],
+      "status": "working",
+      "notes": "Variant synthétique distinct servant à tester ratios, espace familial et similarité.",
+      "supersedes": null,
+      "declared_sensory_refs": [
+        "urn:kristal:recipes:sensory:appearance:browned",
+        "urn:kristal:recipes:sensory:texture:chewy"
+      ],
+      "scaling_policy": {
+        "mode": "contextual",
+        "notes": "Les quantités peuvent être rescalées; temps, géométrie et transfert thermique exigent une réévaluation."
+      },
+      "source_instance_refs": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "domain": "hydrology",
+  "domain_version": "1.0.0",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:hydrology:resource:portable_epistemic_state",
+      "role": "portable_epistemic_state",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:6580a107843947b899d9800590308a7da194f7c743fbc1c6894f7aee4e0182c8"
+      },
+      "legacy_schema_version": "6.0",
+      "legacy_artifact_type": "kristal_state",
+      "legacy_state_id": "sha256:39e1414d147fa83e13674706fcab1e08711b1cc18560c37f25704300b5154875",
+      "legacy_content_hash": {
+        "alg": "sha256",
+        "value": "39e1414d147fa83e13674706fcab1e08711b1cc18560c37f25704300b5154875"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:hydrology:resource:identity_registry",
+      "role": "identity_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:5423dce3596ce4e5af091947d3a1976fc6f6a6080813c03dab60627512bbebcb"
+      },
+      "legacy_schema_version": "1.0",
+      "legacy_artifact_type": "referent_registry"
+    },
+    {
+      "resource_id": "urn:kristal:hydrology:resource:domain_native_stock_flow_graph",
+      "role": "domain_native_stock_flow_graph",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:df5deb102a21df733d98afd816401556cb6e986d4addd6345e40578625e1e3eb"
+      },
+      "legacy_schema_version": "1.0",
+      "legacy_artifact_type": "derived_graph"
+    },
+    {
+      "resource_id": "urn:kristal:hydrology:resource:source_catalog",
+      "role": "source_catalog",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:9ae6506369701cdabafb3a9902455ad2d65dfcd2378c3bf76edcd0ddb810536a"
+      },
+      "legacy_schema_version": "1.0",
+      "legacy_artifact_type": "source_catalog"
+    }
+  ],
+  "semantic_boundaries": [
+    "stock != flow != storage_change",
+    "infiltration != groundwater_recharge",
+    "surface_watershed != aquifer_system"
+  ]
+}

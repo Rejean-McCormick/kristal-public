@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:mechanical-engineering",
+  "source_fingerprint": "sha256:29c6fa822271fd9ec4bf81b5d7fe000be1b837ddd375992446f362f807dec64c",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 875318,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 452972,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-mechanical-engineering-artifact-canonical-knowledge-67e3c0b2ac.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 452972,
+      "sha256": "sha256:70ad8d9fd36a2d74146e2a107b0eeec3213047140c82df0445330b0f3f9d1c5e"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 923,
+      "sha256": "sha256:33b515bcf9904942f86774f5200b0f3b38076923ac3fe5d0062b88ee88a1df50"
+    },
+    {
+      "path": "canon/domain/legacy-v6-logical-payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 421423,
+      "sha256": "sha256:cd07ef1d150f9de7a48066cfc46641b3547df0873045c5dab7483279f49cea77"
+    }
+  ],
+  "segments": []
+}

@@ -1,0 +1,6127 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "working",
+  "created_at": "2026-10-02T22:35:00Z",
+  "applicability": {
+    "domain": "mécanismes légaux de pouvoir",
+    "subdomain": "Australie / Commonwealth / États / Territoires / local / scolaire / tribunaux / administration / interface externe",
+    "jurisdiction": "Commonwealth of Australia",
+    "language": "fr",
+    "time_window": {
+      "as_of": "2026-10-02"
+    }
+  },
+  "source_refs": [
+    {
+      "source_id": "SRC-AU-CONST",
+      "title": "Commonwealth of Australia Constitution Act",
+      "url": "https://www.legislation.gov.au/C2004Q00685/latest"
+    },
+    {
+      "source_id": "SRC-AU-PEO-POWERS",
+      "title": "Division of powers / Three levels of government",
+      "url": "https://peo.gov.au/understand-our-parliament/how-parliament-works/three-levels-of-government/three-levels-of-government-governing-australia"
+    },
+    {
+      "source_id": "SRC-AU-HOUSE",
+      "title": "About the House of Representatives",
+      "url": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/About_the_House_of_Representatives"
+    },
+    {
+      "source_id": "SRC-AU-SENATE",
+      "title": "About the Senate",
+      "url": "https://www.aph.gov.au/About_Parliament/Senate/About_the_Senate"
+    },
+    {
+      "source_id": "SRC-AU-PMC-LEG",
+      "title": "Legislation Handbook",
+      "url": "https://www.pmc.gov.au/resources/legislation-handbook"
+    },
+    {
+      "source_id": "SRC-AU-PMC-CABINET",
+      "title": "Cabinet Handbook — 16th edition",
+      "url": "https://www.pmc.gov.au/resources/cabinet-handbook"
+    },
+    {
+      "source_id": "SRC-AU-FEC",
+      "title": "Federal Executive Council Handbook",
+      "url": "https://www.pmc.gov.au/resources/federal-executive-council-handbook-2021"
+    },
+    {
+      "source_id": "SRC-AU-GG",
+      "title": "Civics and democracy — constitutional duties",
+      "url": "https://www.gg.gov.au/about-governor-general/civics-and-democracy"
+    },
+    {
+      "source_id": "SRC-AU-HCA",
+      "title": "Role of the High Court",
+      "url": "https://www.hcourt.gov.au/about/overview-high-court/role-high-court"
+    },
+    {
+      "source_id": "SRC-AU-JUDICIARY",
+      "title": "Judiciary Act 1903",
+      "url": "https://www.legislation.gov.au/C1903A00006/latest"
+    },
+    {
+      "source_id": "SRC-AU-ADJR",
+      "title": "Administrative Decisions (Judicial Review) Act 1977",
+      "url": "https://www.legislation.gov.au/C2004A01697/latest"
+    },
+    {
+      "source_id": "SRC-AU-ART",
+      "title": "Administrative Review Tribunal Act 2024 / ART role",
+      "url": "https://www.legislation.gov.au/C2024A00040/latest"
+    },
+    {
+      "source_id": "SRC-AU-LEGACT",
+      "title": "Legislation Act 2003",
+      "url": "https://www.legislation.gov.au/C2004A01224/latest"
+    },
+    {
+      "source_id": "SRC-AU-PGPA",
+      "title": "Public Governance, Performance and Accountability Act 2013 framework",
+      "url": "https://www.finance.gov.au/government/managing-commonwealth-resources/pgpa-legislation-associated-instruments-and-policies"
+    },
+    {
+      "source_id": "SRC-AU-ANAO",
+      "title": "The Auditor-General",
+      "url": "https://www.anao.gov.au/about/the-auditor-general"
+    },
+    {
+      "source_id": "SRC-AU-OMB",
+      "title": "Commonwealth Ombudsman — role",
+      "url": "https://www.ombudsman.gov.au/about/our-role"
+    },
+    {
+      "source_id": "SRC-AU-LOCAL",
+      "title": "Local Government National Report 2022–23",
+      "url": "https://www.infrastructure.gov.au/sites/default/files/documents/local-government-national-report_2022-23-accessible-version.pdf"
+    },
+    {
+      "source_id": "SRC-AU-ACTSG",
+      "title": "Australian Capital Territory (Self-Government) Act 1988",
+      "url": "https://www.legislation.gov.au/C2004A03699/latest"
+    },
+    {
+      "source_id": "SRC-AU-NTSG",
+      "title": "Northern Territory (Self-Government) Act 1978",
+      "url": "https://www.legislation.gov.au/C2004A01857/latest"
+    },
+    {
+      "source_id": "SRC-AU-EDU",
+      "title": "How schools are funded",
+      "url": "https://www.education.gov.au/schooling/how-schools-are-funded"
+    },
+    {
+      "source_id": "SRC-AU-EDUACT",
+      "title": "Australian Education Act 2013",
+      "url": "https://www.education.gov.au/australian-education-act-2013"
+    },
+    {
+      "source_id": "SRC-AU-DFAT-TREATY",
+      "title": "Australia's treaty-making process",
+      "url": "https://www.dfat.gov.au/international-relations/treaties/treaty-making-process"
+    },
+    {
+      "source_id": "SRC-AU-DFAT-DOMESTIC",
+      "title": "The Relationship Between Treaties and Domestic Law",
+      "url": "https://www.dfat.gov.au/news/speeches/Pages/the-relationship-between-treaties-and-domestic-law"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "AU-POUVOIR-001",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-australie"
+        },
+        "predicate": "norm.is_supreme_framework",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution du Commonwealth organise la fédération, répartit les pouvoirs du Commonwealth et préserve les institutions des États sous réserve de la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-002",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:state:australie"
+        },
+        "predicate": "state.is_federation",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Australie est une fédération composée de six États, avec un ordre du Commonwealth distinct et des territoires dont le statut repose sur le droit fédéral.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-003",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:state:australie"
+        },
+        "predicate": "state.is_constitutional_monarchy",
+        "object": {
+          "kind": "proposition",
+          "value": "Le système du Commonwealth est une monarchie constitutionnelle: le Roi fait partie du Parlement et le Gouverneur général exerce des fonctions constitutionnelles comme représentant du souverain.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-GG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-004",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.holds_legislative_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir législatif du Commonwealth appartient au Parlement fédéral composé du souverain, du Sénat et de la Chambre des représentants.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-005",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.has_enumerated_powers",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement du Commonwealth ne dispose pas d'une compétence législative générale: ses principaux chefs de compétence sont attribués par la Constitution, notamment aux sections 51 et 52.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "federalisme"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-006",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlements-etats"
+        },
+        "predicate": "institution.retains_residual_powers",
+        "object": {
+          "kind": "proposition",
+          "value": "Les États conservent les pouvoirs législatifs qui ne sont pas attribués au Commonwealth ou retirés aux États par la Constitution; ces matières sont couramment décrites comme des pouvoirs résiduels.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "federalisme"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-007",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:pouvoirs-concurrents"
+        },
+        "predicate": "governance.allows_concurrent_powers",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans plusieurs matières, le Commonwealth et les États peuvent tous deux légiférer; ce chevauchement constitue une compétence concurrente.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth + États"
+        },
+        {
+          "axis": "fonction",
+          "value": "federalisme"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth + États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-008",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:section-109"
+        },
+        "predicate": "norm.resolves_inconsistency",
+        "object": {
+          "kind": "proposition",
+          "value": "Lorsqu'une loi valide du Commonwealth est incompatible avec une loi d'un État, la section 109 rend la loi de l'État inopérante dans la mesure de l'incompatibilité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth + États"
+        },
+        {
+          "axis": "fonction",
+          "value": "conflit_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth + États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-009",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:section-96"
+        },
+        "predicate": "institution.can_make_conditional_grants",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement du Commonwealth peut accorder une aide financière à un État selon les conditions qu'il estime appropriées, mécanisme important des relations financières fédérales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth + États"
+        },
+        {
+          "axis": "fonction",
+          "value": "financement"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth + États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-010",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlements-etats"
+        },
+        "predicate": "institution.can_refer_matters",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ou plusieurs États peuvent renvoyer une matière au Parlement du Commonwealth selon la section 51(xxxvii), permettant une législation fédérale applicable aux États concernés selon les conditions constitutionnelles.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "federalisme"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-011",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlements-etats"
+        },
+        "predicate": "institution.cannot_override_valid_commonwealth_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Un parlement d'État ne peut pas neutraliser une loi valide du Commonwealth; en cas d'incompatibilité, la section 109 gouverne le conflit.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-012",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.cannot_legislate_without_head_of_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement du Commonwealth ne peut pas légiférer simplement parce qu'une question est nationale ou importante; une base constitutionnelle de compétence est requise.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-013",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-australie"
+        },
+        "predicate": "norm.can_be_amended_by_referendum",
+        "object": {
+          "kind": "proposition",
+          "value": "Une modification constitutionnelle fédérale exige la procédure de la section 128, comprenant l'approbation populaire selon la règle de la double majorité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-014",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:electorat:australie"
+        },
+        "predicate": "actor.can_approve_constitutional_change",
+        "object": {
+          "kind": "proposition",
+          "value": "Pour qu'un référendum constitutionnel réussisse, il faut une majorité nationale de votants et une majorité de votants dans une majorité d'États; les votes des territoires comptent dans la majorité nationale mais non dans la majorité des États.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-015",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:chambre-representants-au"
+        },
+        "predicate": "institution.can_pass_bills",
+        "object": {
+          "kind": "proposition",
+          "value": "La Chambre des représentants examine et adopte des projets de loi; pour devenir une loi du Commonwealth, un texte doit aussi être adopté dans la même forme par le Sénat.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HOUSE",
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-016",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senat-au"
+        },
+        "predicate": "institution.can_pass_bills",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Sénat partage le pouvoir législatif avec la Chambre des représentants et doit, en règle générale, approuver un projet de loi pour qu'il puisse devenir une loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-SENATE",
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-017",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senat-au"
+        },
+        "predicate": "institution.can_reject_bills",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Sénat peut refuser d'adopter un projet de loi, y compris une mesure financière, sous réserve des mécanismes constitutionnels de résolution des blocages.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "blocage"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-SENATE"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-018",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senat-au"
+        },
+        "predicate": "institution.cannot_originate_tax_or_appropriation_bills",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Sénat ne peut pas être la chambre d'origine d'un projet de loi imposant une taxe ou affectant des recettes ou fonds selon les limites de la section 53.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites_legislatives"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-019",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senat-au"
+        },
+        "predicate": "institution.has_limited_amendment_power_for_money_bills",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Sénat ne peut pas amender certaines mesures d'appropriation ou de taxation, mais peut demander à la Chambre des représentants d'effectuer des modifications et peut refuser le texte.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites_legislatives"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-SENATE",
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-020",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:gouverneur-general-au"
+        },
+        "predicate": "actor.can_grant_royal_assent",
+        "object": {
+          "kind": "proposition",
+          "value": "Après adoption d'un projet de loi par les deux chambres, le Gouverneur général peut donner la sanction royale au nom du souverain conformément à la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "promulgation"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-021",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.requires_bicameral_agreement",
+        "object": {
+          "kind": "proposition",
+          "value": "L'accord de la Chambre des représentants et du Sénat sur le même texte est la règle de base pour l'adoption d'une loi du Commonwealth.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "procedure_legislative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-022",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:procedure:double-dissolution"
+        },
+        "predicate": "procedure.can_address_deadlock",
+        "object": {
+          "kind": "proposition",
+          "value": "La section 57 prévoit, sous conditions, une double dissolution lorsque les deux chambres restent en désaccord sur certains projets de loi, avec possibilité ultérieure de séance conjointe.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "blocage"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-023",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:chambre-representants-au"
+        },
+        "predicate": "institution.determines_government_confidence",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans le système de gouvernement responsable, le gouvernement doit conserver la confiance de la majorité de la Chambre des représentants pour rester en fonction.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernement_responsable"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HOUSE"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-024",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.can_scrutinize_executive",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement contrôle l'administration notamment par les débats, les questions, les comités et l'examen des projets de loi et dépenses.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_parlementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HOUSE",
+        "SRC-AU-SENATE"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-025",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:gouverneur-general-au"
+        },
+        "predicate": "actor.holds_formal_executive_power",
+        "object": {
+          "kind": "proposition",
+          "value": "La section 61 attribue formellement le pouvoir exécutif du Commonwealth au souverain, exercé par le Gouverneur général comme représentant.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-026",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:gouverneur-general-au"
+        },
+        "predicate": "actor.normally_acts_on_ministerial_advice",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans le fonctionnement ordinaire du gouvernement responsable, le Gouverneur général agit normalement sur l'avis des ministres responsables devant le Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-GG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-027",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:gouverneur-general-au"
+        },
+        "predicate": "actor.has_reserve_powers",
+        "object": {
+          "kind": "proposition",
+          "value": "Certaines prérogatives dites de réserve peuvent exister pour des circonstances exceptionnelles; elles ne constituent pas un pouvoir politique quotidien du Gouverneur général.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "conventional"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reserve_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-GG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-028",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-executif-federal"
+        },
+        "predicate": "institution.advises_governor_general",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Federal Executive Council est l'organe constitutionnel qui conseille le Gouverneur général lorsque celui-ci agit en conseil.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-FEC"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-029",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-commonwealth"
+        },
+        "predicate": "actor.administers_department",
+        "object": {
+          "kind": "proposition",
+          "value": "Les ministres du Commonwealth administrent les départements d'État qui leur sont attribués et exercent les pouvoirs que la Constitution, les lois et instruments leur confèrent.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-030",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-commonwealth"
+        },
+        "predicate": "actor.must_be_or_become_parliamentarian",
+        "object": {
+          "kind": "proposition",
+          "value": "Une personne nommée ministre doit être membre du Sénat ou de la Chambre des représentants, ou le devenir dans le délai prévu par la section 64.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-031",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:premier-ministre-au"
+        },
+        "predicate": "office.exists_by_convention",
+        "object": {
+          "kind": "proposition",
+          "value": "La fonction de Premier ministre est centrale au gouvernement responsable mais n'est pas créée expressément par le texte de la Constitution; elle fonctionne principalement par convention.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "convention_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PMC-CABINET"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-032",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-au"
+        },
+        "predicate": "institution.exists_by_convention",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet est établi par convention plutôt que par la Constitution ou une loi; il constitue le sommet de la décision exécutive gouvernementale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "cabinet"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PMC-CABINET"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-033",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-au"
+        },
+        "predicate": "institution.uses_collective_responsibility",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet fonctionne selon les principes de décision collective et de responsabilité collective des ministres.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "cabinet"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PMC-CABINET"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-034",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-au"
+        },
+        "predicate": "institution.cannot_itself_enact_statutes",
+        "object": {
+          "kind": "proposition",
+          "value": "Une décision du Cabinet ne devient pas, par elle-même, une loi du Parlement; sa mise en œuvre peut nécessiter une loi, un instrument, une décision ministérielle ou une action du Gouverneur général selon le cas.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PMC-CABINET",
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-035",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:legislation-deleguee-commonwealth"
+        },
+        "predicate": "norm.derives_authority",
+        "object": {
+          "kind": "proposition",
+          "value": "Les règlements et autres instruments législatifs du Commonwealth tirent leur autorité d'une loi ou d'une autre habilitation juridique et ne sont pas équivalents à une loi primaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-LEGACT",
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-036",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:instrument-legislatif-commonwealth"
+        },
+        "predicate": "norm.subject_to_registration_and_scrutiny",
+        "object": {
+          "kind": "proposition",
+          "value": "Les instruments législatifs visés par la Legislation Act doivent généralement être enregistrés et présentés au Parlement; nombre d'entre eux peuvent être désavoués par une chambre sauf exception.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-LEGACT"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-037",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-commonwealth"
+        },
+        "predicate": "actor.cannot_exceed_statutory_authority",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre ne peut pas créer par politique ou instrument administratif un pouvoir que la Constitution ou une loi ne lui confère pas.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ADJR",
+        "SRC-AU-ADJR"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-038",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:judiciaire-federal-au"
+        },
+        "predicate": "institution.holds_judicial_power",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution confie le pouvoir judiciaire du Commonwealth à la High Court et aux autres tribunaux fédéraux créés par le Parlement, ainsi qu'aux tribunaux investis d'une compétence fédérale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-JUDICIARY"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-039",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:high-court-au"
+        },
+        "predicate": "institution.is_highest_court",
+        "object": {
+          "kind": "proposition",
+          "value": "La High Court of Australia est la juridiction la plus élevée du système judiciaire australien.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HCA"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-040",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:high-court-au"
+        },
+        "predicate": "institution.can_review_constitutional_validity",
+        "object": {
+          "kind": "proposition",
+          "value": "La High Court tranche des affaires de portée fédérale particulière, notamment les contestations de validité constitutionnelle de lois.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HCA"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-041",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:high-court-au"
+        },
+        "predicate": "institution.can_hear_appeals_by_special_leave",
+        "object": {
+          "kind": "proposition",
+          "value": "La High Court peut entendre, sur autorisation spéciale, des appels provenant de juridictions fédérales, étatiques et territoriales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "appel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HCA"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-042",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-federaux-au"
+        },
+        "predicate": "institution.can_judicially_review_administration",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juridictions fédérales peuvent exercer un contrôle juridictionnel des décisions administratives dans les limites constitutionnelles et législatives de leur compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_juridictionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ADJR",
+        "SRC-AU-JUDICIARY"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-043",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:adjr-act"
+        },
+        "predicate": "norm.provides_review_pathways",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Administrative Decisions (Judicial Review) Act prévoit des voies de recours concernant certaines décisions, conduites et omissions administratives prises sous des lois du Commonwealth.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_juridictionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ADJR"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-044",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administrative-review-tribunal"
+        },
+        "predicate": "institution.can_review_merits",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Administrative Review Tribunal effectue un contrôle au fond de nombreuses décisions administratives du Commonwealth lorsque la loi lui confère compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_administratif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ART"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-045",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administrative-review-tribunal"
+        },
+        "predicate": "institution.is_not_court",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Administrative Review Tribunal est un tribunal administratif et non une cour; son contrôle au fond est distinct du contrôle juridictionnel exercé par les tribunaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_administratif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ART"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-046",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administrative-review-tribunal"
+        },
+        "predicate": "institution.can_affirm_vary_or_remake",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans les matières relevant de sa compétence, l'ART peut notamment confirmer, modifier ou remplacer une décision selon le régime applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_administratif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ART"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-047",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:judiciaire-au"
+        },
+        "predicate": "institution.is_independent",
+        "object": {
+          "kind": "proposition",
+          "value": "L'indépendance judiciaire est un élément constitutionnel du système australien; les juges interprètent et appliquent le droit indépendamment des branches politiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Australie"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Australie",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HCA"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-048",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:etats-australiens"
+        },
+        "predicate": "institution.includes_six_states",
+        "object": {
+          "kind": "proposition",
+          "value": "La fédération comprend six États disposant de leurs propres parlements et systèmes gouvernementaux dans le cadre constitutionnel australien.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "federalisme"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-049",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlements-etats"
+        },
+        "predicate": "institution.can_legislate_on_residual_matters",
+        "object": {
+          "kind": "proposition",
+          "value": "Les parlements des États peuvent légiférer sur les matières résiduelles telles que, typiquement, police, hôpitaux, routes et enseignement public, sous réserve de la Constitution et des lois fédérales valides.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-050",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlements-etats"
+        },
+        "predicate": "institution.has_broader_general_scope_than_commonwealth",
+        "object": {
+          "kind": "proposition",
+          "value": "Contrairement au Parlement du Commonwealth limité par ses chefs de compétence, les parlements d'État disposent en principe d'un champ législatif général hérité, sous réserve des restrictions constitutionnelles.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "federalisme"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-051",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlements-etats"
+        },
+        "predicate": "institution.cannot_legislate_in_exclusive_commonwealth_fields",
+        "object": {
+          "kind": "proposition",
+          "value": "Les États ne peuvent pas légiférer dans les domaines que la Constitution réserve exclusivement au Commonwealth.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-052",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:loi-etat-au"
+        },
+        "predicate": "norm.can_be_displaced_by_section_109",
+        "object": {
+          "kind": "proposition",
+          "value": "Une loi d'État valide dans son domaine peut néanmoins devenir inopérante dans la mesure où elle est incompatible avec une loi valide du Commonwealth.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "conflit_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-053",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-etats"
+        },
+        "predicate": "institution.can_exercise_federal_jurisdiction_when_invested",
+        "object": {
+          "kind": "proposition",
+          "value": "Des tribunaux d'État peuvent exercer une compétence fédérale lorsque le droit du Commonwealth leur en confère une, conformément à l'architecture constitutionnelle et au Judiciary Act.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-JUDICIARY"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-054",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-etats"
+        },
+        "predicate": "institution.subject_to_high_court_appeal",
+        "object": {
+          "kind": "proposition",
+          "value": "Les décisions des juridictions d'État peuvent, sous les conditions applicables, faire l'objet d'un appel à la High Court sur autorisation spéciale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "appel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HCA"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-055",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:etats-australiens"
+        },
+        "predicate": "institution.can_receive_conditional_commonwealth_grants",
+        "object": {
+          "kind": "proposition",
+          "value": "Les États peuvent recevoir des subventions du Commonwealth assorties de conditions dans le cadre de la section 96.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "États"
+        },
+        {
+          "axis": "fonction",
+          "value": "financement"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "États",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-056",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:territoires-au"
+        },
+        "predicate": "governance.differs_from_statehood",
+        "object": {
+          "kind": "proposition",
+          "value": "Les territoires autonomes ne sont pas constitutionnellement équivalents aux États; leur cadre d'autonomie repose notamment sur la section 122 et des lois du Commonwealth.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territoires"
+        },
+        {
+          "axis": "fonction",
+          "value": "territoires"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Territoires",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-ACTSG",
+        "SRC-AU-NTSG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-057",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.can_make_laws_for_territories",
+        "object": {
+          "kind": "proposition",
+          "value": "La section 122 autorise le Parlement du Commonwealth à faire des lois pour le gouvernement d'un territoire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territoires"
+        },
+        {
+          "axis": "fonction",
+          "value": "territoires"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Territoires",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-058",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:act-legislative-assembly"
+        },
+        "predicate": "institution.has_statutory_self_government",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Australian Capital Territory dispose d'un corps politique et d'une Legislative Assembly établis par l'ACT (Self-Government) Act 1988.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "ACT"
+        },
+        {
+          "axis": "fonction",
+          "value": "territoires"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "ACT",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ACTSG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-059",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:act-legislative-assembly"
+        },
+        "predicate": "institution.can_make_territory_laws",
+        "object": {
+          "kind": "proposition",
+          "value": "La Legislative Assembly de l'ACT peut faire des lois pour le territoire dans le champ conféré par le Self-Government Act et sous réserve du droit du Commonwealth applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "ACT"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "ACT",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ACTSG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-060",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:nt-legislative-assembly"
+        },
+        "predicate": "institution.has_statutory_self_government",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Northern Territory dispose d'institutions représentatives et administratives d'autonomie établies par le Northern Territory (Self-Government) Act 1978.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territoire du Nord"
+        },
+        {
+          "axis": "fonction",
+          "value": "territoires"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Territoire du Nord",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-NTSG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-061",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:nt-legislative-assembly"
+        },
+        "predicate": "institution.can_make_territory_laws",
+        "object": {
+          "kind": "proposition",
+          "value": "La Legislative Assembly du Northern Territory exerce les compétences législatives conférées par son cadre fédéral d'autonomie, sous réserve des limites de ce cadre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territoire du Nord"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Territoire du Nord",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-NTSG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-062",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.can_override_territory_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir fédéral sur les territoires peut permettre au Parlement du Commonwealth d'écarter ou modifier un régime territorial; l'autonomie territoriale n'a donc pas le même fondement constitutionnel que les pouvoirs résiduels des États.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territoires"
+        },
+        {
+          "axis": "fonction",
+          "value": "conflit_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Territoires",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-063",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernements-locaux-au"
+        },
+        "predicate": "governance.not_federal_constitutional_tier",
+        "object": {
+          "kind": "proposition",
+          "value": "Les gouvernements locaux ne sont pas établis comme ordre de gouvernement par la Constitution fédérale; leur existence et leurs pouvoirs proviennent principalement des lois des États et du Northern Territory.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-LOCAL",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-064",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlements-etats"
+        },
+        "predicate": "institution.can_create_local_governments",
+        "object": {
+          "kind": "proposition",
+          "value": "Les parlements des États peuvent créer et encadrer les conseils locaux par leurs lois sur le gouvernement local.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-065",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:nt-government"
+        },
+        "predicate": "institution.can_create_local_governments",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans le Northern Territory, le cadre des gouvernements locaux relève du droit territorial, conformément au régime d'autonomie du territoire et aux lois applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-LOCAL",
+        "SRC-AU-NTSG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-066",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-local-au"
+        },
+        "predicate": "institution.can_make_delegated_local_laws",
+        "object": {
+          "kind": "proposition",
+          "value": "Un conseil local peut adopter des règlements ou by-laws dans les matières et limites que la législation de son État ou territoire lui délègue.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PEO-POWERS",
+        "SRC-AU-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-067",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-local-au"
+        },
+        "predicate": "institution.cannot_override_state_or_territory_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Un règlement local ne peut pas prévaloir sur la loi supérieure de l'État ou du territoire qui fonde le pouvoir du conseil.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-068",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-local-au"
+        },
+        "predicate": "institution.has_typical_service_functions",
+        "object": {
+          "kind": "proposition",
+          "value": "Les responsabilités locales comprennent typiquement la planification, les routes locales, les déchets, les installations communautaires et certaines fonctions réglementaires, avec des variations selon la juridiction.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "services_locaux"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-069",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-local-au"
+        },
+        "predicate": "institution.powers_vary_by_jurisdiction",
+        "object": {
+          "kind": "proposition",
+          "value": "Il n'existe pas un code national uniforme des pouvoirs municipaux: les structures, pouvoirs et responsabilités des conseils varient selon les États et territoires.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-070",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:act-government"
+        },
+        "predicate": "institution.combines_territory_and_local_functions",
+        "object": {
+          "kind": "proposition",
+          "value": "L'ACT n'a pas de conseils locaux séparés; son gouvernement territorial exerce également de nombreuses responsabilités normalement locales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "ACT"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "ACT",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-071",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:etats-territoires-au"
+        },
+        "predicate": "institution.primary_responsibility_for_schooling",
+        "object": {
+          "kind": "proposition",
+          "value": "Les gouvernements des États et territoires ont la responsabilité principale de fournir l'enseignement scolaire dans leurs juridictions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / États-Territoires"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / États-Territoires",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-EDU"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-072",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:etats-territoires-au"
+        },
+        "predicate": "institution.owns_and_manages_government_schools",
+        "object": {
+          "kind": "proposition",
+          "value": "Les États et territoires possèdent et administrent les écoles publiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / États-Territoires"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / États-Territoires",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-EDU"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-073",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:etats-territoires-au"
+        },
+        "predicate": "institution.registers_non_government_schools",
+        "object": {
+          "kind": "proposition",
+          "value": "Les gouvernements des États et territoires sont responsables de l'enregistrement des écoles non gouvernementales dans leurs juridictions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / États-Territoires"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / États-Territoires",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-EDU"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-074",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commonwealth-education"
+        },
+        "predicate": "institution.does_not_operate_schools",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Commonwealth ne possède ni n'exploite les écoles et n'emploie pas les enseignants scolaires comme autorité scolaire nationale générale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-EDU"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-075",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commonwealth-education"
+        },
+        "predicate": "institution.can_fund_schools",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Commonwealth fournit un financement important au secteur scolaire et participe à des politiques nationales, sans remplacer la responsabilité opérationnelle des États et territoires.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "financement"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-EDU"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-076",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:australian-education-act-2013"
+        },
+        "predicate": "norm.governs_commonwealth_school_funding",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Australian Education Act 2013 constitue le principal cadre législatif du financement scolaire du Commonwealth et impose des exigences aux bénéficiaires de ce financement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-EDUACT"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-077",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:australian-education-regulations"
+        },
+        "predicate": "norm.is_subordinate_to_education_act",
+        "object": {
+          "kind": "proposition",
+          "value": "Les Australian Education Regulations détaillent l'application du cadre de financement prévu par l'Australian Education Act et constituent une législation subordonnée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-EDUACT"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-078",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:gouvernance-scolaire-au"
+        },
+        "predicate": "governance.varies_by_state_and_territory",
+        "object": {
+          "kind": "proposition",
+          "value": "La gouvernance quotidienne des écoles et les organismes locaux ou scolaires ne forment pas un ordre constitutionnel national uniforme; ils dépendent des régimes des États, territoires et secteurs scolaires.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / États-Territoires"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / États-Territoires",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-EDU"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-079",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:pgpa-act"
+        },
+        "predicate": "norm.establishes_commonwealth_governance_framework",
+        "object": {
+          "kind": "proposition",
+          "value": "Le cadre PGPA organise la gouvernance, la performance, la responsabilité et la gestion des ressources des entités du Commonwealth.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Administration Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Administration Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PGPA"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-080",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:auditor-general-au"
+        },
+        "predicate": "institution.is_independent_officer_of_parliament",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Auditor-General est un officier indépendant du Parlement chargé d'auditer les entités du Commonwealth et de faire rapport au Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Administration Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "audit"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Administration Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ANAO"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-081",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:auditor-general-au"
+        },
+        "predicate": "institution.can_conduct_financial_and_performance_audits",
+        "object": {
+          "kind": "proposition",
+          "value": "Les fonctions de l'Auditor-General comprennent notamment les audits d'états financiers, de performance et d'énoncés de performance selon le cadre légal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Administration Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "audit"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Administration Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ANAO"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-082",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:auditor-general-au"
+        },
+        "predicate": "institution.cannot_be_directed_on_audit_decisions",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans l'exercice de ses fonctions d'audit, l'Auditor-General dispose d'une indépendance statutaire importante et n'est pas soumis à des directives sur la conduite ou la priorité d'un audit particulier, sous réserve des obligations légales applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Administration Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "audit"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Administration Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ANAO"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-083",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commonwealth-ombudsman"
+        },
+        "predicate": "institution.can_investigate_administrative_actions",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Commonwealth Ombudsman peut recevoir des plaintes et enquêter sur de nombreuses actions administratives d'organismes du gouvernement australien, dans les limites de sa compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Administration Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "ombudsman"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Administration Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-OMB"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-084",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commonwealth-ombudsman"
+        },
+        "predicate": "institution.can_make_recommendations",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Commonwealth Ombudsman peut rechercher des remèdes et recommander des améliorations de l'administration, mais n'est pas une cour générale d'appel des décisions publiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Administration Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "ombudsman"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Administration Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-OMB"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-085",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commonwealth-ombudsman"
+        },
+        "predicate": "institution.has_jurisdictional_limits",
+        "object": {
+          "kind": "proposition",
+          "value": "La compétence de l'Ombudsman comporte des exclusions, notamment pour les décisions des cours et tribunaux et certaines actions ministérielles ou gouvernementales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Administration Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Administration Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-OMB"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-086",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:administrative-law-au"
+        },
+        "predicate": "governance.uses_multiple_review_mechanisms",
+        "object": {
+          "kind": "proposition",
+          "value": "Le droit administratif du Commonwealth combine notamment contrôle au fond, enquêtes d'ombudsman et contrôle juridictionnel; ces mécanismes ont des fonctions différentes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Administration Commonwealth"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Administration Commonwealth",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ART",
+        "SRC-AU-ADJR",
+        "SRC-AU-OMB"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-087",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:scope:kristal-australie"
+        },
+        "predicate": "scope.excludes_substantive_international_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Ce Kristal exclut le contenu substantiel du droit international et supranational; il ne conserve que les règles australiennes déterminant qui négocie, approuve, met en œuvre ou contrôle les engagements externes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-DFAT-TREATY"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-088",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:executif-commonwealth"
+        },
+        "predicate": "institution.can_negotiate_treaties",
+        "object": {
+          "kind": "proposition",
+          "value": "La négociation des traités relève de l'Exécutif du Commonwealth selon le processus gouvernemental australien, coordonné avec DFAT.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites_interface_nationale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-DFAT-TREATY"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-089",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:federal-executive-council"
+        },
+        "predicate": "institution.approves_treaty_actions",
+        "object": {
+          "kind": "proposition",
+          "value": "Les actions conventionnelles relatives aux traités, telles que signature, ratification, modification, retrait ou dénonciation, nécessitent l'approbation du Federal Executive Council selon la pratique gouvernementale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites_interface_nationale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-DFAT-TREATY"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-090",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:jscot"
+        },
+        "predicate": "institution.scrutinizes_treaties",
+        "object": {
+          "kind": "proposition",
+          "value": "Après signature, les traités sont généralement déposés au Parlement et examinés par le Joint Standing Committee on Treaties avant l'action conventionnelle contraignante, selon les procédures gouvernementales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_parlementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-DFAT-TREATY"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-091",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.can_enact_treaty_implementing_laws",
+        "object": {
+          "kind": "proposition",
+          "value": "Lorsque le droit australien doit être modifié pour exécuter un traité, les changements législatifs requis doivent être adoptés selon la procédure législative applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites_interface_nationale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-DFAT-TREATY",
+        "SRC-AU-DFAT-DOMESTIC"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-092",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:traite-non-incorpore-au"
+        },
+        "predicate": "norm.does_not_automatically_change_domestic_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Un traité n'a pas, du seul fait de sa conclusion, un effet direct général modifiant le droit interne australien; une incorporation législative est nécessaire lorsque ses règles doivent devenir du droit interne.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites_interface_nationale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-DFAT-DOMESTIC"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-093",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-commonwealth"
+        },
+        "predicate": "institution.can_use_external_affairs_power_for_implementation",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir sur les affaires extérieures de la section 51(xxix) peut soutenir des lois du Commonwealth mettant en œuvre des obligations conventionnelles, sous réserve des exigences constitutionnelles applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites_interface_nationale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-DFAT-DOMESTIC"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-094",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:executif-commonwealth"
+        },
+        "predicate": "institution.cannot_unilaterally_rewrite_domestic_law_by_treaty",
+        "object": {
+          "kind": "proposition",
+          "value": "La conclusion d'un traité par l'Exécutif ne lui permet pas, à elle seule, de modifier les droits et obligations créés par le droit interne lorsqu'une intervention législative est nécessaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legal_power"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-DFAT-DOMESTIC"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-095",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:office-holder-separation"
+        },
+        "predicate": "model.requires_office_holder_separation",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Kristal distingue la charge publique de son titulaire actuel; les compétences sont attachées à l'office ou à l'institution, non à une personne nommée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-096",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:election-limits"
+        },
+        "predicate": "model.requires_election_power_separation",
+        "object": {
+          "kind": "proposition",
+          "value": "Le fait d'être élu ne confère pas un pouvoir illimité: chaque organe reste soumis à la Constitution, aux lois, aux procédures et aux contrôles applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-097",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:political-influence"
+        },
+        "predicate": "model.distinguishes_influence_from_authority",
+        "object": {
+          "kind": "proposition",
+          "value": "L'influence politique, la coordination intergouvernementale ou une décision de Cabinet ne sont pas automatiquement une autorité juridique permettant de créer une norme.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PMC-CABINET",
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-098",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:federal-state"
+        },
+        "predicate": "model.distinguishes_commonwealth_from_states",
+        "object": {
+          "kind": "proposition",
+          "value": "COMMONWEALTH ≠ ÉTATS: les États ne sont pas de simples administrations déléguées du gouvernement fédéral; ils disposent de pouvoirs constitutionnellement préservés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-099",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:state-territory"
+        },
+        "predicate": "model.distinguishes_states_from_territories",
+        "object": {
+          "kind": "proposition",
+          "value": "ÉTAT ≠ TERRITOIRE: les pouvoirs résiduels des États et l'autonomie statutaire des territoires n'ont pas la même source constitutionnelle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST",
+        "SRC-AU-ACTSG",
+        "SRC-AU-NTSG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-100",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:local-delegation"
+        },
+        "predicate": "model.distinguishes_local_delegation",
+        "object": {
+          "kind": "proposition",
+          "value": "GOUVERNEMENT LOCAL ≠ ÉTAT FÉDÉRÉ: les conseils locaux exercent des pouvoirs conférés par la législation de leur État ou territoire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-LOCAL",
+        "SRC-AU-PEO-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-101",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:policy-law"
+        },
+        "predicate": "model.distinguishes_policy_from_law",
+        "object": {
+          "kind": "proposition",
+          "value": "POLITIQUE GOUVERNEMENTALE ≠ LOI: une politique, un accord politique ou un programme ne remplace pas une loi ou un instrument juridiquement habilité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-PMC-LEG"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-102",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:delegated-primary"
+        },
+        "predicate": "model.distinguishes_delegated_from_primary_legislation",
+        "object": {
+          "kind": "proposition",
+          "value": "INSTRUMENT DÉLÉGUÉ ≠ LOI PRIMAIRE: un règlement ou instrument législatif dépend de son habilitation et peut faire l'objet de mécanismes parlementaires de contrôle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-LEGACT"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-103",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:merits-judicial-review"
+        },
+        "predicate": "model.distinguishes_merits_from_judicial_review",
+        "object": {
+          "kind": "proposition",
+          "value": "CONTRÔLE AU FOND ≠ CONTRÔLE JURIDICTIONNEL: l'ART peut réexaminer le fond lorsqu'il est compétent, tandis que les cours contrôlent la légalité dans leur juridiction.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-ART",
+        "SRC-AU-ADJR"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-104",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:international-interface"
+        },
+        "predicate": "model.separates_international_corpus",
+        "object": {
+          "kind": "proposition",
+          "value": "INTERFACE INTERNATIONALE ≠ CORPUS INTERNATIONAL: les normes internationales substantielles sont renvoyées vers le Kristal supranational/international distinct.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-DFAT-TREATY"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-105",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:kristal-farms-policy"
+        },
+        "predicate": "model.separates_project_policy_from_law",
+        "object": {
+          "kind": "proposition",
+          "value": "POLITIQUE COMMERCIALE KRISTAL FARMS ≠ DROIT AUSTRALIEN: une règle interne de sélection ou d'exclusion commerciale ne doit pas être présentée comme une interdiction juridique australienne sans source légale distincte.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-CONST"
+      ]
+    },
+    {
+      "assertion_id": "AU-POUVOIR-106",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:official-source-future"
+        },
+        "predicate": "model.does_not_predict_future_decisions",
+        "object": {
+          "kind": "proposition",
+          "value": "SOURCE OFFICIELLE ≠ DÉCISION FUTURE: le corpus décrit l'état du droit et des compétences sans prédire les décisions futures des cours, gouvernements ou parlements.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "structural_record",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "model_invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-AU-HCA"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "type": "research_build",
+      "date": "2026-10-02",
+      "method": "official-source synthesis",
+      "notes": "Sources officielles australiennes et textes consolidés; aucune donnée sur les titulaires politiques actuels n’est nécessaire au modèle."
+    }
+  ],
+  "warnings": [
+    "Base structurée de recherche, non avis juridique.",
+    "Les droits des États et territoires varient par juridiction; ce Kristal encode le tronc commun fédéral et les interfaces, pas chaque code étatique complet.",
+    "Le droit international substantiel est exclu et appartient au Kristal supranational/international distinct."
+  ],
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:astronomy:artifact:identity-registry:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:astronomy:artifact:identity-registry",
+    "logical_contract": {
+      "id": "astronomy.identity-registry",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:db7d69904ec9272af7cb14d9c370ef644c45cecd5610a51ee2527e9b21d12a61"
+    }
+  },
+  "profile": "kristal.materialization/native-blob/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "knowledge-base/corpus/astronomy.referent-registry.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:edd92d895bbcaa5f11533ef42e030a33a0a74e7e5fa7dc16d1de8764a228f931",
+        "size": 41630
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/corpus/astronomy.referent-registry.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "knowledge-base/corpus/astronomy.referent-registry.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "astronomy.identity-registry/1.0"
+  }
+}

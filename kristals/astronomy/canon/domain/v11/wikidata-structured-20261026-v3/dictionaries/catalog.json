@@ -1,0 +1,88 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Astronomy:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-20261026-rebuilt-v2:wikidata-structured-20261026-v3",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "legacy-fr",
+          "path": "legacy-fr.json",
+          "priority": 100,
+          "sha256": "9a1d22b81c4b1064a6077d5acd9d8a657f01f8351c5689606c0e7a2ea819ab39"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "29c30287cbdd1191db6417370d1286c8aa972becf491e4cbc7147ae15b653326"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-fr",
+          "path": "wikidata-fr.jsonl",
+          "priority": 100,
+          "sha256": "e2f3f93834c4aa48f5f5b702563f406be71927f257394b178f844fb892444685",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [
+        "fr"
+      ],
+      "layers": [],
+      "tag": "fr-CA"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "d0df27307cd223ead2cf58f592e4019ce67e42b2d5fad1bc99837d17e3ecf35c"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-und",
+          "path": "wikidata-und.jsonl",
+          "priority": 100,
+          "sha256": "77b15e26e28fcdf1a9a1c0fab8a3731b1cad71a2d9c598147aa1d8fd7cf577d4",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "und"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-en",
+          "path": "wikidata-en.jsonl",
+          "priority": 100,
+          "sha256": "1e967f58044199155ecba6f02931f67512e7bc6e348b7e0e7e80df294d3f6aba",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        },
+        {
+          "kind": "external",
+          "layer_id": "structured-fields-v3",
+          "license": "CC0-1.0",
+          "path": "structured-fields-en.jsonl",
+          "priority": 100,
+          "sha256": "3ac5cf81e9d683bac670cb753474b14d7a7fa9fd1ae1b2b7e5b6dbb94fa0f0ef",
+          "source_snapshot": "wikidata-structured-20261026-v3",
+          "source_system": "kristal-structured-value-model"
+        }
+      ],
+      "tag": "en"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-astronomy",
+  "schema_version": "11.0"
+}

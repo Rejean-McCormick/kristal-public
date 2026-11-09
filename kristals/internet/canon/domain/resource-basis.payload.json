@@ -1,0 +1,121 @@
+{
+  "domain": "internet",
+  "domain_version": "1.0.0",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:internet:resource:semantic_model",
+      "role": "semantic_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:d57a1d855424982a6148cd4e15b4986e5828513dc0666917be0350530127f42f"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:identifier_model",
+      "role": "identifier_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:76425cf684384682423911655eaf511c4ef1e41a39c3d8a7e53984e24eaad311"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:layer_model",
+      "role": "layer_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:f053ce427406722e5dac498de828b609068b3e9e4dc34d93cef009189779a0d8"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:addressing_model",
+      "role": "addressing_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:aadc4b86374bab7323f4297e963fe02f08275f7025503e0f33baae6abde9de9d"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:protocol_model",
+      "role": "protocol_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:201a670ffe7b0baad77f3c7db71ef0889c8b0fbdf4a51b864037a441ba66e589"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:service_model",
+      "role": "service_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:f1696b6b2795cc4dbe4be9dcba07dd53e720bf7c86361285100475034fd73911"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:routing_model",
+      "role": "routing_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:a0064980a3c001ade1a1eca0b4c201e894ad78d7a2de8e0f77e1038972efbcd0"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:security_model",
+      "role": "security_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:3e0fb6b77e262a9283658ce4741e2e6eb1d13c9b4b12e550cb3e44d6a8e79fc9"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:failure_model",
+      "role": "failure_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:1aadb1b8a00eeeb202e7152c35172f81af1ed1f72c67303ee39405dcc3565e74"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:relation_model",
+      "role": "relation_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:7a90cf5580fc0519a08fd209b72fac46f5b50db726bd3ae42ee74ef5512345fd"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:semantic_invariants",
+      "role": "semantic_invariants",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:71a15f959c58cb0643b0ffb458d651e97819b4bc960b485db99ad6e260f98f08"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:internet:resource:source_catalog",
+      "role": "source_catalog",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:a966280e5289965c33a64bbfdeb14998ca9f8d5a02805377a7f6d3d787cca5dd"
+      }
+    }
+  ],
+  "semantic_boundaries": [
+    "source_models are authoring_canon",
+    "portable_v6_state is derived_projection",
+    "valid_address != reachable_endpoint",
+    "BGP_announcement != authorization_proof"
+  ]
+}

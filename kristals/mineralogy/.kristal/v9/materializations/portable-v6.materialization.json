@@ -1,0 +1,39 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:mineralogy:materialization:portable-v6",
+  "source": {
+    "artifact_id": "urn:kristal:mineralogy:artifact:epistemic-state",
+    "logical_contract": {
+      "id": "kristal_state.hash_target",
+      "version": "6.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:03a65382e20c60add87c87ecb5bcfcf0884a8edcd8e68432d5b97ebb429f71ef"
+    }
+  },
+  "profile": "kristal.materialization/kristal-state-v6/1",
+  "segments": [
+    {
+      "segment_key": "portable-state",
+      "record_count": 893,
+      "blob": {
+        "media_type": "application/vnd.kristal.state+json;version=6.0",
+        "digest": "sha256:806862d10e3e3dc983479f8a598f11db532a414f602a3f5c8edd04769bafd2f9",
+        "size": 620801,
+        "locator": ".kristal/v9/materialized/portable-state.kristal-state.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "kristal_state/6.0"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.reconstruct/v6-state-hash-target/1"
+  }
+}

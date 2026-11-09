@@ -1,0 +1,43 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:materialization:king-klown:creator-clarifications:inline",
+  "source": {
+    "artifact_id": "urn:kristal:king-klown:creator-clarifications",
+    "logical_contract": {
+      "id": "king-klown.creator-clarifications",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:014f19340d490c7eea690093d66ce53041c0fbcdb13726c7408ee507224f4466"
+    },
+    "authority_ref": "urn:kristal:authority:king-klown-creator"
+  },
+  "profile": "kristal.materialization/inline-json/1",
+  "partition_spec": {
+    "strategy": "single"
+  },
+  "segments": [
+    {
+      "segment_key": "all",
+      "record_count": 1,
+      "blob": {
+        "media_type": "application/vnd.kristal.logical-artifact+json",
+        "digest": "sha256:65944f3c9dc1470afb3a740e456eaf2f7fed815f0e4865ef35218bfe976d22f7",
+        "size": 1724,
+        "locator": ".kristal/v9/artifacts/creator-clarifications.logical-artifact.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "full-artifact"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "king-klown.creator-clarifications/1.0"
+  }
+}

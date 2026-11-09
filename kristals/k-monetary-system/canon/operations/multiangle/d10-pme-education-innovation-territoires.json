@@ -1,0 +1,57 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d10",
+  "protocol_id": "D10",
+  "title": "D10 — Frictions économiques, PME, qualifications et territoires",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:S02",
+    "source:multiangle:S03",
+    "source:multiangle:S08",
+    "source:multiangle:S09",
+    "source:multiangle:S10"
+  ],
+  "depends_on": [
+    "D02",
+    "D07",
+    "external:small-business"
+  ],
+  "validation_gates": [
+    "droits_tiers",
+    "cout_total",
+    "evaluation_risques"
+  ],
+  "sections": [
+    {
+      "heading": "Propositions source",
+      "level": 2,
+      "body_markdown": "Réduire les coûts d'accès à l'entrepreneuriat, à la preuve de compétence, aux prêts raisonnables, aux innovations et au financement local. S03 va plus loin (terre et projets territoriaux/autochtones) : ses projets sont **hypothèses politiques et foncières distinctes**; ni le Kristal ni kOA n'ont un pouvoir de transfert de terre ou de réinstallation par proclamation. Autorités, consentement des peuples concernés et droits existants sont conditions absolues."
+    },
+    {
+      "heading": "Mécanisme économique à tester",
+      "level": 2,
+      "body_markdown": "Identifier un coût de transaction réel (frais d'ouverture, délais administratifs, coût de certification, recherche de financement), proposer réduction, mesurer économie nette et risques nouveaux."
+    },
+    {
+      "heading": "Exemple PME",
+      "level": 3,
+      "body_markdown": "`gain_nouveau = coût_ancien_total − coût_nouveau_total − coût_transition − coûts_risques_induits`; pour comparer 2 modèles de prêts, inclure pertes de crédit, capital nécessaire, coût des dépôts, fraude, coûts de recouvrement, accessibilité et solvabilité de l'emprunteur."
+    },
+    {
+      "heading": "Gouvernance d'expertise",
+      "level": 2,
+      "body_markdown": "Les politiciens et dirigeants ne connaissent pas nécessairement tous les domaines; un conseil d'experts propose, ne remplace pas mandat légal ou vote. Publier méthodologie, compétences et intérêts financiers; mandats concurrents et désaccords conservés."
+    },
+    {
+      "heading": "Essais possibles",
+      "level": 2,
+      "body_markdown": "Incubateur PME local; examen de compétence sans frais excessif; comparaison du coût d'obtention d'un microcrédit; publications de données avant/après; évaluations indépendantes pour étudiants et entrepreneurs. Protéger les personnes vulnérables contre les promesses de revenu garanti ou de reconnaissance de diplômes inexistante."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D10_PME_EDUCATION_INNOVATION_TERRITOIRES.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

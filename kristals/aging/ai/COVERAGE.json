@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:aging:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:b3a52020a6774ff8d58615d11366ec994d8d81aa8f3519500c959cf285b91903"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:aging",
+    "label": "Kristal-Aging",
+    "domain": "aging",
+    "orientation": "Mécanismes → réserve → stress → résilience → fonction → compensation → trajectoire observée"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Le modèle sémantique local du domaine Aging tel que défini par les sources/README historiques.",
+      "Les identités et assertions de référence structurées du domaine, avec cette distinction: âge, vieillissement biologique, réserve, résilience, fragilité et fonction ne sont pas synonymes.",
+      "Les membres canoniques et les preuves engagées par le State Commitment v9 préexistant."
+    ],
+    "does_not_own": [
+      "Les dépôts sources externes, leurs mainteneurs et leur calendrier de publication.",
+      "Les caches, index de lecture, projections générées, état runtime, publication ou activation.",
+      "La réécriture automatique des hypothèses, contradictions ou frontières de sources."
+    ]
+  },
+  "canonical_artifact_count": 2,
+  "source_count": 21,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 3,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 32,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

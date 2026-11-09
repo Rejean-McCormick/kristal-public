@@ -1,0 +1,37 @@
+{
+  "format": "k.monetary.epistemic/validation-state/0.1.0",
+  "id": "urn:kristal:k-monetary-system:epistemic:validation-state",
+  "promotion_states": [
+    "proposal",
+    "candidate",
+    "reviewed",
+    "validated_local",
+    "promotion_candidate",
+    "accepted",
+    "rejected"
+  ],
+  "current": {
+    "domain_architecture": "validated_local",
+    "monetary_constitution": "validated_local_structural_only",
+    "transition_statechart": "validated_local",
+    "causal_model": "candidate_unvalidated_empirically",
+    "distribution_model": "candidate_unvalidated_empirically",
+    "operations": "validated_local",
+    "hypotheses": "open",
+    "empirical_evidence": "incomplete",
+    "external_smart_vote_binding": "unresolved"
+  },
+  "release_blockers": [
+    "Pin exact external Smart Vote/Konnaxion logical commitment when available.",
+    "Calibrate state-transition thresholds from evidence.",
+    "Add jurisdiction-specific legal analysis before operational deployment.",
+    "Validate simulator equations/behavior against explicit datasets before using outputs for policy."
+  ],
+  "local_validation": {
+    "workspace_check": "passed",
+    "domain_invariant_tests": "5_passed",
+    "v9_build": "passed",
+    "empirical_truth_validation": "not_performed",
+    "external_framework_qualification": "not_performed"
+  }
+}

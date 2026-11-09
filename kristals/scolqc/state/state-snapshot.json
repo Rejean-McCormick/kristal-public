@@ -1,0 +1,67 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:education-quebec",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:76020a229f3db812d3b10c3f51ebc56818281966bd0dd93c562003e0541a71b9"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:education-quebec:authoring-basis",
+      "logical_contract": {
+        "id": "education-quebec.authoring-resource-set",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:83242aff177c9b5a5e752f112854b1857ac0caa3851abd934b769d99f67faf6e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:education-quebec:contract-basis",
+      "logical_contract": {
+        "id": "education-quebec.contract-resource-set",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c10ed8324852bedd984fc669380e168ac0e74723c1bf20c4150ce7c5605c7287"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:education-quebec:canonical-epistemic-state",
+      "logical_contract": {
+        "id": "education-quebec.canonical-epistemic-state-resource",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bc3d992056b6659add6ec7af72f87aa882a1b3729e1b7f700cb6f943e51bb6e1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:education-quebec:semantic-state",
+      "logical_contract": {
+        "id": "education-quebec.semantic-state",
+        "version": "9.0"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a194704f43e3005f6cc2b57244a12c023ce3bb93631f6c01d1d5bc39b1829609"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "education-quebec",
+    "edition": "1.4.0",
+    "jurisdiction": "Québec"
+  },
+  "authority_ref": "urn:kristal:authority:education-quebec"
+}

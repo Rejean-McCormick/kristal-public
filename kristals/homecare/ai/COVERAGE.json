@@ -1,0 +1,37 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:homecare",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:de24b8d9ac4f924f4b6ea71b635cfe324a9875fa78680eab3c7ac6237f799895"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:homecare",
+    "label": "Kristal-HomeCare",
+    "domain": "homecare"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Logical resource role: structured_epistemic_state",
+      "Logical resource role: identity_registry"
+    ],
+    "does_not_own": [
+      "Upstream publishers, source availability and their editorial lifecycle",
+      "Physical compression, runtime indexes, build, GitHub publication or activation"
+    ]
+  },
+  "canonical_artifact_count": 2,
+  "source_count": 0,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 2,
+  "local_materialization_blob_count": 3,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

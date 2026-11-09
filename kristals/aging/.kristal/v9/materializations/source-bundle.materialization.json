@@ -1,0 +1,391 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:aging:artifact:editorial-sources:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:aging:artifact:editorial-sources",
+    "logical_contract": {
+      "id": "aging.editorial-source-bundle",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:ff447ac1dc21f34a8b7b6c2ff213d62c57f94bb1a8a73bc448a0bd434525a329"
+    }
+  },
+  "profile": "kristal.materialization/native-json-bundle/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "external-source-library/source-store.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:6199f16b8f69a0930a563845582dbb2c97118aa2dc99d7e6de4fee5baeb4ab49",
+        "size": 7189
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-store.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/bone_connective.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:8f45b66cba10f1155c95636b2f1b74dbfa1df3aa9105479142b0322ab3cfff2d",
+        "size": 6212
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/bone_connective.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/cardiovascular.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:776cc9c0537341588766c4bbde940d15c00d76b82b5a30d47e93ee5175daab76",
+        "size": 6117
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/cardiovascular.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/cognition_brain.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:1e0e11e60758fc78c50d21cc31391c3cef7bb4b846b89dc66fb87538cf879d11",
+        "size": 6363
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/cognition_brain.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/compensation_adaptation.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:8bd52ec208397e709bf317d367bfcb7d1ca19a88d4ffa6cc4b13e6e81eec7b0b",
+        "size": 6368
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/compensation_adaptation.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/environment_social.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:ea0db576fe6bf9506030739dbf926de19fbde54c4a301c3bf8428bcb3c98356b",
+        "size": 6336
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/environment_social.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/foundations.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5948b97f90d1af9c3fff73367aab4021c8f6d4449243a6d2684f158d5b1c22de",
+        "size": 5434
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/foundations.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/frailty_vulnerability.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:27387079676cee7e9629d21dd4bcdb2f85978941081c44f4038a6e3716f1df01",
+        "size": 6458
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/frailty_vulnerability.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/functional_ability.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:cb6dd9adbd27a466e339ec2dec472b26622ce977c833146ba16a8a144ea8c682",
+        "size": 5862
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/functional_ability.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/genome_epigenome.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:1197ce1f3140f426a2c51d9c14f0d867478324d1c6258a45be86e2a88bd0bcae",
+        "size": 6274
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/genome_epigenome.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/immune_inflammation.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:7eb596e876fb05fed980485772eb4476d8f3fc9cb571a3868afa61e30b5782d6",
+        "size": 6384
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/immune_inflammation.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/intercellular_microbiome.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:e886f56b99137d90630dc5d919308b4f749417bcf7774861e85ec73f12992ef6",
+        "size": 6392
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/intercellular_microbiome.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/invariants.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:556a9c7239ba95cc2a7fa24b8b6dfd7f9890364a6af88827b5dd03f050206f2a",
+        "size": 8747
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/invariants.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/life_course.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:232d927f55ad8c59e511915856057369407cae94037eb45fef39ff397348303b",
+        "size": 5817
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/life_course.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/longevity_mortality.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:2524eb272dc5f03bf1e2f9f535958796c305a3467513750c2e3355a7c696977d",
+        "size": 6483
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/longevity_mortality.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/measurement_biomarkers.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:c1e031fa451185c07bcdb79e9b0afc1dc14358ee2055cf1b6fd26713d49e0924",
+        "size": 6486
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/measurement_biomarkers.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/mechanisms_hallmarks.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:8ccd830f0561cb4f8c1311e7b4d6fdc1d25b1b2fee38c7da0f65d223523588f6",
+        "size": 6239
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/mechanisms_hallmarks.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/metabolic_endocrine.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:7d9f954f4c6a6fb6195387b5bdb7f3208c5e66db3e1cf5e647bdccb2a9c3fd74",
+        "size": 6321
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/metabolic_endocrine.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/metabolism_mitochondria.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:256bb2f98df7ecd73e1deca2a6078de9f8dfba13263972fcfda2b8fe3d2b40c6",
+        "size": 6456
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/metabolism_mitochondria.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/muscle_mobility.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:d3015f07f5e0e18b4f6bf8e1fa3508f5304676cbb2b392770508056ac00816cf",
+        "size": 6250
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/muscle_mobility.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/proteostasis_autophagy.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5b255ba83043e5b1421d86367d8f74a53555b366c8bc9c35487bb0d71aa9c30b",
+        "size": 6292
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/proteostasis_autophagy.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/renal_fluid.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:c88cbaf9aac1c7a74aebddea979b59e294a2904ea27b69c2eaf7082d7ee7ccd3",
+        "size": 6104
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/renal_fluid.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/reserve_homeostasis.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:2e190e1b448df0998b7704f3c1aa01aee72ff519de6e2484533a2a8a76139025",
+        "size": 6308
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/reserve_homeostasis.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/resilience_recovery.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:72da7c742cc3a81118d2d24374db70539259ccc287652315b016d6fd99e2feac",
+        "size": 6353
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/resilience_recovery.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/respiratory.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:40d73b27ce3afe2e68104774a2036c61dc08932f17694430a0ef455932959509",
+        "size": 6020
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/respiratory.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/senescence_stem_cells.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:0fa369f5c2e89c0cd697884ebfd039bc26f7f08b6863061b26647db13a9c79f9",
+        "size": 6366
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/senescence_stem_cells.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/sensory.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:a56e05792382d7334558c1f2b3dedab12e734ca6aed4c37d126f4d8c5a7a444e",
+        "size": 6064
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/sensory.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/sleep_circadian.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:7a903d08502dc7097d4e7b60a37acdfcebea3dca236d48e126429ec2627561ec",
+        "size": 6072
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/sleep_circadian.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/source_catalog.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:02765e877d260e6bab7bf6224b1cdf22ed1193ed272539fae15a888cf34c02e1",
+        "size": 7182
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/source_catalog.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/trajectories_variability.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:33f642a2d41b17533d2587553331f7d8370c18928fedaf4625646d6d4b4bcafb",
+        "size": 6429
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/trajectories_variability.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "external-source-library/source-store.json",
+      "knowledge-base/sources/bone_connective.json",
+      "knowledge-base/sources/cardiovascular.json",
+      "knowledge-base/sources/cognition_brain.json",
+      "knowledge-base/sources/compensation_adaptation.json",
+      "knowledge-base/sources/environment_social.json",
+      "knowledge-base/sources/foundations.json",
+      "knowledge-base/sources/frailty_vulnerability.json",
+      "knowledge-base/sources/functional_ability.json",
+      "knowledge-base/sources/genome_epigenome.json",
+      "knowledge-base/sources/immune_inflammation.json",
+      "knowledge-base/sources/intercellular_microbiome.json",
+      "knowledge-base/sources/invariants.json",
+      "knowledge-base/sources/life_course.json",
+      "knowledge-base/sources/longevity_mortality.json",
+      "knowledge-base/sources/measurement_biomarkers.json",
+      "knowledge-base/sources/mechanisms_hallmarks.json",
+      "knowledge-base/sources/metabolic_endocrine.json",
+      "knowledge-base/sources/metabolism_mitochondria.json",
+      "knowledge-base/sources/muscle_mobility.json",
+      "knowledge-base/sources/proteostasis_autophagy.json",
+      "knowledge-base/sources/renal_fluid.json",
+      "knowledge-base/sources/reserve_homeostasis.json",
+      "knowledge-base/sources/resilience_recovery.json",
+      "knowledge-base/sources/respiratory.json",
+      "knowledge-base/sources/senescence_stem_cells.json",
+      "knowledge-base/sources/sensory.json",
+      "knowledge-base/sources/sleep_circadian.json",
+      "knowledge-base/sources/source_catalog.json",
+      "knowledge-base/sources/trajectories_variability.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "aging.editorial-source-bundle/1.0"
+  }
+}

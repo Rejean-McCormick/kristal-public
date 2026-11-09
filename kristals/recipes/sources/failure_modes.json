@@ -1,0 +1,81 @@
+{
+  "format": "recipes.failure-modes.v1",
+  "version": "2.0.0",
+  "status": "illustrative_model_seed",
+  "failure_modes": [
+    {
+      "failure_mode_id": "urn:kristal:recipes:failure:broken_emulsion",
+      "label": "Émulsion rompue",
+      "applies_to": {
+        "family_refs": [
+          "urn:kristal:recipes:family:generic_emulsified_sauce"
+        ],
+        "technique_refs": [
+          "urn:kristal:recipes:technique:emulsify"
+        ],
+        "state_refs": [
+          "stable_emulsion"
+        ]
+      },
+      "symptoms": [
+        "phase separation",
+        "loss of homogeneous consistency"
+      ],
+      "candidate_causes": [
+        {
+          "cause": "phase addition too fast",
+          "status": "candidate"
+        },
+        {
+          "cause": "insufficient dispersion",
+          "status": "candidate"
+        }
+      ],
+      "diagnostic_observations": [
+        "observe visible phase separation",
+        "compare consistency during addition"
+      ],
+      "recovery_actions": [
+        "re-establish a small stable base then incorporate the broken mixture progressively"
+      ],
+      "status": "illustrative"
+    },
+    {
+      "failure_mode_id": "urn:kristal:recipes:failure:dense_fermented_dough",
+      "label": "Produit fermenté dense",
+      "applies_to": {
+        "family_refs": [
+          "urn:kristal:recipes:family:generic_yeast_bread"
+        ],
+        "technique_refs": [
+          "urn:kristal:recipes:technique:ferment"
+        ],
+        "state_refs": [
+          "fermented_dough"
+        ]
+      },
+      "symptoms": [
+        "low expansion",
+        "dense final crumb"
+      ],
+      "candidate_causes": [
+        {
+          "cause": "insufficient gas development",
+          "status": "candidate"
+        },
+        {
+          "cause": "insufficient structure retention",
+          "status": "candidate"
+        }
+      ],
+      "diagnostic_observations": [
+        "compare volume change before baking",
+        "inspect dough structure"
+      ],
+      "recovery_actions": [
+        "adjust process only after identifying the failing stage"
+      ],
+      "status": "illustrative"
+    }
+  ]
+}

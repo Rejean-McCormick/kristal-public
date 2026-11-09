@@ -1,0 +1,84 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Forestry:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-v11.2",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-typed-fr-v11-2",
+          "path": "wikidata-typed-fr-v11-2.json",
+          "priority": 94,
+          "sha256": "bbbfa551630406d9a05fd840255473f3ec800f3479c638154306b1aa4b520fbb"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-domain-fr-v11-1",
+          "path": "wikidata-domain-fr-v11-1.json",
+          "priority": 93,
+          "sha256": "1432c1b863d7234a51fcc105fd9e1a02024a6d03d98283d1af0b47cb6134bcad"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "legacy-fr",
+          "path": "legacy-fr.json",
+          "priority": 100,
+          "sha256": "f2570aff42d5ed4944ab0237068753d7ccf72dfb8d14fcde5dd62bce919b70af"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "091844c138e6ea0342fbcda71cd7086aa475a660ef9bda2641465b6700a79c7c"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [
+        "fr"
+      ],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-typed-fr-CA-v11-2",
+          "path": "wikidata-typed-fr-CA-v11-2.json",
+          "priority": 94,
+          "sha256": "31ddc5280e5d11b6124e4fc7c0e3db8bd955f5e7251ddf20c0f8cb7ca4d641e8"
+        }
+      ],
+      "tag": "fr-CA"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-typed-und-v11-2",
+          "path": "wikidata-typed-und-v11-2.json",
+          "priority": 94,
+          "sha256": "0fc70a8800c09b93d3fdb0b2a4d52cce2d3b7bcf072810f24e8a03bc25160406"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-domain-und-v11-1",
+          "path": "wikidata-domain-und-v11-1.json",
+          "priority": 93,
+          "sha256": "113b603e05af2ab3c4cf6eb0289fe77d8cfbbe385a0770054ef981724ffae338"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "c1dca745342c7978ed559079ce3e4ff5290e768b87daf11df1a5a65d94e59105"
+        }
+      ],
+      "tag": "und"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-forestry",
+  "schema_version": "11.0"
+}

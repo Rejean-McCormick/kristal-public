@@ -1,0 +1,637 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Disasters",
+  "run_id": "02347039fd5ede78",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:27:44.078663+00:00",
+  "source_labels": {
+    "project": "Kristal-Disasters",
+    "namespace_id": "kristal:bulk:kristal-disasters",
+    "search_labels": 222,
+    "labeled_entities": 111,
+    "labeled_properties": 0,
+    "domain_entities": 111,
+    "domain_properties": 97,
+    "unlabeled": [
+      {
+        "legacy_id": "disasters.addresses",
+        "semantic_id": "KP1199453889388832738681669"
+      },
+      {
+        "legacy_id": "disasters.affects",
+        "semantic_id": "KP909267808456375601463650"
+      },
+      {
+        "legacy_id": "disasters.aims_to_reduce",
+        "semantic_id": "KP33627063729448438923130"
+      },
+      {
+        "legacy_id": "disasters.aims_to_restore_or_improve",
+        "semantic_id": "KP15641526833383546925935"
+      },
+      {
+        "legacy_id": "disasters.allocates",
+        "semantic_id": "KP206647480120772752448695"
+      },
+      {
+        "legacy_id": "disasters.analyzes",
+        "semantic_id": "KP537671193986176638992904"
+      },
+      {
+        "legacy_id": "disasters.assesses",
+        "semantic_id": "KP182345354702831561044755"
+      },
+      {
+        "legacy_id": "disasters.can_affect",
+        "semantic_id": "KP1117224512639029756904736"
+      },
+      {
+        "legacy_id": "disasters.can_amplify",
+        "semantic_id": "KP633051669499271956435568"
+      },
+      {
+        "legacy_id": "disasters.can_begin_before",
+        "semantic_id": "KP256171111188043227397317"
+      },
+      {
+        "legacy_id": "disasters.can_begin_during",
+        "semantic_id": "KP300298840285449609491813"
+      },
+      {
+        "legacy_id": "disasters.can_cause",
+        "semantic_id": "KP334634857744869885853901"
+      },
+      {
+        "legacy_id": "disasters.can_coexist_with",
+        "semantic_id": "KP130995032480087223325057"
+      },
+      {
+        "legacy_id": "disasters.can_combine_as",
+        "semantic_id": "KP209401126277660422039990"
+      },
+      {
+        "legacy_id": "disasters.can_create",
+        "semantic_id": "KP500911610454353071238103"
+      },
+      {
+        "legacy_id": "disasters.can_form",
+        "semantic_id": "KP106309483316760079144234"
+      },
+      {
+        "legacy_id": "disasters.can_generate",
+        "semantic_id": "KP1203698508822979167482582"
+      },
+      {
+        "legacy_id": "disasters.can_have",
+        "semantic_id": "KP1023285870261752146809079"
+      },
+      {
+        "legacy_id": "disasters.can_identify",
+        "semantic_id": "KP943731687655926251197193"
+      },
+      {
+        "legacy_id": "disasters.can_include",
+        "semantic_id": "KP776816334046887850808461"
+      },
+      {
+        "legacy_id": "disasters.can_increase",
+        "semantic_id": "KP929680736990856195949692"
+      },
+      {
+        "legacy_id": "disasters.can_inform",
+        "semantic_id": "KP253265515279337638551015"
+      },
+      {
+        "legacy_id": "disasters.can_limit",
+        "semantic_id": "KP968840814387529246808978"
+      },
+      {
+        "legacy_id": "disasters.can_measure",
+        "semantic_id": "KP242513266314195368431520"
+      },
+      {
+        "legacy_id": "disasters.can_propagate",
+        "semantic_id": "KP344244705149857143558412"
+      },
+      {
+        "legacy_id": "disasters.can_reduce_effects_of",
+        "semantic_id": "KP798534652408511729759766"
+      },
+      {
+        "legacy_id": "disasters.can_reveal",
+        "semantic_id": "KP844662583254691684467276"
+      },
+      {
+        "legacy_id": "disasters.can_strengthen",
+        "semantic_id": "KP474844535995020707856319"
+      },
+      {
+        "legacy_id": "disasters.can_structure",
+        "semantic_id": "KP419562085865998098782187"
+      },
+      {
+        "legacy_id": "disasters.can_sustain",
+        "semantic_id": "KP430392700359168831002793"
+      },
+      {
+        "legacy_id": "disasters.can_trigger",
+        "semantic_id": "KP1169544462380915346660831"
+      },
+      {
+        "legacy_id": "disasters.cannot_assume_elimination_of",
+        "semantic_id": "KP234984904461645512570177"
+      },
+      {
+        "legacy_id": "disasters.connects_to",
+        "semantic_id": "KP1175533223538638299668817"
+      },
+      {
+        "legacy_id": "disasters.considers",
+        "semantic_id": "KP898137719136520343194722"
+      },
+      {
+        "legacy_id": "disasters.constrains",
+        "semantic_id": "KP1082960477613368467510968"
+      },
+      {
+        "legacy_id": "disasters.contributes_to",
+        "semantic_id": "KP887047429408809043900414"
+      },
+      {
+        "legacy_id": "disasters.defines",
+        "semantic_id": "KP609555730972778529350770"
+      },
+      {
+        "legacy_id": "disasters.defines_expected",
+        "semantic_id": "KP337298153027123517189098"
+      },
+      {
+        "legacy_id": "disasters.depends_on",
+        "semantic_id": "KP1122761304250851718413306"
+      },
+      {
+        "legacy_id": "disasters.distributes",
+        "semantic_id": "KP1018679256270430843691824"
+      },
+      {
+        "legacy_id": "disasters.does_not_eliminate",
+        "semantic_id": "KP103800688147381641508793"
+      },
+      {
+        "legacy_id": "disasters.does_not_guarantee",
+        "semantic_id": "KP752667838357090297755697"
+      },
+      {
+        "legacy_id": "disasters.does_not_imply",
+        "semantic_id": "KP443763554653841113539803"
+      },
+      {
+        "legacy_id": "disasters.does_not_mean_simple_return_to",
+        "semantic_id": "KP1087306045484185691158029"
+      },
+      {
+        "legacy_id": "disasters.does_not_necessarily_become",
+        "semantic_id": "KP1047907740148377694097663"
+      },
+      {
+        "legacy_id": "disasters.estimates",
+        "semantic_id": "KP131875342457851573712760"
+      },
+      {
+        "legacy_id": "disasters.evaluates",
+        "semantic_id": "KP1182815400810095129377994"
+      },
+      {
+        "legacy_id": "disasters.follows_and_overlaps",
+        "semantic_id": "KP819569408445647090154889"
+      },
+      {
+        "legacy_id": "disasters.guides",
+        "semantic_id": "KP1148174415640090384697427"
+      },
+      {
+        "legacy_id": "disasters.has",
+        "semantic_id": "KP65962759817263308908461"
+      },
+      {
+        "legacy_id": "disasters.identifies",
+        "semantic_id": "KP815876093786732997794696"
+      },
+      {
+        "legacy_id": "disasters.includes",
+        "semantic_id": "KP668761822398643470052428"
+      },
+      {
+        "legacy_id": "disasters.increases",
+        "semantic_id": "KP110216968232072261452288"
+      },
+      {
+        "legacy_id": "disasters.informs",
+        "semantic_id": "KP161754625003754645919083"
+      },
+      {
+        "legacy_id": "disasters.integrates",
+        "semantic_id": "KP312903985728524516730208"
+      },
+      {
+        "legacy_id": "disasters.involves",
+        "semantic_id": "KP708277679397580011860441"
+      },
+      {
+        "legacy_id": "disasters.is_component_of",
+        "semantic_id": "KP1115775067781903149282762"
+      },
+      {
+        "legacy_id": "disasters.is_contextual_to",
+        "semantic_id": "KP258949221989617821246226"
+      },
+      {
+        "legacy_id": "disasters.is_distinct_from",
+        "semantic_id": "KP410760396583443485661983"
+      },
+      {
+        "legacy_id": "disasters.is_estimated_by",
+        "semantic_id": "KP302464893862739168235507"
+      },
+      {
+        "legacy_id": "disasters.is_inferred_from",
+        "semantic_id": "KP336008798794803325878128"
+      },
+      {
+        "legacy_id": "disasters.is_informed_by",
+        "semantic_id": "KP771991258931261316409280"
+      },
+      {
+        "legacy_id": "disasters.is_manifestation_of",
+        "semantic_id": "KP1186901880772203427617650"
+      },
+      {
+        "legacy_id": "disasters.is_moderated_by",
+        "semantic_id": "KP883356401981079574283634"
+      },
+      {
+        "legacy_id": "disasters.is_modified_by",
+        "semantic_id": "KP50573103084319440963006"
+      },
+      {
+        "legacy_id": "disasters.is_not_equivalent_to",
+        "semantic_id": "KP1053736345980563384113615"
+      },
+      {
+        "legacy_id": "disasters.is_not_necessarily_return_to",
+        "semantic_id": "KP1114834756806320006002261"
+      },
+      {
+        "legacy_id": "disasters.is_not_passive_equivalent_to",
+        "semantic_id": "KP1188953760319441589263901"
+      },
+      {
+        "legacy_id": "disasters.is_not_same_as",
+        "semantic_id": "KP600838397909698291849054"
+      },
+      {
+        "legacy_id": "disasters.is_observation_of",
+        "semantic_id": "KP549352431463187072892138"
+      },
+      {
+        "legacy_id": "disasters.is_type_of",
+        "semantic_id": "KP707129456406822899360050"
+      },
+      {
+        "legacy_id": "disasters.may_be_characterized_by",
+        "semantic_id": "KP190671844230908085790056"
+      },
+      {
+        "legacy_id": "disasters.may_be_component_of",
+        "semantic_id": "KP40211857400126998258283"
+      },
+      {
+        "legacy_id": "disasters.may_have",
+        "semantic_id": "KP1085503326526361198116049"
+      },
+      {
+        "legacy_id": "disasters.may_have_local",
+        "semantic_id": "KP649021471109215644128623"
+      },
+      {
+        "legacy_id": "disasters.may_include",
+        "semantic_id": "KP344710029616914578481934"
+      },
+      {
+        "legacy_id": "disasters.may_manifest_as",
+        "semantic_id": "KP751816654051870061340722"
+      },
+      {
+        "legacy_id": "disasters.may_require_differentiated",
+        "semantic_id": "KP500993339195995572661204"
+      },
+      {
+        "legacy_id": "disasters.must_manage",
+        "semantic_id": "KP214132258332225865126763"
+      },
+      {
+        "legacy_id": "disasters.occurs_with",
+        "semantic_id": "KP479511864761645187660246"
+      },
+      {
+        "legacy_id": "disasters.operates_under",
+        "semantic_id": "KP724652586072394584242508"
+      },
+      {
+        "legacy_id": "disasters.organizes",
+        "semantic_id": "KP1075318721554880756010800"
+      },
+      {
+        "legacy_id": "disasters.overlaps",
+        "semantic_id": "KP905251745393571701138443"
+      },
+      {
+        "legacy_id": "disasters.predefines",
+        "semantic_id": "KP1061494087682529718992709"
+      },
+      {
+        "legacy_id": "disasters.produces",
+        "semantic_id": "KP517725030900120562430942"
+      },
+      {
+        "legacy_id": "disasters.protects",
+        "semantic_id": "KP762976438109288063648999"
+      },
+      {
+        "legacy_id": "disasters.requires",
+        "semantic_id": "KP412475063350502501902751"
+      },
+      {
+        "legacy_id": "disasters.restores",
+        "semantic_id": "KP123981488075737748173289"
+      },
+      {
+        "legacy_id": "disasters.results_from_interaction_with",
+        "semantic_id": "KP277307582498872277250123"
+      },
+      {
+        "legacy_id": "disasters.should_be_revisited_with",
+        "semantic_id": "KP408406446931041285795266"
+      },
+      {
+        "legacy_id": "disasters.should_be_updated_by",
+        "semantic_id": "KP645878273434006989916973"
+      },
+      {
+        "legacy_id": "disasters.should_distinguish",
+        "semantic_id": "KP903785719243426178024862"
+      },
+      {
+        "legacy_id": "disasters.should_not_create",
+        "semantic_id": "KP1188871145510275965529905"
+      },
+      {
+        "legacy_id": "disasters.should_not_recreate",
+        "semantic_id": "KP974834257571974101129220"
+      },
+      {
+        "legacy_id": "disasters.supports",
+        "semantic_id": "KP552728448944389945794916"
+      },
+      {
+        "legacy_id": "disasters.tracks",
+        "semantic_id": "KP707902908882997443621679"
+      },
+      {
+        "legacy_id": "disasters.uses",
+        "semantic_id": "KP963665352922920838013650"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "f93b855a780cba8f05c20c0d3e33f48e8595f967c182860a885d940949d8fd33",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Disasters",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "kristal_ref": "Kristal-Disasters",
+        "domain": "disasters"
+      },
+      "native_model": {
+        "kind": "typed_disaster_risk_response_graph",
+        "description": "événement → dommages → besoins → réponse → récupération. L’aléa, exposition, vulnérabilité et capacité sont distincts des impacts et de la réponse.",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "types de catastrophes",
+        "événements catastrophiques documentés",
+        "Respecter: Distinguer événements, impacts, réponses et incertitudes."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Aléa/exposition/vulnérabilité/impact/besoins/réponse forment des plans connexes.",
+        "guardrail": "Ne pas interpréter le corpus comme un journal d’incidents ou une autorisation opérationnelle."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.8,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Disasters\\02347039fd5ede78",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "a8f80e452e2381d782391d01b8fc1b159cc7377ad7fd800b5968e6ec4e51878e",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 222,
+    "distinct_concepts": 111,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "a8f80e452e2381d782391d01b8fc1b159cc7377ad7fd800b5968e6ec4e51878e",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 222,
+    "distinct_concepts": 111,
+    "cached_queries": 222,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "ambiguous_exact_candidates": 23,
+      "saturated_exact_search": 36,
+      "unique_exact_candidate": 26,
+      "no_exact_candidate": 17,
+      "cross_language_conflict": 9
+    },
+    "tentative_unverified": 26,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "a8f80e452e2381d782391d01b8fc1b159cc7377ad7fd800b5968e6ec4e51878e",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 26,
+    "distinct_qids": 26,
+    "qid_inventory_sha256": "f4f1a13c9da71917b9959d5cd8883da30c8d161521a0c9d722f2f63a1b88965b",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 26,
+    "qids_acquired": 26,
+    "new_batches": 1,
+    "reused_records": 2,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Disasters\\02347039fd5ede78\\full-evidence\\f4f1a13c9da71917",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 26,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 619,
+    "raw_subject_entities": 26,
+    "related_unapproved_qids": 157,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-disasters": 619
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "501234b2d6df0bf5da1eba69898e3548b5746330aa055011b428538174c1bfb9",
+  "proposals_sha256": "bfc3ae1d5f7352fc485f6f3d5aceeddeccb94c455dff5b5c1299788c7010833d"
+}

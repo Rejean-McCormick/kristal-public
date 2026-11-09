@@ -1,0 +1,90 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:catho",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:f0769f86b8bb05ae41d7380094c9ebdfabb6fabdce6cde598f6f9abb7ea51718"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:catho:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.catho.semantic-corpus",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:catho:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a08ca450ed75f8e13a1c2d8902949ab752a31886ccb3b3284fb5cbab910d279f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:catho:artifact:personnes-reconnaissances",
+      "logical_contract": {
+        "id": "kristal.catho.personnes-reconnaissances",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:catho:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0e959326f55e71e469e7afd58629ab93c6cde0c145e505e88740f4793349d601"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:catho:artifact:wikidata-import",
+      "logical_contract": {
+        "id": "kristal.catho.wikidata-import",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:catho:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:760730940a9c0ba1ba3be52b9467a0c9458602a53aa6184af2115f2d533715d4"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:catho:artifact:wikidata-alignments",
+      "logical_contract": {
+        "id": "kristal.catho.wikidata-alignments",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:catho:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c3c1448298b5882975c5f47abf2b990b467cbc0622eb1ca2746c424034ee2fad"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:catho:artifact:semantic-links",
+      "logical_contract": {
+        "id": "kristal.catho.semantic-links",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1120b23bf174de204c6310e999790ce64c4498ab0c72ac930f781b7d646e5b2a"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:catho:artifact:topics",
+      "logical_contract": {
+        "id": "kristal.catho.topics",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a36593b3049ec6461a841f0457b9f30be8950f240a4f528aa6b2707c3989e4ed"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "culture",
+    "language": "fr",
+    "subdomain": "religion/christianisme/documentation",
+    "time_window": "Sources du corpus historique (2026-09-24) et listes ecclésiales consultées le 2026-10-13"
+  },
+  "authority_ref": "urn:kristal:authority-boundary:catho:repository-canon"
+}

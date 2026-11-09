@@ -1,0 +1,123 @@
+{
+  "format": "k.monetary.domain/system/0.1.0",
+  "id": "urn:kristal:k-monetary-system:domain",
+  "status": "hypothetical_design",
+  "purpose": "Model a privately originated, collectively governed monetary system that may evolve from a payment asset into a supranational monetary regime while testing distributional, stability and transition effects.",
+  "native_shape": [
+    "multiplex_network",
+    "stateful_system",
+    "causal_model",
+    "research_memory",
+    "executable_policy_surface"
+  ],
+  "instruments": {
+    "K_M": {
+      "name": "K-Money",
+      "role": [
+        "medium_of_exchange",
+        "settlement_asset",
+        "candidate_unit_of_account"
+      ],
+      "design_objective": "Stable purchasing power and high settlement reliability rather than speculative appreciation.",
+      "legal_form": "unspecified_until_jurisdictional_design",
+      "redemption_or_backing": "not_assumed_by_canon",
+      "supply_governance": "monetary-policy contract + external Smart Vote authority interface"
+    },
+    "K_C": {
+      "name": "K-Capital",
+      "role": [
+        "broad_capital_ownership",
+        "social_dividend_participation"
+      ],
+      "design_objective": "Allow broad participation in system surplus/appreciation without forcing the transaction currency itself to be a speculative asset.",
+      "legal_form": "unspecified_until_jurisdictional_design",
+      "transferability": "policy_defined",
+      "monetary_status": "not_a_unit_of_account_by_default"
+    }
+  },
+  "actors": [
+    "household",
+    "worker",
+    "merchant",
+    "employer",
+    "financial_intermediary",
+    "payment_operator",
+    "social_dividend_treasury",
+    "sovereign_government",
+    "external_smart_vote_governance",
+    "auditor",
+    "researcher"
+  ],
+  "multiplex_layers": [
+    {
+      "id": "monetary",
+      "semantics": "issuance, balances, unit-of-account and liquidity"
+    },
+    {
+      "id": "payments",
+      "semantics": "authorization, settlement, receipts and merchant acceptance"
+    },
+    {
+      "id": "credit",
+      "semantics": "K-denominated claims, maturity, collateral and liquidity transformation"
+    },
+    {
+      "id": "ownership_distribution",
+      "semantics": "K-Capital ownership, beneficial exposure, social dividend and concentration"
+    },
+    {
+      "id": "fiscal_interface",
+      "semantics": "optional sovereign acceptance for taxes, procurement or debt issuance; never assumed"
+    },
+    {
+      "id": "governance",
+      "semantics": "policy proposals, expertise/integrity weighting, ratification, audit and emergency authority"
+    },
+    {
+      "id": "productive_capacity",
+      "semantics": "real resources and supply constraints that bound non-inflationary purchasing power"
+    },
+    {
+      "id": "epistemic",
+      "semantics": "observations, assumptions, hypotheses, evidence, decisions and model outputs"
+    }
+  ],
+  "core_state_variables": [
+    "K_M_supply",
+    "K_M_velocity",
+    "K_M_price_index",
+    "K_C_distribution",
+    "merchant_adoption",
+    "unit_of_account_share",
+    "credit_market_depth",
+    "fiscal_acceptance_share",
+    "reserve_asset_share",
+    "real_output",
+    "capacity_utilization",
+    "legacy_CAD_debt_real_burden",
+    "median_real_income",
+    "median_real_wealth",
+    "top_1_wealth_share",
+    "gini_wealth",
+    "inflation",
+    "financial_stress",
+    "governance_credibility"
+  ],
+  "invariants": [
+    "Payment settlement must conserve K_M across ordinary transfers: debit equals credit net of explicitly declared fees or issuance/redemption operations.",
+    "A payment credential or QR identifier is not itself canonical money and must not contain a reusable spending secret by default.",
+    "K_M monetary policy cannot be unilaterally changed by the founder.",
+    "Smart Vote outputs do not become empirical facts; policy decisions and observed outcomes remain distinct epistemic regimes.",
+    "Distributional objectives are evaluated in real resources and real wealth, not only nominal K balances.",
+    "No state transition to sovereign/fiscal acceptance is implied without an external sovereign decision.",
+    "Simulation output never has authority over the world."
+  ],
+  "external_dependencies": [
+    {
+      "id": "konnaxion.smart-vote",
+      "ownership": "external",
+      "binding": "policy_interface_only",
+      "pinning_status": "unresolved_until_external_kristal_commitment_exists"
+    }
+  ]
+}

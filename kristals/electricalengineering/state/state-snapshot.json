@@ -1,0 +1,24 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:kristal-electricalengineering",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:ba2ca177fa9738f7634eda20f1ba346d9cd1621c9e67908da60588763c3686bb"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:artifact:kristal-electricalengineering:portable-epistemic-state",
+      "logical_contract": {
+        "id": "kristal.portable-epistemic-state",
+        "version": "6.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1637a2b8a3d258f9dc2bf7878c5915e59dd437288e41c21288148ee7bb23eccf"
+      }
+    }
+  ],
+  "references": [],
+  "parents": []
+}

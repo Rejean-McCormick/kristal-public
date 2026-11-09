@@ -1,0 +1,62 @@
+{
+  "format": "vaticanops.version-relations/1.0",
+  "as_of": "2026-10-24",
+  "no_automatic_consolidation": true,
+  "links": [
+    {
+      "id": "VL-001",
+      "older": "VO-S04",
+      "newer": "VO-N009",
+      "relation": "replaced_in_full",
+      "evidence_url": "https://www.vatican.va/content/leo-xiv/it/motu_proprio/documents/20260731-legge-fondamentale-scv.html",
+      "proof_text_ref": "Art. 25(1)",
+      "review": "official_source_checked; normative timeline requires legal review"
+    },
+    {
+      "id": "VL-002",
+      "older": "Vos estis lux mundi (2019)",
+      "newer": "VO-N004",
+      "relation": "abrogated_and_replaced",
+      "evidence_url": "https://www.vatican.va/content/francesco/fr/motu_proprio/documents/20230325-motu-proprio-vos-estis-lux-mundi-aggiornato.html",
+      "proof_text_ref": "final promulgation clause; entry into force 2023-04-30",
+      "review": "official_source_checked"
+    },
+    {
+      "id": "VL-003",
+      "older": "normes de marchés publics 2020 VO-N016",
+      "newer": "modification 2023 VO-N015",
+      "relation": "amends",
+      "evidence_url": "https://www.vatican.va/content/francesco/it/apost_letters/documents/20231127-lettera-apostolica.html",
+      "proof_text_ref": null,
+      "review": "audit_imported_not_consolidated"
+    },
+    {
+      "id": "VL-004",
+      "older": "CIC latin original",
+      "newer": "VO-N005",
+      "relation": "multiple_amendments",
+      "evidence_url": "https://www.vatican.va/archive/cdc/index.htm",
+      "proof_text_ref": null,
+      "review": "collection_needs_article_by_article_consolidation"
+    },
+    {
+      "id": "VL-005",
+      "older": "CCEO historique",
+      "newer": "VO-N008",
+      "relation": "amends_canons_106_126_candidate",
+      "evidence_url": "https://press.vatican.va/content/leo-xiv/la/apost_letters/documents/20260829-mutua-concordia.html",
+      "proof_text_ref": null,
+      "review": "audit_imported_requires_expert_review"
+    }
+  ],
+  "known_unresolved_canons": [
+    230,
+    604,
+    686,
+    688,
+    695,
+    700,
+    775
+  ],
+  "rule": "Never infer normative force, current applicability or a consolidated text from link alone."
+}

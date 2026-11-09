@@ -1,0 +1,55 @@
+{
+  "format": "vaticanops.procedure-links/2.0",
+  "links": [
+    {
+      "from": "VO-P01",
+      "to": "VO-P03",
+      "relation": "same_curial_competence_context",
+      "automatic_transition": false,
+      "confidence": "editorial_candidate"
+    },
+    {
+      "from": "VO-P02",
+      "to": "VO-P08",
+      "relation": "administrative_document_context",
+      "automatic_transition": false,
+      "confidence": "editorial_candidate"
+    },
+    {
+      "from": "VO-P04",
+      "to": "VO-P08",
+      "relation": "analogous_recours_not_equivalent",
+      "automatic_transition": false,
+      "confidence": "editorial_candidate"
+    },
+    {
+      "from": "VO-P03",
+      "to": "VO-P08",
+      "relation": "different_competence_pathways",
+      "automatic_transition": false,
+      "confidence": "editorial_candidate"
+    },
+    {
+      "from": "VO-P05",
+      "to": "VO-P04",
+      "relation": "different_legal_process_must_not_conflate",
+      "automatic_transition": false,
+      "confidence": "editorial_candidate"
+    },
+    {
+      "from": "VO-P06",
+      "to": "VO-P01",
+      "relation": "separate_governance_regimes",
+      "automatic_transition": false,
+      "confidence": "editorial_candidate"
+    },
+    {
+      "from": "VO-P07",
+      "to": "VO-P05",
+      "relation": "separate_liturgical_disciplinary_regimes",
+      "automatic_transition": false,
+      "confidence": "editorial_candidate"
+    }
+  ],
+  "usage": "navigation and boundary distinctions only; none represent automatic procedural dependency"
+}

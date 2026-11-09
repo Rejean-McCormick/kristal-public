@@ -1,0 +1,95 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_logical_artifact",
+  "artifact_id": "urn:kristal:king-klown:entities",
+  "logical_contract": {
+    "id": "king-klown.entity-registry",
+    "version": "1.0"
+  },
+  "payload": {
+    "schema": "kk-entity-registry/1.1",
+    "entities": [
+      {
+        "id": "KK_CONTINUITY",
+        "name": "King Klown continuity",
+        "aliases": [
+          "King Klown",
+          "KK",
+          "Colin Row",
+          "Roi Clown",
+          "Ninja Arc-en-ciel",
+          "L’Auteur"
+        ]
+      },
+      {
+        "id": "AIDA_MANSOUR",
+        "name": "Aïda Mansour",
+        "aliases": [
+          "Aïda Mansour",
+          "Aida Mansour"
+        ],
+        "scope": [
+          "W_ASILE"
+        ]
+      },
+      {
+        "id": "AIDA_ELOISE",
+        "name": "Aïda Éloïse",
+        "aliases": [
+          "Aïda Éloïse",
+          "Aida Eloise"
+        ],
+        "scope": [
+          "W_MYTHOS",
+          "W_KONV"
+        ]
+      },
+      {
+        "id": "UYGHUR_COMMUNITY",
+        "name": "Communauté ouïghoure",
+        "aliases": [
+          "Ouïghours",
+          "Ouigours",
+          "Uyghurs",
+          "village ouïghour"
+        ]
+      },
+      {
+        "id": "REVASSEUR",
+        "name": "Île / Protocole Rêvasseur",
+        "aliases": [
+          "Rêvasseur",
+          "Revasseur",
+          "Île Rêvasseur",
+          "Ile Revasseur"
+        ]
+      },
+      {
+        "id": "LUMIERE_BLANCHE",
+        "name": "Lumière Blanche",
+        "aliases": [
+          "Lumière Blanche",
+          "Lumiere Blanche"
+        ]
+      },
+      {
+        "id": "RIRE_COSMIQUE",
+        "name": "Le Rire Cosmique",
+        "aliases": [
+          "Le Rire Cosmique",
+          "Rire Cosmique",
+          "Cosmic Laugh"
+        ]
+      }
+    ]
+  },
+  "logical_commitment": {
+    "profile": "kristal.logical/jcs-sha256-v1",
+    "digest": "sha256:769d683b65717c736d4a23c5ffe6cac2d5ac93e5e37c612443b28e069234fc9a"
+  },
+  "scope": {
+    "domain": "king-klown",
+    "package": "MEDIA"
+  },
+  "authority_ref": "urn:kristal:authority:king-klown-canon"
+}

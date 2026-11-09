@@ -1,0 +1,43 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:ai:artifact:editorial-sources:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:ai:artifact:editorial-sources",
+    "logical_contract": {
+      "id": "ai.editorial-source-bundle",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:a8c10534da9f15795a6be5139265f8ea5719229013873c7686a3d59894594936"
+    }
+  },
+  "profile": "kristal.materialization/native-json-bundle/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "knowledge-base/sources/source-catalog.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:e53cc2bf11b84874828f005a302054038e5d2db8174fe22e79409d756439f475",
+        "size": 10715
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/source-catalog.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "knowledge-base/sources/source-catalog.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "ai.editorial-source-bundle/1.0"
+  }
+}

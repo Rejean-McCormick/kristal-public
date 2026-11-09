@@ -1,0 +1,4984 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "working",
+  "created_at": "2026-10-02T16:21:00-04:00",
+  "applicability": {
+    "domain": "droit international public",
+    "subdomain": "normes mondiales et quasi universelles",
+    "jurisdiction": "international",
+    "language": "fr",
+    "time_window": {
+      "as_of": "2026-10-02"
+    }
+  },
+  "source_refs": [
+    {
+      "source_id": "SRC-ICJ-STATUTE",
+      "title": "Statut de la Cour internationale de Justice — article 38",
+      "url": "https://www.icj-cij.org/fr/statut"
+    },
+    {
+      "source_id": "SRC-UN-CHARTER",
+      "title": "Charte des Nations Unies — texte intégral",
+      "url": "https://www.un.org/fr/node/126765"
+    },
+    {
+      "source_id": "SRC-UN-CH7",
+      "title": "Charte des Nations Unies — Chapitre VII",
+      "url": "https://www.un.org/fr/about-us/un-charter/chapter-7"
+    },
+    {
+      "source_id": "SRC-UN-ART103",
+      "title": "Charte des Nations Unies — article 103",
+      "url": "https://legal.un.org/repertory/art103.shtml"
+    },
+    {
+      "source_id": "SRC-UN-GA",
+      "title": "Charte des Nations Unies — Chapitre IV, Assemblée générale",
+      "url": "https://www.un.org/fr/about-us/un-charter/chapter-4"
+    },
+    {
+      "source_id": "SRC-UN-MEMBERS",
+      "title": "Membership of Principal UN Organs",
+      "url": "https://www.un.org/en/about-us/membership-of-principal-un-organs"
+    },
+    {
+      "source_id": "SRC-UN-SC-VOTE",
+      "title": "Vote — Conseil de sécurité",
+      "url": "https://main.un.org/securitycouncil/fr/content/voting-system"
+    },
+    {
+      "source_id": "SRC-VCLT",
+      "title": "Convention de Vienne sur le droit des traités (1969)",
+      "url": "https://legal.un.org/avl/ha/vclt/vclt.html"
+    },
+    {
+      "source_id": "SRC-VCLT-STATUS",
+      "title": "Convention de Vienne sur le droit des traités — état des parties",
+      "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?Temp=mtdsg3&chapter=23&clang=_en&lang=en&mtdsg_no=XXIII-1&src=TREATY"
+    },
+    {
+      "source_id": "SRC-ILC-CUSTOM",
+      "title": "Conclusions sur la détermination du droit international coutumier (2018)",
+      "url": "https://legal.un.org/ilc/texts/1_13.shtml"
+    },
+    {
+      "source_id": "SRC-ILC-JUSCOGENS",
+      "title": "Conclusions sur les normes impératives du droit international général (jus cogens) (2022)",
+      "url": "https://legal.un.org/ilc/texts/1_14.shtml"
+    },
+    {
+      "source_id": "SRC-ILC-JUSCOGENS-SUMMARY",
+      "title": "Jus cogens — résumé des travaux et annexe",
+      "url": "https://legal.un.org/ilc/summaries/1_14.shtml"
+    },
+    {
+      "source_id": "SRC-ILC-STATE-RESP",
+      "title": "Articles sur la responsabilité de l’État pour fait internationalement illicite (2001)",
+      "url": "https://legal.un.org/avl/ha/rsiwa/rsiwa.html"
+    },
+    {
+      "source_id": "SRC-ICJ-JURIS",
+      "title": "Compétence contentieuse de la Cour internationale de Justice",
+      "url": "https://www.icj-cij.org/contentious-jurisdiction"
+    },
+    {
+      "source_id": "SRC-ICJ-ADVISORY",
+      "title": "Compétence consultative de la Cour internationale de Justice",
+      "url": "https://www.icj-cij.org/advisory-jurisdiction"
+    },
+    {
+      "source_id": "SRC-ICRC-GENEVA",
+      "title": "75e anniversaire des Conventions de Genève",
+      "url": "https://www.icrc.org/en/document/75th-anniversary-geneva-conventions"
+    },
+    {
+      "source_id": "SRC-ICRC-DISTINCTION",
+      "title": "DIH coutumier — principe de distinction",
+      "url": "https://ihl-databases.icrc.org/en/customary-ihl/v2"
+    },
+    {
+      "source_id": "SRC-ICRC-PROP",
+      "title": "DIH coutumier — Règle 14, proportionnalité",
+      "url": "https://ihl-databases.icrc.org/fr/customary-ihl/v1/rule14"
+    },
+    {
+      "source_id": "SRC-ICRC-HUMANE",
+      "title": "DIH coutumier — Règle 87, traitement humain",
+      "url": "https://ihl-databases.icrc.org/en/customary-ihl/v1/rule87"
+    },
+    {
+      "source_id": "SRC-UNTC-GENOCIDE",
+      "title": "Convention sur le génocide — état des parties",
+      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?chapter=4&clang=_en&mtdsg_no=IV-1&src=TREATY"
+    },
+    {
+      "source_id": "SRC-UNTC-ICCPR",
+      "title": "Pacte international relatif aux droits civils et politiques — état des parties",
+      "url": "https://treaties.un.org/pages/ViewDetails.aspx?chapter=4&mtdsg_no=IV-4&src=TREATY"
+    },
+    {
+      "source_id": "SRC-UNTC-ICESCR",
+      "title": "Pacte international relatif aux droits économiques, sociaux et culturels — état des parties",
+      "url": "https://treaties.un.org/doc/Publication/MTDSG/Volume%20I/Chapter%20IV/IV-3.en.xml"
+    },
+    {
+      "source_id": "SRC-UNTC-CAT",
+      "title": "Convention contre la torture — état des parties",
+      "url": "https://treaties.un.org/pages/viewdetails.aspx?chapter=4&clang=_en&mtdsg_no=iv-9&src=treaty"
+    },
+    {
+      "source_id": "SRC-UNTC-CEDAW",
+      "title": "Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes — état des parties",
+      "url": "https://treaties.un.org/pages/viewdetails.aspx?chapter=4&clang=_en&mtdsg_no=iv-8&src=treaty"
+    },
+    {
+      "source_id": "SRC-UNTC-CRC",
+      "title": "Convention relative aux droits de l’enfant — état des parties",
+      "url": "https://treaties.un.org/pages/viewdetails.aspx?chapter=4&clang=_en&mtdsg_no=iv-11&src=treaty"
+    },
+    {
+      "source_id": "SRC-UNTC-CRPD",
+      "title": "Convention relative aux droits des personnes handicapées — état des parties",
+      "url": "https://treaties.un.org/Pages/ViewDetails.aspx?chapter=4&clang=_en&mtdsg_no=IV-15&src=TREATY"
+    },
+    {
+      "source_id": "SRC-UNTC-REFUGEE",
+      "title": "Convention relative au statut des réfugiés — état des parties",
+      "url": "https://treaties.un.org/Pages/ViewDetailsII.aspx?chapter=5&clang=_en&mtdsg_no=V-2&src=TREATY"
+    },
+    {
+      "source_id": "SRC-UNTC-VCDR",
+      "title": "Convention de Vienne sur les relations diplomatiques — état des parties",
+      "url": "https://treaties.un.org/pages/ViewDetailsIII.aspx?chapter=3&clang=_en&mtdsg_no=III-3&src=TREATY"
+    },
+    {
+      "source_id": "SRC-UNCLOS",
+      "title": "Convention des Nations Unies sur le droit de la mer — état des parties",
+      "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?chapter=21&mtdsg_no=XXI-6&src=IND"
+    },
+    {
+      "source_id": "SRC-UNCLOS-TEXT",
+      "title": "Convention des Nations Unies sur le droit de la mer — texte",
+      "url": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/part1.htm"
+    },
+    {
+      "source_id": "SRC-UNFCCC-PARIS",
+      "title": "Accord de Paris — état et présentation",
+      "url": "https://unfccc.int/process/parties-non-party-stakeholders/parties-convention-and-observer-states?field_partys_partyto_target_id%5B512%5D=512"
+    },
+    {
+      "source_id": "SRC-WTO",
+      "title": "Rapport annuel 2026 — membres de l’OMC",
+      "url": "https://www.wto.org/english/res_e/publications_e/anrepiframe/index.html"
+    },
+    {
+      "source_id": "SRC-ICAO",
+      "title": "États membres de l’OACI",
+      "url": "https://www.icao.int/about-icao/member-states"
+    },
+    {
+      "source_id": "SRC-ICC-STATUTE",
+      "title": "Statut de Rome de la Cour pénale internationale",
+      "url": "https://www.icc-cpi.int/fr/publications/textes-juridiques-fondamentaux/statut-de-rome-de-la-cour-penale-internationale"
+    },
+    {
+      "source_id": "SRC-ICC-PARTIES",
+      "title": "États parties au Statut de Rome",
+      "url": "https://asp.icc-cpi.int/fr/states-parties"
+    },
+    {
+      "source_id": "SRC-ICC-COMP",
+      "title": "Complémentarité — Cour pénale internationale",
+      "url": "https://asp.icc-cpi.int/complementarity"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "INTL-001",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:sources-international-law"
+        },
+        "predicate": "law.sources",
+        "object": {
+          "kind": "proposition",
+          "value": "Les sources classiquement appliquées par la CIJ comprennent les conventions internationales, la coutume internationale et les principes généraux de droit; les décisions judiciaires et la doctrine servent de moyens auxiliaires de détermination des règles de droit.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "sources"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "framework"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICJ-STATUTE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-002",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:treaty"
+        },
+        "predicate": "law.binding_basis",
+        "object": {
+          "kind": "proposition",
+          "value": "Un traité lie en principe les parties qui ont consenti à être liées et pour lesquelles il est en vigueur; il ne devient pas, par sa seule existence, une obligation conventionnelle universelle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "states_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_on_parties"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT"
+      ]
+    },
+    {
+      "assertion_id": "INTL-003",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:pacta-sunt-servanda"
+        },
+        "predicate": "law.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "Tout traité en vigueur lie les parties et doit être exécuté de bonne foi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "states_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_rule"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT",
+        "SRC-VCLT-STATUS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-004",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:internal-law-defense"
+        },
+        "predicate": "law.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "Un État partie ne peut pas invoquer son droit interne comme justification de l’inexécution d’un traité sur le plan international, sous réserve des règles pertinentes du droit des traités.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "states_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_rule"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT"
+      ]
+    },
+    {
+      "assertion_id": "INTL-005",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:third-state-treaty"
+        },
+        "predicate": "law.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "Un traité ne crée pas, en principe, d’obligations conventionnelles pour un État tiers sans son consentement; une règle identique peut toutefois lier cet État par une autre source, notamment la coutume.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "consent_based"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT"
+      ]
+    },
+    {
+      "assertion_id": "INTL-006",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:vclt"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention de Vienne de 1969 compte 119 parties au 14 septembre 2026, mais plusieurs de ses dispositions sont reconnues comme codifiant ou reflétant le droit international coutumier.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "119_parties_plus_customary_rules"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mixed"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT",
+        "SRC-VCLT-STATUS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-007",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:customary-international-law"
+        },
+        "predicate": "law.identification_test",
+        "object": {
+          "kind": "proposition",
+          "value": "Une règle coutumière exige une pratique générale accompagnée de son acceptation comme étant le droit (opinio juris).",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "coutume"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general_customary_law"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-CUSTOM"
+      ]
+    },
+    {
+      "assertion_id": "INTL-008",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:customary-international-law"
+        },
+        "predicate": "law.not_created_by_resolution_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Une résolution internationale ne crée pas automatiquement une règle coutumière; elle peut toutefois fournir un élément de preuve ou contribuer à sa formation lorsqu’elle s’accompagne de la pratique et de l’opinio juris requises.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "coutume"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "evidentiary"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-CUSTOM"
+      ]
+    },
+    {
+      "assertion_id": "INTL-009",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:persistent-objector"
+        },
+        "predicate": "law.caveat",
+        "object": {
+          "kind": "proposition",
+          "value": "Le droit coutumier général connaît, dans certaines conditions, la notion d’objecteur persistant; cette exception ne permet pas de se soustraire à une norme impérative de jus cogens.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "coutume"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "qualified"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-CUSTOM",
+        "SRC-ILC-JUSCOGENS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-010",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:jus-cogens"
+        },
+        "predicate": "law.definition",
+        "object": {
+          "kind": "proposition",
+          "value": "Une norme de jus cogens est une norme impérative de droit international général acceptée et reconnue par la communauté internationale des États dans son ensemble comme une norme à laquelle aucune dérogation n’est permise et qui ne peut être modifiée que par une norme de même caractère.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "jus_cogens"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "peremptory"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT",
+        "SRC-ILC-JUSCOGENS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-011",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:jus-cogens"
+        },
+        "predicate": "law.effect_on_treaties",
+        "object": {
+          "kind": "proposition",
+          "value": "Un traité contraire à une norme impérative de jus cogens est affecté par les règles de nullité ou d’extinction prévues par le droit international.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "jus_cogens"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "peremptory"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT",
+        "SRC-ILC-JUSCOGENS-SUMMARY"
+      ]
+    },
+    {
+      "assertion_id": "INTL-012",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:jus-cogens"
+        },
+        "predicate": "law.non_exhaustive_examples",
+        "object": {
+          "kind": "proposition",
+          "value": "La CDI a annexé une liste non exhaustive comprenant notamment l’interdiction de l’agression, du génocide, des crimes contre l’humanité, de la torture, de l’esclavage, de la discrimination raciale et de l’apartheid, les règles fondamentales du DIH et le droit à l’autodétermination.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "jus_cogens"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "peremptory_examples"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-JUSCOGENS-SUMMARY"
+      ]
+    },
+    {
+      "assertion_id": "INTL-013",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:erga-omnes"
+        },
+        "predicate": "law.relation",
+        "object": {
+          "kind": "proposition",
+          "value": "Les normes de jus cogens produisent des obligations dues à la communauté internationale dans son ensemble (erga omnes) selon les conclusions de la CDI.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "fondements"
+        },
+        {
+          "axis": "matiere",
+          "value": "erga_omnes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-JUSCOGENS-SUMMARY"
+      ]
+    },
+    {
+      "assertion_id": "INTL-014",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:state-responsibility"
+        },
+        "predicate": "law.framework",
+        "object": {
+          "kind": "proposition",
+          "value": "La responsabilité internationale d’un État suppose notamment un comportement attribuable à l’État et constituant une violation d’une obligation internationale qui lui incombe.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "responsabilite"
+        },
+        {
+          "axis": "matiere",
+          "value": "etat"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "codified_customary_framework"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-STATE-RESP"
+      ]
+    },
+    {
+      "assertion_id": "INTL-015",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:state-responsibility"
+        },
+        "predicate": "law.consequences",
+        "object": {
+          "kind": "proposition",
+          "value": "L’État responsable peut être tenu à la cessation, aux garanties de non-répétition lorsqu’elles sont appropriées et à une réparation intégrale selon les règles applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "responsabilite"
+        },
+        {
+          "axis": "matiere",
+          "value": "etat"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "codified_customary_framework"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-STATE-RESP"
+      ]
+    },
+    {
+      "assertion_id": "INTL-016",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:countermeasures"
+        },
+        "predicate": "law.limit",
+        "object": {
+          "kind": "proposition",
+          "value": "Les contre-mesures ne constituent pas une permission générale de punir un autre État; elles sont encadrées, temporaires et destinées à obtenir la cessation et la réparation, et ne peuvent notamment pas consister en emploi de la force.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "responsabilite"
+        },
+        {
+          "axis": "matiere",
+          "value": "contre_mesures"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "qualified"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-STATE-RESP"
+      ]
+    },
+    {
+      "assertion_id": "INTL-017",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:norm:un-charter"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Charte des Nations Unies lie les 193 États membres de l’ONU; elle constitue l’architecture quasi universelle de sécurité collective.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "charte"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_un_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CHARTER",
+        "SRC-UN-MEMBERS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-018",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:norm:un-charter"
+        },
+        "predicate": "law.principle",
+        "object": {
+          "kind": "proposition",
+          "value": "Les membres de l’ONU sont juridiquement fondés sur l’égalité souveraine et doivent exécuter de bonne foi les obligations assumées en vertu de la Charte.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "principes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_un_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "INTL-019",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:norm:un-charter"
+        },
+        "predicate": "law.principle",
+        "object": {
+          "kind": "proposition",
+          "value": "Les membres doivent régler leurs différends internationaux par des moyens pacifiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "paix_securite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_un_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "INTL-020",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:norm:use-of-force"
+        },
+        "predicate": "law.prohibition",
+        "object": {
+          "kind": "proposition",
+          "value": "Les membres doivent s’abstenir, dans leurs relations internationales, de la menace ou de l’emploi de la force contre l’intégrité territoriale ou l’indépendance politique d’un État, ou de toute autre manière incompatible avec les buts de l’ONU.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "recours_force"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_un_members_and_customary_dimension"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_plus_customary"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "INTL-021",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:norm:self-defense"
+        },
+        "predicate": "law.exception",
+        "object": {
+          "kind": "proposition",
+          "value": "La Charte reconnaît le droit naturel de légitime défense individuelle ou collective en cas d’agression armée, jusqu’à ce que le Conseil de sécurité ait pris les mesures nécessaires; les mesures de légitime défense doivent être rapportées au Conseil.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "recours_force"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_un_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CH7"
+      ]
+    },
+    {
+      "assertion_id": "INTL-022",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:un-security-council"
+        },
+        "predicate": "institution.primary_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Conseil de sécurité a la responsabilité principale du maintien de la paix et de la sécurité internationales dans le système de la Charte.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "conseil_securite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "un_system"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "institutional_power"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "INTL-023",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:un-security-council"
+        },
+        "predicate": "institution.binding_decisions",
+        "object": {
+          "kind": "proposition",
+          "value": "Les membres de l’ONU conviennent d’accepter et d’exécuter les décisions du Conseil de sécurité prises conformément à la Charte.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "conseil_securite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_un_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_decisions"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "INTL-024",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:un-security-council"
+        },
+        "predicate": "institution.chapter_vii_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Après avoir constaté une menace contre la paix, une rupture de la paix ou un acte d’agression, le Conseil peut décider de mesures non militaires sous l’article 41 et, dans les conditions de l’article 42, autoriser des mesures impliquant la force.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "conseil_securite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "un_system"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "charter_power"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CH7"
+      ]
+    },
+    {
+      "assertion_id": "INTL-025",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:un-security-council"
+        },
+        "predicate": "institution.voting_constraint",
+        "object": {
+          "kind": "proposition",
+          "value": "Une décision substantielle du Conseil requiert au moins neuf voix et ne peut être adoptée si l’un des cinq membres permanents exerce un veto par un vote négatif; une abstention d’un permanent n’est pas un veto.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "conseil_securite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "15_sc_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedural_constitutive_rule"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-SC-VOTE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-026",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:un-general-assembly"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Assemblée générale, où siègent les 193 États membres avec une voix chacun, est l’organe représentatif et délibérant universel de l’ONU.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "assemblee_generale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_un_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "institutional"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-MEMBERS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-027",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:un-general-assembly"
+        },
+        "predicate": "institution.recommendation_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans de nombreux domaines couverts par la Charte, l’Assemblée générale formule des recommandations; une résolution de l’Assemblée n’est donc pas automatiquement une obligation juridique contraignante pour les États.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "assemblee_generale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "un_system"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "generally_recommendatory"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-GA",
+        "SRC-ILC-CUSTOM"
+      ]
+    },
+    {
+      "assertion_id": "INTL-028",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:norm:un-charter-article103"
+        },
+        "predicate": "law.priority",
+        "object": {
+          "kind": "proposition",
+          "value": "En cas de conflit entre une obligation d’un membre en vertu de la Charte et une obligation en vertu d’un autre accord international, l’obligation découlant de la Charte prévaut.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "hierarchie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_un_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "priority_rule"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-ART103"
+      ]
+    },
+    {
+      "assertion_id": "INTL-029",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:norm:domestic-jurisdiction"
+        },
+        "predicate": "law.limit_on_un",
+        "object": {
+          "kind": "proposition",
+          "value": "La Charte limite en principe l’intervention de l’ONU dans les affaires relevant essentiellement de la compétence nationale, sans faire obstacle aux mesures coercitives du Chapitre VII.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "onu"
+        },
+        {
+          "axis": "matiere",
+          "value": "non_intervention"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "un_system"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "charter_rule"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "INTL-030",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:icj"
+        },
+        "predicate": "institution.contentious_scope",
+        "object": {
+          "kind": "proposition",
+          "value": "La CIJ tranche des différends juridiques entre États; seuls les États peuvent être parties à une procédure contentieuse devant elle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "justice_internationale"
+        },
+        {
+          "axis": "matiere",
+          "value": "cij"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "states_with_access"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "jurisdictional"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICJ-JURIS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-031",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:icj"
+        },
+        "predicate": "institution.consent_requirement",
+        "object": {
+          "kind": "proposition",
+          "value": "La CIJ ne peut connaître d’un différend contentieux que si les États concernés ont accepté sa compétence selon une base juridique reconnue.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "justice_internationale"
+        },
+        {
+          "axis": "matiere",
+          "value": "cij"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "consenting_states"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "jurisdictional_limit"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICJ-JURIS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-032",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:icj"
+        },
+        "predicate": "institution.judgment_effect",
+        "object": {
+          "kind": "proposition",
+          "value": "Un arrêt contentieux de la CIJ règle le différend entre les parties au dossier; il ne constitue pas une loi mondiale de portée générale identique à un traité universel.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "justice_internationale"
+        },
+        {
+          "axis": "matiere",
+          "value": "cij"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "case_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_between_parties"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICJ-STATUTE"
+      ],
+      "notes": "Le Statut, notamment l’article 59, limite l’effet obligatoire du jugement aux parties et au cas décidé."
+    },
+    {
+      "assertion_id": "INTL-033",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:icj"
+        },
+        "predicate": "institution.advisory_effect",
+        "object": {
+          "kind": "proposition",
+          "value": "Les avis consultatifs de la CIJ ne sont généralement pas juridiquement contraignants, sauf régimes particuliers qui leur confèrent exceptionnellement un effet décisif.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "justice_internationale"
+        },
+        {
+          "axis": "matiere",
+          "value": "cij"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "requesting_organs_and_general_legal_guidance"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "generally_nonbinding"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICJ-ADVISORY"
+      ]
+    },
+    {
+      "assertion_id": "INTL-034",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:regime:geneva-conventions-1949"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "Les quatre Conventions de Genève de 1949 sont universellement ratifiées, avec 196 États parties, et forment le noyau conventionnel du droit international humanitaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "dih"
+        },
+        {
+          "axis": "matiere",
+          "value": "geneve"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "196_states_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "universal_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICRC-GENEVA"
+      ]
+    },
+    {
+      "assertion_id": "INTL-035",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:regime:geneva-conventions-1949"
+        },
+        "predicate": "law.application",
+        "object": {
+          "kind": "proposition",
+          "value": "Le DIH s’applique lorsqu’un conflit armé atteint les conditions juridiques pertinentes; il ne dépend pas d’une déclaration politique selon laquelle une guerre serait « juste » ou « injuste ».",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "dih"
+        },
+        {
+          "axis": "matiere",
+          "value": "champ_application"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "armed_conflicts"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_when_applicable"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICRC-GENEVA"
+      ]
+    },
+    {
+      "assertion_id": "INTL-036",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:regime:customary-ihl"
+        },
+        "predicate": "law.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "Le principe de distinction exige de distinguer les civils des combattants et les biens civils des objectifs militaires; il constitue une règle fondamentale du DIH coutumier.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "dih"
+        },
+        {
+          "axis": "matiere",
+          "value": "conduite_hostilites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_and_noninternational_armed_conflict"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "customary"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICRC-DISTINCTION"
+      ]
+    },
+    {
+      "assertion_id": "INTL-037",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:regime:customary-ihl"
+        },
+        "predicate": "law.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "Le principe de proportionnalité interdit les attaques dont les dommages civils incidents attendus seraient excessifs par rapport à l’avantage militaire concret et direct attendu.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "dih"
+        },
+        {
+          "axis": "matiere",
+          "value": "conduite_hostilites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_and_noninternational_armed_conflict"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "customary"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICRC-PROP"
+      ]
+    },
+    {
+      "assertion_id": "INTL-038",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:regime:customary-ihl"
+        },
+        "predicate": "law.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "Les civils et les personnes hors de combat doivent être traités humainement; cette exigence est reconnue comme coutumière dans les conflits armés internationaux et non internationaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "dih"
+        },
+        {
+          "axis": "matiere",
+          "value": "protection_personnes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_and_noninternational_armed_conflict"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "customary"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICRC-HUMANE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-039",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:ihl-parties"
+        },
+        "predicate": "law.application_to_nonstate_actor",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans les conflits armés non internationaux, certaines règles du DIH lient également les parties non étatiques au conflit, même si ces groupes ne sont pas des États parties à un traité au sens ordinaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "dih"
+        },
+        {
+          "axis": "matiere",
+          "value": "acteurs_non_etatiques"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "noninternational_armed_conflict"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "ihl_when_applicable"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICRC-GENEVA",
+        "SRC-ICRC-HUMANE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-040",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:genocide-convention"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention sur le génocide compte 154 parties au 28 septembre 2026; indépendamment de cette participation conventionnelle, l’interdiction du génocide est aussi identifiée comme norme de jus cogens.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droits_humains"
+        },
+        {
+          "axis": "matiere",
+          "value": "genocide"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "154_parties_plus_peremptory_prohibition"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mixed"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-GENOCIDE",
+        "SRC-ILC-JUSCOGENS-SUMMARY"
+      ]
+    },
+    {
+      "assertion_id": "INTL-041",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:iccpr"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Pacte international relatif aux droits civils et politiques compte 175 parties en septembre 2026.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droits_humains"
+        },
+        {
+          "axis": "matiere",
+          "value": "pidcp"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "175_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_on_parties"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-ICCPR"
+      ]
+    },
+    {
+      "assertion_id": "INTL-042",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:icescr"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Pacte international relatif aux droits économiques, sociaux et culturels compte 174 parties au 2 octobre 2026.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droits_humains"
+        },
+        {
+          "axis": "matiere",
+          "value": "pidesc"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "174_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_on_parties"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-ICESCR"
+      ]
+    },
+    {
+      "assertion_id": "INTL-043",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:cat"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention contre la torture compte 176 parties en septembre 2026; l’interdiction de la torture est également reconnue dans la liste non exhaustive des normes de jus cogens de la CDI.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droits_humains"
+        },
+        {
+          "axis": "matiere",
+          "value": "torture"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "176_parties_plus_peremptory_prohibition"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mixed"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-CAT",
+        "SRC-ILC-JUSCOGENS-SUMMARY"
+      ]
+    },
+    {
+      "assertion_id": "INTL-044",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:cedaw"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention sur l’élimination de toutes les formes de discrimination à l’égard des femmes compte 189 parties en septembre 2026.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droits_humains"
+        },
+        {
+          "axis": "matiere",
+          "value": "femmes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "189_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_on_parties"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-CEDAW"
+      ]
+    },
+    {
+      "assertion_id": "INTL-045",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:crc"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention relative aux droits de l’enfant compte 196 parties en septembre 2026, ce qui en fait un traité pratiquement universel.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droits_humains"
+        },
+        {
+          "axis": "matiere",
+          "value": "enfants"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "196_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "near_universal_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-CRC"
+      ]
+    },
+    {
+      "assertion_id": "INTL-046",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:crpd"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention relative aux droits des personnes handicapées compte 194 parties en septembre 2026.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droits_humains"
+        },
+        {
+          "axis": "matiere",
+          "value": "handicap"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "194_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "near_universal_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-CRPD"
+      ]
+    },
+    {
+      "assertion_id": "INTL-047",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:human-rights-treaty-body"
+        },
+        "predicate": "law.enforcement_note",
+        "object": {
+          "kind": "proposition",
+          "value": "L’adhésion à un traité de droits humains n’implique pas toujours qu’un particulier puisse saisir directement un organe international; les mécanismes de plaintes individuelles dépendent souvent d’un protocole facultatif ou d’une déclaration de compétence distincte.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droits_humains"
+        },
+        {
+          "axis": "matiere",
+          "value": "mecanismes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "varies_by_treaty_and_state"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedural_variation"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-ICCPR",
+        "SRC-UNTC-ICESCR"
+      ]
+    },
+    {
+      "assertion_id": "INTL-048",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:refugee-convention"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention de 1951 relative au statut des réfugiés compte 146 parties en octobre 2026; son Protocole de 1967 compte 147 parties.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "refugies"
+        },
+        {
+          "axis": "matiere",
+          "value": "statut_refugie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "146_convention_147_protocol"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_on_parties"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-REFUGEE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-049",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:non-refoulement"
+        },
+        "predicate": "law.note",
+        "object": {
+          "kind": "proposition",
+          "value": "Le non-refoulement constitue une règle centrale du régime international des réfugiés; sa portée exacte peut aussi dépendre d’autres instruments de droits humains et, selon les questions, de la coutume.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "refugies"
+        },
+        {
+          "axis": "matiere",
+          "value": "non_refoulement"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "broad_but_source_specific"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mixed"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-REFUGEE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-050",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:vienna-diplomatic-relations"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention de Vienne sur les relations diplomatiques compte 193 parties en septembre 2026 et constitue le cadre conventionnel quasi universel des relations diplomatiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "relations_diplomatiques"
+        },
+        {
+          "axis": "matiere",
+          "value": "diplomatie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "near_universal_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-VCDR"
+      ]
+    },
+    {
+      "assertion_id": "INTL-051",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:diplomatic-immunity"
+        },
+        "predicate": "law.limit",
+        "object": {
+          "kind": "proposition",
+          "value": "L’immunité diplomatique n’est pas une déclaration générale selon laquelle un diplomate serait « au-dessus de toute loi »; elle est une protection fonctionnelle et procédurale définie par le droit diplomatique, avec des mécanismes tels que la renonciation et la persona non grata.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "relations_diplomatiques"
+        },
+        {
+          "axis": "matiere",
+          "value": "immunites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "states_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "treaty_rule"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNTC-VCDR"
+      ]
+    },
+    {
+      "assertion_id": "INTL-052",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:unclos"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention des Nations Unies sur le droit de la mer compte 172 parties en septembre 2026 et organise un régime mondial des espaces maritimes, de navigation et de ressources pour ses parties.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droit_mer"
+        },
+        {
+          "axis": "matiere",
+          "value": "unclos"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "172_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_on_parties"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNCLOS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-053",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:unclos"
+        },
+        "predicate": "law.rule",
+        "object": {
+          "kind": "proposition",
+          "value": "La haute mer est ouverte à tous les États, côtiers ou sans littoral, sous les conditions de la Convention et des autres règles pertinentes du droit international.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droit_mer"
+        },
+        {
+          "axis": "matiere",
+          "value": "haute_mer"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "states_and_customary_dimensions"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "treaty_plus_customary_dimensions"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNCLOS-TEXT"
+      ]
+    },
+    {
+      "assertion_id": "INTL-054",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:law-of-sea-custom"
+        },
+        "predicate": "law.note",
+        "object": {
+          "kind": "proposition",
+          "value": "Le fait qu’un État ne soit pas partie à l’UNCLOS ne signifie pas qu’aucune règle du droit de la mer ne lui soit applicable: plusieurs règles maritimes existent également en droit coutumier.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droit_mer"
+        },
+        {
+          "axis": "matiere",
+          "value": "coutume_maritime"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mixed"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNCLOS",
+        "SRC-ILC-CUSTOM"
+      ]
+    },
+    {
+      "assertion_id": "INTL-055",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:paris-agreement"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Accord de Paris est un traité international juridiquement contraignant sur les changements climatiques; le registre de la CCNUCC indiquait 193 parties au 20 août 2026.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "environnement"
+        },
+        {
+          "axis": "matiere",
+          "value": "climat"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_treaty_with_varied_obligation_types"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNFCCC-PARIS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-056",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:paris-agreement"
+        },
+        "predicate": "law.nuance",
+        "object": {
+          "kind": "proposition",
+          "value": "Le caractère juridiquement contraignant de l’Accord de Paris ne signifie pas que chaque objectif climatique chiffré est garanti par une sanction automatique internationale; les obligations de procédure, de contribution, de transparence et les objectifs collectifs ont des structures juridiques distinctes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "environnement"
+        },
+        {
+          "axis": "matiere",
+          "value": "climat"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_parties"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "differentiated_obligations"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UNFCCC-PARIS"
+      ]
+    },
+    {
+      "assertion_id": "INTL-057",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:organization:wto"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "L’OMC compte 166 membres en 2026, représentant environ 98 % du commerce mondial; ses accords créent un régime multilatéral de droits et obligations commerciales entre membres.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "commerce"
+        },
+        {
+          "axis": "matiere",
+          "value": "omc"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "166_members_98pct_world_trade"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "binding_on_members"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-WTO"
+      ]
+    },
+    {
+      "assertion_id": "INTL-058",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:organization:wto"
+        },
+        "predicate": "law.enforcement_note",
+        "object": {
+          "kind": "proposition",
+          "value": "Le système OMC n’est pas une législature mondiale: ses règles résultent d’accords entre membres et leur mise en œuvre et règlement des différends suivent les mécanismes institutionnels convenus.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "commerce"
+        },
+        {
+          "axis": "matiere",
+          "value": "omc"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "166_members"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "treaty_based"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-WTO"
+      ]
+    },
+    {
+      "assertion_id": "INTL-059",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:chicago-convention"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "La Convention de Chicago sur l’aviation civile internationale compte 193 États contractants et constitue la pierre angulaire du régime mondial de l’aviation civile.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "aviation"
+        },
+        {
+          "axis": "matiere",
+          "value": "oaci"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_contracting_states"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "near_universal_treaty"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICAO"
+      ]
+    },
+    {
+      "assertion_id": "INTL-060",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:organization:icao"
+        },
+        "predicate": "law.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les normes et pratiques recommandées de l’OACI opèrent dans le cadre de la Convention de Chicago; elles ne doivent pas toutes être assimilées sans distinction à une loi pénale internationale directement applicable aux individus.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "aviation"
+        },
+        {
+          "axis": "matiere",
+          "value": "oaci"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "193_contracting_states"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "varies_by_instrument"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICAO"
+      ]
+    },
+    {
+      "assertion_id": "INTL-061",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:treaty:rome-statute"
+        },
+        "predicate": "law.coverage",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Statut de Rome compte 125 États parties en octobre 2026 et crée la Cour pénale internationale; il n’est donc pas un traité universellement ratifié.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droit_penal_international"
+        },
+        {
+          "axis": "matiere",
+          "value": "cpi"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "125_states_parties_plus_specific_other_jurisdictional_bases"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "treaty_based"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICC-PARTIES",
+        "SRC-ICC-STATUTE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-062",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:icc"
+        },
+        "predicate": "institution.crimes",
+        "object": {
+          "kind": "proposition",
+          "value": "La CPI connaît, selon les conditions de compétence du Statut, du génocide, des crimes contre l’humanité, des crimes de guerre et du crime d’agression.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droit_penal_international"
+        },
+        {
+          "axis": "matiere",
+          "value": "cpi"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "within_rome_statute_jurisdiction"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "criminal_jurisdiction"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICC-STATUTE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-063",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:icc"
+        },
+        "predicate": "institution.complementarity",
+        "object": {
+          "kind": "proposition",
+          "value": "La CPI complète les juridictions pénales nationales et ne les remplace pas; la responsabilité première d’enquêter et de poursuivre incombe aux juridictions nationales, la CPI intervenant selon les critères de recevabilité du Statut.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droit_penal_international"
+        },
+        {
+          "axis": "matiere",
+          "value": "cpi"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "rome_statute_system"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "jurisdictional_principle"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICC-COMP"
+      ]
+    },
+    {
+      "assertion_id": "INTL-064",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:institution:icc"
+        },
+        "predicate": "institution.enforcement_limit",
+        "object": {
+          "kind": "proposition",
+          "value": "La CPI ne possède pas sa propre force de police et dépend de la coopération des États pour les arrestations, transferts, gels d’avoirs et exécution de certaines décisions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droit_penal_international"
+        },
+        {
+          "axis": "matiere",
+          "value": "execution"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "rome_statute_system"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "institutional_limit"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICC-COMP"
+      ]
+    },
+    {
+      "assertion_id": "INTL-065",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:concept:international-crimes-vs-icc"
+        },
+        "predicate": "law.distinction",
+        "object": {
+          "kind": "proposition",
+          "value": "L’existence d’une interdiction internationale telle que le génocide ou certains crimes de guerre ne signifie pas automatiquement que la CPI a compétence sur tout fait partout dans le monde; il faut distinguer la norme matérielle de la compétence juridictionnelle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "droit_penal_international"
+        },
+        {
+          "axis": "matiere",
+          "value": "competence"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "critical_distinction"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ILC-JUSCOGENS-SUMMARY",
+        "SRC-ICC-STATUTE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-066",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:invariant:international-law-not-world-parliament"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "DROIT INTERNATIONAL ≠ PARLEMENT MONDIAL : la plupart des règles naissent du consentement conventionnel, de la coutume, de principes généraux ou de pouvoirs institutionnels spécifiquement conférés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "meta"
+        },
+        {
+          "axis": "matiere",
+          "value": "invariant"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICJ-STATUTE",
+        "SRC-VCLT"
+      ]
+    },
+    {
+      "assertion_id": "INTL-067",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:invariant:treaty-not-universal"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "TRAITÉ ≠ OBLIGATION UNIVERSELLE : toujours vérifier les parties, les réserves, l’entrée en vigueur et l’existence éventuelle d’une règle coutumière parallèle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "meta"
+        },
+        {
+          "axis": "matiere",
+          "value": "invariant"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT",
+        "SRC-ILC-CUSTOM"
+      ]
+    },
+    {
+      "assertion_id": "INTL-068",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:invariant:resolution-not-law"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "RÉSOLUTION ONU ≠ AUTOMATIQUEMENT LOI : identifier l’organe, la base juridique et la nature de l’acte; une recommandation de l’Assemblée générale n’a pas la même force qu’une décision obligatoire du Conseil de sécurité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "meta"
+        },
+        {
+          "axis": "matiere",
+          "value": "invariant"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-GA",
+        "SRC-UN-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "INTL-069",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:invariant:norm-vs-jurisdiction"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "NORMA INTERDITE ≠ COMPÉTENCE AUTOMATIQUE D’UN TRIBUNAL : une règle peut exister sans qu’une cour internationale donnée puisse être saisie dans un cas particulier.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "meta"
+        },
+        {
+          "axis": "matiere",
+          "value": "invariant"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICJ-JURIS",
+        "SRC-ICC-STATUTE"
+      ]
+    },
+    {
+      "assertion_id": "INTL-070",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:invariant:binding-vs-enforcement"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "OBLIGATION JURIDIQUE ≠ EXÉCUTION AUTOMATIQUE : le droit international peut être juridiquement obligatoire même lorsque son exécution dépend de juridictions, de sanctions, de coopération étatique, de réciprocité ou de mécanismes politiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "meta"
+        },
+        {
+          "axis": "matiere",
+          "value": "invariant"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-UN-CH7",
+        "SRC-ICC-COMP",
+        "SRC-ILC-STATE-RESP"
+      ]
+    },
+    {
+      "assertion_id": "INTL-071",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:invariant:international-vs-domestic"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "OBLIGATION INTERNATIONALE ≠ EFFET INTERNE IDENTIQUE PARTOUT : la façon dont une règle internationale produit des effets devant les institutions nationales dépend du droit interne de chaque État, sans effacer sa responsabilité internationale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "meta"
+        },
+        {
+          "axis": "matiere",
+          "value": "invariant"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-VCLT"
+      ]
+    },
+    {
+      "assertion_id": "INTL-072",
+      "statement": {
+        "subject": {
+          "kind": "international_law_entity",
+          "id": "urn:invariant:universality-levels"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "UNIVERSEL possède plusieurs sens : universel par ratification, général par coutume, impératif par jus cogens, quasi universel par participation massive, ou global par objet; le Kristal les encode séparément.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "international"
+        },
+        {
+          "axis": "couche",
+          "value": "meta"
+        },
+        {
+          "axis": "matiere",
+          "value": "invariant"
+        }
+      ],
+      "applicability": {
+        "domain": "droit international public",
+        "jurisdiction": "international",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "portee",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "general"
+        },
+        {
+          "dimension": "force_obligatoire",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        },
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_and_treaty_status_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-ICRC-GENEVA",
+        "SRC-ILC-CUSTOM",
+        "SRC-ILC-JUSCOGENS",
+        "SRC-UNTC-CRC"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "PROV-INTL-001",
+      "type": "research_build",
+      "created_at": "2026-10-02T16:21:00-04:00",
+      "method": "Synthèse structurée de sources officielles des Nations Unies, CIJ, CDI, CICR, CPI, OMC, OACI et CCNUCC. Les nombres de parties sont temporels et datés. Les lois nationales sont exclues du corpus.",
+      "tooling": "Kristal Standard 6.0.0"
+    }
+  ]
+}

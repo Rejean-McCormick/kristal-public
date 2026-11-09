@@ -1,0 +1,181 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:demography",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:68ccf60bbd27d024864bb3f948126f9d3efd14d998a0d88b5e153cc5fd42f019"
+  },
+  "files": [
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 321304,
+      "sha256": "sha256:cf7cde036dbcf4a9d52ccda93b10121fcf3ced938150ebbd99a705a451a6373c",
+      "artifact_id": "urn:kristal:demography:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 165,
+      "sha256": "sha256:cce01d7a759dc44318a2f08f6668dc9035a9c57ce2a0dd0ec1c16a6feac4df41",
+      "artifact_id": "urn:kristalizer:2026-10-27:demography:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1114,
+      "sha256": "sha256:a0f1e52fca1a673a31348494aed57db5df313b93e2b758e9a38e788c412085b0",
+      "artifact_id": "urn:kristalizer:2026-10-27:demography:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 12504,
+      "sha256": "sha256:9b808a71b3ab457c3cda434ebac72c500e5fe6f244675514372adee5d804c3e8"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 22712,
+      "sha256": "sha256:21766c4c04a3b8b19ed21d1164ef2ef10fe4a98211e86846cbdb4743ef9f6e90"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/themes-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 14698,
+      "sha256": "sha256:88c50d098f0175f8d6a5dd409a4d45dce00ce1f502c4199ed8c5217bebc4ff1f"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 697945,
+      "sha256": "sha256:eee70e1b48333c26478ceee02664f4164b651a86fc1d6ff77a307e9ca954534c",
+      "artifact_id": "urn:kristalizer:2026-10-27:demography:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 93560,
+      "sha256": "sha256:f880db9bf7620d6128259985f0f0c7bd913d9e4cc815016b36ec5d809d888877",
+      "artifact_id": "urn:kristalizer:2026-10-27:demography:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 2776,
+      "sha256": "sha256:ad9a744ce84dcf6a87098748b65c126af87da7b5456be94f4c7b47a95a5c6706"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 893,
+      "sha256": "sha256:ddf88fa14b11872a5176d4cc2b78a57cfafb7dcc4aeadb7ed5df08919aaecaf5"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 559,
+      "sha256": "sha256:6cbc1c0750671564c9e4982d1fb57913e1aee7d17f4ffa717462969ea2214940"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 615,
+      "sha256": "sha256:b9acac171e382feddf4ccbbc4494c6f7de5be91525980609b174342c65216b9b"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 527,
+      "sha256": "sha256:91fc672072b5fa1d9fabdadaa017af5d54f39d165e21797aa758b04ef84b172d"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 866,
+      "sha256": "sha256:5b5a65c05ebba6003db8add7288b4e4c6edc47d6748685e9e5db9fc59166a140"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 541,
+      "sha256": "sha256:32ca1de16a23d5dc360001c204d0c45d3d27d86fb001a69cfa81039a3ed4459b"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 615,
+      "sha256": "sha256:2b123a5da596d7774a5620136698b9c22461c8677f04d0483dc7b0d2f5ff664d"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 456,
+      "sha256": "sha256:b7fb745311a9b496e5d5c1a164d7d42d3853988f958b9fa2dcf9067281b387d0"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3992,
+      "sha256": "sha256:fe16db4b378cd648c90d1364655026674f62eb3fe48bce71033f96d6b89e7001"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 8147,
+      "sha256": "sha256:5f90fe1b8ac4bf8615a0bd318697ff9d3e430f6dc3754061f9568b62a32e7b44"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 2405,
+      "sha256": "sha256:082cc6a642d0643614ed5949e39858dab669f65c9c58ea54bc7515841a38eb37",
+      "state_ref": "urn:kristal:state:demography",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:68ccf60bbd27d024864bb3f948126f9d3efd14d998a0d88b5e153cc5fd42f019"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

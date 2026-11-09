@@ -1,0 +1,271 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:education-quebec:materialization:authoring-basis",
+  "source": {
+    "artifact_id": "urn:kristal:education-quebec:authoring-basis",
+    "logical_contract": {
+      "id": "education-quebec.authoring-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:83242aff177c9b5a5e752f112854b1857ac0caa3851abd934b769d99f67faf6e"
+    },
+    "authority_ref": "urn:kristal:authority:education-quebec"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 17
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:build_configuration",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:2582ff0f558f40746b85b4fd64799ed3d72bef6ae14dd13f135f988df7ebe74b",
+        "size": 468,
+        "locator": "knowledge-base/edition/build-config.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:build_configuration",
+        "role": "build_configuration"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:editorial_configuration",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5a433ebff387d0642a141f1658e3358291d7d6f20d5cc56a722c07364a05e9ea",
+        "size": 3047,
+        "locator": "knowledge-base/edition/editorial.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:editorial_configuration",
+        "role": "editorial_configuration"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:source_catalog",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:dc8fd467db9236a3034fd246306136c7d8395aa6a258d6ab805abce935690669",
+        "size": 228319,
+        "locator": "knowledge-base/sources/source_catalog.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:source_catalog",
+        "role": "source_catalog"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:source_acquisition_policy",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:2cf446d46eab0b8c92b35af8132442386b892e437b98a8fe026e9c6301fd1415",
+        "size": 1491,
+        "locator": "knowledge-base/sources/source_acquisition_policy.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:source_acquisition_policy",
+        "role": "source_acquisition_policy"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:domain_ontology",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:8cd3fbdf34bc81ec6eb69b4dc1e87d0af658143a6161558699141d795aa54768",
+        "size": 31919,
+        "locator": "knowledge-base/sources/domain_ontology.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:domain_ontology",
+        "role": "domain_ontology"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:atomic_rules",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:a34ebc30ce3ea7cdd0d536b2fff3504840b021f10531958923eefdebdf72ea92",
+        "size": 22754,
+        "locator": "knowledge-base/sources/atomic_rules.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:atomic_rules",
+        "role": "atomic_rules"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:conditional_transitions",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:350b42a3270c8eadc6be47f753af5fd49843bd2103caf5cc1a9e5039dc43a960",
+        "size": 6209,
+        "locator": "knowledge-base/sources/transitions.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:conditional_transitions",
+        "role": "conditional_transitions"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:curriculum_catalog",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:57510147e3110c56d7dd19229e95b0653caeda80ca0249db083587ffa6cda80d",
+        "size": 73809,
+        "locator": "knowledge-base/sources/curriculum_catalog.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:curriculum_catalog",
+        "role": "curriculum_catalog"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:semantic_curriculum",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:97acf917605823d9d0aacfc2b33efbb9125f927f05cb272ece0e2b6919cae354",
+        "size": 60242,
+        "locator": "knowledge-base/sources/semantic_curriculum.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:semantic_curriculum",
+        "role": "semantic_curriculum"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:progression_semantics",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:ef573906cacef9d84b6155d0ee04dbc629d4f5a24a84c3b6c44083130b3dbc80",
+        "size": 95306,
+        "locator": "knowledge-base/sources/progression_semantics.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:progression_semantics",
+        "role": "progression_semantics"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:assessment_and_sanction_semantics",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:834790e2a907997dcdcabfede838916aa3e09a1993d14634cecce3c4f1e7b227",
+        "size": 18538,
+        "locator": "knowledge-base/sources/assessment_semantics.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:assessment_and_sanction_semantics",
+        "role": "assessment_and_sanction_semantics"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:college_admission_semantics",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:8974dabbceccf4e55611e17b978156ecb5996188846e5f54c12dcd21a6b26ea8",
+        "size": 109157,
+        "locator": "knowledge-base/sources/college_admission_semantics.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:college_admission_semantics",
+        "role": "college_admission_semantics"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:vocational_admission_semantics",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:bc4fe09058a57f39db3a6c12da0d7544d129abf239dd0d9af0b250cc0fa35594",
+        "size": 107765,
+        "locator": "knowledge-base/sources/vocational_admission_semantics.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:vocational_admission_semantics",
+        "role": "vocational_admission_semantics"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:vocational_program_semantics",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:bd6c1f67ce5736c87730557a96027f60227fade9c4fad86ec8af158174fbaf75",
+        "size": 1419239,
+        "locator": "knowledge-base/sources/vocational_program_semantics.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:vocational_program_semantics",
+        "role": "vocational_program_semantics"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:domain_invariants",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:a5bf669f4ac9f5cd4850b93d7f99215c62443db81879b286390822ebea44c213",
+        "size": 6481,
+        "locator": "knowledge-base/sources/invariants.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:domain_invariants",
+        "role": "domain_invariants"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:coverage_model",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:239ad3191bed12d0064ac6a06672ac95c0641e76443c0ed9953f0c993d016e82",
+        "size": 9760,
+        "locator": "knowledge-base/sources/coverage.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:coverage_model",
+        "role": "coverage_model"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:education-quebec:resource:source_inventory_support",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:e6655d9bae98bdaf49ec6e396ca5dcd3b33b7f29e054a210c0a7adbb0bec0942",
+        "size": 35864,
+        "locator": "knowledge-base/sources/inventaire_ressources_parcours_scolaire_quebec.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:education-quebec:resource:source_inventory_support",
+        "role": "source_inventory_support"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:education-quebec:resource:build_configuration",
+      "urn:kristal:education-quebec:resource:editorial_configuration",
+      "urn:kristal:education-quebec:resource:source_catalog",
+      "urn:kristal:education-quebec:resource:source_acquisition_policy",
+      "urn:kristal:education-quebec:resource:domain_ontology",
+      "urn:kristal:education-quebec:resource:atomic_rules",
+      "urn:kristal:education-quebec:resource:conditional_transitions",
+      "urn:kristal:education-quebec:resource:curriculum_catalog",
+      "urn:kristal:education-quebec:resource:semantic_curriculum",
+      "urn:kristal:education-quebec:resource:progression_semantics",
+      "urn:kristal:education-quebec:resource:assessment_and_sanction_semantics",
+      "urn:kristal:education-quebec:resource:college_admission_semantics",
+      "urn:kristal:education-quebec:resource:vocational_admission_semantics",
+      "urn:kristal:education-quebec:resource:vocational_program_semantics",
+      "urn:kristal:education-quebec:resource:domain_invariants",
+      "urn:kristal:education-quebec:resource:coverage_model",
+      "urn:kristal:education-quebec:resource:source_inventory_support"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "education-quebec.authoring-resource-set/jcs-v1"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:humanbody:resource-basis",
+      "path": "canon/domain/resource-basis.payload.json",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "humanbody",
+        "edition": "1.1.0"
+      },
+      "authority_ref": "urn:kristal:authority:humanbody"
+    },
+    {
+      "artifact_id": "urn:kristal:humanbody:semantic-state",
+      "path": "canon/domain/domain-state.payload.json",
+      "logical_contract": {
+        "id": "humanbody.semantic-state",
+        "version": "9.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "humanbody",
+        "edition": "1.1.0"
+      },
+      "authority_ref": "urn:kristal:authority:humanbody",
+      "dependencies": [
+        {
+          "artifact_id": "urn:kristal:humanbody:resource-basis",
+          "logical_contract": {
+            "id": "kristal.repository-resource-set",
+            "version": "1.0"
+          },
+          "logical_commitment": {
+            "profile": "kristal.logical/jcs-sha256-v1",
+            "digest": "sha256:6f04134aa853ea628484ff64c5da5db750c7b015c13f83919ae93dd153a31f0d"
+          },
+          "authority_ref": "urn:kristal:authority:humanbody"
+        }
+      ]
+    },
+    {
+      "artifact_id": "urn:kristal:state:humanbody:v11:identity:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:humanbody:v11:graph:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:humanbody:v11:crosswalk:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:humanbody:v11:catalog:2026-10-27",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-HumanBody:registry",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-HumanBody:graph",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-HumanBody:crosswalk",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-HumanBody:catalog",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-HumanBody:registry",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-HumanBody:graph",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-HumanBody:crosswalk",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-HumanBody:catalog",
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": ".kristal/v8",
+      "role": "historical v8 read models"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "historical v9 materializations and records"
+    },
+    {
+      "path": "build/v9",
+      "role": "modern 3.2.2 state candidate + registered legacy materializations"
+    }
+  ],
+  "notes": "Expects identical v9 Logical and State Commitments as the historical candidate."
+}

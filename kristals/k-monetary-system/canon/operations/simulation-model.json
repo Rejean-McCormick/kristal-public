@@ -1,0 +1,82 @@
+{
+  "format": "k.monetary.operation/simulation-model/0.1.0",
+  "id": "urn:kristal:k-monetary-system:op:simulation-model",
+  "status": "stylized_executable_specification",
+  "state_vector": [
+    "K_M_supply",
+    "K_M_velocity",
+    "K_M_price_index",
+    "K_C_distribution",
+    "merchant_adoption",
+    "unit_of_account_share",
+    "credit_market_depth",
+    "fiscal_acceptance_share",
+    "real_output",
+    "capacity_utilization",
+    "legacy_CAD_debt_nominal",
+    "legacy_CAD_debt_real",
+    "CAD_price_level",
+    "K_M_CAD_exchange_rate",
+    "median_real_income",
+    "median_real_wealth",
+    "top_1_wealth_share",
+    "gini_wealth",
+    "inflation",
+    "financial_stress",
+    "governance_credibility"
+  ],
+  "core_relations": [
+    {
+      "id": "real_legacy_debt",
+      "expression": "D_real = D_nominal / P_legacy",
+      "status": "accounting_definition"
+    },
+    {
+      "id": "fisher_approximation",
+      "expression": "i_nominal ≈ r_real + expected_inflation + risk_premium",
+      "status": "reference_model"
+    },
+    {
+      "id": "nominal_spending_identity",
+      "expression": "M * V = P * Y",
+      "status": "accounting_identity_at_aggregate_level_not_a_complete_causal_model"
+    },
+    {
+      "id": "transition",
+      "expression": "X[t+1] = F(X[t], policy[t], shocks[t], behavioral_parameters)",
+      "status": "simulation_contract"
+    }
+  ],
+  "scenario_parameters": [
+    "initial_K_distribution",
+    "K_C_distribution_rule",
+    "merchant_adoption_path",
+    "unit_of_account_adoption_path",
+    "K_M_supply_policy",
+    "social_dividend_rule",
+    "real_output_growth",
+    "essential_supply_growth",
+    "capital_mobility",
+    "legacy_debt_maturity",
+    "inflation_expectations",
+    "credit_creation_intensity",
+    "fiscal_acceptance_path",
+    "beneficial_ownership_avoidance_rate",
+    "governance_credibility_shocks"
+  ],
+  "outputs": [
+    "state_path",
+    "inflation_path",
+    "real_legacy_debt_path",
+    "median_real_income_path",
+    "median_real_wealth_path",
+    "top_1_wealth_share_path",
+    "gini_wealth_path",
+    "payment_share_path",
+    "unit_of_account_share_path",
+    "financial_stress_path",
+    "failure_state_flags"
+  ],
+  "epistemic_rule": "Simulation outputs are conditional consequences of a model and parameter set; they are not forecasts or authority.",
+  "implementation_ref": "runtime/kms_simulator.py"
+}

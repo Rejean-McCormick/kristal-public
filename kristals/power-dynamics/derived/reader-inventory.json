@@ -1,0 +1,78 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:power",
+  "source_fingerprint": "sha256:83cb2872e6ecad0815f62409902965e4994b47884b7fda43737782e35d7aa130",
+  "size_class": "medium",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 70554538,
+    "tracked_file_count": 4,
+    "max_tracked_file_bytes": 36201639,
+    "materialization_segment_count": 1,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-power-canonical-state-e5eb6fbc9b.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 36201639,
+      "sha256": "sha256:886fbff314efaf4226046e86e7670c8c9761392f3c0a6158dce5d71062d67af8"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 941,
+      "sha256": "sha256:880c3d1a0c1b5e46dec40349160682b0e26dd087bd6d82cf22d7700060c40f29"
+    },
+    {
+      "path": "knowledge-base/corpus/power-topology.structured-epistemic-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 34350571,
+      "sha256": "sha256:91573ba1f265a43a06d0661bfb9d491f3e3aa40e946ab31481f736b8d0f82404"
+    },
+    {
+      "path": "materializations/v9/manifests/urn-kristal-materialization-power-canonical-native-json-c84e9de907.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1387,
+      "sha256": "sha256:c7db62bc5e8550de6310e05ac207fff76663d50b83aba28aca89a079c8b9699b"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": "materializations/v9/manifests/urn-kristal-materialization-power-canonical-native-json-c84e9de907.materialization.json",
+      "segment_key": "canonical",
+      "record_count_declared": 7759,
+      "media_type": "application/json",
+      "size_bytes_declared": 34350571,
+      "digest_declared": "sha256:91573ba1f265a43a06d0661bfb9d491f3e3aa40e946ab31481f736b8d0f82404",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/power-topology.structured-epistemic-state.json",
+      "materialization_profile": "kristal.materialization/native-blob/1"
+    }
+  ]
+}

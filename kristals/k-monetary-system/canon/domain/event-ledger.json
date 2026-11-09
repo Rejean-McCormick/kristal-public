@@ -1,0 +1,27 @@
+{
+  "format": "k.monetary.domain/event-ledger/0.1.0",
+  "id": "urn:kristal:k-monetary-system:event-ledger",
+  "append_only": true,
+  "event_schema": {
+    "required": [
+      "event_id",
+      "event_time",
+      "event_type",
+      "payload",
+      "epistemic_status"
+    ],
+    "event_types": [
+      "policy_decision",
+      "policy_activation",
+      "payment_network_milestone",
+      "adoption_observation",
+      "fiscal_acceptance_event",
+      "market_stress_event",
+      "governance_incident",
+      "simulation_run",
+      "validation_event"
+    ]
+  },
+  "events": [],
+  "rule": "Past events are never silently rewritten. Corrections append a new event that supersedes or annotates an earlier event."
+}

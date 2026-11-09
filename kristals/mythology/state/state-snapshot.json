@@ -1,0 +1,150 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:mythology:state",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:0e89289e4488b7735882bfe4a08fe3ac59fb099e85c37e950f2bce536980b21a"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:mythology:artifact:epistemic-state",
+      "logical_contract": {
+        "id": "kristal_state.hash_target",
+        "version": "6.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c4d5103ac495cb420c14c254c61a764de6d8f7b079266e3db05fb899ac126c64"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:72289e3c3ac24da2aaeb4e136012eb19769cd8accddbc0f114b2276e9a438e75"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:96ef178f5e2695ef07e799a12331fea5ffcb0d463013b52c1d4cc601a6e35325"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:215f48a7556677fd04c72b6200a15059fd5242d0dbc470b7add3ebfe5acbc64a"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e90c145914b6869f5d870950a582775584ccb40ef1a75a89b248d9be8662e387"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5c658b02ce51ab6f36efa28b5272f6a1ce1ba8505bc4cc1c433b54ac11b9c261"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2a45bc483457c1207c2daa2a8accb2ef6634095ef40b84bd241436b0ac850827"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fb6d6e4460d74aa9d89f774e0cd0523989b1f102f0bd97611b7e2b41dc0b414e"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ccf444d26dedf60fac54b45369868718f131f797b1156de617e6099132ec01ca"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6cabd2df38e8a516f7a2cc01645765506f19f498ab5751a025e97d57d98a5bab"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:d0847b03a330078ab5a39f5e0ee904ce4b6f1c306cf087da4a9167a6d04d694e"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-mythology:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8bc0b2feca74e1b5c68bdc170e9cc37d4e9bcdabe2e7f452c3e0659a8775d358"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "mythology",
+    "language": "fr",
+    "subdomain": "narrative-character-motif-relation-variant-tradition"
+  }
+}

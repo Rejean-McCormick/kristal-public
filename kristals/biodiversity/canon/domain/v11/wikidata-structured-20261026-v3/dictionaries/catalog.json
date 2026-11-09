@@ -1,0 +1,74 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Biodiversity:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-20261026-rebuilt-v2:wikidata-structured-20261026-v3",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "86d97283cf04e3757fbfe634f8c238625a6c1cff8f511b65d1090ef1c7c5c3e7"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-fr",
+          "path": "wikidata-fr.jsonl",
+          "priority": 100,
+          "sha256": "5b0458013f4f1a396f511cc7403ed549b0c5956f32d302a3a00926dacfd56b51",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "198a86cc6954e2f34546c0f3c33fdce7a331a21cd4f894227b409d5f139cb403"
+        },
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-und",
+          "path": "wikidata-und.jsonl",
+          "priority": 100,
+          "sha256": "5478f19000bd24fe34518ca201248a66eca66220f27020b1dce00ae5c51f4c99",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        }
+      ],
+      "tag": "und"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "wikidata",
+          "layer_id": "wikidata-wikidata-20261026-rebuilt-v2-en",
+          "path": "wikidata-en.jsonl",
+          "priority": 100,
+          "sha256": "33c808ed9b556348e4ee4ffcd9a9412d61fb3e33fbb640a9d980aa58a3dfe04a",
+          "source_snapshot": "wikidata-20261026-rebuilt-v2"
+        },
+        {
+          "kind": "external",
+          "layer_id": "structured-fields-v3",
+          "license": "CC0-1.0",
+          "path": "structured-fields-en.jsonl",
+          "priority": 100,
+          "sha256": "cb17a5236d1b4d8a103a24a02ec52555cb73186e3673add6b1d33769799c88f8",
+          "source_snapshot": "wikidata-structured-20261026-v3",
+          "source_system": "kristal-structured-value-model"
+        }
+      ],
+      "tag": "en"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-biodiversity",
+  "schema_version": "11.0"
+}

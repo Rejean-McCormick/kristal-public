@@ -1,0 +1,74 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:telecommunications",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:f20182119784db1b3482be830259518a3dc42395496a83a70bd7084e5276ddc4"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:telecommunications:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      },
+      "authority_ref": "urn:kristal:authority:telecommunications",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e604ccc4bf67bed4f08d047def200fc85a25a781701b0f7e7fc3e2501731e5f5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:telecommunications:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:342265a8725567e9dd9bd2e3bf2d50c7f813379114e621f78c2ef00296900aed"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:telecommunications:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fa025760d48b0dcd14fd53a700b48d978cf11b580c7c917eec3941da7ffe7e88"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:telecommunications:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5681c8a39860ebec484152e0fd236e943faa79b17da3796e6a6e04a76aad6ecf"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:telecommunications:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:65566df782ef7b7cc0c1395dd2db86fc9235348ec50703327b4f890b8d789707"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "kristal_ref": "Kristal-Telecommunications",
+    "domain": "telecommunications"
+  },
+  "authority_ref": "urn:kristal:authority:telecommunications"
+}

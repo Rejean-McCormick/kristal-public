@@ -1,0 +1,364 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:astronomy:state",
+  "source_fingerprint": "sha256:b4ff5c0a59bd100d488310c6416b5aa322ad06337f09ddefcf01cb1acec1160b",
+  "size_class": "small",
+  "measurement": {
+    "status": "partial",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 9,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 21787158,
+    "tracked_file_count": 30,
+    "max_tracked_file_bytes": 3171625,
+    "materialization_segment_count": 9,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 13,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1317,
+      "sha256": "sha256:7647c812e10b8398c7252bf2cccdd1413da4bd0b1f830d29aa71d82c4650582b"
+    },
+    {
+      "path": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1316,
+      "sha256": "sha256:3912289ad2f6fb399c320b44769b0f048c486aca676804c3852bf41cef7e7da3"
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 3861,
+      "sha256": "sha256:b9f8dcd538853c22af5feae031761a0282ffb44234595bada7c7ff076085ac00"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-20261026-rebuilt-v2-crosswalk-1aad9b8027.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 295323,
+      "sha256": "sha256:6c4cfd7768084ba09d3f76bcc3abbf79a6d3b5a7d497a91cd577fbaeab9fddca"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-20261026-rebuilt-v2-dictionaries-catalog-c777d4366b.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2918,
+      "sha256": "sha256:1e42315233ef9e9df71018986dbd8ca8d511dc94728be5a557736ea1877a29a6"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-20261026-rebuilt-v2-graph-2c8f824a5f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3015517,
+      "sha256": "sha256:94e2f9fd646afead64ef6093208f529bd28755873e2886d0b0a0de84f0370d66"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-20261026-rebuilt-v2-import-model-ee264df5c9.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1115,
+      "sha256": "sha256:8dc034cacdd5343997ffbacdee7f2d78bee2573205302f70edec0391e03e5d55"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-20261026-rebuilt-v2-registry-db265510fa.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 490661,
+      "sha256": "sha256:b493db183a23579d8f2b2d75851309ec4a4935e74faaf2271d98de7ec00ec308"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-20261026-rebuilt-v2-source-ledger-4a53a55593.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3103964,
+      "sha256": "sha256:c76eac1981335d84d41c6e6106b7240e0c605da994cb5333e2ff8dea37e7ff02"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-structured-20261026-v3-crosswalk-5563288d0a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 295966,
+      "sha256": "sha256:50794fbeb393f1438138236f53396996f86672d92833f538e8e76ae35a3c1e2c"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-structured-20261026-v3-dictionaries-cata-9bf16ca2b9.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3389,
+      "sha256": "sha256:9b3c7d0d2e4501a9c819e5d1ab45090498587127b60e866e1c1ecb362ee81738"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-structured-20261026-v3-graph-ee61096584.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3171625,
+      "sha256": "sha256:63634c5b39d1199f8809dd3b0d2efbfd02689a9665d94b6624675e6cc4198089"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-structured-20261026-v3-registry-8cad661e8a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 740736,
+      "sha256": "sha256:be9e383f8526a141b138f55ebbd32197dcc386189334fadde9dcdc891d9b7f68"
+    },
+    {
+      "path": "build/v9/artifacts/kristal-bulk-kristal-astronomy-wikidata-structured-20261026-v3-structured-model-919265e4de.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 117151,
+      "sha256": "sha256:a45887855c331e14c46624969086b499ddba830b0e5c4477b81eaaea354dbce9"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-astronomy-artifact-canonical-state-9c792e75f7.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 849,
+      "sha256": "sha256:8d1efc60e827d208c74ca9367dff54fd915d7cc9e2f16b5bc435a41f8e2dee2d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-astronomy-artifact-identity-registry-eb8eaf0e76.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 871,
+      "sha256": "sha256:d1ac31e47bbbd1b772f5aaedf71c83cbc54bad00ed04cc5461b2f9ccfbdb4fcc"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 5609,
+      "sha256": "sha256:bde4373730fd54e614457f2b60032cd26bf1d98cbc22916862d0532d33cfa8f8"
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 355,
+      "sha256": "sha256:83b1f2c71db342e89a6e7851966e48ab90efff83eec2b497787c22410c9b2ab6"
+    },
+    {
+      "path": "canon/domain/identity_registry.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 383,
+      "sha256": "sha256:21999232e27461cd02f6d28e0115d4b88a631e86e9a19ce50a402aa4d7e61486"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 276158,
+      "sha256": "sha256:87783821cff844eecf7b0d68a746655650cbe295c1e2ec207db93d931f756222"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2310,
+      "sha256": "sha256:f31ee108acc9802da3ec890df566a81bbe04e2adcf493de85d8efe85fc9d3f14"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2821314,
+      "sha256": "sha256:a4f844e2ebad4359a4281e9c86b62e3c5c3d6335d02847bc3ad98836f44ae7a4"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/import-model.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 657,
+      "sha256": "sha256:092f4d8da34950a14b2d7092b27f4966547b207b9c06513e684c5a06fb97e643"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 451766,
+      "sha256": "sha256:2828ddf641d3cd6ea16fa3857a79481c30a006ff3064bf9027f49816f5bf7a8d"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/source-ledger.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2942430,
+      "sha256": "sha256:578755faf3b65da0ed97580a1e14f3bdbb9394a9f2e3341d34b01c7830b3d4fe"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 276758,
+      "sha256": "sha256:f14300f3b6722fb7baf6a8da60e90c210046808c1c69cd78e3fe535fb6dd8d79"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2758,
+      "sha256": "sha256:1c12deeef20613801b7581a9f7433a1721924e6075d3b666207b6515081b711d"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2966827,
+      "sha256": "sha256:5cd57575160bf6c576ee45d01e49d4fb52e10381a6621f1038634ca0e248da31"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 682808,
+      "sha256": "sha256:beda5841d24f2b0e3632789fd0bb5954db4f08a6005ae23436f76868105bf24b"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/structured-model.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 110446,
+      "sha256": "sha256:8ffa9e1496fe550a44705a31a6b7cfac7c9b292f5610aedc50544dca3c7bd43c"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "segment_key": "knowledge-base/corpus/astronomy.kristal-state.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 293715,
+      "digest_declared": "sha256:95f2a66fbf9b21bb5bad6b9d6d01be128077437ec3c2dfc6e7b44b322ae4bec9",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-blob/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "segment_key": "knowledge-base/corpus/astronomy.referent-registry.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 41630,
+      "digest_declared": "sha256:edd92d895bbcaa5f11533ef42e030a33a0a74e7e5fa7dc16d1de8764a228f931",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-blob/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "external-source-library/source-store.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 7136,
+      "digest_declared": "sha256:3e70d033ca087ad6d2e24d3e0fd2baa47237b8f05d2efbecd2bcac5f595dd78b",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "knowledge-base/sources/domain_ontology.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 11720,
+      "digest_declared": "sha256:03e4300bfca0846267285312a397b7a690ccb5de4ebec03b4decebdf92200e59",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "knowledge-base/sources/formation_evolution.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 3392,
+      "digest_declared": "sha256:4ce1ef4a056513cca1672055d78f975a6d9dc1cc9e41afd46cc275498513fae1",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "knowledge-base/sources/measurement_model.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4429,
+      "digest_declared": "sha256:addb94dd9365c418a5c06315812a42623e835d1fa8e67db168e1b18cdf085fe4",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "knowledge-base/sources/observation_methods.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 5649,
+      "digest_declared": "sha256:4c05821db539716123309bd2a70e27f3d0a75838ba57d466fd78f17272c15f53",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "knowledge-base/sources/reference_anchors.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 915,
+      "digest_declared": "sha256:4b3d6bec9b6c731892d431c6c0ec50d2c070f840be5d9a6997ac49434d274860",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "segment_key": "knowledge-base/sources/solar_system_reference.json",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 19333,
+      "digest_declared": "sha256:4b8200a308a361ae0e0fa80bf8be06cec97b653273d2350ad504f1a19df30288",
+      "availability": "unlocated",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": null,
+      "materialization_profile": "kristal.materialization/native-json-bundle/1"
+    }
+  ]
+}

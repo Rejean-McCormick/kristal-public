@@ -1,0 +1,1427 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Work",
+  "run_id": "d910c4f2a55f23a2",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:33:01.419450+00:00",
+  "source_labels": {
+    "project": "Kristal-Work",
+    "namespace_id": "kristal:bulk:kristal-work",
+    "search_labels": 171,
+    "labeled_entities": 171,
+    "labeled_properties": 0,
+    "domain_entities": 443,
+    "domain_properties": 23,
+    "unlabeled": [
+      {
+        "legacy_id": "rel:account-record-produces-financial-record",
+        "semantic_id": "KQ1060375247268964044991451"
+      },
+      {
+        "legacy_id": "rel:accountant-env-indoor-office",
+        "semantic_id": "KQ1061911093262041054012330"
+      },
+      {
+        "legacy_id": "rel:accountant-env-remote-digital",
+        "semantic_id": "KQ1082416684901316392597017"
+      },
+      {
+        "legacy_id": "rel:accountant-result-analysis-report",
+        "semantic_id": "KQ698970676569894915866473"
+      },
+      {
+        "legacy_id": "rel:accountant-result-financial-record",
+        "semantic_id": "KQ824790064777233527446797"
+      },
+      {
+        "legacy_id": "rel:accountant-role-advisor",
+        "semantic_id": "KQ225288504447254442717624"
+      },
+      {
+        "legacy_id": "rel:accountant-role-analyst",
+        "semantic_id": "KQ200674880660270463420665"
+      },
+      {
+        "legacy_id": "rel:accountant-role-record-keeper",
+        "semantic_id": "KQ75334686438402646825261"
+      },
+      {
+        "legacy_id": "rel:active-listening-care",
+        "semantic_id": "KQ15240164235251993422973"
+      },
+      {
+        "legacy_id": "rel:active-listening-communicate",
+        "semantic_id": "KQ527043933108120639210461"
+      },
+      {
+        "legacy_id": "rel:active-listening-coordinate",
+        "semantic_id": "KQ262537047682968779493434"
+      },
+      {
+        "legacy_id": "rel:active-listening-serve-customer",
+        "semantic_id": "KQ1172588163362441827178480"
+      },
+      {
+        "legacy_id": "rel:activity-skill-distinction",
+        "semantic_id": "KQ776478540206230071467881"
+      },
+      {
+        "legacy_id": "rel:advisor-analyze-data",
+        "semantic_id": "KQ1182630594820188622709784"
+      },
+      {
+        "legacy_id": "rel:advisor-communicate",
+        "semantic_id": "KQ1011700124023165250084022"
+      },
+      {
+        "legacy_id": "rel:advisor-serve-customer",
+        "semantic_id": "KQ1151940327736473719316516"
+      },
+      {
+        "legacy_id": "rel:analyst-analyze-data",
+        "semantic_id": "KQ891776092509648477056956"
+      },
+      {
+        "legacy_id": "rel:analyst-document",
+        "semantic_id": "KQ206638571816099149312695"
+      },
+      {
+        "legacy_id": "rel:analyst-test",
+        "semantic_id": "KQ842442957605853280174814"
+      },
+      {
+        "legacy_id": "rel:analyze-data-produces-analysis-report",
+        "semantic_id": "KQ1008918057633053390736755"
+      },
+      {
+        "legacy_id": "rel:care-produces-care-delivered",
+        "semantic_id": "KQ203627877430453778202152"
+      },
+      {
+        "legacy_id": "rel:caregiver-care",
+        "semantic_id": "KQ826791261626198364747537"
+      },
+      {
+        "legacy_id": "rel:caregiver-communicate",
+        "semantic_id": "KQ1202361527797973561991811"
+      },
+      {
+        "legacy_id": "rel:caregiver-document",
+        "semantic_id": "KQ988386603817057167691373"
+      },
+      {
+        "legacy_id": "rel:cook-env-commercial-kitchen",
+        "semantic_id": "KQ574966326687966499071713"
+      },
+      {
+        "legacy_id": "rel:cook-env-high-time-pressure",
+        "semantic_id": "KQ443350464872217853396456"
+      },
+      {
+        "legacy_id": "rel:cook-env-physical-load",
+        "semantic_id": "KQ102265224107090115753217"
+      },
+      {
+        "legacy_id": "rel:cook-result-prepared-food",
+        "semantic_id": "KQ991110510526924190412436"
+      },
+      {
+        "legacy_id": "rel:cook-result-quality-decision",
+        "semantic_id": "KQ896287649569952418034530"
+      },
+      {
+        "legacy_id": "rel:cook-role-planner",
+        "semantic_id": "KQ794192295578075215188262"
+      },
+      {
+        "legacy_id": "rel:cook-role-producer",
+        "semantic_id": "KQ1060182813279023594718670"
+      },
+      {
+        "legacy_id": "rel:cook-role-quality-controller",
+        "semantic_id": "KQ390504322151718879558296"
+      },
+      {
+        "legacy_id": "rel:coordination-care",
+        "semantic_id": "KQ515361257120070637704066"
+      },
+      {
+        "legacy_id": "rel:coordination-coordinate",
+        "semantic_id": "KQ674430850050944666276114"
+      },
+      {
+        "legacy_id": "rel:coordination-supervise",
+        "semantic_id": "KQ668070253566892676243633"
+      },
+      {
+        "legacy_id": "rel:coordinator-communicate",
+        "semantic_id": "KQ1155271340056150414129844"
+      },
+      {
+        "legacy_id": "rel:coordinator-coordinate",
+        "semantic_id": "KQ648430222685097840921063"
+      },
+      {
+        "legacy_id": "rel:coordinator-plan",
+        "semantic_id": "KQ668601803066340916528185"
+      },
+      {
+        "legacy_id": "rel:critical-thinking-analyze-data",
+        "semantic_id": "KQ264671305500054510077135"
+      },
+      {
+        "legacy_id": "rel:critical-thinking-diagnose",
+        "semantic_id": "KQ1095096825844080650185438"
+      },
+      {
+        "legacy_id": "rel:critical-thinking-research",
+        "semantic_id": "KQ867659131726413958687203"
+      },
+      {
+        "legacy_id": "rel:critical-thinking-test",
+        "semantic_id": "KQ185172303718811327929431"
+      },
+      {
+        "legacy_id": "rel:crop-grower-env-agricultural-field",
+        "semantic_id": "KQ68686408719338706854402"
+      },
+      {
+        "legacy_id": "rel:crop-grower-env-moving-machinery",
+        "semantic_id": "KQ666882761388676605108709"
+      },
+      {
+        "legacy_id": "rel:crop-grower-env-outdoors",
+        "semantic_id": "KQ538867008536301759805052"
+      },
+      {
+        "legacy_id": "rel:crop-grower-result-harvested-crop",
+        "semantic_id": "KQ660382232690449544602240"
+      },
+      {
+        "legacy_id": "rel:crop-grower-result-operational-state",
+        "semantic_id": "KQ648168511503526576955294"
+      },
+      {
+        "legacy_id": "rel:crop-grower-role-operator",
+        "semantic_id": "KQ601072029881602963274590"
+      },
+      {
+        "legacy_id": "rel:crop-grower-role-planner",
+        "semantic_id": "KQ963384514692405718225951"
+      },
+      {
+        "legacy_id": "rel:crop-grower-role-producer",
+        "semantic_id": "KQ460532220877549873488767"
+      },
+      {
+        "legacy_id": "rel:cultivate-produces-harvested-crop",
+        "semantic_id": "KQ898286256344724339607696"
+      },
+      {
+        "legacy_id": "rel:customer-interface-communicate",
+        "semantic_id": "KQ528817644198409546190237"
+      },
+      {
+        "legacy_id": "rel:customer-interface-sell",
+        "semantic_id": "KQ620084434390814330295628"
+      },
+      {
+        "legacy_id": "rel:customer-interface-serve-customer",
+        "semantic_id": "KQ336485321339782351578760"
+      },
+      {
+        "legacy_id": "rel:design-produces-design-specification",
+        "semantic_id": "KQ695849141087072654338209"
+      },
+      {
+        "legacy_id": "rel:designer-design",
+        "semantic_id": "KQ739045476336322824574565"
+      },
+      {
+        "legacy_id": "rel:designer-plan",
+        "semantic_id": "KQ498450118563662677672550"
+      },
+      {
+        "legacy_id": "rel:designer-test",
+        "semantic_id": "KQ837787180312798932218480"
+      },
+      {
+        "legacy_id": "rel:driver-monitor",
+        "semantic_id": "KQ291675129189481912469161"
+      },
+      {
+        "legacy_id": "rel:driver-operate-equipment",
+        "semantic_id": "KQ27527387173828769008375"
+      },
+      {
+        "legacy_id": "rel:driver-transport",
+        "semantic_id": "KQ231506147307776822505305"
+      },
+      {
+        "legacy_id": "rel:electrician-env-construction-site",
+        "semantic_id": "KQ328966516467002007237325"
+      },
+      {
+        "legacy_id": "rel:electrician-env-moving-machinery",
+        "semantic_id": "KQ1184209229885415663888228"
+      },
+      {
+        "legacy_id": "rel:electrician-env-physical-load",
+        "semantic_id": "KQ173278530568868097236463"
+      },
+      {
+        "legacy_id": "rel:electrician-result-quality-decision",
+        "semantic_id": "KQ414746479010104287910191"
+      },
+      {
+        "legacy_id": "rel:electrician-result-repaired-system",
+        "semantic_id": "KQ586590689513633242673687"
+      },
+      {
+        "legacy_id": "rel:electrician-role-maintainer",
+        "semantic_id": "KQ779110566248935642417315"
+      },
+      {
+        "legacy_id": "rel:electrician-role-operator",
+        "semantic_id": "KQ122716046066614908105107"
+      },
+      {
+        "legacy_id": "rel:electrician-role-quality-controller",
+        "semantic_id": "KQ599548633605134514298475"
+      },
+      {
+        "legacy_id": "rel:equipment-maintenance-maintain-equipment",
+        "semantic_id": "KQ993263236847015425879900"
+      },
+      {
+        "legacy_id": "rel:equipment-selection-design",
+        "semantic_id": "KQ1024652657580854171563035"
+      },
+      {
+        "legacy_id": "rel:equipment-selection-fabricate",
+        "semantic_id": "KQ1060495097398247189508272"
+      },
+      {
+        "legacy_id": "rel:equipment-selection-maintain-equipment",
+        "semantic_id": "KQ378648596908729346093502"
+      },
+      {
+        "legacy_id": "rel:fabricate-produces-physical-product",
+        "semantic_id": "KQ360375120997694198849407"
+      },
+      {
+        "legacy_id": "rel:general-office-clerk-env-high-interpersonal-contact",
+        "semantic_id": "KQ73971633599400123343754"
+      },
+      {
+        "legacy_id": "rel:general-office-clerk-env-indoor-office",
+        "semantic_id": "KQ682240972123566984736704"
+      },
+      {
+        "legacy_id": "rel:general-office-clerk-result-customer-service",
+        "semantic_id": "KQ219092778548470013103074"
+      },
+      {
+        "legacy_id": "rel:general-office-clerk-result-inventory-state",
+        "semantic_id": "KQ995756484209919183150911"
+      },
+      {
+        "legacy_id": "rel:general-office-clerk-role-coordinator",
+        "semantic_id": "KQ139699485166780689537900"
+      },
+      {
+        "legacy_id": "rel:general-office-clerk-role-customer-interface",
+        "semantic_id": "KQ661965041920608834012363"
+      },
+      {
+        "legacy_id": "rel:general-office-clerk-role-record-keeper",
+        "semantic_id": "KQ691040421266727100570771"
+      },
+      {
+        "legacy_id": "rel:inspect-produces-quality-decision",
+        "semantic_id": "KQ347814218681503057434685"
+      },
+      {
+        "legacy_id": "rel:instruct-produces-learning-evidence",
+        "semantic_id": "KQ161082177325608575743037"
+      },
+      {
+        "legacy_id": "rel:instructing-instruct",
+        "semantic_id": "KQ1197806622006347739197537"
+      },
+      {
+        "legacy_id": "rel:instructor-communicate",
+        "semantic_id": "KQ424447660409433856068485"
+      },
+      {
+        "legacy_id": "rel:instructor-instruct",
+        "semantic_id": "KQ376679905708273989534392"
+      },
+      {
+        "legacy_id": "rel:instructor-plan",
+        "semantic_id": "KQ165557802914641824194344"
+      },
+      {
+        "legacy_id": "rel:job-occupation-distinction",
+        "semantic_id": "KQ1142141869537134172434364"
+      },
+      {
+        "legacy_id": "rel:judgment-diagnose",
+        "semantic_id": "KQ496713897000024885230831"
+      },
+      {
+        "legacy_id": "rel:judgment-plan",
+        "semantic_id": "KQ626034809084115987627385"
+      },
+      {
+        "legacy_id": "rel:judgment-respond-emergency",
+        "semantic_id": "KQ461153938037860708847026"
+      },
+      {
+        "legacy_id": "rel:judgment-supervise",
+        "semantic_id": "KQ898240689977850406550672"
+      },
+      {
+        "legacy_id": "rel:learning-strategies-instruct",
+        "semantic_id": "KQ87927395314683921066494"
+      },
+      {
+        "legacy_id": "rel:learning-strategies-research",
+        "semantic_id": "KQ1127110462524059423559739"
+      },
+      {
+        "legacy_id": "rel:life-science-technician-env-chemical-biological",
+        "semantic_id": "KQ677404952504177891046868"
+      },
+      {
+        "legacy_id": "rel:life-science-technician-env-laboratory",
+        "semantic_id": "KQ897414695472085767648970"
+      },
+      {
+        "legacy_id": "rel:life-science-technician-result-analysis-report",
+        "semantic_id": "KQ1137530177460833293262692"
+      },
+      {
+        "legacy_id": "rel:life-science-technician-result-measurement-record",
+        "semantic_id": "KQ247282765146028527566560"
+      },
+      {
+        "legacy_id": "rel:life-science-technician-role-operator",
+        "semantic_id": "KQ153436387958924934330417"
+      },
+      {
+        "legacy_id": "rel:life-science-technician-role-quality-controller",
+        "semantic_id": "KQ805089905944931641314132"
+      },
+      {
+        "legacy_id": "rel:life-science-technician-role-record-keeper",
+        "semantic_id": "KQ470367445800477854209525"
+      },
+      {
+        "legacy_id": "rel:machinist-env-high-noise",
+        "semantic_id": "KQ577059777145236326309973"
+      },
+      {
+        "legacy_id": "rel:machinist-env-industrial-shop",
+        "semantic_id": "KQ173784709257199575244513"
+      },
+      {
+        "legacy_id": "rel:machinist-env-moving-machinery",
+        "semantic_id": "KQ750997317674894293616472"
+      },
+      {
+        "legacy_id": "rel:machinist-result-physical-product",
+        "semantic_id": "KQ1104757315261616525721769"
+      },
+      {
+        "legacy_id": "rel:machinist-result-quality-decision",
+        "semantic_id": "KQ592352530281777717904696"
+      },
+      {
+        "legacy_id": "rel:machinist-role-operator",
+        "semantic_id": "KQ674322866773880375737366"
+      },
+      {
+        "legacy_id": "rel:machinist-role-producer",
+        "semantic_id": "KQ298396262169441035669104"
+      },
+      {
+        "legacy_id": "rel:machinist-role-quality-controller",
+        "semantic_id": "KQ614958182493280177983526"
+      },
+      {
+        "legacy_id": "rel:maintain-equipment-produces-repaired-system",
+        "semantic_id": "KQ858279331193904153133168"
+      },
+      {
+        "legacy_id": "rel:maintainer-diagnose",
+        "semantic_id": "KQ349538794499318777825200"
+      },
+      {
+        "legacy_id": "rel:maintainer-inspect",
+        "semantic_id": "KQ348781974711488341339083"
+      },
+      {
+        "legacy_id": "rel:maintainer-maintain-equipment",
+        "semantic_id": "KQ1198234198353528735069681"
+      },
+      {
+        "legacy_id": "rel:maintainer-troubleshoot",
+        "semantic_id": "KQ222895778926040057147526"
+      },
+      {
+        "legacy_id": "rel:manual-dexterity-fabricate",
+        "semantic_id": "KQ801460024440919473396193"
+      },
+      {
+        "legacy_id": "rel:manual-dexterity-maintain-equipment",
+        "semantic_id": "KQ480697124826985358284218"
+      },
+      {
+        "legacy_id": "rel:manual-dexterity-prepare-food",
+        "semantic_id": "KQ918574713399024540386963"
+      },
+      {
+        "legacy_id": "rel:mathematics-account-record",
+        "semantic_id": "KQ4653752280191681855527"
+      },
+      {
+        "legacy_id": "rel:mathematics-analyze-data",
+        "semantic_id": "KQ333382639948525747945161"
+      },
+      {
+        "legacy_id": "rel:mathematics-design",
+        "semantic_id": "KQ809677656586307559137313"
+      },
+      {
+        "legacy_id": "rel:mathematics-measure",
+        "semantic_id": "KQ794033530706475404574746"
+      },
+      {
+        "legacy_id": "rel:measure-produces-measurement-record",
+        "semantic_id": "KQ24721993528977027768515"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-env-indoor-office",
+        "semantic_id": "KQ808292132337444856370326"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-env-industrial-shop",
+        "semantic_id": "KQ746286277386455282599014"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-env-laboratory",
+        "semantic_id": "KQ62748369864666375169603"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-result-analysis-report",
+        "semantic_id": "KQ1079837674281406680026093"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-result-design-specification",
+        "semantic_id": "KQ876577301230820957285741"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-result-quality-decision",
+        "semantic_id": "KQ148044755531077512293508"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-role-analyst",
+        "semantic_id": "KQ347807565147423731386326"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-role-designer",
+        "semantic_id": "KQ109513884760945876095844"
+      },
+      {
+        "legacy_id": "rel:mechanical-engineer-role-quality-controller",
+        "semantic_id": "KQ549919255357267304987762"
+      },
+      {
+        "legacy_id": "rel:monitor-produces-operational-state",
+        "semantic_id": "KQ198129207771030682309727"
+      },
+      {
+        "legacy_id": "rel:monitoring-inspect",
+        "semantic_id": "KQ390692687613281464926910"
+      },
+      {
+        "legacy_id": "rel:monitoring-monitor",
+        "semantic_id": "KQ676617478892565248040538"
+      },
+      {
+        "legacy_id": "rel:monitoring-supervise",
+        "semantic_id": "KQ952747912288788533172941"
+      },
+      {
+        "legacy_id": "rel:moving-ppe",
+        "semantic_id": "KQ860674169715787319406358"
+      },
+      {
+        "legacy_id": "rel:negotiation-coordinate",
+        "semantic_id": "KQ472945202296921960861953"
+      },
+      {
+        "legacy_id": "rel:negotiation-sell",
+        "semantic_id": "KQ488126960750714445959037"
+      },
+      {
+        "legacy_id": "rel:noise-ppe",
+        "semantic_id": "KQ302640315961513861917195"
+      },
+      {
+        "legacy_id": "rel:nursing-professional-env-clinical",
+        "semantic_id": "KQ695255166580577105974131"
+      },
+      {
+        "legacy_id": "rel:nursing-professional-env-high-interpersonal-contact",
+        "semantic_id": "KQ870403650989863772625336"
+      },
+      {
+        "legacy_id": "rel:nursing-professional-env-variable-schedule",
+        "semantic_id": "KQ403044085921460249582604"
+      },
+      {
+        "legacy_id": "rel:nursing-professional-result-care-delivered",
+        "semantic_id": "KQ950830839890580704214608"
+      },
+      {
+        "legacy_id": "rel:nursing-professional-result-measurement-record",
+        "semantic_id": "KQ109858951540798266381097"
+      },
+      {
+        "legacy_id": "rel:nursing-professional-role-caregiver",
+        "semantic_id": "KQ197377103479738036083246"
+      },
+      {
+        "legacy_id": "rel:nursing-professional-role-coordinator",
+        "semantic_id": "KQ967009126396497204314693"
+      },
+      {
+        "legacy_id": "rel:nursing-professional-role-record-keeper",
+        "semantic_id": "KQ520962180588899643212742"
+      },
+      {
+        "legacy_id": "rel:operation-control-operate-equipment",
+        "semantic_id": "KQ1145406845915212322566176"
+      },
+      {
+        "legacy_id": "rel:operation-control-transport",
+        "semantic_id": "KQ1006724507784058855540860"
+      },
+      {
+        "legacy_id": "rel:operator-monitor",
+        "semantic_id": "KQ684130357429625194521894"
+      },
+      {
+        "legacy_id": "rel:operator-operate-equipment",
+        "semantic_id": "KQ709942654724245357188851"
+      },
+      {
+        "legacy_id": "rel:physical-load-demand",
+        "semantic_id": "KQ1045783444549328146467911"
+      },
+      {
+        "legacy_id": "rel:planner-analyze-data",
+        "semantic_id": "KQ453591325622970579476458"
+      },
+      {
+        "legacy_id": "rel:planner-coordinate",
+        "semantic_id": "KQ722484621526253564769449"
+      },
+      {
+        "legacy_id": "rel:planner-plan",
+        "semantic_id": "KQ854257007242606129806603"
+      },
+      {
+        "legacy_id": "rel:prepare-food-produces-prepared-food",
+        "semantic_id": "KQ112450451298973655539321"
+      },
+      {
+        "legacy_id": "rel:problem-solving-design",
+        "semantic_id": "KQ293911657929604244041709"
+      },
+      {
+        "legacy_id": "rel:problem-solving-diagnose",
+        "semantic_id": "KQ1021540406541904401931660"
+      },
+      {
+        "legacy_id": "rel:problem-solving-respond-emergency",
+        "semantic_id": "KQ991025220151525153891188"
+      },
+      {
+        "legacy_id": "rel:problem-solving-troubleshoot",
+        "semantic_id": "KQ704040420993284557287767"
+      },
+      {
+        "legacy_id": "rel:producer-fabricate",
+        "semantic_id": "KQ1052334712793946424675455"
+      },
+      {
+        "legacy_id": "rel:producer-inspect",
+        "semantic_id": "KQ991718844019145428206609"
+      },
+      {
+        "legacy_id": "rel:producer-operate-equipment",
+        "semantic_id": "KQ1199598058998809937116646"
+      },
+      {
+        "legacy_id": "rel:programming-write-software",
+        "semantic_id": "KQ443324999031411151178938"
+      },
+      {
+        "legacy_id": "rel:quality-control-inspect",
+        "semantic_id": "KQ853135159408996798879655"
+      },
+      {
+        "legacy_id": "rel:quality-control-measure",
+        "semantic_id": "KQ1122315887979357204344557"
+      },
+      {
+        "legacy_id": "rel:quality-control-test",
+        "semantic_id": "KQ663537347988995248838866"
+      },
+      {
+        "legacy_id": "rel:quality-controller-document",
+        "semantic_id": "KQ561608028907832841369753"
+      },
+      {
+        "legacy_id": "rel:quality-controller-inspect",
+        "semantic_id": "KQ419918141448831156841084"
+      },
+      {
+        "legacy_id": "rel:quality-controller-measure",
+        "semantic_id": "KQ199241351409773345257462"
+      },
+      {
+        "legacy_id": "rel:quality-controller-test",
+        "semantic_id": "KQ214791390662119502789461"
+      },
+      {
+        "legacy_id": "rel:reading-analyze-data",
+        "semantic_id": "KQ127792555415431033520143"
+      },
+      {
+        "legacy_id": "rel:reading-document",
+        "semantic_id": "KQ650947776178048478572046"
+      },
+      {
+        "legacy_id": "rel:reading-research",
+        "semantic_id": "KQ670396086656258396527748"
+      },
+      {
+        "legacy_id": "rel:record-keeper-account-record",
+        "semantic_id": "KQ953507021668996222135335"
+      },
+      {
+        "legacy_id": "rel:record-keeper-document",
+        "semantic_id": "KQ1102045716258993259439853"
+      },
+      {
+        "legacy_id": "rel:research-produces-research-finding",
+        "semantic_id": "KQ1133032449071107663600786"
+      },
+      {
+        "legacy_id": "rel:researcher-analyze-data",
+        "semantic_id": "KQ680860718220767855876966"
+      },
+      {
+        "legacy_id": "rel:researcher-document",
+        "semantic_id": "KQ197252406624092792831063"
+      },
+      {
+        "legacy_id": "rel:researcher-research",
+        "semantic_id": "KQ517082943792653977279501"
+      },
+      {
+        "legacy_id": "rel:resource-management-coordinate",
+        "semantic_id": "KQ1162558295108933822013593"
+      },
+      {
+        "legacy_id": "rel:resource-management-plan",
+        "semantic_id": "KQ422106276636630674885954"
+      },
+      {
+        "legacy_id": "rel:resource-management-supervise",
+        "semantic_id": "KQ602057428741153554913928"
+      },
+      {
+        "legacy_id": "rel:responder-communicate",
+        "semantic_id": "KQ1066619703036561547322232"
+      },
+      {
+        "legacy_id": "rel:responder-coordinate",
+        "semantic_id": "KQ1082944584332248784991367"
+      },
+      {
+        "legacy_id": "rel:responder-respond-emergency",
+        "semantic_id": "KQ165848146114242259865491"
+      },
+      {
+        "legacy_id": "rel:result-outcome-distinction",
+        "semantic_id": "KQ273598210782646430774558"
+      },
+      {
+        "legacy_id": "rel:retail-salesperson-env-high-interpersonal-contact",
+        "semantic_id": "KQ984912564038996682914137"
+      },
+      {
+        "legacy_id": "rel:retail-salesperson-env-retail-floor",
+        "semantic_id": "KQ681397139714644066888826"
+      },
+      {
+        "legacy_id": "rel:retail-salesperson-result-completed-transaction",
+        "semantic_id": "KQ573532007383290018903234"
+      },
+      {
+        "legacy_id": "rel:retail-salesperson-result-customer-service",
+        "semantic_id": "KQ233243239864336732153214"
+      },
+      {
+        "legacy_id": "rel:retail-salesperson-role-advisor",
+        "semantic_id": "KQ278451450331270515269131"
+      },
+      {
+        "legacy_id": "rel:retail-salesperson-role-customer-interface",
+        "semantic_id": "KQ49029437831638321285037"
+      },
+      {
+        "legacy_id": "rel:role-occupation-distinction",
+        "semantic_id": "KQ1091456412167971712215659"
+      },
+      {
+        "legacy_id": "rel:science-measure",
+        "semantic_id": "KQ697284569824202700748842"
+      },
+      {
+        "legacy_id": "rel:science-research",
+        "semantic_id": "KQ429108737892896346642923"
+      },
+      {
+        "legacy_id": "rel:science-test",
+        "semantic_id": "KQ571303451374117703805507"
+      },
+      {
+        "legacy_id": "rel:secondary-teacher-env-classroom",
+        "semantic_id": "KQ129341704075699707598899"
+      },
+      {
+        "legacy_id": "rel:secondary-teacher-env-high-interpersonal-contact",
+        "semantic_id": "KQ957041907006869718166593"
+      },
+      {
+        "legacy_id": "rel:secondary-teacher-result-learning-evidence",
+        "semantic_id": "KQ579176965551836684352356"
+      },
+      {
+        "legacy_id": "rel:secondary-teacher-role-advisor",
+        "semantic_id": "KQ1073499617045125046963318"
+      },
+      {
+        "legacy_id": "rel:secondary-teacher-role-instructor",
+        "semantic_id": "KQ488050423207180186543148"
+      },
+      {
+        "legacy_id": "rel:secondary-teacher-role-planner",
+        "semantic_id": "KQ501783661792010718624738"
+      },
+      {
+        "legacy_id": "rel:sell-produces-completed-transaction",
+        "semantic_id": "KQ237356504780542487701789"
+      },
+      {
+        "legacy_id": "rel:serve-customer-produces-customer-service",
+        "semantic_id": "KQ304515004880828478298054"
+      },
+      {
+        "legacy_id": "rel:service-orientation-care",
+        "semantic_id": "KQ916089085482791745397425"
+      },
+      {
+        "legacy_id": "rel:service-orientation-sell",
+        "semantic_id": "KQ200136201078318140471402"
+      },
+      {
+        "legacy_id": "rel:service-orientation-serve-customer",
+        "semantic_id": "KQ536693476273534557753389"
+      },
+      {
+        "legacy_id": "rel:skills-occ-many",
+        "semantic_id": "KQ1102104250577577105654951"
+      },
+      {
+        "legacy_id": "rel:social-perceptiveness-care",
+        "semantic_id": "KQ503537437997923129021967"
+      },
+      {
+        "legacy_id": "rel:social-perceptiveness-instruct",
+        "semantic_id": "KQ190723528020821773124148"
+      },
+      {
+        "legacy_id": "rel:social-perceptiveness-serve-customer",
+        "semantic_id": "KQ191743783341273478867680"
+      },
+      {
+        "legacy_id": "rel:social-perceptiveness-supervise",
+        "semantic_id": "KQ320420649473281594347048"
+      },
+      {
+        "legacy_id": "rel:software-builder-document",
+        "semantic_id": "KQ843929661686545257047304"
+      },
+      {
+        "legacy_id": "rel:software-builder-test",
+        "semantic_id": "KQ1150110191910666382020901"
+      },
+      {
+        "legacy_id": "rel:software-builder-write-software",
+        "semantic_id": "KQ236310407392984252857773"
+      },
+      {
+        "legacy_id": "rel:software-developer-env-indoor-office",
+        "semantic_id": "KQ144566080821436999219558"
+      },
+      {
+        "legacy_id": "rel:software-developer-env-remote-digital",
+        "semantic_id": "KQ924426742697176452833621"
+      },
+      {
+        "legacy_id": "rel:software-developer-result-analysis-report",
+        "semantic_id": "KQ30333602583951374521848"
+      },
+      {
+        "legacy_id": "rel:software-developer-result-software-component",
+        "semantic_id": "KQ349600613686136725526816"
+      },
+      {
+        "legacy_id": "rel:software-developer-role-analyst",
+        "semantic_id": "KQ112400642439241403498934"
+      },
+      {
+        "legacy_id": "rel:software-developer-role-designer",
+        "semantic_id": "KQ789602529639850917565797"
+      },
+      {
+        "legacy_id": "rel:software-developer-role-software-builder",
+        "semantic_id": "KQ595383352151125855695442"
+      },
+      {
+        "legacy_id": "rel:spatial-reasoning-design",
+        "semantic_id": "KQ52408002187236315915959"
+      },
+      {
+        "legacy_id": "rel:spatial-reasoning-fabricate",
+        "semantic_id": "KQ1198742522922791460515889"
+      },
+      {
+        "legacy_id": "rel:spatial-reasoning-transport",
+        "semantic_id": "KQ704194355629380293755796"
+      },
+      {
+        "legacy_id": "rel:speaking-communicate",
+        "semantic_id": "KQ1095917076712201277115990"
+      },
+      {
+        "legacy_id": "rel:speaking-instruct",
+        "semantic_id": "KQ680510548826512414284709"
+      },
+      {
+        "legacy_id": "rel:speaking-sell",
+        "semantic_id": "KQ539134971239019285353758"
+      },
+      {
+        "legacy_id": "rel:speaking-serve-customer",
+        "semantic_id": "KQ493098100114146391231221"
+      },
+      {
+        "legacy_id": "rel:speaking-supervise",
+        "semantic_id": "KQ421965943847524726657740"
+      },
+      {
+        "legacy_id": "rel:supervisor-coordinate",
+        "semantic_id": "KQ580263238693035556480036"
+      },
+      {
+        "legacy_id": "rel:supervisor-monitor",
+        "semantic_id": "KQ340519984498502288665980"
+      },
+      {
+        "legacy_id": "rel:supervisor-supervise",
+        "semantic_id": "KQ684744686517600648459666"
+      },
+      {
+        "legacy_id": "rel:systems-analysis-analyze-data",
+        "semantic_id": "KQ1139017442424932065889690"
+      },
+      {
+        "legacy_id": "rel:systems-analysis-design",
+        "semantic_id": "KQ601601758025782457046962"
+      },
+      {
+        "legacy_id": "rel:systems-analysis-diagnose",
+        "semantic_id": "KQ371218068511365357178229"
+      },
+      {
+        "legacy_id": "rel:systems-evaluation-inspect",
+        "semantic_id": "KQ315192602175735936111525"
+      },
+      {
+        "legacy_id": "rel:systems-evaluation-monitor",
+        "semantic_id": "KQ1155623293540737211895931"
+      },
+      {
+        "legacy_id": "rel:systems-evaluation-test",
+        "semantic_id": "KQ762503566804496817925560"
+      },
+      {
+        "legacy_id": "rel:time-management-coordinate",
+        "semantic_id": "KQ222820494295302296903352"
+      },
+      {
+        "legacy_id": "rel:time-management-plan",
+        "semantic_id": "KQ648001226096706511726137"
+      },
+      {
+        "legacy_id": "rel:time-management-prepare-food",
+        "semantic_id": "KQ814971360275527120893238"
+      },
+      {
+        "legacy_id": "rel:time-management-transport",
+        "semantic_id": "KQ744332135141413473938587"
+      },
+      {
+        "legacy_id": "rel:time-pressure-cognitive",
+        "semantic_id": "KQ1201562753769293096070129"
+      },
+      {
+        "legacy_id": "rel:transport-produces-delivered-freight",
+        "semantic_id": "KQ207099597076618419990099"
+      },
+      {
+        "legacy_id": "rel:troubleshooting-maintain-equipment",
+        "semantic_id": "KQ546330290990943593346819"
+      },
+      {
+        "legacy_id": "rel:troubleshooting-troubleshoot",
+        "semantic_id": "KQ8953584363876216610537"
+      },
+      {
+        "legacy_id": "rel:truck-driver-env-high-time-pressure",
+        "semantic_id": "KQ1023998984974884254852303"
+      },
+      {
+        "legacy_id": "rel:truck-driver-env-road-vehicle",
+        "semantic_id": "KQ423497630253366557429905"
+      },
+      {
+        "legacy_id": "rel:truck-driver-env-variable-schedule",
+        "semantic_id": "KQ372486107977118869059122"
+      },
+      {
+        "legacy_id": "rel:truck-driver-result-delivered-freight",
+        "semantic_id": "KQ418405864484446405005458"
+      },
+      {
+        "legacy_id": "rel:truck-driver-role-driver",
+        "semantic_id": "KQ326233619013580076118698"
+      },
+      {
+        "legacy_id": "rel:truck-driver-role-operator",
+        "semantic_id": "KQ1060136999243603408713320"
+      },
+      {
+        "legacy_id": "rel:variable-schedule-requirement",
+        "semantic_id": "KQ440288013231593266114965"
+      },
+      {
+        "legacy_id": "rel:warehouse-handler-env-moving-machinery",
+        "semantic_id": "KQ473287463351074782157746"
+      },
+      {
+        "legacy_id": "rel:warehouse-handler-env-physical-load",
+        "semantic_id": "KQ363973498223168063357901"
+      },
+      {
+        "legacy_id": "rel:warehouse-handler-env-warehouse",
+        "semantic_id": "KQ353273523983859807201140"
+      },
+      {
+        "legacy_id": "rel:warehouse-handler-result-inventory-state",
+        "semantic_id": "KQ377078138362543855578524"
+      },
+      {
+        "legacy_id": "rel:warehouse-handler-role-operator",
+        "semantic_id": "KQ87548266461918189495939"
+      },
+      {
+        "legacy_id": "rel:warehouse-handler-role-record-keeper",
+        "semantic_id": "KQ129160074363685859552321"
+      },
+      {
+        "legacy_id": "rel:welder-env-high-noise",
+        "semantic_id": "KQ794595906521633282208470"
+      },
+      {
+        "legacy_id": "rel:welder-env-industrial-shop",
+        "semantic_id": "KQ672210775049972394825619"
+      },
+      {
+        "legacy_id": "rel:welder-env-physical-load",
+        "semantic_id": "KQ749557293545975589456562"
+      },
+      {
+        "legacy_id": "rel:welder-result-physical-product",
+        "semantic_id": "KQ996281539885348718422827"
+      },
+      {
+        "legacy_id": "rel:welder-result-quality-decision",
+        "semantic_id": "KQ976982056432673385176037"
+      },
+      {
+        "legacy_id": "rel:welder-role-producer",
+        "semantic_id": "KQ1169722203965275549219515"
+      },
+      {
+        "legacy_id": "rel:welder-role-quality-controller",
+        "semantic_id": "KQ447021517460631459885686"
+      },
+      {
+        "legacy_id": "rel:write-software-produces-software-component",
+        "semantic_id": "KQ954327373219897122873483"
+      },
+      {
+        "legacy_id": "rel:writing-document",
+        "semantic_id": "KQ540756587043891123763895"
+      },
+      {
+        "legacy_id": "rel:writing-plan",
+        "semantic_id": "KQ1081736503015521698693065"
+      },
+      {
+        "legacy_id": "rel:writing-research",
+        "semantic_id": "KQ949228421198573343127608"
+      },
+      {
+        "legacy_id": "work.activity_refs",
+        "semantic_id": "KP1013690584346005169036716"
+      },
+      {
+        "legacy_id": "work.classification",
+        "semantic_id": "KP101051829702517833614286"
+      },
+      {
+        "legacy_id": "work.confidence",
+        "semantic_id": "KP973675142141202985624484"
+      },
+      {
+        "legacy_id": "work.definition_fr",
+        "semantic_id": "KP156424768368584622954082"
+      },
+      {
+        "legacy_id": "work.environment_refs",
+        "semantic_id": "KP228147435321176072843275"
+      },
+      {
+        "legacy_id": "work.environment_type",
+        "semantic_id": "KP452940493732897388236744"
+      },
+      {
+        "legacy_id": "work.isco08_major_group",
+        "semantic_id": "KP559175890537019892265719"
+      },
+      {
+        "legacy_id": "work.kind",
+        "semantic_id": "KP584204678262148057630591"
+      },
+      {
+        "legacy_id": "work.label_fr",
+        "semantic_id": "KP811942957629618190163380"
+      },
+      {
+        "legacy_id": "work.level",
+        "semantic_id": "KP202811220547147984505753"
+      },
+      {
+        "legacy_id": "work.note",
+        "semantic_id": "KP1208676909489868972017198"
+      },
+      {
+        "legacy_id": "work.object_ref",
+        "semantic_id": "KP1009490315204537068476910"
+      },
+      {
+        "legacy_id": "work.occupation_family",
+        "semantic_id": "KP374729191206268288488310"
+      },
+      {
+        "legacy_id": "work.occupation_ref",
+        "semantic_id": "KP332464525900731610387796"
+      },
+      {
+        "legacy_id": "work.predicate",
+        "semantic_id": "KP949851185070681622572888"
+      },
+      {
+        "legacy_id": "work.requirement_type",
+        "semantic_id": "KP1188026412817196085596372"
+      },
+      {
+        "legacy_id": "work.result_ref",
+        "semantic_id": "KP354395951665791731765704"
+      },
+      {
+        "legacy_id": "work.result_type",
+        "semantic_id": "KP1206702152342301420740853"
+      },
+      {
+        "legacy_id": "work.role_refs",
+        "semantic_id": "KP1089156338758879942749957"
+      },
+      {
+        "legacy_id": "work.scenario_type",
+        "semantic_id": "KP592197587288279157975701"
+      },
+      {
+        "legacy_id": "work.scope",
+        "semantic_id": "KP278401923127669936688931"
+      },
+      {
+        "legacy_id": "work.skill_refs",
+        "semantic_id": "KP681078926995565234362725"
+      },
+      {
+        "legacy_id": "work.subject_ref",
+        "semantic_id": "KP536962972766007807098098"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "7991182285be8e87719ac43c350f36d0b6e89944de0092cc47a92b6a7a6ec4cd",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Work",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "work"
+      },
+      "native_model": {
+        "kind": "many_to_many_work_activity_skill_graph",
+        "description": "activité ↔ compétence ↔ rôle ↔ métier ↔ environnement → résultat. Rôle ≠ métier, activité ≠ compétence, poste ≠ occupation ; classification datée et rapports plusieurs-à-plusieurs.",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "occupations et métiers",
+        "compétences et activités professionnelles",
+        "Respecter: P106 personnes exerçant un métier seulement en appui facultatif borné."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Réseau plusieurs-à-plusieurs activités, compétences, rôles, métiers, environnements et résultats.",
+        "guardrail": "Métier ≠ rôle ≠ poste; toute classification doit être datée et sourcée."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.68,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Work\\d910c4f2a55f23a2",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "e74ca2ffc837ca0aee46ef65d1d7e429e52642b7f25e41951eb18b35b4b4a8cc",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 171,
+    "distinct_concepts": 171,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "e74ca2ffc837ca0aee46ef65d1d7e429e52642b7f25e41951eb18b35b4b4a8cc",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 171,
+    "distinct_concepts": 171,
+    "cached_queries": 171,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "no_exact_candidate": 125,
+      "ambiguous_exact_candidates": 22,
+      "saturated_exact_search": 2,
+      "unique_exact_candidate": 22
+    },
+    "tentative_unverified": 22,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "e74ca2ffc837ca0aee46ef65d1d7e429e52642b7f25e41951eb18b35b4b4a8cc",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 22,
+    "distinct_qids": 22,
+    "qid_inventory_sha256": "935f7d305dd8f66d0e43ef70a5b45142de0e960c539be1ee7645032285a253ef",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 22,
+    "qids_acquired": 22,
+    "new_batches": 1,
+    "reused_records": 2,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Work\\d910c4f2a55f23a2\\full-evidence\\935f7d305dd8f66d",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 22,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 571,
+    "raw_subject_entities": 22,
+    "related_unapproved_qids": 122,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-work": 571
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "bb2e2b1482faeaa21c386804e6540beb01b24965171a466a454f011dd73df50f",
+  "proposals_sha256": "d2d1cede82d751d808746953e25692e904d1ed46d0e366fe1748132cd924724f"
+}

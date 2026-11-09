@@ -1,0 +1,43 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:policeops",
+  "source_fingerprint": "sha256:b3a13b35c525c27aadb0c303ae1f396c85f7ce1677506775f9577df6abe60fa2",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 1218,
+    "tracked_file_count": 1,
+    "max_tracked_file_bytes": 1218,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1218,
+      "sha256": "sha256:8120faab76a940aad13f06e9f3f20ab0ddd3bae6f64dfd22e932a07abdb0736e"
+    }
+  ],
+  "segments": []
+}

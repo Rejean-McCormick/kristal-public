@@ -1,0 +1,421 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:king-klown-media",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:f237db441d6946b45b7cc06a82e96afe3f43d00dbb6192274e27785bb4f599ba"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/aliases.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1234,
+      "sha256": "sha256:0eba3e707f1fac13ed12e8ac75664d921427df584237bb1359f5f77acb9ce620"
+    },
+    {
+      "path": ".kristal/v9/materializations/contradictions.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1270,
+      "sha256": "sha256:f93b60706ff9d394740e445d2ecd863d884b76aa0a9cbd42fa0d09c09059103b"
+    },
+    {
+      "path": ".kristal/v9/materializations/core.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1240,
+      "sha256": "sha256:5f804afbc6478d63efd717a72b94de52dfcdf8ddbde6d138dcc7bba7e7fbe7df"
+    },
+    {
+      "path": ".kristal/v9/materializations/creator-clarifications.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1296,
+      "sha256": "sha256:816a9376b697797668909c7ea721767be20617c40ca1b4eb275d2c97e380951b"
+    },
+    {
+      "path": ".kristal/v9/materializations/entities.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1238,
+      "sha256": "sha256:fe3331f9c7616951bef74a6f1546233dde7774d5f5413b22dda9eae7b5c54a92"
+    },
+    {
+      "path": ".kristal/v9/materializations/events.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1254,
+      "sha256": "sha256:93632f3e07e52a13ee5d127ef3baf8ccf90e74a75bba178f6d2b6b5eb9ca37c2"
+    },
+    {
+      "path": ".kristal/v9/materializations/media.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1266,
+      "sha256": "sha256:0c2d4b9b6149670bd4210c5454f03e88a4f9ab31ca72917aeacfa69490c6beaf"
+    },
+    {
+      "path": ".kristal/v9/materializations/reader-policy.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1257,
+      "sha256": "sha256:2b91d1d1cf663e30497f4c6001cda11acc0927bf793bd7d538b1484ff0a66dde"
+    },
+    {
+      "path": ".kristal/v9/materializations/works.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1227,
+      "sha256": "sha256:803b6314914accb5b82071fc9f6f9a080c7e1401dd446d844baf5db855bdf4fe"
+    },
+    {
+      "path": "canon/artifacts/aliases.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 16797,
+      "sha256": "sha256:8b45d73e0a844ceab0249825252770e2d50e9c39c0370820b662ae995b627161",
+      "artifact_id": "urn:kristal:king-klown:aliases",
+      "logical_contract": {
+        "id": "king-klown.alias-registry",
+        "version": "1.1"
+      }
+    },
+    {
+      "path": "canon/artifacts/contradictions.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1930,
+      "sha256": "sha256:a335b3029354b8261387599e0e4de50a987ff843908ac320983619ecdb295bd8",
+      "artifact_id": "urn:kristal:king-klown:contradictions",
+      "logical_contract": {
+        "id": "king-klown.contradiction-register",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/artifacts/core.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 193577,
+      "sha256": "sha256:deaacb0da1b05a36e14541af5a06cc75e95747e628b595bf0b7e0ac8a3939f7d",
+      "artifact_id": "urn:kristal:king-klown:epistemic-core",
+      "logical_contract": {
+        "id": "king-klown.epistemic-claims",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/artifacts/creator-clarifications.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1724,
+      "sha256": "sha256:65944f3c9dc1470afb3a740e456eaf2f7fed815f0e4865ef35218bfe976d22f7",
+      "artifact_id": "urn:kristal:king-klown:creator-clarifications",
+      "logical_contract": {
+        "id": "king-klown.creator-clarifications",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/artifacts/entities.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2123,
+      "sha256": "sha256:02fbed2233936981c1c0a9789dc060dbc531953d2ebfe713a9ca7a0053f003e8",
+      "artifact_id": "urn:kristal:king-klown:entities",
+      "logical_contract": {
+        "id": "king-klown.entity-registry",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/artifacts/events.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 51128,
+      "sha256": "sha256:722acd755bd6fe4835e1da2f9d77b7045ce1e95260625c7c430603b953ae4767",
+      "artifact_id": "urn:kristal:king-klown:universe-events",
+      "logical_contract": {
+        "id": "king-klown.universe-event-ledger",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/artifacts/media.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 122192,
+      "sha256": "sha256:449d13ca219573ad6b6a897fedf582597ccef5d11b26f65e5f194a01d96fca68",
+      "artifact_id": "urn:kristal:king-klown:media-semantic-layer",
+      "logical_contract": {
+        "id": "king-klown.media-semantic-layer",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/artifacts/reader-policy.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2027,
+      "sha256": "sha256:01f143bdcf8afc0427f54d0bdeff8e5acc6bb47def99ba787734270296e55182",
+      "artifact_id": "urn:kristal:king-klown:reader-policy",
+      "logical_contract": {
+        "id": "king-klown.reader-policy",
+        "version": "4.2"
+      }
+    },
+    {
+      "path": "canon/artifacts/works.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 6652,
+      "sha256": "sha256:4b68503955f2e8a28152647d5783af1ae7697c39a8e2c01185ae4b5850328a25",
+      "artifact_id": "urn:kristal:king-klown:works",
+      "logical_contract": {
+        "id": "king-klown.works-registry",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 11208,
+      "sha256": "sha256:1495809d0f87a8ee2ebbdbc040e3f1f97bad37d3e777e7f63a01fedbd0dcb617"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1191,
+      "sha256": "sha256:c0523cb2b3d9c656935ef483243505d008d0fc0386994a1d4c4c907000332819"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1417,
+      "sha256": "sha256:e05d8085e38d12e0fae882544a81d9b743ed84a8a848752674afeb68facea2ac"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1942,
+      "sha256": "sha256:c26921c7df0f3f7a57a88af7dfc6246d0cb3841c24d49bb5d800a6b9e9e4d9b4"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1514,
+      "sha256": "sha256:229ff8bab23bef4d40587dbd26000528c8eb39eb490b3f79a5fd031ebbc6361c"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1396,
+      "sha256": "sha256:bd007cdee33e474e8c82b4e673d3c007558a9aaae15db5fef27426ceaef646b8"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 843,
+      "sha256": "sha256:aaee4c338821ab8a547c6a7b16cac82b3cf9df6241f8944944902618c648571b"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1581,
+      "sha256": "sha256:3027a77040e6187183a5af365923f50b2988d3e75752fe67b3c82c02e1bae032"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 939,
+      "sha256": "sha256:476c193336a97244661a891f2d8c75ed1c4b731edef47050f4738260c8a1ce8d"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 4123,
+      "sha256": "sha256:dbf66be573c303595377e7541aa98501337b02eb6c40bdea575103193f8a128d"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 853,
+      "sha256": "sha256:460b19f66331c285ab3c35ff4f343e29a3c51222fe7b01c003a2eb1e7637f450"
+    },
+    {
+      "path": "docs/PROFILE_NOTES.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 292,
+      "sha256": "sha256:eaa0e9d0e23492212a25a084cae63b5e23dbfca6c1e20aa5e9d6221be8fee5c3"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 2998,
+      "sha256": "sha256:6c4f663df10aaa24a2764dcb491e455ac0e510dcbafa00e9314f35f795dc945f"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 4423,
+      "sha256": "sha256:f07e6f0d59f03e1da4cf0868d09941224398da7572c1fdca35b245a7ebfeee9d",
+      "state_ref": "urn:kristal:state:king-klown-media",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:f237db441d6946b45b7cc06a82e96afe3f43d00dbb6192274e27785bb4f599ba"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/aliases.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:aliases",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 16797,
+      "sha256": "sha256:8b45d73e0a844ceab0249825252770e2d50e9c39c0370820b662ae995b627161",
+      "locator": ".kristal/v9/artifacts/aliases.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/aliases.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:8b45d73e0a844ceab0249825252770e2d50e9c39c0370820b662ae995b627161",
+      "verified_size": 16797
+    },
+    {
+      "manifest": ".kristal/v9/materializations/contradictions.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:contradictions",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 1930,
+      "sha256": "sha256:a335b3029354b8261387599e0e4de50a987ff843908ac320983619ecdb295bd8",
+      "locator": ".kristal/v9/artifacts/contradictions.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/contradictions.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:a335b3029354b8261387599e0e4de50a987ff843908ac320983619ecdb295bd8",
+      "verified_size": 1930
+    },
+    {
+      "manifest": ".kristal/v9/materializations/core.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:epistemic-core",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 193577,
+      "sha256": "sha256:deaacb0da1b05a36e14541af5a06cc75e95747e628b595bf0b7e0ac8a3939f7d",
+      "locator": ".kristal/v9/artifacts/core.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/core.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:deaacb0da1b05a36e14541af5a06cc75e95747e628b595bf0b7e0ac8a3939f7d",
+      "verified_size": 193577
+    },
+    {
+      "manifest": ".kristal/v9/materializations/creator-clarifications.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:creator-clarifications",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 1724,
+      "sha256": "sha256:65944f3c9dc1470afb3a740e456eaf2f7fed815f0e4865ef35218bfe976d22f7",
+      "locator": ".kristal/v9/artifacts/creator-clarifications.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/creator-clarifications.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:65944f3c9dc1470afb3a740e456eaf2f7fed815f0e4865ef35218bfe976d22f7",
+      "verified_size": 1724
+    },
+    {
+      "manifest": ".kristal/v9/materializations/entities.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:entities",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 2123,
+      "sha256": "sha256:02fbed2233936981c1c0a9789dc060dbc531953d2ebfe713a9ca7a0053f003e8",
+      "locator": ".kristal/v9/artifacts/entities.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/entities.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:02fbed2233936981c1c0a9789dc060dbc531953d2ebfe713a9ca7a0053f003e8",
+      "verified_size": 2123
+    },
+    {
+      "manifest": ".kristal/v9/materializations/events.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:universe-events",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 51128,
+      "sha256": "sha256:722acd755bd6fe4835e1da2f9d77b7045ce1e95260625c7c430603b953ae4767",
+      "locator": ".kristal/v9/artifacts/events.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/events.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:722acd755bd6fe4835e1da2f9d77b7045ce1e95260625c7c430603b953ae4767",
+      "verified_size": 51128
+    },
+    {
+      "manifest": ".kristal/v9/materializations/media.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:media-semantic-layer",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 122192,
+      "sha256": "sha256:449d13ca219573ad6b6a897fedf582597ccef5d11b26f65e5f194a01d96fca68",
+      "locator": ".kristal/v9/artifacts/media.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/media.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:449d13ca219573ad6b6a897fedf582597ccef5d11b26f65e5f194a01d96fca68",
+      "verified_size": 122192
+    },
+    {
+      "manifest": ".kristal/v9/materializations/reader-policy.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:reader-policy",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 2027,
+      "sha256": "sha256:01f143bdcf8afc0427f54d0bdeff8e5acc6bb47def99ba787734270296e55182",
+      "locator": ".kristal/v9/artifacts/reader-policy.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/reader-policy.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:01f143bdcf8afc0427f54d0bdeff8e5acc6bb47def99ba787734270296e55182",
+      "verified_size": 2027
+    },
+    {
+      "manifest": ".kristal/v9/materializations/works.materialization.json",
+      "source_artifact_id": "urn:kristal:king-klown:works",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/vnd.kristal.logical-artifact+json",
+      "size": 6652,
+      "sha256": "sha256:4b68503955f2e8a28152647d5783af1ae7697c39a8e2c01185ae4b5850328a25",
+      "locator": ".kristal/v9/artifacts/works.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/works.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:4b68503955f2e8a28152647d5783af1ae7697c39a8e2c01185ae4b5850328a25",
+      "verified_size": 6652
+    }
+  ]
+}

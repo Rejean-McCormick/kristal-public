@@ -1,0 +1,112 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:kristal-electricalengineering",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:ba2ca177fa9738f7634eda20f1ba346d9cd1621c9e67908da60588763c3686bb"
+  },
+  "files": [
+    {
+      "path": "canon/domain/portable-epistemic-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 189580,
+      "sha256": "sha256:8e85b98997b06fa0d4a7c46d09c005d8cb3d310a1545558f678fa0467679202c",
+      "artifact_id": "urn:kristal:artifact:kristal-electricalengineering:portable-epistemic-state",
+      "logical_contract": {
+        "id": "kristal.portable-epistemic-state",
+        "version": "6.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 1111,
+      "sha256": "sha256:5c31d40a72b6bd9b02795697cedce1e89da3c02cd93f0c5c6ced272090ebd9b1"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 685,
+      "sha256": "sha256:0271559e7bc61e911a9138585067849c14e0687cd101b13e3a4039ea919ffa65"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 638,
+      "sha256": "sha256:c8b6d04da0f61ff4d1e86e9b48a5da6ac70bcd135dcf6e577fd0b0ef3653bd4a"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 667,
+      "sha256": "sha256:0d66e36715c137883e54f2d1ab7aad5ec472e73b8e4aee1850a9046fef0b9e42"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 693,
+      "sha256": "sha256:50c9a10788b3ce1c3bf297331cc2fd25b3da7653d5560cedd2ebbf95cb8cbca1"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1330,
+      "sha256": "sha256:5f64f117dbe41173a73e58fe1645a1ea5beb4d94130cd8b4831b5f57dbda85c0"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 503,
+      "sha256": "sha256:8c48efb810a447ef15c1f589b49c33852f09f261aa79d359309091ce8c38edcf"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 801,
+      "sha256": "sha256:bfc7069b04b3478f058dd91d8110cbd91098bcb7aa72a297aa05eb349a0026e0"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 381,
+      "sha256": "sha256:047b78cc0d9f3f2312c9bba824e2a6063ea5048bf5140975657069035b82ed00"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3932,
+      "sha256": "sha256:c60870f4b3f8d40ca66dbe5a9a5af23a88eb9f21ef4664f3d6a646fcac70aea4"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 3750,
+      "sha256": "sha256:40b4c4f2b4df534b5b1bee7c335c079b2b83f128b7986e54b2dc69b2042b729b"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 780,
+      "sha256": "sha256:45e0d06d68a6cfec75332347f2a20959106c71f497737b2043dfbc27306e98e9",
+      "state_ref": "urn:kristal:state:kristal-electricalengineering",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:ba2ca177fa9738f7634eda20f1ba346d9cd1621c9e67908da60588763c3686bb"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

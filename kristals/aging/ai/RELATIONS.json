@@ -1,0 +1,34 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:aging:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:b3a52020a6774ff8d58615d11366ec994d8d81aa8f3519500c959cf285b91903"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:aging:artifact:canonical-state",
+      "logical_contract": {
+        "id": "aging.canonical-knowledge-state",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:236ec7ded44b6e03ac10e11ef29f528790a056f5756b870129936d390c3f7e93"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:aging:artifact:identity-registry",
+      "logical_contract": {
+        "id": "aging.identity-registry",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2b8a8ae4bb83dfabf77220b9413eed8418fdd2ad6ce7c112688dcfc45883bd55"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

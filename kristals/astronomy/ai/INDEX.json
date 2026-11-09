@@ -1,0 +1,484 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:astronomy:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:ca38ce41bcc7a5e817c4129686e72119980d962d1f7097bcd76b49813c82db17"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1317,
+      "sha256": "sha256:7647c812e10b8398c7252bf2cccdd1413da4bd0b1f830d29aa71d82c4650582b"
+    },
+    {
+      "path": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1316,
+      "sha256": "sha256:3912289ad2f6fb399c320b44769b0f048c486aca676804c3852bf41cef7e7da3"
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 3861,
+      "sha256": "sha256:b9f8dcd538853c22af5feae031761a0282ffb44234595bada7c7ff076085ac00"
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 355,
+      "sha256": "sha256:83b1f2c71db342e89a6e7851966e48ab90efff83eec2b497787c22410c9b2ab6",
+      "artifact_id": "urn:kristal:astronomy:artifact:canonical-state",
+      "logical_contract": {
+        "id": "astronomy.canonical-knowledge-state",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/identity_registry.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 383,
+      "sha256": "sha256:21999232e27461cd02f6d28e0115d4b88a631e86e9a19ce50a402aa4d7e61486",
+      "artifact_id": "urn:kristal:astronomy:artifact:identity-registry",
+      "logical_contract": {
+        "id": "astronomy.identity-registry",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 276158,
+      "sha256": "sha256:87783821cff844eecf7b0d68a746655650cbe295c1e2ec207db93d931f756222",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2310,
+      "sha256": "sha256:f31ee108acc9802da3ec890df566a81bbe04e2adcf493de85d8efe85fc9d3f14",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/legacy-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 32428,
+      "sha256": "sha256:9a1d22b81c4b1064a6077d5acd9d8a657f01f8351c5689606c0e7a2ea819ab39"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2246,
+      "sha256": "sha256:28557698291002a4fad03e13cd0e8ad4a6e7130159a817080789efb01165276a"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 7711,
+      "sha256": "sha256:d0df27307cd223ead2cf58f592e4019ce67e42b2d5fad1bc99837d17e3ecf35c"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 8427,
+      "sha256": "sha256:1e967f58044199155ecba6f02931f67512e7bc6e348b7e0e7e80df294d3f6aba"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-fr.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 8520,
+      "sha256": "sha256:e2f3f93834c4aa48f5f5b702563f406be71927f257394b178f844fb892444685"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/dictionaries/wikidata-und.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 104255,
+      "sha256": "sha256:77b15e26e28fcdf1a9a1c0fab8a3731b1cad71a2d9c598147aa1d8fd7cf577d4"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2821314,
+      "sha256": "sha256:a4f844e2ebad4359a4281e9c86b62e3c5c3d6335d02847bc3ad98836f44ae7a4",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/import-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 657,
+      "sha256": "sha256:092f4d8da34950a14b2d7092b27f4966547b207b9c06513e684c5a06fb97e643",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 451766,
+      "sha256": "sha256:2828ddf641d3cd6ea16fa3857a79481c30a006ff3064bf9027f49816f5bf7a8d",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-20261026-rebuilt-v2/source-ledger.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2942430,
+      "sha256": "sha256:578755faf3b65da0ed97580a1e14f3bdbb9394a9f2e3341d34b01c7830b3d4fe",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 276758,
+      "sha256": "sha256:f14300f3b6722fb7baf6a8da60e90c210046808c1c69cd78e3fe535fb6dd8d79",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2758,
+      "sha256": "sha256:1c12deeef20613801b7581a9f7433a1721924e6075d3b666207b6515081b711d",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/legacy-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 32428,
+      "sha256": "sha256:9a1d22b81c4b1064a6077d5acd9d8a657f01f8351c5689606c0e7a2ea819ab39"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 4778,
+      "sha256": "sha256:29c30287cbdd1191db6417370d1286c8aa972becf491e4cbc7147ae15b653326"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 7711,
+      "sha256": "sha256:d0df27307cd223ead2cf58f592e4019ce67e42b2d5fad1bc99837d17e3ecf35c"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/structured-fields-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 6017,
+      "sha256": "sha256:3ac5cf81e9d683bac670cb753474b14d7a7fa9fd1ae1b2b7e5b6dbb94fa0f0ef"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-en.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 8427,
+      "sha256": "sha256:1e967f58044199155ecba6f02931f67512e7bc6e348b7e0e7e80df294d3f6aba"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-fr.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 8520,
+      "sha256": "sha256:e2f3f93834c4aa48f5f5b702563f406be71927f257394b178f844fb892444685"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/dictionaries/wikidata-und.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 104255,
+      "sha256": "sha256:77b15e26e28fcdf1a9a1c0fab8a3731b1cad71a2d9c598147aa1d8fd7cf577d4"
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2966827,
+      "sha256": "sha256:5cd57575160bf6c576ee45d01e49d4fb52e10381a6621f1038634ca0e248da31",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 682808,
+      "sha256": "sha256:beda5841d24f2b0e3632789fd0bb5954db4f08a6005ae23436f76868105bf24b",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/wikidata-structured-20261026-v3/structured-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 110446,
+      "sha256": "sha256:8ffa9e1496fe550a44705a31a6b7cfac7c9b292f5610aedc50544dca3c7bd43c",
+      "artifact_id": "kristal:bulk:kristal-astronomy:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/epistemic/legacy-build-input-editorial-sources.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2837,
+      "sha256": "sha256:c9bffd48fead64ca4b869fd49962028c509e86b9d8719df389201810d2d8b5f0"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 7715,
+      "sha256": "sha256:2ba14293f861075bd465430403c4b1eced595d4be5cea69a9a6c9ff0755485e0"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 526,
+      "sha256": "sha256:a6e1728adb40bbc0206d5ba62b572b5ac68576e2ede55d4aa6e01b87385b7632"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 489,
+      "sha256": "sha256:3cf7b5aa0bcaddcaf56bb556ff8307de0ca458870ff71cd1e48256000a782794"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 750,
+      "sha256": "sha256:d7590030692f3ea54a434f228f3f2112059126b787fdda9b034af76b06b78a2a"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 671,
+      "sha256": "sha256:970d38a1a4773200ac0e2ce08456efcbaec36464f275d975efc2fa16a46f5a9f"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1006,
+      "sha256": "sha256:762607b69a256acf3653252b3c63f255f51e7ce5065cb6d6b23ed3487506c668"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 559,
+      "sha256": "sha256:67cb1954853a6fc11704d79a39fd74e6d9805208b04e3272148492915ebccc46"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 672,
+      "sha256": "sha256:1aae62857b1969bd93b0693227cc5e66519e144e7774bf245e270fdd5f5faaa3"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 553,
+      "sha256": "sha256:8b08ab5a1da10d84143f0d7637134e182682df8d92f403552fca7ad63c84bbea"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3649,
+      "sha256": "sha256:6f76d5d6e89bd6de889e203bc88b695f57a2f1c50c4990141fe1a2484c502a59"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 13618,
+      "sha256": "sha256:ff18dd5fe567b682371acad611bf3bf51e0a56e6fed637474936713284d08314"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 5609,
+      "sha256": "sha256:bde4373730fd54e614457f2b60032cd26bf1d98cbc22916862d0532d33cfa8f8",
+      "state_ref": "urn:kristal:astronomy:state",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:ca38ce41bcc7a5e817c4129686e72119980d962d1f7097bcd76b49813c82db17"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:canonical-state",
+      "kind": "segment",
+      "key": "knowledge-base/corpus/astronomy.kristal-state.json",
+      "media_type": "application/json",
+      "size": 293715,
+      "sha256": "sha256:95f2a66fbf9b21bb5bad6b9d6d01be128077437ec3c2dfc6e7b44b322ae4bec9",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/identity-registry.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:identity-registry",
+      "kind": "segment",
+      "key": "knowledge-base/corpus/astronomy.referent-registry.json",
+      "media_type": "application/json",
+      "size": 41630,
+      "sha256": "sha256:edd92d895bbcaa5f11533ef42e030a33a0a74e7e5fa7dc16d1de8764a228f931",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "external-source-library/source-store.json",
+      "media_type": "application/json",
+      "size": 7136,
+      "sha256": "sha256:3e70d033ca087ad6d2e24d3e0fd2baa47237b8f05d2efbecd2bcac5f595dd78b",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/domain_ontology.json",
+      "media_type": "application/json",
+      "size": 11720,
+      "sha256": "sha256:03e4300bfca0846267285312a397b7a690ccb5de4ebec03b4decebdf92200e59",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/formation_evolution.json",
+      "media_type": "application/json",
+      "size": 3392,
+      "sha256": "sha256:4ce1ef4a056513cca1672055d78f975a6d9dc1cc9e41afd46cc275498513fae1",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/measurement_model.json",
+      "media_type": "application/json",
+      "size": 4429,
+      "sha256": "sha256:addb94dd9365c418a5c06315812a42623e835d1fa8e67db168e1b18cdf085fe4",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/observation_methods.json",
+      "media_type": "application/json",
+      "size": 5649,
+      "sha256": "sha256:4c05821db539716123309bd2a70e27f3d0a75838ba57d466fd78f17272c15f53",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/reference_anchors.json",
+      "media_type": "application/json",
+      "size": 915,
+      "sha256": "sha256:4b3d6bec9b6c731892d431c6c0ec50d2c070f840be5d9a6997ac49434d274860",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:astronomy:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/solar_system_reference.json",
+      "media_type": "application/json",
+      "size": 19333,
+      "sha256": "sha256:4b8200a308a361ae0e0fa80bf8be06cec97b653273d2350ad504f1a19df30288",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    }
+  ]
+}

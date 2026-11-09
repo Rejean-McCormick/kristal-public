@@ -1,0 +1,118 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:sociology",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:97117dbea1dff2853b00a053eff77df46b1209ab047b3c5349515a3d31baa086"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:sociology:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      },
+      "authority_ref": "urn:kristal:authority:sociology",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2339a68942c0c67faf34bb97ba78c3a289101be14b8743bd3f409246e4c8ce67"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:sociology:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b219ef2201342f72adef46130c46e33adb57dfb7e6bc38d64d62b064d3535f82"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:sociology:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c4399bcad64f61e56d5ca8891d7a9eeafb8d1be78b8a648f7f4ee12715bd779c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:sociology:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:79694365650e82e44b552981f697614b4389e26af4553e54dc41b1e5bbc79745"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:sociology:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9aabe607951af6cd7f4de80831f66ee52e32dcf3aee66998cb458c1de62e9cad"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Sociology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6abcac5cc62f491350d9c6414a5afc76af4ad87b5a3c3947376b9937915ca89c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Sociology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:737fdcc419dfdaa6bda87fd771d59042e918c4f75fddc17814b27d45a9f38c3e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Sociology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e9aba7d0fd2acc753ef4425c84cd7d471a55a6e374b956dea562b8e8d200c73e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Sociology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:83d4247ea91b6f98952a8e97598ac39837a66abe9d255db2720b2f45220cc534"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "kristal_ref": "Kristal-Sociology",
+    "domain": "sociology"
+  },
+  "authority_ref": "urn:kristal:authority:sociology"
+}

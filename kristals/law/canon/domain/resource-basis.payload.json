@@ -1,0 +1,88 @@
+{
+  "domain": "law",
+  "domain_version": "1.0.0",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:law:resource:portable_epistemic_state",
+      "role": "portable_epistemic_state",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:afe292266a274c382363b0d4ef760475d219844225277b0018721d599d9c6804"
+      },
+      "legacy_schema_version": "6.0",
+      "legacy_artifact_type": "kristal_state"
+    },
+    {
+      "resource_id": "urn:kristal:law:resource:identity_registry",
+      "role": "identity_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:fdcb37824c8317a19c70bb96f4d567b986a0fc66892fdecb3fbe8432293518a1"
+      },
+      "legacy_schema_version": "1.0",
+      "legacy_artifact_type": "law_referent_registry"
+    },
+    {
+      "resource_id": "urn:kristal:law:resource:source_semantics",
+      "role": "source_semantics",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:19dd709194d94f51860528fdf6c17a400603a6ba56403db37e64e9d6c68caddf"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:law:resource:jurisdiction_model",
+      "role": "jurisdiction_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:58363331f9fca3cad30f20b583ed76bb7d8fa4087971ce5d3d425c7ec44de263"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:law:resource:temporal_validity_model",
+      "role": "temporal_validity_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:0491524e2cff9359dd88f0eed3cb87d12d31d1bf2586e167d634643832ffb030"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:law:resource:norm_model",
+      "role": "norm_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:e51fcd117f525f6784c76ff57998cc2b038be30e6711f580f6e740aa233f0950"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:law:resource:decision_model",
+      "role": "decision_model",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:0381e5bfdb1390684ef08e3fae8dbeab48014bf99ee284d47813c10911bcb25d"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:law:resource:positive_law_snapshots",
+      "role": "positive_law_snapshots",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:46f846581be7443d3a57103a507c02f68a8eba8921254a9e6c3c626c697b99ef"
+      }
+    }
+  ],
+  "semantic_boundaries": [
+    "source_text != norm_reconstruction != decision != application",
+    "jurisdiction_and_time are mandatory_context",
+    "application_to_facts requires_human_review"
+  ]
+}

@@ -1,0 +1,6754 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "reference",
+  "created_at": "2026-10-02T22:34:00Z",
+  "updated_at": "2026-10-02T22:34:00Z",
+  "applicability": {
+    "domain": "mécanismes légaux de pouvoir",
+    "subdomain": "Pays-Bas / national / provinces / communes / waterschappen / scolaire / justice / interfaces Royaume, UE et traités",
+    "jurisdiction": "Pays-Bas",
+    "language": "fr",
+    "time_window": {
+      "as_of": "2026-10-02"
+    }
+  },
+  "source_refs": [
+    {
+      "source_id": "SRC-NL-CONST-2023",
+      "title": "The Constitution of the Kingdom of the Netherlands 2023",
+      "url": "https://open.overheid.nl/documenten/ronl-faa96875fef77af167a9133bd3625c0e9b45fa89/pdf"
+    },
+    {
+      "source_id": "SRC-NL-CONST-CHARTER",
+      "title": "Constitution and Charter",
+      "url": "https://www.government.nl/themes/government-and-democracy/constitution/constitution-and-charter"
+    },
+    {
+      "source_id": "SRC-NL-MONARCHY",
+      "title": "Constitutional monarchy",
+      "url": "https://www.government.nl/themes/government-and-democracy/constitution/constitutional-monarchy"
+    },
+    {
+      "source_id": "SRC-NL-GOV",
+      "title": "About the government",
+      "url": "https://www.government.nl/government/about-the-government"
+    },
+    {
+      "source_id": "SRC-NL-CABINET",
+      "title": "How the Dutch Cabinet works",
+      "url": "https://www.government.nl/government/how-the-dutch-cabinet-works"
+    },
+    {
+      "source_id": "SRC-NL-GOV-PARL",
+      "title": "Relationship between government and parliament",
+      "url": "https://www.government.nl/government/about-the-government/relationship-between-government-and-parliament"
+    },
+    {
+      "source_id": "SRC-NL-DUALISM",
+      "title": "Relationship between government and parliament — dualism",
+      "url": "https://www.government.nl/themes/government-and-democracy/parliament/relationship-between-government-and-parliament"
+    },
+    {
+      "source_id": "SRC-NL-HOUSES",
+      "title": "The House of Representatives and Senate",
+      "url": "https://www.government.nl/themes/government-and-democracy/parliament/senate-and-house-of-representatives"
+    },
+    {
+      "source_id": "SRC-NL-PARLIAMENT",
+      "title": "Parliament",
+      "url": "https://www.government.nl/themes/government-and-democracy/parliament"
+    },
+    {
+      "source_id": "SRC-NL-FORMATION",
+      "title": "Forming a new government",
+      "url": "https://www.government.nl/government/about-the-government/forming-a-new-government"
+    },
+    {
+      "source_id": "SRC-NL-RVS-ADVICE",
+      "title": "Raad van State in het kort — Afdeling advisering",
+      "url": "https://www.raadvanstate.nl/overrvs/raad-state-kort/"
+    },
+    {
+      "source_id": "SRC-NL-RVS-BROCHURE",
+      "title": "Advising on legislation and governance and adjudicating in administrative law disputes",
+      "url": "https://www.raadvanstate.nl/publish/library/14/brochure_raad_van_state_2019_engels.pdf"
+    },
+    {
+      "source_id": "SRC-NL-JUDICIARY",
+      "title": "Judicial system and legislation",
+      "url": "https://www.rechtspraak.nl/english/judicial-system-and-legislation"
+    },
+    {
+      "source_id": "SRC-NL-ADMIN-LAW",
+      "title": "Administrative law",
+      "url": "https://www.rechtspraak.nl/english/judicial-system-and-legislation/administrative-law"
+    },
+    {
+      "source_id": "SRC-NL-ADMIN-TOP",
+      "title": "Specialized Supreme Administrative Courts",
+      "url": "https://www.rechtspraak.nl/english/judicial-system-and-legislation/administrative-law/specialized-supreme-administrative-courts"
+    },
+    {
+      "source_id": "SRC-NL-SUPREME",
+      "title": "Supreme Court",
+      "url": "https://www.rechtspraak.nl/english/judicial-system-and-legislation/supreme-court"
+    },
+    {
+      "source_id": "SRC-NL-PUBADMIN",
+      "title": "Public administration",
+      "url": "https://www.government.nl/themes/government-and-democracy/public-administration"
+    },
+    {
+      "source_id": "SRC-NL-LOCAL",
+      "title": "Provinces, municipalities and water authorities",
+      "url": "https://www.government.nl/themes/government-and-democracy/public-administration/provinces-municipalities-and-water-authorities"
+    },
+    {
+      "source_id": "SRC-NL-PROV-EXEC",
+      "title": "The tasks of provincial executive members",
+      "url": "https://www.government.nl/themes/government-and-democracy/provinces/provincial-executive-members/the-tasks-of-provincial-executive-members"
+    },
+    {
+      "source_id": "SRC-NL-COMMISSIONER",
+      "title": "King’s Commissioners’ tasks",
+      "url": "https://www.government.nl/themes/government-and-democracy/provinces/king%E2%80%99s-commissioner/king%E2%80%99s-commissioners%E2%80%99-tasks"
+    },
+    {
+      "source_id": "SRC-NL-PROV-APPT",
+      "title": "Appointment and resignation of provincial executive members",
+      "url": "https://www.government.nl/themes/government-and-democracy/provinces/provincial-executive-members/appointment-and-resignation-of-executive-members"
+    },
+    {
+      "source_id": "SRC-NL-LOCAL-SUPERVISION",
+      "title": "Supervision of lower-tier authorities",
+      "url": "https://www.government.nl/themes/government-and-democracy/provinces/supervision-of-lower-tier-authorities"
+    },
+    {
+      "source_id": "SRC-NL-MUNICIPAL-TASKS",
+      "title": "Municipalities’ tasks",
+      "url": "https://www.government.nl/themes/government-and-democracy/municipalities/municipalities-tasks"
+    },
+    {
+      "source_id": "SRC-NL-MUNICIPAL-COUNCIL",
+      "title": "Members of the municipal council",
+      "url": "https://www.government.nl/themes/government-and-democracy/municipalities/members-of-the-municipal-council"
+    },
+    {
+      "source_id": "SRC-NL-MUNICIPAL-EXEC",
+      "title": "Tasks of portfolio holders",
+      "url": "https://www.government.nl/themes/government-and-democracy/municipalities/portfolio-holders/tasks-of-portfolio-holders"
+    },
+    {
+      "source_id": "SRC-NL-MAYOR",
+      "title": "Mayors’ Tasks",
+      "url": "https://www.government.nl/themes/government-and-democracy/municipalities/mayors/mayors-tasks"
+    },
+    {
+      "source_id": "SRC-NL-MAYOR-APPT",
+      "title": "Selection, appointment, dismissal and resignation of mayors",
+      "url": "https://www.government.nl/themes/government-and-democracy/municipalities/mayors/selection-appointment-dismissal-and-resignation"
+    },
+    {
+      "source_id": "SRC-NL-WATER",
+      "title": "Water management in the Netherlands",
+      "url": "https://www.government.nl/themes/nature-and-the-environment/water-management/water-management-in-the-netherlands"
+    },
+    {
+      "source_id": "SRC-NL-EDU-FREEDOM",
+      "title": "Freedom of education",
+      "url": "https://www.government.nl/themes/education/freedom-of-education"
+    },
+    {
+      "source_id": "SRC-NL-EDU-PUBLICPRIVATE",
+      "title": "Public-authority and private schools",
+      "url": "https://www.government.nl/themes/education/freedom-of-education/public-authority-and-private-schools"
+    },
+    {
+      "source_id": "SRC-NL-EDU-MAINT",
+      "title": "Maintenance and cleaning of primary schools",
+      "url": "https://www.government.nl/themes/education/primary-education/maintenance-and-cleaning-of-primary-schools"
+    },
+    {
+      "source_id": "SRC-NL-EDU-TARGETS",
+      "title": "Subjects and attainment targets in primary education",
+      "url": "https://www.government.nl/themes/education/primary-education/subjects-and-attainment-targets-in-primary-education"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "NL-POUVOIR-001",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:office-holder"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Une charge publique, une institution et la personne qui l’occupe ne doivent pas être confondues; un changement de titulaire n’altère pas à lui seul la compétence juridique de l’office.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Pays-Bas"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-002",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:authority-influence"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "L’influence politique, partisane ou administrative ne vaut pas, à elle seule, compétence juridique pour accomplir un acte attribué à un organe déterminé.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Pays-Bas"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-003",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:norm-types"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Une loi formelle (wet), un décret royal, une algemene maatregel van bestuur, un règlement ministériel et une ordonnance provinciale ou municipale sont des catégories d’actes distinctes dont l’auteur et le fondement ne sont pas interchangeables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Pays-Bas"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-004",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:external-boundary"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Ce Kristal décrit uniquement le droit interne néerlandais et l’interface constitutionnelle nationale avec les traités et organisations internationales; il n’encode pas le contenu substantiel du droit international ni du droit de l’Union européenne.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Pays-Bas"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-005",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:commercial-policy"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Une politique commerciale privée ou interne à un projet ne doit pas être représentée comme une interdiction du droit néerlandais sans source juridique néerlandaise expresse.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Pays-Bas"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-006",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:kingdom-country"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Royaume des Pays-Bas et le pays Pays-Bas ne sont pas des niveaux interchangeables: le Statuut règle les relations constitutionnelles entre les pays du Royaume, tandis que ce corpus se concentre sur le pays Pays-Bas et son ordre interne.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Royaume / Pays-Bas"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-007",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:caribbean-scope"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La version 0.1.0 n’inventorie pas en détail les organes et compétences propres de Bonaire, Saint-Eustache et Saba; elle conserve la structure nationale et la gouvernance provinciale, municipale et des waterschappen comme cœur comparatif.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Pays-Bas"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-008",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:statuut-koninkrijk"
+        },
+        "predicate": "norm.has_effect",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans l’ordre constitutionnel du Royaume, la Constitution néerlandaise est subordonnée au Statuut voor het Koninkrijk der Nederlanden, qui règle les relations entre les pays du Royaume.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Royaume / interface constitutionnelle"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-009",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:grondwet"
+        },
+        "predicate": "norm.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Grondwet fixe les droits fondamentaux et les règles essentielles d’organisation des pouvoirs publics du pays Pays-Bas.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-CHARTER",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-010",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:parlementaire-democratie"
+        },
+        "predicate": "governance.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les Pays-Bas sont une démocratie parlementaire dans laquelle le gouvernement est soumis au contrôle parlementaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-PARLIAMENT",
+        "SRC-NL-GOV-PARL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-011",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:monarchie-constitutionnelle"
+        },
+        "predicate": "governance.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les Pays-Bas sont une monarchie constitutionnelle; les pouvoirs du monarque sont encadrés par la Constitution et la responsabilité politique incombe aux ministres.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MONARCHY"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-012",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:grondwet-art120"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "L’article 120 interdit au juge de contrôler la constitutionnalité des lois formelles et des traités.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-CONST-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-013",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:juge-neerlandais"
+        },
+        "predicate": "institution.cannot_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Un tribunal néerlandais ne peut donc pas écarter une loi formelle au seul motif qu’il la juge contraire à la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-CONST-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-014",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:procedure:revision-constitutionnelle"
+        },
+        "predicate": "procedure.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La révision de la Constitution se déroule en deux lectures; à la seconde lecture, chacune des deux Chambres doit approuver le texte à une majorité d’au moins deux tiers des suffrages exprimés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-CONST-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-015",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:procedure:revision-constitutionnelle"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Après la loi de première lecture déclarant qu’une modification sera examinée, la Seconde Chambre élue après cette publication examine la proposition en seconde lecture avant son examen par la Première Chambre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-016",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-pays-bas"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement est composé du Roi et des ministres.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-GOV"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-017",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:roi-pays-bas"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Roi est le chef de l’État dans la monarchie constitutionnelle néerlandaise, mais les ministres, et non le Roi, sont responsables des actes du gouvernement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MONARCHY",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-018",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:roi-pays-bas"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Roi n’exerce pas une responsabilité politique autonome devant le Parlement; la responsabilité ministérielle couvre les actes du gouvernement et les actes publics du monarque.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MONARCHY"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-019",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-pays-bas"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les ministres sont politiquement responsables devant le Parlement des politiques qu’ils conduisent.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "responsabilite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "responsabilite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-GOV-PARL",
+        "SRC-NL-MONARCHY"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-020",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:premier-ministre-pays-bas"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre préside le Conseil des ministres.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-CABINET"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-021",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-ministres-nl"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "Les ministres forment ensemble le Conseil des ministres (Cabinet au sens constitutionnel de l’article 45).",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-CABINET"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-022",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-ministres-nl"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Conseil des ministres examine et décide la politique générale du gouvernement et en favorise la cohérence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-CABINET"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-023",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-pays-bas"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre et les autres ministres sont nommés et révoqués par décret royal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "nomination"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-024",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:secretaire-etat-nl"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Un secrétaire d’État peut agir avec l’autorité ministérielle dans les matières qui lui sont confiées, sous les instructions du ministre; sa responsabilité n’exclut pas celle du ministre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-GOV"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-025",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:secretaire-etat-nl"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Les secrétaires d’État sont nommés et révoqués par décret royal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "nomination"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-026",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:contresignature-nl"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les lois formelles et les décrets royaux doivent être signés par le Roi et par un ou plusieurs ministres ou secrétaires d’État.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-027",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-pays-bas"
+        },
+        "predicate": "institution.depends_on_confidence",
+        "object": {
+          "kind": "proposition",
+          "value": "Selon la règle de confiance du système parlementaire, le gouvernement et les ministres doivent conserver la confiance de la Seconde Chambre; la perte de cette confiance conduit en pratique à la démission.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "responsabilite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "responsabilite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-DUALISM",
+        "SRC-NL-GOV-PARL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-028",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-pays-bas"
+        },
+        "predicate": "institution.duty_to_inform",
+        "object": {
+          "kind": "proposition",
+          "value": "Le gouvernement doit fournir au Parlement les informations demandées dans le cadre du devoir constitutionnel d’information, sous réserve des limites constitutionnelles applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif_controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-GOV-PARL",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-029",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-pays-bas"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre ou secrétaire d’État ne peut normalement pas être simultanément membre des États généraux, sous réserve de la situation transitoire prévue après une élection pendant la formation d’un nouveau gouvernement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "equilibre_pouvoirs"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "equilibre_pouvoirs"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-DUALISM"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-030",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:procedure:formation-gouvernement"
+        },
+        "predicate": "procedure.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La procédure détaillée de formation d’un gouvernement repose largement sur le droit constitutionnel non écrit et la coutume; la Constitution règle surtout la nomination et la révocation des ministres.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel_non_ecrit"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "constitutionnel_non_ecrit"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-FORMATION",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-031",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:staten-generaal"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "Les États généraux comprennent la Seconde Chambre (Tweede Kamer) et la Première Chambre (Eerste Kamer/Sénat).",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-PARLIAMENT",
+        "SRC-NL-HOUSES"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-032",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tweede-kamer"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "La Seconde Chambre compte 150 membres directement élus.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-HOUSES"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-033",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tweede-kamer"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Seconde Chambre contrôle le gouvernement et approuve ou rejette les projets et propositions de loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif_controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-HOUSES"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-034",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tweede-kamer"
+        },
+        "predicate": "institution.can",
+        "object": {
+          "kind": "proposition",
+          "value": "La Seconde Chambre peut présenter des propositions de loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-HOUSES"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-035",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tweede-kamer"
+        },
+        "predicate": "institution.can",
+        "object": {
+          "kind": "proposition",
+          "value": "La Seconde Chambre peut amender un projet de loi avant son adoption par elle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-HOUSES"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-036",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:eerste-kamer"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "La Première Chambre compte 75 membres et son élection est indirecte; les membres des conseils provinciaux participent à cette élection selon le système applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-HOUSES"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-037",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:eerste-kamer"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Première Chambre approuve ou rejette les textes transmis par la Seconde Chambre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-HOUSES",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-038",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:eerste-kamer"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "La Première Chambre ne dispose pas du droit d’amendement sur les projets de loi qui lui sont transmis.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-HOUSES",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-039",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:eerste-kamer"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "La Première Chambre ne peut pas, à elle seule, déposer une proposition de loi ordinaire: l’initiative parlementaire appartient à la Seconde Chambre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-040",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:loi-formelle-nl"
+        },
+        "predicate": "power.is_shared",
+        "object": {
+          "kind": "proposition",
+          "value": "Les lois formelles sont établies conjointement par le Gouvernement et les États généraux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-041",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:initiative-loi-nl"
+        },
+        "predicate": "procedure.initiative",
+        "object": {
+          "kind": "proposition",
+          "value": "Les projets ou propositions de loi peuvent être présentés par ou au nom du Roi, c’est-à-dire par le Gouvernement, ou par la Seconde Chambre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-042",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:projet-gouvernemental-nl"
+        },
+        "predicate": "procedure.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Un projet de loi présenté par ou au nom du Roi est envoyé à la Seconde Chambre, sauf les cas constitutionnels d’examen en assemblée commune.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-043",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:navette-nl"
+        },
+        "predicate": "procedure.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Après adoption ou décision de présentation par la Seconde Chambre, le texte est transmis à la Première Chambre qui l’examine dans la forme reçue.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-044",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:adoption-loi-nl"
+        },
+        "predicate": "procedure.finalization",
+        "object": {
+          "kind": "proposition",
+          "value": "Un projet devient une loi formelle après adoption par les États généraux et ratification par le Roi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-045",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:publication-loi-nl"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Une loi formelle ne peut entrer en vigueur avant sa publication.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-046",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-pays-bas"
+        },
+        "predicate": "actor.cannot_make_statute_unilaterally",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement ne peut pas édicter seul une loi formelle: la procédure exige l’adoption par les deux Chambres des États généraux puis la ratification prévue par la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-HOUSES"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-047",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tweede-kamer"
+        },
+        "predicate": "actor.cannot_make_statute_unilaterally",
+        "object": {
+          "kind": "proposition",
+          "value": "La Seconde Chambre ne peut pas transformer seule un texte en loi formelle; l’approbation de la Première Chambre et la finalisation constitutionnelle restent nécessaires.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-048",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:eerste-kamer"
+        },
+        "predicate": "actor.can_block",
+        "object": {
+          "kind": "proposition",
+          "value": "La Première Chambre peut empêcher l’adoption d’un projet de loi en le rejetant.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-HOUSES"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-049",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:staten-generaal"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les États généraux contrôlent le Gouvernement en plus de leur rôle dans la législation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif_controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-PARLIAMENT",
+        "SRC-NL-GOV-PARL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-050",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:staten-generaal"
+        },
+        "predicate": "institution.can_inquire",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution reconnaît aux États généraux un droit d’enquête parlementaire, dont l’exercice est réglé par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislatif_controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-051",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:raad-van-state-advisering"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La section consultative du Conseil d’État conseille le Gouvernement sur les projets de loi gouvernementaux avant leur envoi au Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "conseil_etat"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "conseil_etat"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-RVS-ADVICE",
+        "SRC-NL-RVS-BROCHURE"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-052",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:raad-van-state-advisering"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La section consultative conseille aussi sur les algemene maatregelen van bestuur avant leur promulgation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "conseil_etat"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "conseil_etat"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-RVS-ADVICE",
+        "SRC-NL-RVS-BROCHURE"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-053",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:raad-van-state-advisering"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Elle conseille sur les lois d’approbation des traités soumis au Parlement, sans pour autant incorporer dans ce corpus le contenu matériel de ces traités.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-RVS-ADVICE",
+        "SRC-NL-RVS-BROCHURE"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-054",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:raad-van-state-advisering"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Seconde Chambre sollicite également l’avis de la section consultative sur les propositions de loi d’initiative parlementaire avant leur examen.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "conseil_etat"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "conseil_etat"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-RVS-BROCHURE"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-055",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:raad-van-state-advisering"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "L’avis du Conseil d’État ne remplace pas l’adoption d’une loi par les organes législatifs compétents.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-RVS-ADVICE",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-056",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:amvb"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les algemene maatregelen van bestuur (mesures générales d’administration) sont établies par décret royal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-057",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:amvb-penal"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Des prescriptions assorties de sanctions pénales ne peuvent être contenues dans une algemene maatregel van bestuur qu’en vertu d’une loi formelle; les peines sont déterminées par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-058",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:reglement-general-etat"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Les algemene maatregelen van bestuur et autres règlements généralement obligatoires de l’État visés par l’article 89 doivent être publiés avant leur entrée en vigueur.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-059",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:systeme-judiciaire-nl"
+        },
+        "predicate": "governance.has_multiple_orders",
+        "object": {
+          "kind": "proposition",
+          "value": "Le système juridictionnel comprend les tribunaux de district, les cours d’appel, la Cour suprême et plusieurs juridictions administratives suprêmes spécialisées.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-JUDICIARY"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-060",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:rechtbank"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les tribunaux de district connaissent en première instance de nombreuses affaires civiles, pénales et administratives selon les règles de compétence applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-JUDICIARY",
+        "SRC-NL-ADMIN-LAW"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-061",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gerechtshof"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les cours d’appel réexaminent les décisions des tribunaux de district dans les matières relevant de leur compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-JUDICIARY"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-062",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:hoge-raad"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour suprême (Hoge Raad) est la juridiction la plus élevée en matière civile, pénale et fiscale et statue notamment en cassation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "justice_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-SUPREME",
+        "SRC-NL-JUDICIARY"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-063",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:hoge-raad"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "En cassation, la Cour suprême contrôle notamment l’application du droit par les juridictions inférieures; les faits déjà établis ne sont en principe pas rejugés comme tels.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "justice_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-SUPREME"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-064",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:raad-van-state-bestuursrechtspraak"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La section du contentieux administratif du Conseil d’État est la juridiction administrative suprême à compétence générale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_administrative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "justice_administrative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-ADMIN-TOP",
+        "SRC-NL-RVS-BROCHURE"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-065",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:raad-van-state-bestuursrechtspraak"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Elle connaît notamment de recours contre des décisions d’autorités municipales, provinciales ou centrales dans les matières relevant de sa compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_administrative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "justice_administrative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-ADMIN-TOP"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-066",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:centrale-raad-van-beroep"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Centrale Raad van Beroep est une juridiction administrative d’appel suprême dans des domaines tels que la sécurité sociale et certains litiges de fonction publique.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_administrative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "justice_administrative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-ADMIN-TOP"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-067",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:college-beroep-bedrijfsleven"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le College van Beroep voor het bedrijfsleven est une juridiction administrative spécialisée de dernier ressort dans certains domaines socio-économiques et de régulation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_administrative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "justice_administrative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-ADMIN-TOP"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-068",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:procedure:recours-administratif-nl"
+        },
+        "predicate": "procedure.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans de nombreux litiges administratifs, une procédure d’objection devant l’autorité administrative précède le recours devant le juge administratif.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_administrative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "justice_administrative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-ADMIN-LAW"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-069",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:juge-neerlandais"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Lorsque l’article 94 s’applique, le juge doit laisser inappliquée une disposition légale dont l’application est incompatible avec une disposition conventionnelle ou une décision d’organisation internationale qui lie chacun par sa teneur.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-070",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:controle-art94"
+        },
+        "predicate": "concept.hierarchy_note",
+        "object": {
+          "kind": "proposition",
+          "value": "Le mécanisme de l’article 94 est distinct du contrôle de constitutionnalité interdit par l’article 120: il concerne l’effet interne de certaines normes externes directement obligatoires.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-071",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:administration-territoriale-nl"
+        },
+        "predicate": "governance.has_multiple_levels",
+        "object": {
+          "kind": "proposition",
+          "value": "L’administration publique néerlandaise comporte quatre niveaux principaux: gouvernement central, provinces, communes et waterschappen.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National + territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "territorial"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-PUBADMIN",
+        "SRC-NL-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-072",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:province-nl"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "Les organes provinciaux disposent d’une compétence pour régler et administrer leurs affaires internes et peuvent aussi être chargés par la loi de tâches de medebewind, c’est-à-dire de mise en œuvre imposée par le niveau national.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "territorial"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-PROV-EXEC"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-073",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:provinciale-staten"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les Provinciale Staten, conseil provincial, sont placés à la tête de la province et sont directement élus.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "territorial"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-074",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gedeputeerde-staten"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les Gedeputeerde Staten constituent l’exécutif provincial et administrent les affaires courantes de la province.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "territorial"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-LOCAL",
+        "SRC-NL-PROV-EXEC"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-075",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:provinciale-staten"
+        },
+        "predicate": "institution.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil provincial nomme les membres de l’exécutif provincial.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "territorial"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-PROV-APPT"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-076",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:provinciale-staten"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil provincial contrôle politiquement l’exécutif provincial, dont les membres doivent lui rendre compte et l’informer.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-PROV-EXEC",
+        "SRC-NL-PROV-APPT"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-077",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:commissaris-koning"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Commissaire du Roi préside l’exécutif provincial et préside également les réunions du conseil provincial sans en être membre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "territorial"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-COMMISSIONER",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-078",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:commissaris-koning"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Commissaire du Roi est nommé par décret royal pour un mandat de six ans, avec participation du conseil provincial à la procédure de recommandation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial"
+        },
+        {
+          "axis": "fonction",
+          "value": "nomination"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-COMMISSIONER"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-079",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:commissaris-koning"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Commissaire du Roi accomplit aussi certaines tâches pour le gouvernement central et peut recevoir des instructions officielles conformément à la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial / État"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "territorial"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-COMMISSIONER",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-080",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gemeente"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "Les organes communaux disposent d’un pouvoir de réglementation et d’administration de leurs affaires internes et mettent également en œuvre de nombreuses tâches imposées par la législation nationale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "municipal"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-MUNICIPAL-TASKS"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-081",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gemeenteraad"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le gemeenteraad, conseil municipal, est l’organe dirigeant de la commune et prend les principales décisions municipales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "municipal"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MUNICIPAL-COUNCIL",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-082",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gemeenteraad"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les membres du conseil municipal sont directement élus.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "municipal"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MUNICIPAL-COUNCIL",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-083",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:college-bw"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le college van burgemeester en wethouders, composé du maire et des échevins, constitue l’exécutif municipal et met notamment en œuvre les décisions du conseil.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "municipal"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MUNICIPAL-EXEC",
+        "SRC-NL-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-084",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:college-bw"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "L’exécutif municipal participe aussi à l’exécution de lois et de politiques nationales ou provinciales lorsque le droit lui confie ces tâches.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "municipal"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MUNICIPAL-EXEC",
+        "SRC-NL-MUNICIPAL-TASKS"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-085",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:burgemeester"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le maire préside le conseil municipal et l’exécutif municipal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "municipal"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MAYOR",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-086",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:burgemeester"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le maire n’est pas membre du conseil municipal et n’y dispose pas d’un vote, même s’il préside les réunions et peut participer aux délibérations.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MAYOR"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-087",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:burgemeester"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le maire exerce des responsabilités propres en matière d’ordre public et de sécurité dans la commune.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "securite_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "securite_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MAYOR"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-088",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:burgemeester"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "La nomination du maire intervient par décision royale après une procédure dans laquelle le conseil municipal formule une recommandation et le ministre compétent intervient.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "nomination"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MAYOR-APPT"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-089",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:ordonnance-locale-nl"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les règlements provinciaux et municipaux sont adoptés par les conseils provinciaux et municipaux, sauf exceptions prévues par ou en vertu de la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial + Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire_local"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementaire_local"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-090",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:collectivite-nl"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Une province ou une commune n’exerce pas une souveraineté générale: son autonomie et ses tâches de medebewind s’inscrivent dans le cadre fixé par la Constitution et la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-091",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:supervision-locale"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La loi règle la surveillance des organes provinciaux et municipaux et les cas dans lesquels leurs décisions peuvent être soumises à un contrôle préalable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-LOCAL-SUPERVISION"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-092",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-central-nl"
+        },
+        "predicate": "actor.can_block",
+        "object": {
+          "kind": "proposition",
+          "value": "Une décision d’un organe provincial ou municipal ne peut être annulée, dans le cadre constitutionnel de l’article 132, que par décret royal pour contrariété au droit ou à l’intérêt général.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-093",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:province-nl"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Les autorités provinciales exercent une surveillance sur certaines tâches municipales de medebewind dans les domaines que le système de supervision leur attribue.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Provincial / Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-LOCAL-SUPERVISION"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-094",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-central-nl"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Le gouvernement central conserve la surveillance de certaines tâches de medebewind des provinces et de domaines municipaux pour lesquels la supervision n’est pas attribuée aux provinces.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-LOCAL-SUPERVISION"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-095",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:waterschap"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Un waterschap est une autorité publique territoriale spécialisée dans la gestion de l’eau.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Waterschap"
+        },
+        {
+          "axis": "fonction",
+          "value": "eau"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "eau"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-LOCAL",
+        "SRC-NL-WATER"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-096",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:waterschap"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "Les waterschappen sont notamment chargés de la gestion des systèmes hydriques régionaux, de la protection contre les inondations et de responsabilités relatives à la qualité et à la quantité de l’eau dans leur territoire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Waterschap"
+        },
+        {
+          "axis": "fonction",
+          "value": "eau"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "eau"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-WATER",
+        "SRC-NL-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-097",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:algemeen-bestuur-waterschap"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil général du waterschap est directement élu et constitue l’organe représentatif à partir duquel l’exécutif est constitué selon le régime applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Waterschap"
+        },
+        {
+          "axis": "fonction",
+          "value": "eau"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "eau"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-098",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:dagelijks-bestuur-waterschap"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "L’exécutif du waterschap est nommé par le conseil général et assure l’administration courante de l’autorité de l’eau.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Waterschap"
+        },
+        {
+          "axis": "fonction",
+          "value": "eau"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "eau"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-099",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:dijkgraaf"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le dijkgraaf préside à la fois le conseil général et l’exécutif du waterschap.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Waterschap"
+        },
+        {
+          "axis": "fonction",
+          "value": "eau"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "eau"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-100",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:waterschap"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le waterschap n’est pas une autorité générale équivalente à l’État, à la province ou à la commune: ses compétences sont spécialisées dans la gestion de l’eau selon le cadre légal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Waterschap"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-LOCAL",
+        "SRC-NL-WATER"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-101",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:grondwet-art23"
+        },
+        "predicate": "norm.protects",
+        "object": {
+          "kind": "proposition",
+          "value": "La liberté de l’enseignement est un droit constitutionnel; des établissements peuvent être créés sur des bases publiques ou privées sous réserve des règles légales applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-EDU-FREEDOM"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-102",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:etat-nl"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "L’enseignement est une préoccupation constante du Gouvernement et la loi fixe notamment les exigences applicables à l’enseignement financé sur fonds publics.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-103",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:financement-education-nl"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "L’article 23 organise un financement public des écoles publiques et privées remplissant les conditions légales, avec un principe d’égalité de financement pour l’enseignement primaire visé par la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023",
+        "SRC-NL-EDU-PUBLICPRIVATE"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-104",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gemeente"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "Les communes ont des responsabilités concernant les bâtiments scolaires et doivent contribuer à garantir une offre suffisante d’enseignement public conformément au cadre légal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MUNICIPAL-TASKS",
+        "SRC-NL-EDU-PUBLICPRIVATE",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-105",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:school-board-nl"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les school boards portent la responsabilité première du fonctionnement et de la qualité de leurs écoles dans le cadre légal et disposent de responsabilités matérielles telles que l’entretien des bâtiments du primaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-EDU-PUBLICPRIVATE",
+        "SRC-NL-EDU-MAINT"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-106",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:education-inspectorate"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Inspection de l’éducation contrôle la qualité de l’enseignement dans les écoles publiques et privées selon le cadre légal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-EDU-PUBLICPRIVATE"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-107",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:attainment-targets"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La loi fixe des objectifs de fin de cycle pour les matières obligatoires du primaire, tandis que les écoles choisissent la manière d’enseigner et leurs matériels pédagogiques dans les limites du droit applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National + scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-EDU-TARGETS"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-108",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gemeente"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "La responsabilité municipale pour les bâtiments scolaires ou l’offre publique ne donne pas à la commune un pouvoir général pour fixer seule les objectifs nationaux d’apprentissage ou les normes légales de qualité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-MUNICIPAL-TASKS",
+        "SRC-NL-EDU-TARGETS",
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-109",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:staten-generaal"
+        },
+        "predicate": "institution.approves_important_international_commitment",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Royaume ne peut en principe être lié par un traité, ni dénoncer un traité, sans approbation préalable des États généraux; la loi détermine les exceptions et les modalités.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-110",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:approbation-traite-nl"
+        },
+        "predicate": "procedure.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La loi peut prévoir l’approbation tacite des traités dans le cadre de l’article 91.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-111",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:traite-contraire-constitution"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Les dispositions d’un traité qui entrent en conflit avec la Constitution, ou conduisent à un tel conflit, ne peuvent être approuvées par les Chambres qu’à une majorité d’au moins deux tiers des suffrages exprimés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-112",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:transfert-pouvoirs-organisations"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Des compétences législatives, exécutives et judiciaires peuvent être conférées à des institutions internationales par ou en vertu d’un traité dans le cadre de l’article 92.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-113",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:norme-externe-directe"
+        },
+        "predicate": "norm.has_effect",
+        "object": {
+          "kind": "proposition",
+          "value": "Les dispositions de traités et décisions d’organisations internationales qui peuvent lier chacun par leur teneur acquièrent force obligatoire après publication, selon l’article 93.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-114",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:primauté-application-art94"
+        },
+        "predicate": "norm.has_effect",
+        "object": {
+          "kind": "proposition",
+          "value": "Une règle légale en vigueur dans le Royaume n’est pas appliquée si son application est incompatible avec une disposition de traité ou une décision d’organisation internationale qui lie chacun, conformément à l’article 94.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "international_interface"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-115",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:eu-substantive-excluded"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les règlements, directives, décisions, jurisprudence et autres normes substantielles de l’Union européenne ne sont pas reproduits dans ce Kristal Pays-Bas; seules les règles néerlandaises d’interface institutionnelle ou de réception peuvent y figurer.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    },
+    {
+      "assertion_id": "NL-POUVOIR-116",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:intl-substantive-excluded"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les traités particuliers, la coutume internationale, le jus cogens, les obligations erga omnes, le droit humanitaire, le droit de la mer, le droit international des droits humains, le commerce international et la responsabilité internationale restent hors de ce Kristal et appartiennent au Kristal supranational/international.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Pays-Bas",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "métamodèle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-NL-CONST-2023"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "PROV-NL-001",
+      "type": "research_build",
+      "created_at": "2026-10-02T22:34:00Z",
+      "method": "Synthèse structurée de la Constitution néerlandaise 2023 et de sources institutionnelles officielles consultées à jour au 2 octobre 2026. Le corpus exclut le droit international et de l’Union européenne substantiel et ne conserve que l’interface de droit interne néerlandais. Aucun titulaire politique actuel n’est encodé.",
+      "tooling": "Kristal Standard 6.0.0"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BOUNDARY-SUPRANATIONAL",
+      "message": "Ne pas injecter dans ce corpus le contenu matériel du droit international ou de l’Union européenne; créer des références croisées vers le Kristal supranational/international."
+    },
+    {
+      "code": "KINGDOM-SCOPE",
+      "message": "Distinguer le pays Pays-Bas du Royaume des Pays-Bas. Le Statuut est inclus seulement comme interface constitutionnelle indispensable; Aruba, Curaçao et Sint Maarten ne sont pas modélisés en détail."
+    },
+    {
+      "code": "CARIBBEAN-NL-SCOPE",
+      "message": "Bonaire, Saint-Eustache et Saba ne sont pas détaillés dans cette v0.1.0; extension possible ultérieurement."
+    }
+  ],
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1"
+}

@@ -1,0 +1,440 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:system",
+      "path": "canon/domain/system.json",
+      "logical_contract": {
+        "id": "k.monetary.system",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:constitution",
+      "path": "canon/domain/monetary-constitution.json",
+      "logical_contract": {
+        "id": "k.monetary.constitution",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:statechart",
+      "path": "canon/domain/transition-statechart.json",
+      "logical_contract": {
+        "id": "k.monetary.statechart",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:causal-model",
+      "path": "canon/domain/causal-model.json",
+      "logical_contract": {
+        "id": "k.monetary.causal-model",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:distribution-model",
+      "path": "canon/domain/distribution-model.json",
+      "logical_contract": {
+        "id": "k.monetary.distribution-model",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:event-ledger",
+      "path": "canon/domain/event-ledger.json",
+      "logical_contract": {
+        "id": "k.monetary.event-ledger",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:smart-vote-interface",
+      "path": "canon/operations/smart-vote-policy-interface.json",
+      "logical_contract": {
+        "id": "k.monetary.smart-vote-interface",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:monetary-policy",
+      "path": "canon/operations/monetary-policy.json",
+      "logical_contract": {
+        "id": "k.monetary.monetary-policy",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:payment-settlement",
+      "path": "canon/operations/payment-settlement.json",
+      "logical_contract": {
+        "id": "k.monetary.payment-settlement",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:social-dividend",
+      "path": "canon/operations/social-dividend.json",
+      "logical_contract": {
+        "id": "k.monetary.social-dividend",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:debt-transition",
+      "path": "canon/operations/debt-transition.json",
+      "logical_contract": {
+        "id": "k.monetary.debt-transition",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:simulation-model",
+      "path": "canon/operations/simulation-model.json",
+      "logical_contract": {
+        "id": "k.monetary.simulation-model",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:assumptions",
+      "path": "canon/epistemic/assumptions.json",
+      "logical_contract": {
+        "id": "k.monetary.assumptions",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:hypotheses",
+      "path": "canon/epistemic/hypotheses.json",
+      "logical_contract": {
+        "id": "k.monetary.hypotheses",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:counterarguments",
+      "path": "canon/epistemic/counterarguments.json",
+      "logical_contract": {
+        "id": "k.monetary.counterarguments",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:evidence-register",
+      "path": "canon/epistemic/evidence-register.json",
+      "logical_contract": {
+        "id": "k.monetary.evidence-register",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:validation-state",
+      "path": "canon/epistemic/validation-state.json",
+      "logical_contract": {
+        "id": "k.monetary.validation-state",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d01",
+      "path": "canon/domain/multiangle/d01-strategie-d-influence-et-contrepouvoirs.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d01",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d02",
+      "path": "canon/domain/multiangle/d02-desjardins-mandat-et-processus.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d02",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d03",
+      "path": "canon/operations/multiangle/d03-ristournes-et-biens-collectifs.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d03",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d04",
+      "path": "canon/domain/multiangle/d04-lingots-brandes-art-et-reserves.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d04",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d05",
+      "path": "canon/domain/multiangle/d05-km-regimes-et-regles-monetaires.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d05",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d06",
+      "path": "canon/domain/multiangle/d06-kc-participation-productive.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d06",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d07",
+      "path": "canon/operations/multiangle/d07-dette-finances-publiques.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d07",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d08",
+      "path": "canon/operations/multiangle/d08-philanthropie-et-reddition.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d08",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d09",
+      "path": "canon/operations/multiangle/d09-identite-ethikos-konnaxion.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d09",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d10",
+      "path": "canon/operations/multiangle/d10-pme-education-innovation-territoires.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d10",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d11",
+      "path": "canon/domain/multiangle/d11-transition-scenarios-et-sorties.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d11",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d12",
+      "path": "canon/operations/multiangle/d12-banque-credit-risques.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d12",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d13",
+      "path": "canon/domain/multiangle/d13-medias-marque-et-conflits.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d13",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-d14",
+      "path": "canon/domain/multiangle/d14-clauses-invariantes.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.d14",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-provenance",
+      "path": "canon/epistemic/multiangle/provenance.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.provenance",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-claims",
+      "path": "canon/epistemic/multiangle/claims.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.claims",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-arbitrages",
+      "path": "canon/epistemic/multiangle/arbitrages.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.arbitrages",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-risques",
+      "path": "canon/epistemic/multiangle/risques.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.risques",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:k-monetary-system:artifact:multiangle-graph",
+      "path": "canon/domain/multiangle/graph.json",
+      "logical_contract": {
+        "id": "k.monetary.multiangle.graph",
+        "version": "0.1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [],
+  "notes": "Register authoritative Logical Artifacts here. Physical materializations, indexes, caches and build outputs stay derived."
+}

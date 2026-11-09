@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-canada-quebec",
+  "source_fingerprint": "sha256:c35589a134cf930eba7272d24ec7c5101df6c0479d88a743ee1bee94fd8788a2",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 272298,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 140532,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-pouvoirs-canada-quebec-artifact-canonical-64d8bc8c2e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 140532,
+      "sha256": "sha256:443ae873e57a4119f039b1f7f2924ad55f7eac0605ca1e7c9da684c51eed9bb6"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1168,
+      "sha256": "sha256:3c76eb58fb3adcbe8e5db923dbf4a1fb3e1c92d8388d940e038c42a3e5274717"
+    },
+    {
+      "path": "canon/domain/jurisdictional-power.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 130598,
+      "sha256": "sha256:be464d93796c8959f9f84acf1b536227b8eef4f0c19b78c4183496b7f254e3a5"
+    }
+  ],
+  "segments": []
+}

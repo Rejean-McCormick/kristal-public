@@ -1,0 +1,36 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:pharmacology",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:8a2d166bdad82ca3c79f58bf34f17f0c04e8411ecaf1ae6318160689c7df0897"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:pharmacology",
+    "label": "Kristal-Pharmacology",
+    "domain": "pharmacology"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Connaissance de référence sur mécanismes pharmacologiques, PK/PD, effets et risques avec contexte."
+    ],
+    "does_not_own": [
+      "Prescription, posologie individuelle ou décision clinique personnalisée.",
+      "Les dépôts des sources externes, leur publication et leur autorité éditoriale."
+    ]
+  },
+  "canonical_artifact_count": 9,
+  "source_count": 19,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

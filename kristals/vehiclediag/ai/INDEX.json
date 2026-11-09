@@ -1,0 +1,191 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:vehiclediag:state:reference",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:1d35e4a939ea4ab9eb6d28cdef1cff1cf1a8a22cd9299a9417524ee28160190b"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/epistemic-overlay.inline.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1147,
+      "sha256": "sha256:e9f1bdebd8b9016f0545c15dc851c79c8a36762abf5fbaf56fee0c02d8e45b2c"
+    },
+    {
+      "path": ".kristal/v9/materializations/epistemic-overlay.portable-v6.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1184,
+      "sha256": "sha256:daf6f434ecde89ceb26e26ce69aa3ca8b244a58f957b2944d60b5c933b2bd01c"
+    },
+    {
+      "path": ".kristal/v9/materializations/reference-model.inline.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1142,
+      "sha256": "sha256:df7a8cd4e88aab7b5af41bc65eefcd5028bca7e3da98f372397945d1e07d9d38"
+    },
+    {
+      "path": "canon/domain/reference-model.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 423933,
+      "sha256": "sha256:32a438d150af1460f256804fcd631ad198ba300f9c34e9e64ddbac44fa9c0290",
+      "artifact_id": "urn:vehiclediag:artifact:reference-model",
+      "logical_contract": {
+        "id": "vehiclediag.reference-model",
+        "version": "3.0"
+      }
+    },
+    {
+      "path": "canon/epistemic/epistemic-overlay.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 3668898,
+      "sha256": "sha256:1d699d72577b3335046a65e75143d5c5d13c4e3a1c82e7a9b38bbbc1a0d62c84",
+      "artifact_id": "urn:vehiclediag:artifact:epistemic-overlay",
+      "logical_contract": {
+        "id": "kristal_state.hash_target",
+        "version": "6.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 2613,
+      "sha256": "sha256:98a628aa20349763bacf86596585059f1cd1d29e008f105d1c843a0ddc1e07b7"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 879,
+      "sha256": "sha256:2ba53c4d21a3d5c77a265142c4adac414eb3c87e5955cf3c8834f14bb18f0990"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1173,
+      "sha256": "sha256:46d87311be81062868b7bf12a7aab45db2f0344f32371882db6ffc0ec23b5ca5"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1530,
+      "sha256": "sha256:da9f6d03cf4cb949cc6934aa950e4e7b9119ee715eadac37cf80dbd0900be282"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1353,
+      "sha256": "sha256:4b5cd2286394f99af5a819b7123f0a0dff58b10c14d6df88bd05f3cabe571f3e"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1251,
+      "sha256": "sha256:fb141f84ab961c7a4412a8b0888c5ed27c5c986c9289f2e67eb6d1bc67df019e"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 891,
+      "sha256": "sha256:bcf57cca7368ac92c8f0e6d7819c8362cfcf42e7ee3d0156154ae87d6c4062fb"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1354,
+      "sha256": "sha256:72e1fcb96a57186da040f1c1232def47afa2267344c21636c642a2c6367407e9"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 777,
+      "sha256": "sha256:7b6cebd2b94c65cbf8c7079f0babbac6951b7d65a79aa6643a1819b53b425c31"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3979,
+      "sha256": "sha256:7617b7ceedc33dfafbbf490be06007c424f9d30bf2b5b951a5f1260064b89ade"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 8562,
+      "sha256": "sha256:3dc4ba9421fe09a5384dbe73180aa216cc0de2ebb32260dfc011109347ff2b62"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 1231,
+      "sha256": "sha256:832d011897a2225cf79ce9d394b8b3f2a72bf161d266e720c075c37ac6a6b0e8",
+      "state_ref": "urn:vehiclediag:state:reference",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:1d35e4a939ea4ab9eb6d28cdef1cff1cf1a8a22cd9299a9417524ee28160190b"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/epistemic-overlay.inline.materialization.json",
+      "source_artifact_id": "urn:vehiclediag:artifact:epistemic-overlay",
+      "kind": "segment",
+      "key": "artifact",
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size": 3895766,
+      "sha256": "sha256:e73be6a4a61b8a478210ca7bbec7520e232e45a52b14952c51d026dda1799f02",
+      "locator": ".kristal/v9/logical/epistemic-overlay.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/logical/epistemic-overlay.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:e73be6a4a61b8a478210ca7bbec7520e232e45a52b14952c51d026dda1799f02",
+      "verified_size": 3895766
+    },
+    {
+      "manifest": ".kristal/v9/materializations/epistemic-overlay.portable-v6.materialization.json",
+      "source_artifact_id": "urn:vehiclediag:artifact:epistemic-overlay",
+      "kind": "segment",
+      "key": "portable-state",
+      "media_type": "application/vnd.kristal.state+json;version=6.0",
+      "size": 3669113,
+      "sha256": "sha256:df75c6693c130d7ac70a129d86860afafcf3ce7c69f3a3f70f423c377c82c816",
+      "locator": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:df75c6693c130d7ac70a129d86860afafcf3ce7c69f3a3f70f423c377c82c816",
+      "verified_size": 3669113
+    },
+    {
+      "manifest": ".kristal/v9/materializations/reference-model.inline.materialization.json",
+      "source_artifact_id": "urn:vehiclediag:artifact:reference-model",
+      "kind": "segment",
+      "key": "artifact",
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size": 452056,
+      "sha256": "sha256:900d749419eb9a6153b58001e48578dac9dcb1d2450cc50e80766e82aea55d9d",
+      "locator": ".kristal/v9/logical/reference-model.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/logical/reference-model.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:900d749419eb9a6153b58001e48578dac9dcb1d2450cc50e80766e82aea55d9d",
+      "verified_size": 452056
+    }
+  ]
+}

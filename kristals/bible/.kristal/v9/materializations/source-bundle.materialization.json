@@ -1,0 +1,427 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:bible:artifact:editorial-sources:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:bible:artifact:editorial-sources",
+    "logical_contract": {
+      "id": "bible.editorial-source-bundle",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:e8105b0328ced42cae9ee046c77fdcb3d4262cba29912fcde9774df6429c66e3"
+    }
+  },
+  "profile": "kristal.materialization/native-json-bundle/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "external-source-library/evidence/source-catalog.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:c605a0f01f6e6463e151583beac761abfada2ff694bd3a281cb939255f00877e",
+        "size": 3036
+      },
+      "logical_range": {
+        "component_id": "external-source-library/evidence/source-catalog.json"
+      }
+    },
+    {
+      "segment_key": "external-source-library/source-texts/source-text-manifest.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:a7e530bae407ea10b5749eb736dbbf1c66363d5d720228289e5fb7395755af33",
+        "size": 1663
+      },
+      "logical_range": {
+        "component_id": "external-source-library/source-texts/source-text-manifest.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/canon/book-witness-map.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:7a775edfaabb7fc048e679bca7e6a42a344a0db0344d1354868421601651d560",
+        "size": 15820
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/canon/book-witness-map.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/canon/books.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:25a696f617726452c4dc131f937667db47bb09b346a20e51322092916db4fdb6",
+        "size": 15788
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/canon/books.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/canon/canon-registry.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:670f4f479f8cbd3c4296f7e9e2cffc31f97d3381160f607b1a76158250fe6902",
+        "size": 6055
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/canon/canon-registry.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/canon/source-language-policy.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:ac53d292cd932336bcc380cabd793722a5d6a79d9af731be06b686a0a620caa7",
+        "size": 810
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/canon/source-language-policy.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/ontology/domain-ontology.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:f9a50727372c4ae7aec2c92834c24b2d2e2a1a20444f12e55dee733e2aafb2cc",
+        "size": 4516
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/ontology/domain-ontology.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/ontology/epistemic-tiers.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:665c4af765b042adaa005f18b547691b1a6179bb734293ad19e943b26139db55",
+        "size": 800
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/ontology/epistemic-tiers.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/ontology/normativity.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:d01586fe8e902c0c6dddaa2e074c6dff7c85b461d53acbd8d0e660026a4bc97f",
+        "size": 412
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/ontology/normativity.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/polyphony/relations.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:de1fd334217ad55e7bcdbf67fa9b66d18776ea30c450d1cdaab01395ab9e9841",
+        "size": 3752
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/polyphony/relations.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/polyphony/tension-types.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5191510ac2f9df1d625b74b4f76187b0cddd13b0dc3f4fb1ed5b12dfd80b5258",
+        "size": 1102
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/polyphony/tension-types.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/polyphony/voice-registry.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:931cb5ab96f765e802c65206d2591cc7129faf9ed431e825c767f40b5aaa6cf2",
+        "size": 8783
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/polyphony/voice-registry.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/consciousness_pattern.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:9e9540e9a0ac0ee0539092a89e92e353c826852616bebedbce4ce080756bfa97",
+        "size": 14434
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/consciousness_pattern.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/countermodel.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:30075da9a7236a3732a6bb283dfe53d633718b934e64211840e0d144363538c5",
+        "size": 21876
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/countermodel.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/desire_pattern.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:22f39cd4db746fb816b6fa4f78e2ccace9c7e993ed7a60ec04fa97b395dceb8f",
+        "size": 16266
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/desire_pattern.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/dynamic.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:29c4e555874cb8dc205dae79c812e35a46258a3309da8b62d929c67e62ae48e2",
+        "size": 44727
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/dynamic.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/emotion_pattern.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:a2b54fb6bea1d4957416c19a3ac9c13a1d5b9bbe8877c24cb0dc03f03b982d61",
+        "size": 22547
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/emotion_pattern.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/mechanism.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:14637c5f15e798dc1c6d8de20bf1f2688bddd6e1ad96b74c518767b5d8ead041",
+        "size": 60132
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/mechanism.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/motif.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:3c56ebabe0c1f6060d846c5c890e35e76cf4ff5f033eff7d261f530e5911b27d",
+        "size": 35327
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/motif.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/power_configuration.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:40a8d318662df797ab5b4cd1b122f53e18aa93958d6541a6ffb62da18dc4ef9f",
+        "size": 10520
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/power_configuration.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/practice.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:7efe232c833741502de2c3fae6a8c6680e4f587a712eafe3b872c9d4053e6eb4",
+        "size": 14650
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/practice.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/subtle_world_pattern.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:f95d4010288d0f2055491c8ee3a4e5b61f73c374ba5b6b495aa16987c89ae2bd",
+        "size": 16848
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/subtle_world_pattern.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/tension.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:44bf6035a2ba103da357bffdb1677a8b2448908269d27537bfe31c901f75ccf3",
+        "size": 39747
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/tension.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/trajectory.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:86900a642989820352be69fd45bed7d67e4a4e51385121deea352a87b1d0dc32",
+        "size": 11715
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/trajectory.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/transformation.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:df3dcba88b6e7c5e58be5d907e4234eecf2f704294f9cc4702fecf7be3c8f176",
+        "size": 18007
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/transformation.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/knowledge-units/voice.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:73988e850c8c7d24a276c6e6ca7d866e125e8ec0eb480e2267dedba643a7c069",
+        "size": 29020
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/knowledge-units/voice.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/navigation/pathways.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:cd16432e548d5b33c536792d90e788d61accc3cc162d90854e292b9d0665ba0d",
+        "size": 3404
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/navigation/pathways.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/observations/textual-observations.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:23b8330c2cf2d462aed4fd2dbd30deb0c157452bd23de8daea2cba1f8eea214d",
+        "size": 57135
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/observations/textual-observations.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/relations/grounding-relations.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:ef9c361d25d0f3752566138771701ba9164d92541c622d91f85b3d832d7b9cc5",
+        "size": 175656
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/relations/grounding-relations.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/relations/polyphony-relations.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:37bf43f0a7f0636b8677e3ef0de05e94bb55cffba56a2c93523ac6407add5e58",
+        "size": 3742
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/relations/polyphony-relations.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/relations/semantic-relations.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:f40d838db8e147499050ab48c58d3ceeeb6026c38dd57a1db3f688b0354741fa",
+        "size": 26405
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/relations/semantic-relations.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/relations/textual-relations.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:3168c2b14807961e6489cecdc982f08126f80ebe031997f11d6213a550656cbc",
+        "size": 20158
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/relations/textual-relations.json"
+      }
+    },
+    {
+      "segment_key": "knowledge-base/sources/textual-witnesses.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:97991a51fce4810a9a1b3e5356a9a78a473795956aa75b9eef6aa1659d179bb3",
+        "size": 4444
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/sources/textual-witnesses.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "external-source-library/evidence/source-catalog.json",
+      "external-source-library/source-texts/source-text-manifest.json",
+      "knowledge-base/canon/book-witness-map.json",
+      "knowledge-base/canon/books.json",
+      "knowledge-base/canon/canon-registry.json",
+      "knowledge-base/canon/source-language-policy.json",
+      "knowledge-base/ontology/domain-ontology.json",
+      "knowledge-base/ontology/epistemic-tiers.json",
+      "knowledge-base/ontology/normativity.json",
+      "knowledge-base/polyphony/relations.json",
+      "knowledge-base/polyphony/tension-types.json",
+      "knowledge-base/polyphony/voice-registry.json",
+      "knowledge-base/sources/knowledge-units/consciousness_pattern.json",
+      "knowledge-base/sources/knowledge-units/countermodel.json",
+      "knowledge-base/sources/knowledge-units/desire_pattern.json",
+      "knowledge-base/sources/knowledge-units/dynamic.json",
+      "knowledge-base/sources/knowledge-units/emotion_pattern.json",
+      "knowledge-base/sources/knowledge-units/mechanism.json",
+      "knowledge-base/sources/knowledge-units/motif.json",
+      "knowledge-base/sources/knowledge-units/power_configuration.json",
+      "knowledge-base/sources/knowledge-units/practice.json",
+      "knowledge-base/sources/knowledge-units/subtle_world_pattern.json",
+      "knowledge-base/sources/knowledge-units/tension.json",
+      "knowledge-base/sources/knowledge-units/trajectory.json",
+      "knowledge-base/sources/knowledge-units/transformation.json",
+      "knowledge-base/sources/knowledge-units/voice.json",
+      "knowledge-base/sources/navigation/pathways.json",
+      "knowledge-base/sources/observations/textual-observations.json",
+      "knowledge-base/sources/relations/grounding-relations.json",
+      "knowledge-base/sources/relations/polyphony-relations.json",
+      "knowledge-base/sources/relations/semantic-relations.json",
+      "knowledge-base/sources/relations/textual-relations.json",
+      "knowledge-base/sources/textual-witnesses.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "bible.editorial-source-bundle/1.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:ai:artifact:identity-registry:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:ai:artifact:identity-registry",
+    "logical_contract": {
+      "id": "ai.identity-registry",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:cb99a4cd59d36c8e0eed841062c9469e284c56f58aea00c49f26d4816f3c87af"
+    }
+  },
+  "profile": "kristal.materialization/native-blob/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "knowledge-base/corpus/referents.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:a4da3aa0e9e457ef37140432496c7436f16180d375c9718c0806cac6a41b02a9",
+        "size": 53550
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/corpus/referents.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "knowledge-base/corpus/referents.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "ai.identity-registry/1.0"
+  }
+}

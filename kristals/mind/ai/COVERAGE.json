@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:mind:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:129263889ac0fb66334cb45240e30fc07f0905bd70ff3994638b2741a63a8b2a"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:mind",
+    "label": "Kristal-Mind",
+    "domain": "mind",
+    "orientation": "perception → représentation → mémoire → décision → action, avec boucles de rétroaction"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Corpus statique et modèle d’assertions du domaine mind",
+      "perception → représentation → mémoire → décision → action, avec boucles de rétroaction",
+      "identifiants sémantiques, provenance et état v9 historique"
+    ],
+    "does_not_own": [
+      "aucune assimilation automatique aux diagnostics cliniques ou à la neuroanatomie détaillée",
+      "les dépôts sources externes et leur publication",
+      "une autorité créée par l’IA ou la matérialisation"
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 17,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 2,
+  "local_materialization_blob_count": 2,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

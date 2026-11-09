@@ -1,0 +1,34 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:games:canonical",
+      "path": "canon/domain/games.logical-payload.json",
+      "logical_contract": {
+        "id": "kristal.v6-state-reference",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "authority_ref": "urn:kristal:authority:games",
+      "scope": {
+        "domain": "games",
+        "role": "canonical_knowledge"
+      }
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": ".kristal/v8/portable-state.kristal-state.json",
+      "role": "historical portable-v6 projection"
+    },
+    {
+      "path": ".kristal/v9/materialization.portable-v6.json",
+      "role": "historical projection manifest"
+    }
+  ],
+  "notes": "Canonical authoring payload is extracted from the original canonical v9 Logical Artifact. It reproduces the existing commitment, without promoting the v6 portable projection as an independent member of the state."
+}

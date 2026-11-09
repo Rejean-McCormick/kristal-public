@@ -1,0 +1,103 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:hci:materialization:resource-basis",
+  "source": {
+    "artifact_id": "urn:kristal:hci:resource-basis",
+    "logical_contract": {
+      "id": "kristal.repository-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:caf1e3880349c3808c414f4c6d1a802f9e33957b733249f1cea1b03113d5e670"
+    },
+    "authority_ref": "urn:kristal:authority:hci"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 5
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:hci:resource:portable_epistemic_state",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:29211736325ee6e3b346f29c531370a2281d28832b39bfc66fe3f0afde4da582",
+        "size": 285810,
+        "locator": "knowledge-base/corpus/hci.kristal-state.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hci:resource:portable_epistemic_state",
+        "role": "portable_epistemic_state"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:hci:resource:identity_registry",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:52490da7109ad795539aa5083c58c69729b3e8672f4c732e081e46127696fb0d",
+        "size": 51246,
+        "locator": "knowledge-base/corpus/referents.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hci:resource:identity_registry",
+        "role": "identity_registry"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:hci:resource:semantic_invariants",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:7f9c1de7f73dea81e634ef4c98ef11298b8240ab320d1d9fdabb060612d346d4",
+        "size": 2862,
+        "locator": "knowledge-base/corpus/invariants.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hci:resource:semantic_invariants",
+        "role": "semantic_invariants"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:hci:resource:scope_boundary",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:c916be52612ee2194efdfa21adc64c239a9e299f550ad811cc92141f53360ece",
+        "size": 1817,
+        "locator": "knowledge-base/corpus/boundaries.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hci:resource:scope_boundary",
+        "role": "scope_boundary"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:hci:resource:source_catalog",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:feab91b65d14f5c68d8229523a5d7084bc125cad807db0f8220042b7eba92ca2",
+        "size": 4014,
+        "locator": "knowledge-base/sources/source-catalog.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:hci:resource:source_catalog",
+        "role": "source_catalog"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:hci:resource:portable_epistemic_state",
+      "urn:kristal:hci:resource:identity_registry",
+      "urn:kristal:hci:resource:semantic_invariants",
+      "urn:kristal:hci:resource:scope_boundary",
+      "urn:kristal:hci:resource:source_catalog"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.repository-resource-set/jcs-v1"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:homecare",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:de24b8d9ac4f924f4b6ea71b635cfe324a9875fa78680eab3c7ac6237f799895"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1060,
+      "sha256": "sha256:65037385bbe895093e7ef08f84b8abdf5f75266a82b17f5993878add10fd4a00"
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 2027,
+      "sha256": "sha256:0465c2b169ee12c4571125bbf8ec2a01396492d42555eff7c8a25ad9a3061f15"
+    },
+    {
+      "path": "canon/domain/domain-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 794,
+      "sha256": "sha256:595cb7d8995f2e1480c37779b191f671504cde8e55e95519229662ba55b02ce3",
+      "artifact_id": "urn:kristal:homecare:semantic-state",
+      "logical_contract": {
+        "id": "homecare.semantic-state",
+        "version": "9.0"
+      }
+    },
+    {
+      "path": "canon/domain/resource-basis.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1355,
+      "sha256": "sha256:63d30e62c6e01599492c91f6c3f939a7579fb97a9ff3cdb950136f0522b0a48f",
+      "artifact_id": "urn:kristal:homecare:resource-basis",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 2034,
+      "sha256": "sha256:5f69b30aea299539b8bac45b40e1eedb280ed618881954aaa6c03479d730be51"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 532,
+      "sha256": "sha256:ef5a872ac35fc9ebf3e9acc48338f0ce86d7fd543324e3584f8d046b529ba66d"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 697,
+      "sha256": "sha256:9020d1699d163dd9848051e5da8b81abb64039e89cf596ce66cbcf8af51a487d"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 677,
+      "sha256": "sha256:a6163b3add9728a214787b3cb76aa9ba93cf26bde0e75aebb30c0f9c915b2a0b"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 747,
+      "sha256": "sha256:2a61150f428ce571936010e5a080c9ceedc961d8dc419e8a9090b3666ffb7404"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1281,
+      "sha256": "sha256:8ecaf8a62b3cba7857ed9cdb0c88cc32b61bbd03dd47950af0d5c77765093ac1"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 444,
+      "sha256": "sha256:7c188e276fb80a73a7a51b13d47ae84b24c149bcdf47c68bd07ca8c5fe2f1e4a"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 810,
+      "sha256": "sha256:ae05d2153dd5e2ac0c083a61fa3a90589997557fa18a28c7afc5f5bd87ab7b7b"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 659,
+      "sha256": "sha256:da6105912d52348b854dc62490f68674a655e0823f8f4845c5eacbee13dec155"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 4103,
+      "sha256": "sha256:45b9fb47897e42e874112370be7c3856bd6047a00fae9e1e594b13e41f2ba008"
+    },
+    {
+      "path": "docs/09_SOURCE_EVIDENCE_GAPS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1314,
+      "sha256": "sha256:449bf2fc46220f46da7916f5655c277846c18a603036f144c8a9fc3bb3a448e1"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 199,
+      "sha256": "sha256:e420022186eb83e66d6d33ac0a10206150f41a9c272e9aac267368ec813180c7"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 1310,
+      "sha256": "sha256:ec94d62626bd4d9a08a690ea3101f4b366f5cb18c57f72a85bd9ea3af0d04b09",
+      "state_ref": "urn:kristal:state:homecare",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:de24b8d9ac4f924f4b6ea71b635cfe324a9875fa78680eab3c7ac6237f799895"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/domain-state.materialization.json",
+      "source_artifact_id": "urn:kristal:homecare:semantic-state",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/json",
+      "size": 1812,
+      "sha256": "sha256:7e0b62e89f9497c9af657d37030f368631bf020069c443560e59317bb2333dec",
+      "locator": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:7e0b62e89f9497c9af657d37030f368631bf020069c443560e59317bb2333dec",
+      "verified_size": 1812
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:homecare:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:homecare:resource:identity_registry",
+      "media_type": "application/json",
+      "size": 114398,
+      "sha256": "sha256:17a5f19ad72813ddf3c6ce287b95fa870c168f0afee2e9cb676a8429d58925b3",
+      "locator": "knowledge-base/corpus/referents.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/corpus/referents.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:17a5f19ad72813ddf3c6ce287b95fa870c168f0afee2e9cb676a8429d58925b3",
+      "verified_size": 114398
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:homecare:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:homecare:resource:structured_epistemic_state",
+      "media_type": "application/json",
+      "size": 991935,
+      "sha256": "sha256:52b6d2d2b044ec992ae20fb824710f7f80623fdccc10e4a0f3b330b14ab1a9cb",
+      "locator": "knowledge-base/corpus/homecare.structured-epistemic-state.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/corpus/homecare.structured-epistemic-state.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:52b6d2d2b044ec992ae20fb824710f7f80623fdccc10e4a0f3b330b14ab1a9cb",
+      "verified_size": 991935
+    }
+  ]
+}

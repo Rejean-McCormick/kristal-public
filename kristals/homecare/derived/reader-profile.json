@@ -1,0 +1,155 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:state:homecare",
+  "source_fingerprint": "sha256:b894ea3fc8b5dc4129e670f91c993c5f579f537c09163fbff27286233151c323",
+  "specialization": "kristal.reader/generic-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "generic",
+  "materialization_profiles": [
+    "kristal.materialization/inline-json/1",
+    "kristal.materialization/native-json-set/1"
+  ],
+  "artifact_strategies": [
+    {
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1812,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:7e0b62e89f9497c9af657d37030f368631bf020069c443560e59317bb2333dec",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1060,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:65037385bbe895093e7ef08f84b8abdf5f75266a82b17f5993878add10fd4a00",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 2027,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:0465c2b169ee12c4571125bbf8ec2a01396492d42555eff7c8a25ad9a3061f15",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-homecare-resource-basis-ef9cd23ddc.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1956,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:0d03e11ac23ebaf3e2fbb04b342281299742d344649ea54d1fbc2e5bfa0d8fba",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-homecare-semantic-state-c772472962.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1812,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:32494d48f4a6a86131497fbe662511ff14e1d352b09a6b4a8fee5d9d66446e89",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1310,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:ec94d62626bd4d9a08a690ea3101f4b366f5cb18c57f72a85bd9ea3af0d04b09",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/domain-state.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 794,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:595cb7d8995f2e1480c37779b191f671504cde8e55e95519229662ba55b02ce3",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/resource-basis.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1355,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:63d30e62c6e01599492c91f6c3f939a7579fb97a9ff3cdb950136f0522b0a48f",
+      "authorization_required": true
+    },
+    {
+      "path": "knowledge-base/corpus/homecare.structured-epistemic-state.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 991935,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:52b6d2d2b044ec992ae20fb824710f7f80623fdccc10e4a0f3b330b14ab1a9cb",
+      "authorization_required": true
+    },
+    {
+      "path": "knowledge-base/corpus/referents.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 114398,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:17a5f19ad72813ddf3c6ce287b95fa870c168f0afee2e9cb676a8429d58925b3",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

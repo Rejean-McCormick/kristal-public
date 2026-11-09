@@ -1,0 +1,66 @@
+{
+  "format": "k.monetary.epistemic/hypotheses/0.1.0",
+  "id": "urn:kristal:k-monetary-system:epistemic:hypotheses",
+  "items": [
+    {
+      "id": "H1",
+      "statement": "A privately originated K_M can become a material unit of account if transaction demand, network liquidity and direct price/contract denomination become sufficiently deep.",
+      "test_metrics": [
+        "unit_of_account_share",
+        "merchant_adoption",
+        "contract_denominated_share"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "H2",
+      "statement": "Broad recurring K_C ownership plus a real consumption floor can reduce wealth concentration more reliably than currency revaluation alone.",
+      "test_metrics": [
+        "top_1_wealth_share",
+        "gini_wealth",
+        "median_real_wealth"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "H3",
+      "statement": "Collective expertise-weighted governance can improve monetary credibility if scoring, conflicts, bounded influence, due process and auditability are robust.",
+      "test_metrics": [
+        "governance_credibility",
+        "policy_forecast_error",
+        "capture_incidents"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "H4",
+      "statement": "Separating K_M from K_C reduces the conflict between transaction stability and speculative appreciation.",
+      "test_metrics": [
+        "K_M_price_volatility",
+        "payment_velocity",
+        "K_C_return_distribution"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "H5",
+      "statement": "A transition from CAD-denominated activity toward K_M can reduce the real importance of legacy fixed nominal CAD debt, but cannot eliminate creditor-side losses or refinancing consequences.",
+      "test_metrics": [
+        "legacy_CAD_debt_real",
+        "nominal_refinancing_rate",
+        "creditor_real_wealth_change"
+      ],
+      "status": "open"
+    },
+    {
+      "id": "H6",
+      "statement": "Online-first QR settlement can materially reduce merchant onboarding cost if security and identity controls preserve payment authorization integrity.",
+      "test_metrics": [
+        "merchant_onboarding_cost",
+        "payment_failure_rate",
+        "fraud_loss_rate"
+      ],
+      "status": "open"
+    }
+  ]
+}

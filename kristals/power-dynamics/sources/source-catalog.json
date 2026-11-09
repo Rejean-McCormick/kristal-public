@@ -1,0 +1,26 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "power-dynamics-source-manifest",
+      "title": "Power Dynamics source manifest",
+      "kind": "local-source-manifest",
+      "locator": "knowledge-base/sources/power_dynamics/source_manifest.json",
+      "role": "provenance registry for preserved Power Dynamics source documents"
+    },
+    {
+      "id": "scholarly-corpus-registry",
+      "title": "Scholarly corpus registry",
+      "kind": "external-corpus-registry",
+      "locator": "knowledge-base/sources/scholarly/corpus_registry.json",
+      "role": "registry of remote scholarly corpora; candidate metadata is not automatically evidence"
+    },
+    {
+      "id": "power-topology-bibliography",
+      "title": "Power topology bibliography",
+      "kind": "bibliography",
+      "locator": "knowledge-base/sources/references/bibliography.json",
+      "role": "bibliographic provenance referenced by compiled assertions"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "robotics",
+  "title": "Robotics",
+  "target_root": "kristals/robotics",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:robotics",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:31e7ed7434833bbd4a15aeb6371dd4571b822f5f607dae6c468733de92ac4d8b"
+  },
+  "surface_digest": "sha256:7d116ef5eeac70583f143fb83b45b461abd360e03800853b25aeda0a1463d4d0",
+  "file_count": 26,
+  "total_bytes": 250904,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 1960,
+      "sha256": "sha256:824757ee02150f337582e901ef519307482fd1264a448d1fea1ed3177882bf5f"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1922,
+      "sha256": "sha256:e4582be49f9411f6efbb2c79575312ed28ee0a2400ea8acd4b4457d3b0f40cfa"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 1942,
+      "sha256": "sha256:4db23fb1d92f1d167d18e0442f16fa111a12302c1eedb1225835a2aaeb091a62"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 5147,
+      "sha256": "sha256:c0b0f33d02ed3f429774f0572e9cf030e78c063bb0f725e591394a06e1be97f0"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1395,
+      "sha256": "sha256:72b6347de2b8f6a72ff03b6e7eee2ce0ac39ee6476bce6d9dd6b43b5a2bbe2e7"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 3878,
+      "sha256": "sha256:a8cb8b5982f2d72ea807c55576ab93b290c2bafdceccc5d42b5252e00e155f55"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 580,
+      "sha256": "sha256:1143512d5d25dbcaae1ff14f7641289e7f4f51c831f423559e166fd739635efb"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 735,
+      "sha256": "sha256:374181448131a72087e0512fa9852a3ae246d045e8c32fdd15581c81aa2db67f"
+    },
+    {
+      "path": "canon/domain/v9-logical-payload.json",
+      "role": "canonical_content",
+      "size": 197186,
+      "sha256": "sha256:4a7cf4797b15e13c2687a26d716ecccc1845df69542508a83c7d67ce89f9a469"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1063,
+      "sha256": "sha256:56d0dec68b5f18003c41b5463d686fb9b0b53509309a7ba278eda8740c522c9e"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1867,
+      "sha256": "sha256:187fe27bfc4f7abf3827aba957225c943270efae3c3f9d408b6b944605d6f34c"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2674,
+      "sha256": "sha256:10e86f1e99be2ead08f564f5cf1b26cff68a9d30977b5ce04eaa25ae0100a797"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 732,
+      "sha256": "sha256:fce1ffa35d695f2d2081df50a8d25354f4861624fa15f704bef33aaaec3c8f89"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 633,
+      "sha256": "sha256:2d0ea97af9cd447d9c8b7157c8cfe95ae616f774ffbd6eb62018dba35108c19e"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 773,
+      "sha256": "sha256:18c7444bf1f195256644774852d6f911e215c68feda86a80596c3a64453b088b"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 672,
+      "sha256": "sha256:ff34d85d174d181ccc26819080bf9a0f86a228e12cb71abfeb19adecc8d6e219"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 1122,
+      "sha256": "sha256:d606f7cd5966c1ef4d0962d7908e1cd88958faad61580d3a4318b520b75376e6"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 475,
+      "sha256": "sha256:694be08e28c3f59454135f203ee435928b2e2541a12d837a7f1b3e9bb5acd3ce"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 784,
+      "sha256": "sha256:cf9dd08a9187d2a9f4b263440c59d39f2a0d38cbe617c4bc4a7734365f06cc73"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 471,
+      "sha256": "sha256:83e74ed0e6a2fc5ad0fac0301e149fb18232d04097135c2a3c8c0bf65be20e8e"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 4000,
+      "sha256": "sha256:a15e17ab1a71f6f718eced046670b3722ecbcc44daeb4071889b856be72a5a87"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1986,
+      "sha256": "sha256:6cd7f9bca6a22b6ac0663e13e49c8641e7b85f7296145296a0ff9de86dfbed97"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 15249,
+      "sha256": "sha256:b94ebcc76f170023b5f9117b7204f960b3bf5cdffbc65ac7d29e7500a93323e7"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 875,
+      "sha256": "sha256:af12ed1ed616e86c85687f6a28902cdb60c8b08968c580fd12d4c125c0ed59f9"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

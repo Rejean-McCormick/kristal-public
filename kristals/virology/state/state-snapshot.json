@@ -1,0 +1,123 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:kristal-virology",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:f19ab9812d60d79ab76d1b4bc65a066261a05cbc399db365cbe95f54008f97c2"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:artifact:kristal-virology:portable-epistemic-state",
+      "logical_contract": {
+        "id": "kristal.portable-epistemic-state",
+        "version": "6.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3cc5eb9afa33f4380ceb97f731367f7fcafe86cd181198f7a747c8f5880f5725"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:kristal-virology:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:736f80a4a6e676a0a7bb42ee6355d910b048dbd2207db3b8692aef6f1ee2215c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:kristal-virology:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5f72ad223fdbf7f354bec20cef496797563eee25d60a652072cf4077af042032"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:kristal-virology:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1d447a332455e4d79ded113947e565f188bd7618db7a7066ea7a8d8b60be5a1e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:kristal-virology:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f82a9668046535e0ea2bc9a130715c3d7344eb0fd267c3856f602cd8169e10d3"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Virology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0162ed9fab04e532934398ce5f4372b1b9b0a98c2643675377367dcf2ce27d75"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Virology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:cd7b269eccd504d983d4da3e3dda3cc01a5e737513c74667b58d72606edc1c25"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Virology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:46003266fbf27bc34e9e105b01f04596303f1418b77887a1f3a0a0011e472308"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Virology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:005e2f15f57210461595e3931952a712e67300f524125d4608c9797b58864f85"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:virology:v11:catalog:fr-proposal-2026-11-06",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:250a26d6975dba885fc91daa97905b978ed7013ef66785320b95efa8ae24838b"
+      }
+    }
+  ],
+  "references": [],
+  "parents": []
+}

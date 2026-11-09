@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vaticanops:schema:claims",
+  "type": "object",
+  "required": [
+    "format",
+    "assertions"
+  ],
+  "properties": {
+    "assertions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "subject_ref",
+          "predicate",
+          "claim_type",
+          "evidence_refs",
+          "epistemic_status"
+        ]
+      }
+    }
+  }
+}

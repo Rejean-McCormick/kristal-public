@@ -1,0 +1,46 @@
+{
+  "domain": "history",
+  "domain_version": "0.1.0",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:history:resource:portable_epistemic_state",
+      "role": "portable_epistemic_state",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:df69469d876cd79a9a17d07b2bfa1b41b4579bbb52ee6c9889713dfb1a80a3d9"
+      },
+      "legacy_schema_version": "6.0",
+      "legacy_artifact_type": "kristal_state",
+      "legacy_state_id": "sha256:791159ae128f4f9458a62f2b5ce3f809ae3c0e2a528d759a648a892dad92b480",
+      "legacy_content_hash": {
+        "alg": "sha256",
+        "value": "791159ae128f4f9458a62f2b5ce3f809ae3c0e2a528d759a648a892dad92b480"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:history:resource:identity_registry",
+      "role": "identity_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:82c7e6b96533e8f13b3a14f8ac4f75f98364a90cd4a6f6ccb79109fb98fd2dc6"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:history:resource:source_catalog",
+      "role": "source_catalog",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:77e5df41a264f9f8acd27f7f9f166b01b4b4c07716b18d3924fa02a66c22ce93"
+      }
+    }
+  ],
+  "semantic_boundaries": [
+    "before(A,B) != cause(A,B)",
+    "temporal_relation != causality",
+    "competing_explanations_may_coexist"
+  ]
+}

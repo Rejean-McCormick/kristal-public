@@ -1,0 +1,5144 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "working",
+  "created_at": "2026-10-02T16:24:00Z",
+  "updated_at": "2026-10-02T16:24:00Z",
+  "applicability": {
+    "domain": "mécanismes légaux de pouvoir",
+    "subdomain": "France / national / collectivités territoriales / municipal / scolaire / justice / interfaces UE et traités",
+    "jurisdiction": "France",
+    "language": "fr",
+    "time_window": {
+      "as_of": "2026-10-02"
+    }
+  },
+  "source_refs": [
+    {
+      "source_id": "SRC-FR-CONST",
+      "title": "Constitution du 4 octobre 1958 — texte en vigueur",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356/"
+    },
+    {
+      "source_id": "SRC-FR-CONST-TREATIES",
+      "title": "Constitution — Titre VI : Des traités et accords internationaux (articles 52 à 55)",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006095826/"
+    },
+    {
+      "source_id": "SRC-FR-CONST-EU",
+      "title": "Constitution — Titre XV : De l'Union européenne (articles 88-1 à 88-7)",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000571356/LEGISCTA000006095837/"
+    },
+    {
+      "source_id": "SRC-FR-CONST-TERR",
+      "title": "Constitution — Titre XII : Des collectivités territoriales (articles 72 à 75-1)",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006095833"
+    },
+    {
+      "source_id": "SRC-FR-CONST-CC",
+      "title": "Constitution — Titre VII : Le Conseil constitutionnel (articles 56 à 63)",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000571356/LEGISCTA000006095827/"
+    },
+    {
+      "source_id": "SRC-FR-CONST-JUD",
+      "title": "Constitution — Titre VIII : De l'autorité judiciaire (articles 64 à 66-1)",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/JORFTEXT000000571356/LEGISCTA000006095828/"
+    },
+    {
+      "source_id": "SRC-FR-SARRAN",
+      "title": "Conseil d'État, Assemblée, 30 octobre 1998, Sarran et Levacher",
+      "url": "https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-assemblee-30-octobre-1998-sarran-et-levacher"
+    },
+    {
+      "source_id": "SRC-FR-CJA",
+      "title": "Code de justice administrative — article L111-1",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000006150369/"
+    },
+    {
+      "source_id": "SRC-FR-CE-DUALISME",
+      "title": "Le dualisme juridictionnel : synergies et complémentarité",
+      "url": "https://www.conseil-etat.fr/publications-colloques/discours-et-contributions/le-dualisme-juridictionnel-synergies-et-complementarite"
+    },
+    {
+      "source_id": "SRC-FR-CASS",
+      "title": "Les missions de la Cour de cassation",
+      "url": "https://www.courdecassation.fr/la-cour/les-missions-de-la-cour-de-cassation"
+    },
+    {
+      "source_id": "SRC-FR-QPC",
+      "title": "La question prioritaire de constitutionnalité",
+      "url": "https://qpc360.conseil-constitutionnel.fr/decisions/la-qpc"
+    },
+    {
+      "source_id": "SRC-FR-CGCT",
+      "title": "Code général des collectivités territoriales — principes de libre administration",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149196"
+    },
+    {
+      "source_id": "SRC-FR-CGCT-MAYOR",
+      "title": "Code général des collectivités territoriales — attributions du maire",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006180966"
+    },
+    {
+      "source_id": "SRC-FR-LOCAL-CONTROL",
+      "title": "Contrôle de légalité — procédure préfectorale",
+      "url": "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/controle-de-legalite/procedure-prefectorale"
+    },
+    {
+      "source_id": "SRC-FR-CGCT-DEPT",
+      "title": "Code général des collectivités territoriales — article L3211-1",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045212762"
+    },
+    {
+      "source_id": "SRC-FR-CGCT-REGION",
+      "title": "Code général des collectivités territoriales — article L4221-1",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070633/LEGISCTA000006164693/"
+    },
+    {
+      "source_id": "SRC-FR-EDU-CODE",
+      "title": "Code de l'éducation — répartition des compétences État / collectivités",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006151333"
+    },
+    {
+      "source_id": "SRC-FR-EDU-ORG",
+      "title": "Les régions académiques, académies et services départementaux de l'Éducation nationale",
+      "url": "https://www.education.gouv.fr/les-regions-academiques-academies-et-services-departementaux-de-l-education-nationale-6557"
+    },
+    {
+      "source_id": "SRC-FR-EDU-STATE",
+      "title": "L'État — compétences en matière d'éducation",
+      "url": "https://www.education.gouv.fr/l-etat-7712"
+    },
+    {
+      "source_id": "SRC-FR-AN-CONTROL",
+      "title": "Contrôle et évaluation",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/travaux-de-controle"
+    },
+    {
+      "source_id": "SRC-FR-SENAT",
+      "title": "Rôle et fonctionnement du Sénat",
+      "url": "https://www.senat.fr/connaitre-le-senat/role-et-fonctionnement.html"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "FR-POUVOIR-001",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:office-holder"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Une charge publique, une institution et la personne qui l’occupe ne doivent pas être confondues; les titulaires peuvent changer sans modifier la compétence juridique de l’office.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "France"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "distinction_charge_titulaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-002",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:authority-influence"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "L’influence politique ou administrative ne vaut pas, à elle seule, autorité juridique pour accomplir un acte réservé par la Constitution ou la loi à une institution déterminée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "France"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "distinction_influence_autorite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-003",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:law-regulation"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Une loi, un règlement, un décret, une ordonnance et une délibération locale sont des catégories d’actes distinctes dont l’auteur, le domaine et le contrôle ne sont pas interchangeables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "France"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "distinction_normes"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST",
+        "SRC-FR-CGCT"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-004",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:external-boundary"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Le présent Kristal décrit seulement l’interface juridique française avec les traités et l’Union européenne; il n’encode pas le contenu substantiel du droit international ni du droit de l’Union.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "France"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "frontiere_corpus"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TREATIES",
+        "SRC-FR-CONST-EU"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-005",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:commercial-policy"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Une politique commerciale privée ou interne à un projet ne doit pas être représentée comme une interdiction de droit français sauf source juridique française expresse.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "France"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "distinction_politique_privee_droit"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-006",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-france"
+        },
+        "predicate": "norm.has_effect",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans l’ordre juridique interne français, la Constitution occupe le sommet de la hiérarchie; la supériorité reconnue aux engagements internationaux ne prévaut pas sur les dispositions de valeur constitutionnelle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "suprematie_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-SARRAN"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-007",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-art1"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La France est une République indivisible et son organisation est décentralisée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National + territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "forme_et_organisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-008",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-art3"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La souveraineté nationale appartient au peuple, qui l’exerce par ses représentants et par la voie du référendum; aucun individu ni aucune section du peuple ne peut s’en attribuer l’exercice.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "souverainete"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-009",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-republique"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président de la République veille au respect de la Constitution, assure par son arbitrage le fonctionnement régulier des pouvoirs publics et la continuité de l’État.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "garantie_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-010",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-republique"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président de la République nomme le Premier ministre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-011",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-republique"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président promulgue les lois définitivement adoptées dans le délai constitutionnel et peut, avant ce délai, demander au Parlement une nouvelle délibération de la loi ou de certains de ses articles.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "promulgation_relecture"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-012",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-republique"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Après les consultations constitutionnellement requises, le Président peut prononcer la dissolution de l’Assemblée nationale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "equilibre_pouvoirs"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "dissolution"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-013",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-republique"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président signe les ordonnances et les décrets délibérés en Conseil des ministres et nomme aux emplois civils et militaires de l’État dans les conditions de l’article 13.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif_reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "signature_nomination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-014",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-republique"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Hors procédures constitutionnelles particulières, le Président ne peut pas adopter seul une loi ordinaire: le pouvoir de voter la loi appartient au Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "absence_pouvoir_legislatif_unilateral"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-015",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-republique"
+        },
+        "predicate": "actor.signature_constraint",
+        "object": {
+          "kind": "proposition",
+          "value": "La plupart des actes du Président doivent être contresignés par le Premier ministre et, le cas échéant, les ministres responsables; l’article 19 énumère les actes dispensés de contreseing.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "contreseing"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-016",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-france"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement détermine et conduit la politique de la Nation; il dispose de l’administration et de la force armée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_politique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-017",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-france"
+        },
+        "predicate": "institution.depends_on_confidence",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement est politiquement responsable dans les conditions des articles 49 et 50; une motion de censure adoptée par l’Assemblée nationale oblige le Premier ministre à remettre la démission du Gouvernement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "responsabilite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "responsabilite_parlementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-018",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:premier-ministre-france"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre dirige l’action du Gouvernement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_gouvernement"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-019",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:premier-ministre-france"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre assure l’exécution des lois et, sous réserve des attributions présidentielles de l’article 13, exerce le pouvoir réglementaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_reglementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-020",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:premier-ministre-france"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre peut déléguer certains de ses pouvoirs aux ministres.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "delegation"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "delegation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-021",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-france"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre n’est pas, par sa seule qualité de ministre, le titulaire constitutionnel du pouvoir réglementaire général attribué au Premier ministre; il peut toutefois recevoir des délégations ou disposer de pouvoirs prévus par les textes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "absence_pouvoir_reglementaire_general"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ],
+      "notes": "Assertion limitée au schéma constitutionnel général; les pouvoirs réglementaires spéciaux ou de chef de service doivent être analysés texte par texte."
+    },
+    {
+      "assertion_id": "FR-POUVOIR-022",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-france"
+        },
+        "predicate": "actor.cannot_make_statute_unilaterally",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre ne peut pas adopter seul une loi: l’adoption d’une loi relève de la procédure parlementaire prévue par la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "absence_pouvoir_legislatif_unilateral"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-023",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-france"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement vote la loi, contrôle l’action du Gouvernement et évalue les politiques publiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legislation_controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST",
+        "SRC-FR-AN-CONTROL",
+        "SRC-FR-SENAT"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-024",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-france"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement comprend l’Assemblée nationale et le Sénat.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "bicamérisme"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-025",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senat-france"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Sénat représente constitutionnellement les collectivités territoriales de la République et participe au vote de la loi, au contrôle du Gouvernement et à l’évaluation des politiques publiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "representation_territoriale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST",
+        "SRC-FR-SENAT"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-026",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Assemblée nationale participe au vote de la loi, au contrôle du Gouvernement et à l’évaluation des politiques publiques; elle joue en outre un rôle propre dans la mise en cause de la responsabilité du Gouvernement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_responsabilite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST",
+        "SRC-FR-AN-CONTROL"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-027",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:initiative-loi"
+        },
+        "predicate": "power.is_shared",
+        "object": {
+          "kind": "proposition",
+          "value": "L’initiative des lois appartient concurremment au Premier ministre et aux membres du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "initiative_legislative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-028",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:projet-loi"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Les projets de loi sont délibérés en Conseil des ministres après avis du Conseil d’État avant leur dépôt devant une assemblée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedure_projet_loi"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-029",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:depot-prioritaire"
+        },
+        "predicate": "procedure.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les projets de loi de finances et de financement de la sécurité sociale sont soumis d’abord à l’Assemblée nationale; les projets ayant pour principal objet l’organisation des collectivités territoriales sont soumis d’abord au Sénat.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "ordre_examen"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-030",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-art34"
+        },
+        "predicate": "norm.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "La loi intervient dans les matières que l’article 34 réserve ou attribue au domaine législatif, notamment les droits civiques, les crimes et délits, les impositions et les principes fondamentaux de plusieurs matières.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "domaine_loi"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-031",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-art37"
+        },
+        "predicate": "norm.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Les matières autres que celles qui appartiennent au domaine de la loi ont un caractère réglementaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "domaine_reglement"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-032",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-france"
+        },
+        "predicate": "actor.may_regulate_if_delegated",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement peut demander au Parlement l’autorisation de prendre, par ordonnances et pendant un délai limité, des mesures qui relèvent normalement du domaine de la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "ordonnance"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "habilitation_article38"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-033",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:ordonnance-art38"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Les ordonnances de l’article 38 sont prises en Conseil des ministres après avis du Conseil d’État; un projet de loi de ratification doit être déposé dans le délai fixé par la loi d’habilitation et la ratification ne peut être qu’expresse.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "ordonnance"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedure_ordonnance"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-034",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-france"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement ne peut pas, par simple décret, déplacer librement dans le domaine réglementaire une matière relevant de l’article 34; les mécanismes des articles 37 et 38 encadrent les changements ou interventions correspondants.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "frontiere_loi_reglement"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-035",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:navette-legislative"
+        },
+        "predicate": "procedure.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Un texte de loi est examiné successivement par les deux assemblées afin de parvenir à un texte identique; en cas de désaccord persistant, la Constitution organise une commission mixte paritaire et, dans certains cas, permet au Gouvernement de demander à l’Assemblée nationale de statuer définitivement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "navette_et_dernier_mot"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-036",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senat-france"
+        },
+        "predicate": "actor.can_block",
+        "object": {
+          "kind": "proposition",
+          "value": "Pour une révision constitutionnelle selon l’article 89, le Sénat peut empêcher la poursuite de la procédure en refusant le texte, car les deux assemblées doivent adopter le projet ou la proposition en termes identiques et aucun dernier mot n’est donné à l’Assemblée nationale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "veto_revision"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-037",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:parlementaire-individuel"
+        },
+        "predicate": "actor.cannot_make_statute_unilaterally",
+        "object": {
+          "kind": "proposition",
+          "value": "Un député ou un sénateur peut déposer ou soutenir une proposition de loi, mais aucun parlementaire ne peut à lui seul faire entrer une loi en vigueur.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "decision_collective"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-038",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senat-france"
+        },
+        "predicate": "actor.cannot_unilaterally_bind",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Sénat ne peut pas, à lui seul, adopter une loi ordinaire ni renverser le Gouvernement par une motion de censure.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "bicamérisme_responsabilite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-039",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Assemblée nationale peut mettre en cause la responsabilité du Gouvernement par une motion de censure dans les conditions de l’article 49.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "motion_censure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-040",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-constitutionnel"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Avant leur promulgation ou mise en application, les lois organiques et les règlements des assemblées doivent être soumis au Conseil constitutionnel; une loi ordinaire peut aussi lui être déférée par les autorités et groupes parlementaires habilités par l’article 61.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_a_priori"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-CC"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-041",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-constitutionnel"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "À l’occasion d’un procès, une disposition législative peut faire l’objet d’une question prioritaire de constitutionnalité portant sur les droits et libertés garantis par la Constitution; le Conseil constitutionnel est saisi sur renvoi du Conseil d’État ou de la Cour de cassation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "qpc"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-CC",
+        "SRC-FR-QPC"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-042",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-constitutionnel"
+        },
+        "predicate": "institution.can_block",
+        "object": {
+          "kind": "proposition",
+          "value": "Une disposition déclarée inconstitutionnelle sur le fondement de l’article 61 ne peut être promulguée ni mise en application.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "blocage_promulgation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-CC"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-043",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-constitutionnel"
+        },
+        "predicate": "institution.can_abrogate",
+        "object": {
+          "kind": "proposition",
+          "value": "Une disposition déclarée inconstitutionnelle dans le cadre d’une QPC est abrogée à la date fixée par la décision, avec les conditions et limites que le Conseil peut déterminer pour ses effets passés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "abrogation_qpc"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-CC",
+        "SRC-FR-QPC"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-044",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-constitutionnel"
+        },
+        "predicate": "institution.decision_effect",
+        "object": {
+          "kind": "proposition",
+          "value": "Les décisions du Conseil constitutionnel ne sont susceptibles d’aucun recours et s’imposent aux pouvoirs publics ainsi qu’aux autorités administratives et juridictionnelles.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autorite_decisions"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-CC"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-045",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:revision-constitution"
+        },
+        "predicate": "procedure.initiative",
+        "object": {
+          "kind": "proposition",
+          "value": "L’initiative de la révision appartient au Président de la République sur proposition du Premier ministre et aux membres du Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "initiative_revision"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-046",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:revision-constitution"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Le projet ou la proposition de révision doit être voté en termes identiques par l’Assemblée nationale et le Sénat.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "accord_bicameral_identique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-047",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:revision-constitution"
+        },
+        "predicate": "procedure.finalization",
+        "object": {
+          "kind": "proposition",
+          "value": "La révision devient définitive après référendum; pour un projet de révision, le Président peut choisir le Congrès, où une majorité des trois cinquièmes des suffrages exprimés est requise.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "referendum_ou_congres"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-048",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-art89"
+        },
+        "predicate": "norm.cannot_be_revised",
+        "object": {
+          "kind": "proposition",
+          "value": "La forme républicaine du Gouvernement ne peut faire l’objet d’une révision constitutionnelle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_materielle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-049",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:dualisme-juridictionnel"
+        },
+        "predicate": "governance.has_two_orders",
+        "object": {
+          "kind": "proposition",
+          "value": "Le système français distingue un ordre juridictionnel administratif et un ordre juridictionnel judiciaire, avec des champs de compétence distincts.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "dualisme_juridictionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CE-DUALISME"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-050",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-etat"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Conseil d’État est la juridiction administrative suprême et statue notamment sur les recours en cassation contre les décisions rendues en dernier ressort par les juridictions administratives.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_administrative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "cour_supreme_administrative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CJA"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-051",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:juridiction-administrative"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "La juridiction administrative assure en principe le contrôle de légalité des décisions prises par les autorités administratives dans l’exercice de prérogatives de puissance publique, sous réserve des compétences reconnues à l’ordre judiciaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_administrative"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_legalite_administration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CE-DUALISME"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-052",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-cassation"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour de cassation est au sommet de l’ordre judiciaire pour le contrôle de la correcte application du droit par les juridictions judiciaires; elle est juge du droit et ne rejuge pas normalement les faits.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "cour_supreme_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CASS"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-053",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-art64"
+        },
+        "predicate": "norm.protects",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution garantit l’indépendance de l’autorité judiciaire; les magistrats du siège sont inamovibles.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "independance_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-JUD"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-054",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:autorite-judiciaire"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "L’autorité judiciaire est gardienne de la liberté individuelle et doit assurer la protection contre la détention arbitraire dans les conditions prévues par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "liberte_individuelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-JUD"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-055",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-superieur-magistrature"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Conseil supérieur de la magistrature assiste le Président de la République dans sa fonction de garant de l’indépendance de l’autorité judiciaire et exerce les attributions prévues par l’article 65.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "justice_judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "gouvernance_magistrature"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-JUD"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-056",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-etat"
+        },
+        "predicate": "institution.qpc_gatekeeper",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Conseil d’État peut transmettre au Conseil constitutionnel une QPC provenant de l’ordre administratif lorsque les conditions légales de renvoi sont réunies.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "filtrage_qpc"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-CC",
+        "SRC-FR-QPC"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-057",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-cassation"
+        },
+        "predicate": "institution.qpc_gatekeeper",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour de cassation peut transmettre au Conseil constitutionnel une QPC provenant de l’ordre judiciaire lorsque les conditions légales de renvoi sont réunies.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "filtrage_qpc"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-CC",
+        "SRC-FR-QPC"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-058",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:collectivites-territoriales"
+        },
+        "predicate": "institution.current_form",
+        "object": {
+          "kind": "proposition",
+          "value": "Les collectivités territoriales constitutionnellement énumérées comprennent les communes, les départements, les régions, les collectivités à statut particulier et les collectivités d’outre-mer régies par l’article 74.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "categories_collectivites"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TERR"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-059",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:libre-administration"
+        },
+        "predicate": "norm.protects",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans les conditions prévues par la loi, les collectivités territoriales s’administrent librement par des conseils élus et disposent d’un pouvoir réglementaire pour l’exercice de leurs compétences.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "libre_administration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TERR",
+        "SRC-FR-CGCT"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-060",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:subsidiarite-territoriale"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les collectivités ont vocation à prendre les décisions pour l’ensemble des compétences qui peuvent le mieux être mises en œuvre à leur échelon, dans les conditions constitutionnelles et légales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "subsidiarite_territoriale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TERR"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-061",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:absence-tutelle-locale"
+        },
+        "predicate": "norm.cannot_conflict",
+        "object": {
+          "kind": "proposition",
+          "value": "La répartition des compétences ne peut autoriser une collectivité territoriale à établir ou exercer une tutelle sur une autre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "absence_tutelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CGCT"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-062",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:prefet"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans les collectivités territoriales de la République, le représentant de l’État représente chacun des membres du Gouvernement et a la charge des intérêts nationaux, du contrôle administratif et du respect des lois.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial / État déconcentré"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_etat"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TERR"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-063",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:prefet"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Pour les actes soumis au contrôle de légalité, le préfet peut former un recours gracieux puis déférer au tribunal administratif un acte local qu’il estime illégal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial / État déconcentré"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "defere_prefectoral"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-LOCAL-CONTROL"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-064",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:prefet"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans la procédure ordinaire de contrôle de légalité, le préfet ne remplace pas le juge en annulant lui-même l’acte local contesté; il peut le déférer à la juridiction administrative.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial / État déconcentré"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pas_annulation_directe"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-LOCAL-CONTROL"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-065",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commune"
+        },
+        "predicate": "institution.decides_collectively",
+        "object": {
+          "kind": "proposition",
+          "value": "La commune règle par délibérations les affaires relevant de sa compétence; son conseil délibère tandis que le maire assure notamment l’exécution des décisions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commune"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "deliberation_execution"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CGCT",
+        "SRC-FR-CGCT-MAYOR"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-066",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:maire"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le maire est chargé de l’administration de la commune et peut déléguer par arrêté une partie de ses fonctions dans les conditions prévues par le code.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commune"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration_delegation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CGCT-MAYOR"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-067",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:maire"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Sous le contrôle du conseil municipal et le contrôle administratif du représentant de l’État, le maire exécute les décisions du conseil municipal et exerce les attributions prévues par le code.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commune"
+        },
+        {
+          "axis": "fonction",
+          "value": "municipal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "execution_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CGCT-MAYOR"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-068",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-departemental"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil départemental règle les affaires du département dans les domaines que la loi lui attribue, notamment des missions de solidarité, de prévention et de prise en charge des situations de fragilité et de cohésion territoriale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Département"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competences_departement"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CGCT-DEPT"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-069",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-regional"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil régional règle les affaires de la région dans les domaines que la loi lui attribue et dispose notamment de compétences de développement économique, social, culturel, scientifique et d’aménagement du territoire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Région"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competences_region"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CGCT-REGION"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-070",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:competences-partagees-locales"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Certaines compétences, notamment culture, sport, tourisme, langues régionales et éducation populaire, sont légalement partagées entre plusieurs catégories de collectivités et l’État selon le cadre applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "territorial"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_partagee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CGCT"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-071",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:collectivite-territoriale"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Une collectivité territoriale ne possède pas une souveraineté propre comparable à celle de l’État: elle agit dans les compétences et conditions fixées par la Constitution et la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_attribuee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TERR",
+        "SRC-FR-CGCT"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-072",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:etat-france"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "L’État définit les programmes d’enseignement et assure notamment le recrutement, la formation et la rémunération des personnels enseignants dans le système public.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "programmes_personnels"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-EDU-STATE"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-073",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commune"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "La commune a la charge des écoles publiques, notamment de leurs locaux, construction, grosses réparations, équipement et fonctionnement selon le Code de l’éducation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Commune / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "ecoles_publiques"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-EDU-CODE"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-074",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:departement"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "Le département a la charge des collèges publics, notamment pour leur construction, grosses réparations, équipement et fonctionnement selon le Code de l’éducation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Département / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "colleges"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-EDU-CODE"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-075",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:region"
+        },
+        "predicate": "institution.has_domains",
+        "object": {
+          "kind": "proposition",
+          "value": "La région a la charge des lycées, établissements d’éducation spéciale et lycées professionnels maritimes pour les responsabilités matérielles prévues par le Code de l’éducation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Région / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "lycees"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-EDU-CODE"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-076",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:recteur-academie"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le recteur d’académie veille à l’application des dispositions législatives et réglementaires relatives à l’Éducation nationale, définit la stratégie académique d’application de la politique éducative nationale et dirige les services académiques dans son champ.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Académie / État déconcentré"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mise_en_oeuvre_academique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-EDU-ORG"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-077",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:recteur-region-academique"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le recteur de région académique garantit au niveau régional la cohérence des politiques publiques relevant des ministères chargés de l’éducation, de l’enseignement supérieur, de la recherche et de l’innovation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Région académique / État déconcentré"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "coordination_region_academique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-EDU-ORG"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-078",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:education-governance"
+        },
+        "predicate": "governance.has_multiple_levels",
+        "object": {
+          "kind": "proposition",
+          "value": "La gouvernance éducative française combine une politique nationale et des services déconcentrés de l’État avec des responsabilités matérielles différenciées des communes, départements et régions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National + territorial / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "education"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "repartition_multi_niveaux"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-EDU-CODE",
+        "SRC-FR-EDU-ORG",
+        "SRC-FR-EDU-STATE"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-079",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:collectivite-territoriale"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le fait qu’une collectivité finance ou entretienne un établissement scolaire ne lui transfère pas, par lui-même, le pouvoir national de définir les programmes ou de gérer les personnels enseignants de l’État.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Territorial / scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "limite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "distinction_materiel_pedagogique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-EDU-CODE",
+        "SRC-FR-EDU-STATE"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-080",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-republique"
+        },
+        "predicate": "institution.exercises_treaty_making",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans l’ordre constitutionnel français, le Président de la République négocie et ratifie les traités et est informé de toute négociation tendant à la conclusion d’un accord international non soumis à ratification.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_traitaire_interne"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TREATIES"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-081",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-france"
+        },
+        "predicate": "institution.approves_important_international_commitment",
+        "object": {
+          "kind": "proposition",
+          "value": "Les catégories d’engagements énumérées à l’article 53 ne peuvent être ratifiées ou approuvées qu’en vertu d’une loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autorisation_legislative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TREATIES"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-082",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-constitutionnel"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "Lorsqu’un engagement international est déclaré contraire à la Constitution dans le cadre de l’article 54, l’autorisation de le ratifier ou de l’approuver ne peut intervenir qu’après révision de la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_pre_ratification"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TREATIES"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-083",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:traite-recu-france"
+        },
+        "predicate": "norm.has_effect",
+        "object": {
+          "kind": "proposition",
+          "value": "L’article 55 attribue aux traités ou accords régulièrement ratifiés ou approuvés et publiés une autorité supérieure à celle des lois, sous la condition de réciprocité qu’il énonce; cette assertion décrit uniquement leur rang dans l’ordre interne français.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "rang_interne_traités"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TREATIES"
+      ],
+      "notes": "Le contenu matériel des obligations internationales appartient au Kristal supranational/international, pas au présent corpus."
+    },
+    {
+      "assertion_id": "FR-POUVOIR-084",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:ordre-interne-francais"
+        },
+        "predicate": "concept.hierarchy_note",
+        "object": {
+          "kind": "proposition",
+          "value": "La supériorité interne prévue par l’article 55 ne place pas les engagements internationaux au-dessus de la Constitution dans l’ordre juridique interne.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "international_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "constitution_sur_engagements"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-SARRAN"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-085",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-art88-1"
+        },
+        "predicate": "norm.states",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution prévoit que la République participe à l’Union européenne dans les conditions énoncées à l’article 88-1.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "ue_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "participation_ue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-EU"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-086",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-france"
+        },
+        "predicate": "institution.receives_eu_documents",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Gouvernement soumet à l’Assemblée nationale et au Sénat les projets ou propositions d’actes de l’Union entrant dans le champ de l’article 88-4; des résolutions européennes peuvent être adoptées selon les modalités constitutionnelles.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "ue_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_parlementaire_ue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-EU"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-087",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-france"
+        },
+        "predicate": "institution.can_review_subsidiarity",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans les conditions de l’article 88-6, l’Assemblée nationale ou le Sénat peuvent émettre un avis motivé sur la conformité d’un projet d’acte législatif européen au principe de subsidiarité et exercer les voies prévues par ce même article.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "ue_interface"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "subsidiarite_ue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-EU"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-088",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:eu-substantive-excluded"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les règlements, directives, décisions, jurisprudence et autres normes substantielles de l’Union européenne ne sont pas reproduits dans ce Kristal France; seules les compétences et procédures françaises d’interface sont décrites.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface UE"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "frontiere_corpus"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-EU"
+      ]
+    },
+    {
+      "assertion_id": "FR-POUVOIR-089",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:intl-substantive-excluded"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Les traités particuliers, coutumes internationales, jus cogens, obligations erga omnes, droit humanitaire, droit de la mer, droit international des droits humains, OMC et responsabilité internationale sont exclus de ce Kristal et doivent résider dans le Kristal supranational/international.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "métamodèle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "France",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "frontiere_corpus"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FR-CONST-TREATIES"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "PROV-FR-001",
+      "type": "research_build",
+      "created_at": "2026-10-02T16:24:00Z",
+      "method": "Synthèse structurée de la Constitution française, codes et sources institutionnelles officielles consultées à jour au 2 octobre 2026. Le corpus exclut le droit international et de l’Union européenne substantiel et ne conserve que l’interface de droit interne français. Aucun titulaire politique actuel n’est encodé.",
+      "tooling": "Kristal Standard 6.0.0"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "BOUNDARY-SUPRANATIONAL",
+      "message": "Ne pas injecter dans ce corpus le contenu matériel du droit international ou de l’Union européenne; créer des références croisées vers le Kristal supranational/international."
+    }
+  ],
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1"
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:droit-international-global",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:84d79fa1357a31d282ae5aafd639f752d3183bb26a426bfd9b64c5de0f1759ad"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:droit-international-global:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      },
+      "authority_ref": "urn:kristal:authority:droit-international-global",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a07d3a207d0f37f38e4275f0d2e4324cee0817604500d196245f4eb87a3a530a"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "kristal_ref": "Kristal-Droit-International-Global",
+    "domain": "droit-international-global"
+  },
+  "authority_ref": "urn:kristal:authority:droit-international-global"
+}

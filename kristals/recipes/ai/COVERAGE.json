@@ -1,0 +1,36 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:recipes",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:5318163afb08353c04e72112999d91e8b48d97e5f527235e932a603b85fd33c4"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:recipes",
+    "label": "Kristal-Recipes",
+    "domain": "culture"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Modèle canonique des familles, variantes, ingrédients, mécanismes, transitions et sources culinaires."
+    ],
+    "does_not_own": [
+      "Assimilation d’une famille à sa variante ou d’une source externe à une recette vérifiée.",
+      "Les dépôts des sources externes, leur publication et leur autorité éditoriale."
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 13,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

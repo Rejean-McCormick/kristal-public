@@ -1,0 +1,674 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:finance",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:abc779908a04e40dfe8a4ba6ee745f9316ddb759b24c9b878f8aa4999134b85b"
+  },
+  "files": [
+    {
+      "path": "canon/domain/finance.logical-payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 288,
+      "sha256": "sha256:8a7e37d74bb521e9a33e5fb31c3a1b99f21055fc4a65e5f58fbbded916c6bd1f",
+      "artifact_id": "urn:kristal:finance:canonical",
+      "logical_contract": {
+        "id": "kristal.v6-state-reference",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1967,
+      "sha256": "sha256:23153865f973f4c14693702db6817e7d90eb97aaa615e60286dd9229eef1377f",
+      "artifact_id": "urn:kristal:finance:v11:catalog:fr-proposal-2026-11-06",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 5288,
+      "sha256": "sha256:da744aeba8fa28cca28437089d54e4603dd0c7d646fb075355cd4dd490f1e68f"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 7753,
+      "sha256": "sha256:d6d8b6c48abc0cad23d496f1274e056db106f8b6b239d74b474137b97e564936"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 963,
+      "sha256": "sha256:01965f4f8256129516e2aac9e1d9d9abbf2a8640d2c16259be80480afbcd61b6"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 959,
+      "sha256": "sha256:b2e8ac87364185444964ff7d5ac9c054ba9aa24056d011ef5680c0c8cecfca16"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-typed-fr-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2327,
+      "sha256": "sha256:b7246fd2f0981401f0cb2fb3a8f8f29eff1345d504948869a79f09a06907f527"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/wikidata-typed-und-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2294,
+      "sha256": "sha256:4d6e103406d97aa7e45cf1ceb5b6d1d7b9c12496892e98e24abdd4ea2381da48"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 22310,
+      "sha256": "sha256:0c15a11fa22cd8003c95e5a0dd0b9eca76268e18b98ea0579c97283c74694758"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1243,
+      "sha256": "sha256:a2e6fc035707504cd49acac30610c04b8671583181317acc7cb020959ca78ec4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 966,
+      "sha256": "sha256:64ac835267b3cd5e7b4e08ee5f1064c69ae607a1523a39982f4371085590aff8"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1100,
+      "sha256": "sha256:bcd8e90448f5f085439b81b5b93509516908b66537c75be60a6404e180592b84"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1415,
+      "sha256": "sha256:80fbe3af2c92af65a2f4ec9f0c5160033b93dd9f46b82995db64904f526528d8",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Finance:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1214,
+      "sha256": "sha256:39dc12caa16fda64d560e63278f318ad810f6e75a639091277ff0a24f0efdd4f"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 7753,
+      "sha256": "sha256:d6d8b6c48abc0cad23d496f1274e056db106f8b6b239d74b474137b97e564936"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 963,
+      "sha256": "sha256:01965f4f8256129516e2aac9e1d9d9abbf2a8640d2c16259be80480afbcd61b6"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 959,
+      "sha256": "sha256:b2e8ac87364185444964ff7d5ac9c054ba9aa24056d011ef5680c0c8cecfca16"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 24704,
+      "sha256": "sha256:8c08796978e12acf3a9a15e6668b99490578bd7471dc7b46d71fe2f6d78afa44",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Finance:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 187520,
+      "sha256": "sha256:89e5162aa3552318d94edd3a50fa5d43e6aa8eeccad1f3f55111daeb20dced65",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Finance:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 122494,
+      "sha256": "sha256:fc70a311be27c0a3efc920262140822db606196eb7b1490da837fb7a81fb6bc4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 922196,
+      "sha256": "sha256:acdfe1400cc25be36ddf2fb3972481d2c32849ca55719f2e2a6253451bdb14ae",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Finance:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 22310,
+      "sha256": "sha256:0c15a11fa22cd8003c95e5a0dd0b9eca76268e18b98ea0579c97283c74694758"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/KS_WIKIDATA_V11_2.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 1203,
+      "sha256": "sha256:e282f29cf475517fc237bce14fb781950b88de3b7ff2b5d81a2f9cc883fee6ae"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1243,
+      "sha256": "sha256:a2e6fc035707504cd49acac30610c04b8671583181317acc7cb020959ca78ec4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 966,
+      "sha256": "sha256:64ac835267b3cd5e7b4e08ee5f1064c69ae607a1523a39982f4371085590aff8"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/RAPPORT_V11_2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 682,
+      "sha256": "sha256:e77d53b15fbb855fa6d965ae187ca86ed5a0c389cc740c050fcfa3279697d3f7"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1100,
+      "sha256": "sha256:bcd8e90448f5f085439b81b5b93509516908b66537c75be60a6404e180592b84"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1941,
+      "sha256": "sha256:b8cfe89ad92414e7d9b414c477f2302f2102f9e09d1da59908307d583037cfbb",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Finance:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 4801,
+      "sha256": "sha256:7df1dc246a515da0bdde79e519f0e8d90f0f3892010811832981e104473fb8a5"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 7753,
+      "sha256": "sha256:d6d8b6c48abc0cad23d496f1274e056db106f8b6b239d74b474137b97e564936"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 963,
+      "sha256": "sha256:01965f4f8256129516e2aac9e1d9d9abbf2a8640d2c16259be80480afbcd61b6"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 959,
+      "sha256": "sha256:b2e8ac87364185444964ff7d5ac9c054ba9aa24056d011ef5680c0c8cecfca16"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-typed-fr-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2327,
+      "sha256": "sha256:b7246fd2f0981401f0cb2fb3a8f8f29eff1345d504948869a79f09a06907f527"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-typed-und-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2294,
+      "sha256": "sha256:4d6e103406d97aa7e45cf1ceb5b6d1d7b9c12496892e98e24abdd4ea2381da48"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 24704,
+      "sha256": "sha256:8c08796978e12acf3a9a15e6668b99490578bd7471dc7b46d71fe2f6d78afa44",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Finance:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 188375,
+      "sha256": "sha256:a145444f4490207f0bf63a0766b5cd651477bc08ab77f4524b5b89b4b2e4a53f",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Finance:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 122494,
+      "sha256": "sha256:fc70a311be27c0a3efc920262140822db606196eb7b1490da837fb7a81fb6bc4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 923842,
+      "sha256": "sha256:548e2cb8858e8a95af707dc81a12c51781473a815fe15c3d6cabee29f866b7d2",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Finance:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1243,
+      "sha256": "sha256:a2e6fc035707504cd49acac30610c04b8671583181317acc7cb020959ca78ec4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1100,
+      "sha256": "sha256:bcd8e90448f5f085439b81b5b93509516908b66537c75be60a6404e180592b84"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 870,
+      "sha256": "sha256:75d9270ccf7ff9d85b8789d2f84e646ec265ab4a82ac414ff21461b4c6ed3a2d",
+      "artifact_id": "urn:kristal:state:finance:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1214,
+      "sha256": "sha256:39dc12caa16fda64d560e63278f318ad810f6e75a639091277ff0a24f0efdd4f"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 7753,
+      "sha256": "sha256:d6d8b6c48abc0cad23d496f1274e056db106f8b6b239d74b474137b97e564936"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 24689,
+      "sha256": "sha256:58b7c288cb17990d749675549ea34c7a011f77ad9362232f555ff74fdafea419",
+      "artifact_id": "urn:kristal:state:finance:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 184473,
+      "sha256": "sha256:8257d4829660caf6b35deddc3242a256773794d9065e2578b68e912c6fb881d2",
+      "artifact_id": "urn:kristal:state:finance:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 122494,
+      "sha256": "sha256:fc70a311be27c0a3efc920262140822db606196eb7b1490da837fb7a81fb6bc4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 916921,
+      "sha256": "sha256:7f750b292ecc7cfbd556024686f06b850bef332aecf7d079bb81d1cf1caf6aca",
+      "artifact_id": "urn:kristal:state:finance:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 6329,
+      "sha256": "sha256:eace4474b036a105836be6664f07753bc3f8ec609a9b386545eb2b8894c6cef7"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 585,
+      "sha256": "sha256:9b7e8d904ee017d21448d54bbe84c199b7802583dd73625248234a7069d137fb"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 640,
+      "sha256": "sha256:9a7766928c649407ddaaea64b7f2048a69da334983859c6cb059a405f7be8420"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 879,
+      "sha256": "sha256:2fcd2f14c72a10ba131391bb2aba729463bf3bec186014319ce5b59acff54a1e"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 786,
+      "sha256": "sha256:87262db5cfe3c65cc4316a467c37f56b39f2afdbc454a2e7c6f863472d3e878e"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 916,
+      "sha256": "sha256:16fd56d943a794047ad6d6d765a1433e3fd998347914131cb83e1b98c9889559"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 550,
+      "sha256": "sha256:acb13a78f4d6c67009fd8e3089e51fee29ec197176a2796bf00fbca0bed24e5e"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 731,
+      "sha256": "sha256:788a9285a0e5a1a3fa86859721d07664ba743cb1490d6e630dadbb1ef5bb3746"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 520,
+      "sha256": "sha256:fabef2b7b70b8d119165701d733d2792659573a54289341a08344f755ca72da1"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3921,
+      "sha256": "sha256:6f5a81daf9cd08989f3e30a0cdfa7911b87f7a0fb1c98417058d2b23699b25d5"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 8445,
+      "sha256": "sha256:6ca7a56f43f11ddae7fa2f2dae5996a42a4819535e25a7cc0d667f62b34c6715"
+    },
+    {
+      "path": "sources/wikidata-skope/current.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 248,
+      "sha256": "sha256:c1a558f691bc242e5a5dd6c1b2361e229e122d00d04d9063e21c756c1e5a22e9"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/README.md",
+      "role": "source_material",
+      "media_type": "text/markdown",
+      "size": 1840,
+      "sha256": "sha256:128d9a2c4599fe7d5808d3c6bd43ea8dbdc55b761e13a7a9db24bfa379f75163"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/crosswalk-candidates.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 22000,
+      "sha256": "sha256:0e3a71ac87fdf88de038fda58295a372271393af4b26aeb83065236117accef1"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/priority-relations.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 44060,
+      "sha256": "sha256:3f8d6df03f94210647a1088eaad48003857aa7b0a6e8ad27f8d4d711d7ae8171"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/enrichment-proposals.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 1212745,
+      "sha256": "sha256:8d4905bcd6b86271c0e5f331a6fb8203f9bc5be5eb2704bac436215e7f712e8b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/enrichment-proposals.related-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 14898,
+      "sha256": "sha256:f985e8512f0801d284068ed75747fc3f0ea05e35a4da85f19a13b4ade6cbdd1f"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/enrichment-proposals.report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 428,
+      "sha256": "sha256:edbf63741317e44fcef61003cc68c3278d5f079d04cacc9e143495ca3c05ac9f"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/full-evidence/e7e43e5752ea9e4a/part-000000.jsonl.gz",
+      "role": "source_material",
+      "media_type": "application/octet-stream",
+      "size": 163861,
+      "sha256": "sha256:c27ab998530a59fed915094947bfa5051c0ec4d1270500718035a4a2cba88570"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/full-evidence/e7e43e5752ea9e4a/part-000000.manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1268,
+      "sha256": "sha256:0ab30c260cf18c26a42829bad1962d60aac3e7e20bdc9af2acc2fc0c69d8ccec"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/full-evidence/e7e43e5752ea9e4a/portfolio-extraction-state.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1440,
+      "sha256": "sha256:761ac9f2264ab1c06cf848c9518d8a9306a77203b08f78105009dc4e1c197628"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/full-evidence/e7e43e5752ea9e4a/snapshot-manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 536,
+      "sha256": "sha256:c82c4695fbbe5d0b8e8d3ea50f9066650ef8cc3a3badc636f2b3be622e092073"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/portfolio/identity-resolution.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 96535,
+      "sha256": "sha256:bd7b5f93dcc70916562fb92c55a01f51493410bf8ea3c2489755fe1076c7dd49"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/portfolio/inventory.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 312,
+      "sha256": "sha256:4404ef516e49778d9ba7e517ab382fa98b211aa7307a014504a29085501c6ac4"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/review-candidates.generated.csv",
+      "role": "source_material",
+      "media_type": "text/csv",
+      "size": 349256,
+      "sha256": "sha256:55a82a3f29c74aad4c0e0ea826f8e085f914ab42f425f35463963c1ad2ae6230"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/run-report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 13701,
+      "sha256": "sha256:9325e3c7fdac2ca0c76b6f80dfad5ba9a0bd3eb56d0f33dfde7a3628dea7691c"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/seeds/extraction-intent.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 693,
+      "sha256": "sha256:a57b236275b8b1f8cfadd274218b55e75d9dd13bd0220ac37d68880f46d3990a"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/seeds/portfolio-selected-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 1918,
+      "sha256": "sha256:e7e43e5752ea9e4a29e2800dede02ca7102b619f53548734ce59554eb32655a8"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/seeds/reviewed-mappings.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 17653,
+      "sha256": "sha256:11fcb6ee99f563cc9c255f237123cd71fa7f6839c637f8afb3453f6a1d0aa6c2"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/raw/source-profiles/maxwd-local.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1123,
+      "sha256": "sha256:bfd799319ec26b173332cc843df66ba5b043937ce59d3bbedc973d9e8d00959b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/9411efad071fd660/source-index.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1984,
+      "sha256": "sha256:d191732b4e8995ff4bc21e5cd86989ac3a991991255628687a01c02c862eb63c"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 5790,
+      "sha256": "sha256:e062b51036d3afc30444a28291d5dd13d16dde56498b0db27938fe162d82178a",
+      "state_ref": "urn:kristal:state:finance",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:abc779908a04e40dfe8a4ba6ee745f9316ddb759b24c9b878f8aa4999134b85b"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

@@ -1,0 +1,304 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Ethics",
+  "run_id": "eb1c8655736ff57e",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:28:13.323296+00:00",
+  "source_labels": {
+    "project": "Kristal-Ethics",
+    "namespace_id": "kristal:bulk:kristal-ethics",
+    "search_labels": 328,
+    "labeled_entities": 164,
+    "labeled_properties": 0,
+    "domain_entities": 164,
+    "domain_properties": 14,
+    "unlabeled": [
+      {
+        "legacy_id": "ethics.argument_can_oppose_option",
+        "semantic_id": "KP133412717715059997875622"
+      },
+      {
+        "legacy_id": "ethics.argument_can_support_option",
+        "semantic_id": "KP341577915936877792345077"
+      },
+      {
+        "legacy_id": "ethics.argument_invokes_value",
+        "semantic_id": "KP917528175281131546323837"
+      },
+      {
+        "legacy_id": "ethics.consequence_bears_on_value",
+        "semantic_id": "KP99830016295208538184509"
+      },
+      {
+        "legacy_id": "ethics.framework_emphasizes_argument",
+        "semantic_id": "KP944388790464592861347948"
+      },
+      {
+        "legacy_id": "ethics.framework_emphasizes_value",
+        "semantic_id": "KP1100121543844036939944161"
+      },
+      {
+        "legacy_id": "ethics.option_advances_value",
+        "semantic_id": "KP86523216842863176755345"
+      },
+      {
+        "legacy_id": "ethics.option_can_burden_value",
+        "semantic_id": "KP650732144264006260228811"
+      },
+      {
+        "legacy_id": "ethics.option_may_lead_to",
+        "semantic_id": "KP1098432302950814593955801"
+      },
+      {
+        "legacy_id": "ethics.situation_admits_option",
+        "semantic_id": "KP694500357827505305431316"
+      },
+      {
+        "legacy_id": "ethics.situation_engages_value",
+        "semantic_id": "KP618102110024721343538090"
+      },
+      {
+        "legacy_id": "ethics.situation_involves_agent",
+        "semantic_id": "KP625984203990523263757862"
+      },
+      {
+        "legacy_id": "ethics.situation_may_have_consequence",
+        "semantic_id": "KP377655844864957582740882"
+      },
+      {
+        "legacy_id": "ethics.value_can_tension_with",
+        "semantic_id": "KP437295061711813177952097"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "9ef88a836119b9cfad8455c163afc93c12babde67ab39e7dc4a52a80f2983e50",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Ethics",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "ethics"
+      },
+      "native_model": {
+        "kind": "normative_pluralism_argumentation_graph",
+        "description": null,
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "courants et théories éthiques",
+        "concepts et problèmes éthiques",
+        "Respecter: Conserver les positions incompatibles sans arbitrage par Wikidata."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-12",
+        "support": "ARK-01",
+        "rationale": "Le pluralisme normatif exige des lectures/arguments parallèles de mêmes situations et valeurs.",
+        "guardrail": "Désaccord ≠ erreur; analyse éthique ≠ décision juridiquement ou moralement automatique."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.79,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Ethics\\eb1c8655736ff57e",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "780a36d5cd69c81253ac83ed28414e3fbd68b2191e718da28cb64e90e3365c64",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 328,
+    "distinct_concepts": 164,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "780a36d5cd69c81253ac83ed28414e3fbd68b2191e718da28cb64e90e3365c64",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 328,
+    "distinct_concepts": 164,
+    "cached_queries": 328,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "no_exact_candidate": 82,
+      "ambiguous_exact_candidates": 18,
+      "unique_exact_candidate": 30,
+      "saturated_exact_search": 26,
+      "cross_language_conflict": 8
+    },
+    "tentative_unverified": 30,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "780a36d5cd69c81253ac83ed28414e3fbd68b2191e718da28cb64e90e3365c64",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 30,
+    "distinct_qids": 30,
+    "qid_inventory_sha256": "249119b3a383c032e22aa3b6f6271c60ceb5f12fbea41cb8b684e05a31613902",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 30,
+    "qids_acquired": 30,
+    "new_batches": 1,
+    "reused_records": 2,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Ethics\\eb1c8655736ff57e\\full-evidence\\249119b3a383c032",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 30,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 585,
+    "raw_subject_entities": 30,
+    "related_unapproved_qids": 134,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-ethics": 585
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "bc2df14109c237d30774b924edabde29d1fc7bf020aa3df15cb81b2e71ae0dcd",
+  "proposals_sha256": "ac3c6091517c0ca158c188b334b516efa9c64f5ee49596704e935f09c9be5f45"
+}

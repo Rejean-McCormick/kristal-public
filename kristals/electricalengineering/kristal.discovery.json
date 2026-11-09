@@ -1,0 +1,51 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:kristal-electricalengineering",
+  "classification": {
+    "primary_archetype": "ARK-09",
+    "arketype_version": "1.6.0",
+    "organization": "single",
+    "structure_mode": "hybrid",
+    "variant_description": "Graphe natif à trois plans reliés sur les mêmes référents (physique électrique, abstraction de circuit, information/signal). Les relations multi-plans ne doivent pas être aplaties. Sources : docs/02_NATIVE_MODEL.md ; knowledge-base/documentation/ARCHITECTURE.md.",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "assistant_structural_proposal__not_authority_or_validation",
+    "verification_status": "NOT_EVALUATED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "6.50",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt6.50",
+          "label_en": "Manufacturing and transport engineering",
+          "domain": "6"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "electrical_physical_relation_model",
+    "organization": "single",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "tiny",
+    "tracked_local_bytes": 395128,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:4033e14a1cadc738d870fc9bdbe81c71a28f6706c79963288585b43e2b4379f0",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

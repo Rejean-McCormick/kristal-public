@@ -1,0 +1,162 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:foodscience",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:b0e77d3109838260eb4d31bb623c736b469f347a29f4491fd5c4f6da561a3677"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:foodscience:canonical",
+      "logical_contract": {
+        "id": "kristal.v6-state-reference",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:foodscience",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:66dba9e991c40e51d496419704460cd8f429bcaf4d8b3884a92f2116a1dc1362"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:foodscience:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6f4b537587ec73427a8d34ad3f782f3190a25d7e660eec790b7fea8b561f73a7"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:foodscience:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:16b9095c748de7f544262c41b3c90783a981b001b554e61488f506fe0d32d06c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:foodscience:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ca966547473d611dbe57e4633d17221d728a5e188618fb9481e2cfda95372470"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:foodscience:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a8ed82e79e12466200d40b28f0e0697f827739cc5fb561b1964eacf4e352fcbc"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-FoodScience:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1cd692d526736ebb0d23908a6664158a5892d6c29128ca7bc4402be5bea70203"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-FoodScience:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:21cbf36465d9168f7e51335379b41a7f0cced4c2534e8e3f3559a04f2dab626a"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-FoodScience:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e71cc8bf5b9f203f3e257b50d6931b93605aed9705991a1666fe3e0bf64c0091"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-FoodScience:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:086253909c8ee0a02ed2b6c3ffa08e41e19e7b8f355a06c36b15833c1e3d7294"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-FoodScience:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:d18432309ea50f384600668e38173e753d58e761caf762b84ba2cb87676ecd98"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-FoodScience:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4364e43f778b238849777b8215e4bd3c5e1aca4419bc95f5e5b6a776f579d099"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-FoodScience:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e71cc8bf5b9f203f3e257b50d6931b93605aed9705991a1666fe3e0bf64c0091"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-FoodScience:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:83df73bb39f12331aae31dade3094165e0cd3b643f08fd9312f6bcef145db88a"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "foodscience",
+    "composition": "canonical-only"
+  },
+  "authority_ref": "urn:kristal:authority:foodscience"
+}

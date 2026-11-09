@@ -1,0 +1,44 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:kristal:civilengineering:artifact:canonical",
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "civil-engineering",
+        "subdomain": "general-civil-engineering",
+        "language": "fr"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:civilengineering:repository-canon",
+      "dependencies": []
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": ".kristal/v8",
+      "role": "legacy v8 read and query models"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "historical v9 state and materializations (preserved, not overwritten)"
+    },
+    {
+      "path": "build/v9",
+      "role": "new 3.2.2 derived candidate build"
+    },
+    {
+      "path": "projections/materialized",
+      "role": "derived projections"
+    }
+  ],
+  "notes": "Authoring bridge: canonical input is the frozen existing v9 Logical Artifact payload (v6 state or native domain corpus); all legacy sources and v9 representations are preserved."
+}

@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:metrology:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:d82b8b7c6de3df62753ca9ef48e5b9daf1c00beaa597b75613e9d3fd66e6229b"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:metrology",
+    "label": "Kristal-Metrology",
+    "domain": "metrology",
+    "orientation": "grandeur → unité → instrument ou système → mesure → incertitude → traçabilité"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Corpus statique et modèle d’assertions du domaine metrology",
+      "grandeur → unité → instrument ou système → mesure → incertitude → traçabilité",
+      "identifiants sémantiques, provenance et état v9 historique"
+    ],
+    "does_not_own": [
+      "procédures de laboratoire, conformité réglementaire, certificats ou accréditation ne sont pas certifiés par ce corpus",
+      "les dépôts sources externes et leur publication",
+      "une autorité créée par l’IA ou la matérialisation"
+    ]
+  },
+  "canonical_artifact_count": 9,
+  "source_count": 13,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 2,
+  "local_materialization_blob_count": 2,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:vaticanops",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:0af3674eef560da6d3e91f56d12feca3b0dc0b56447b13ec1c314dc8dc7a4575"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:vaticanops:artifact:procedures",
+      "logical_contract": {
+        "id": "vaticanops.native-procedures",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2118e43aa6d6aa774b45f467a896206cf1be9ec8cf25863a3d293b6490f68b3a"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:taxonomy",
+      "logical_contract": {
+        "id": "vaticanops.domain-taxonomy",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3d40b70ed58abfa4f8603d255c6d8fd2f32927e934c8457acc2d54fb78bc96c0"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:passage-evidence",
+      "logical_contract": {
+        "id": "vaticanops.passage-evidence",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e05c1720453086f74b79375e4197841a494244a538465bb309ea9a187ff82d96"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-text-units",
+      "logical_contract": {
+        "id": "vaticanops.text-units",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0375156ea38a4f17f4c5ffc1bac13427d94ff144289f83aedae1ee73366916e8"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-source-versions",
+      "logical_contract": {
+        "id": "vaticanops.source-versions",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:7c7f1fab0c52238ed62852ac3b13c17164768ee911d1fd1b62d84abca117bb05"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-institutions",
+      "logical_contract": {
+        "id": "vaticanops.institutions",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c42479083c17ee2c8280bad91dce83b1dd90b4e193ca52c59b9fda8fbd2a3497"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-guards",
+      "logical_contract": {
+        "id": "vaticanops.guards",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b487057f21018d7fae678c24c209ad7b4b8583f24a1c5778e8b8fc1b92318a3d"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-links",
+      "logical_contract": {
+        "id": "vaticanops.links",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:34f598eb94a74e80f1bc4c4800bb5ae0000dead7e192aaf81bb2ec1fbdedede8"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:vaticanops-assertions",
+      "logical_contract": {
+        "id": "vaticanops.assertions",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1ebe1056a728f1daf24443d24b9e71fea80f3886075ddc09e889057d8c9ef917"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:kristal-v11-identity-registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:885827391e3fc12b8dfacab7e9b8e28139b4d720ddc30758a49246770d95dc6b"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:kristal-v11-semantic-graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8475c0a3d8af6c1902cded5e773df80e1d8a68d3d33e76a9f23307bd571a8617"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:kristal-v11-external-crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3d31a13b3bb6e5fd9f776ed5fb6b253f1e6103149d94f3819c21bc24ea86118a"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:kristal-v11-dictionary-catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f0914d05fdc4a4437b6b7b0ef9d7d8fbf661f62c804862893d84d377b53cda5d"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:normative-catalog",
+      "logical_contract": {
+        "id": "vaticanops.normative-scope-catalog",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2dc142afb92ef832a6afd982daf63d6c0e7d6301364bb75a5f6baccbc550ce5d"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:version-graph",
+      "logical_contract": {
+        "id": "vaticanops.version-relations",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2fa0c872b74429eb9ca0ac1c19f0c44cafc173a8ffe0f8da2949973efb2fc937"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:jurisdiction-matrix",
+      "logical_contract": {
+        "id": "vaticanops.jurisdiction-matrix",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b0bb2c4e475d7b6aa8d9ea83f670827bbb4913c3cbb95010ee9a0c2965ca5fed"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:remote-anchored-claims",
+      "logical_contract": {
+        "id": "vaticanops.remote-anchored-claims",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0b01db8231cc8a470a555c075b27c16ba4b5b65eb91edba5a5e6023e355d2e0b"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:public-competences",
+      "logical_contract": {
+        "id": "vaticanops.public-competence-relations",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:vaticanops:independent-editorial-boundary",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:75972db28f60e02bbf7fd6a34526e8ac15c2191dd99005ae08032f96f1723b24"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:official-remote-reference-register",
+      "logical_contract": {
+        "id": "vaticanops.official-remote-reference-register",
+        "version": "1.0.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6534e68f61e0c701ccd8e9eee869c35ede8a304edfa583c734fd916dca3efd9c"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:editorial-article-locators",
+      "logical_contract": {
+        "id": "vaticanops.editorial-article-locators",
+        "version": "1.0.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:aba3690acf3d3d442601cafdcb154e70a9a8fbf1f29aeabce49f5626e6ad32b7"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:external-editorial-research-paths",
+      "logical_contract": {
+        "id": "vaticanops.external-editorial-research-paths",
+        "version": "1.0.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:7bea933f8e738c1e50e797a80f4564db0182e8e13cc27506c4d3eb4860f4a37c"
+      }
+    },
+    {
+      "artifact_id": "urn:vaticanops:artifact:external-version-cautions",
+      "logical_contract": {
+        "id": "vaticanops.external-version-cautions",
+        "version": "1.0.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b6fbefb0eca9b8ae3daaa496c7f8110e05a1c2d1a72000b4ad2432f2df57fec2"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

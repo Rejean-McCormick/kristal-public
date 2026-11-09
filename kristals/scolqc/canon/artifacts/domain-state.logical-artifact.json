@@ -1,0 +1,123 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_logical_artifact",
+  "artifact_id": "urn:kristal:education-quebec:semantic-state",
+  "logical_contract": {
+    "id": "education-quebec.semantic-state",
+    "version": "9.0"
+  },
+  "payload": {
+    "domain": "education-quebec",
+    "domain_version": "1.4.0",
+    "native_shape": "temporal-jurisdictional-education-rule-transition-curriculum-admission-source-governance-graph",
+    "authoring_basis": {
+      "artifact_id": "urn:kristal:education-quebec:authoring-basis",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:83242aff177c9b5a5e752f112854b1857ac0caa3851abd934b769d99f67faf6e"
+      }
+    },
+    "contract_basis": {
+      "artifact_id": "urn:kristal:education-quebec:contract-basis",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c10ed8324852bedd984fc669380e168ac0e74723c1bf20c4150ce7c5605c7287"
+      }
+    },
+    "canonical_epistemic_state": {
+      "artifact_id": "urn:kristal:education-quebec:canonical-epistemic-state",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bc3d992056b6659add6ec7af72f87aa882a1b3729e1b7f700cb6f943e51bb6e1"
+      }
+    },
+    "source_store_boundary": {
+      "relationship": "external_sidecar_with_canonical_admission",
+      "resolver_key": "source_id",
+      "owned_by_kristal": [
+        "source_id",
+        "authority",
+        "document",
+        "edition",
+        "representation_identity",
+        "provenance",
+        "applicability",
+        "acquisition_policy"
+      ],
+      "owned_by_source_store": [
+        "bytes",
+        "snapshots",
+        "local_sha256",
+        "final_url",
+        "http_metadata",
+        "rendered_or_original_representation"
+      ]
+    },
+    "compatibility": {
+      "legacy_v5_state_preserved": true,
+      "v6_portable_projection_preserved_as_derived": true,
+      "v8_read_models_preserved_as_derived": true
+    },
+    "semantic_boundaries": [
+      "SOURCE OFFICIELLE != DÉCISION INSTITUTIONNELLE",
+      "AUTORITÉ != DOCUMENT != ÉDITION != REPRÉSENTATION",
+      "PAGE-INDEX != CRAWL IMPLICITE",
+      "LIEN DÉCOUVERT != SOURCE_REF CANONIQUE",
+      "SNAPSHOT LOCAL != IDENTITÉ CANONIQUE",
+      "PDF RENDU DEPUIS HTML != PDF OFFICIEL ORIGINAL",
+      "TRANSITION != ADMISSION",
+      "CURRICULUM != RÈGLE D’ADMISSION",
+      "COUVERTURE DU KRISTAL != VÉRITÉ INSTITUTIONNELLE",
+      "VALIDATION TECHNIQUE != RECONNAISSANCE INSTITUTIONNELLE",
+      "SOURCE STORE != CANONICAL GRAPH"
+    ]
+  },
+  "dependencies": [
+    {
+      "artifact_id": "urn:kristal:education-quebec:authoring-basis",
+      "logical_contract": {
+        "id": "education-quebec.authoring-resource-set",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:83242aff177c9b5a5e752f112854b1857ac0caa3851abd934b769d99f67faf6e"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec"
+    },
+    {
+      "artifact_id": "urn:kristal:education-quebec:contract-basis",
+      "logical_contract": {
+        "id": "education-quebec.contract-resource-set",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c10ed8324852bedd984fc669380e168ac0e74723c1bf20c4150ce7c5605c7287"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec"
+    },
+    {
+      "artifact_id": "urn:kristal:education-quebec:canonical-epistemic-state",
+      "logical_contract": {
+        "id": "education-quebec.canonical-epistemic-state-resource",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bc3d992056b6659add6ec7af72f87aa882a1b3729e1b7f700cb6f943e51bb6e1"
+      },
+      "authority_ref": "urn:kristal:authority:education-quebec"
+    }
+  ],
+  "logical_commitment": {
+    "profile": "kristal.logical/jcs-sha256-v1",
+    "digest": "sha256:a194704f43e3005f6cc2b57244a12c023ce3bb93631f6c01d1d5bc39b1829609"
+  },
+  "scope": {
+    "domain": "education-quebec",
+    "edition": "1.4.0",
+    "jurisdiction": "Québec"
+  },
+  "authority_ref": "urn:kristal:authority:education-quebec"
+}

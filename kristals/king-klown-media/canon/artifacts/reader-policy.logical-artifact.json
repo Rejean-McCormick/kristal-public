@@ -1,0 +1,56 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_logical_artifact",
+  "artifact_id": "urn:kristal:king-klown:reader-policy",
+  "logical_contract": {
+    "id": "king-klown.reader-policy",
+    "version": "4.2"
+  },
+  "payload": {
+    "id": "reader-policy:king-klown-media-v4.2",
+    "version": "4.2.0",
+    "rules": [
+      {
+        "id": "identity-continuity",
+        "rule": "Treat KK_PRINCIPLE, KK_PERSONA, AUTHOR_REAL, COLIN and NINJA as one creator-declared identity continuity while preserving functional modes."
+      },
+      {
+        "id": "civil-name",
+        "rule": "Do not surface or reconstruct the civil name of AUTHOR_REAL."
+      },
+      {
+        "id": "media-primary-registry",
+        "rule": "Use UCKK Mediatheque as primary URL/media catalog; Kristal stores semantic work/event relations."
+      },
+      {
+        "id": "manifestation-not-work",
+        "rule": "Do not create a new work merely because a second platform carries the same work."
+      },
+      {
+        "id": "manifestation-not-event",
+        "rule": "Do not treat publication/upload as a universe event unless the query is specifically about media/publication history."
+      },
+      {
+        "id": "partial-source",
+        "rule": "Media availability may prove a manifestation exists but does not replace a missing manuscript/full corpus."
+      },
+      {
+        "id": "status-boundary",
+        "rule": "CANON, SOURCE_EXPLICIT_NON_GOVERNING, PROPOSED and MEDIA_CATALOG_SOURCE remain distinct."
+      },
+      {
+        "id": "authority",
+        "rule": "Current explicit creator clarification > DECISIONS > CANON > current canonical source > source branch > media catalog > interpretation."
+      }
+    ]
+  },
+  "logical_commitment": {
+    "profile": "kristal.logical/jcs-sha256-v1",
+    "digest": "sha256:8362f0c8377b01b4f474d91031c7f864021d401c10a6e2d9a43309bd9f24f006"
+  },
+  "scope": {
+    "domain": "king-klown",
+    "package": "MEDIA"
+  },
+  "authority_ref": "urn:kristal:authority:king-klown-reader-policy"
+}

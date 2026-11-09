@@ -1,0 +1,5023 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "working",
+  "created_at": "2026-10-02T16:20:00Z",
+  "applicability": {
+    "domain": "mécanismes légaux de pouvoir",
+    "subdomain": "République de Corée / national / local / scolaire / tribunaux / administration / interface externe",
+    "jurisdiction": "République de Corée (Corée du Sud)",
+    "language": "fr",
+    "time_window": {
+      "as_of": "2026-10-02"
+    }
+  },
+  "source_refs": [
+    {
+      "source_id": "SRC-KR-CONST",
+      "title": "Constitution of the Republic of Korea",
+      "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=1"
+    },
+    {
+      "source_id": "SRC-KR-NAA",
+      "title": "National Assembly Act",
+      "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=44198&lang=ENG"
+    },
+    {
+      "source_id": "SRC-KR-GOVORG",
+      "title": "Government Organization Act",
+      "url": "https://elaw.klri.re.kr/eng_service/lawTwoView.do?hseq=320"
+    },
+    {
+      "source_id": "SRC-KR-COURT",
+      "title": "Court Organization Act",
+      "url": "https://elaw.klri.re.kr/eng_service/lawTwoView.do?hseq=55374"
+    },
+    {
+      "source_id": "SRC-KR-CCACT",
+      "title": "Constitutional Court Act",
+      "url": "https://elaw.klri.re.kr/kor_service/lawViewMultiContent.do?hseq=60536"
+    },
+    {
+      "source_id": "SRC-KR-ADMINLIT",
+      "title": "Administrative Litigation Act",
+      "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=74351"
+    },
+    {
+      "source_id": "SRC-KR-LOCAL",
+      "title": "Local Autonomy Act",
+      "url": "https://elaw.klri.re.kr/kor_mobile/viewer.do?hseq=71407&key=15&type=sogan"
+    },
+    {
+      "source_id": "SRC-KR-LOCALEDU",
+      "title": "Local Education Autonomy Act",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=62662&key=16&type=part"
+    },
+    {
+      "source_id": "SRC-KR-EDUFRAME",
+      "title": "Framework Act on Education",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=70902&key=2&type=sogan"
+    },
+    {
+      "source_id": "SRC-KR-ESCHOOL",
+      "title": "Elementary and Secondary Education Act",
+      "url": "https://elaw.klri.re.kr/eng_service/lawTwoView.do?hseq=39458"
+    },
+    {
+      "source_id": "SRC-KR-PROSECUTION-2026",
+      "title": "Prosecution Service Act (Act No. 21490, Mar. 24, 2026)",
+      "url": "https://elaw.klri.re.kr/kor_mobile/viewer.do?hseq=74254&key=&type=new"
+    },
+    {
+      "source_id": "SRC-KR-BAI",
+      "title": "Board of Audit and Inspection Act",
+      "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=55661"
+    },
+    {
+      "source_id": "SRC-KR-MOLEG-HIER",
+      "title": "Informatization of Legislation by the Korean Government: Current Status and Prospect",
+      "url": "https://www.moleg.go.kr/mpbleg/mpblegInfo.mo?mid=a10402020000&mpb_leg_pst_seq=132104"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "KR-POUVOIR-001",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-coree"
+        },
+        "predicate": "norm.is_supreme_framework",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution de la République de Corée constitue le cadre normatif supérieur de l'État; les lois et actes subordonnés doivent s'y conformer.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Corée du Sud"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Corée du Sud",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "suprematie_normative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-002",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:state:republique-coree"
+        },
+        "predicate": "state.is_democratic_republic",
+        "object": {
+          "kind": "proposition",
+          "value": "La République de Corée est une république démocratique; la souveraineté réside dans le peuple et toute autorité de l'État émane du peuple.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Corée du Sud"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Corée du Sud",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "source_de_legitimite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-003",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.holds_legislative_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir législatif est attribué à l'Assemblée nationale (국회).",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-004",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:acte-legislatif-coree"
+        },
+        "predicate": "norm.is_above_delegated_legislation",
+        "object": {
+          "kind": "proposition",
+          "value": "Les décrets présidentiels et ordonnances exécutives doivent rester dans les limites de la Constitution, des lois et des habilitations applicables; ils ne constituent pas un pouvoir législatif général autonome.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_des_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "hierarchie_normative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-MOLEG-HIER"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-005",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:decret-presidentiel-coree"
+        },
+        "predicate": "norm.derives_authority",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président peut prendre des décrets présidentiels pour les matières précisément déléguées par une loi et pour les mesures nécessaires à son exécution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_reglementaire_delegue"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-006",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:ordonnance-pm-ministere-coree"
+        },
+        "predicate": "norm.derives_authority",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre et les chefs des ministères exécutifs peuvent prendre, dans leur compétence, des ordonnances fondées sur une loi ou un décret présidentiel, ou prises dans les limites reconnues par l'article 95 de la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_reglementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-007",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:administrative-rule-coree"
+        },
+        "predicate": "concept.is_not_equivalent_to_act",
+        "object": {
+          "kind": "proposition",
+          "value": "Une règle administrative interne n'est pas, par sa seule qualification, équivalente à une loi adoptée par l'Assemblée nationale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_des_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "distinction_normative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-MOLEG-HIER"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-008",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:restriction-droits-coree"
+        },
+        "predicate": "constraint.requires_act",
+        "object": {
+          "kind": "proposition",
+          "value": "Les libertés et droits des citoyens ne peuvent être restreints par la puissance publique que par une loi et dans les conditions constitutionnelles prévues à l'article 37(2).",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Corée du Sud"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits_fondamentaux"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Corée du Sud",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-009",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.is_unicameral_legislature",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Assemblée nationale est l'organe législatif national; elle est composée de membres élus selon les règles constitutionnelles et légales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "representation_legislative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-NAA"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-010",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:membre-assemblee-nationale-coree"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Un membre de l'Assemblée nationale peut participer aux débats, voter et exercer les fonctions parlementaires prévues par la Constitution et le National Assembly Act.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "deliberer_et_voter"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": true
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-NAA"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-011",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:membre-assemblee-nationale-coree"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Un député ne peut pas, par sa seule qualité de parlementaire, édicter une loi, diriger un ministère ou rendre un jugement au nom d'un tribunal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_charge"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-NAA"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-012",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.can_receive_bills",
+        "object": {
+          "kind": "proposition",
+          "value": "Les projets ou propositions de loi peuvent être présentés par des membres de l'Assemblée nationale ou par l'Exécutif.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "processus_legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "initiative_legislative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-013",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.can_decide_budget",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Assemblée nationale délibère et décide du budget national; l'Exécutif prépare le projet de budget et le soumet à l'Assemblée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "budget"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_budgetaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-014",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.can_inspect_state_affairs",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Assemblée nationale peut inspecter l'administration de l'État ou enquêter sur des affaires déterminées et exiger des documents, témoignages ou avis selon la Constitution et la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_parlementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_parlementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-NAA"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-015",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.can_impeach",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Assemblée nationale peut adopter des motions de mise en accusation constitutionnelle (impeachment) contre les titulaires énumérés par la Constitution lorsqu'ils ont violé la Constitution ou d'autres lois dans l'exercice de leurs fonctions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "responsabilite_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mise_en_accusation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-016",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.cannot_finally_remove_by_impeachment_motion",
+        "object": {
+          "kind": "proposition",
+          "value": "L'adoption d'une motion d'impeachment suspend l'exercice du pouvoir du titulaire visé, mais la décision de destitution relève de la Cour constitutionnelle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "responsabilite_constitutionnelle"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "separation_accusation_jugement"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-CCACT"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-017",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.can_recommend_removal",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Assemblée nationale peut recommander la révocation du Premier ministre ou d'un membre du Conseil d'État; cette recommandation n'est pas identique à une décision juridictionnelle d'impeachment.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_parlementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "recommandation_de_revocation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-018",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.can_override_presidential_reconsideration",
+        "object": {
+          "kind": "proposition",
+          "value": "Après renvoi d'un projet de loi par le Président, l'Assemblée nationale peut l'adopter de nouveau dans sa forme originale selon le quorum et la majorité qualifiée prévus par la Constitution, ce qui le rend loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "processus_legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "surmonter_veto"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-019",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-coree"
+        },
+        "predicate": "office.is_head_of_state_and_executive",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président (대통령) est chef de l'État et l'Exécutif est placé sous sa direction constitutionnelle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_executive"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-020",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-coree"
+        },
+        "predicate": "actor.can_promulgate_or_return_bill",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président promulgue les lois adoptées; en cas d'objection, il peut demander à l'Assemblée nationale de reconsidérer un projet de loi dans le délai constitutionnel.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "processus_legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "promulgation_et_reconsideration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-021",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-coree"
+        },
+        "predicate": "actor.cannot_partial_veto",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président ne peut pas demander la reconsidération d'une partie seulement d'un projet de loi ni proposer des amendements dans sa demande de reconsidération.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_veto"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-022",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-coree"
+        },
+        "predicate": "actor.can_issue_presidential_decrees",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président peut prendre des décrets présidentiels uniquement dans le cadre constitutionnel des lois et des habilitations applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "decret_presidentiel"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": true
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-023",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-coree"
+        },
+        "predicate": "actor.cannot_legislate_generally_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président ne peut pas remplacer l'Assemblée nationale pour exercer un pouvoir législatif général; ses pouvoirs normatifs autonomes ou d'urgence restent ceux précisément prévus par la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_executive"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-024",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-coree"
+        },
+        "predicate": "actor.has_emergency_powers_with_controls",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans les situations d'urgence constitutionnellement définies, le Président peut prendre certaines mesures ou ordres ayant effet de loi, mais doit notifier rapidement l'Assemblée nationale et obtenir son approbation; à défaut, ils perdent effet.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "urgence"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_exceptionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-025",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:premier-ministre-coree"
+        },
+        "predicate": "office.is_appointed_with_assembly_consent",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre (국무총리) est nommé par le Président avec le consentement de l'Assemblée nationale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination_partagee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-026",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:premier-ministre-coree"
+        },
+        "predicate": "actor.assists_president_and_directs_ministries",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre assiste le Président et dirige les ministères exécutifs sous l'ordre du Président, conformément à la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "coordination_executive"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-027",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-etat-coree"
+        },
+        "predicate": "institution.deliberates_major_policies",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Conseil d'État (국무회의) délibère sur les politiques importantes relevant de l'Exécutif; le Président en est le président et le Premier ministre le vice-président.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "deliberation_executive"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-028",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-etat-coree"
+        },
+        "predicate": "institution.must_deliberate_enumerated_matters",
+        "object": {
+          "kind": "proposition",
+          "value": "Les matières constitutionnellement énumérées — notamment projets de loi, certains traités, budgets, décrets présidentiels et grandes politiques — doivent être soumises à la délibération du Conseil d'État.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "deliberation_obligatoire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-029",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-coree"
+        },
+        "predicate": "office.is_appointed_by_president_on_pm_recommendation",
+        "object": {
+          "kind": "proposition",
+          "value": "Les chefs des ministères exécutifs sont nommés par le Président parmi les membres du Conseil d'État sur recommandation du Premier ministre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination_ministerielle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-030",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-coree"
+        },
+        "predicate": "actor.can_administer_portfolio",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre dirige les affaires relevant de son ministère dans le cadre de la Constitution, des lois, des décrets présidentiels et de l'organisation administrative applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration_portefeuille"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": true
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-GOVORG"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-031",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-coree"
+        },
+        "predicate": "actor.cannot_create_unbounded_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre ne peut pas s'attribuer une compétence qui n'est pas fondée sur la Constitution, une loi, un décret ou une autre base juridique applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "principe_de_legalite"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-GOVORG"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-032",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-coree"
+        },
+        "predicate": "institution.holds_judicial_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir judiciaire est attribué aux tribunaux composés de juges; la Cour suprême (대법원) est la juridiction suprême de l'ordre judiciaire ordinaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "juger"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-COURT"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-033",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:juge-coree"
+        },
+        "predicate": "office.is_independent",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juges statuent indépendamment selon leur conscience et conformément à la Constitution et aux lois.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "independance_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-034",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-constitutionnelle-coree"
+        },
+        "predicate": "institution.has_specialized_constitutional_jurisdiction",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour constitutionnelle (헌법재판소) exerce les compétences constitutionnelles relatives au contrôle de constitutionnalité des lois sur renvoi des tribunaux, à l'impeachment, à la dissolution de partis politiques, aux conflits de compétence et aux recours constitutionnels prévus par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "justice_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-CCACT"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-035",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunal-ordinaire-coree"
+        },
+        "predicate": "institution.can_refer_constitutionality_of_act",
+        "object": {
+          "kind": "proposition",
+          "value": "Lorsqu'une question de constitutionnalité d'une loi est déterminante dans un procès, le tribunal saisit la Cour constitutionnelle et juge conformément à sa décision.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "renvoi_constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-CCACT"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-036",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-supreme-coree"
+        },
+        "predicate": "institution.can_finally_review_subordinate_norms",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour suprême a le pouvoir de contrôle final de la constitutionnalité ou de la légalité des décrets administratifs, règlements ou actes lorsque cette question se pose dans un procès.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_juridictionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_normes_subordonnees"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-COURT"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-037",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-coree"
+        },
+        "predicate": "institution.can_review_administrative_action",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juridictions peuvent connaître des litiges administratifs visant notamment des dispositions ou omissions illégales de l'administration selon l'Administrative Litigation Act.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_juridictionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_administration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-ADMINLIT",
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-038",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-constitutionnelle-coree"
+        },
+        "predicate": "institution.can_resolve_competence_disputes",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour constitutionnelle peut trancher des conflits de compétence entre organes de l'État, entre un organe de l'État et un gouvernement local, et entre gouvernements locaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National + local"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National + local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "arbitrage_competences"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-CCACT"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-039",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-constitutionnelle-coree"
+        },
+        "predicate": "institution.requires_six_justices_for_key_decisions",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution exige la concurrence d'au moins six juges de la Cour constitutionnelle pour les décisions énumérées concernant notamment l'inconstitutionnalité d'une loi, l'impeachment, la dissolution d'un parti et certains recours constitutionnels.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "majorite_qualifiee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-040",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-supreme-coree"
+        },
+        "predicate": "institution.can_make_court_rules",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour suprême peut établir, dans les limites de la loi, des règles concernant la procédure judiciaire, la discipline interne et l'administration des tribunaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementation_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-041",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-coree"
+        },
+        "predicate": "institution.cannot_be_directed_on_outcome_by_executive",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Exécutif ne peut pas juridiquement dicter à un juge l'issue d'une affaire; l'indépendance juridictionnelle découle directement de la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "separation_des_pouvoirs"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-042",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:bai-coree"
+        },
+        "predicate": "institution.audits_state",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Board of Audit and Inspection (감사원) contrôle notamment les comptes publics et la performance de l'administration selon la Constitution et la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_administratif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "audit_et_inspection"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-BAI"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-043",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:bai-coree"
+        },
+        "predicate": "institution.has_independent_status_in_duties",
+        "object": {
+          "kind": "proposition",
+          "value": "Bien qu'il soit établi sous le Président, le Board of Audit and Inspection conserve une indépendance statutaire dans l'exercice de ses fonctions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_administratif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "independance_fonctionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-BAI"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-044",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commission-electorale-nationale-coree"
+        },
+        "predicate": "institution.manages_elections",
+        "object": {
+          "kind": "proposition",
+          "value": "La Commission électorale nationale et les commissions électorales de niveau inférieur gèrent les élections et référendums dans le cadre constitutionnel et légal.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "elections"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration_electorale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-045",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:commission-electorale-nationale-coree"
+        },
+        "predicate": "institution.can_issue_election_rules_within_law",
+        "object": {
+          "kind": "proposition",
+          "value": "La Commission électorale nationale peut prendre des règlements relatifs à la gestion des élections, référendums et affaires de partis politiques dans les limites des lois et décrets.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "elections"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementation_electorale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-046",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:governance:local-coree"
+        },
+        "predicate": "governance.is_constitutionally_recognized",
+        "object": {
+          "kind": "proposition",
+          "value": "L'autonomie locale est reconnue par la Constitution: les gouvernements locaux gèrent les affaires relatives au bien-être des résidents, leurs biens et peuvent édicter des normes d'autonomie dans les limites des lois et règlements subordonnés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-047",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:governance:local-coree"
+        },
+        "predicate": "governance.is_not_federal_sovereignty",
+        "object": {
+          "kind": "proposition",
+          "value": "Les gouvernements locaux coréens ne constituent pas des États fédérés: leur autonomie s'exerce dans le cadre de la Constitution et des lois nationales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_dans_cadre_unitaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-048",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:governance:local-coree"
+        },
+        "predicate": "governance.has_two_general_categories",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Local Autonomy Act classe généralement les gouvernements locaux en deux catégories: le niveau City/Do (dont Seoul, les Metropolitan Cities, Special Self-Governing City, Do et Special Self-Governing Province) et le niveau Si/Gun/autonomous Gu.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "organisation_territoriale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "classification_territoriale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-049",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-local-coree"
+        },
+        "predicate": "institution.is_required",
+        "object": {
+          "kind": "proposition",
+          "value": "Chaque gouvernement local dispose d'un conseil local, dont l'organisation et les pouvoirs sont déterminés par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_local"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "deliberation_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-050",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-local-coree"
+        },
+        "predicate": "institution.can_enact_ordinances",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil local décide notamment de l'adoption, de la modification et de l'abrogation des ordonnances municipales/locales, ainsi que du budget local et d'autres matières prévues par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif_local"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "ordonner_localement"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-051",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:ordonnance-locale-coree"
+        },
+        "predicate": "norm.must_remain_within_statutes",
+        "object": {
+          "kind": "proposition",
+          "value": "Une ordonnance locale ne peut porter que sur les affaires du gouvernement local et doit rester dans le champ des lois et règlements nationaux; la restriction de droits, l'imposition d'obligations ou des sanctions exigent une habilitation légale lorsqu'elle est requise par l'article 28 du Local Autonomy Act.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_des_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_normative_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-052",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:chef-gouvernement-local-coree"
+        },
+        "predicate": "actor.can_manage_and_execute",
+        "object": {
+          "kind": "proposition",
+          "value": "Le chef d'un gouvernement local représente celui-ci, supervise généralement ses affaires et administre ou exécute les affaires locales ainsi que les affaires qui lui sont confiées par les lois ou règlements.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif_local"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "execution_locale"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": true
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-053",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:chef-gouvernement-local-coree"
+        },
+        "predicate": "actor.can_issue_local_rules",
+        "object": {
+          "kind": "proposition",
+          "value": "Le chef d'un gouvernement local peut prendre des règles locales concernant les affaires relevant de son autorité dans le cadre des lois, règlements et ordonnances locales applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire_local"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_locale"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": true
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-054",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:chef-gouvernement-local-coree"
+        },
+        "predicate": "actor.cannot_replace_local_council_generally",
+        "object": {
+          "kind": "proposition",
+          "value": "Le chef d'un gouvernement local ne remplace pas normalement le conseil local pour les matières que la loi réserve à une résolution du conseil, notamment l'adoption des ordonnances et du budget.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "separation_locale"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-055",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:chef-gouvernement-local-coree"
+        },
+        "predicate": "actor.can_request_reconsideration",
+        "object": {
+          "kind": "proposition",
+          "value": "Le chef d'un gouvernement local peut demander au conseil local de reconsidérer une résolution lorsqu'elle est notamment considérée comme illégale, abusant de compétence ou gravement contraire à l'intérêt public, selon les conditions légales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_local"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reconsideration_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-056",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-local-coree"
+        },
+        "predicate": "institution.can_override_reconsideration",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil local peut rendre définitive une résolution reconsidérée en la réadoptant selon le quorum et la majorité qualifiée prévus par le Local Autonomy Act.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_local"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "surmonter_reconsideration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-057",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-supreme-coree"
+        },
+        "predicate": "institution.can_hear_local_resolution_legality_suit",
+        "object": {
+          "kind": "proposition",
+          "value": "Lorsque les conditions légales sont réunies, un litige sur la légalité d'une résolution locale réadoptée peut être porté directement devant la Cour suprême.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_juridictionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_juridictionnel_local"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-058",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:state:administration-centrale-coree"
+        },
+        "predicate": "state.can_supervise_local_legality_with_limits",
+        "object": {
+          "kind": "proposition",
+          "value": "L'administration centrale dispose de mécanismes légaux de supervision, d'inspection, d'instruction de reconsidération et de coordination à l'égard des gouvernements locaux, mais ces mécanismes sont ceux définis par la loi et ne suppriment pas l'autonomie locale constitutionnellement reconnue.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National + local"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_local"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "National + local",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "supervision_legale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCAL",
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-059",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:governance:education-coree"
+        },
+        "predicate": "governance.has_national_and_local_layers",
+        "object": {
+          "kind": "proposition",
+          "value": "La gouvernance éducative combine un cadre national fixé par la Constitution et les lois avec une autonomie éducative locale au niveau des Cities/Do.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "repartition_fonctionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-EDUFRAME",
+        "SRC-KR-LOCALEDU"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-060",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:surintendant-education-coree"
+        },
+        "predicate": "office.executes_city_do_education_affairs",
+        "object": {
+          "kind": "proposition",
+          "value": "Chaque City/Do a un superintendent of education (교육감) chargé d'exécuter les affaires locales concernant l'éducation et les sciences académiques.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / City-Do"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / City-Do",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executif_educatif_local"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCALEDU"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-061",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:surintendant-education-coree"
+        },
+        "predicate": "actor.can_prepare_education_ordinances_and_budget",
+        "object": {
+          "kind": "proposition",
+          "value": "Le superintendent of education est notamment responsable de préparer et soumettre des projets d'ordonnance et de budget en matière d'éducation et de gérer diverses fonctions éducatives prévues par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / City-Do"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / City-Do",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "initiative_et_administration_education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCALEDU"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-062",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:surintendant-education-coree"
+        },
+        "predicate": "actor.can_issue_educational_rules",
+        "object": {
+          "kind": "proposition",
+          "value": "Le superintendent of education peut établir des règles éducatives dans les limites des lois, règlements et ordonnances locales applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / City-Do"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / City-Do",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_educative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCALEDU"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-063",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:surintendant-education-coree"
+        },
+        "predicate": "actor.is_elected_office",
+        "object": {
+          "kind": "proposition",
+          "value": "Le superintendent of education est une charge élective régie par le Local Education Autonomy Act et les règles électorales auxquelles celui-ci renvoie.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / City-Do"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / City-Do",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "mandat_electif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCALEDU"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-064",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:conseil-city-do-coree"
+        },
+        "predicate": "institution.retains_education_deliberative_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les matières éducatives locales soumises à l'adoption d'ordonnances ou au vote budgétaire passent par le conseil City/Do selon le cadre du Local Autonomy Act et du Local Education Autonomy Act; l'ancien système distinct de boards of education a été aboli.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / City-Do"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / City-Do",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "deliberation_education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCALEDU",
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-065",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:surintendant-education-coree"
+        },
+        "predicate": "actor.can_request_reconsideration_of_education_resolution",
+        "object": {
+          "kind": "proposition",
+          "value": "Le superintendent of education peut demander la reconsidération d'une résolution du conseil City/Do en matière d'éducation lorsqu'elle viole la loi ou est gravement contraire à l'intérêt public; le ministre de l'Éducation peut, dans les cas prévus, exiger cette demande de reconsidération.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / City-Do"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / City-Do",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reconsideration_education"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCALEDU"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-066",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:surintendant-education-coree"
+        },
+        "predicate": "actor.cannot_ignore_national_law",
+        "object": {
+          "kind": "proposition",
+          "value": "L'autonomie éducative locale n'autorise pas un superintendent of education à écarter la Constitution, les lois nationales ou les limites imposées aux ordonnances et règles locales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / City-Do"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Scolaire / City-Do",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_autonomie_education"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-LOCALEDU",
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-067",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:prosecution-service-coree"
+        },
+        "predicate": "institution.is_governed_by_2026_act",
+        "object": {
+          "kind": "proposition",
+          "value": "Au 2 octobre 2026, le Prosecution Service est régi par la Prosecution Service Act (Act No. 21490), entrée en vigueur ce jour et remplaçant l'ancienne Prosecutors' Office Act.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Poursuites"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Poursuites",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "cadre_institutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-PROSECUTION-2026"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-068",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:procureur-coree"
+        },
+        "predicate": "actor.has_prosecution_functions",
+        "object": {
+          "kind": "proposition",
+          "value": "Les procureurs exercent les fonctions prévues par la nouvelle loi, notamment celles nécessaires à la décision d'engager l'action publique et à son maintien, ainsi que les autres fonctions expressément prévues par les lois.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Poursuites"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Poursuites",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "poursuivre"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-PROSECUTION-2026"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-069",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-justice-coree"
+        },
+        "predicate": "actor.can_generally_direct_prosecutors",
+        "object": {
+          "kind": "proposition",
+          "value": "Le ministre de la Justice est le supérieur de surveillance des affaires de poursuite et peut diriger et superviser les procureurs de façon générale; pour une affaire particulière, la loi prévoit qu'il dirige et supervise seulement le Procureur général.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Poursuites"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Poursuites",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "supervision_poursuites"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-PROSECUTION-2026"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-070",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:ministre-justice-coree"
+        },
+        "predicate": "actor.cannot_direct_individual_prosecutor_in_specific_case_directly",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans une affaire particulière, la Prosecution Service Act n'autorise pas le ministre de la Justice à donner directement ses instructions à n'importe quel procureur; le canal légal de direction est le Procureur général.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Poursuites"
+        },
+        {
+          "axis": "fonction",
+          "value": "limites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Poursuites",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_supervision_poursuites"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-PROSECUTION-2026"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-071",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:procureur-general-coree"
+        },
+        "predicate": "actor.oversees_prosecutorial_affairs",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Procureur général dirige le Supreme Prosecutors' Office, supervise les affaires de poursuite et dirige les agents du service dans le cadre de la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Poursuites"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Poursuites",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_poursuites"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-PROSECUTION-2026"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-072",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:procureur-coree"
+        },
+        "predicate": "actor.can_object_to_specific_direction",
+        "object": {
+          "kind": "proposition",
+          "value": "Un procureur qui conteste la légalité ou la justification d'une instruction ou supervision relative à une affaire particulière peut soulever une objection selon la Prosecution Service Act et ne doit pas subir de traitement défavorable pour ce seul motif.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Poursuites"
+        },
+        {
+          "axis": "fonction",
+          "value": "garanties"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Poursuites",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "garantie_interne"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-PROSECUTION-2026"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-073",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:office:president-coree"
+        },
+        "predicate": "actor.can_conclude_and_ratify_treaties",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Président conclut et ratifie les traités au nom de la République de Corée dans le cadre constitutionnel.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites_interface_nationale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "conclusion_ratification"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-074",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:assemblee-nationale-coree"
+        },
+        "predicate": "institution.must_consent_to_specified_treaties",
+        "object": {
+          "kind": "proposition",
+          "value": "L'Assemblée nationale dispose d'un pouvoir de consentement pour les catégories de traités énumérées à l'article 60 de la Constitution, notamment certains traités de sécurité, de commerce, de paix, affectant la souveraineté, créant d'importantes obligations financières ou portant sur des matières législatives.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites_interface_nationale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "consentement_aux_traites"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-075",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:traite-droit-interne-coree"
+        },
+        "predicate": "concept.has_domestic_effect_under_constitution",
+        "object": {
+          "kind": "proposition",
+          "value": "Les traités dûment conclus et promulgués conformément à la Constitution, ainsi que les règles généralement reconnues du droit international, ont l'effet reconnu par l'article 6 de la Constitution dans l'ordre interne coréen.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites_interface_nationale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reception_interne"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-076",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:scope:kristal-coree"
+        },
+        "predicate": "scope.excludes_substantive_international_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Ce Kristal n'encode pas le contenu substantiel des traités, de la coutume internationale, du jus cogens, du droit humanitaire, des droits humains internationaux, du droit de la mer ou du commerce international; il encode seulement l'interface juridique nationale coréenne avec ces normes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Interface externe",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "frontiere_de_portee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-077",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:office-vs-officeholder"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "OFFICE ≠ TITULAIRE : le pouvoir juridique appartient à une charge ou institution définie par le droit, non à la personne indépendamment de cette charge.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-078",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:election-vs-unlimited-power"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "ÉLECTION ≠ POUVOIR ILLIMITÉ : une charge élective reste limitée par la Constitution, les lois et les mécanismes de contrôle applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-LOCAL",
+        "SRC-KR-LOCALEDU"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-079",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:political-influence-vs-legal-authority"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "INFLUENCE POLITIQUE ≠ AUTORITÉ JURIDIQUE : la capacité d'influencer une décision ne prouve pas le pouvoir légal de la prendre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-080",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:policy-vs-law"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "POLITIQUE GOUVERNEMENTALE ≠ LOI : une orientation politique ne modifie pas par elle-même la Constitution, une loi ou une norme juridiquement supérieure.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-MOLEG-HIER"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-081",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:delegated-power-vs-sovereignty"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "POUVOIR DÉLÉGUÉ ≠ POUVOIR SOUVERAIN : un règlement, une ordonnance locale ou une règle éducative reste borné par la norme qui l'autorise et les normes supérieures.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-LOCAL",
+        "SRC-KR-LOCALEDU"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-082",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:local-autonomy-vs-federalism"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "AUTONOMIE LOCALE ≠ FÉDÉRALISME : les Cities/Do et Si/Gun/Gu ont une autonomie garantie mais ne sont pas des États fédérés dotés d'une souveraineté constitutionnelle parallèle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST",
+        "SRC-KR-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-083",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:international-interface-vs-international-corpus"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "INTERFACE INTERNATIONALE ≠ CORPUS INTERNATIONAL : les règles coréennes sur la conclusion, le consentement et l'effet interne des traités sont incluses; le contenu des obligations internationales est renvoyé au Kristal supranational/international.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-084",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:source-vs-decision"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "SOURCE OFFICIELLE ≠ DÉCISION FUTURE : le Kristal décrit le droit et l'état institutionnel de référence; il ne prédit pas ce qu'un tribunal, un gouvernement, une assemblée ou un titulaire décidera ultérieurement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "epistemique"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-085",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:national-law-vs-commercial-policy"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "DROIT SUD-CORÉEN ≠ POLITIQUE COMMERCIALE KRISTAL FARMS : les choix internes de ciblage, d'exclusion ou d'hébergement de Kristal Farms ne sont pas présentés comme des interdictions juridiques sud-coréennes sauf source légale expresse.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    },
+    {
+      "assertion_id": "KR-POUVOIR-086",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:translation-vs-authoritative-korean-text"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "TRADUCTION ANGLAISE DE RÉFÉRENCE ≠ TEXTE CORÉEN AUTHENTIQUE : les traductions anglaises de la base Statutes of the Republic of Korea sont utilisées pour la recherche structurée, mais le texte coréen doit être vérifié pour une interprétation juridique décisive.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "epistemique"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-KR-CONST"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "PROV-KR-001",
+      "type": "research_build",
+      "created_at": "2026-10-02T16:20:00Z",
+      "method": "Synthèse structurée de la Constitution et de textes législatifs sud-coréens; priorité aux sources de législation institutionnelles. Aucun titulaire politique actuel n'est encodé. Le droit international substantiel est volontairement exclu, sauf interface nationale.",
+      "tooling": "Kristal Standard 6.0.0"
+    }
+  ],
+  "warnings": [
+    "Les traductions anglaises du service Statutes of the Republic of Korea sont des traductions de référence; vérifier le texte coréen authentique pour toute utilisation juridique décisive.",
+    "La Prosecution Service Act (Act No. 21490) entre en vigueur le 2 octobre 2026: revalidation prioritaire de la pratique et des textes d'application.",
+    "Les régimes spéciaux de Seoul, Sejong et Jeju peuvent déroger au modèle général du Local Autonomy Act et doivent être vérifiés pour les questions locales fines.",
+    "Le Kristal exclut le droit international substantiel; seul le mécanisme national coréen d'interface avec les traités et normes externes est inclus."
+  ],
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1"
+}

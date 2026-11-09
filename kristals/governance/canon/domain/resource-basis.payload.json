@@ -1,0 +1,62 @@
+{
+  "domain": "governance",
+  "domain_version": "1.0.0",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:governance:resource:portable_epistemic_state",
+      "role": "portable_epistemic_state",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:4ace1c8f887d8d48899f9d4ae09e7bb8cc1f608baed9c877a040d41a19f53fdf"
+      },
+      "legacy_schema_version": "6.0",
+      "legacy_artifact_type": "kristal_state",
+      "legacy_state_id": "sha256:ce84d8cf6fb77b981af1bc74fc877ecb1f37ec768b63f5ea5cad76193ae4218b",
+      "legacy_content_hash": {
+        "alg": "sha256",
+        "value": "ce84d8cf6fb77b981af1bc74fc877ecb1f37ec768b63f5ea5cad76193ae4218b"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:governance:resource:identity_registry",
+      "role": "identity_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:a4ff3151abb1ea9807fc55290d168015f2378705058f86cea01e3c96dcd77ee2"
+      },
+      "legacy_schema_version": "6.0",
+      "legacy_artifact_type": "referent_registry"
+    },
+    {
+      "resource_id": "urn:kristal:governance:resource:evidence_registry",
+      "role": "evidence_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:518cf38519fdb37b03fb31dc84dcc964a4dc83bbbccf821653bc6fd0972a4c9d"
+      },
+      "legacy_schema_version": "1.0",
+      "legacy_artifact_type": "evidence_registry"
+    },
+    {
+      "resource_id": "urn:kristal:governance:resource:source_catalog",
+      "role": "source_catalog",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:feb18a640792b7d763f36f1c95ab867e6b42633572026394248abf82f210e1ed"
+      },
+      "legacy_schema_version": "1.0",
+      "legacy_artifact_type": "source_catalog"
+    }
+  ],
+  "semantic_boundaries": [
+    "mandate != unlimited_authority",
+    "formal_authority != de_facto_power",
+    "decision != implementation",
+    "legality != legitimacy != effectiveness"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "format": "recipes.substitution-rules.v1",
+  "version": "2.0.0",
+  "status": "illustrative_model_seed",
+  "rules": [
+    {
+      "substitution_id": "urn:kristal:recipes:substitution:butter_to_oil_as_fat",
+      "from_ingredient_ref": "urn:kristal:recipes:ingredient:butter",
+      "to_ingredient_ref": "urn:kristal:recipes:ingredient:oil",
+      "context": {
+        "role_refs": [
+          "urn:kristal:recipes:ingredient-role:fat"
+        ],
+        "family_refs": [],
+        "technique_refs": []
+      },
+      "ratio": null,
+      "effects": [
+        "solid-fat behavior may change",
+        "texture and aroma may change"
+      ],
+      "confidence_level": "low",
+      "status": "illustrative",
+      "notes": "Relation contextuelle de démonstration, pas une règle universelle."
+    },
+    {
+      "substitution_id": "urn:kristal:recipes:substitution:lemon_to_vinegar_as_acid",
+      "from_ingredient_ref": "urn:kristal:recipes:ingredient:lemon_juice",
+      "to_ingredient_ref": "urn:kristal:recipes:ingredient:vinegar",
+      "context": {
+        "role_refs": [
+          "urn:kristal:recipes:ingredient-role:acid"
+        ],
+        "family_refs": [],
+        "technique_refs": []
+      },
+      "ratio": null,
+      "effects": [
+        "acid profile and aroma may change"
+      ],
+      "confidence_level": "low",
+      "status": "illustrative",
+      "notes": "Démonstration de substitution par fonction, sans équivalence gustative."
+    }
+  ]
+}

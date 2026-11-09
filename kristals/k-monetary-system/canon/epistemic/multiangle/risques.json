@@ -1,0 +1,213 @@
+{
+  "format": "k.monetary.multiangle/risk-register/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:risks",
+  "epistemic_regime": "analysis_proposal",
+  "register": {
+    "format": "kristal.formalisation.risks/1.0",
+    "items": [
+      {
+        "id": "K01",
+        "risk": "Rachat impossible de K_M",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "Relevé liquidité, échéances, réserves admissibles",
+        "stop_or_response": "bloque émission",
+        "protocol": "D05",
+        "sources": [
+          "W08",
+          "W09"
+        ]
+      },
+      {
+        "id": "K02",
+        "risk": "K_M juridiquement mal qualifié",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "avis écrit par structure",
+        "stop_or_response": "bloque lancement",
+        "protocol": "D05",
+        "sources": [
+          "W07",
+          "W08",
+          "W13"
+        ]
+      },
+      {
+        "id": "K03",
+        "risk": "K_C sans droit réel",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "acte propriété et flux de revenu vérifiés",
+        "stop_or_response": "bloque attribution",
+        "protocol": "D06",
+        "sources": [
+          "W13"
+        ]
+      },
+      {
+        "id": "K04",
+        "risk": "Double nantissement des lingots",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "inventaire indépendant, séparation d actifs",
+        "stop_or_response": "bloque réserve",
+        "protocol": "D04",
+        "sources": [
+          "W11"
+        ]
+      },
+      {
+        "id": "K05",
+        "risk": "Marché de l art non liquide",
+        "severity_prelim": "Élevée",
+        "evidence_needed": "haircut prime, stress tests prix",
+        "stop_or_response": "exclure prime de réserve",
+        "protocol": "D04",
+        "sources": [
+          "S07"
+        ]
+      },
+      {
+        "id": "K06",
+        "risk": "FADM financé au-delà des excédents",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "comptes et approbation fédérative",
+        "stop_or_response": "bloque vote proposé",
+        "protocol": "D03",
+        "sources": [
+          "W01"
+        ]
+      },
+      {
+        "id": "K07",
+        "risk": "Dommage aux membres fragiles",
+        "severity_prelim": "Élevée",
+        "evidence_needed": "incidence déciles et plan atténuation",
+        "stop_or_response": "revoir paramètres",
+        "protocol": "D03",
+        "sources": [
+          "W03"
+        ]
+      },
+      {
+        "id": "K08",
+        "risk": "Capture / vote excluant",
+        "severity_prelim": "Élevée",
+        "evidence_needed": "audit participatif et accès papier/borne",
+        "stop_or_response": "suspend déploiement",
+        "protocol": "D01",
+        "sources": [
+          "W02"
+        ]
+      },
+      {
+        "id": "K09",
+        "risk": "Collecte biométrique disproportionnée",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "nécessité, alternative, EFVP",
+        "stop_or_response": "bloque collecte",
+        "protocol": "D09",
+        "sources": [
+          "W17"
+        ]
+      },
+      {
+        "id": "K10",
+        "risk": "Usurpation d autorité notariale",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "accord professionnel et licence",
+        "stop_or_response": "bloque service",
+        "protocol": "D09",
+        "sources": [
+          "S06"
+        ]
+      },
+      {
+        "id": "K11",
+        "risk": "Ratio philanthropique trompeur",
+        "severity_prelim": "Élevée",
+        "evidence_needed": "coûts complets et impact",
+        "stop_or_response": "revoir communication",
+        "protocol": "D08",
+        "sources": [
+          "W15"
+        ]
+      },
+      {
+        "id": "K12",
+        "risk": "Dette réduite fictivement",
+        "severity_prelim": "Élevée",
+        "evidence_needed": "identité stock flux, base comparée",
+        "stop_or_response": "retirer projection",
+        "protocol": "D07",
+        "sources": [
+          "S01"
+        ]
+      },
+      {
+        "id": "K13",
+        "risk": "Blocage paiement / cyberattaque",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "reprise, sauvegardes, tests",
+        "stop_or_response": "arrêt partiel",
+        "protocol": "D05",
+        "sources": [
+          "W09"
+        ]
+      },
+      {
+        "id": "K14",
+        "risk": "Instabilité réglementaire",
+        "severity_prelim": "Élevée",
+        "evidence_needed": "veille réglementaire datée",
+        "stop_or_response": "réviser avis",
+        "protocol": "D11",
+        "sources": [
+          "W08"
+        ]
+      },
+      {
+        "id": "K15",
+        "risk": "Mélange fonds privés / dons / réserves",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "comptes séparés et audit",
+        "stop_or_response": "bloque émission et dons",
+        "protocol": "D04",
+        "sources": [
+          "W09"
+        ]
+      },
+      {
+        "id": "K16",
+        "risk": "Risque de blanchiment des lingots/plateformes",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "KYC / AML / provenance",
+        "stop_or_response": "bloque activité concernée",
+        "protocol": "D04",
+        "sources": [
+          "W11",
+          "W12"
+        ]
+      },
+      {
+        "id": "K17",
+        "risk": "Dépendance au prestige de kOA",
+        "severity_prelim": "Élevée",
+        "evidence_needed": "gouvernance indépendante, stress notoriété",
+        "stop_or_response": "test catastrophe réputation",
+        "protocol": "D13",
+        "sources": [
+          "C01"
+        ]
+      },
+      {
+        "id": "K18",
+        "risk": "Conflits sur terres / droits autochtones",
+        "severity_prelim": "Très élevée",
+        "evidence_needed": "consentement et droit foncier",
+        "stop_or_response": "aucune action foncière",
+        "protocol": "D10",
+        "sources": [
+          "S03"
+        ]
+      }
+    ]
+  },
+  "review_status": "provisional"
+}

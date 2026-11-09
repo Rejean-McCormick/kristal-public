@@ -1,0 +1,63 @@
+{
+  "domain": "infrastructure",
+  "domain_version": "1.0.0",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:infrastructure:resource:portable_epistemic_state",
+      "role": "portable_epistemic_state",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:b15236dab80f962ea9b61388185169f6db91a3dd871654d43066d6f42ddf099d"
+      },
+      "legacy_schema_version": "6.0",
+      "legacy_artifact_type": "kristal_state",
+      "legacy_state_id": "sha256:f24484b72361944747d0693c0a9a8239a9fb34f87fa9ff6dd23ffb34f7b83aeb",
+      "legacy_content_hash": {
+        "alg": "sha256",
+        "value": "f24484b72361944747d0693c0a9a8239a9fb34f87fa9ff6dd23ffb34f7b83aeb"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:infrastructure:resource:identity_registry",
+      "role": "identity_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:68d9e73bbc1cd9127959753dee1cd6fc1ebe987ac09aca88958e77f68f8c9c0c"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:infrastructure:resource:semantic_invariants",
+      "role": "semantic_invariants",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:1833af087450e61978e109f7b1a73b7f2a8ce951227551c883b3070ae2524d35"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:infrastructure:resource:scope_boundary",
+      "role": "scope_boundary",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:4a658fb83ea62914a5ce8bbc1b969e914317e3f7970eafc652dafe9f355bcd85"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:infrastructure:resource:source_catalog",
+      "role": "source_catalog",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:82987828dae63c1dcef17e822e5e90dfbf59e8b0538342f05f8599c95541ce42"
+      }
+    }
+  ],
+  "semantic_boundaries": [
+    "physical_integrity != service_availability",
+    "sector_archetype != parallel_ontology"
+  ]
+}

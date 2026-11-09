@@ -1,0 +1,84 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-HumanBody:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-v11.2",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-typed-fr-v11-2",
+          "path": "wikidata-typed-fr-v11-2.json",
+          "priority": 94,
+          "sha256": "bfc436c7a9212197b2731ffd2f52f1b399f77a38ce0fe1ac40c40bbc420b4ab0"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-domain-fr-v11-1",
+          "path": "wikidata-domain-fr-v11-1.json",
+          "priority": 93,
+          "sha256": "7e22d28f5421f5ff44cc6fa2853de859e34d91f001147f07ac970b35cc3e082a"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "legacy-fr",
+          "path": "legacy-fr.json",
+          "priority": 100,
+          "sha256": "5144f3e73462c5f4ec6cfc6ca938f48e828d3b6bf154cd3f6fc1b7ceb22e133f"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "3928794d2068b39ddbdc28d4503f43d4f28689ddb3c542c161d5e5acd7405704"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [
+        "fr"
+      ],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-typed-fr-CA-v11-2",
+          "path": "wikidata-typed-fr-CA-v11-2.json",
+          "priority": 94,
+          "sha256": "bd272d34dc18b0774d8926b941500f48fca99370e396231078011a462476ca80"
+        }
+      ],
+      "tag": "fr-CA"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-typed-und-v11-2",
+          "path": "wikidata-typed-und-v11-2.json",
+          "priority": 94,
+          "sha256": "7bb96a005768b383df5d56985080c02697203a3f6386bd20186071f6a724662f"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-domain-und-v11-1",
+          "path": "wikidata-domain-und-v11-1.json",
+          "priority": 93,
+          "sha256": "9b195ffe7e4ab4d2bc0fc5e329e028e0002ea55a62589b6592d9021c11fe9226"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "c2c90f7d3c48af2cbdbed780be8bc434dbf394c8bb4e4d0f49122ff6784fb5d4"
+        }
+      ],
+      "tag": "und"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-humanbody",
+  "schema_version": "11.0"
+}

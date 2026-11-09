@@ -1,0 +1,44 @@
+{
+  "format": "k.monetary.operation/debt-transition/0.1.0",
+  "id": "urn:kristal:k-monetary-system:op:debt-transition",
+  "status": "scenario_analysis_only",
+  "purpose": "Model how legacy sovereign/household/corporate debt denominated in an incumbent currency behaves during a monetary regime transition.",
+  "channels": [
+    {
+      "id": "real_dilution",
+      "mechanism": "Unexpected inflation in the legacy currency reduces the real burden of fixed nominal claims while transferring wealth from nominal creditors to nominal debtors."
+    },
+    {
+      "id": "refinancing_feedback",
+      "mechanism": "Once inflation/devaluation is expected, new nominal borrowing rates and risk premia may rise, limiting repeated use of surprise dilution."
+    },
+    {
+      "id": "voluntary_conversion",
+      "mechanism": "Legacy debt may be voluntarily exchanged for K-denominated claims under explicit terms."
+    },
+    {
+      "id": "market_buyback",
+      "mechanism": "A treasury/fund may purchase legacy claims at market prices and retire or restructure them."
+    },
+    {
+      "id": "legal_redenomination_or_restructuring",
+      "mechanism": "Possible only under applicable legal authority and contract terms; never assumed by this model."
+    }
+  ],
+  "distributional_accounts": [
+    "nominal_creditors",
+    "nominal_debtors",
+    "pension_funds",
+    "banks",
+    "households",
+    "foreign_holders",
+    "government",
+    "K_C_beneficiaries"
+  ],
+  "guardrails": [
+    "Do not model deliberate deception or market manipulation as a policy instrument.",
+    "Every debt reduction must identify the corresponding creditor-side asset loss, transfer, restructuring or buyback cost.",
+    "Foreign-currency and inflation-indexed debt are modeled separately from fixed nominal domestic-currency debt."
+  ],
+  "accounting_identity": "A liability extinguished, written down or inflated away corresponds to a change in another sector’s financial asset position."
+}

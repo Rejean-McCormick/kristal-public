@@ -1,0 +1,119 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:manufacturing",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:ab83dfd868d40f90d057cacf5b1955dcee90a11a915a867525eb53cbeada269f"
+  },
+  "files": [
+    {
+      "path": "canon/domain/legacy-v6-logical-payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 866699,
+      "sha256": "sha256:ffec8e47b63abaeeffd235f638ecad15bf73b91ae93313c0a9205c980b0befb6",
+      "artifact_id": "urn:kristal:manufacturing:artifact:canonical-knowledge",
+      "logical_contract": {
+        "id": "kristal.compat/v6-portable-state-logical-projection",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 1046,
+      "sha256": "sha256:e0397a8e4318d79f2b3ac4e550259b5363a37d3a366400deff5ffce73d5c01b9"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 633,
+      "sha256": "sha256:096bccf3d9066d3ef483d97cbe86c5f7add355c8a58743661e66cf8f8ad5b6c2"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 965,
+      "sha256": "sha256:477e4f5be804bb19c7d5264cbae01fa7c87ccffefdaf8b53a6a12c2f37f48f76"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 877,
+      "sha256": "sha256:b43be75ad247313e0404ee919eacdaa8ec9a1daed26d542aa28479312d40716d"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 799,
+      "sha256": "sha256:7e31136331651d5c756bdb0e2d380953dc29fa40a5d40d47c4d028f6ccd0a830"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1299,
+      "sha256": "sha256:8da358a4dc1adb4b06193ddd1faf9700820546694604fa78a00f8c0757234e82"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 468,
+      "sha256": "sha256:48af8d9457528b892274480e0954ab06227694666cdf7afc1d21ee5dafb5bb57"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 653,
+      "sha256": "sha256:ca1e7002c285918fdd72769027fe45bbaba84f840819e98bf0cd3675d0074851"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 429,
+      "sha256": "sha256:a4f3b75993aca95da97184c8b94c92118e86f67da20e412aa4fb42a4b95eee2c"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 4082,
+      "sha256": "sha256:c781e4c4bce3eb88ff2244a8fab172513a2ebf1b041efb46c6e44766e4305855"
+    },
+    {
+      "path": "docs/08_GLOSSARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 485,
+      "sha256": "sha256:f9d8c1708168cc8777df0c3e9b1427fbb6b38253914c6a9d6a36983f9a0ddc84"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 15514,
+      "sha256": "sha256:74d20503230ab0ad271e4b358f33aff8e9ef099ffbc77c325471b1e7f73e51ee"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 905,
+      "sha256": "sha256:849f8d0dca9ac946e9c1eac7fbdb105273495c0aff4cc15f976523523ed89494",
+      "state_ref": "urn:kristal:state:manufacturing",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:ab83dfd868d40f90d057cacf5b1955dcee90a11a915a867525eb53cbeada269f"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

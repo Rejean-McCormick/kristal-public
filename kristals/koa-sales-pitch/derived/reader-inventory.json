@@ -1,0 +1,50 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:koa-sales-pitch",
+  "source_fingerprint": "sha256:713b28e2e1b0090667dc23f9df6b3c2f3b5803a1065c85dffd915162978d1f3d",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 631679,
+    "tracked_file_count": 2,
+    "max_tracked_file_bytes": 630746,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 933,
+      "sha256": "sha256:34ee560fedf88cd579b5f6036a6045a5cf4760fed6ed50080c5cfaf43f51be60"
+    },
+    {
+      "path": "canon/domain/sales-pitch.kristal-state.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 630746,
+      "sha256": "sha256:1d90c23af770b205da0ee04032040ed6b1b62966a2cecf490997a66fd33d3478"
+    }
+  ],
+  "segments": []
+}

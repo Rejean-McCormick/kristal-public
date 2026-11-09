@@ -1,0 +1,36 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:public-health",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:852b67d5035c992a15bc1701608143cce7568a42c3236e521b9595d78ba4b1f2"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:public-health",
+    "label": "Kristal-PublicHealth",
+    "domain": "public_health"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Concepts et relations de santé des populations, déterminants, expositions, interventions et résultats mesurés."
+    ],
+    "does_not_own": [
+      "Diagnostic clinique individuel ou équivalence automatique entre association et causalité.",
+      "Les dépôts des sources externes, leur publication et leur autorité éditoriale."
+    ]
+  },
+  "canonical_artifact_count": 13,
+  "source_count": 10,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

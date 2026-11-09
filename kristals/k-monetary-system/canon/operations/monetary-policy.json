@@ -1,0 +1,46 @@
+{
+  "format": "k.monetary.operation/monetary-policy/0.1.0",
+  "id": "urn:kristal:k-monetary-system:op:monetary-policy",
+  "objectives": [
+    "K_M_purchasing_power_stability",
+    "settlement_integrity",
+    "adequate_liquidity",
+    "financial_stability",
+    "compatibility_with_real_resource_constraints"
+  ],
+  "objective_weights": "governance_parameter_not_fixed_in_canon",
+  "instrument_families": [
+    {
+      "id": "base_supply_adjustment",
+      "effect": "Create or destroy K_M under declared policy and accounting rules."
+    },
+    {
+      "id": "temporary_liquidity_facility",
+      "effect": "Provide time-bounded K_M liquidity against declared eligible collateral, with repayment extinguishing the temporary liquidity."
+    },
+    {
+      "id": "collateral_policy",
+      "effect": "Define eligible collateral, haircuts and concentration limits."
+    },
+    {
+      "id": "prudential_parameters",
+      "effect": "Set system-level liquidity/capital constraints where legally and institutionally applicable."
+    }
+  ],
+  "forbidden_by_design": [
+    "founder_discretionary_issuance",
+    "secret_supply_changes",
+    "undocumented_emergency_power",
+    "automatic_equation_of_model_output_with_policy_authority"
+  ],
+  "control_loop": [
+    "observe_state",
+    "construct_evidence_bundle",
+    "generate_policy_candidates",
+    "Smart_Vote_decision",
+    "delayed_or_emergency_activation",
+    "observe_outcome",
+    "append_event",
+    "review"
+  ]
+}

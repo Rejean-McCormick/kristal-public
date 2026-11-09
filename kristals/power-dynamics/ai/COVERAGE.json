@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:power",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:7b9a4cbfa76756d13a50753ecb9faf0bdeaae015da5487366ad09c48b02f696e"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:power-topology",
+    "label": "Topologie du pouvoir / Power Dynamics",
+    "domain": "policy"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "the local structured epistemic state for the Power / Power Dynamics knowledge model",
+      "the Power Dynamics analytical contracts, source-attributed native records, ontology and graph assembled by this repository",
+      "the repository rules that distinguish document sources, analytical reconstructions, compiled assertions and qualified EvidenceLinks"
+    ],
+    "does_not_own": [
+      "the truth, availability or physical storage of external scholarly corpora",
+      "local CorpusIndex metadata databases, FTS indexes or other runtime caches",
+      "claims that external candidate records are evidence before explicit review and qualification",
+      "GitHub hosting, repository topology, publication channels or activation state as semantic truth"
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 3,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 1,
+  "local_materialization_blob_count": 1,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

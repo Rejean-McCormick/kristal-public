@@ -1,0 +1,63 @@
+{
+  "domain": "hci",
+  "domain_version": "1.0.0",
+  "resource_model": "canonical-json-resource-set",
+  "resources": [
+    {
+      "resource_id": "urn:kristal:hci:resource:portable_epistemic_state",
+      "role": "portable_epistemic_state",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:fbc638f687a700ccb6f49256d23d0be7b9f4f8c791c9dfa42f11601148ce0936"
+      },
+      "legacy_schema_version": "6.0",
+      "legacy_artifact_type": "kristal_state",
+      "legacy_state_id": "sha256:d6d364804352ef3aeb32e86174dda7f8e44fc6458694c16c8295f9fe402ebe6b",
+      "legacy_content_hash": {
+        "alg": "sha256",
+        "value": "d6d364804352ef3aeb32e86174dda7f8e44fc6458694c16c8295f9fe402ebe6b"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:hci:resource:identity_registry",
+      "role": "identity_registry",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:d968874bdcc46ad1ce596248ac126b4613083f1025ac805cc1edfa2a3e7e7c80"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:hci:resource:semantic_invariants",
+      "role": "semantic_invariants",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:45ade88adec62f422fda911483cdcffb87ec229079572ef5d2aa88d5d7164698"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:hci:resource:scope_boundary",
+      "role": "scope_boundary",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:bb818c4f6881faaa30366b4ba6acc4d4774d1133b21f3f5d638f2691de05deb2"
+      }
+    },
+    {
+      "resource_id": "urn:kristal:hci:resource:source_catalog",
+      "role": "source_catalog",
+      "media_type": "application/json",
+      "logical_content": {
+        "profile": "kristal.resource/jcs-sha256-v1",
+        "digest": "sha256:f69410f707c8c7cc91c3a2c83f6c75f91aea4d817f092149d2efc2a46bc9f629"
+      }
+    }
+  ],
+  "semantic_boundaries": [
+    "canonical_flow != linear_causality",
+    "evaluation feeds iterative_design"
+  ]
+}

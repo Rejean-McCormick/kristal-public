@@ -1,0 +1,161 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:maritime",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:c89b8de12a868674d3c1c9a510f9491dcd88fdfafa6bfb0f21b1421b4985e877"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:maritime:artifact:canonical-knowledge",
+      "logical_contract": {
+        "id": "kristal.compat/v6-portable-state-logical-projection",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:345eebae81ee5dfcf3a2771f9e5d2d244933b4598d67634fed72953f66e76136"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:maritime:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:eabe8fa429cd8df4424cc4f78a6d3c54bd06637adb1839c7b5fc7a11786536c4"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:maritime:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:a9edd50024bcaf1792bb3109e903cec684caf1c9b971a0da92859fc200e9f9c9"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:maritime:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4cbe1cd00bf3097eeb404cc9f171437edde0e40c51502cb67f6d279e70d5d14b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:maritime:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b75c86c4f2c05711b11159152d09693fa93f01fc4bb2492b79a9ffc4ae0b721b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Maritime:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:241e7fa1186c637390f5f870e99f1735c84a9cfcacf9e723be7022ec40a992b1"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Maritime:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:32717e17155dd263116bf84acfd40d43325d8c0d7cbcb4b79e5b1dd7e9293f64"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Maritime:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c2df0d82e82f97a889e11ef4bc834b7e5b0bc8db2f008a6eaa59f7d0c42eba91"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Maritime:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:99ffd5558d510999989bd7901a11ab9b97b1d285553c6f8c5c329f168518346a"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Maritime:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:70ddebe68ec9255a9db6389ed2e07c81da3ca0d6ef4a330ccfdd4cb02adcb39d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Maritime:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:35cf2fa4da0dcf054712093e288ccba960e57bf312fe26720e826c21f749d7ba"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Maritime:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c2df0d82e82f97a889e11ef4bc834b7e5b0bc8db2f008a6eaa59f7d0c42eba91"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Maritime:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0038be29259c58e6ecede57cd59390b1e005a1c58e1bf63b5b5fd198e254d4df"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "maritime",
+    "subdomain": "vessel_environment_navigation_cargo_operations",
+    "language": "mul"
+  }
+}

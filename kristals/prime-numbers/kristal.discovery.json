@@ -1,0 +1,51 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:prime-numbers",
+  "classification": {
+    "primary_archetype": "ARK-07",
+    "arketype_version": "1.6.0",
+    "organization": "single",
+    "structure_mode": "archetype",
+    "variant_description": "Noyau formel et propriétés/relations de la primalité; procédures de décision.",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "assistant_structural_proposal__not_authority_or_validation",
+    "verification_status": "NOT_EVALUATED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "2.15",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.15",
+          "label_en": "Mathematics and statistics",
+          "domain": "2"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-11"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "formal_invariant_bundle_with_operational_procedures",
+    "organization": "single",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/proof-navigation-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "tiny",
+    "tracked_local_bytes": 79834,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:2d75ec62069481367315d1d23733b50caae8bfa3f24a54f4ef464dbcd2b8bf22",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

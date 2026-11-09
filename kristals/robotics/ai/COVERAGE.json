@@ -1,0 +1,36 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:robotics",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:31e7ed7434833bbd4a15aeb6371dd4571b822f5f607dae6c468733de92ac4d8b"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:robotics",
+    "label": "Kristal-Robotics",
+    "domain": "robotics"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Référentiel des fonctions et relations des systèmes robotiques et de leurs boucles de commande."
+    ],
+    "does_not_own": [
+      "Pilotage effectif d’un robot ou décisions de contrôle en temps réel sans système de contrôle explicite.",
+      "Les dépôts des sources externes, leur publication et leur autorité éditoriale."
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 15,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

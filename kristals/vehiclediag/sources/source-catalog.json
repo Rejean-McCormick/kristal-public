@@ -1,0 +1,255 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "vehiclediag:editorial:semantic-model",
+      "title": "VehiculeDiag — modèle sémantique v2.0",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/semantic_model.json",
+      "role": "technical_specification",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:component-archetypes",
+      "title": "VehiculeDiag — archétypes de composants",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/catalogs/component_archetypes.json",
+      "role": "generic_archetypes",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:system-archetypes",
+      "title": "VehiculeDiag — archétypes de systèmes",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/catalogs/system_archetypes.json",
+      "role": "generic_archetypes",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:measurement-catalog",
+      "title": "VehiculeDiag — catalogue de mesures",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/catalogs/measurement_catalog.json",
+      "role": "measurement_model",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:failure-archetypes",
+      "title": "VehiculeDiag — archétypes de pannes",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/catalogs/failure_archetypes.json",
+      "role": "failure_model",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:symptom-ontology",
+      "title": "VehiculeDiag — ontologie des symptômes",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/catalogs/symptom_ontology.json",
+      "role": "symptom_model",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:dtc-semantics",
+      "title": "VehiculeDiag — sémantique générique des DTC",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/catalogs/dtc_semantics.json",
+      "role": "dtc_model",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:safety-rules",
+      "title": "VehiculeDiag — règles de sécurité génériques",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/catalogs/safety_rules.json",
+      "role": "safety_policy",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:lamp-demo",
+      "title": "VehiculeDiag — circuit illustratif de feux",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/lamp-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:powertrain-demo",
+      "title": "VehiculeDiag — chemin illustratif accélérateur à roue",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/powertrain-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:starter-demo",
+      "title": "VehiculeDiag — système illustratif de démarrage",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/starter-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:charging-demo",
+      "title": "VehiculeDiag — système illustratif de charge",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/charging-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:ignition-demo",
+      "title": "VehiculeDiag — système illustratif d’allumage",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/ignition-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:cooling-demo",
+      "title": "VehiculeDiag — système illustratif de refroidissement",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/cooling-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:can-demo",
+      "title": "VehiculeDiag — réseau CAN illustratif",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/can-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:brake-demo",
+      "title": "VehiculeDiag — freinage hydraulique illustratif",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/brake-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:hvac-blower-demo",
+      "title": "VehiculeDiag — soufflerie HVAC illustrative",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/circuits/hvac_blower-demo.json",
+      "role": "illustrative_topology",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    },
+    {
+      "id": "vehiclediag:editorial:failure-modes",
+      "title": "VehiculeDiag — modes de panne instanciés",
+      "kind": "dataset",
+      "locator": "knowledge-base/sources/failure_modes.json",
+      "role": "illustrative_prior_model",
+      "authority_scope": "editorial_demo",
+      "authoritative_for_real_vehicle": false,
+      "applicability": {
+        "kind": "generic_demo",
+        "real_vehicle": false
+      }
+    }
+  ],
+  "extensions": {
+    "domain_catalog_format": "vehiclediag.source-catalog.v3",
+    "domain_catalog_version": "2.0.1",
+    "future_source_types": [
+      "oem_service_manual",
+      "oem_wiring_diagram",
+      "oem_pinout",
+      "oem_diagnostic_tree",
+      "oem_dtc_detection_criteria",
+      "technical_service_bulletin",
+      "vehicle_measurement",
+      "field_case",
+      "component_datasheet",
+      "fleet_failure_statistics"
+    ]
+  }
+}

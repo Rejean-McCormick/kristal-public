@@ -1,0 +1,94 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_logical_artifact",
+  "artifact_id": "urn:kristal:pi-theory:resource-basis",
+  "logical_contract": {
+    "id": "kristal.repository-resource-set",
+    "version": "1.0"
+  },
+  "payload": {
+    "domain": "pi-theory",
+    "domain_version": "0.2.0",
+    "resource_model": "canonical-json-resource-set",
+    "resources": [
+      {
+        "resource_id": "urn:kristal:pi-theory:resource:portable_epistemic_state",
+        "role": "portable_epistemic_state",
+        "media_type": "application/json",
+        "logical_content": {
+          "profile": "kristal.resource/jcs-sha256-v1",
+          "digest": "sha256:767d2c9e1df41ee20c44d1d4fe175fb19e9652fae4235e08bf67acebcbcd308c"
+        },
+        "legacy_schema_version": "6.0",
+        "legacy_artifact_type": "kristal_state",
+        "legacy_state_id": "sha256:a4f0e6ec011382a4153a2b5a34d98b878753a5dffbbb5d247f435fbaa9d53840",
+        "legacy_content_hash": {
+          "alg": "sha256",
+          "value": "a4f0e6ec011382a4153a2b5a34d98b878753a5dffbbb5d247f435fbaa9d53840"
+        }
+      },
+      {
+        "resource_id": "urn:kristal:pi-theory:resource:identity_registry",
+        "role": "identity_registry",
+        "media_type": "application/json",
+        "logical_content": {
+          "profile": "kristal.resource/jcs-sha256-v1",
+          "digest": "sha256:9f2f85c243b490351f1d150afe4a8fe12560974b211e91b27dd8342f77875212"
+        }
+      },
+      {
+        "resource_id": "urn:kristal:pi-theory:resource:source_catalog",
+        "role": "source_catalog",
+        "media_type": "application/json",
+        "logical_content": {
+          "profile": "kristal.resource/jcs-sha256-v1",
+          "digest": "sha256:cf1aa6299fac24edad017b86cf80c3649ffc8c0303e856a1bcb7687f7a43d90b"
+        }
+      },
+      {
+        "resource_id": "urn:kristal:pi-theory:resource:source_policy",
+        "role": "source_policy",
+        "media_type": "application/json",
+        "logical_content": {
+          "profile": "kristal.resource/jcs-sha256-v1",
+          "digest": "sha256:089a9b934b781f78a6a159bf27dc00a961b0b06f961e6e6b140f29c2fe125242"
+        }
+      },
+      {
+        "resource_id": "urn:kristal:pi-theory:resource:historical_source_lineage",
+        "role": "historical_source_lineage",
+        "media_type": "application/json",
+        "logical_content": {
+          "profile": "kristal.resource/jcs-sha256-v1",
+          "digest": "sha256:4f012f7fe5af089c70dfa0d728c88a29f2a13c302d7d8a1d29b46db8a3baaac7"
+        }
+      },
+      {
+        "resource_id": "urn:kristal:pi-theory:resource:external_source_fingerprint_registry",
+        "role": "external_source_fingerprint_registry",
+        "media_type": "application/json",
+        "logical_content": {
+          "profile": "kristal.resource/jcs-sha256-v1",
+          "digest": "sha256:a75ba89398f6c1c08d2b3c249749de6a1b910e341167ecc3d081f0f5acdf68ee"
+        }
+      }
+    ],
+    "semantic_boundaries": [
+      "READ MODEL != CANONICAL STATE",
+      "INTERPRETATION != MECHANICAL OUTPUT",
+      "RESONANCE != EVIDENCE",
+      "mechanical_to_structural_to_ontological is interpretation_navigation != demonstrated_physical_causality",
+      "ex_post_reproducibility != historical_preregistration",
+      "historical_claim != current_claim"
+    ]
+  },
+  "logical_commitment": {
+    "profile": "kristal.logical/jcs-sha256-v1",
+    "digest": "sha256:0aef1b6a1952b7f89738f3b8a6ffafbf8f07d804ce4cd40d1c1dd892b9e1e9a5"
+  },
+  "scope": {
+    "domain": "pi-theory",
+    "edition": "0.2.0"
+  },
+  "authority_ref": "urn:kristal:authority:pi-theory"
+}

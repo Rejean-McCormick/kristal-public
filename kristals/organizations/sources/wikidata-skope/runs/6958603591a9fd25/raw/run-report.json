@@ -1,0 +1,585 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Organizations",
+  "run_id": "6958603591a9fd25",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:31:25.567548+00:00",
+  "source_labels": {
+    "project": "Kristal-Organizations",
+    "namespace_id": "kristal:bulk:kristal-organizations",
+    "search_labels": 137,
+    "labeled_entities": 137,
+    "labeled_properties": 0,
+    "domain_entities": 137,
+    "domain_properties": 84,
+    "unlabeled": [
+      {
+        "legacy_id": "org:affects",
+        "semantic_id": "KP155407187936580815821134"
+      },
+      {
+        "legacy_id": "org:authorizes",
+        "semantic_id": "KP656079167787563782057059"
+      },
+      {
+        "legacy_id": "org:belongs_to_dimension",
+        "semantic_id": "KP316767289398498559010016"
+      },
+      {
+        "legacy_id": "org:buffers",
+        "semantic_id": "KP160707352514032134764238"
+      },
+      {
+        "legacy_id": "org:can_require",
+        "semantic_id": "KP1203071932041522270986711"
+      },
+      {
+        "legacy_id": "org:changes",
+        "semantic_id": "KP845666219340654441463752"
+      },
+      {
+        "legacy_id": "org:characterizes",
+        "semantic_id": "KP641530087662654152386306"
+      },
+      {
+        "legacy_id": "org:combines",
+        "semantic_id": "KP148672122462406567535387"
+      },
+      {
+        "legacy_id": "org:compares",
+        "semantic_id": "KP1089839072855067068216143"
+      },
+      {
+        "legacy_id": "org:complicates",
+        "semantic_id": "KP671973359806343432875023"
+      },
+      {
+        "legacy_id": "org:concentrates",
+        "semantic_id": "KP261911657875689346310486"
+      },
+      {
+        "legacy_id": "org:concerns",
+        "semantic_id": "KP1040111536756841282690550"
+      },
+      {
+        "legacy_id": "org:constrains",
+        "semantic_id": "KP1006540722231969866633405"
+      },
+      {
+        "legacy_id": "org:contains",
+        "semantic_id": "KP1123337573577374917049954"
+      },
+      {
+        "legacy_id": "org:coordinates",
+        "semantic_id": "KP98464508044004700227927"
+      },
+      {
+        "legacy_id": "org:creates",
+        "semantic_id": "KP1008932571510646215371645"
+      },
+      {
+        "legacy_id": "org:creates_need_for",
+        "semantic_id": "KP1119480512715425612283482"
+      },
+      {
+        "legacy_id": "org:depends_on",
+        "semantic_id": "KP976591631059760693269713"
+      },
+      {
+        "legacy_id": "org:describes",
+        "semantic_id": "KP61268244203725495268744"
+      },
+      {
+        "legacy_id": "org:distributes",
+        "semantic_id": "KP393531500290662586026285"
+      },
+      {
+        "legacy_id": "org:documents",
+        "semantic_id": "KP358798674994291750791447"
+      },
+      {
+        "legacy_id": "org:emphasizes",
+        "semantic_id": "KP255358261892445883559342"
+      },
+      {
+        "legacy_id": "org:enables",
+        "semantic_id": "KP212861900608679365976893"
+      },
+      {
+        "legacy_id": "org:evaluates",
+        "semantic_id": "KP759983379347830934872160"
+      },
+      {
+        "legacy_id": "org:executes",
+        "semantic_id": "KP616128363525791571087645"
+      },
+      {
+        "legacy_id": "org:feeds_back_to",
+        "semantic_id": "KP307211222235628833606156"
+      },
+      {
+        "legacy_id": "org:groups",
+        "semantic_id": "KP982116628346268223120713"
+      },
+      {
+        "legacy_id": "org:guides",
+        "semantic_id": "KP1180799148737825494397104"
+      },
+      {
+        "legacy_id": "org:has_core_dimension",
+        "semantic_id": "KP715762677985389017828767"
+      },
+      {
+        "legacy_id": "org:has_property",
+        "semantic_id": "KP373732090025741750966637"
+      },
+      {
+        "legacy_id": "org:holds",
+        "semantic_id": "KP420579904194475976168448"
+      },
+      {
+        "legacy_id": "org:increases_with",
+        "semantic_id": "KP731562000348718811230614"
+      },
+      {
+        "legacy_id": "org:influences",
+        "semantic_id": "KP64296686908295431531041"
+      },
+      {
+        "legacy_id": "org:informs",
+        "semantic_id": "KP127694663320878296432852"
+      },
+      {
+        "legacy_id": "org:instantiates",
+        "semantic_id": "KP363130478672168052544484"
+      },
+      {
+        "legacy_id": "org:is_a",
+        "semantic_id": "KP840608611602534483742347"
+      },
+      {
+        "legacy_id": "org:is_a_response_to",
+        "semantic_id": "KP115519532049879959945681"
+      },
+      {
+        "legacy_id": "org:is_accountable_for",
+        "semantic_id": "KP6212001325632106634821"
+      },
+      {
+        "legacy_id": "org:is_assigned_to",
+        "semantic_id": "KP425268889773388939229542"
+      },
+      {
+        "legacy_id": "org:is_evaluated_by",
+        "semantic_id": "KP821530600210532095027718"
+      },
+      {
+        "legacy_id": "org:is_grouped_into",
+        "semantic_id": "KP506669649228913216131470"
+      },
+      {
+        "legacy_id": "org:is_mode_of",
+        "semantic_id": "KP748735906664403624759344"
+      },
+      {
+        "legacy_id": "org:is_operationalized_by",
+        "semantic_id": "KP399704229051361608848948"
+      },
+      {
+        "legacy_id": "org:is_used_by",
+        "semantic_id": "KP1008327788841570741611617"
+      },
+      {
+        "legacy_id": "org:limits",
+        "semantic_id": "KP859232310288217678026184"
+      },
+      {
+        "legacy_id": "org:links",
+        "semantic_id": "KP801163868650686361473881"
+      },
+      {
+        "legacy_id": "org:manages",
+        "semantic_id": "KP1160701779125621167893626"
+      },
+      {
+        "legacy_id": "org:may_create_need_for",
+        "semantic_id": "KP1101651214200437624848677"
+      },
+      {
+        "legacy_id": "org:may_follow",
+        "semantic_id": "KP796838369915198369345944"
+      },
+      {
+        "legacy_id": "org:may_have",
+        "semantic_id": "KP839877696658480540617779"
+      },
+      {
+        "legacy_id": "org:may_hold",
+        "semantic_id": "KP1134144871544042550804485"
+      },
+      {
+        "legacy_id": "org:may_include",
+        "semantic_id": "KP411680367109509933771055"
+      },
+      {
+        "legacy_id": "org:may_increase",
+        "semantic_id": "KP796820638022696438464312"
+      },
+      {
+        "legacy_id": "org:may_influence",
+        "semantic_id": "KP417720335813213747380207"
+      },
+      {
+        "legacy_id": "org:may_realize",
+        "semantic_id": "KP1017009514075435834535830"
+      },
+      {
+        "legacy_id": "org:may_require",
+        "semantic_id": "KP194925387689525644202347"
+      },
+      {
+        "legacy_id": "org:may_trigger",
+        "semantic_id": "KP226721705666819891677093"
+      },
+      {
+        "legacy_id": "org:measures",
+        "semantic_id": "KP658949682184126261812253"
+      },
+      {
+        "legacy_id": "org:moderates",
+        "semantic_id": "KP1039302344313179002418741"
+      },
+      {
+        "legacy_id": "org:modifies",
+        "semantic_id": "KP544270306343656338759570"
+      },
+      {
+        "legacy_id": "org:occurs_between",
+        "semantic_id": "KP187971631838598048943284"
+      },
+      {
+        "legacy_id": "org:orders",
+        "semantic_id": "KP956645397907597211110801"
+      },
+      {
+        "legacy_id": "org:organizes",
+        "semantic_id": "KP44763316660276315185852"
+      },
+      {
+        "legacy_id": "org:orients",
+        "semantic_id": "KP840352561693799561363168"
+      },
+      {
+        "legacy_id": "org:partitions",
+        "semantic_id": "KP698436207525483717518230"
+      },
+      {
+        "legacy_id": "org:performs",
+        "semantic_id": "KP162569925099638092636116"
+      },
+      {
+        "legacy_id": "org:produces",
+        "semantic_id": "KP286194819403759271121209"
+      },
+      {
+        "legacy_id": "org:qualifies",
+        "semantic_id": "KP494399677545448922201477"
+      },
+      {
+        "legacy_id": "org:relates",
+        "semantic_id": "KP928629772810551736056282"
+      },
+      {
+        "legacy_id": "org:relates_to",
+        "semantic_id": "KP676593718183025807264722"
+      },
+      {
+        "legacy_id": "org:reports_on",
+        "semantic_id": "KP647939100027460102731210"
+      },
+      {
+        "legacy_id": "org:requires",
+        "semantic_id": "KP157873804264500421406580"
+      },
+      {
+        "legacy_id": "org:responds_to",
+        "semantic_id": "KP347462755749803765002906"
+      },
+      {
+        "legacy_id": "org:selects",
+        "semantic_id": "KP415232122081132929812487"
+      },
+      {
+        "legacy_id": "org:selects_among",
+        "semantic_id": "KP112824691093347149738067"
+      },
+      {
+        "legacy_id": "org:separates",
+        "semantic_id": "KP215224274804682553772193"
+      },
+      {
+        "legacy_id": "org:shapes",
+        "semantic_id": "KP303586517499334737482575"
+      },
+      {
+        "legacy_id": "org:specifies",
+        "semantic_id": "KP328134355219432118810248"
+      },
+      {
+        "legacy_id": "org:stabilizes",
+        "semantic_id": "KP710576339131302303614761"
+      },
+      {
+        "legacy_id": "org:supports",
+        "semantic_id": "KP1157043062389944740527214"
+      },
+      {
+        "legacy_id": "org:transfers",
+        "semantic_id": "KP722047388769473492951220"
+      },
+      {
+        "legacy_id": "org:transforms",
+        "semantic_id": "KP364842809896618842277412"
+      },
+      {
+        "legacy_id": "org:transmits",
+        "semantic_id": "KP1080833759823404295765996"
+      },
+      {
+        "legacy_id": "org:uses",
+        "semantic_id": "KP651281168547478085912314"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "5ff5e9ff83d37ea237f16941f148617ebc30c75816d4cd1327aeea94cd96f62e",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Organizations",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "organizations",
+        "subdomain": "general-organization-theory",
+        "language": "fr"
+      },
+      "native_model": {
+        "kind": "feedback_organizational_process_graph",
+        "description": "Graphe de coordination finalisée avec rôles, unités, décisions, processus, résultats et boucles de rétroaction.",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "structures et types d'organisations",
+        "organisations réelles ciblées",
+        "Respecter: Ne pas fusionner rôle, institution, service et résultat."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Rôles, unités, processus, décisions, ressources et résultats reliés par rétroaction.",
+        "guardrail": "Rôles/autorité documentés ≠ délégation en vigueur; aucune action organisationnelle implicite."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.72,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Organizations\\6958603591a9fd25",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "199ca8d259030c8fd7745bd02c010f268cf6fd63f6d3ae3d8b73665782e8c071",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 137,
+    "distinct_concepts": 137,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "199ca8d259030c8fd7745bd02c010f268cf6fd63f6d3ae3d8b73665782e8c071",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 137,
+    "distinct_concepts": 137,
+    "cached_queries": 136,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "no_exact_candidate": 58,
+      "ambiguous_exact_candidates": 51,
+      "saturated_exact_search": 13,
+      "unique_exact_candidate": 15
+    },
+    "tentative_unverified": 15,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "199ca8d259030c8fd7745bd02c010f268cf6fd63f6d3ae3d8b73665782e8c071",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 15,
+    "distinct_qids": 15,
+    "qid_inventory_sha256": "a23929f27248decbdfea4f7113b22ef0104bf5ee68b161d3c60d41793aa29f74",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 15,
+    "qids_acquired": 15,
+    "new_batches": 1,
+    "reused_records": 1,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Organizations\\6958603591a9fd25\\full-evidence\\a23929f27248decb",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 15,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 454,
+    "raw_subject_entities": 15,
+    "related_unapproved_qids": 101,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-organizations": 454
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "94482177d9f87fc47da3e9415bba64a74c7ef7f9d2102a082bf21a08d3c7c878",
+  "proposals_sha256": "ca34d30661c645e5f6a73a05b4aec83f1b40b59b138076ab71ffe214e61ed0c8"
+}

@@ -1,0 +1,162 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:textiles",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:c0435fd0259ff4ef21c92a7f92a6e64afae8ec1fed3dcde12e66f2ca8a44f095"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:textiles:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      },
+      "authority_ref": "urn:kristal:authority:textiles",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:e9934a06bcd24c36e1dc5c6457e5a5e543875aa2c8fee8707d0bdd91eba184a6"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:textiles:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2601300dc98174f70fcd1b535fe5b242e8c4ef3ab5f65970f2d1bf4fdaaf38db"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:textiles:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2bc94e091c10c0bfe889a330e9400f11b9034592a537953abcb2e2df97592636"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:textiles:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6c78621a0fe8cb8d1e2a31ef70fb4ab2c8b4f6f6f76cce093ac9c8e45be298d2"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:textiles:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c71e5336f859dd21dbef0c15e4de9d57e3f371c5341b11c64a1e099b614ebab9"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Textiles:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f9fd74ccafe841864a3c201596c4f1606e444f9bb673cdf1ac9da1bcf59d6e5d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Textiles:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c8980aea3299e8362afb02def3169043f7b8f74fbba8f0f3749913ecf9c8078c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Textiles:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c5e0a647260cf8dd54ac784365386335efc415c4cf84920da57d7c5cf805d90e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Textiles:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:52cbae055c24cbd005eebe0b24fcc40e729234604398d2c7695fcc766494c610"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Textiles:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:60b8117e4455789a763fb468432cbcc3bddce6029acb8867e34bda6c6ba21ed7"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Textiles:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fdcd5cd80dc9888ce17fdc5892d23399107bc55f1b2565882c143bff4a93ddca"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Textiles:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c5e0a647260cf8dd54ac784365386335efc415c4cf84920da57d7c5cf805d90e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Textiles:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b5d59036cc841374aae4648199facc136022588a45f322ef7a3d4a1285ce1424"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "kristal_ref": "Kristal-Textiles",
+    "domain": "textiles"
+  },
+  "authority_ref": "urn:kristal:authority:textiles"
+}

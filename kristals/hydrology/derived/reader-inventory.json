@@ -1,0 +1,354 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:hydrology",
+  "source_fingerprint": "sha256:7e225c4c6b79359776dffa9e40e6c809588821590a227d750c1aa224a77536d9",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 5601780,
+    "tracked_file_count": 36,
+    "max_tracked_file_bytes": 798489,
+    "materialization_segment_count": 5,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 14,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1836,
+      "sha256": "sha256:ce63fe395d612dff1cb8808899e0f1eebc61f5a11d354d0fda65fb2d0849ed34"
+    },
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1065,
+      "sha256": "sha256:daa116a09689ef8b767e746165e38a7dc8931ea8572eb7556b270e340221a41b"
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 3136,
+      "sha256": "sha256:ae6b92b4a1f53edf14ad8ed49a1e49a92b9e56fb3e17d8c023a0bd7dd0f33327"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-hydrology-resource-basis-9387c4368b.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2930,
+      "sha256": "sha256:1b43a13cce3edb5c5fe372d99bad26151ea63a0d321a70e97804a265b79954ff"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-hydrology-semantic-state-3cac084773.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1836,
+      "sha256": "sha256:0726ecdc615c1879af5c94793291e0d4dd14539629cca95f2610396e525dea34"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-hydrology-v11-catalog-2026-10-27-eabbafe993.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1364,
+      "sha256": "sha256:e1b2feae064ab6539ff4deeb8b4a4a23812b8f5630f7a0c6161100e2c6d4d85c"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-hydrology-v11-crosswalk-2026-10-27-b7d0de72c8.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 10182,
+      "sha256": "sha256:e7eb6c5c7ccbbb0b446426df8f7132994a41330b3ae4c31b6f960e942dcc1f81"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-hydrology-v11-graph-2026-10-27-939a0f52b7.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 774026,
+      "sha256": "sha256:2b75955244e6f3e516cbadbe1fdb29915099b0240526696f3a4e1a34466c486e"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-state-hydrology-v11-identity-2026-10-27-981b48ae6e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 75004,
+      "sha256": "sha256:3ebf9b7645014955fc50197a1df61b330623323fd404c2e72c503abfb9735b76"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Hydrology-catalog-4e02237943.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1934,
+      "sha256": "sha256:d672852b8ae3676bf9657aecb0dad20e0c454659c823c58b2b73bba763fa4574"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Hydrology-crosswalk-23d438acd6.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 10194,
+      "sha256": "sha256:c150927af192919afc44a0675a60121c6678d749c2d8f366ae5f63f723487c8d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Hydrology-graph-4c360d7d2c.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 796738,
+      "sha256": "sha256:1b0ac425d70fd39abbbf8b88aded499c06d82dafa1e1e8c093f169f644d70c90"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Hydrology-registry-96f32c8ca9.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 88017,
+      "sha256": "sha256:c2d306db9e20c68b550485650af101002b30cadca71423da0703da3f10fb044f"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Hydrology-catalog-caac12ab74.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2488,
+      "sha256": "sha256:de2a65a94f9980489e7185d4ad25f5eb650f8e1961d68ea986edc1b96eb55de1"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Hydrology-crosswalk-2ff8b091dd.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 10194,
+      "sha256": "sha256:ff10f2c6b6ecab2346c48a82c9bc6c98f7ec6f0360b459183d62a55e29d0ac2d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Hydrology-graph-2a0d6006fc.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 798489,
+      "sha256": "sha256:a086834ed54570e96eb51c3836cd64063fe7ee9c6c612afa95d71af8e6d11eda"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Hydrology-registry-d453795551.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 88952,
+      "sha256": "sha256:00a5a251a048109d5d1b8e91b787abb64c9d02393201a2979133c6765418a9e4"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 5854,
+      "sha256": "sha256:071fe36a46385bff5fb14e7f5f22468d460b91adb6dc20f895d628a56389df1a"
+    },
+    {
+      "path": "canon/domain/domain-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 808,
+      "sha256": "sha256:5351059ca7a5164440aeb8f9e520546697c7ffb6c4a11e13e8102ede6e02143a"
+    },
+    {
+      "path": "canon/domain/resource-basis.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2278,
+      "sha256": "sha256:7305f74f8a4ef2af763ebce220a0c13d65858b3118aa81096d6bfbe356236f55"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1419,
+      "sha256": "sha256:7cfe84f13252bbfcf875c417550623bc85ef62b914cdeeaaf6dde741bd21af78"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 9109,
+      "sha256": "sha256:1d4f4572e5f29b19835e36ceb27e8c0f318761e2431fe3496e330104a8cbbf37"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 80032,
+      "sha256": "sha256:e1dae1aaff7da363e3a5ac1aa9c98d135699e392f0ee530e6971d955e0b8f219"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 742349,
+      "sha256": "sha256:bfa7ce530891a18d372ce24ba5126a72686f641866f059ae7a82ef3053616598"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1945,
+      "sha256": "sha256:7820bd590419f8d4feab999bcc1bdc7ddc203a43b7ee84416cf0a89f0a5f7167"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 9109,
+      "sha256": "sha256:1d4f4572e5f29b19835e36ceb27e8c0f318761e2431fe3496e330104a8cbbf37"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 80887,
+      "sha256": "sha256:d8e12cbf5483b10f2917e411bae566380d155fab12d0fc9381341b8a400b5f2f"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 743976,
+      "sha256": "sha256:cf894eb5214e498a0713679609eb3f24a23629de7d6cee450113dc7bbee1ec60"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 874,
+      "sha256": "sha256:d208f04de8dbcc70868607951b805586f8d4ac1eed7da04bef53e065c3725e1e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 9094,
+      "sha256": "sha256:6586dd01451c939e1e2487499256c6bb186fe6890ef8c257856ba09641cebfb2"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 68116,
+      "sha256": "sha256:2808791a40110b5d98737061e682456aedf40a237bf94c720c2e14359670c4e1"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 721124,
+      "sha256": "sha256:f88387e6b473ff4ee1a753f3c2a18ea9e07320ff047a85bd1cbf2ee7a05d7ac8"
+    },
+    {
+      "path": "knowledge-base/corpus/hydrologic-stock-flow-graph.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 91242,
+      "sha256": "sha256:e214da9753862c86ca572781d046c3c4f1e319f9fcccac873bcb55a242cfd42c"
+    },
+    {
+      "path": "knowledge-base/corpus/hydrology.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 319230,
+      "sha256": "sha256:000f4a21c59280e66a634fd623113a39119ed4e795a2c95c7810b6e2d68efa17"
+    },
+    {
+      "path": "knowledge-base/corpus/referents.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 36848,
+      "sha256": "sha256:9bb4db195f5ed04c1839cb4b97ac236103c856409a21c5e009240f3d8a75bd15"
+    },
+    {
+      "path": "knowledge-base/sources/source-catalog.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 9101,
+      "sha256": "sha256:9346299bcfed5f1a513ee7b84987f16e57d9918171585f42f3f189d2bdc0c14e"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/domain-state.materialization.json",
+      "segment_key": "all",
+      "record_count_declared": 1,
+      "media_type": "application/json",
+      "size_bytes_declared": 1836,
+      "digest_declared": "sha256:ce63fe395d612dff1cb8808899e0f1eebc61f5a11d354d0fda65fb2d0849ed34",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hydrology:resource:portable_epistemic_state",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 319230,
+      "digest_declared": "sha256:000f4a21c59280e66a634fd623113a39119ed4e795a2c95c7810b6e2d68efa17",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/hydrology.kristal-state.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hydrology:resource:identity_registry",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 36848,
+      "digest_declared": "sha256:9bb4db195f5ed04c1839cb4b97ac236103c856409a21c5e009240f3d8a75bd15",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/referents.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hydrology:resource:domain_native_stock_flow_graph",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 91242,
+      "digest_declared": "sha256:e214da9753862c86ca572781d046c3c4f1e319f9fcccac873bcb55a242cfd42c",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/hydrologic-stock-flow-graph.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hydrology:resource:source_catalog",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 9101,
+      "digest_declared": "sha256:9346299bcfed5f1a513ee7b84987f16e57d9918171585f42f3f189d2bdc0c14e",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/source-catalog.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    }
+  ]
+}

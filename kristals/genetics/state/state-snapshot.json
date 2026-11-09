@@ -1,0 +1,162 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:genetics",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:81a00981fa7b9a052eee76a6a2ff71b6ecbb60443aea8d245d75e1cbbe7919d2"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:genetics:canonical",
+      "logical_contract": {
+        "id": "kristal.v6-state-reference",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:genetics",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c116269ca3c320d52354250e16933c824066b991e9c245bf3aec46918749a672"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:genetics:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:23a006167d342b7c74869700066a7692b00197b1d19dd63bf447ef3381dba35b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:genetics:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2aae76f95f2b9bc70148c4ceb40e14ad9440c9b1e303dc7562e67a8c4dfa2df2"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:genetics:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6a55bfc4745356c12019f993baa0682cebf08e1ebf28e08f9f89a172a74c678d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:genetics:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:16ff50e9b3cd556b1378eea5bb03745d35bd9d200666fb2ac397ec134a7a087f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Genetics:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:04ecec1e818da76619ad037f408c40ab1f70f3acfbf75508e2c94ed8c63e977f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Genetics:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2c9898ba9faeb39aa621ccef3798bb2b42eb1f0352e7a0accddc236a43e34ad0"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Genetics:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2787ea82abc685b34d8800c1238a43809192593b51b674bc707c2f5602958b74"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Genetics:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f264f13a91ceb3c1ce69093398b9f9d623a000527bad77a295342dfecb873a9d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Genetics:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:5c83158f4736c406a41294403557b22e21fb33235df4ae198b8371279ffc2788"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Genetics:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8d254d5e77e7df6ae88925052f6ba8b5c3d59abc4b8aef93954cf00b1993d587"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Genetics:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2787ea82abc685b34d8800c1238a43809192593b51b674bc707c2f5602958b74"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Genetics:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8cbe571ebf46194dcada07d1bf7627cec10a016622d8fde2155525d619840c24"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "genetics",
+    "composition": "canonical-only"
+  },
+  "authority_ref": "urn:kristal:authority:genetics"
+}

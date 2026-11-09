@@ -1,0 +1,4594 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "working",
+  "created_at": "2026-10-02T16:36:00-04:00",
+  "applicability": {
+    "domain": "mécanismes légaux du pouvoir public",
+    "subdomain": "Canada et Québec",
+    "jurisdiction": "Canada / Québec",
+    "language": "fr",
+    "time_window": {
+      "as_of": "2026-10-02"
+    }
+  },
+  "source_refs": [
+    {
+      "source_id": "SRC-CONST",
+      "title": "Lois constitutionnelles de 1867 à 1982",
+      "url": "https://laws-lois.justice.gc.ca/fra/const/TexteComplet.html"
+    },
+    {
+      "source_id": "SRC-HOC-SYSTEM",
+      "title": "Le système parlementaire canadien / Parliamentary Institutions",
+      "url": "https://www.ourcommons.ca/procedure/procedure-and-practice-4/ch01-3-e.html"
+    },
+    {
+      "source_id": "SRC-HOC-CONFIDENCE",
+      "title": "La convention de confiance",
+      "url": "https://www.ourcommons.ca/Procedure/procedure-and-practice-4/ch02-4-f.html"
+    },
+    {
+      "source_id": "SRC-HOC-LEG",
+      "title": "Le processus législatif",
+      "url": "https://www.ourcommons.ca/Procedure/procedure-and-practice-4/ch16-1-f.html"
+    },
+    {
+      "source_id": "SRC-SENATE-LEG",
+      "title": "How Senate bills become law",
+      "url": "https://sencanada.ca/en/sencaplus/how-why/how-senate-bills-become-law/"
+    },
+    {
+      "source_id": "SRC-GG",
+      "title": "Responsabilités constitutionnelles de la gouverneure générale",
+      "url": "https://www.gg.ca/fr/node/82"
+    },
+    {
+      "source_id": "SRC-PCO-DM",
+      "title": "Guidance for Deputy Ministers",
+      "url": "https://www.canada.ca/en/privy-council/services/publications/guidance-deputy-ministers.html"
+    },
+    {
+      "source_id": "SRC-SIA",
+      "title": "Loi sur les textes réglementaires",
+      "url": "https://laws-lois.justice.gc.ca/fra/lois/S-22/TexteComplet.html"
+    },
+    {
+      "source_id": "SRC-DPP-FED",
+      "title": "Loi sur le directeur des poursuites pénales",
+      "url": "https://laws-lois.justice.gc.ca/fra/lois/D-2.5/TexteComplet.html"
+    },
+    {
+      "source_id": "SRC-FCA",
+      "title": "Loi sur les Cours fédérales",
+      "url": "https://laws-lois.justice.gc.ca/fra/lois/F-7/TexteComplet.html"
+    },
+    {
+      "source_id": "SRC-SCC-SECESSION",
+      "title": "Renvoi relatif à la sécession du Québec, [1998] 2 RCS 217",
+      "url": "https://scc-csc.lexum.com/scc-csc/scc-csc/fr/item/1643/index.do"
+    },
+    {
+      "source_id": "SRC-SCC-MOLONEY",
+      "title": "Alberta (Procureur général) c. Moloney, 2015 CSC 51",
+      "url": "https://scc-csc.lexum.com/scc-csc/scc-csc/fr/item/15622/index.do"
+    },
+    {
+      "source_id": "SRC-QC-AN-ACT",
+      "title": "Loi sur l’Assemblée nationale",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-23.1"
+    },
+    {
+      "source_id": "SRC-QC-MNA",
+      "title": "La fonction de député",
+      "url": "https://www.assnat.qc.ca/fr/abc-assemblee/fonction-depute/index.html"
+    },
+    {
+      "source_id": "SRC-QC-EXEC",
+      "title": "Loi sur l’exécutif",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/ShowDoc/cs/E-18"
+    },
+    {
+      "source_id": "SRC-QC-MCE",
+      "title": "Mission et mandats du ministère du Conseil exécutif",
+      "url": "https://www.quebec.ca/gouvernement/ministeres-organismes/conseil-executif/mission-services/mission-mandats"
+    },
+    {
+      "source_id": "SRC-QC-ADMIN",
+      "title": "Loi sur l’administration publique",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/A-6.01"
+    },
+    {
+      "source_id": "SRC-QC-DPCP",
+      "title": "Loi sur le Directeur des poursuites criminelles et pénales",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/ShowDoc/cs/D-9.1.1"
+    },
+    {
+      "source_id": "SRC-QC-CPC",
+      "title": "Code de procédure civile — contrôle judiciaire",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-25.01"
+    },
+    {
+      "source_id": "SRC-QC-CHARTER",
+      "title": "Charte des droits et libertés de la personne",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-12"
+    },
+    {
+      "source_id": "SRC-QC-MUNI",
+      "title": "Loi sur les compétences municipales",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-47.1"
+    },
+    {
+      "source_id": "SRC-QC-CITIES",
+      "title": "Loi sur les cités et villes",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-19"
+    },
+    {
+      "source_id": "SRC-QC-MUNI-ROLE",
+      "title": "Rôles des élus municipaux",
+      "url": "https://www.quebec.ca/gouvernement/gestion-municipale/organisation-municipale/democratie-municipale/conseil-municipal-elus-municipaux/role-elus-municipaux"
+    },
+    {
+      "source_id": "SRC-QC-MRC",
+      "title": "Palier supralocal du régime municipal",
+      "url": "https://www.quebec.ca/gouvernement/gestion-municipale/organisation-municipale/organisation-territoriale/regime-municipal/palier-supralocal"
+    },
+    {
+      "source_id": "SRC-QC-EDU",
+      "title": "Loi sur l’instruction publique",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/document/lc/I-13.3"
+    },
+    {
+      "source_id": "SRC-QC-SCHOOL-GOV",
+      "title": "Gouvernance scolaire",
+      "url": "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/administration-encadrements/gouvernance-scolaire/gouvernance-scolaire"
+    },
+    {
+      "source_id": "SRC-QC-SCHOOL-ELECT",
+      "title": "Élections scolaires",
+      "url": "https://www.quebec.ca/education/prescolaire-primaire-et-secondaire/administration-encadrements/gouvernance-scolaire/elections-scolaires"
+    },
+    {
+      "source_id": "SRC-SCC-41838",
+      "title": "Dossier 41838 — Procureur général du Québec c. Association des commissions scolaires anglophones du Québec",
+      "url": "https://www.scc-csc.ca/fr/cases-dossiers/search-recherche/41838/"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "CAQC-001",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-canada"
+        },
+        "predicate": "norm.is_supreme",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution du Canada est la loi suprême; toute règle de droit incompatible est inopérante dans la mesure de l’incompatibilité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "suprematie_normative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-002",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:federalism"
+        },
+        "predicate": "principle.states",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Canada est une fédération : le Parlement fédéral et les législatures provinciales possèdent des compétences constitutionnelles distinctes; une province n’est pas une administration subordonnée au gouvernement fédéral dans ses champs de compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada + Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada + Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "partage_competences"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST",
+        "SRC-HOC-SYSTEM",
+        "SRC-SCC-SECESSION"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-003",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-canada"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement du Canada comprend la Couronne, le Sénat et la Chambre des communes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST",
+        "SRC-HOC-SYSTEM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-004",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parlement-canada"
+        },
+        "predicate": "institution.domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Parlement peut légiférer dans les matières attribuées au fédéral, notamment celles de l’article 91 et les autres pouvoirs constitutionnels fédéraux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-005",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:legislature-quebec"
+        },
+        "predicate": "institution.domain",
+        "object": {
+          "kind": "proposition",
+          "value": "La législature du Québec peut légiférer dans les matières attribuées aux provinces, notamment celles de l’article 92, ainsi que dans les autres pouvoirs constitutionnels provinciaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-006",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:paramountcy"
+        },
+        "predicate": "principle.applies_when",
+        "object": {
+          "kind": "proposition",
+          "value": "La prépondérance fédérale ne s’applique pas parce qu’une loi est simplement fédérale : elle intervient lorsque des lois valides entrent en conflit selon les tests reconnus, notamment impossibilité de respecter les deux ou entrave à l’objet fédéral.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada + Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada + Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "conflit_normatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-SCC-MOLONEY"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-007",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:charter-canada"
+        },
+        "predicate": "norm.applies_to_government",
+        "object": {
+          "kind": "proposition",
+          "value": "La Charte canadienne s’applique au Parlement et au gouvernement du Canada ainsi qu’à la législature et au gouvernement de chaque province dans leurs sphères d’autorité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada + Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada + Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-008",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:charter-section33"
+        },
+        "predicate": "norm.limited_override",
+        "object": {
+          "kind": "proposition",
+          "value": "La dérogation de l’article 33 ne vise que l’article 2 et les articles 7 à 15 de la Charte; elle est limitée à cinq ans sauf réadoption.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada + Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada + Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "derogation_limitee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-009",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:section35"
+        },
+        "predicate": "norm.recognizes",
+        "object": {
+          "kind": "proposition",
+          "value": "Les droits existants ancestraux ou issus de traités des peuples autochtones du Canada sont reconnus et confirmés par l’article 35 de la Loi constitutionnelle de 1982.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada + Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "autochtone"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada + Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "protection_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-010",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour"
+        },
+        "predicate": "institution.can_grant_charter_remedy",
+        "object": {
+          "kind": "proposition",
+          "value": "Un tribunal compétent peut accorder une réparation convenable et juste lorsqu’un droit garanti par la Charte canadienne a été violé ou nié.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada + Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada + Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reparation_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-011",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:house-commons"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La Chambre des communes est la chambre élue; la confiance envers le gouvernement y est testée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "confiance"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-SYSTEM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-012",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senate"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Sénat participe au pouvoir législatif : un projet de loi doit normalement être adopté sous une forme identique par les deux chambres avant la sanction royale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-LEG",
+        "SRC-SENATE-LEG"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-013",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:senate"
+        },
+        "predicate": "institution.limit_money_bills",
+        "object": {
+          "kind": "proposition",
+          "value": "Les projets de loi portant affectation de deniers publics ou imposition doivent prendre naissance à la Chambre des communes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_initiative_financiere"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-SYSTEM",
+        "SRC-SENATE-LEG"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-014",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:mp"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Un député fédéral peut débattre, voter, participer aux comités et, sous les règles applicables, présenter des affaires émanant des députés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "participation_parlementaire"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": true
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-SYSTEM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-015",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:mp"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le seul statut de député ne confère pas un pouvoir général d’ordonner à un ministère, à un tribunal ou à un poursuivant de décider un dossier particulier.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "commande_executive_generale"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-SYSTEM",
+        "SRC-PCO-DM",
+        "SRC-DPP-FED"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-016",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:senator"
+        },
+        "predicate": "actor.can",
+        "object": {
+          "kind": "proposition",
+          "value": "Un sénateur peut débattre, voter, étudier et amender des projets de loi et peut présenter certains projets de loi, sous réserve des règles constitutionnelles sur les mesures financières.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "participation_parlementaire"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": true
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-SENATE-LEG"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-017",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:party-leader"
+        },
+        "predicate": "actor.not_public_power_by_title",
+        "object": {
+          "kind": "proposition",
+          "value": "Le titre de chef d’un parti politique n’accorde pas, à lui seul, une compétence juridique générale sur l’État; les pouvoirs publics découlent des charges constitutionnelles ou légales effectivement occupées.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "politique"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "distinction_parti_etat"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-SYSTEM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-018",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:prime-minister-canada"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le premier ministre dirige le gouvernement et le Cabinet dans le système de gouvernement responsable; le gouvernement doit conserver la confiance de la Chambre des communes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_politique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-CONFIDENCE",
+        "SRC-HOC-SYSTEM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-019",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-canada"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet établit et coordonne les orientations gouvernementales; ses ministres sont individuellement et collectivement responsables devant le Parlement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "orientation_gouvernementale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-SYSTEM",
+        "SRC-PCO-DM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-020",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:prime-minister-canada"
+        },
+        "predicate": "actor.cannot_legislate_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le premier ministre ne peut pas adopter seul une loi du Parlement; l’adoption exige le processus législatif prévu, incluant les deux chambres et la sanction royale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer_seul"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-HOC-LEG",
+        "SRC-GG"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-021",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:minister-federal"
+        },
+        "predicate": "actor.power_source",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre fédéral exerce les pouvoirs que la Constitution, une loi, la prérogative ou une délégation lui attribuent; le titre ministériel n’est pas une habilitation générale illimitée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_statutaire_ou_prerogatif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-PCO-DM",
+        "SRC-SIA"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-022",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:minister-federal"
+        },
+        "predicate": "actor.accountability",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre est politiquement responsable devant le Parlement de son portefeuille, mais cette responsabilité ne signifie pas qu’il peut remplacer une autorité indépendante dans l’exercice d’un pouvoir que la loi attribue directement à cette autorité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "responsabilite_vs_competence"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-PCO-DM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-023",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:deputy-minister-federal"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le sous-ministre est le principal haut fonctionnaire du ministre; il administre le ministère et peut exercer des pouvoirs attribués directement par la loi ou délégués, sans devenir pour autant un titulaire de responsabilité politique devant la Chambre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration_et_delegation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-PCO-DM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-024",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:ministerial-staff-federal"
+        },
+        "predicate": "actor.cannot_direct_public_servants",
+        "object": {
+          "kind": "proposition",
+          "value": "Le personnel politique exonéré d’un ministre n’a pas, du seul fait de son emploi, l’autorité de donner des ordres aux fonctionnaires; les instructions du ministre passent normalement par les voies administratives appropriées.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "commande_administrative"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-PCO-DM"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-025",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:regulation-making-authority-federal"
+        },
+        "predicate": "actor.may_regulate_if_authorized",
+        "object": {
+          "kind": "proposition",
+          "value": "Un règlement fédéral doit reposer sur une autorité légale applicable; l’exécutif ne possède pas un pouvoir réglementaire général indépendant du cadre juridique.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementer_sous_habilitation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-SIA"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-026",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:governor-general"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La gouverneure générale exerce les fonctions de la Couronne au Canada, notamment la sanction royale, la convocation, la prorogation et la dissolution du Parlement, habituellement sur avis conforme au gouvernement responsable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "couronne"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "fonctions_constitutionnelles"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-GG"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-027",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:governor-general"
+        },
+        "predicate": "actor.has_reserve_discretion",
+        "object": {
+          "kind": "proposition",
+          "value": "Certaines fonctions comportent une discrétion constitutionnelle résiduelle; elles ne constituent pas une autorité politique ordinaire concurrente du gouvernement élu.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "couronne"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoirs_reserve"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-GG"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-028",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:attorney-general-canada"
+        },
+        "predicate": "actor.directive_constraint",
+        "object": {
+          "kind": "proposition",
+          "value": "Une directive du procureur général du Canada au directeur des poursuites pénales concernant une poursuite particulière doit être écrite et publiée à la Gazette du Canada.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "directive_encadree"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-DPP-FED"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-029",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:politician-federal"
+        },
+        "predicate": "actor.cannot_determine_guilt",
+        "object": {
+          "kind": "proposition",
+          "value": "Un élu ou ministre ne décide pas, du seul fait de sa charge politique, de la culpabilité criminelle ni de la peine : ces décisions appartiennent aux tribunaux compétents.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "juger_culpabilite"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST",
+        "SRC-FCA"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-030",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:federal-court"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour fédérale possède les pouvoirs de contrôle judiciaire que lui confère la Loi sur les Cours fédérales à l’égard des offices fédéraux relevant de sa compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-FCA"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-031",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principle:judicial-independence"
+        },
+        "predicate": "principle.structural",
+        "object": {
+          "kind": "proposition",
+          "value": "La nomination des juges des cours supérieures provinciales relève du gouverneur général selon l’article 96, tandis que les provinces organisent l’administration de la justice dans leur compétence; cette architecture sépare des fonctions fédérales et provinciales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Canada + Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Canada + Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "architecture_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-032",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:parliament-quebec"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Assemblée nationale et le lieutenant-gouverneur constituent le Parlement du Québec; le Parlement exerce le pouvoir législatif.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-AN-ACT"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-033",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:national-assembly"
+        },
+        "predicate": "institution.oversight",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Assemblée nationale a un pouvoir de surveillance sur les actes du gouvernement, de ses ministères et de ses organismes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "surveillance_parlementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-AN-ACT"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-034",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:mna"
+        },
+        "predicate": "actor.roles",
+        "object": {
+          "kind": "proposition",
+          "value": "Le député québécois exerce notamment des rôles de législateur, de contrôleur de l’action gouvernementale et d’intermédiaire avec l’administration publique.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "participation_parlementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MNA"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-035",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:mna"
+        },
+        "predicate": "actor.cannot_by_office_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le seul statut de député ne confère pas un pouvoir général de commander à l’administration, à une municipalité, à un CSS, à une commission scolaire ou à un tribunal de trancher un dossier particulier.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "commande_executive_generale"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-AN-ACT",
+        "SRC-QC-MNA"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-036",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:executive-council-quebec"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Conseil exécutif, ou Conseil des ministres, définit les orientations de l’activité gouvernementale, dirige l’administration de l’État et adopte les décrets et règlements que le droit lui permet d’adopter.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_et_execution"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MCE"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-037",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:premier-quebec"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le premier ministre du Québec est de droit président du Conseil exécutif; il dirige politiquement le gouvernement dans les limites constitutionnelles et légales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_politique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-EXEC",
+        "SRC-QC-MCE"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-038",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:premier-quebec"
+        },
+        "predicate": "actor.cannot_legislate_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Le premier ministre ne peut pas adopter seul une loi du Québec; le pouvoir législatif appartient au Parlement du Québec.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer_seul"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-AN-ACT",
+        "SRC-QC-MCE"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-039",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:minister-quebec"
+        },
+        "predicate": "actor.power_source",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre du Québec exerce les attributions que les lois, décrets et autres règles applicables lui confient; son portefeuille ne crée pas une compétence générale sur toutes les institutions.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_statutaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-EXEC",
+        "SRC-QC-ADMIN"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-040",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:quebec-public-administration"
+        },
+        "predicate": "institution.accountability",
+        "object": {
+          "kind": "proposition",
+          "value": "L’administration gouvernementale québécoise fonctionne dans un cadre de gestion et de reddition de comptes où les sous-ministres et dirigeants d’organismes ont des responsabilités propres de gestion.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration_et_reddition"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-ADMIN"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-041",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:quebec-charter"
+        },
+        "predicate": "norm.priority",
+        "object": {
+          "kind": "proposition",
+          "value": "Au Québec, l’article 52 de la Charte des droits et libertés de la personne prévoit qu’une loi ne peut déroger aux articles 1 à 38 sauf disposition expresse contraire, dans le champ de compétence du Québec.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "priorite_quasi_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-042",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:quebec-charter"
+        },
+        "predicate": "norm.remedy",
+        "object": {
+          "kind": "proposition",
+          "value": "Une atteinte illicite à un droit ou une liberté protégé par la Charte québécoise peut ouvrir droit à cessation et réparation selon l’article 49, sous réserve du régime juridique applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "recours"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-CHARTER"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-043",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:superior-court-quebec"
+        },
+        "predicate": "institution.can_review",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour supérieure exerce le contrôle judiciaire dans les cas prévus par le Code de procédure civile, notamment à l’égard de certains actes, décisions ou excès de compétence.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-CPC"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-044",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:politician-quebec"
+        },
+        "predicate": "actor.cannot_cancel_judgment",
+        "object": {
+          "kind": "proposition",
+          "value": "Un élu ou ministre ne peut pas annuler un jugement exécutoire par simple instruction politique; la contestation d’un jugement passe par les voies de droit applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "annuler_jugement_par_instruction"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-CPC",
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-045",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:dpcp"
+        },
+        "predicate": "institution.independence",
+        "object": {
+          "kind": "proposition",
+          "value": "Le DPCP dirige les poursuites criminelles et pénales pour l’État avec l’indépendance que lui accorde sa loi constitutive, sous l’autorité générale du ministre de la Justice.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "poursuivre"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-DPCP"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-046",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:minister-justice-quebec"
+        },
+        "predicate": "actor.general_policy",
+        "object": {
+          "kind": "proposition",
+          "value": "Le ministre de la Justice peut élaborer des orientations générales en matière criminelle et pénale qui doivent être publiées selon la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "orientations_generales"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-DPCP"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-047",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:attorney-general-quebec"
+        },
+        "predicate": "actor.specific_case_constraint",
+        "object": {
+          "kind": "proposition",
+          "value": "Pour prendre en charge une affaire relevant du DPCP ou donner des instructions sur sa conduite, le procureur général doit respecter le mécanisme légal, notamment consultation préalable et publication de l’avis ou des instructions, sous réserve des règles de report prévues.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "intervention_particuliere_encadree"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-DPCP"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-048",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:minister-justice-quebec"
+        },
+        "predicate": "actor.no_informal_prosecution_order",
+        "object": {
+          "kind": "proposition",
+          "value": "Le ministre de la Justice ou procureur général ne dispose donc pas d’un pouvoir informel et secret illimité de dicter l’issue d’une poursuite particulière.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Québec"
+        },
+        {
+          "axis": "fonction",
+          "value": "poursuites"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Québec",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "commande_informelle_poursuite"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-DPCP"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-049",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipality-quebec"
+        },
+        "predicate": "institution.derives_authority",
+        "object": {
+          "kind": "proposition",
+          "value": "Les institutions municipales relèvent de la compétence provinciale et exercent les pouvoirs que les lois québécoises leur attribuent.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Municipal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_statutaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST",
+        "SRC-QC-MUNI"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-050",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipality-quebec"
+        },
+        "predicate": "institution.domains",
+        "object": {
+          "kind": "proposition",
+          "value": "La Loi sur les compétences municipales attribue des pouvoirs dans plusieurs matières locales, notamment culture, loisirs, développement économique local, environnement, salubrité, nuisances, sécurité, transport et habitation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Municipal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competences_locales"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MUNI"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-051",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:municipal-bylaw"
+        },
+        "predicate": "norm.limit",
+        "object": {
+          "kind": "proposition",
+          "value": "Une disposition d’un règlement municipal inconciliable avec une loi ou un règlement gouvernemental applicable est inopérante dans la mesure prévue par la Loi sur les compétences municipales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "normatif"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Municipal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_reglementaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MUNI"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-052",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipal-council"
+        },
+        "predicate": "institution.administers",
+        "object": {
+          "kind": "proposition",
+          "value": "La municipalité est représentée et ses affaires sont administrées par son conseil; le maire ne remplace donc pas normalement le conseil comme décideur unique.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Municipal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "decision_collegiale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-CITIES"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-053",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:councillor"
+        },
+        "predicate": "actor.cannot_bind_alone",
+        "object": {
+          "kind": "proposition",
+          "value": "Un conseiller municipal n’engage pas normalement la municipalité par sa seule volonté hors des mécanismes décisionnels du conseil.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Municipal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "decision_unilaterale"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-CITIES",
+        "SRC-QC-MUNI-ROLE"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-054",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:mayor"
+        },
+        "predicate": "actor.role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le maire préside le conseil et possède notamment des pouvoirs de surveillance, d’enquête et de contrôle sur l’administration municipale ainsi qu’un rôle d’exécution des décisions du conseil.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Municipal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "surveillance_executive"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-CITIES",
+        "SRC-QC-MUNI-ROLE"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-055",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:mayor"
+        },
+        "predicate": "actor.veto_is_suspensive",
+        "object": {
+          "kind": "proposition",
+          "value": "Le veto municipal du maire est suspensif et peut être renversé selon les règles applicables; il ne constitue pas un pouvoir absolu de bloquer le conseil.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Municipal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "veto_suspensif"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MUNI-ROLE"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-056",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:mayor"
+        },
+        "predicate": "actor.emergency_power",
+        "object": {
+          "kind": "proposition",
+          "value": "En situation d’urgence définie par le droit municipal, le maire peut disposer de pouvoirs particuliers pour autoriser certaines dépenses et contrats nécessaires; il s’agit d’une exception encadrée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Municipal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "urgence_limitee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MUNI-ROLE"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-057",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:mrc"
+        },
+        "predicate": "institution.role",
+        "object": {
+          "kind": "proposition",
+          "value": "La MRC est un palier municipal supralocal exerçant des responsabilités notamment en aménagement, développement local et régional, cours d’eau, évaluation foncière, matières résiduelles et sécurité incendie.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / MRC"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_supralocale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Régional / MRC",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competences_regionales"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MRC"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-058",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:mrc-council"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "Le conseil de la MRC comprend obligatoirement le maire de chacune des municipalités membres et peut comprendre d’autres élus selon le régime applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional / MRC"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_supralocale"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Régional / MRC",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "composition"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MRC"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-059",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:administrative-region"
+        },
+        "predicate": "concept.not_general_government",
+        "object": {
+          "kind": "proposition",
+          "value": "Une région administrative, une MRC et une municipalité ne sont pas des catégories équivalentes; une région administrative n’est pas, par ce seul statut, une législature générale autonome.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Régional"
+        },
+        {
+          "axis": "fonction",
+          "value": "structure"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Régional",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "classification"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-MRC"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-060",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:governance:school-quebec"
+        },
+        "predicate": "governance.levels",
+        "object": {
+          "kind": "proposition",
+          "value": "La gouvernance scolaire publique québécoise distingue un palier national, un palier intermédiaire composé notamment des centres de services scolaires et commissions scolaires, et un palier local des établissements.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Scolaire",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "repartition_fonctionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-SCHOOL-GOV"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-061",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:css-francophone"
+        },
+        "predicate": "institution.current_status",
+        "object": {
+          "kind": "proposition",
+          "value": "Au 2 octobre 2026, le réseau public québécois comprend 60 centres de services scolaires francophones et un centre à statut particulier; les CSS francophones sont administrés par des conseils d’administration selon la Loi sur l’instruction publique.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / francophone"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Scolaire / francophone",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-SCHOOL-GOV",
+        "SRC-QC-EDU"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-062",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:css-francophone-board"
+        },
+        "predicate": "institution.composition",
+        "object": {
+          "kind": "proposition",
+          "value": "La Loi sur l’instruction publique prévoit pour un CSS francophone un conseil d’administration de 15 membres : parents, membres du personnel et représentants de la communauté.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / francophone"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Scolaire / francophone",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "composition"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-EDU"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-063",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:english-school-board"
+        },
+        "predicate": "institution.current_status",
+        "object": {
+          "kind": "proposition",
+          "value": "Au 2 octobre 2026, le gouvernement du Québec présente le réseau comme comprenant 9 commissions scolaires anglophones, en plus de deux commissions scolaires à statut particulier.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / anglophone"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Scolaire / anglophone",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administration"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-SCHOOL-GOV"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-064",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:english-school-board"
+        },
+        "predicate": "institution.elections",
+        "object": {
+          "kind": "proposition",
+          "value": "Les commissions scolaires anglophones sont administrées sous le régime électoral scolaire applicable; la dernière élection générale indiquée par Québec a eu lieu le 3 novembre 2024.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / anglophone"
+        },
+        {
+          "axis": "fonction",
+          "value": "electoral"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Scolaire / anglophone",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "election_scolaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-QC-SCHOOL-ELECT"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-065",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:charter-section23"
+        },
+        "predicate": "norm.constrains_school_governance",
+        "object": {
+          "kind": "proposition",
+          "value": "La compétence provinciale en éducation est limitée notamment par les droits à l’instruction dans la langue de la minorité garantis par l’article 23 de la Charte canadienne.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / constitutionnel"
+        },
+        {
+          "axis": "fonction",
+          "value": "droits"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Scolaire / constitutionnel",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-066",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:case:scc-41838"
+        },
+        "predicate": "case.status",
+        "object": {
+          "kind": "proposition",
+          "value": "Au 2 octobre 2026, le dossier 41838 relatif à la gouvernance des commissions scolaires anglophones demeure affiché comme demande d’autorisation d’appel; les documents ont été transmis aux juges le 9 février 2026.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire / anglophone"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Scolaire / anglophone",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "current_as_of_2026-10-02"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "etat_procedural"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-SCC-41838"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-067",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:actor:school-body"
+        },
+        "predicate": "actor.cannot_override_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Un CSS ou une commission scolaire exerce les pouvoirs que le droit lui confère et ne peut pas, par simple résolution interne, écarter une exigence constitutionnelle ou une loi valide applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Scolaire"
+        },
+        {
+          "axis": "fonction",
+          "value": "gouvernance_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Scolaire",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_statutaire_limite"
+        },
+        {
+          "dimension": "capacite_juridique",
+          "value_semantics": "boolean",
+          "value_state": "known",
+          "value": false
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST",
+        "SRC-QC-EDU"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-068",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "OFFICE ≠ TITULAIRE : le pouvoir public appartient à une charge ou institution définie par le droit, non à une personne indépendamment de sa fonction.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-069",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "ÉLECTION ≠ POUVOIR ILLIMITÉ : l’élection confère une fonction; elle ne supprime ni la Constitution, ni les lois, ni les procédures, ni le contrôle judiciaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-070",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "INFLUENCE POLITIQUE ≠ AUTORITÉ JURIDIQUE : convaincre, négocier, établir des priorités ou exercer une discipline de caucus n’est pas identique à rendre une décision juridiquement obligatoire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-071",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "RESPONSABILITÉ POLITIQUE ≠ COMPÉTENCE DÉCISIONNELLE : être tenu de répondre d’un portefeuille ne signifie pas pouvoir décider à la place de chaque organisme ou tribunal qui s’y rattache.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-072",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "DÉLÉGATION ≠ ABANDON DE LA SOURCE DU POUVOIR : une autorité déléguée agit parce qu’une norme ou une délégation valide l’autorise.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-073",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "LOI ≠ RÈGLEMENT ≠ DÉCRET ≠ RÉSOLUTION ≠ DIRECTIVE ≠ POLITIQUE : leur auteur, leur procédure et leur force juridique diffèrent.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-074",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "FÉDÉRAL ≠ AUTOMATIQUEMENT SUPÉRIEUR AU PROVINCIAL : il faut d’abord identifier la compétence, la validité et, s’il y a conflit, la doctrine applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-075",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "MUNICIPAL ≠ SOUVERAIN : les pouvoirs municipaux et MRC sont attribués par le droit provincial.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-076",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "CONTRÔLE JUDICIAIRE ≠ APPEL : ce sont des voies distinctes avec objets, normes et conditions différentes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    },
+    {
+      "assertion_id": "CAQC-077",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:power-model"
+        },
+        "predicate": "invariant.states",
+        "object": {
+          "kind": "proposition",
+          "value": "SOURCE OFFICIELLE ≠ DÉCISION FUTURE : un dossier judiciaire ou politique en cours ne doit jamais être présenté comme déjà tranché.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "modele"
+        }
+      ],
+      "applicability": {
+        "domain": "pouvoir public et gouvernance",
+        "jurisdiction": "Transversal",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "invariant"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-CONST"
+      ]
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "PROV-CAQC-002",
+      "type": "research_build",
+      "created_at": "2026-10-02T16:36:00-04:00",
+      "method": "Refonte du Kristal Canada/Québec : retrait du droit international, séparation pouvoir/responsabilité/influence, priorité aux sources constitutionnelles, législatives, parlementaires, gouvernementales et judiciaires officielles.",
+      "tooling": "Kristal Standard 6.0.0"
+    }
+  ],
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1"
+}

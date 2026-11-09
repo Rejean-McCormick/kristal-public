@@ -1,0 +1,83 @@
+{
+  "format": "kristal.authoring-state-index/2.0.0",
+  "canonical_artifacts": [
+    {
+      "artifact_id": "urn:vehiclediag:artifact:reference-model",
+      "path": "canon/domain/reference-model.json",
+      "logical_contract": {
+        "id": "vehiclediag.reference-model",
+        "version": "3.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "technology",
+        "subdomain": "automotive/diagnostics",
+        "language": "fr",
+        "environment": "working"
+      },
+      "extensions": {
+        "native_shape": "multiplex_causal_diagnostic_model",
+        "collection_semantics_profile": "vehiclediag.reference-model-ordering/1"
+      },
+      "dependencies": []
+    },
+    {
+      "artifact_id": "urn:vehiclediag:artifact:epistemic-overlay",
+      "path": "canon/epistemic/epistemic-overlay.json",
+      "logical_contract": {
+        "id": "kristal_state.hash_target",
+        "version": "6.0"
+      },
+      "commitment": {
+        "mode": "compute-json-jcs",
+        "profile": "kristal.logical/jcs-sha256-v1"
+      },
+      "scope": {
+        "domain": "technology",
+        "subdomain": "automotive/diagnostics",
+        "language": "fr",
+        "environment": "working"
+      },
+      "extensions": {
+        "role": "epistemic_overlay",
+        "portable_contract": "kristal_state/6.0"
+      },
+      "dependencies": [
+        {
+          "artifact_id": "urn:vehiclediag:artifact:reference-model",
+          "logical_contract": {
+            "id": "vehiclediag.reference-model",
+            "version": "3.0"
+          },
+          "logical_commitment": {
+            "profile": "kristal.logical/jcs-sha256-v1",
+            "digest": "sha256:69f50af116271f203f80ceda0cae31e7c39d0840f931385541d35853e5d77f5f"
+          }
+        }
+      ]
+    }
+  ],
+  "external_references": [],
+  "derived_artifacts": [
+    {
+      "path": "knowledge-base/corpus",
+      "role": "runtime_read_models_and_diagnostic_projections"
+    },
+    {
+      "path": ".kristal/v8",
+      "role": "legacy_portable_projection_and_indexes"
+    },
+    {
+      "path": ".kristal/v9",
+      "role": "legacy_v9_build_outputs_preserved_for_comparison"
+    },
+    {
+      "path": "build/v9",
+      "role": "authoring-kit_v9_build_candidate"
+    }
+  ],
+  "notes": "Les deux payloads canoniques reproduisent exactement les Logical Artifacts v9 validés par le compilateur métier. knowledge-base/sources/** reste la couche éditoriale autoritaire en amont; canon/** est la forme logique normalisée et state-bearing."
+}

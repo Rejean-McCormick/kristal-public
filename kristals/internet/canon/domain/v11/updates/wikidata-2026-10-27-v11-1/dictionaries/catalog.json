@@ -1,0 +1,48 @@
+{
+  "artifact_type": "kristal_dictionary_catalog",
+  "catalog_id": "Kristal-Internet:v11:dictionaries:bulk-secondpass-candidate.2:wikidata-v11.1",
+  "languages": [
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-domain-fr-v11-1",
+          "path": "wikidata-domain-fr-v11-1.json",
+          "priority": 93,
+          "sha256": "5c2da938c2ebb9e125edcb722dac5ddc49f32031f983b09092446ebb8cece4e7"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-fr",
+          "path": "metadata-fr.json",
+          "priority": 90,
+          "sha256": "9a2e179f935b7b225e269be2de204db07aeb5a3d821f54fd3200e812e5624e7c"
+        }
+      ],
+      "tag": "fr"
+    },
+    {
+      "fallbacks": [],
+      "layers": [
+        {
+          "kind": "curated",
+          "layer_id": "wikidata-domain-und-v11-1",
+          "path": "wikidata-domain-und-v11-1.json",
+          "priority": 93,
+          "sha256": "ecbba660daa5b33d3df9ebcae8fa408cc89922d8358d3b45b6ca0de551a12656"
+        },
+        {
+          "kind": "curated",
+          "layer_id": "metadata-und",
+          "path": "metadata-und.json",
+          "priority": 90,
+          "sha256": "0911242db60d3e1001efb3dde2d053885ec319adda1f10f14ed27c2560a065d6"
+        }
+      ],
+      "tag": "und"
+    }
+  ],
+  "namespace_id": "kristal:bulk:kristal-internet",
+  "schema_version": "11.0"
+}

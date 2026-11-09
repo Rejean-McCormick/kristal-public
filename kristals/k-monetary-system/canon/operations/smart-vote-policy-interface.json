@@ -1,0 +1,32 @@
+{
+  "format": "k.monetary.operation/smart-vote-policy-interface/0.1.0",
+  "id": "urn:kristal:k-monetary-system:op:smart-vote-policy-interface",
+  "external_authority": "konnaxion.smart-vote",
+  "ownership": "external",
+  "purpose": "Define the monetary-system contract by which Smart Vote may propose, approve or review monetary policy without duplicating Smart Vote internals.",
+  "inputs": [
+    "current_state_snapshot",
+    "evidence_bundle",
+    "forecast_bundle",
+    "policy_proposals",
+    "conflict_of_interest_disclosures",
+    "domain_relevance_requirements"
+  ],
+  "required_output": {
+    "policy_decision_id": "stable id",
+    "decision_class": "ordinary|emergency|constitutional",
+    "policy_payload": "typed monetary policy change",
+    "rationale_refs": "evidence/hypothesis references",
+    "effective_window": "activation/expiry",
+    "audit_receipt": "traceable decision receipt"
+  },
+  "governance_constraints": [
+    "Domain relevance must affect influence; generic prestige alone is insufficient.",
+    "Integrity weighting must be rule-governed, evidence-backed, appealable and applicable symmetrically rather than a free-form moral score.",
+    "Expert influence must be bounded to prevent expert-sovereignty or a single-person veto.",
+    "Conflicts of interest must be represented explicitly.",
+    "Emergency authority must be bounded, expire automatically and receive post-hoc review.",
+    "Raw participation and weighted interpretation remain separately inspectable when the external Smart Vote system provides both."
+  ],
+  "epistemic_rule": "A Smart Vote decision is a decision record, not empirical proof that the policy will work."
+}

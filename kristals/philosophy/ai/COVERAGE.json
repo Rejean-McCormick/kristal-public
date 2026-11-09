@@ -1,0 +1,36 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:philosophy",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:ae89a6e4e3919f1c72840cd8993c3b7fccaf757575950a64dcdbee81d7f16670"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:philosophy",
+    "label": "Kristal-Philosophy",
+    "domain": "philosophy"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Cartographie des problèmes et relations argumentatives ou dialectiques des traditions philosophiques."
+    ],
+    "does_not_own": [
+      "Arbitrage universel entre écoles ou réduction de toute position à une seule vérité normative.",
+      "Les dépôts des sources externes, leur publication et leur autorité éditoriale."
+    ]
+  },
+  "canonical_artifact_count": 9,
+  "source_count": 21,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

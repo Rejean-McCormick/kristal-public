@@ -1,0 +1,37 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:logistics",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:9807bbe4c0afdc5c4d986897a1cadf077e16641a90a9f79316da049e2e089237"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:logistics",
+    "label": "Flux physiques origine, stockage, déplacement et destination avec demande, contrôle et performance",
+    "domain": "logistics"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Flux physiques origine, stockage, déplacement et destination avec demande, contrôle et performance",
+      "Le modèle de distinctions, assertions et provenance engagé par le Logical Artifact v9 existant."
+    ],
+    "does_not_own": [
+      "Modèle de référence statique, non pilotage en temps réel d’une chaîne logistique.",
+      "Le cycle de publication des sources externes, les activations réseau ou un arbitrage implicite par une sortie IA."
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 9,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

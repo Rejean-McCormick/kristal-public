@@ -1,0 +1,174 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:humanbody",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:c53b0b989ff44322e509dc4cd965530077e14441140cc6f0d6a3e60833021e62"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:humanbody:resource-basis",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:humanbody",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6f04134aa853ea628484ff64c5da5db750c7b015c13f83919ae93dd153a31f0d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:humanbody:semantic-state",
+      "logical_contract": {
+        "id": "humanbody.semantic-state",
+        "version": "9.0"
+      },
+      "authority_ref": "urn:kristal:authority:humanbody",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:94342c3eac389e4bb4d254b30489ac5603ec02f62283fa326a7bb4b10b65a230"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:humanbody:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:63e41f9f59934654b7eec43d6544c545d10db4d6e1b5002f54b8c460b3b1f0f4"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:humanbody:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:52f92a8f4e8d9093b167c8389b4c7dff3d1d2e137dfc1a6bccd716d2e0c1e768"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:humanbody:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:995eb3159a802444011d2d8a2d532199825af5799d929a00d3711c41f358f784"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:humanbody:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:36e1a13facf23dbdab6e24d86090bb755b4ed3272058dc128d60d07352c4b0ce"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-HumanBody:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2c6d9b8c713fc728df9dfb96be58240b42b9fbab7fcafc2d06861e97ab10e8a5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-HumanBody:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0c560851492251288cefc1613036f4fa5698ea9aba748ed81e3f76ebf73d6e3d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-HumanBody:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:59b0f0083295579717614f5c0ad60976f2c9bfc5d9d7b2207d3d8d92f2192593"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-HumanBody:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fa9433d87a13e6b9c5d0daded1ee9dd77658954095153125fef061fa7feb220f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-HumanBody:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f703858e546d76ccd9a8f04a782c317f02f5f32e04bc2bf226cfda2f91a1ab0e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-HumanBody:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ccad2ef7aa9d63c3d682ed38f92d44c3f8ca18808c1ab66898e5d70d84f4bf8e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-HumanBody:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:59b0f0083295579717614f5c0ad60976f2c9bfc5d9d7b2207d3d8d92f2192593"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-HumanBody:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6a28c4c6702b898e5768e704ec14140315249c55b432aa3d189e441cb4a7edb3"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "humanbody",
+    "edition": "1.1.0"
+  },
+  "authority_ref": "urn:kristal:authority:humanbody"
+}

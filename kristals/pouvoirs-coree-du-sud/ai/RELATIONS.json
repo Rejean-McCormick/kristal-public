@@ -1,0 +1,24 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-coree-du-sud",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:386d84f1aedb7f14f23a09b3de9b60f9dd82ffd6e00764a43e9ff00daef929c7"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:pouvoirs-coree-du-sud:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:pouvoirs-coree-du-sud:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b62f79640ddd65dd9107ad15049187943a5e66b12839ddb71389390c38cbe241"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

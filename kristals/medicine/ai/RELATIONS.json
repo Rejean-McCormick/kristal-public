@@ -1,0 +1,155 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:medicine",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:3672a6d0df71b739fe81ef871439e0eb4fb39009be53521e359bf5620bd15e49"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:medicine:artifact:canonical-knowledge",
+      "logical_contract": {
+        "id": "kristal.compat/v6-portable-state-logical-projection",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:7335494b06a5862c777d3b9a08b62cde0c816c1217af43d42390b5ed002788c6"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:medicine:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2bf36dc0d9b2e2bede917f2567f899b59403d9f4797048cc6c1175c1c4b63ce7"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:medicine:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bb11e1dedfe82e8e8b115d2d2c091016bf1f9b77b9bcd2aac80c705ab78bf253"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:medicine:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:37a158e4c911d45d3cc1c876eee960c159a786be93bc247f613ba5851de2ce6e"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:medicine:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:33d9c3988339a6f00e62ede1495179bd835974bfe228d24bfe7a59d0c1e47e27"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Medicine:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:67e8185d6c867ceecc16ef82831db8f1b04deb18242041baeec28c4715cee8e4"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Medicine:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9a22c08e6924737e11e6306216fb1e112e05b48b0c501a215f33137c7a1f8d23"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Medicine:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2d547d12fa24344f0e27746fa831e6d258e54e101f9e7e20d81dac5249cbcf83"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Medicine:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:cc908135ad1367818612aa7c440e6c7e64ced187925690013a28909517c215c3"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Medicine:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1f3683eb4c921a7e2eae265f5b5a05c94fb9100bcefc527ed2444f8ad891bb02"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Medicine:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:73508096a160f00d475790e61157eb2d8542e0873aee8a55b044b66cf5490623"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Medicine:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2d547d12fa24344f0e27746fa831e6d258e54e101f9e7e20d81dac5249cbcf83"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Medicine:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3fc901f31011f56d103be0d3e1a112dc5dacb7d3d766122177eaa92c43687ce5"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

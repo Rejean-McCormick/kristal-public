@@ -1,0 +1,41 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:kristal-epistemology",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:fb66ac9686855d6b2b4b551b279e36fe1ad7ddd2ce6d06ce6fa41b5243d37f2c"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:kristal-epistemology",
+    "label": "Kristal-Epistemology",
+    "domain": "epistemology",
+    "source_native_description": "layered epistemic support/defeat graph",
+    "orientation": "proposition ← evidence ← source/provenance; reasons → justification → belief → possible knowledge"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Existing reference knowledge for Epistemology represented as: layered epistemic support/defeat graph.",
+      "Original v6 portable epistemic state and its preserved source-driven assertions: 171 assertions.",
+      "Original domain distinctions and applicability defined in knowledge-base/ and the v9 domain profile."
+    ],
+    "does_not_own": [
+      "External publications, sources and their release cycles.",
+      "Runtime indexes, query projections, materialization encodings, or caches as semantic authority.",
+      "Unvalidated new claims, invented source authority, or activation channels."
+    ]
+  },
+  "canonical_artifact_count": 9,
+  "source_count": 12,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

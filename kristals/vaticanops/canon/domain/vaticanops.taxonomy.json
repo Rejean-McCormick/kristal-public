@@ -1,0 +1,54 @@
+{
+  "format": "vaticanops.domain-taxonomy/1.0",
+  "archetype": "ARK-01-support",
+  "domains": [
+    {
+      "id": "curie",
+      "label_fr": "Gouvernance et administration de la Curie",
+      "jurisdiction": "Curie romaine"
+    },
+    {
+      "id": "canon",
+      "label_fr": "Procédures de droit canonique latin",
+      "jurisdiction": "Église latine"
+    },
+    {
+      "id": "discipline-ddf",
+      "label_fr": "Procédures documentées par le DDF",
+      "jurisdiction": "selon DDF/Vademecum; vérifier champ"
+    },
+    {
+      "id": "sede-vacante",
+      "label_fr": "Vacance du Siège et élection",
+      "jurisdiction": "Saint-Siège; droit électoral pontifical"
+    },
+    {
+      "id": "liturgie",
+      "label_fr": "Pratiques liturgiques",
+      "jurisdiction": "selon PGMR et normes liturgiques applicables"
+    }
+  ],
+  "relations": [
+    {
+      "id": "procedural_refers_to_evidence",
+      "subject": "procedure node",
+      "object": "source passage"
+    },
+    {
+      "id": "procedure_belongs_to_domain",
+      "subject": "procedure",
+      "object": "domain"
+    },
+    {
+      "id": "steps_connected_by_guarded_transition",
+      "subject": "step",
+      "object": "step"
+    }
+  ],
+  "separation_invariants": [
+    "description != execution != authorization",
+    "source_capture != current legal force",
+    "unknown != false",
+    "curie != Vatican State != universal Church"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-pays-bas",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:33a01a6ccc5dc180a044af71bb4c6cc7f6ca581908eebdd09943131e30150ff1"
+  },
+  "files": [
+    {
+      "path": "canon/domain/jurisdictional-power.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 190259,
+      "sha256": "sha256:c6dd97ce280dac974954fc748f5274e86a7d24c2cafd622f731a1c30a5a9bacf",
+      "artifact_id": "urn:kristal:pouvoirs-pays-bas:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 1664,
+      "sha256": "sha256:0d65e69dc2568ef69acdd34cec4aad8eeabe08b3667a6f929c0a01f8c20ce4b7"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 549,
+      "sha256": "sha256:091606731c34de38dfe54315cd3b6019114f04e7843a90162566ecc6ed6ef7d1"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 784,
+      "sha256": "sha256:ba4fcb5074f4f61f7d123e4c2901871cd9336cc37df964a402b55d616dbe9c83"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 787,
+      "sha256": "sha256:f7b9c5a99e37d9ef477f5f9ec5a8dd447af72be7f9bfc87782a8d2d9468aeb2b"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 700,
+      "sha256": "sha256:154edfc88b531c6ce3eb33f7937e923530f3b00d7021628edbbf961d28246f1b"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 816,
+      "sha256": "sha256:761bbdf0671fa01ffdaf5d744e75a2726d31111148d84b929df2e9841e3038d3"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 580,
+      "sha256": "sha256:4a6ee427b5c245d7d5103a0fee3b01d5d5ec2f86d8643f277eb1dc166dd247b7"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 720,
+      "sha256": "sha256:99c88fca4c0c5f65d67d026714ee35002f5b401193f023550d7ea775f3149c2c"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 454,
+      "sha256": "sha256:fe9cba082dfe38bf095857a9accb1850a7830b3ffaa2fb076a2b360bc6d5783c"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 4055,
+      "sha256": "sha256:6275e9506af3f0f3d5a8a2f9cf8a04a0ed5fb5cad6cab2672f9ffa8c3fee71b6"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 31879,
+      "sha256": "sha256:a06f94333ae187b01b1dc3f999a8a005dfb8012b780896a4869ca9d6935c012d"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 1232,
+      "sha256": "sha256:3aa1a12ccb9a4f065b2cfbaaf4bbb79848a10cfd35e93c288d8b8e555e29e7de",
+      "state_ref": "urn:kristal:state:pouvoirs-pays-bas",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:33a01a6ccc5dc180a044af71bb4c6cc7f6ca581908eebdd09943131e30150ff1"
+      }
+    }
+  ],
+  "materialization_blobs": []
+}

@@ -1,0 +1,58 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d06",
+  "protocol_id": "D06",
+  "title": "D06 — K_C : droits réels sur le capital productif",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:S10",
+    "source:multiangle:W13"
+  ],
+  "depends_on": [
+    "canon/domain/distribution-model.json",
+    "canon/operations/social-dividend.json"
+  ],
+  "validation_gates": [
+    "droits_economiques",
+    "actifs_productifs",
+    "regime_valeurs_mobilieres"
+  ],
+  "sections": [
+    {
+      "heading": "Principe",
+      "level": 2,
+      "body_markdown": "K_C n'est pas une quantité de monnaie nouvelle censée multiplier par elle-même les ressources. Chaque unité doit correspondre à des actifs nets et à un **ensemble de droits exécutoires** clairement identifiés, ou être explicitement déclarée symbolique sans valeur garantie."
+    },
+    {
+      "heading": "Structure minimale",
+      "level": 2,
+      "body_markdown": "Véhicule juridique (coopérative, fiducie, fonds ou société : à décider) acquiert des actifs productifs à prix attestés; enregistre engagements, dettes, frais et propriétaires; émet des droits en respectant règlement, règles en valeurs mobilières et investisseurs admissibles. Définir vote, dividende, conversion, revente, liquidation, dilution et recours."
+    },
+    {
+      "heading": "Équations et priorité des créanciers",
+      "level": 2,
+      "body_markdown": "`Actif_net = valeur_prudente_des_actifs − dette_externe − provisions` ; `VL_unité = Actif_net / K_C_en_circulation` si K_C représente une fraction homogène et si les droits permettent cette méthode; liquidité de cette VL non garantie.\n`Profit_distribuable = revenus réalisés − charges — impôts − réserves nécessaires − priorités contractuelles`; `dividendes ≤ max(0, profit_distribuable)`."
+    },
+    {
+      "heading": "Redistribution (options concurrentes)",
+      "level": 2,
+      "body_markdown": "- Attribution égale par personne; attribution progressive; financement par épargne et réinvestissement; mélange plafonné. Toutes les politiques ont des effets dilutifs et de financement différents.\n- Un dividende social payé en K_M doit être précédé d'une conversion ou d'une affectation réelle : ne pas présenter une émission non couverte de K_M comme un bénéfice réalisé."
+    },
+    {
+      "heading": "Test de non double comptage",
+      "level": 2,
+      "body_markdown": "Le même lingot ou les mêmes actions ne peuvent figurer simultanément comme réserve de rachat K_M libre, propriété K_C non grevée et actif disponible à financer une œuvre collective, sauf droits et fractions distincts explicitement audités. La sécurité de la monnaie prime si juridiquement due aux détenteurs K_M."
+    },
+    {
+      "heading": "Chocs",
+      "level": 2,
+      "body_markdown": "Dépréciation des actifs, dividendes nuls, gel de marché, faillite, risques de concentration et incohérence de propriété."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D06_KC_PARTICIPATION_PRODUCTIVE.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

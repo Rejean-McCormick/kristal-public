@@ -1,0 +1,244 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:pi-theory",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:20122cff77651fdd0a3767a9a9adafdbb86779cd3140eb4699ff67088c0d7477"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1065,
+      "sha256": "sha256:ec77032f90f29c0b8971c15242cb76295d1181bb995eeb4697203ee4c8b9d4fe"
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 4232,
+      "sha256": "sha256:591a9a64aa9e74b23d6c6e9ef8c58216199d6c0b16f60d1ff71573711e0b76fa"
+    },
+    {
+      "path": "canon/logical/domain-state.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2303,
+      "sha256": "sha256:69a1b22a358e9e1e5a7e0ee0f6b755e17cf2af76e5c4f04f0f4c7bc627fb1b61",
+      "artifact_id": "urn:kristal:pi-theory:semantic-state",
+      "logical_contract": {
+        "id": "pi-theory.semantic-state",
+        "version": "9.0"
+      }
+    },
+    {
+      "path": "canon/logical/resource-basis.logical-artifact.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 3598,
+      "sha256": "sha256:4f43cfe960ee030dc691ab927bf2aa0004ec9c84e825094534d9b6e8b72807c5",
+      "artifact_id": "urn:kristal:pi-theory:resource-basis",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 2939,
+      "sha256": "sha256:7bb48f1691b254cbbcb272bb50530530fd0e795c6c5eb546b3f999e7a6b09f2b"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 782,
+      "sha256": "sha256:137c76a25f163ed64c13c642cda6c935111e78a39c56b324036028ba7d3aeb07"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1037,
+      "sha256": "sha256:f202f74488c5a56447d4cb921b9b64d408adbbf0a928acf481f8d7be50db964f"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 822,
+      "sha256": "sha256:fbd3fc92e59fa88173341df28e538612c7b86d3d7e866475ec75bc3be2a24f96"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 987,
+      "sha256": "sha256:b2fbfac655baeb6842bcc829283004406a460d5ac5f42bac5a8ef448a4fa80d4"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1240,
+      "sha256": "sha256:68605af68ae62231044cc5c35c6df3c8f01f6ffc77379d730aae081d0fd78305"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 671,
+      "sha256": "sha256:2979d2dbdd5cf94803fd14eca7d1e2f36dbdf639ce590a371aa6e75bc38d808e"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 979,
+      "sha256": "sha256:4b7fede9885880a1738452c33f6e267b403336fbb18f165eaff2365427188162"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 628,
+      "sha256": "sha256:8dd2620b93284f80140daebdb6b43eba55324c5802ffda1f6356a2336a726000"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 4126,
+      "sha256": "sha256:d64ac34b2220e7913d3d42c26576f3462823890be172744bc40d0e1c2d6e8a31"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 9808,
+      "sha256": "sha256:d2aab5316fe986c44601a82c2828dc6bf3e794c5e411373bff7be18b0b84d537"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 1318,
+      "sha256": "sha256:a8bfbf46643663b9858ddbd8df976fb5ca068430156eeab4f0c52286b1b6ed65",
+      "state_ref": "urn:kristal:state:pi-theory",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:20122cff77651fdd0a3767a9a9adafdbb86779cd3140eb4699ff67088c0d7477"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/domain-state.materialization.json",
+      "source_artifact_id": "urn:kristal:pi-theory:semantic-state",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/json",
+      "size": 2303,
+      "sha256": "sha256:69a1b22a358e9e1e5a7e0ee0f6b755e17cf2af76e5c4f04f0f4c7bc627fb1b61",
+      "locator": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:69a1b22a358e9e1e5a7e0ee0f6b755e17cf2af76e5c4f04f0f4c7bc627fb1b61",
+      "verified_size": 2303
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:pi-theory:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:pi-theory:resource:external_source_fingerprint_registry",
+      "media_type": "application/json",
+      "size": 8167,
+      "sha256": "sha256:2ed6b4d033fb081523d7e807d0fbbece97dd435b98a0a6fed377b0abd4b1f286",
+      "locator": "external-source-library/source-store.json",
+      "transport_class": "materialization",
+      "path": "external-source-library/source-store.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:2ed6b4d033fb081523d7e807d0fbbece97dd435b98a0a6fed377b0abd4b1f286",
+      "verified_size": 8167
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:pi-theory:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:pi-theory:resource:historical_source_lineage",
+      "media_type": "application/json",
+      "size": 1750,
+      "sha256": "sha256:5861ae8ed94da585995d6364db15a289655ee8bc8b6a297b2c46baa9177adf86",
+      "locator": "knowledge-base/sources/manuscript-versions.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/sources/manuscript-versions.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:5861ae8ed94da585995d6364db15a289655ee8bc8b6a297b2c46baa9177adf86",
+      "verified_size": 1750
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:pi-theory:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:pi-theory:resource:identity_registry",
+      "media_type": "application/json",
+      "size": 6254,
+      "sha256": "sha256:8c4947900f0107261c9650051312a08760989fea50da82b8629d2f0598b2a1e7",
+      "locator": "knowledge-base/corpus/referents.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/corpus/referents.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:8c4947900f0107261c9650051312a08760989fea50da82b8629d2f0598b2a1e7",
+      "verified_size": 6254
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:pi-theory:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:pi-theory:resource:portable_epistemic_state",
+      "media_type": "application/json",
+      "size": 69566,
+      "sha256": "sha256:c0b9ed03dba3e5d9112b645fdec8af139f8bf213adab110598a2881a28627441",
+      "locator": "knowledge-base/corpus/pi-theory.kristal-state.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/corpus/pi-theory.kristal-state.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:c0b9ed03dba3e5d9112b645fdec8af139f8bf213adab110598a2881a28627441",
+      "verified_size": 69566
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:pi-theory:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:pi-theory:resource:source_catalog",
+      "media_type": "application/json",
+      "size": 8159,
+      "sha256": "sha256:e40034f565c2f8d2420181bc8a79b4162292e1345038258d56f09df9a7a72c90",
+      "locator": "knowledge-base/sources/source-catalog.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/sources/source-catalog.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:e40034f565c2f8d2420181bc8a79b4162292e1345038258d56f09df9a7a72c90",
+      "verified_size": 8159
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:pi-theory:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:pi-theory:resource:source_policy",
+      "media_type": "application/json",
+      "size": 1163,
+      "sha256": "sha256:5dee82f94554f03a4f14931d49ff9489f8f69ed9e8fbc0c551399e82c4ca819d",
+      "locator": "knowledge-base/sources/source-policy.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/sources/source-policy.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:5dee82f94554f03a4f14931d49ff9489f8f69ed9e8fbc0c551399e82c4ca819d",
+      "verified_size": 1163
+    }
+  ]
+}

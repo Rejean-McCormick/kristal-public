@@ -1,0 +1,513 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:anthropology:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:295dda54df336245779cf88a8649f048a3bfd3e3756bca08ce7821d47d21c9f6"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1338,
+      "sha256": "sha256:d0bebf138f6d051c1596a472bddd4f2ed4d5cb253de083b0ea0063fb91e8ad83"
+    },
+    {
+      "path": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1310,
+      "sha256": "sha256:b6306caa7ec449b54e0966b6264b8f651132f88c889c70e5b44de746fe42dc16"
+    },
+    {
+      "path": "canon/domain/canonical_state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 355,
+      "sha256": "sha256:35f733c5d9eb0cc4163d36ca2e770087ffe133d9aded5728fdf72cd0703f33af",
+      "artifact_id": "urn:kristal:anthropology:artifact:canonical-state",
+      "logical_contract": {
+        "id": "anthropology.canonical-knowledge-state",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 6596,
+      "sha256": "sha256:85ee75a146a5db009fde795bde9380b552fa458df75475f210e298dcd76bd100"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1246,
+      "sha256": "sha256:c9023634e96f07f91709bdc7c7500ec9b14505ec35479ac2e49733905f554078"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 985,
+      "sha256": "sha256:7edcffaad990b49506f5050d3ebf9ce429ee64faea75ebadab11eedc55f1d426"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1099,
+      "sha256": "sha256:ba19bfa3923427602013111cfa52ee7a3c9fb365741cbec0489535591e2e63b2"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1425,
+      "sha256": "sha256:9d38c9006e6fcf7a9e5827f624ca3836e1a6b860138ad1a26a11b24249bb5060",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 4816,
+      "sha256": "sha256:47c512dce010e669acc9dc87e5b322c1da133c5d8aab5ac8840d41e8d6d71bad"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 15794,
+      "sha256": "sha256:e013092f17f7a435de0cb6ac0892c79cf849fd979a6294497afbc39f1c28a5ba"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 967,
+      "sha256": "sha256:908cc3978f4c7ea8249d08a727caef2a6656941fb8798b289e34f8c0c9fc639e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 963,
+      "sha256": "sha256:75aa70cb4aebc37a4bb4ce5f03aa61d75959e51034f95bc55ac870d661297e17"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1986,
+      "sha256": "sha256:98680a5daa0fcbe5ed37bbb7adba9e07f5b375f38a1347804b9a740fa0169318",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 50591,
+      "sha256": "sha256:368a9bff8e7b1d5de3c5baa2853104efb57007b44b5e424faed6dd0bdfa67fd4",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 13811,
+      "sha256": "sha256:de2bb98bbf0ea2d7238b2fd6406d6e116376363b40c1cd41eff3e20337066973"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 316348,
+      "sha256": "sha256:deed646df0c298e7d1f092d959d2fb2ebbb1bce266aef0d9bea7a904c2577105",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Anthropology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1246,
+      "sha256": "sha256:c9023634e96f07f91709bdc7c7500ec9b14505ec35479ac2e49733905f554078"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1099,
+      "sha256": "sha256:ba19bfa3923427602013111cfa52ee7a3c9fb365741cbec0489535591e2e63b2"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 880,
+      "sha256": "sha256:1be4fbff14103ce2b8b40e5536b203e1b11b7631082f411b45c2a871c642912d",
+      "artifact_id": "urn:kristal:anthropology:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1548,
+      "sha256": "sha256:14ec3d892536b82b88e3f73ede6eb9a45c927eb897e5acdeb9e68fc1ead4bc98"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 15794,
+      "sha256": "sha256:e013092f17f7a435de0cb6ac0892c79cf849fd979a6294497afbc39f1c28a5ba"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1971,
+      "sha256": "sha256:ad679af804df530bfade5784ca4dc102210fc3d2e67e6a2c249aca8a3478723a",
+      "artifact_id": "urn:kristal:anthropology:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 49497,
+      "sha256": "sha256:486ab023e88ee0edfd4b4a2603792d5f361804172e714815841f77fa45e935f9",
+      "artifact_id": "urn:kristal:anthropology:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 13811,
+      "sha256": "sha256:de2bb98bbf0ea2d7238b2fd6406d6e116376363b40c1cd41eff3e20337066973"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 314665,
+      "sha256": "sha256:e0539278e7d01571e91ef3d2246e8426f09c2a03dda20f091a6ec477a7dac4d5",
+      "artifact_id": "urn:kristal:anthropology:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/epistemic/legacy-build-input-editorial-sources.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 439,
+      "sha256": "sha256:27df925a32a8676d3aaafb77378f977d12e570534be129801f14ff5b0957b941"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 6666,
+      "sha256": "sha256:8090fd17f13d53ff25cf1babf10d543fe1d173f0ba77944b4fd0945c46889b57"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 506,
+      "sha256": "sha256:cdeada26f4400c850dce6cde7c71a1c7a4b5e80671f48e91d3992e3191f021e5"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 492,
+      "sha256": "sha256:96b1a2e1dfed3e7aee968f5ec7262a514d561ee7317a0b050ea3a0ed92799e48"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 638,
+      "sha256": "sha256:6307a63f2e0e6bd51025bae5dea3e05e45060f075be7bb78f31850b9566f3155"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 675,
+      "sha256": "sha256:b1cbb832dec09afb860bd3db49758fcdc18453a7786ce2edae008e473424d278"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1009,
+      "sha256": "sha256:1b07cb23f5c28fdd04022620d36d9fb7d2cb1d1a3fec5f32a5699840c3edfbc5"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 536,
+      "sha256": "sha256:d52759bf18aae40d0c47cafbb2cae5edccb27b35693f312451d8228643a03994"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 675,
+      "sha256": "sha256:a98a91243bc4ccdc9ef0f8507d36515eca854934dcb46b50d7f9b4023c35cd61"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 556,
+      "sha256": "sha256:27de035398a2ba78d0ebad029703bbeec8e20e3a3ef2f109003f1d2d355957ee"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3982,
+      "sha256": "sha256:7614ae9532b841dd5fa3e9400246a9b873c8bfe966f9ce52874f6eb98169916d"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 10937,
+      "sha256": "sha256:e32d81c0d529217de86f9956f433e2805f2844c042cafd552c2606d2b3b776ea"
+    },
+    {
+      "path": "sources/wikidata-skope/current.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 253,
+      "sha256": "sha256:76c0fb4c4dcb962710ffb3cddf43526565e3300b585c792e6fe0d482706a5da9"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/README.md",
+      "role": "source_material",
+      "media_type": "text/markdown",
+      "size": 1845,
+      "sha256": "sha256:96ee437a452a57c190fc27777605c25c522577d25bf50d5b544d440296b8c911"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/crosswalk-candidates.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 1643,
+      "sha256": "sha256:a0121e4d5e186d8bef09eec17d3aa265d1d4232ccbe29dab35652c1b72a0a2fa"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/priority-relations.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 3525,
+      "sha256": "sha256:9f2a1035238fbf2f64faa57863608c050889713e85b6de1dfb3971caf2f9c248"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/enrichment-proposals.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 126780,
+      "sha256": "sha256:4edfdfddd80ca24f3523ebf2c512f70f32f4f2313a86f770182babe93db4e81f"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/enrichment-proposals.related-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 2387,
+      "sha256": "sha256:3f03ced6ce284e031144e9ef6315d33432e59cc983616606ab52ccb8e103df1b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/enrichment-proposals.report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 429,
+      "sha256": "sha256:7b6f741047ae3f1f64b9e4c718640f8e19db2d4407bd8ffc37d691a3326ca569"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/full-evidence/758d7dd79d1ee683/part-000000.jsonl.gz",
+      "role": "source_material",
+      "media_type": "application/octet-stream",
+      "size": 18767,
+      "sha256": "sha256:73a301c0bae2a8a35f9908b09dd148e4cd7d535b99c94faf4a36e17d79ade39d"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/full-evidence/758d7dd79d1ee683/part-000000.manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 192,
+      "sha256": "sha256:794658a8c0b1e18460d5fa62e8349906bf3231304a448d00cd7019f370473db9"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/full-evidence/758d7dd79d1ee683/portfolio-extraction-state.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 365,
+      "sha256": "sha256:d0cf2f7218651300e3337704f833cf2618d97f5f13ea897e1ec466d5492c1ffb"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/full-evidence/758d7dd79d1ee683/snapshot-manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 534,
+      "sha256": "sha256:a7a51886a399adbfcd82ddfe91f2b496dedc7b1e6c62789286582e1f38a2cb1f"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/portfolio/identity-resolution.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 23179,
+      "sha256": "sha256:f7d057d5cab1346d5dd7de19d60e4753a97134c55d675642536e13c798d99955"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/portfolio/inventory.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 310,
+      "sha256": "sha256:648bede20c80c464fdf7dbc3f7656b3621cc7f9f0079173e0d5eb7097738ba58"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/review-candidates.generated.csv",
+      "role": "source_material",
+      "media_type": "text/csv",
+      "size": 39825,
+      "sha256": "sha256:15d571c63bc1d3b852e2eb3cb32a95de650c694e2d0880d0cac82b961046dc06"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/run-report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 12908,
+      "sha256": "sha256:d9fd16c91393dd0e1f1761fc7f36db3ad0b270e3ecf67a853d1376466b0d4152"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/seeds/extraction-intent.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 691,
+      "sha256": "sha256:d449381f22f9a8df808003a47f2eac2c28d8e05df3ec37c105457d81f4a805e2"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/seeds/portfolio-selected-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 139,
+      "sha256": "sha256:758d7dd79d1ee6833c8e1679e0d0d7ec0772584df2567227a4fd7151f327001a"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/seeds/reviewed-mappings.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 1303,
+      "sha256": "sha256:c0ed0cf480d844fafadcea471eff6cb544ba1b866b13a1dfd2ad59af0681d008"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/raw/source-profiles/maxwd-local.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1123,
+      "sha256": "sha256:bfd799319ec26b173332cc843df66ba5b043937ce59d3bbedc973d9e8d00959b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/1b1a7b7c2cc8ad32/source-index.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1989,
+      "sha256": "sha256:5b4b160c6e509d573b2dfce5f7301597aa9cf4b6586f8e6bf5437ec1936e6023"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 3850,
+      "sha256": "sha256:d385ead6569d2563241fb34442cbfa9ebf084175167f70899c266e680179eaef",
+      "state_ref": "urn:kristal:anthropology:state",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:295dda54df336245779cf88a8649f048a3bfd3e3756bca08ce7821d47d21c9f6"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/canonical-state.materialization.json",
+      "source_artifact_id": "urn:kristal:anthropology:artifact:canonical-state",
+      "kind": "segment",
+      "key": "knowledge-base/corpus/anthropology.kristal-state.json",
+      "media_type": "application/json",
+      "size": 208227,
+      "sha256": "sha256:17b4b3da9c1e693b84a7e7c4715b319ed416ba6a89f6cdcf96e8b580dfc85355",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/source-bundle.materialization.json",
+      "source_artifact_id": "urn:kristal:anthropology:artifact:editorial-sources",
+      "kind": "segment",
+      "key": "knowledge-base/sources/source-catalog.json",
+      "media_type": "application/json",
+      "size": 4878,
+      "sha256": "sha256:9db0af5be843e97bbe85584bd5c5f64bdbc60614ed966c9e59962a58ba7a8d9d",
+      "locator": null,
+      "transport_class": "materialization",
+      "availability": "unlocated"
+    }
+  ]
+}

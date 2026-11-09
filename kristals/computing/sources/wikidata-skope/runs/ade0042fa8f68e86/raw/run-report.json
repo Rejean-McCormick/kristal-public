@@ -1,0 +1,694 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Computing",
+  "run_id": "ade0042fa8f68e86",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:27:33.542583+00:00",
+  "source_labels": {
+    "project": "Kristal-Computing",
+    "namespace_id": "kristal:bulk:kristal-computing",
+    "search_labels": 248,
+    "labeled_entities": 124,
+    "labeled_properties": 0,
+    "domain_entities": 124,
+    "domain_properties": 111,
+    "unlabeled": [
+      {
+        "legacy_id": "abstraction.can_resolve_to",
+        "semantic_id": "KP399502221639813070724097"
+      },
+      {
+        "legacy_id": "abstraction.combines",
+        "semantic_id": "KP980386538959772928641124"
+      },
+      {
+        "legacy_id": "abstraction.composes",
+        "semantic_id": "KP438913382547524829479506"
+      },
+      {
+        "legacy_id": "abstraction.constrains",
+        "semantic_id": "KP44315902410659406242910"
+      },
+      {
+        "legacy_id": "abstraction.constrains_input_to",
+        "semantic_id": "KP1098691488106451310969190"
+      },
+      {
+        "legacy_id": "abstraction.constrains_output_of",
+        "semantic_id": "KP569099492407814272262970"
+      },
+      {
+        "legacy_id": "abstraction.crosses_interface",
+        "semantic_id": "KP1057827433936106080498765"
+      },
+      {
+        "legacy_id": "abstraction.decouples",
+        "semantic_id": "KP636769199295329312873851"
+      },
+      {
+        "legacy_id": "abstraction.defined_by",
+        "semantic_id": "KP317541459102947353014459"
+      },
+      {
+        "legacy_id": "abstraction.evolves",
+        "semantic_id": "KP744380859199420202538178"
+      },
+      {
+        "legacy_id": "abstraction.exposes",
+        "semantic_id": "KP1118833523568830707472504"
+      },
+      {
+        "legacy_id": "abstraction.independent_of",
+        "semantic_id": "KP63067113140586787887372"
+      },
+      {
+        "legacy_id": "abstraction.interfaces",
+        "semantic_id": "KP748205485445408948505190"
+      },
+      {
+        "legacy_id": "abstraction.is_distinct_from",
+        "semantic_id": "KP164371359029860294246900"
+      },
+      {
+        "legacy_id": "abstraction.is_kind_of",
+        "semantic_id": "KP42319767846540992996110"
+      },
+      {
+        "legacy_id": "abstraction.is_layer_of",
+        "semantic_id": "KP679656099165472041019732"
+      },
+      {
+        "legacy_id": "abstraction.is_machine_model",
+        "semantic_id": "KP522527315742521422057164"
+      },
+      {
+        "legacy_id": "abstraction.measured_against",
+        "semantic_id": "KP616553387445645233314044"
+      },
+      {
+        "legacy_id": "abstraction.mediates_reference_to",
+        "semantic_id": "KP1021034645752427205398743"
+      },
+      {
+        "legacy_id": "abstraction.protects",
+        "semantic_id": "KP1017390893062346540191421"
+      },
+      {
+        "legacy_id": "abstraction.scopes",
+        "semantic_id": "KP552057384434981427133801"
+      },
+      {
+        "legacy_id": "abstraction.separates",
+        "semantic_id": "KP439593010602834204914947"
+      },
+      {
+        "legacy_id": "abstraction.specifies",
+        "semantic_id": "KP1135241041337959458074041"
+      },
+      {
+        "legacy_id": "abstraction.specifies_ordered_steps_of",
+        "semantic_id": "KP718017076965769246056593"
+      },
+      {
+        "legacy_id": "abstraction.specifies_result_without_ordering",
+        "semantic_id": "KP239348503883319515425533"
+      },
+      {
+        "legacy_id": "abstraction.stabilizes",
+        "semantic_id": "KP1097388896960502040804319"
+      },
+      {
+        "legacy_id": "abstraction.structures",
+        "semantic_id": "KP422962619821514040334295"
+      },
+      {
+        "legacy_id": "abstraction.virtualizes",
+        "semantic_id": "KP334213347857012985593204"
+      },
+      {
+        "legacy_id": "communication.carries",
+        "semantic_id": "KP1028748880584447462882496"
+      },
+      {
+        "legacy_id": "communication.constrains_interpretation_of",
+        "semantic_id": "KP136247068688127767402278"
+      },
+      {
+        "legacy_id": "communication.contains",
+        "semantic_id": "KP332767867482791490119022"
+      },
+      {
+        "legacy_id": "communication.defines_exchange_of",
+        "semantic_id": "KP828058211273676613922844"
+      },
+      {
+        "legacy_id": "communication.delimits",
+        "semantic_id": "KP40308212747242412576429"
+      },
+      {
+        "legacy_id": "communication.depends_on",
+        "semantic_id": "KP202398565091149578026431"
+      },
+      {
+        "legacy_id": "communication.enables_exchange_of",
+        "semantic_id": "KP630402622279432038754633"
+      },
+      {
+        "legacy_id": "communication.identifies_for_routing",
+        "semantic_id": "KP334242990042623413462155"
+      },
+      {
+        "legacy_id": "communication.is_request_response_protocol",
+        "semantic_id": "KP973320736173054043889316"
+      },
+      {
+        "legacy_id": "communication.is_version_of",
+        "semantic_id": "KP930692676036651318577571"
+      },
+      {
+        "legacy_id": "communication.measures_delay_of",
+        "semantic_id": "KP1139912396977475363243503"
+      },
+      {
+        "legacy_id": "communication.measures_transfer_rate_of",
+        "semantic_id": "KP85713423093224102068634"
+      },
+      {
+        "legacy_id": "communication.operates_on",
+        "semantic_id": "KP914498438073818429528620"
+      },
+      {
+        "legacy_id": "communication.participates_in",
+        "semantic_id": "KP547914494087936331022050"
+      },
+      {
+        "legacy_id": "communication.provides_ordered_byte_stream",
+        "semantic_id": "KP760160901226884604048586"
+      },
+      {
+        "legacy_id": "communication.resolves",
+        "semantic_id": "KP1073055051830048111608388"
+      },
+      {
+        "legacy_id": "communication.shares_channel_among",
+        "semantic_id": "KP130361696615130127487538"
+      },
+      {
+        "legacy_id": "communication.transfers",
+        "semantic_id": "KP190000053318847184802470"
+      },
+      {
+        "legacy_id": "communication.transports",
+        "semantic_id": "KP979323577373903741889035"
+      },
+      {
+        "legacy_id": "communication.uses",
+        "semantic_id": "KP1113379841363750697715295"
+      },
+      {
+        "legacy_id": "computation.allocates_execution_to",
+        "semantic_id": "KP1095124057895978119405711"
+      },
+      {
+        "legacy_id": "computation.allows_multiple_successors",
+        "semantic_id": "KP706071880360579587950500"
+      },
+      {
+        "legacy_id": "computation.appears_indivisible_within",
+        "semantic_id": "KP487948647355025808714590"
+      },
+      {
+        "legacy_id": "computation.applies_to",
+        "semantic_id": "KP686537758700846183420521"
+      },
+      {
+        "legacy_id": "computation.constrains_next_state_count",
+        "semantic_id": "KP66740076433406987464875"
+      },
+      {
+        "legacy_id": "computation.constrains_ordering_of",
+        "semantic_id": "KP1161775089385016668898393"
+      },
+      {
+        "legacy_id": "computation.contains",
+        "semantic_id": "KP496275949427592170964085"
+      },
+      {
+        "legacy_id": "computation.defined_by",
+        "semantic_id": "KP735560485661212294072541"
+      },
+      {
+        "legacy_id": "computation.depends_on_ordering_of",
+        "semantic_id": "KP1205820977121631346939648"
+      },
+      {
+        "legacy_id": "computation.encodes",
+        "semantic_id": "KP889754046179353071220670"
+      },
+      {
+        "legacy_id": "computation.executes",
+        "semantic_id": "KP53135001346870162361414"
+      },
+      {
+        "legacy_id": "computation.instantiates_execution_of",
+        "semantic_id": "KP235011425023544717343775"
+      },
+      {
+        "legacy_id": "computation.is_control_structure",
+        "semantic_id": "KP486504960376333999971441"
+      },
+      {
+        "legacy_id": "computation.is_execution_flow_within",
+        "semantic_id": "KP908727891040645646665978"
+      },
+      {
+        "legacy_id": "computation.measures_resource_growth_of",
+        "semantic_id": "KP1061511762720494381255567"
+      },
+      {
+        "legacy_id": "computation.orders",
+        "semantic_id": "KP639281326737752510030030"
+      },
+      {
+        "legacy_id": "computation.property_of",
+        "semantic_id": "KP145313295731249064557992"
+      },
+      {
+        "legacy_id": "computation.redirects",
+        "semantic_id": "KP164798616942677939666658"
+      },
+      {
+        "legacy_id": "computation.specifies",
+        "semantic_id": "KP585684420441661596335031"
+      },
+      {
+        "legacy_id": "computation.transforms",
+        "semantic_id": "KP278410183470963826559993"
+      },
+      {
+        "legacy_id": "computing.has_axis",
+        "semantic_id": "KP564814475427603398468788"
+      },
+      {
+        "legacy_id": "representation.assigns_identifier",
+        "semantic_id": "KP667221298439191068425478"
+      },
+      {
+        "legacy_id": "representation.constrains",
+        "semantic_id": "KP83328217440693478134318"
+      },
+      {
+        "legacy_id": "representation.constrains_interpretation_of",
+        "semantic_id": "KP836610009359967649976807"
+      },
+      {
+        "legacy_id": "representation.contains_count",
+        "semantic_id": "KP653501573568987435130796"
+      },
+      {
+        "legacy_id": "representation.derived_from",
+        "semantic_id": "KP360189948946260699470170"
+      },
+      {
+        "legacy_id": "representation.describes",
+        "semantic_id": "KP762199662168513838116695"
+      },
+      {
+        "legacy_id": "representation.encodes",
+        "semantic_id": "KP1139740814596594743087581"
+      },
+      {
+        "legacy_id": "representation.encodes_bits_per_symbol",
+        "semantic_id": "KP590873793605510757444426"
+      },
+      {
+        "legacy_id": "representation.has_allowed_value",
+        "semantic_id": "KP983930128058838556417553"
+      },
+      {
+        "legacy_id": "representation.identifies",
+        "semantic_id": "KP252097843524869011910564"
+      },
+      {
+        "legacy_id": "representation.input_unit",
+        "semantic_id": "KP416781513071626582662268"
+      },
+      {
+        "legacy_id": "representation.is_kind_of",
+        "semantic_id": "KP339059028442936492628384"
+      },
+      {
+        "legacy_id": "representation.is_not_equivalent_to",
+        "semantic_id": "KP458976371585902026437211"
+      },
+      {
+        "legacy_id": "representation.is_serialization_format_for",
+        "semantic_id": "KP267794413565587577383678"
+      },
+      {
+        "legacy_id": "representation.orders_units",
+        "semantic_id": "KP939882682437129948591888"
+      },
+      {
+        "legacy_id": "representation.preserves_exact_reconstruction",
+        "semantic_id": "KP567561100150435757512977"
+      },
+      {
+        "legacy_id": "representation.provides_confidentiality",
+        "semantic_id": "KP1021138737644530092803377"
+      },
+      {
+        "legacy_id": "representation.refers_to",
+        "semantic_id": "KP1028125726116381654649599"
+      },
+      {
+        "legacy_id": "representation.represents",
+        "semantic_id": "KP751731839820374056799982"
+      },
+      {
+        "legacy_id": "representation.selects_deterministic_form_of",
+        "semantic_id": "KP149921135569634314065544"
+      },
+      {
+        "legacy_id": "representation.transforms",
+        "semantic_id": "KP1176646395397444404498039"
+      },
+      {
+        "legacy_id": "representation.uses",
+        "semantic_id": "KP461078751154472546813129"
+      },
+      {
+        "legacy_id": "storage.accelerates_lookup_in",
+        "semantic_id": "KP890085713989044448793964"
+      },
+      {
+        "legacy_id": "storage.can_reduce_space_for",
+        "semantic_id": "KP962839756979308769211647"
+      },
+      {
+        "legacy_id": "storage.captures",
+        "semantic_id": "KP748824740096528507765473"
+      },
+      {
+        "legacy_id": "storage.contains",
+        "semantic_id": "KP447440387022461770883239"
+      },
+      {
+        "legacy_id": "storage.contains_level",
+        "semantic_id": "KP570955398113852830203336"
+      },
+      {
+        "legacy_id": "storage.creates_multiple_copies_of",
+        "semantic_id": "KP1159310603484378806810652"
+      },
+      {
+        "legacy_id": "storage.groups_operations_on",
+        "semantic_id": "KP398715600436723983819119"
+      },
+      {
+        "legacy_id": "storage.is_kind_of",
+        "semantic_id": "KP318975422993944978987785"
+      },
+      {
+        "legacy_id": "storage.maps_key_to",
+        "semantic_id": "KP1060622967533520944557470"
+      },
+      {
+        "legacy_id": "storage.maps_name_to",
+        "semantic_id": "KP993216786772138564175728"
+      },
+      {
+        "legacy_id": "storage.named_by",
+        "semantic_id": "KP1141824115413122950999307"
+      },
+      {
+        "legacy_id": "storage.orders",
+        "semantic_id": "KP214789744989440255720186"
+      },
+      {
+        "legacy_id": "storage.organizes",
+        "semantic_id": "KP895186806934275294692061"
+      },
+      {
+        "legacy_id": "storage.persists",
+        "semantic_id": "KP234871804083580945543656"
+      },
+      {
+        "legacy_id": "storage.reclaims",
+        "semantic_id": "KP171619775667860711582352"
+      },
+      {
+        "legacy_id": "storage.requires_additional",
+        "semantic_id": "KP654852309776106660230170"
+      },
+      {
+        "legacy_id": "storage.selects_location_in",
+        "semantic_id": "KP112154896757705577269665"
+      },
+      {
+        "legacy_id": "storage.stores",
+        "semantic_id": "KP406184294602603443067664"
+      },
+      {
+        "legacy_id": "storage.stores_copy_of",
+        "semantic_id": "KP143474202912322937511623"
+      },
+      {
+        "legacy_id": "storage.supports_recovery_of",
+        "semantic_id": "KP284179005328555316251162"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "cb9103e5a8b5515087c55ee67c7702f56a6c2c127d2b147041f0701bec4f60bc",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Computing",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "computing",
+        "subdomain": "information_transformation",
+        "language": "fr"
+      },
+      "native_model": {
+        "kind": "representation_computation_storage_communication_abstraction_graph",
+        "description": "information → représentation → calcul/stockage → communication → abstraction, avec cinq axes canoniques",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "algorithmes et modèles de calcul",
+        "systèmes et architectures informatiques",
+        "Respecter: Séparer abstraction, logiciel, protocole et implémentation."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-01",
+        "support": "ARK-09",
+        "rationale": "Référence conceptuelle du calcul, stockage, représentation, communication et abstraction.",
+        "guardrail": "Chaîne de navigation non procédurale; distinguer information et représentation."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.81,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Computing\\ade0042fa8f68e86",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "a3dfac640c5edcf8b87df83e0cb6b15fd8149a1125859c32ae4d2fbb15b39831",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 248,
+    "distinct_concepts": 124,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "a3dfac640c5edcf8b87df83e0cb6b15fd8149a1125859c32ae4d2fbb15b39831",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 248,
+    "distinct_concepts": 124,
+    "cached_queries": 248,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "cross_language_conflict": 5,
+      "ambiguous_exact_candidates": 42,
+      "unique_exact_candidate": 37,
+      "saturated_exact_search": 30,
+      "no_exact_candidate": 10
+    },
+    "tentative_unverified": 37,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "a3dfac640c5edcf8b87df83e0cb6b15fd8149a1125859c32ae4d2fbb15b39831",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 37,
+    "distinct_qids": 37,
+    "qid_inventory_sha256": "6a9a7227ad4f1434c3394cb9e0a4c800668f9f1e3979c105869445d058978535",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 37,
+    "qids_acquired": 37,
+    "new_batches": 1,
+    "reused_records": 1,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Computing\\ade0042fa8f68e86\\full-evidence\\6a9a7227ad4f1434",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 37,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 941,
+    "raw_subject_entities": 37,
+    "related_unapproved_qids": 229,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-computing": 941
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "c33f91f2ecd1ac9b030b626a20667da3839e7446f20c77aa62553e2dc9fcfed5",
+  "proposals_sha256": "9abb2ad7cd8142979405aa614e7aae177332e019d0ea381cf7139492d5e92e1d"
+}

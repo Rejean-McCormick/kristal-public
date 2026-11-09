@@ -1,0 +1,54 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d11",
+  "protocol_id": "D11",
+  "title": "D11 — Transition : adoption, coopération, internationalisation et sorties",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:C01",
+    "source:multiangle:S01",
+    "source:multiangle:S10",
+    "source:multiangle:W06",
+    "source:multiangle:W10",
+    "source:multiangle:W18",
+    "source:multiangle:W19"
+  ],
+  "depends_on": [
+    "canon/domain/transition-statechart.json",
+    "D05",
+    "D02"
+  ],
+  "validation_gates": [
+    "conditions_transitions",
+    "reversibilite",
+    "consentement_et_licences"
+  ],
+  "sections": [
+    {
+      "heading": "Branches",
+      "level": 2,
+      "body_markdown": "**T1 — Expérimentation sans émission publique** : prototype hors valeur, contrats et analyse réglementaire, maquette d'audit.\n**T2 — Activité commerciale volontaire** : lingots et produits licites, facturation en CAD, revenus nets pour financement; hors définition de monnaie.\n**T3 — Moyen numérique de règlement légalement qualifié** : émission et paiements seulement avec autorisations/conditions, indépendamment de la reconnaissance souveraine.\n**T4 — Réseau de commerçants à double monnaie** : prix explicités, consentement, fiscalité, règlement et plaintes; phase réversible.\n**T5 — Autonomie institutionnelle partielle** : contrats K_M et éventuellement gouvernance cooperative réformée par décisions propres.\n**T6 — Dialogue avec autorités publiques** : aucun transfert de souveraineté ou obligation fiscale sans décision législative appropriée.\n**T7 — Dimension internationale** : conformité dans chaque juridiction; interopérabilité non synonyme de cours légal."
+    },
+    {
+      "heading": "Gates de passage (tous obligatoires)",
+      "level": 2,
+      "body_markdown": "G0 définition contractuelle → G1 fonds initiaux / bilan → G2 régulateur compétent & avis écrit → G3 conformité LBA / vie privée / fiscalité → G4 sécurité & secours → G5 audit de réserves/droits → G6 pilote volontaire limitrophe → G7 évaluation d'impact → G8 décision de croissance."
+    },
+    {
+      "heading": "Réversibilité",
+      "level": 2,
+      "body_markdown": "Dès le contrat initial : procédure de rachat ou dénouement, priorité des créanciers, modalités d'insolvabilité, continuité des comptes pour chaque utilisateur, export de données, transfert à autre prestataire et communications préalables. Un succès commercial n'autorise pas à retirer la possibilité de sortie."
+    },
+    {
+      "heading": "Scénario historique rapide",
+      "level": 2,
+      "body_markdown": "S10 évoque une transformation mondiale accélérée. Consigner sous hypothèse **H-GLOBAL-FAST** et expliciter risques majeurs : dettes multi-devises, droits souverains, absence d'autorité, choc inflationniste, protection des déposants, recours. Ne pas l'utiliser comme trajectoire de déploiement sans nouvelles preuves et mandats étatiques."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D11_TRANSITION_SCENARIOS_ET_SORTIES.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

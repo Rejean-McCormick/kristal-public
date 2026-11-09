@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:ocean:state",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:4c9232984a5dae6eec23470c5c293788869748223dec5d8001da93d5fb79b46b"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:oceanography",
+    "label": "Kristal-Ocean",
+    "domain": "oceanography",
+    "orientation": "masses d’eau, variables d’état, gradients, transports, réservoirs et habitats"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Corpus statique et modèle d’assertions du domaine oceanography",
+      "masses d’eau, variables d’état, gradients, transports, réservoirs et habitats",
+      "identifiants sémantiques, provenance et état v9 historique"
+    ],
+    "does_not_own": [
+      "ne pas dupliquer la taxonomie détaillée, les réseaux trophiques ou le droit de la mer",
+      "les dépôts sources externes et leur publication",
+      "une autorité créée par l’IA ou la matérialisation"
+    ]
+  },
+  "canonical_artifact_count": 13,
+  "source_count": 18,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 2,
+  "local_materialization_blob_count": 2,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

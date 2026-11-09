@@ -1,0 +1,39 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:neuroscience:materialization:portable-v6",
+  "source": {
+    "artifact_id": "urn:kristal:neuroscience:artifact:epistemic-state",
+    "logical_contract": {
+      "id": "kristal_state.hash_target",
+      "version": "6.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:8d62f538149a75b73b41ba509625b80069b63d0d599c31c613099f5e1cb4434f"
+    }
+  },
+  "profile": "kristal.materialization/kristal-state-v6/1",
+  "segments": [
+    {
+      "segment_key": "portable-state",
+      "record_count": 701,
+      "blob": {
+        "media_type": "application/vnd.kristal.state+json;version=6.0",
+        "digest": "sha256:cc189c42e6e083a4008443e1af3706ac2c4fcd8cd592a856226505f992ee94e1",
+        "size": 706604,
+        "locator": ".kristal/v9/materialized/portable-state.kristal-state.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "kristal_state/6.0"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.reconstruct/v6-state-hash-target/1"
+  }
+}

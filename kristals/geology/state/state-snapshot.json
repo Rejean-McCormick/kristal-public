@@ -1,0 +1,173 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:geology",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:c6182de3ca806c4086ce055fed58b5ac29d9c40761eeebebcc505a73ac4e3d28"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:geology:canonical",
+      "logical_contract": {
+        "id": "kristal.v6-state-reference",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:geology",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:b298c9c0f2fed7c16d7ca075d6ffc76a233fb072af2b4a7fbd4db163a8c9c23f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:geology:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:56b444b633daac0cf60c33cd3de1994f2a4899a1bc106ddf5e26b7ff91b4fad5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:geology:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:78cfac9c79c80b985187f596390d98e6b4c2d4405e4ff75779222b9a7ab0fbba"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:geology:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f70f7ed024cf426543e4b5c504abcaf95416cca0e6bf20f137a600dc0890bf26"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:geology:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:cae014d26562ab699007c5f1b38c8f5c0b7b4eb08fda066f72ae17feba4c4ddf"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Geology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:bb52da433b3be5e61ef2420e94c77f5d2fff5faeb606492a3e490cd6fd859969"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Geology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:515c2d57d8537c585f323a51ac48277c347025e1f79453d1ae2f2cf2ae8175df"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Geology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f12faa8fa1c2ec26449891c3ef364f96b7760d6cf5815e9769dc787c832149cb"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Geology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:53f29d53222a17eb54ecc48bbcc40f4971f746294c38b3273c956d24cae27f2b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Geology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:84e160c46b01a2043713aa5acef39b8a4e57befd1c459c4e569a1a1df0be2ff2"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Geology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:cbe3de136d8cea2b4869d3313e811f7b4710ef71c5621e9046a3ec12bbb78734"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Geology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f12faa8fa1c2ec26449891c3ef364f96b7760d6cf5815e9769dc787c832149cb"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Geology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ce558f781b0d7e895f01069b0736e88b5e5f5d7374b08e6e1a5064c47c3f043d"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:geology:v11:catalog:fr-proposal-2026-11-06",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8302bb72b7f9a781ad0410335f75e65516a76a345faf3fd1cf8771dab68b43b8"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "geology",
+    "composition": "canonical-only"
+  },
+  "authority_ref": "urn:kristal:authority:geology"
+}

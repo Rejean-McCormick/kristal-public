@@ -1,0 +1,5315 @@
+{
+  "format": "vaticanops.native-procedures/1.0",
+  "contract_status": "project_defined_not_framework_standard",
+  "kristal_state_ref": "urn:kristal:state:vaticanops",
+  "archetype": "ARK-04",
+  "model": "procedure_graph_conditionnelle",
+  "semantic_scope": "public institutional/canonical/liturgical reference procedures",
+  "authority_boundary": "independent documentation project; no authority to enforce or execute any process",
+  "source_and_legal_review": "editorial source mapping only; no legal/clerical validation",
+  "procedures": [
+    {
+      "id": "VO-P01",
+      "title_fr": "Traitement collégial des questions de compétence mixte",
+      "domain": "curie",
+      "scope": "institutions curiales",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Question relevant de plusieurs dicastères, art. 28"
+      ],
+      "nodes": [
+        {
+          "id": "M1",
+          "kind": "step",
+          "label": "Qualifier la compétence mixte de plusieurs dicastères",
+          "guard": null,
+          "role": "dicastères concernés",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "M2",
+          "kind": "step",
+          "label": "Convoquer une réunion des dicastères concernés selon le texte",
+          "guard": null,
+          "role": "chef du dicastère premier saisi",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "M3",
+          "kind": "step",
+          "label": "Consulter la commission permanente si une telle commission traite la question",
+          "guard": "commission permanente applicable",
+          "role": "commission interdicastérielle",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:14"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "M4",
+          "kind": "step",
+          "label": "Étudier la possibilité de créer une commission dédiée lorsque les conditions sont réunies",
+          "guard": "accord des institutions + approbation du Pontife romain",
+          "role": "institutions concernées / Pontife romain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:15"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "M5",
+          "kind": "outcome",
+          "label": "Conclure la coordination documentaire sans inférer de pouvoir décisionnel",
+          "guard": null,
+          "role": "indéterminé; vérifier dans la source",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "M1",
+          "to": "M2",
+          "guard": "compétence mixte vérifiée",
+          "condition_ref": "vo:guard:VO-P01-T01"
+        },
+        {
+          "from": "M2",
+          "to": "M3",
+          "guard": "commission permanente pertinente",
+          "condition_ref": "vo:guard:VO-P01-T02"
+        },
+        {
+          "from": "M2",
+          "to": "M4",
+          "guard": "commission ad hoc envisagée et conditions vérifiées",
+          "condition_ref": "vo:guard:VO-P01-T03"
+        },
+        {
+          "from": "M2",
+          "to": "M5",
+          "guard": "aucune commission supplémentaire pertinente",
+          "condition_ref": "vo:guard:VO-P01-T04"
+        },
+        {
+          "from": "M3",
+          "to": "M5",
+          "guard": "issue de consultation",
+          "condition_ref": "vo:guard:VO-P01-T05"
+        },
+        {
+          "from": "M4",
+          "to": "M5",
+          "guard": "issue de la décision sur constitution",
+          "condition_ref": "vo:guard:VO-P01-T06"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "La présence d’une commission n’est pas systématique; aucune décision réelle simulée."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025",
+        "urn:vaticanops:source:praedicate-evangelium-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P02",
+      "title_fr": "Préparation d’un document général par une institution curiale",
+      "domain": "curie",
+      "scope": "documents généraux des institutions curiales",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Document général en préparation"
+      ],
+      "nodes": [
+        {
+          "id": "G1",
+          "kind": "step",
+          "label": "Déterminer les institutions concernées par le document général",
+          "guard": null,
+          "role": "institution curiale rédactrice",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:29"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "G2",
+          "kind": "step",
+          "label": "Transmettre le texte aux autres institutions concernées pour observations",
+          "guard": null,
+          "role": "institution curiale rédactrice",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:29"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "G3",
+          "kind": "step",
+          "label": "Considérer les échanges et consultations interdicastériels prévus",
+          "guard": null,
+          "role": "institutions curiales concernées",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "G4",
+          "kind": "outcome",
+          "label": "Préparer la soumission à l’autorité appropriée, selon texte et compétence",
+          "guard": null,
+          "role": "institution curiale rédactrice",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:29"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "G1",
+          "to": "G2",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P02-T01"
+        },
+        {
+          "from": "G2",
+          "to": "G3",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P02-T02"
+        },
+        {
+          "from": "G3",
+          "to": "G4",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P02-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Contrôle des compétences et approbations requises nécessaire avant tout usage."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025",
+        "urn:vaticanops:source:praedicate-evangelium-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P03",
+      "title_fr": "Conflit de compétence entre institutions curiales",
+      "domain": "curie",
+      "scope": "compétences des institutions curiales",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Conflit de compétence constaté"
+      ],
+      "nodes": [
+        {
+          "id": "C1",
+          "kind": "step",
+          "label": "Identifier un conflit de compétence entre institutions curiales",
+          "guard": null,
+          "role": "institutions concernées",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:35"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "C2",
+          "kind": "outcome",
+          "label": "Soumettre le conflit à la Signature apostolique, sous réserve des exceptions prévues",
+          "guard": null,
+          "role": "institutions curiales concernées",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:22"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "C1",
+          "to": "C2",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P03-T01"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Art. 22 de Praedicate Evangelium réserve la décision contraire du Pontife romain."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025",
+        "urn:vaticanops:source:praedicate-evangelium-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P04",
+      "title_fr": "Recours hiérarchique contre un décret administratif dans le CIC",
+      "domain": "canon",
+      "scope": "Église latine; actes administratifs extrajudiciaires",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Décret répondant au can. 1732, hors exclusions"
+      ],
+      "nodes": [
+        {
+          "id": "R1",
+          "kind": "step",
+          "label": "Vérifier le champ d’application et les exclusions des décrets visés",
+          "guard": null,
+          "role": "personne concernée / conseiller juridique",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1732"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "R2",
+          "kind": "step",
+          "label": "Privilégier la recherche d’une solution équitable, y compris la médiation",
+          "guard": null,
+          "role": "parties concernées",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1733"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "R3",
+          "kind": "step",
+          "label": "Demander par écrit révocation ou modification dans les cas ordinaires visés",
+          "guard": "hors exceptions du can. 1734 §3; délai de 10 jours utiles",
+          "role": "personne lésée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1734"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "R4",
+          "kind": "step",
+          "label": "Appliquer le régime spécial de dispense de demande préalable",
+          "guard": "exception du can. 1734 §3",
+          "role": "personne lésée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1734"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "R5",
+          "kind": "step",
+          "label": "Calculer le point de départ du délai selon la réponse ou l’absence de réponse",
+          "guard": "demande préalable présentée",
+          "role": "personne lésée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1735"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "R6",
+          "kind": "step",
+          "label": "Vérifier suspension et demandes particulières de suspension",
+          "guard": null,
+          "role": "autorité et partie concernées",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1736"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "R7",
+          "kind": "step",
+          "label": "Former le recours hiérarchique selon les modalités et délais pertinents",
+          "guard": null,
+          "role": "personne lésée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1737"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "R8",
+          "kind": "step",
+          "label": "Prévoir l’assistance juridique reconnue au requérant",
+          "guard": null,
+          "role": "requérant / supérieur",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1738"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "R9",
+          "kind": "outcome",
+          "label": "Consigner les issues juridiques possibles du recours sans en préjuger",
+          "guard": null,
+          "role": "supérieur compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1739"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "R1",
+          "to": "R2",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P04-T01"
+        },
+        {
+          "from": "R5",
+          "to": "R6",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P04-T02"
+        },
+        {
+          "from": "R6",
+          "to": "R7",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P04-T03"
+        },
+        {
+          "from": "R7",
+          "to": "R8",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P04-T04"
+        },
+        {
+          "from": "R8",
+          "to": "R9",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P04-T05"
+        },
+        {
+          "from": "R2",
+          "to": "R3",
+          "guard": "demande préalable exigée",
+          "condition_ref": "vo:guard:VO-P04-T06"
+        },
+        {
+          "from": "R2",
+          "to": "R4",
+          "guard": "exception du can. 1734 §3",
+          "condition_ref": "vo:guard:VO-P04-T07"
+        },
+        {
+          "from": "R3",
+          "to": "R5",
+          "guard": "demande remise",
+          "condition_ref": "vo:guard:VO-P04-T08"
+        },
+        {
+          "from": "R4",
+          "to": "R6",
+          "guard": "calcul direct selon can. 1737 §2",
+          "condition_ref": "vo:guard:VO-P04-T09"
+        },
+        {
+          "from": "R5",
+          "to": "R6",
+          "guard": "délai calculé",
+          "condition_ref": "vo:guard:VO-P04-T10"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Les délais sont réglementaires, mais ce modèle ne calcule ni ne notifie des délais pour des cas réels.",
+        "Vérifier loi particulière et mises à jour."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P05",
+      "title_fr": "Traitement initial d’une notitia et enquête préalable (DDF)",
+      "domain": "discipline-ddf",
+      "scope": "procédures canoniques concernant des allégations; protection des personnes",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Notitia reçue dans le champ du Vademecum"
+      ],
+      "nodes": [
+        {
+          "id": "D1",
+          "kind": "step",
+          "label": "Identifier et recevoir une information sur un délit présumé (notitia)",
+          "guard": null,
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:9"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D2",
+          "kind": "step",
+          "label": "Examiner la vraisemblance, en évitant une conclusion hâtive",
+          "guard": null,
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:18"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D3",
+          "kind": "step",
+          "label": "Ouvrir l’enquête préalable quand la vraisemblance minimale est réunie",
+          "guard": "notitia au moins vraisemblable",
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:16"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D4",
+          "kind": "exception",
+          "label": "Conserver la documentation et consigner la décision en cas de défaut manifeste de vraisemblance",
+          "guard": "information manifestement sans vraisemblance",
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:16"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D5",
+          "kind": "outcome",
+          "label": "Noter la recommandation d’informer le DDF de la non-ouverture",
+          "guard": "enquête non ouverte pour défaut manifeste de vraisemblance",
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:19"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D6",
+          "kind": "step",
+          "label": "Identifier l’autorité chargée de l’enquête ou son délégué",
+          "guard": null,
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:21"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D7",
+          "kind": "step",
+          "label": "Veiller à la distinction enquête canonique / enquête civile et aux lois civiles",
+          "guard": null,
+          "role": "autorité ecclésiastique compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:26"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D8",
+          "kind": "step",
+          "label": "Recueillir les éléments utiles à l’enquête préliminaire",
+          "guard": null,
+          "role": "enquêteur canonique",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:34"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D9",
+          "kind": "step",
+          "label": "Respecter confidentialité et absence d’obligation imposée de silence aux signalants",
+          "guard": null,
+          "role": "autorité ecclésiastique compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:30"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D10",
+          "kind": "step",
+          "label": "Assurer dignité, écoute et accompagnement des personnes concernées",
+          "guard": null,
+          "role": "autorités ecclésiastiques",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:55"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "D11",
+          "kind": "outcome",
+          "label": "Transmettre les actes de l’enquête préliminaire au DDF suivant le texte",
+          "guard": null,
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:69"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "D1",
+          "to": "D2",
+          "guard": "information reçue",
+          "condition_ref": "vo:guard:VO-P05-T01"
+        },
+        {
+          "from": "D2",
+          "to": "D3",
+          "guard": "vraisemblance minimale",
+          "condition_ref": "vo:guard:VO-P05-T02"
+        },
+        {
+          "from": "D2",
+          "to": "D4",
+          "guard": "défaut manifeste de vraisemblance",
+          "condition_ref": "vo:guard:VO-P05-T03"
+        },
+        {
+          "from": "D4",
+          "to": "D5",
+          "guard": "conservation documentation",
+          "condition_ref": "vo:guard:VO-P05-T04"
+        },
+        {
+          "from": "D3",
+          "to": "D6",
+          "guard": "enquête requise",
+          "condition_ref": "vo:guard:VO-P05-T05"
+        },
+        {
+          "from": "D6",
+          "to": "D7",
+          "guard": "enquête sous responsabilité compétente",
+          "condition_ref": "vo:guard:VO-P05-T06"
+        },
+        {
+          "from": "D7",
+          "to": "D8",
+          "guard": "collecte appropriée",
+          "condition_ref": "vo:guard:VO-P05-T07"
+        },
+        {
+          "from": "D8",
+          "to": "D9",
+          "guard": "poursuite conformément aux règles",
+          "condition_ref": "vo:guard:VO-P05-T08"
+        },
+        {
+          "from": "D9",
+          "to": "D10",
+          "guard": "protection et accompagnement continus",
+          "condition_ref": "vo:guard:VO-P05-T09"
+        },
+        {
+          "from": "D10",
+          "to": "D11",
+          "guard": "enquête conclue",
+          "condition_ref": "vo:guard:VO-P05-T10"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Modèle documentaire, NON un manuel de traitement de cas réel.",
+        "Respect impératif des autorités civiles et dispositifs de protection; aucune donnée nominative.",
+        "Le Vademecum explicite qu’il ne change pas la législation applicable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P06",
+      "title_fr": "Schéma de l’élection pontificale selon Universi Dominici Gregis",
+      "domain": "sede-vacante",
+      "scope": "Constitution de 1996 non consolidée",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Vacance légitime du Siège apostolique"
+      ],
+      "nodes": [
+        {
+          "id": "E1",
+          "kind": "step",
+          "label": "Identifier les électeurs selon le texte et les conditions de date",
+          "guard": null,
+          "role": "Collège des cardinaux",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:33"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "E2",
+          "kind": "step",
+          "label": "Établir le calendrier d’entrée en conclave sous les exceptions prévues",
+          "guard": null,
+          "role": "Collège des cardinaux",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "E3",
+          "kind": "step",
+          "label": "Organiser la prestation de serment des cardinaux électeurs",
+          "guard": null,
+          "role": "cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:52"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "E4",
+          "kind": "step",
+          "label": "Suivre la formule du serment prévue",
+          "guard": null,
+          "role": "cardinal doyen ou remplaçant prévu",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:53"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "E5",
+          "kind": "step",
+          "label": "Prendre acte du retrait des autres personnes selon la procédure",
+          "guard": null,
+          "role": "personnes indiquées dans le texte",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:54"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "E6",
+          "kind": "step",
+          "label": "Décrire le scrutin sous les règles applicables",
+          "guard": null,
+          "role": "cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:62"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "E7",
+          "kind": "step",
+          "label": "Faire demander le consentement de l’élu canoniquement désigné",
+          "guard": null,
+          "role": "cardinal doyen ou remplaçant prévu",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:87"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "E8",
+          "kind": "outcome",
+          "label": "Consigner la portée juridique de l’acceptation suivant le texte",
+          "guard": null,
+          "role": "élu",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:88"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "E9",
+          "kind": "outcome",
+          "label": "Décrire les formalités finales et l’hommage",
+          "guard": null,
+          "role": "cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:89"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "E1",
+          "to": "E2",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P06-T01"
+        },
+        {
+          "from": "E2",
+          "to": "E3",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P06-T02"
+        },
+        {
+          "from": "E3",
+          "to": "E4",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P06-T03"
+        },
+        {
+          "from": "E4",
+          "to": "E5",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P06-T04"
+        },
+        {
+          "from": "E5",
+          "to": "E6",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P06-T05"
+        },
+        {
+          "from": "E6",
+          "to": "E7",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P06-T06"
+        },
+        {
+          "from": "E7",
+          "to": "E8",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P06-T07"
+        },
+        {
+          "from": "E8",
+          "to": "E9",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P06-T08"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "ATTENTION : cette Constitution a été modifiée; aucun calcul de seuil / délais / déroulement actuel sans version consolidée.",
+        "La linéarité du schéma est un résumé documentaire, non l’intégralité du droit électoral."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:universi-dominici-gregis-1996"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P07",
+      "title_fr": "Structure générale de la célébration de la messe",
+      "domain": "liturgie",
+      "scope": "forme du rite romain couverte par la PGMR",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Célébration de messe selon ce missel"
+      ],
+      "nodes": [
+        {
+          "id": "L1",
+          "kind": "step",
+          "label": "Situer l’ouverture et ses éléments",
+          "guard": null,
+          "role": "assemblée / ministres",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:46"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L2",
+          "kind": "step",
+          "label": "Décrire la salutation initiale",
+          "guard": null,
+          "role": "prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:50"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L3",
+          "kind": "step",
+          "label": "Décrire la préparation pénitentielle",
+          "guard": null,
+          "role": "assemblée / prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:51"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L4",
+          "kind": "step",
+          "label": "Décrire le Kyrie selon sa place éventuelle dans l’acte pénitentiel",
+          "guard": null,
+          "role": "assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:52"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L5",
+          "kind": "step",
+          "label": "Décrire le Gloria dans les circonstances prévues",
+          "guard": "usage liturgique prescrit",
+          "role": "assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:53"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L6",
+          "kind": "step",
+          "label": "Décrire l’oraison d’ouverture",
+          "guard": null,
+          "role": "prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:54"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L7",
+          "kind": "step",
+          "label": "Décrire les grandes parties de la liturgie de la Parole",
+          "guard": null,
+          "role": "lecteurs / diacre / prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:55"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L8",
+          "kind": "step",
+          "label": "Décrire la prière eucharistique (structure générale)",
+          "guard": null,
+          "role": "prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:72"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L9",
+          "kind": "step",
+          "label": "Décrire le rite de communion (structure générale)",
+          "guard": null,
+          "role": "assemblée / prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:80"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "L10",
+          "kind": "outcome",
+          "label": "Décrire les rites de conclusion",
+          "guard": null,
+          "role": "prêtre / diacre / assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:90"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "L1",
+          "to": "L2",
+          "guard": "séquence générale sous adaptations prévues",
+          "condition_ref": "vo:guard:VO-P07-T01"
+        },
+        {
+          "from": "L2",
+          "to": "L3",
+          "guard": "séquence générale sous adaptations prévues",
+          "condition_ref": "vo:guard:VO-P07-T02"
+        },
+        {
+          "from": "L3",
+          "to": "L4",
+          "guard": "séquence générale sous adaptations prévues",
+          "condition_ref": "vo:guard:VO-P07-T03"
+        },
+        {
+          "from": "L6",
+          "to": "L7",
+          "guard": "séquence générale sous adaptations prévues",
+          "condition_ref": "vo:guard:VO-P07-T04"
+        },
+        {
+          "from": "L7",
+          "to": "L8",
+          "guard": "séquence générale sous adaptations prévues",
+          "condition_ref": "vo:guard:VO-P07-T05"
+        },
+        {
+          "from": "L8",
+          "to": "L9",
+          "guard": "séquence générale sous adaptations prévues",
+          "condition_ref": "vo:guard:VO-P07-T06"
+        },
+        {
+          "from": "L9",
+          "to": "L10",
+          "guard": "séquence générale sous adaptations prévues",
+          "condition_ref": "vo:guard:VO-P07-T07"
+        },
+        {
+          "from": "L4",
+          "to": "L5",
+          "guard": "Gloria prescrit",
+          "condition_ref": "vo:guard:VO-P07-T08"
+        },
+        {
+          "from": "L4",
+          "to": "L6",
+          "guard": "Gloria non prescrit",
+          "condition_ref": "vo:guard:VO-P07-T09"
+        },
+        {
+          "from": "L5",
+          "to": "L6",
+          "guard": "après le Gloria",
+          "condition_ref": "vo:guard:VO-P07-T10"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Graphe simplifié; ne remplace ni rubriques détaillées ni calendriers particuliers.",
+        "Le Code de droit canonique ne remplace pas les lois liturgiques (can. 2)."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:missel-general"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P08",
+      "title_fr": "Examen d’une contestation administrative dans le cadre curial",
+      "domain": "curie",
+      "scope": "institutions curiales et recours prévus au règlement 2025",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Mesure ou décision susceptible de contestation"
+      ],
+      "nodes": [
+        {
+          "id": "A1",
+          "kind": "step",
+          "label": "Identifier la décision ou le règlement notifié aux parties intéressées",
+          "guard": null,
+          "role": "institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:40"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "A2",
+          "kind": "step",
+          "label": "Examiner la demande de modification ou révocation adressée à l’institution",
+          "guard": null,
+          "role": "partie se déclarant lésée / institution",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:41"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "A3",
+          "kind": "step",
+          "label": "Vérifier compétence et conditions de recevabilité du recours",
+          "guard": null,
+          "role": "institution curiale compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:43"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "A4",
+          "kind": "outcome",
+          "label": "Examiner le recours hiérarchique dans son cadre juridique",
+          "guard": null,
+          "role": "institution curiale compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:42"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "A1",
+          "to": "A2",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P08-T01"
+        },
+        {
+          "from": "A2",
+          "to": "A3",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P08-T02"
+        },
+        {
+          "from": "A3",
+          "to": "A4",
+          "guard": "continuation décrite / sous réserve de conditions propres à la source",
+          "condition_ref": "vo:guard:VO-P08-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Les parcours de recours ne se confondent pas nécessairement avec les canons 1732–1739, qui exigent un examen du champ exact.",
+        "Traduction française du règlement italien non officiellement fournie dans le corpus."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P09",
+      "title_fr": "Session interdicastérielle de plusieurs dicastères",
+      "domain": "curie",
+      "scope": "Réunions des membres de plusieurs dicastères",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Étudier le champ d’application et la version de la source; ne pas décider de l’autorité"
+      ],
+      "nodes": [
+        {
+          "id": "I1",
+          "kind": "step",
+          "label": "Identifier la question commune et le besoin de session",
+          "guard": null,
+          "role": "Chef de dicastère intéressé",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:7"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "I2",
+          "kind": "step",
+          "label": "Vérifier l’approbation pontificale et l’entente des chefs pour la convocation",
+          "guard": null,
+          "role": "Chefs de dicastère / Pontife romain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:7"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "I3",
+          "kind": "step",
+          "label": "Fixer la date avec la Secrétairerie d’État et désigner un rapporteur",
+          "guard": null,
+          "role": "Chefs de dicastère",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:8"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "I4",
+          "kind": "step",
+          "label": "Distribuer la documentation préparatoire et conduire la discussion",
+          "guard": null,
+          "role": "Dicastère initiateur / président",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:8"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "I5",
+          "kind": "step",
+          "label": "Consigner le vote éventuel et présenter conjointement les résultats",
+          "guard": null,
+          "role": "Chefs de dicastère concernés",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:9"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "I6Z",
+          "kind": "outcome",
+          "label": "Retirer les dossiers réservés et notifier les décisions effectivement prises",
+          "guard": null,
+          "role": "Sous-secrétaires / dicastères",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:9"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "I1",
+          "to": "I2",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P09-T01"
+        },
+        {
+          "from": "I2",
+          "to": "I3",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P09-T02"
+        },
+        {
+          "from": "I3",
+          "to": "I4",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P09-T03"
+        },
+        {
+          "from": "I4",
+          "to": "I5",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P09-T04"
+        },
+        {
+          "from": "I5",
+          "to": "I6Z",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P09-T05"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "La convocation, le scrutin éventuel et les décisions sont soumis au texte; ce graphe n’atteste aucun événement."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P10",
+      "title_fr": "Demande d’approbation pontificale en forme spécifique",
+      "domain": "curie",
+      "scope": "Acte administratif et dérogations",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Étudier le champ d’application et la version de la source; ne pas décider de l’autorité"
+      ],
+      "nodes": [
+        {
+          "id": "F1",
+          "kind": "step",
+          "label": "Déterminer si l’institution souhaite demander une approbation en forme spécifique",
+          "guard": null,
+          "role": "Institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:31"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "F2",
+          "kind": "step",
+          "label": "Préparer une demande écrite motivée et un texte définitif",
+          "guard": null,
+          "role": "Institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:31"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "F3",
+          "kind": "step",
+          "label": "Préciser et expliquer toute dérogation au droit universel en vigueur",
+          "guard": null,
+          "role": "Institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:31"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "F4Z",
+          "kind": "outcome",
+          "label": "Distinguer demande, mandat procédural éventuel et approbation explicite",
+          "guard": null,
+          "role": "Pontife romain / institution",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:31"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "F1",
+          "to": "F2",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P10-T01"
+        },
+        {
+          "from": "F2",
+          "to": "F3",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P10-T02"
+        },
+        {
+          "from": "F3",
+          "to": "F4Z",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P10-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Aucune approbation ne se déduit de la demande ou d’un silence."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P11",
+      "title_fr": "Élaboration et examen d’un document curial destiné à publication",
+      "domain": "curie",
+      "scope": "Documents d’intérêt universel",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Étudier le champ d’application et la version de la source; ne pas décider de l’autorité"
+      ],
+      "nodes": [
+        {
+          "id": "P1",
+          "kind": "step",
+          "label": "Identifier le domaine de compétence, la nature et la forme du document",
+          "guard": null,
+          "role": "Institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "P2",
+          "kind": "step",
+          "label": "Faire élaborer le projet par le service compétent avec les experts",
+          "guard": null,
+          "role": "Service / section compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "P3",
+          "kind": "step",
+          "label": "Organiser l’examen interne et les observations des institutions concernées",
+          "guard": null,
+          "role": "Chef de l’institution",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "P4",
+          "kind": "step",
+          "label": "Vérifier si l’examen préalable doctrinal ou juridique est requis",
+          "guard": null,
+          "role": "Dicastère concerné",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "P5",
+          "kind": "step",
+          "label": "Soumettre aux membres et à l’autorité pontificale selon les conditions prévues",
+          "guard": null,
+          "role": "Membres du dicastère / Pontife romain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "P6",
+          "kind": "step",
+          "label": "Effectuer la signature et la communication préalable prévues",
+          "guard": null,
+          "role": "Chef / Secrétaire / Représentants pontificaux",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "P7Z",
+          "kind": "outcome",
+          "label": "Expliquer publiquement le document selon les règles applicables",
+          "guard": null,
+          "role": "Institution curiale / communication",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "P1",
+          "to": "P2",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P11-T01"
+        },
+        {
+          "from": "P2",
+          "to": "P3",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P11-T02"
+        },
+        {
+          "from": "P3",
+          "to": "P4",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P11-T03"
+        },
+        {
+          "from": "P4",
+          "to": "P5",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P11-T04"
+        },
+        {
+          "from": "P5",
+          "to": "P6",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P11-T05"
+        },
+        {
+          "from": "P6",
+          "to": "P7Z",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P11-T06"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Les branches doctrinale, juridique et pontificale sont conditionnelles, pas universelles."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P12",
+      "title_fr": "Préparation des visites ad limina",
+      "domain": "curie",
+      "scope": "Visites des évêques diocésains",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Étudier le champ d’application et la version de la source; ne pas décider de l’autorité"
+      ],
+      "nodes": [
+        {
+          "id": "V1",
+          "kind": "step",
+          "label": "Coordonner la programmation des visites entre les organes mentionnés",
+          "guard": null,
+          "role": "Préfecture de la Maison pontificale / dicastères",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:46"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "V2",
+          "kind": "step",
+          "label": "Identifier les trois phases majeures des visites",
+          "guard": null,
+          "role": "Dicastère compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:47"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "V3",
+          "kind": "step",
+          "label": "Recevoir la relation sur l’état du diocèse selon l’échéance citée",
+          "guard": null,
+          "role": "Dicastère compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:48"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "V4",
+          "kind": "step",
+          "label": "Communiquer aux autres institutions compétentes pour observations",
+          "guard": null,
+          "role": "Dicastère compétent / autres institutions",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:48"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "V5Z",
+          "kind": "outcome",
+          "label": "Préparer les rencontres institutionnelles prévues",
+          "guard": null,
+          "role": "Dicastère compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:47"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "V1",
+          "to": "V2",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P12-T01"
+        },
+        {
+          "from": "V2",
+          "to": "V3",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P12-T02"
+        },
+        {
+          "from": "V3",
+          "to": "V4",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P12-T03"
+        },
+        {
+          "from": "V4",
+          "to": "V5Z",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P12-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Le délai de six mois du document n’est pas une échéance exécutable depuis ce programme."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P13",
+      "title_fr": "Conservation et transfert des archives curiales",
+      "domain": "curie",
+      "scope": "Archives et protocole des institutions",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Étudier le champ d’application et la version de la source; ne pas décider de l’autorité"
+      ],
+      "nodes": [
+        {
+          "id": "H1",
+          "kind": "step",
+          "label": "Organiser la conservation soignée des actes et documents dans les archives",
+          "guard": null,
+          "role": "Institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:51"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "H2",
+          "kind": "step",
+          "label": "Maintenir ordre et sécurité du protocole et des archives selon la norme",
+          "guard": null,
+          "role": "Responsables des archives",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:51"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "H3Z",
+          "kind": "outcome",
+          "label": "Identifier les documents qui ne sont plus nécessaires et les transferts périodiques prévus",
+          "guard": null,
+          "role": "Institution / Archives apostoliques",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:51"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "H1",
+          "to": "H2",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P13-T01"
+        },
+        {
+          "from": "H2",
+          "to": "H3Z",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P13-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Le texte ne constitue pas un guide d’accès à des archives confidentielles."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P14",
+      "title_fr": "Détermination des procédures propres de rescrits et dispenses",
+      "domain": "curie",
+      "scope": "Ordo servandus pour actes administratifs particuliers",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Étudier le champ d’application et la version de la source; ne pas décider de l’autorité"
+      ],
+      "nodes": [
+        {
+          "id": "O1",
+          "kind": "step",
+          "label": "Déterminer si l’institution est autorisée pour la catégorie d’acte",
+          "guard": null,
+          "role": "Institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:39"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "O2",
+          "kind": "step",
+          "label": "Repérer la procédure applicable définie dans son Ordo servandus",
+          "guard": null,
+          "role": "Institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:39"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "O3Z",
+          "kind": "outcome",
+          "label": "Vérifier les normes canoniques et les consultations exigées",
+          "guard": null,
+          "role": "Institution curiale / ordinaires intéressés",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:39"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "O1",
+          "to": "O2",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P14-T01"
+        },
+        {
+          "from": "O2",
+          "to": "O3Z",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P14-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Les Ordo servandus particuliers ne sont pas contenus dans cette archive; impossible de compléter ces branches."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P15",
+      "title_fr": "Traitement documentaire après transmission d’une enquête préalable au DDF",
+      "domain": "discipline-ddf",
+      "scope": "Après transmission des actes au dicastère",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Étudier le champ d’application et la version de la source; ne pas décider de l’autorité"
+      ],
+      "nodes": [
+        {
+          "id": "T1",
+          "kind": "step",
+          "label": "Distinguer l’étape de transmission des actes et l’attente des instructions",
+          "guard": null,
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:74"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "T2",
+          "kind": "step",
+          "label": "Repérer le régime de transmission d’informations nouvelles éventuelles",
+          "guard": null,
+          "role": "Ordinaire / Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:75"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "T3",
+          "kind": "step",
+          "label": "Décrire l’accusé de réception prévu par le DDF",
+          "guard": null,
+          "role": "Dicastère pour la doctrine de la foi",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:76"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "T4Z",
+          "kind": "outcome",
+          "label": "Présenter les différentes issues possibles après examen, sans en choisir une",
+          "guard": null,
+          "role": "Dicastère pour la doctrine de la foi",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:77"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "T1",
+          "to": "T2",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P15-T01"
+        },
+        {
+          "from": "T2",
+          "to": "T3",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P15-T02"
+        },
+        {
+          "from": "T3",
+          "to": "T4Z",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P15-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Schéma de lecture seulement, aucune évaluation de signalement réel ou de responsabilité individuelle."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P16",
+      "title_fr": "Orientation des questions judiciaires dans la Curie",
+      "domain": "curie",
+      "scope": "Compétence des tribunaux et matières réservées",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Étudier le champ d’application et la version de la source; ne pas décider de l’autorité"
+      ],
+      "nodes": [
+        {
+          "id": "J1",
+          "kind": "step",
+          "label": "Distinguer les questions nécessitant une voie juridictionnelle",
+          "guard": null,
+          "role": "Institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:34"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "J2",
+          "kind": "step",
+          "label": "Repérer les affaires réservées au dicastère compétent",
+          "guard": null,
+          "role": "Dicastère pour la doctrine de la foi",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:34"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "J3Z",
+          "kind": "outcome",
+          "label": "Ne pas confondre renvoi juridictionnel et conflit de compétence curiale",
+          "guard": null,
+          "role": "Tribunaux compétents / Signature apostolique",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:35"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "J1",
+          "to": "J2",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P16-T01"
+        },
+        {
+          "from": "J2",
+          "to": "J3Z",
+          "guard": "référence applicable et conditions vérifiées par une autorité compétente — non évalué automatiquement",
+          "condition_ref": "vo:guard:VO-P16-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Les critères de compétence détaillés exigent les lois propres et les cas concrets."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated"
+    },
+    {
+      "id": "VO-P17",
+      "title_fr": "Élection canonique et acceptation",
+      "domain": "Droit latin / offices",
+      "scope": "Droit latin / offices — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier le collège électoral et la fenêtre d’élection",
+          "guard": null,
+          "role": "collège ou groupe électeur",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:165"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Vérifier la convocation et les électeurs présents",
+          "guard": null,
+          "role": "président du collège",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:167"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Notifier l’élection et consulter les conditions d’acceptation",
+          "guard": null,
+          "role": "président et élu",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:177"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "outcome",
+          "label": "Vérifier si une confirmation est requise et qui la demande",
+          "guard": null,
+          "role": "élu et autorité compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:179"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P17-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P17-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P17-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P18",
+      "title_fr": "Renonciation à un office ecclésiastique",
+      "domain": "Droit latin / offices",
+      "scope": "Droit latin / offices — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Vérifier les conditions de renonciation et la liberté de l’acte",
+          "guard": null,
+          "role": "titulaire de l’office",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:187"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "outcome",
+          "label": "Identifier l’autorité destinataire et les modalités de présentation",
+          "guard": null,
+          "role": "titulaire et autorité compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:189"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P18-T01"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P19",
+      "title_fr": "Dispense par l’évêque diocésain",
+      "domain": "Droit latin / gouvernement",
+      "scope": "Droit latin / gouvernement — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner le pouvoir de dispense et ses exclusions",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:87"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "outcome",
+          "label": "Documenter la juste cause et les limites de la dispense",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:90"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P19-T01"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P20",
+      "title_fr": "Synode diocésain : convocation et décrets",
+      "domain": "Droit latin / gouvernement",
+      "scope": "Droit latin / gouvernement — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner la convocation après consultation du conseil presbytéral",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:461"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Identifier les personnes à convoquer et leurs catégories",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:463"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Distinguer la voix consultative et la fonction législative",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:466"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "outcome",
+          "label": "Consigner la communication des déclarations et décrets",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:467"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P20-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P20-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P20-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P21",
+      "title_fr": "Archives diocésaines : conservation et accès",
+      "domain": "Droit latin / archives",
+      "scope": "Droit latin / archives — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier les documents à conserver et les obligations de conservation",
+          "guard": null,
+          "role": "chancelier et curie diocésaine",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:486"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner les conditions de sortie temporaire des documents",
+          "guard": null,
+          "role": "évêque ou responsables compétents",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:488"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Distinguer les exigences concernant les archives secrètes",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:489"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Contrôler la règle d’accès aux archives secrètes",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:490"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "outcome",
+          "label": "Examiner le contrôle des archives ecclésiales du territoire",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:491"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P21-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P21-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P21-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P21-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P22",
+      "title_fr": "Préparation et licéité du baptême",
+      "domain": "Droit latin / sacrements",
+      "scope": "Droit latin / sacrements — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier le rituel et l’exception pour l’urgente nécessité",
+          "guard": null,
+          "role": "ministre du baptême",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:850"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Recenser les mesures de préparation du baptême",
+          "guard": null,
+          "role": "pasteur responsable",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:851"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Examiner les conditions propres au baptême des enfants",
+          "guard": null,
+          "role": "parents et pasteur compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:868"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P22-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P22-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P23",
+      "title_fr": "Enquête préalable au mariage",
+      "domain": "Droit latin / mariage",
+      "scope": "Droit latin / mariage — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Vérifier l’absence d’obstacle à la validité et à la licéité",
+          "guard": null,
+          "role": "pasteur compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1066"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Appliquer les règles particulières établies par la conférence épiscopale",
+          "guard": null,
+          "role": "pasteur compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1067"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Vérifier les situations nécessitant l’autorisation de l’Ordinaire",
+          "guard": null,
+          "role": "Ordinaire du lieu",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1071"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P23-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P23-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P24",
+      "title_fr": "Administration des biens ecclésiastiques",
+      "domain": "Droit latin / biens",
+      "scope": "Droit latin / biens — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Distinguer les actes importants et extraordinaires et leurs consultations",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1277"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Vérifier les limites de l’administration ordinaire",
+          "guard": null,
+          "role": "administrateur et Ordinaire",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1281"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Recenser les devoirs diligents des administrateurs",
+          "guard": null,
+          "role": "administrateur des biens",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1284"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P24-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P24-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P25",
+      "title_fr": "Aliénation et opérations patrimoniales à risque",
+      "domain": "Droit latin / biens",
+      "scope": "Droit latin / biens — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner les biens et seuils soumis à autorisation",
+          "guard": null,
+          "role": "autorité compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1291"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Déterminer selon le droit particulier les organes requis et seuils",
+          "guard": null,
+          "role": "autorité compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1292"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Vérifier l’application à certaines opérations autres que l’aliénation",
+          "guard": null,
+          "role": "administrateur compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1295"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P25-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P25-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P26",
+      "title_fr": "Choix de la voie pénale canonique",
+      "domain": "Droit latin / discipline",
+      "scope": "Droit latin / discipline — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner la nécessité d’une procédure pénale après mesures pastorales",
+          "guard": null,
+          "role": "Ordinaire",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1341"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner les conditions d’une voie extrajudiciaire",
+          "guard": null,
+          "role": "Ordinaire",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1342"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Consulter les garanties de la procédure pénale extrajudiciaire",
+          "guard": null,
+          "role": "Ordinaire",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1720"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P26-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P26-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P27",
+      "title_fr": "Introduction d’une cause contentieuse",
+      "domain": "Droit latin / justice",
+      "scope": "Droit latin / justice — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier la requête nécessaire à l’introduction d’une cause",
+          "guard": null,
+          "role": "demandeur ou promoteur de justice",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1501"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner compétence et admission ou rejet du libelle",
+          "guard": null,
+          "role": "juge",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1505"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Identifier les termes du litige par le décret de litiscontestation",
+          "guard": null,
+          "role": "juge",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1513"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P27-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P27-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P28",
+      "title_fr": "Instruction et publication des actes du procès",
+      "domain": "Droit latin / justice",
+      "scope": "Droit latin / justice — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Déterminer la charge et les exceptions en matière de preuve",
+          "guard": null,
+          "role": "parties et juge",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1526"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner l’admissibilité des témoignages",
+          "guard": null,
+          "role": "juge",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1547"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner les conditions d’audition des témoins",
+          "guard": null,
+          "role": "juge",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1558"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "outcome",
+          "label": "Contrôler la publication des actes dans les conditions du droit",
+          "guard": null,
+          "role": "juge",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1598"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P28-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P28-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P28-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P29",
+      "title_fr": "Sentence et voies de contestation",
+      "domain": "Droit latin / justice",
+      "scope": "Droit latin / justice — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier la nature de la décision judiciaire",
+          "guard": null,
+          "role": "juge",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1607"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Vérifier la publication de la sentence et notification des recours",
+          "guard": null,
+          "role": "tribunal",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1614"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner le droit d’appel contre une sentence dans les limites prévues par la loi",
+          "guard": null,
+          "role": "partie intéressée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1628"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "outcome",
+          "label": "Examiner les conditions de restitution in integrum",
+          "guard": null,
+          "role": "partie et juge compétent",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1645"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P29-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P29-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P29-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P30",
+      "title_fr": "Enquête pénale préalable selon le CIC",
+      "domain": "Droit latin / discipline",
+      "scope": "Droit latin / discipline — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier la notitia et l’ouverture éventuelle de l’enquête",
+          "guard": null,
+          "role": "Ordinaire",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1717"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner le décret sur les suites à donner",
+          "guard": null,
+          "role": "Ordinaire",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1718"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Assurer la conservation des actes conformément au droit",
+          "guard": null,
+          "role": "Ordinaire et chancellerie",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1719"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P30-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P30-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P31",
+      "title_fr": "Révocation d’un curé : cadre procédural",
+      "domain": "Droit latin / paroisses",
+      "scope": "Droit latin / paroisses — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier les causes possibles et les seuils légaux",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1740"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner la consultation et la demande de renonciation",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1742"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner la réponse et les voies prévues",
+          "guard": null,
+          "role": "curé et évêque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1744"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Examiner la contestation et la suite du processus",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1745"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "outcome",
+          "label": "Distinguer les effets de la décision et les garanties",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1747"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P31-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P31-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P31-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P31-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P32",
+      "title_fr": "Transfert d’un curé : examen contradictoire",
+      "domain": "Droit latin / paroisses",
+      "scope": "Droit latin / paroisses — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner les motifs du transfert envisagé",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1748"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner les formalités en cas d’opposition au transfert",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1750"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Vérifier l’issue et le principe de salut des âmes",
+          "guard": null,
+          "role": "évêque diocésain",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:1752"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P32-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P32-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P33",
+      "title_fr": "Demande de décret et absence de réponse",
+      "domain": "Droit latin / administration",
+      "scope": "Droit latin / administration — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier la demande, les délais et le statut de la réponse",
+          "guard": null,
+          "role": "autorité administrative compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:57"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "outcome",
+          "label": "Examiner effets et modalités des actes administratifs",
+          "guard": null,
+          "role": "autorité administrative compétente",
+          "evidence_refs": [
+            "urn:vaticanops:passage:cic-1983:canon:58"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P33-T01"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:cic-1983"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P34",
+      "title_fr": "Convocation et session interdicastérielle dans la Curie",
+      "domain": "Curie / coordination",
+      "scope": "Curie / personnel — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier le périmètre institutionnel du règlement",
+          "guard": null,
+          "role": "responsables curiaux",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:1"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Vérifier la convocation des chefs de dicastères après accord du Pontife romain",
+          "guard": null,
+          "role": "responsables curiaux",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:5"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Examiner la convocation et la présidence d’une session de plusieurs dicastères",
+          "guard": null,
+          "role": "responsables curiaux",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:7"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P34-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P34-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P35",
+      "title_fr": "Coordination des responsables institutionnels",
+      "domain": "Curie / coordination",
+      "scope": "Curie / coordination — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Distinguer le rôle des consistoires de cardinaux des réunions des chefs de dicastères",
+          "guard": null,
+          "role": "responsables institutionnels",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:3"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner la convocation des rencontres prévues",
+          "guard": null,
+          "role": "secrétariat d’État",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:4"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Vérifier les modalités d’organisation pertinentes",
+          "guard": null,
+          "role": "responsables concernés",
+          "evidence_refs": [
+            "urn:vaticanops:passage:curie-reglement-2025:article:6"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P35-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P35-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:curie-reglement-2025"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P36",
+      "title_fr": "Limites des actes curiaux",
+      "domain": "Curie / gouvernance",
+      "scope": "Curie / gouvernance — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier la matière relevant de l’institution",
+          "guard": null,
+          "role": "institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:23"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner le circuit d’observations interinstitutionnelles",
+          "guard": null,
+          "role": "institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:29"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Vérifier les restrictions quant aux actes ayant force de loi",
+          "guard": null,
+          "role": "institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:30"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P36-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P36-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:praedicate-evangelium-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P37",
+      "title_fr": "Consultation des représentants pontificaux",
+      "domain": "Curie / relations",
+      "scope": "Curie / relations — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier les partenaires ecclésiaux pertinents",
+          "guard": null,
+          "role": "institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:36"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "outcome",
+          "label": "Examiner la consultation et la notification aux représentants",
+          "guard": null,
+          "role": "institution curiale",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P37-T01"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:praedicate-evangelium-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P38",
+      "title_fr": "Compétences de la Pénitencerie apostolique",
+      "domain": "Curie / justice",
+      "scope": "Curie / justice — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier le for interne et les indulgences",
+          "guard": null,
+          "role": "Pénitencerie apostolique",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:190"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Distinguer les différentes grâces et facultés du for interne",
+          "guard": null,
+          "role": "Pénitencerie apostolique",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:191"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Identifier la compétence concernant les indulgences",
+          "guard": null,
+          "role": "Pénitencerie apostolique",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:193"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P38-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P38-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:praedicate-evangelium-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P39",
+      "title_fr": "Orientation Signature apostolique / Rote",
+      "domain": "Curie / justice",
+      "scope": "Curie / justice — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner la nature du recours au Tribunal suprême",
+          "guard": null,
+          "role": "Signature apostolique",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:194"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner les compétences administratives et disciplinaires",
+          "guard": null,
+          "role": "Signature apostolique",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:198"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Distinguer les appels ordinaires à la Rote",
+          "guard": null,
+          "role": "Rote romaine",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:200"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P39-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P39-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:praedicate-evangelium-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P40",
+      "title_fr": "Surveillance des activités économiques",
+      "domain": "Curie / finances",
+      "scope": "Curie / finances — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier le périmètre du Conseil pour l’Économie",
+          "guard": null,
+          "role": "Conseil pour l’Économie",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:205"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "outcome",
+          "label": "Examiner sa composition et ses conditions de fonctionnement",
+          "guard": null,
+          "role": "Conseil pour l’Économie",
+          "evidence_refs": [
+            "urn:vaticanops:passage:praedicate-evangelium-2022:article:206"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P40-T01"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:praedicate-evangelium-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P41",
+      "title_fr": "Qualification et transmission d’une notitia de delicto",
+      "domain": "Discipline DDF",
+      "scope": "Discipline DDF — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier la provenance possible du signalement",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:10"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner le titulaire de la responsabilité d’enquête",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:21"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Examiner la transmission à l’autorité territoriale pertinente",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:31"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P41-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P41-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P42",
+      "title_fr": "Enquête préalable et coordination civile",
+      "domain": "Discipline DDF",
+      "scope": "Discipline DDF — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner l’indépendance des enquêtes et les contraintes civiles",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:26"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Recenser les informations à collecter pendant l’enquête préalable",
+          "guard": null,
+          "role": "enquêteur désigné",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:34"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner la désignation d’une personne enquêtrice adaptée",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:38"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Examiner le rôle d’un notaire dans les actes",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:41"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "outcome",
+          "label": "Vérifier les obligations prévues par la législation civile",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:49"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P42-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P42-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P42-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P42-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P43",
+      "title_fr": "Secret d’office et mesure conservatoire",
+      "domain": "Discipline DDF",
+      "scope": "Discipline DDF — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier les protections de confidentialité et leurs limites",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:30"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Distinguer la mesure conservatoire d’une peine",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:62"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Examiner l’exigence de décret lors d’une modification ou révocation",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:65"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P43-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P43-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P44",
+      "title_fr": "Clôture et transmission de l’enquête préalable",
+      "domain": "Discipline DDF",
+      "scope": "Discipline DDF — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Consigner les règles de clôture de l’enquête",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:68"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Identifier les pièces et transmissions prévues au DDF",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:69"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner l’authentification et la préparation du dossier",
+          "guard": null,
+          "role": "notaire ou curie",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:72"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "outcome",
+          "label": "Examiner la transmission d’informations complémentaires",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:75"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P44-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P44-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P44-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P45",
+      "title_fr": "Procès pénal extrajudiciaire DDF",
+      "domain": "Discipline DDF",
+      "scope": "Discipline DDF — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Distinguer les voies pénales possibles",
+          "guard": null,
+          "role": "DDF ou Ordinaire",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:85"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner la présidence ou la délégation du procès extrajudiciaire",
+          "guard": null,
+          "role": "Ordinaire mandaté",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:95"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Définir précisément l’accusation dans son dossier",
+          "guard": null,
+          "role": "Ordinaire mandaté",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:105"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Examiner la collecte des éléments de preuve et les droits",
+          "guard": null,
+          "role": "Ordinaire mandaté",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:112"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "outcome",
+          "label": "Distinguer la nature du décret pénal de la sentence",
+          "guard": null,
+          "role": "Ordinaire mandaté",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:122"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P45-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P45-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P45-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P45-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P46",
+      "title_fr": "Recours et appels selon le rite et le for",
+      "domain": "Discipline DDF",
+      "scope": "Discipline DDF — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner l’instance d’appel judiciaire réservée",
+          "guard": null,
+          "role": "DDF",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:145"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Distinguer le régime du CIC pour les recours contre le décret",
+          "guard": null,
+          "role": "Ordinaire et requérant",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:150"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Distinguer le régime du CCEO pour les recours",
+          "guard": null,
+          "role": "Hiérarque et requérant",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:155"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P46-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P46-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P47",
+      "title_fr": "Traitement particulier d’un signalement après décès",
+      "domain": "Discipline DDF",
+      "scope": "Discipline DDF — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Vérifier les conséquences d’un décès sur la voie pénale",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:160"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "outcome",
+          "label": "Examiner la recommandation d’informer le DDF si un clerc meurt durant l’enquête préalable",
+          "guard": null,
+          "role": "Ordinaire ou Hiérarque",
+          "evidence_refs": [
+            "urn:vaticanops:passage:vademecum-ddf-2022:numero:161"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P47-T01"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:vademecum-ddf-2022"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P48",
+      "title_fr": "Congrégations pendant la vacance du Siège",
+      "domain": "Conclave / vacance",
+      "scope": "Conclave / vacance — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier les limites des pouvoirs du Collège pendant la vacance",
+          "guard": null,
+          "role": "Collège des Cardinaux",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:1"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Distinguer congrégations générales et particulières",
+          "guard": null,
+          "role": "Collège des Cardinaux",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:7"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Examiner les décisions préparatoires urgentes",
+          "guard": null,
+          "role": "Cardinaux réunis",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:13"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P48-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P48-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:universi-dominici-gregis-1996"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P49",
+      "title_fr": "Éligibilité et convocation des électeurs",
+      "domain": "Conclave / vacance",
+      "scope": "Conclave / vacance — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner les conditions de participation des cardinaux électeurs",
+          "guard": null,
+          "role": "Collège cardinalice",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:33"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner les délais de convocation du conclave et les changements",
+          "guard": null,
+          "role": "Cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:37"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Vérifier le devoir de présence et les exceptions reconnues",
+          "guard": null,
+          "role": "Cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:38"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P49-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P49-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:universi-dominici-gregis-1996"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P50",
+      "title_fr": "Secret et protections des opérations",
+      "domain": "Conclave / vacance",
+      "scope": "Conclave / vacance — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner le caractère réservé des opérations électorales",
+          "guard": null,
+          "role": "Cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:54"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner les mesures de secret sous l’autorité du Camerlingue",
+          "guard": null,
+          "role": "Camerlingue et assistants",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:55"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner les règles de communication pendant l’élection",
+          "guard": null,
+          "role": "Cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:56"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "outcome",
+          "label": "Examiner les interdictions de divulguer les scrutins",
+          "guard": null,
+          "role": "Cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:59"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P50-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P50-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P50-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:universi-dominici-gregis-1996"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P51",
+      "title_fr": "Séquences documentées du scrutin",
+      "domain": "Conclave / vacance",
+      "scope": "Conclave / vacance — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier le mode de scrutin autorisé et le texte consolidé",
+          "guard": null,
+          "role": "Cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:62"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Distinguer les phases du scrutin",
+          "guard": null,
+          "role": "Cardinaux électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:64"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner la préparation des bulletins",
+          "guard": null,
+          "role": "scrutateurs et électeurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:65"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Examiner les opérations du scrutin proprement dit",
+          "guard": null,
+          "role": "scrutateurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:66"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "outcome",
+          "label": "Examiner les opérations de révision et d’achèvement",
+          "guard": null,
+          "role": "réviseurs et scrutateurs",
+          "evidence_refs": [
+            "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:70"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P51-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P51-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P51-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P51-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:universi-dominici-gregis-1996"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P52",
+      "title_fr": "Répartition des rôles liturgiques",
+      "domain": "Liturgie / ministères",
+      "scope": "Liturgie / ministères — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner la présidence de la célébration par l’évêque",
+          "guard": null,
+          "role": "évêque et prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:92"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Distinguer les fonctions liturgiques du diacre",
+          "guard": null,
+          "role": "diacre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:94"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Identifier les fonctions de l’acolyte",
+          "guard": null,
+          "role": "acolyte",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:98"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Identifier les fonctions du lecteur",
+          "guard": null,
+          "role": "lecteur",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:99"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "outcome",
+          "label": "Examiner la préparation coordonnée de la célébration",
+          "guard": null,
+          "role": "acteurs liturgiques",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:111"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P52-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P52-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P52-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P52-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:missel-general"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P53",
+      "title_fr": "Préparation matérielle de la messe",
+      "domain": "Liturgie / préparation",
+      "scope": "Liturgie / préparation — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner la préparation de l’autel et des cierges",
+          "guard": null,
+          "role": "sacristain et ministres",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:117"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner les livres et objets nécessaires",
+          "guard": null,
+          "role": "sacristain et ministres",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:118"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "outcome",
+          "label": "Examiner la préparation des vêtements liturgiques",
+          "guard": null,
+          "role": "sacristain et ministres",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:119"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P53-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P53-T02"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:missel-general"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P54",
+      "title_fr": "Rites d’entrée de la messe",
+      "domain": "Liturgie / ouverture",
+      "scope": "Liturgie / ouverture — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier l’ordre de la procession",
+          "guard": null,
+          "role": "prêtre et ministres",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:120"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner la révérence initiale à l’autel",
+          "guard": null,
+          "role": "prêtre et ministres",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:122"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner la salutation et le signe de croix",
+          "guard": null,
+          "role": "prêtre et assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:124"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Examiner l’acte pénitentiel et le Kyrie",
+          "guard": null,
+          "role": "prêtre et assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:125"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "outcome",
+          "label": "Examiner la prière d’ouverture",
+          "guard": null,
+          "role": "prêtre et assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:127"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P54-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P54-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P54-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P54-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:missel-general"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P55",
+      "title_fr": "Liturgie de la Parole",
+      "domain": "Liturgie / parole",
+      "scope": "Liturgie / parole — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Identifier la proclamation des lectures",
+          "guard": null,
+          "role": "lecteur et prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:128"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner le psaume responsorial",
+          "guard": null,
+          "role": "psalmiste et assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:129"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner l’acclamation avant l’Évangile",
+          "guard": null,
+          "role": "assemblée et ministres",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:131"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Examiner la proclamation de l’Évangile",
+          "guard": null,
+          "role": "prêtre ou diacre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:134"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "step",
+          "label": "Examiner l’homélie",
+          "guard": null,
+          "role": "prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:136"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S6",
+          "kind": "outcome",
+          "label": "Examiner la prière universelle",
+          "guard": null,
+          "role": "prêtre et assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:138"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P55-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P55-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P55-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P55-T04"
+        },
+        {
+          "from": "S5",
+          "to": "S6",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P55-T05"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:missel-general"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P56",
+      "title_fr": "Préparation des dons",
+      "domain": "Liturgie / eucharistie",
+      "scope": "Liturgie / eucharistie — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner l’entrée dans la préparation des dons",
+          "guard": null,
+          "role": "prêtre et ministres",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:139"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner la présentation des offrandes",
+          "guard": null,
+          "role": "fidèles",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:140"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner les prières sur le pain",
+          "guard": null,
+          "role": "prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:141"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "step",
+          "label": "Examiner le vin et l’eau",
+          "guard": null,
+          "role": "prêtre et ministre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:142"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S5",
+          "kind": "outcome",
+          "label": "Examiner l’invitation à la prière sur les offrandes",
+          "guard": null,
+          "role": "prêtre et assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:146"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P56-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P56-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P56-T03"
+        },
+        {
+          "from": "S4",
+          "to": "S5",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P56-T04"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:missel-general"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    },
+    {
+      "id": "VO-P57",
+      "title_fr": "Prière eucharistique et acclamation",
+      "domain": "Liturgie / eucharistie",
+      "scope": "Liturgie / eucharistie — étude documentaire non autoritative",
+      "kind": "procedure_graph_conditionnelle",
+      "epistemic_status": "source_mapped_editorial_draft",
+      "normative_applicability": "not_legally_reviewed",
+      "is_executable": false,
+      "authority_to_perform": false,
+      "entry_conditions": [
+        "Cas à qualifier, juridiction et droit applicable à vérifier avant toute consultation"
+      ],
+      "nodes": [
+        {
+          "id": "S1",
+          "kind": "step",
+          "label": "Examiner le choix de la prière eucharistique selon les rubriques",
+          "guard": null,
+          "role": "prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:147"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S2",
+          "kind": "step",
+          "label": "Examiner le dialogue de la préface",
+          "guard": null,
+          "role": "prêtre et assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:148"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S3",
+          "kind": "step",
+          "label": "Examiner le déroulement de la prière",
+          "guard": null,
+          "role": "prêtre",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:149"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        },
+        {
+          "id": "S4",
+          "kind": "outcome",
+          "label": "Examiner l’acclamation après la consécration",
+          "guard": null,
+          "role": "prêtre et assemblée",
+          "evidence_refs": [
+            "urn:vaticanops:passage:missel-general:numero:151"
+          ],
+          "review_status": "source_mapped_unreviewed"
+        }
+      ],
+      "transitions": [
+        {
+          "from": "S1",
+          "to": "S2",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P57-T01"
+        },
+        {
+          "from": "S2",
+          "to": "S3",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P57-T02"
+        },
+        {
+          "from": "S3",
+          "to": "S4",
+          "guard": "étape documentaire suivante; vérifier préconditions et exceptions",
+          "condition_ref": "vo:guard:VO-P57-T03"
+        }
+      ],
+      "scope_and_version_cautions": [
+        "Étapes résumées à partir de dispositions sélectionnées, sans exhaustivité de leurs exceptions.",
+        "Version applicable et modifications ultérieures non consolidées; aucune décision juridique automatisable."
+      ],
+      "source_versions": [
+        "urn:vaticanops:source:missel-general"
+      ],
+      "reviewer": null,
+      "authority_review_status": "unreviewed",
+      "version_review_status": "not_consolidated",
+      "editorial_category": "source-anchored-study-sequence",
+      "curation_basis": "human-authored paraphrases of captured provisions"
+    }
+  ]
+}

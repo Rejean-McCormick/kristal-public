@@ -1,0 +1,52 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:naturalhazards:state",
+  "classification": {
+    "primary_archetype": "ARK-09",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "2.60",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.60",
+          "label_en": "Pollution, disasters and safety",
+          "domain": "2"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "sparse_hazard_exposure_vulnerability_risk_graph",
+    "organization": "unknown",
+    "materialization_profiles": [
+      "kristal.materialization/inline-json/1",
+      "kristal.materialization/kristal-state-v6/1"
+    ],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 9887728,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:60d775d7f71d4863a1ae5dffb2dd7958ebd6a5cfbb87e5fe6541594ea85ad267",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

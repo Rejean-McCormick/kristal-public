@@ -1,0 +1,42 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:homecare",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:de24b8d9ac4f924f4b6ea71b635cfe324a9875fa78680eab3c7ac6237f799895"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:homecare:resource-basis",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:homecare",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2895232c35076e6046063110d5cdb33d7a005c958d84306858b4a342c18f3f15"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:homecare:semantic-state",
+      "logical_contract": {
+        "id": "homecare.semantic-state",
+        "version": "9.0"
+      },
+      "authority_ref": "urn:kristal:authority:homecare",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:09c63670f33adf5ae907723c1dfa45b7b481fe32986fe74ec77a1eca58bf4fcc"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "homecare",
+    "edition": "2.0.0"
+  },
+  "authority_ref": "urn:kristal:authority:homecare"
+}

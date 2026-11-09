@@ -1,0 +1,41 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:kristal-ethics",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:cd2fd51168225e5fda33505ef6d7a2c4fc9af4b8e80eed6074932d4304b591ca"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:kristal-ethics",
+    "label": "Kristal-Ethics",
+    "domain": "ethics",
+    "source_native_description": "structured normative-analysis graph preserving disagreement",
+    "orientation": "situation → agents → values/duties → options → arguments → consequences"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Existing reference knowledge for Ethics represented as: structured normative-analysis graph preserving disagreement.",
+      "Original v6 portable epistemic state and its preserved source-driven assertions: 631 assertions.",
+      "Original domain distinctions and applicability defined in knowledge-base/ and the v9 domain profile."
+    ],
+    "does_not_own": [
+      "External publications, sources and their release cycles.",
+      "Runtime indexes, query projections, materialization encodings, or caches as semantic authority.",
+      "Unvalidated new claims, invented source authority, or activation channels."
+    ]
+  },
+  "canonical_artifact_count": 13,
+  "source_count": 12,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

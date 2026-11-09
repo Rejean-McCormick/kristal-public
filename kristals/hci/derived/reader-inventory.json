@@ -1,0 +1,206 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:hci",
+  "source_fingerprint": "sha256:290697ae0104890f77216cf2c81b6a14c2ac49b2d238ebb4f59ee400600c59e3",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 361129,
+    "tracked_file_count": 13,
+    "max_tracked_file_bytes": 285810,
+    "materialization_segment_count": 6,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 2,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1816,
+      "sha256": "sha256:ca91d60a9140c766c73c92ca7f555e397493f98bd300d655ea5141591fd72de9"
+    },
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1035,
+      "sha256": "sha256:251c852aebaf449bae518ce90aa78bd088d2bb9e5512ac51591e95dc1cf215eb"
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 3477,
+      "sha256": "sha256:f48adb1d46aa3cb187757f75eda293e5f92f8d6248cf7f3784a55e7bc7ae86ad"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-hci-resource-basis-82948ca743.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2890,
+      "sha256": "sha256:4dca9aaac064d6757b273895c5d03089b7bfa2fbc9465c038c5e4925d92e6ac2"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-hci-semantic-state-c5d21444af.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1816,
+      "sha256": "sha256:18cf76c08fe69639235909cd335f36df02b93128935576ffbf95723fa43e5f7f"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1270,
+      "sha256": "sha256:77cb496d646f36d50a8da3b429ff891e2ea26f0ebc618f12924ed8f693362206"
+    },
+    {
+      "path": "canon/domain/domain-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 824,
+      "sha256": "sha256:f072feae5ccb4fbcc3adf886f8c4a1c615fb7761a4913b2b37095ea5d7152020"
+    },
+    {
+      "path": "canon/domain/resource-basis.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2252,
+      "sha256": "sha256:416a7753dda217b71557674b15de9c2902806974a5d5a445b8bb31eb41a5cd34"
+    },
+    {
+      "path": "knowledge-base/corpus/boundaries.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 1817,
+      "sha256": "sha256:c916be52612ee2194efdfa21adc64c239a9e299f550ad811cc92141f53360ece"
+    },
+    {
+      "path": "knowledge-base/corpus/hci.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 285810,
+      "sha256": "sha256:29211736325ee6e3b346f29c531370a2281d28832b39bfc66fe3f0afde4da582"
+    },
+    {
+      "path": "knowledge-base/corpus/invariants.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 2862,
+      "sha256": "sha256:7f9c1de7f73dea81e634ef4c98ef11298b8240ab320d1d9fdabb060612d346d4"
+    },
+    {
+      "path": "knowledge-base/corpus/referents.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 51246,
+      "sha256": "sha256:52490da7109ad795539aa5083c58c69729b3e8672f4c732e081e46127696fb0d"
+    },
+    {
+      "path": "knowledge-base/sources/source-catalog.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 4014,
+      "sha256": "sha256:feab91b65d14f5c68d8229523a5d7084bc125cad807db0f8220042b7eba92ca2"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/domain-state.materialization.json",
+      "segment_key": "all",
+      "record_count_declared": 1,
+      "media_type": "application/json",
+      "size_bytes_declared": 1816,
+      "digest_declared": "sha256:ca91d60a9140c766c73c92ca7f555e397493f98bd300d655ea5141591fd72de9",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hci:resource:portable_epistemic_state",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 285810,
+      "digest_declared": "sha256:29211736325ee6e3b346f29c531370a2281d28832b39bfc66fe3f0afde4da582",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/hci.kristal-state.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hci:resource:identity_registry",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 51246,
+      "digest_declared": "sha256:52490da7109ad795539aa5083c58c69729b3e8672f4c732e081e46127696fb0d",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/referents.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hci:resource:semantic_invariants",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 2862,
+      "digest_declared": "sha256:7f9c1de7f73dea81e634ef4c98ef11298b8240ab320d1d9fdabb060612d346d4",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/invariants.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hci:resource:scope_boundary",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 1817,
+      "digest_declared": "sha256:c916be52612ee2194efdfa21adc64c239a9e299f550ad811cc92141f53360ece",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/corpus/boundaries.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "segment_key": "urn:kristal:hci:resource:source_catalog",
+      "record_count_declared": null,
+      "media_type": "application/json",
+      "size_bytes_declared": 4014,
+      "digest_declared": "sha256:feab91b65d14f5c68d8229523a5d7084bc125cad807db0f8220042b7eba92ca2",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": "knowledge-base/sources/source-catalog.json",
+      "materialization_profile": "kristal.materialization/native-json-set/1"
+    }
+  ]
+}

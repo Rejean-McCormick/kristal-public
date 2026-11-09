@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:policeops",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:46b7848a7c82b0a98f735fe993dcfab545d50f47ce44f1c8bc5ab2875f9f3ca1"
+  },
+  "subject": {
+    "id": null,
+    "label": "PoliceOps — corpus épistémique police/judiciaire Québec–Lévis",
+    "domain": "operations"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "identités de sources et provenance PoliceOps",
+      "assertions, evidence refs, statuts épistémiques et relations du corpus PoliceOps",
+      "référents éditoriaux, voies/transitions judiciaires modélisées et reader policies du corpus"
+    ],
+    "does_not_own": [
+      "représentations physiques locales du Source Store et leur acquisition réseau",
+      "Cases, Tasks, workflow et décisions en cours appartenant à Orgo",
+      "autorité des publications externes ou décisions des autorités judiciaires",
+      "reconnaissance juridique ou institutionnelle globale des assertions du corpus"
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 29,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

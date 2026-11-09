@@ -1,0 +1,113 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:media",
+  "source_fingerprint": "sha256:80c0cef52545116469eb3332aeeb732424f0b1ef7110b896d1194128b824985c",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 2709292,
+    "tracked_file_count": 11,
+    "max_tracked_file_bytes": 883612,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 5,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-media-artifact-canonical-knowledge-7ad731c8e0.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 398474,
+      "sha256": "sha256:1ae8703442622d1f4bcac658446af5e8ab1013a110c918ca1c149032fb17c3f5"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-media-catalog-31f44d1435.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1598,
+      "sha256": "sha256:3ab5553ab4b9222d15cfc5991985c7da5f714dcea1cbbf5fcae03d1080da4f31"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-media-crosswalk-ba7ed014c4.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 586,
+      "sha256": "sha256:e9eee4c2942642d263ddbee74cd84cb0fd9a4e10192ff10268774680095f03ef"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-media-graph-0c072fc258.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 883612,
+      "sha256": "sha256:5f89a003980011e258f13952c2d408a96bc583549d923db61d0f747310fe6a97"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-media-registry-6e3074185f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 117927,
+      "sha256": "sha256:54f6383eebcc9a97b2aa97b4eaa040fe2b21902f567184505a1b35045d27aa46"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 2366,
+      "sha256": "sha256:e24db33461b10f2535e8881b5bcee9f0ed1b5532b67261d3c2b6bd9ff7a2c9de"
+    },
+    {
+      "path": "canon/domain/legacy-v6-logical-payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 372148,
+      "sha256": "sha256:529e60fb536119903111064b606db784a3ece5483a7175bbbe2511b9fe7f209f"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 160,
+      "sha256": "sha256:63d25cb59928565ef0cba31663581d2547985fce4b3ecad89905a42c72535031"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1104,
+      "sha256": "sha256:dc02889712bbbe9203a9a5dc35726eaa0ec9ecd0c7ad48c7f384aaef4c89d4e7"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 823978,
+      "sha256": "sha256:b8ef5af70f5939515b853bf977b3263b3ff64143dd0de1eb485e52c02b4e473e"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 107339,
+      "sha256": "sha256:8d1bfc7bc2c3cdc54877aad520186d1276715769f4dedef5e4e0e5447683460a"
+    }
+  ],
+  "segments": []
+}

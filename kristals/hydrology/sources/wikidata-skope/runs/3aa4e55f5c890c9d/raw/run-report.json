@@ -1,0 +1,445 @@
+{
+  "format": "maxwd.run/1.0",
+  "project": "Kristal-Hydrology",
+  "run_id": "3aa4e55f5c890c9d",
+  "state": "completed_extraction_and_proposals",
+  "phase": "finished",
+  "started_at": "2026-10-26T18:29:19.981198+00:00",
+  "source_labels": {
+    "project": "Kristal-Hydrology",
+    "namespace_id": "kristal:bulk:kristal-hydrology",
+    "search_labels": 133,
+    "labeled_entities": 133,
+    "labeled_properties": 0,
+    "domain_entities": 133,
+    "domain_properties": 49,
+    "unlabeled": [
+      {
+        "legacy_id": "hyd:accounts_for",
+        "semantic_id": "KP586087169555101866244279"
+      },
+      {
+        "legacy_id": "hyd:adds_to",
+        "semantic_id": "KP250034226276026580972186"
+      },
+      {
+        "legacy_id": "hyd:affects",
+        "semantic_id": "KP399291208572117777134446"
+      },
+      {
+        "legacy_id": "hyd:belongs_to_stage",
+        "semantic_id": "KP1019070464351807981984011"
+      },
+      {
+        "legacy_id": "hyd:bounds",
+        "semantic_id": "KP950946687610017553542985"
+      },
+      {
+        "legacy_id": "hyd:can_accumulate_as",
+        "semantic_id": "KP898060851039467196192843"
+      },
+      {
+        "legacy_id": "hyd:can_be_bidirectional_between",
+        "semantic_id": "KP395369932903337978027403"
+      },
+      {
+        "legacy_id": "hyd:can_contribute_to",
+        "semantic_id": "KP813919015395323934574218"
+      },
+      {
+        "legacy_id": "hyd:can_exchange_with",
+        "semantic_id": "KP830692485421475772408358"
+      },
+      {
+        "legacy_id": "hyd:can_feed",
+        "semantic_id": "KP432143738148180713608400"
+      },
+      {
+        "legacy_id": "hyd:can_form",
+        "semantic_id": "KP914254436965242917374127"
+      },
+      {
+        "legacy_id": "hyd:can_induce",
+        "semantic_id": "KP568116270785127717944534"
+      },
+      {
+        "legacy_id": "hyd:can_limit",
+        "semantic_id": "KP1085597336768068798945020"
+      },
+      {
+        "legacy_id": "hyd:can_produce",
+        "semantic_id": "KP187433393707722515283587"
+      },
+      {
+        "legacy_id": "hyd:can_release",
+        "semantic_id": "KP1073294134704453693518694"
+      },
+      {
+        "legacy_id": "hyd:can_return_by",
+        "semantic_id": "KP2931798287143801230380"
+      },
+      {
+        "legacy_id": "hyd:characterizes",
+        "semantic_id": "KP299733495980315026126211"
+      },
+      {
+        "legacy_id": "hyd:characterizes_storage_of",
+        "semantic_id": "KP696770968725018522626610"
+      },
+      {
+        "legacy_id": "hyd:constrains",
+        "semantic_id": "KP711218529708522546092064"
+      },
+      {
+        "legacy_id": "hyd:contains",
+        "semantic_id": "KP784109877563402400267782"
+      },
+      {
+        "legacy_id": "hyd:contributes_to",
+        "semantic_id": "KP159549120809224885267747"
+      },
+      {
+        "legacy_id": "hyd:controls_rate_of",
+        "semantic_id": "KP524649627620479198477697"
+      },
+      {
+        "legacy_id": "hyd:defines_domain_for",
+        "semantic_id": "KP892236271134213635755930"
+      },
+      {
+        "legacy_id": "hyd:drains",
+        "semantic_id": "KP496012668108371768449144"
+      },
+      {
+        "legacy_id": "hyd:drains_to",
+        "semantic_id": "KP767306440080064339105822"
+      },
+      {
+        "legacy_id": "hyd:drives",
+        "semantic_id": "KP709863634948775197527961"
+      },
+      {
+        "legacy_id": "hyd:enters",
+        "semantic_id": "KP254173251080341107181523"
+      },
+      {
+        "legacy_id": "hyd:estimates",
+        "semantic_id": "KP966951475171264173604542"
+      },
+      {
+        "legacy_id": "hyd:has_core_dimension",
+        "semantic_id": "KP639375112227151357920776"
+      },
+      {
+        "legacy_id": "hyd:has_dimension",
+        "semantic_id": "KP452166738113097248402508"
+      },
+      {
+        "legacy_id": "hyd:has_upper_boundary",
+        "semantic_id": "KP867186468644673587339158"
+      },
+      {
+        "legacy_id": "hyd:influences",
+        "semantic_id": "KP664831660714009669121314"
+      },
+      {
+        "legacy_id": "hyd:influences_partition_to",
+        "semantic_id": "KP291519611559255914619899"
+      },
+      {
+        "legacy_id": "hyd:is_a",
+        "semantic_id": "KP151496602033463811297398"
+      },
+      {
+        "legacy_id": "hyd:is_quantified_as",
+        "semantic_id": "KP481267062827038652384364"
+      },
+      {
+        "legacy_id": "hyd:is_stored_in",
+        "semantic_id": "KP768480205740797827168913"
+      },
+      {
+        "legacy_id": "hyd:may_be_partitioned_to",
+        "semantic_id": "KP271858453458158642084197"
+      },
+      {
+        "legacy_id": "hyd:may_occur_as",
+        "semantic_id": "KP137130286399777084793829"
+      },
+      {
+        "legacy_id": "hyd:measures",
+        "semantic_id": "KP834442770318894156861172"
+      },
+      {
+        "legacy_id": "hyd:models",
+        "semantic_id": "KP456864471371698471309134"
+      },
+      {
+        "legacy_id": "hyd:occurs_when_input_exceeds",
+        "semantic_id": "KP1120834327170145743154506"
+      },
+      {
+        "legacy_id": "hyd:quantifies",
+        "semantic_id": "KP853860311806300329983295"
+      },
+      {
+        "legacy_id": "hyd:receives",
+        "semantic_id": "KP871035721726756421897455"
+      },
+      {
+        "legacy_id": "hyd:relates",
+        "semantic_id": "KP600182296071026146885034"
+      },
+      {
+        "legacy_id": "hyd:removes_from",
+        "semantic_id": "KP962428833467094428482577"
+      },
+      {
+        "legacy_id": "hyd:represents_over_time",
+        "semantic_id": "KP1045475531014172104958920"
+      },
+      {
+        "legacy_id": "hyd:returns_to",
+        "semantic_id": "KP174372171378724282778626"
+      },
+      {
+        "legacy_id": "hyd:returns_water_to",
+        "semantic_id": "KP59687652575058802591281"
+      },
+      {
+        "legacy_id": "hyd:transfers_toward",
+        "semantic_id": "KP139797762071739438400527"
+      }
+    ],
+    "source_archive_sha256": "cbfe42081af4bcff47b76f875fae88b7834d49217b7aaf66703c675c891b852c",
+    "normalization_status": "search_preparation_only_not_framework_qualification"
+  },
+  "settings": {
+    "matching_revision": "exact-names-multilingual-2",
+    "input_sha256": "7560c255f270195d1c8e5031dc887d1ff538280c616d53d38bb76a1b1da4c7d8",
+    "prepared_manifest_sha256": "9fcabea51f3d8bcfd7a02d45b7845020404c529c748edfff496a5191c83a777c",
+    "index": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "source_sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+    "index_entities": "121780373",
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "profile": {
+      "format": "skope.extraction-profile/draft-1",
+      "profile_id": "maxwd-local",
+      "target": {
+        "write_to_canon": false
+      },
+      "selection": {
+        "inventory_record_field": "wikidata_qid",
+        "rediscover_scope": false,
+        "preserve_exact_inventory": true
+      },
+      "source": {
+        "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+        "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+        "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+        "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+        "require_verified_source_identity": false,
+        "allow_full_dump_scan": false,
+        "auto_build_new_index": false,
+        "abort_if_no_verified_random_access": true
+      },
+      "extraction": {
+        "mode": "full_source_entity_json",
+        "output_compression": "gzip-jsonl",
+        "batch_size": 200,
+        "workers": 4,
+        "on_missing_qid": "report_and_pause"
+      },
+      "safety": {
+        "no_kristal_canonical_modification": true
+      }
+    },
+    "parameters": {
+      "format": "maxwd.local-config/1.0",
+      "data_root": "D:/EncyKlopedia",
+      "dump_path": null,
+      "include_draft": true,
+      "candidates_per_label": 20,
+      "query_batch": 1000,
+      "extraction_batch": 200,
+      "workers": 4,
+      "max_claims": 1000000,
+      "minimum_free_gib": 2,
+      "verify_checksums": false,
+      "matching_method": "exact-names-multilingual-2"
+    },
+    "domain_scope": {
+      "format": "maxwd.domain-scope/1.0",
+      "project": "Kristal-Hydrology",
+      "selection_mode": "existing_domain_concepts",
+      "source_scope": {
+        "domain": "hydrology",
+        "edition": "1.0.0"
+      },
+      "native_model": {
+        "kind": "coupled-stock-flow-graph",
+        "description": "Native model declared by the historical v9 domain-state logical artifact; not replaced with a universal schema.",
+        "key_distinction": null
+      },
+      "search_languages": [
+        "fr",
+        "en"
+      ],
+      "exclude_migration_metadata": true,
+      "raw_properties": "all",
+      "follow_linked_entities": false,
+      "integration_priorities": [
+        "processus et stocks hydrologiques",
+        "bassins et masses d'eau",
+        "Respecter: Distinguer réseau réel, processus et régime hydrologique."
+      ],
+      "priorities_are_descriptive_not_executable_filters": true,
+      "arketype_design_recommendation_not_canonical": {
+        "primary": "ARK-09",
+        "support": "ARK-01",
+        "rationale": "Stocks/flux/réservoirs, circulation d’eau et transferts en cycles couplés.",
+        "guardrail": "Infiltration ≠ recharge; état ≠ débit; mesures et mécanismes séparés."
+      }
+    }
+  },
+  "diagnosis": {
+    "source": {
+      "sha1": "c5bfd59f16c6cdf906ead1190d99729108e961be",
+      "dump": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+      "verified": false,
+      "checksum_verification": false,
+      "random_access_ready": true,
+      "fast_access_details": {
+        "complete": true,
+        "path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be",
+        "locator_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\qid-locator.bin",
+        "compression_index_path": "D:\\EncyKlopedia\\30_working\\wikidata-fast\\sha1-c5bfd59f16c6cdf906ead1190d99729108e961be\\compression.bz2blocks.pkl",
+        "locator_source": "fast-access",
+        "runtime_backend": {
+          "compression": "bzip2",
+          "backend": "indexed_bzip2",
+          "parallel": true,
+          "random_access": true,
+          "threads": 8
+        },
+        "random_access_ready": true
+      }
+    },
+    "index": {
+      "complete": "1",
+      "completed_at": "2026-09-27T15:30:55.701342+00:00",
+      "dump_file": "wikidata-20260922-all.json.bz2",
+      "index.idx_edge_target_property.complete": "1",
+      "index.idx_edge_target_property.completed_at": "2026-09-27T13:18:21.251069+00:00",
+      "index.idx_presence_property.complete": "1",
+      "index.idx_presence_property.completed_at": "2026-09-27T13:48:25.512272+00:00",
+      "index_strategy": "global-discovery-v3-sqlite-workers-8",
+      "languages": "fr,en,mul",
+      "processed_entities": "121780373",
+      "schema_version": "encyklopedia-wikidata-compact-index/v1",
+      "updated_at": "2026-09-26T22:15:51.101944+00:00",
+      "adapter": "skope-encyk-readonly/1.0",
+      "entity_count": "121780373",
+      "evidence_available": "false",
+      "edge_granularity": "aggregated",
+      "source_snapshot_digest": "unverified:wikidata-20260922-all.json.bz2",
+      "source_identity_strength": "unverified"
+    },
+    "source_file_stat": {
+      "bytes": 103222517992,
+      "mtime_ns": 1790385449442173100
+    },
+    "checksum_verification": false,
+    "index_dump_pairing": "not_checked_at_operator_request",
+    "warnings": [],
+    "free_gib": 250.76,
+    "python": "C:\\Users\\rejea\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "reader_checked": true
+  },
+  "canonical_changed": false,
+  "identity_policy": "Tentative identity seeds never assert exactMatch",
+  "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Hydrology\\3aa4e55f5c890c9d",
+  "inventory": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "2c512493f64d66928c8465b490cc468449b3e54e39e9ea46b838aa9006066a5e",
+    "index_identity": null,
+    "projects": 1,
+    "lexemes": 133,
+    "distinct_concepts": 133,
+    "cached_queries": 0,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "last_queries": 0,
+  "portfolio": {
+    "format": "skope.portfolio/0.15.0",
+    "source_sha256": "2c512493f64d66928c8465b490cc468449b3e54e39e9ea46b838aa9006066a5e",
+    "index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "projects": 1,
+    "lexemes": 133,
+    "distinct_concepts": 133,
+    "cached_queries": 130,
+    "approved_identity_proposals": 0,
+    "tentative_unverified_mappings": 0,
+    "canonical_write_authorized": false
+  },
+  "draft": {
+    "revision": "exact-names-multilingual-2",
+    "decisions": {
+      "ambiguous_exact_candidates": 24,
+      "no_exact_candidate": 81,
+      "unique_exact_candidate": 23,
+      "saturated_exact_search": 3,
+      "same_external_id_multiple_semantic_concepts": 2
+    },
+    "tentative_unverified": 23,
+    "exact_match_approved": 0,
+    "canonical_changed": false
+  },
+  "seeds": {
+    "format": "skope.portfolio-extraction-intent/1.0",
+    "source_portfolio": "2c512493f64d66928c8465b490cc468449b3e54e39e9ea46b838aa9006066a5e",
+    "reviewed_mappings": 0,
+    "tentative_unverified_mappings": 23,
+    "distinct_qids": 23,
+    "qid_inventory_sha256": "4568b894dbd4f8787a0e6dc17d6665ce42f3a1e0f241b4df702d8fd8dcd6d83e",
+    "source_index_identity": "{\"index_path\":\"D:\\\\EncyKlopedia\\\\30_working\\\\wikidata\\\\wikidata.compact.sqlite\",\"processed_entities\":\"121780373\",\"source_snapshot_digest\":\"unverified:wikidata-20260922-all.json.bz2\"}",
+    "claim": "Reviewed and/or explicitly tentative QID seeds; raw Wikidata not yet extracted",
+    "canonical_write_authorized": false
+  },
+  "external": {
+    "selected_qids": 0,
+    "claims": 0,
+    "state": "not_configured"
+  },
+  "acquisition": {
+    "state": "completed",
+    "qids_total": 23,
+    "qids_acquired": 23,
+    "new_batches": 1,
+    "reused_records": 4,
+    "output": "D:\\EncyKlopedia\\30_working\\kristal-maxwd\\Kristal-Hydrology\\3aa4e55f5c890c9d\\full-evidence\\4568b894dbd4f878",
+    "checksum_verification": false,
+    "raw_source_verified_by_skope": false
+  },
+  "extracted_records": 23,
+  "checksum_verification": false,
+  "proposals": {
+    "format": "skope.portfolio-proposal-report/1.0",
+    "review_proposals": 714,
+    "raw_subject_entities": 23,
+    "related_unapproved_qids": 144,
+    "proposals_by_namespace": {
+      "kristal:bulk:kristal-hydrology": 714
+    },
+    "canonical_changed": false,
+    "full_claims_included": true,
+    "note": "Full statements are evidence proposals, not Framework v11 KA assertions. Review and diK/Authoring Kit publication remain separate."
+  },
+  "evidence_manifest_sha256": "362ea822238f723fc57caadf4af38499613eca4f79a0aa3f9bc62516797e7c16",
+  "proposals_sha256": "badc69c8e6dc5dd4d0426942f417fd4a2e7454fb2f72e7007adaa20a43faccbb"
+}

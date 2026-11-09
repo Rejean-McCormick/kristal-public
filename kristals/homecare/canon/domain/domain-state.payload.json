@@ -1,0 +1,26 @@
+{
+  "domain": "homecare",
+  "domain_version": "2.0.0",
+  "native_shape": "property-functional-diagnostic-temporal-graph",
+  "basis": {
+    "artifact_id": "urn:kristal:homecare:resource-basis",
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:2895232c35076e6046063110d5cdb33d7a005c958d84306858b4a342c18f3f15"
+    }
+  },
+  "canonical_roles": [
+    "structured_epistemic_state",
+    "identity_registry"
+  ],
+  "compatibility": {
+    "inherited_content_preserved": true,
+    "v6_v5_payloads_unchanged": true,
+    "v8_read_models_preserved_as_derived": true
+  },
+  "semantic_boundaries": [
+    "generic_type != installed_instance",
+    "derived_current_state != canonical_event_ledger",
+    "asset_identity survives progressive_refinement"
+  ]
+}

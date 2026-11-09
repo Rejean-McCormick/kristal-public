@@ -1,0 +1,191 @@
+{
+  "format": "k.monetary.domain/causal-model/0.1.0",
+  "id": "urn:kristal:k-monetary-system:causal-model",
+  "model_type": "signed_directed_causal_hypothesis_graph",
+  "nodes": [
+    "K_M_demand",
+    "K_denominated_contract_share",
+    "beneficial_ownership_concentration",
+    "broad_K_C_ownership",
+    "credit_market_depth",
+    "expected_inflation",
+    "financial_stress",
+    "fiscal_acceptance",
+    "governance_credibility",
+    "indexed_consumption_floor",
+    "inflation_pressure",
+    "liquidity_K_M",
+    "median_real_wealth",
+    "merchant_adoption",
+    "nominal_refinancing_rate",
+    "nominal_transfer_demand",
+    "noninflationary_real_transfer_capacity",
+    "real_legacy_CAD_nominal_debt_burden",
+    "real_productive_capacity",
+    "top_wealth_share",
+    "transaction_cost_K_M",
+    "transaction_demand_K_M",
+    "transition_real_income_loss",
+    "transition_volatility",
+    "unexpected_CAD_inflation",
+    "unit_of_account_share"
+  ],
+  "edges": [
+    {
+      "from": "merchant_adoption",
+      "to": "transaction_demand_K_M",
+      "sign": "+",
+      "mechanism": "network_effect",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "transaction_demand_K_M",
+      "to": "liquidity_K_M",
+      "sign": "+",
+      "mechanism": "market_depth",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "liquidity_K_M",
+      "to": "transaction_cost_K_M",
+      "sign": "-",
+      "mechanism": "liquidity_premium",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "transaction_cost_K_M",
+      "to": "merchant_adoption",
+      "sign": "-",
+      "mechanism": "adoption_feedback",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "governance_credibility",
+      "to": "K_M_demand",
+      "sign": "+",
+      "mechanism": "institutional_trust",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "fiscal_acceptance",
+      "to": "K_M_demand",
+      "sign": "+",
+      "mechanism": "tax_settlement_demand",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "unit_of_account_share",
+      "to": "K_denominated_contract_share",
+      "sign": "+",
+      "mechanism": "denomination_network_effect",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "K_denominated_contract_share",
+      "to": "credit_market_depth",
+      "sign": "+",
+      "mechanism": "financial_network_depth",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "real_productive_capacity",
+      "to": "noninflationary_real_transfer_capacity",
+      "sign": "+",
+      "mechanism": "resource_constraint",
+      "epistemic_status": "reference_model"
+    },
+    {
+      "from": "nominal_transfer_demand",
+      "to": "inflation_pressure",
+      "sign": "+",
+      "mechanism": "demand_pressure",
+      "epistemic_status": "reference_model"
+    },
+    {
+      "from": "real_productive_capacity",
+      "to": "inflation_pressure",
+      "sign": "-",
+      "mechanism": "supply_capacity",
+      "epistemic_status": "reference_model"
+    },
+    {
+      "from": "broad_K_C_ownership",
+      "to": "median_real_wealth",
+      "sign": "+",
+      "mechanism": "capital_distribution",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "beneficial_ownership_concentration",
+      "to": "top_wealth_share",
+      "sign": "+",
+      "mechanism": "concentration",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "indexed_consumption_floor",
+      "to": "transition_real_income_loss",
+      "sign": "-",
+      "mechanism": "automatic_stabilizer",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "unexpected_CAD_inflation",
+      "to": "real_legacy_CAD_nominal_debt_burden",
+      "sign": "-",
+      "mechanism": "fisher_wealth_channel",
+      "epistemic_status": "reference_model"
+    },
+    {
+      "from": "expected_inflation",
+      "to": "nominal_refinancing_rate",
+      "sign": "+",
+      "mechanism": "fisher_relation",
+      "epistemic_status": "reference_model"
+    },
+    {
+      "from": "transition_volatility",
+      "to": "financial_stress",
+      "sign": "+",
+      "mechanism": "regime_transition_risk",
+      "epistemic_status": "hypothesis"
+    },
+    {
+      "from": "financial_stress",
+      "to": "governance_credibility",
+      "sign": "-",
+      "mechanism": "confidence_feedback",
+      "epistemic_status": "hypothesis"
+    }
+  ],
+  "feedback_loops": [
+    {
+      "id": "adoption_network_loop",
+      "path": [
+        "merchant_adoption",
+        "transaction_demand_K_M",
+        "liquidity_K_M",
+        "transaction_cost_K_M",
+        "merchant_adoption"
+      ],
+      "polarity": "reinforcing"
+    }
+  ],
+  "rules": [
+    "Signed edges express directional hypotheses or reference-model relationships, not identified structural coefficients.",
+    "No edge is promoted to empirical fact without evidence and applicability metadata."
+  ],
+  "causal_paths": [
+    {
+      "id": "stress_confidence_chain",
+      "path": [
+        "transition_volatility",
+        "financial_stress",
+        "governance_credibility",
+        "K_M_demand"
+      ],
+      "polarity": "potentially_destabilizing",
+      "path_kind": "open_causal_chain"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-australie",
+  "source_fingerprint": "sha256:eb9c3ce79109c094da950c0468da3d561af19d74e0d20b8b0d76edf039d695e5",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 364990,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 188415,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-pouvoirs-australie-artifact-canonical-59a85def1a.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 188415,
+      "sha256": "sha256:a3112ab95214409d0b78789067dceaf77896ed56a6e05e4721096160fc4d07ab"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1252,
+      "sha256": "sha256:0d7699c13a209d0cbc5c29bb6a936629aa09a74e7f867a0a29166e5a65db3161"
+    },
+    {
+      "path": "canon/domain/jurisdictional-power.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 175323,
+      "sha256": "sha256:ae7bec58dade25a89a9bf283694984a8cdb2bac12eeb557c08b2b5c091c73397"
+    }
+  ],
+  "segments": []
+}

@@ -1,0 +1,40 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:biodiversity",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:3c42470f5064e3d1fe873b470b91c37ecb93367a3a1914fd8fbfa1d2d594d115"
+  },
+  "subject": {
+    "domain": "biodiversity",
+    "id": "urn:kristal:subject:kristal-biodiversity",
+    "label": "Kristal-Biodiversity",
+    "orientation": "taxon concept × spatial support × temporal support × evidence/provenance → occurrence, abondance, diversité, évaluation de menace"
+  },
+  "semantic_ownership": {
+    "does_not_own": [
+      "pas un atlas mondial ni une ingestion temps réel ; exemples normatifs et fiche IUCN archivée ne sont pas des mises à jour de statut",
+      "les dépôts sources externes et leur publication",
+      "une autorité créée par l’IA ou la matérialisation"
+    ],
+    "owns": [
+      "Corpus statique et modèle d’assertions du domaine biodiversity",
+      "taxon concept × spatial support × temporal support × evidence/provenance → occurrence, abondance, diversité, évaluation de menace",
+      "identifiants sémantiques, provenance et état v9 historique"
+    ]
+  },
+  "canonical_artifact_count": 12,
+  "source_count": 12,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

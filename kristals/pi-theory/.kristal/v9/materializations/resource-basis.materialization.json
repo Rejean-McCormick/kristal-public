@@ -1,0 +1,117 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:pi-theory:materialization:resource-basis",
+  "source": {
+    "artifact_id": "urn:kristal:pi-theory:resource-basis",
+    "logical_contract": {
+      "id": "kristal.repository-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:0aef1b6a1952b7f89738f3b8a6ffafbf8f07d804ce4cd40d1c1dd892b9e1e9a5"
+    },
+    "authority_ref": "urn:kristal:authority:pi-theory"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 6
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:pi-theory:resource:portable_epistemic_state",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:c0b9ed03dba3e5d9112b645fdec8af139f8bf213adab110598a2881a28627441",
+        "size": 69566,
+        "locator": "knowledge-base/corpus/pi-theory.kristal-state.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:pi-theory:resource:portable_epistemic_state",
+        "role": "portable_epistemic_state"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:pi-theory:resource:identity_registry",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:8c4947900f0107261c9650051312a08760989fea50da82b8629d2f0598b2a1e7",
+        "size": 6254,
+        "locator": "knowledge-base/corpus/referents.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:pi-theory:resource:identity_registry",
+        "role": "identity_registry"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:pi-theory:resource:source_catalog",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:e40034f565c2f8d2420181bc8a79b4162292e1345038258d56f09df9a7a72c90",
+        "size": 8159,
+        "locator": "knowledge-base/sources/source-catalog.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:pi-theory:resource:source_catalog",
+        "role": "source_catalog"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:pi-theory:resource:source_policy",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5dee82f94554f03a4f14931d49ff9489f8f69ed9e8fbc0c551399e82c4ca819d",
+        "size": 1163,
+        "locator": "knowledge-base/sources/source-policy.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:pi-theory:resource:source_policy",
+        "role": "source_policy"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:pi-theory:resource:historical_source_lineage",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:5861ae8ed94da585995d6364db15a289655ee8bc8b6a297b2c46baa9177adf86",
+        "size": 1750,
+        "locator": "knowledge-base/sources/manuscript-versions.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:pi-theory:resource:historical_source_lineage",
+        "role": "historical_source_lineage"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:pi-theory:resource:external_source_fingerprint_registry",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:2ed6b4d033fb081523d7e807d0fbbece97dd435b98a0a6fed377b0abd4b1f286",
+        "size": 8167,
+        "locator": "external-source-library/source-store.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:pi-theory:resource:external_source_fingerprint_registry",
+        "role": "external_source_fingerprint_registry"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:pi-theory:resource:portable_epistemic_state",
+      "urn:kristal:pi-theory:resource:identity_registry",
+      "urn:kristal:pi-theory:resource:source_catalog",
+      "urn:kristal:pi-theory:resource:source_policy",
+      "urn:kristal:pi-theory:resource:historical_source_lineage",
+      "urn:kristal:pi-theory:resource:external_source_fingerprint_registry"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.repository-resource-set/jcs-v1"
+  }
+}

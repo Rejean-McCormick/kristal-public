@@ -1,0 +1,205 @@
+{
+  "format": "kristal.source-catalog/2.0.0",
+  "sources": [
+    {
+      "id": "urn:cybersecurity:source:nist-csf-2.0",
+      "title": "NIST Cybersecurity Framework (CSF) 2.0",
+      "kind": "official_framework",
+      "locator": {
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:nist-csf-2.0",
+        "title": "NIST Cybersecurity Framework (CSF) 2.0",
+        "publisher": "NIST",
+        "source_type": "official_framework",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20",
+        "source_version": "2.0_2024-02-26",
+        "accessed_at": "2026-10-02",
+        "use": "Risk-management outcomes and the Govern, Identify, Protect, Detect, Respond, Recover functions."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:nist-sp800-30r1",
+      "title": "NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments",
+      "kind": "official_guidance",
+      "locator": {
+        "url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:nist-sp800-30r1",
+        "title": "NIST SP 800-30 Rev. 1 — Guide for Conducting Risk Assessments",
+        "publisher": "NIST",
+        "source_type": "official_guidance",
+        "url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+        "source_version": "Rev1_2012",
+        "accessed_at": "2026-10-02",
+        "use": "Threat sources/events, vulnerabilities/predisposing conditions, likelihood, impact, risk and residual-risk semantics."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:nist-sp800-53r5",
+      "title": "NIST SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations",
+      "kind": "official_control_catalog",
+      "locator": {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/final"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:nist-sp800-53r5",
+        "title": "NIST SP 800-53 Rev. 5 — Security and Privacy Controls for Information Systems and Organizations",
+        "publisher": "NIST",
+        "source_type": "official_control_catalog",
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/final",
+        "source_version": "Rev5_current_controls_5.1",
+        "accessed_at": "2026-10-02",
+        "use": "Security/privacy control families and control-catalog semantics."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:nist-sp800-61r3",
+      "title": "NIST SP 800-61 Rev. 3 — Incident Response Recommendations and Considerations",
+      "kind": "official_guidance",
+      "locator": {
+        "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:nist-sp800-61r3",
+        "title": "NIST SP 800-61 Rev. 3 — Incident Response Recommendations and Considerations",
+        "publisher": "NIST",
+        "source_type": "official_guidance",
+        "url": "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+        "source_version": "Rev3_2025-04-03",
+        "accessed_at": "2026-10-02",
+        "use": "Incident response integrated with cybersecurity risk management and CSF 2.0."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:mitre-attack",
+      "title": "MITRE ATT&CK — Enterprise knowledge base",
+      "kind": "external_knowledge_base",
+      "locator": {
+        "url": "https://attack.mitre.org/"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:mitre-attack",
+        "title": "MITRE ATT&CK — Enterprise knowledge base",
+        "publisher": "MITRE",
+        "source_type": "external_knowledge_base",
+        "url": "https://attack.mitre.org/",
+        "source_version": "snapshot_2026-10-02",
+        "accessed_at": "2026-10-02",
+        "use": "Adversary tactics/techniques/procedures semantics; taxonomy is referenced rather than copied wholesale."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:mitre-cwe",
+      "title": "Common Weakness Enumeration (CWE)",
+      "kind": "external_weakness_catalog",
+      "locator": {
+        "url": "https://cwe.mitre.org/"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:mitre-cwe",
+        "title": "Common Weakness Enumeration (CWE)",
+        "publisher": "MITRE",
+        "source_type": "external_weakness_catalog",
+        "url": "https://cwe.mitre.org/",
+        "source_version": "snapshot_2026-10-02",
+        "accessed_at": "2026-10-02",
+        "use": "Software/hardware weakness taxonomy; distinction between weakness classes and concrete vulnerabilities."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:cve-program",
+      "title": "CVE Program",
+      "kind": "external_vulnerability_catalog",
+      "locator": {
+        "url": "https://www.cve.org/"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:cve-program",
+        "title": "CVE Program",
+        "publisher": "CVE Program",
+        "source_type": "external_vulnerability_catalog",
+        "url": "https://www.cve.org/",
+        "source_version": "snapshot_2026-10-02",
+        "accessed_at": "2026-10-02",
+        "use": "Identifiers and records for publicly disclosed cybersecurity vulnerabilities."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:first-cvss-4.0",
+      "title": "Common Vulnerability Scoring System (CVSS) v4.0",
+      "kind": "official_scoring_specification",
+      "locator": {
+        "url": "https://www.first.org/cvss/specification-document"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:first-cvss-4.0",
+        "title": "Common Vulnerability Scoring System (CVSS) v4.0",
+        "publisher": "FIRST",
+        "source_type": "official_scoring_specification",
+        "url": "https://www.first.org/cvss/specification-document",
+        "source_version": "4.0_document_1.2",
+        "accessed_at": "2026-10-02",
+        "use": "Technical vulnerability severity and Base/Threat/Environmental/Supplemental metric groups."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:cisa-kev",
+      "title": "CISA Known Exploited Vulnerabilities Catalog",
+      "kind": "external_operational_catalog",
+      "locator": {
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:cisa-kev",
+        "title": "CISA Known Exploited Vulnerabilities Catalog",
+        "publisher": "CISA",
+        "source_type": "external_operational_catalog",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "source_version": "snapshot_2026-10-02",
+        "accessed_at": "2026-10-02",
+        "use": "Evidence that listed vulnerabilities are known to have been exploited; not a complete threat-probability model."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:nist-sp800-40r4",
+      "title": "NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning",
+      "kind": "official_guidance",
+      "locator": {
+        "url": "https://csrc.nist.gov/pubs/sp/800/40/r4/final"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:nist-sp800-40r4",
+        "title": "NIST SP 800-40 Rev. 4 — Guide to Enterprise Patch Management Planning",
+        "publisher": "NIST",
+        "source_type": "official_guidance",
+        "url": "https://csrc.nist.gov/pubs/sp/800/40/r4/final",
+        "source_version": "Rev4_2022",
+        "accessed_at": "2026-10-02",
+        "use": "Enterprise patch-management planning and vulnerability remediation context."
+      }
+    },
+    {
+      "id": "urn:cybersecurity:source:local-domain-model",
+      "title": "Kristal-Cybersecurity — modèle éditorial de domaine v1.0",
+      "kind": "editorial_domain_model",
+      "locator": {
+        "url": "urn:cybersecurity:source:local-domain-model"
+      },
+      "legacy_record": {
+        "source_id": "urn:cybersecurity:source:local-domain-model",
+        "title": "Kristal-Cybersecurity — modèle éditorial de domaine v1.0",
+        "publisher": "Kristal-Cybersecurity",
+        "source_type": "editorial_domain_model",
+        "url": "urn:cybersecurity:source:local-domain-model",
+        "source_version": "1.0.0",
+        "accessed_at": "2026-10-02",
+        "use": "Domain-neutral ontology, cross-axis relations, semantic guardrails, examples and curation rules."
+      }
+    }
+  ],
+  "legacy_catalog": "external-source-library/source-store.json",
+  "notes": "Index dérivé. Les enregistrements historiques sont conservés sous legacy_record et dans leur fichier d’origine."
+}

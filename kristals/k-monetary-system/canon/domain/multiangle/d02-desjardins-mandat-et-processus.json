@@ -1,0 +1,69 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d02",
+  "protocol_id": "D02",
+  "title": "D02 — Renouvellement coopératif de Desjardins : mécanisme juridiquement borné",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:C01",
+    "source:multiangle:S06",
+    "source:multiangle:S09",
+    "source:multiangle:W01",
+    "source:multiangle:W02",
+    "source:multiangle:W03",
+    "source:multiangle:W18"
+  ],
+  "depends_on": [
+    "external:desjardins-governance",
+    "external:quebec-law-C-67.3"
+  ],
+  "validation_gates": [
+    "droit_cooperatif",
+    "controle_federation",
+    "solvabilite",
+    "vote_des_membres"
+  ],
+  "sections": [
+    {
+      "heading": "Résumé des choix d'auteur — sans leur attribuer de réalité accomplie",
+      "level": 2,
+      "body_markdown": "S06 vise : rémunération exemplaire et limitée; démocratie directe en utilisant Ethikos; contrôle public des décisions; amélioration équitable des ristournes; investissements responsables; guichets de confiance; philanthropie à faible frais. Le document S06 précise explicitement que kOA veut travailler avec un leadership renouvelé et ne pas administrer Desjardins à la place de ses membres. C01 ajoute une stratégie d'influence à plusieurs angles. Les deux idées sont compatibles seulement si l'autorité des membres, CA, Fédération et AMF n'est pas usurpée."
+    },
+    {
+      "heading": "Règles externes critiques",
+      "level": 2,
+      "body_markdown": "- Loi C-67.3 art. 4 : une voix par membre, pas de procuration; art. 5 mission; art. 84 affectation des excédents et normes fédératives; art. 85 réserve générale non distribuable. [W01]\n- AGA : le conseil soumet une proposition et les membres décident du partage / FADM et administrateurs selon modalités applicables. [W02]\n- La Fédération fixe aussi des règles de ristourne et de répartition; un vote local n'est pas un référendum sur l'ensemble du Mouvement. [W01,W03]\n- Gestion des dépôts et sécurité systémique sous supervision AMF. [W18]"
+    },
+    {
+      "heading": "Processus légitime séquentiel",
+      "level": 2,
+      "body_markdown": "1. Choisir la portée : **une caisse**, plusieurs caisses ou Fédération. Ne pas confondre.\n2. Rassembler règlement intérieur, date limite de nomination, règlement de vote, dossier financier, règlement FADM et organigramme.\n3. Décrire 2–4 scénarios de partage net et leur incidence; publier impacts sur les personnes ayant de faibles revenus et sur les services.\n4. Examiner la compatibilité prudentielle, le pouvoir de la Fédération, et le droit applicable avant de déposer un projet.\n5. Participation des membres à l'AGA et désignation du CA suivant les procédures existantes.\n6. Projet pilote sur des décisions autorisées; contrats, appels d'offres, suivi de l'utilisation; revue après 12 et 24 mois.\n7. Toute évolution de Fédération passe par ses organes propres et exigences de supervision."
+    },
+    {
+      "heading": "Rémunérations",
+      "level": 2,
+      "body_markdown": "Comparateur : salaire médian du personnel, responsabilité, risque, rémunération de marché et qualité de service. Concevoir **une option** avec plafond du ratio `r = rémunération_totale_direction / rémunération_médiane`; option symbolique du président explicitement présente dans S06. Décision à prendre par l'organe compétent; effets sur recrutement, incitations et succession à tester. Ne pas déduire d'une rémunération élevée le contrôle par des ultra-riches sans preuves de droits décisionnels et réseaux d'intérêts."
+    },
+    {
+      "heading": "Deux projets spécifiques",
+      "level": 2,
+      "body_markdown": "**Option A** : maintenir un seuil de ristourne directe pour ménages à faibles revenus puis répartir le reliquat; **option B** : répartir le montant avec budget participatif sur projets d'accès gratuit; options comparées sans recommandation implicite. Fonds de réserve et besoins prudentiels d'abord."
+    },
+    {
+      "heading": "Livrables de dossier de caisse",
+      "level": 2,
+      "body_markdown": "Règlement électoral à jour, dossier d'AG, état des fonds réellement distribuables, carte des critères de la Fédération, grille d'incidence décile, carte d'entretien des infrastructures, conflits d'intérêts, plan de communication non trompeuse."
+    },
+    {
+      "heading": "Test de refus",
+      "level": 2,
+      "body_markdown": "Le modèle doit dire « non exécutable » si vote irrecevable, initiative hors compétence, atteinte à réserve ou solde de distribution insuffisant."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D02_DESJARDINS_MANDAT_ET_PROCESSUS.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

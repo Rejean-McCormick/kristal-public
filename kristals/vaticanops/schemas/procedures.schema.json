@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vaticanops:schema:procedures",
+  "type": "object",
+  "required": [
+    "format",
+    "procedures"
+  ],
+  "properties": {
+    "procedures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title_fr",
+          "domain",
+          "nodes",
+          "transitions",
+          "source_versions",
+          "is_executable",
+          "authority_to_perform"
+        ]
+      }
+    }
+  }
+}

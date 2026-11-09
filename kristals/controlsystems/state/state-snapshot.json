@@ -1,0 +1,30 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:controlsystems",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:bbed949bcdefddcf6b9ceba55a2d6588ed3015fe9d9078c5614bee2a4d9287f7"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:controlsystems:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:controlsystems:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:aa77aae7091888cfbd81c1fe3e0820fc26a01569b65e533153de6da90687e1c1"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "control_systems_reference_measurement_error_correction",
+    "language": "fr"
+  },
+  "authority_ref": "urn:kristal:authority-boundary:controlsystems:repository-canon"
+}

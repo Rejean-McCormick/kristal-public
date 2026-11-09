@@ -1,0 +1,57 @@
+{
+  "format": "k.monetary.domain/constitution/0.1.0",
+  "id": "urn:kristal:k-monetary-system:constitution",
+  "status": "design_candidate",
+  "principles": [
+    {
+      "id": "institutional_not_personal",
+      "rule": "Monetary authority is institutional and collectively governed; founder identity confers no permanent monetary privilege."
+    },
+    {
+      "id": "singleness",
+      "rule": "One unit of K_M should settle at par across authorized payment surfaces unless a claim is explicitly a different instrument."
+    },
+    {
+      "id": "elasticity_with_constraints",
+      "rule": "Liquidity may expand or contract through declared operations; elasticity must not imply arbitrary permanent wealth creation for insiders."
+    },
+    {
+      "id": "integrity",
+      "rule": "All issuance, destruction, policy changes and emergency actions must be auditable and attributable."
+    },
+    {
+      "id": "real_resource_constraint",
+      "rule": "Nominal transfers cannot guarantee real consumption beyond available productive capacity and imports."
+    },
+    {
+      "id": "broad_capital_ownership",
+      "rule": "System capital participation should be structurally broad rather than dependent on founder charity."
+    },
+    {
+      "id": "anti_capture",
+      "rule": "No individual expert, wallet, institution or governance coalition should acquire unchecked unilateral control."
+    }
+  ],
+  "separation_of_functions": {
+    "K_M": "transaction and unit-of-account layer",
+    "K_C": "capital-distribution layer",
+    "payment_rail": "access/authorization/settlement layer",
+    "smart_vote": "external governance/decision layer",
+    "simulator": "non-authoritative forecasting and policy-testing layer"
+  },
+  "amendment_contract": {
+    "ordinary": "Smart Vote proposal + transparent deliberation + declared threshold + delayed activation window",
+    "emergency": "pre-authorized bounded intervention + automatic expiry + mandatory post-hoc review",
+    "founder_override": false,
+    "silent_parameter_change": false
+  },
+  "open_constitutional_questions": [
+    "legal classification by jurisdiction",
+    "K_M backing/redemption model",
+    "exact inflation/purchasing-power target",
+    "credit-creation architecture",
+    "collateral policy",
+    "privacy versus AML/KYC design",
+    "capital-distribution legal vehicle"
+  ]
+}

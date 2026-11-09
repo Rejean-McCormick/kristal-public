@@ -1,0 +1,52 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:microbiology:state",
+  "classification": {
+    "primary_archetype": "ARK-09",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-17"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "2.70",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.70",
+          "label_en": "Biology",
+          "domain": "2"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "microorganism_environment_relation_graph",
+    "organization": "unknown",
+    "materialization_profiles": [
+      "kristal.materialization/inline-json/1",
+      "kristal.materialization/kristal-state-v6/1"
+    ],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 3916595,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:ac44bbc94c26acd5222ea2339178051935e4d9762503034f52aa281c93060860",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

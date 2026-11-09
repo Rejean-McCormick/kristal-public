@@ -1,0 +1,127 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:foodbrands",
+  "source_fingerprint": "sha256:e86c2c5d22190b399a53cb6e79b56c4214b50494821a72c35dc9c1930ef490c6",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 72051,
+    "tracked_file_count": 13,
+    "max_tracked_file_bytes": 23174,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 6,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-foodbrands-canonical-afdaac1c1b.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1185,
+      "sha256": "sha256:73edb982894919d470aa5986e5922571ae6f1091fd64daa8c12dcbfa85fba283"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-foodbrands-v11-catalog-fr-proposal-2026-11-06-5d34e0cbb6.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1651,
+      "sha256": "sha256:3e6eec8815ba41de390eb130a848a166ea45105a1daed92b98aafdcd542bd26e"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-foodbrands-catalog-3618c544af.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1613,
+      "sha256": "sha256:afdd2b5c589bbf53421af036fe21d7bda04473dc51d418cddadba488807a9962"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-foodbrands-crosswalk-37fa37afab.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 596,
+      "sha256": "sha256:b9ca6dd1e48ec53126ed43cee156e4332aa9fe51f38b7e92881a593a0dc12bfa"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-foodbrands-graph-56eb9213c2.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 23174,
+      "sha256": "sha256:14201f2b8693c72031842d70a1266cf7719d1a7094c710bd48bedf8878830db0"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-foodbrands-registry-109993d80e.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 8957,
+      "sha256": "sha256:f2ebed64d643bc952920d0df158a9e0a0e5f7586be69704fccf25117eec8c61f"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 2795,
+      "sha256": "sha256:24ec082b049d325bd18762f02748545a8cacae9575ba7902b5aa5fa82ab5e74d"
+    },
+    {
+      "path": "canon/domain/foodbrands.logical-payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 610,
+      "sha256": "sha256:ce78b43253f019a0ab84e2876c40103024ccef5d257e8ad80d3ba1ce4bee44de"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 165,
+      "sha256": "sha256:80a6867378b264cc28aa4f3bdeb1f1fbe7f093f4fe96844dfa851c44038dd9d7"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1114,
+      "sha256": "sha256:b8ccf60ba1c583a3b96169e78d3cf1cb379f6e4afc068df8c17db969c093e499"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 21247,
+      "sha256": "sha256:a068d67eb35de7ad1530079f118e9edee0a875c5f0c6391e5bf599bbc1b67c86"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 7804,
+      "sha256": "sha256:e62f2c6c79bbcee7b9a9c7df5effb9426e39bf2987fb629a58ba7e1b74a415b2"
+    },
+    {
+      "path": "canon/domain/v11/updates/qualite-fr-2026-11-06/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1140,
+      "sha256": "sha256:3f9784deb6dc97c773d0d52af431a053dd2644e38ab3a45be2456c5bf28fec6d"
+    }
+  ],
+  "segments": []
+}

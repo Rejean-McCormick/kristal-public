@@ -1,0 +1,153 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:vehiclediag:state:reference",
+  "source_fingerprint": "sha256:8f41222b0e1adc347a47d59f527cff0b7805f216cf42a0f63f6e1c4249553864",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 16462292,
+    "tracked_file_count": 11,
+    "max_tracked_file_bytes": 3895766,
+    "materialization_segment_count": 3,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 2,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/logical/epistemic-overlay.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 3895766,
+      "sha256": "sha256:e73be6a4a61b8a478210ca7bbec7520e232e45a52b14952c51d026dda1799f02"
+    },
+    {
+      "path": ".kristal/v9/logical/reference-model.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 452056,
+      "sha256": "sha256:900d749419eb9a6153b58001e48578dac9dcb1d2450cc50e80766e82aea55d9d"
+    },
+    {
+      "path": ".kristal/v9/materializations/epistemic-overlay.inline.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1147,
+      "sha256": "sha256:e9f1bdebd8b9016f0545c15dc851c79c8a36762abf5fbaf56fee0c02d8e45b2c"
+    },
+    {
+      "path": ".kristal/v9/materializations/epistemic-overlay.portable-v6.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1184,
+      "sha256": "sha256:daf6f434ecde89ceb26e26ce69aa3ca8b244a58f957b2944d60b5c933b2bd01c"
+    },
+    {
+      "path": ".kristal/v9/materializations/reference-model.inline.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1142,
+      "sha256": "sha256:df7a8cd4e88aab7b5af41bc65eefcd5028bca7e3da98f372397945d1e07d9d38"
+    },
+    {
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 3669113,
+      "sha256": "sha256:df75c6693c130d7ac70a129d86860afafcf3ce7c69f3a3f70f423c377c82c816"
+    },
+    {
+      "path": "build/v9/artifacts/urn-vehiclediag-artifact-epistemic-overlay-427a123654.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3895766,
+      "sha256": "sha256:def54b6a5c973f84cf00b746ecc3dbf3abd58b9d52fdca6e42f1751cc1f07571"
+    },
+    {
+      "path": "build/v9/artifacts/urn-vehiclediag-artifact-reference-model-540f90e8c0.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 452056,
+      "sha256": "sha256:ef55567c7873058de52c889ea9be610f97e83e544d562b47e32c7ad398ec3596"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1231,
+      "sha256": "sha256:832d011897a2225cf79ce9d394b8b3f2a72bf161d266e720c075c37ac6a6b0e8"
+    },
+    {
+      "path": "canon/domain/reference-model.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 423933,
+      "sha256": "sha256:32a438d150af1460f256804fcd631ad198ba300f9c34e9e64ddbac44fa9c0290"
+    },
+    {
+      "path": "canon/epistemic/epistemic-overlay.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 3668898,
+      "sha256": "sha256:1d699d72577b3335046a65e75143d5c5d13c4e3a1c82e7a9b38bbbc1a0d62c84"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/epistemic-overlay.inline.materialization.json",
+      "segment_key": "artifact",
+      "record_count_declared": null,
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size_bytes_declared": 3895766,
+      "digest_declared": "sha256:e73be6a4a61b8a478210ca7bbec7520e232e45a52b14952c51d026dda1799f02",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/logical/epistemic-overlay.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/epistemic-overlay.portable-v6.materialization.json",
+      "segment_key": "portable-state",
+      "record_count_declared": 833,
+      "media_type": "application/vnd.kristal.state+json;version=6.0",
+      "size_bytes_declared": 3669113,
+      "digest_declared": "sha256:df75c6693c130d7ac70a129d86860afafcf3ce7c69f3a3f70f423c377c82c816",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "materialization_profile": "kristal.materialization/kristal-state-v6/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/reference-model.inline.materialization.json",
+      "segment_key": "artifact",
+      "record_count_declared": null,
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size_bytes_declared": 452056,
+      "digest_declared": "sha256:900d749419eb9a6153b58001e48578dac9dcb1d2450cc50e80766e82aea55d9d",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/logical/reference-model.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    }
+  ]
+}

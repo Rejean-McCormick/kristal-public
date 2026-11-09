@@ -1,0 +1,311 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:music:state",
+  "source_fingerprint": "sha256:27a55bd5f0f086332dcb41984b15d1858d0b4637f735c3b579a9aaa5880c0329",
+  "specialization": "kristal.reader/generic-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "generic",
+  "materialization_profiles": [
+    "kristal.materialization/inline-json/1",
+    "kristal.materialization/kristal-state-v6/1"
+  ],
+  "artifact_strategies": [
+    {
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 564629,
+      "suggested_parser_family": null,
+      "suggested_mode": "format_specific_or_opaque",
+      "must_verify_digest": "sha256:e7c53ff24b27901bdabaec19c5ac3d1fb6c883834dafee75f1f79340ee6508d9",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/inline-json.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1166,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f0ec80a0d5ba80167a5c71449fa04110ff446636ea9e2362d84ed1aa46e609f8",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1167,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f901c30a49e689bc5a79445660f43a278e48774b0573ed57e34a0d50cb953342",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/vnd.kristal.state+json;version=6.0",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 521480,
+      "suggested_parser_family": null,
+      "suggested_mode": "format_specific_or_opaque",
+      "must_verify_digest": "sha256:f79e501231857f3601bcb14f256bba3fd1af1a69d2cd6713568040b100d948cb",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-music-artifact-epistemic-state-6839eb5892.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 564629,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:e7c53ff24b27901bdabaec19c5ac3d1fb6c883834dafee75f1f79340ee6508d9",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-music-v11-catalog-2026-10-27-cd0c6a95d5.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1616,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:80650724d0a1e5b88a4885398cd175bd967193051c7bc3560aa93332d6054f78",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-music-v11-crosswalk-2026-10-27-f50b06e2df.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 19622,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:2c0ce60e5b191a2dcdddbf0451927be17e7341934977e2cc08ddcc77870083cb",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-music-v11-graph-2026-10-27-ac619c7c48.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1238876,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:b388d50fc526aab25ed75aafe7386c2d1ada3d409543a6d29e40b541f616efb5",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-music-v11-identity-2026-10-27-c7e9ec7820.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 114180,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f894636eacffa72e6f94d6e1d97188cce968fca255757e3443981ecc9da7da45",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Music-catalog-07f3eb72f5.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 2192,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:aa0291000500ff09ab2222b104973160ada6a44a2dfceb1070b1d631b8355430",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Music-crosswalk-9c5cd8f586.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 19640,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:8f08c4f122d5f2607ac7cb528ec638ab838bff700bdb73a6d4b6459e0a0360ec",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Music-graph-1cd6657522.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1259451,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:a1c21de36e6df43ea810090747d9d98a64bdd71af76ebfcb83d76ffa381455b3",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Music-registry-b35a1bdcf8.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 126014,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:2947f7cba5dbe50552ad8493c388b80c236b8b4eb438edf47fcf9f160958fee7",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3805,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:08cdf49facbc4433a5e2a27cae5506c02989630473d234955c31489494222d7c",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 521265,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:31f961abfa0b324092c22d691f0986183463f7b25b3b924fb737ccd7ba36f8e6",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1667,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:c152061277cacdd231fa8d4e56e393dd04728ed72e965235bbc08ad07e36a23f",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 17907,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:1cc15da0da3ebc18b4518b8f77e84ef020544f088a9680bc7fca80d3703541a6",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 114743,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f3ad6ab3577a2f9f6f6cc197b3933e3a2d80ea2a4813dfed461ab1e78cdc7351",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1173930,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:38756936be9883f39f3c40ac6f5064b40a41f0d0686498942ebf5940b4de583a",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1122,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:e537c4d1a6f4b12950fcdea94e52a5565122606677e13b663d4c460d8f0e6f13",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 17892,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:28500404adcc0bcfd65a1e4348ddc05afa63fde68b3596a339028ed90876218d",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 103912,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:2c0e582dfee31e82be93c1cf4d75aff9f5565235257ac9a35a0ac80f762690f8",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1154706,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:384007819fe19e15fecfaeb19064ccee752fb3f80ec636f44e7b918079829f20",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

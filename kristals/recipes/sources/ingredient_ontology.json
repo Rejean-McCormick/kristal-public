@@ -1,0 +1,715 @@
+{
+  "format": "recipes.ingredient-ontology.v2",
+  "version": "2.0.0",
+  "status": "model_seed_non_authoritative",
+  "ingredients": [
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:animal",
+      "labels": [
+        {
+          "text": "Produit animal",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:ingredient"
+      ],
+      "properties": {},
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:baking_powder",
+      "labels": [
+        {
+          "text": "Poudre à pâte",
+          "lang": "fr"
+        },
+        {
+          "text": "Baking powder",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:ingredient"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "leavening_agent"
+        ]
+      },
+      "aliases": [
+        "levure chimique"
+      ]
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:beef",
+      "labels": [
+        {
+          "text": "Bœuf",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:animal"
+      ],
+      "properties": {
+        "protein_rich": true,
+        "phase": "solid",
+        "functional_properties": [
+          "protein_source"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:butter",
+      "labels": [
+        {
+          "text": "Beurre",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:animal"
+      ],
+      "properties": {
+        "contains_dairy": true,
+        "fat_rich": true,
+        "phase": "fat",
+        "functional_properties": [
+          "fat",
+          "flavor",
+          "tenderizing"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:carrot",
+      "labels": [
+        {
+          "text": "Carotte",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "vegetable_component",
+          "sweetness"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:cheese",
+      "labels": [
+        {
+          "text": "Fromage",
+          "lang": "fr"
+        },
+        {
+          "text": "Cheese",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:animal"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "fat",
+          "protein_source",
+          "flavoring"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:chocolate",
+      "labels": [
+        {
+          "text": "Chocolat",
+          "lang": "fr"
+        },
+        {
+          "text": "Chocolate",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "flavoring",
+          "fat",
+          "color_contributor"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:cornstarch",
+      "labels": [
+        {
+          "text": "Fécule de maïs",
+          "lang": "fr"
+        },
+        {
+          "text": "Cornstarch",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:grain"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "starch_source",
+          "thickener"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:cream",
+      "labels": [
+        {
+          "text": "Crème",
+          "lang": "fr"
+        },
+        {
+          "text": "Cream",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:animal"
+      ],
+      "properties": {
+        "phase": "liquid",
+        "functional_properties": [
+          "fat",
+          "hydration",
+          "emulsion"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:egg",
+      "labels": [
+        {
+          "text": "Œuf",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:animal"
+      ],
+      "properties": {
+        "contains_egg": true,
+        "role_candidates": [
+          "binder",
+          "structure",
+          "emulsifier"
+        ],
+        "phase": "mixed",
+        "functional_properties": [
+          "binding",
+          "emulsification",
+          "structure"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:egg_yolk",
+      "labels": [
+        {
+          "text": "Jaune d’œuf",
+          "lang": "fr"
+        },
+        {
+          "text": "Egg yolk",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:animal"
+      ],
+      "properties": {
+        "phase": "mixed",
+        "functional_properties": [
+          "emulsification",
+          "binding",
+          "fat_contribution"
+        ]
+      },
+      "aliases": [
+        "jaune d oeuf"
+      ]
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:garlic",
+      "labels": [
+        {
+          "text": "Ail",
+          "lang": "fr"
+        },
+        {
+          "text": "Garlic",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "aromatic",
+          "flavoring"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:grain",
+      "labels": [
+        {
+          "text": "Céréale / grain",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {},
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:herbs",
+      "labels": [
+        {
+          "text": "Herbes",
+          "lang": "fr"
+        },
+        {
+          "text": "Herbs",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "aromatic",
+          "garnish"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:ingredient",
+      "labels": [
+        {
+          "text": "Ingrédient",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [],
+      "properties": {},
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:lemon_juice",
+      "labels": [
+        {
+          "text": "Jus de citron",
+          "lang": "fr"
+        },
+        {
+          "text": "Lemon juice",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "liquid",
+        "functional_properties": [
+          "acid",
+          "hydration",
+          "flavoring"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:milk",
+      "labels": [
+        {
+          "text": "Lait",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:animal"
+      ],
+      "properties": {
+        "contains_dairy": true,
+        "phase": "liquid",
+        "functional_properties": [
+          "hydration",
+          "fat_or_protein_contribution"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:mustard",
+      "labels": [
+        {
+          "text": "Moutarde",
+          "lang": "fr"
+        },
+        {
+          "text": "Mustard",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "paste",
+        "functional_properties": [
+          "emulsification_support",
+          "flavoring"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:neutral_oil",
+      "labels": [
+        {
+          "text": "Huile neutre",
+          "lang": "fr"
+        },
+        {
+          "text": "Neutral oil",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "fat",
+        "functional_properties": [
+          "fat",
+          "emulsion_phase"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:oil",
+      "labels": [
+        {
+          "text": "Huile",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "fat_rich": true,
+        "phase": "fat",
+        "functional_properties": [
+          "fat",
+          "cooking_medium",
+          "emulsion_phase"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:onion",
+      "labels": [
+        {
+          "text": "Oignon",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "aromatic": true,
+        "phase": "solid",
+        "functional_properties": [
+          "aromatic",
+          "moisture"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:plant",
+      "labels": [
+        {
+          "text": "Produit végétal",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:ingredient"
+      ],
+      "properties": {},
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:potato",
+      "labels": [
+        {
+          "text": "Pomme de terre",
+          "lang": "fr"
+        },
+        {
+          "text": "Potato",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "starch_source",
+          "structure"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:rice",
+      "labels": [
+        {
+          "text": "Riz",
+          "lang": "fr"
+        },
+        {
+          "text": "Rice",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:grain"
+      ],
+      "properties": {
+        "phase": "solid",
+        "functional_properties": [
+          "starch_source",
+          "structure"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:salt",
+      "labels": [
+        {
+          "text": "Sel",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:ingredient"
+      ],
+      "properties": {
+        "role_candidates": [
+          "seasoning"
+        ],
+        "phase": "solid",
+        "functional_properties": [
+          "seasoning"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:stock",
+      "labels": [
+        {
+          "text": "Bouillon",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:ingredient"
+      ],
+      "properties": {
+        "phase": "liquid",
+        "functional_properties": [
+          "braising_liquid",
+          "flavoring"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:sugar",
+      "labels": [
+        {
+          "text": "Sucre",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "sweetener": true,
+        "phase": "solid",
+        "functional_properties": [
+          "sweetening",
+          "browning",
+          "water_activity_modifier"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:tomato",
+      "labels": [
+        {
+          "text": "Tomate",
+          "lang": "fr"
+        },
+        {
+          "text": "Tomato",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "solid_liquid",
+        "functional_properties": [
+          "moisture",
+          "acid",
+          "umami"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:vinegar",
+      "labels": [
+        {
+          "text": "Vinaigre",
+          "lang": "fr"
+        },
+        {
+          "text": "Vinegar",
+          "lang": "en"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:plant"
+      ],
+      "properties": {
+        "phase": "liquid",
+        "functional_properties": [
+          "acid",
+          "flavoring"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:water",
+      "labels": [
+        {
+          "text": "Eau",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:ingredient"
+      ],
+      "properties": {
+        "phase": "liquid",
+        "functional_properties": [
+          "hydration",
+          "solvent"
+        ]
+      },
+      "aliases": []
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:wheat_flour",
+      "labels": [
+        {
+          "text": "Farine de blé",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:grain"
+      ],
+      "properties": {
+        "contains_gluten": true,
+        "form": "powder",
+        "phase": "solid",
+        "functional_properties": [
+          "starch_source",
+          "structure_forming"
+        ]
+      },
+      "aliases": [
+        "farine"
+      ]
+    },
+    {
+      "ingredient_id": "urn:kristal:recipes:ingredient:yeast",
+      "labels": [
+        {
+          "text": "Levure boulangère",
+          "lang": "fr"
+        }
+      ],
+      "parent_refs": [
+        "urn:kristal:recipes:ingredient:ingredient"
+      ],
+      "properties": {
+        "role_candidates": [
+          "leavening",
+          "fermentation"
+        ],
+        "phase": "biological",
+        "functional_properties": [
+          "fermentation_agent"
+        ]
+      },
+      "aliases": []
+    }
+  ]
+}

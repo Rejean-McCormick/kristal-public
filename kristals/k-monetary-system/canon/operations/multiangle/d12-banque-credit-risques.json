@@ -1,0 +1,58 @@
+{
+  "format": "k.monetary.multiangle/proposal-protocol/0.1.0",
+  "id": "urn:kristal:k-monetary-system:multiangle:d12",
+  "protocol_id": "D12",
+  "title": "D12 — De la monnaie aux banques : crédit, liquidité et gestion de crise",
+  "epistemic_regime": "authored_design_proposal",
+  "acceptance": "recorded_as_proposal_not_approved_for_execution",
+  "status": "candidate",
+  "owned_scope": "model_of_proposed_mechanism_not_external_authority",
+  "source_refs": [
+    "source:multiangle:R01",
+    "source:multiangle:S01",
+    "source:multiangle:S09",
+    "source:multiangle:S10",
+    "source:multiangle:W09",
+    "source:multiangle:W18",
+    "source:multiangle:W19"
+  ],
+  "depends_on": [
+    "D05",
+    "canon/operations/monetary-policy.json"
+  ],
+  "validation_gates": [
+    "capital_et_liquidite",
+    "credit_et_defaut",
+    "redressement"
+  ],
+  "sections": [
+    {
+      "heading": "Pourquoi cette couche est nécessaire",
+      "level": 2,
+      "body_markdown": "Un portefeuille de paiements et un réseau de crédit sont différents. L'octroi de prêts en K_M augmente les engagements de paiement; la liquidité instantanée, les risques de défaut, les dépôts et la protection des créanciers exigent un schéma explicite. Un « smart contract » seul ne rend pas un emprunteur solvable."
+    },
+    {
+      "heading": "Architecture candidate de crédit",
+      "level": 2,
+      "body_markdown": "(1) Créanciers autorisés, (2) scoring non discriminatoire soumis à examen, (3) limites de concentration, (4) capital et coussins de liquidité, (5) portefeuille de défauts et recouvrements, (6) service d'assistance aux surendettés, (7) auditeur, (8) mécanisme de redressement, (9) confidentialité et recours."
+    },
+    {
+      "heading": "Test micro",
+      "level": 2,
+      "body_markdown": "Le prêteur avance 100 K_M : soit il détient déjà les 100 unités, soit il crée une créance compensée par un passif défini; en aucun cas le récit « la confiance crée l'actif » ne remplace la comptabilité. Au remboursement, distinguer principal et intérêts; au défaut, constater une perte d'actif pour la personne/institution qui l'a financé."
+    },
+    {
+      "heading": "Stress",
+      "level": 2,
+      "body_markdown": "Vague de retraits 40 %, défaillances corrélées 15 %, liquidité bloquée pendant 7 jours, choc sur collatéral, attaque cyber et baisse des prix. Sous ces scénarios, déterminer qui paie les pertes avant d'accorder un financement réel."
+    },
+    {
+      "heading": "Indicateurs",
+      "level": 2,
+      "body_markdown": "Ratio de liquidité, actifs libres, exposition concentration, retard paiement, créances douteuses, capacité de recapitalisation, taux de plainte résolu, coûts effectifs de crédit."
+    }
+  ],
+  "documentary_projection": "docs/multiangle/protocoles/D12_BANQUE_CREDIT_RISQUES.md",
+  "execution_authority": "none",
+  "promotion_requirement": "explicit_domain_and_owner_review; independent qualification for external factual or legal assertions"
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:computing",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:26253cb79b01cbbdb6d71fb3fdc7f961883e340f0b0d33c510887a914f327c77"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:computing:artifact:canonical",
+      "logical_contract": {
+        "id": "kristal.compat.v6-state-logical",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority-boundary:computing:repository-canon",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:fa5181f99901d83b87467a7be6c4005c04f5715bbdd8d3646a4789d9f302eba7"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:computing:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:77c270263f553451dd8e621e3bbb3d7119f9b153401e355695d337f218264108"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:computing:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9c7cfbccd6144f3c0821a0ceb4ec72655e58bc9acfb9da86d8b1e99212194f03"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:computing:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:334fefa90747969fa87d9d673cfe18521b506df1d0cf7192856436bd211979b5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:computing:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c07cb632ea880e49799327fbfe20c75cf26aa5ccb52db89f8f5c8d057d0333ad"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Computing:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c9c01592ae643dfbfe85961154d3253241301e3414c42fdbb38ffd570cf378f9"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Computing:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:891413e5fd4e818f4387eaf8fd87daae5b7db9284329062a853bc77abd16292c"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Computing:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9583480cea8b2ebabe7248bcb95eeff1f142f59132b291003d4ccb6314cd6b34"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Computing:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:35a074043a3b95889454f23b0d058fe2d6cbac74f470117de16a43166c8765aa"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "computing",
+    "subdomain": "information_transformation",
+    "language": "fr"
+  },
+  "authority_ref": "urn:kristal:authority-boundary:computing:repository-canon"
+}

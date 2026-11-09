@@ -1,0 +1,722 @@
+{
+  "format": "kristal.ai-index/1.0",
+  "state_ref": "urn:kristal:state:hydrology",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:7819730497301d323290fe3ea914f9b6695ff910c37d487d6a34442d399500f9"
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 1065,
+      "sha256": "sha256:daa116a09689ef8b767e746165e38a7dc8931ea8572eb7556b270e340221a41b"
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size": 3136,
+      "sha256": "sha256:ae6b92b4a1f53edf14ad8ed49a1e49a92b9e56fb3e17d8c023a0bd7dd0f33327"
+    },
+    {
+      "path": "canon/domain/domain-state.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 808,
+      "sha256": "sha256:5351059ca7a5164440aeb8f9e520546697c7ffb6c4a11e13e8102ede6e02143a",
+      "artifact_id": "urn:kristal:hydrology:semantic-state",
+      "logical_contract": {
+        "id": "hydrology.semantic-state",
+        "version": "9.0"
+      }
+    },
+    {
+      "path": "canon/domain/resource-basis.payload.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2278,
+      "sha256": "sha256:7305f74f8a4ef2af763ebce220a0c13d65858b3118aa81096d6bfbe356236f55",
+      "artifact_id": "urn:kristal:hydrology:resource-basis",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 88613,
+      "sha256": "sha256:e1e01364a276032cb0157557491aab1d5f4e8014d5783ad0c1aa180e9bdfe9bd"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1244,
+      "sha256": "sha256:b99d5cf175dda68c5b5db60ef3a22a4ab3f070cd02c5a0202347f7cbb9f03554"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 992,
+      "sha256": "sha256:e392a6140f7aa980d9e10945b380bbe5e526de10b836dcf67b8547d453f23696"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1099,
+      "sha256": "sha256:9041895f1d004cfdfcd7896a54ca9566b38db3d7ec12b5f48dd4d008fc8b5483"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1419,
+      "sha256": "sha256:7cfe84f13252bbfcf875c417550623bc85ef62b914cdeeaaf6dde741bd21af78",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Hydrology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2273,
+      "sha256": "sha256:f6d2b506324e653f27f58adf1b2b75ea739f650ee0382c02e50f6baddd559fc0"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 10645,
+      "sha256": "sha256:d36c71cd701b9349b8fc7d20a95cc5d6b17a712340d2e7df1f2f46873068db6d"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1767,
+      "sha256": "sha256:170a705fe0fe23f635da03fce2330f472ac06f3cdd924eb50973d29d6fa65eaa"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1746,
+      "sha256": "sha256:74881f060938fb54d74326aa8121b58031d466cca5c6c66efe226e8787c2ee88"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 9109,
+      "sha256": "sha256:1d4f4572e5f29b19835e36ceb27e8c0f318761e2431fe3496e330104a8cbbf37",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Hydrology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 80032,
+      "sha256": "sha256:e1dae1aaff7da363e3a5ac1aa9c98d135699e392f0ee530e6971d955e0b8f219",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Hydrology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 79848,
+      "sha256": "sha256:cfb601f76c3f531ad141b455b6c5f32e80cb920430b60628921d7bc79eaba241"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 742349,
+      "sha256": "sha256:bfa7ce530891a18d372ce24ba5126a72686f641866f059ae7a82ef3053616598",
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Hydrology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/KS_WIKIDATA_V11_1.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 88613,
+      "sha256": "sha256:e1e01364a276032cb0157557491aab1d5f4e8014d5783ad0c1aa180e9bdfe9bd"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/KS_WIKIDATA_V11_2.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 954,
+      "sha256": "sha256:6805f9e4d28f4e4de8b50d5a817373d2700dfbbeaa785df09ac79c549dff106e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1244,
+      "sha256": "sha256:b99d5cf175dda68c5b5db60ef3a22a4ab3f070cd02c5a0202347f7cbb9f03554"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/RAPPORT_V11_1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 992,
+      "sha256": "sha256:e392a6140f7aa980d9e10945b380bbe5e526de10b836dcf67b8547d453f23696"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/RAPPORT_V11_2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 684,
+      "sha256": "sha256:036dbdea6cf6c2ca10afe63b610159ea09b4a6b5b26e76035887c577e378aff5"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1099,
+      "sha256": "sha256:9041895f1d004cfdfcd7896a54ca9566b38db3d7ec12b5f48dd4d008fc8b5483"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/REVISIONS_SEMANTIQUES_A_EXAMINER.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1945,
+      "sha256": "sha256:7820bd590419f8d4feab999bcc1bdc7ddc203a43b7ee84416cf0a89f0a5f7167",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Hydrology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 9371,
+      "sha256": "sha256:622a036ff60558beda5a284eac884d217c4094c60a314e5814a94ab16e2466a0"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 10645,
+      "sha256": "sha256:d36c71cd701b9349b8fc7d20a95cc5d6b17a712340d2e7df1f2f46873068db6d"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-domain-fr-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1767,
+      "sha256": "sha256:170a705fe0fe23f635da03fce2330f472ac06f3cdd924eb50973d29d6fa65eaa"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-domain-und-v11-1.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1746,
+      "sha256": "sha256:74881f060938fb54d74326aa8121b58031d466cca5c6c66efe226e8787c2ee88"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-typed-fr-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2330,
+      "sha256": "sha256:dddb1fc4571b78b7db6cd0259a8ebc1b5145fbbcbfff57c36116b8c3bf7ba43d"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/wikidata-typed-und-v11-2.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2297,
+      "sha256": "sha256:f721877729d7eda854aacbfd52e29a5ba6448a6ee44a189fdb496a4a80e89e97"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 9109,
+      "sha256": "sha256:1d4f4572e5f29b19835e36ceb27e8c0f318761e2431fe3496e330104a8cbbf37",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Hydrology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 80887,
+      "sha256": "sha256:d8e12cbf5483b10f2917e411bae566380d155fab12d0fc9381341b8a400b5f2f",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Hydrology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 79848,
+      "sha256": "sha256:cfb601f76c3f531ad141b455b6c5f32e80cb920430b60628921d7bc79eaba241"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 743976,
+      "sha256": "sha256:cf894eb5214e498a0713679609eb3f24a23629de7d6cee450113dc7bbee1ec60",
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Hydrology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/LISEZ_MOI.md",
+      "role": "canonical_content",
+      "media_type": "text/markdown",
+      "size": 1244,
+      "sha256": "sha256:b99d5cf175dda68c5b5db60ef3a22a4ab3f070cd02c5a0202347f7cbb9f03554"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/REPORT.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 1099,
+      "sha256": "sha256:9041895f1d004cfdfcd7896a54ca9566b38db3d7ec12b5f48dd4d008fc8b5483"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 874,
+      "sha256": "sha256:d208f04de8dbcc70868607951b805586f8d4ac1eed7da04bef53e065c3725e1e",
+      "artifact_id": "urn:kristal:state:hydrology:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-fr.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 2273,
+      "sha256": "sha256:f6d2b506324e653f27f58adf1b2b75ea739f650ee0382c02e50f6baddd559fc0"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/metadata-und.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 10645,
+      "sha256": "sha256:d36c71cd701b9349b8fc7d20a95cc5d6b17a712340d2e7df1f2f46873068db6d"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/evidence-identity-review.jsonl",
+      "role": "canonical_content",
+      "media_type": "application/x-ndjson",
+      "size": 0,
+      "sha256": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 9094,
+      "sha256": "sha256:6586dd01451c939e1e2487499256c6bb186fe6890ef8c257856ba09641cebfb2",
+      "artifact_id": "urn:kristal:state:hydrology:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 68116,
+      "sha256": "sha256:2808791a40110b5d98737061e682456aedf40a237bf94c720c2e14359670c4e1",
+      "artifact_id": "urn:kristal:state:hydrology:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/normalized-KA-KS-candidates.jsonl.gz",
+      "role": "canonical_content",
+      "media_type": "application/octet-stream",
+      "size": 79848,
+      "sha256": "sha256:cfb601f76c3f531ad141b455b6c5f32e80cb920430b60628921d7bc79eaba241"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_content",
+      "media_type": "application/json",
+      "size": 721124,
+      "sha256": "sha256:f88387e6b473ff4ee1a753f3c2a18ea9e07320ff047a85bd1cbf2ee7a05d7ac8",
+      "artifact_id": "urn:kristal:state:hydrology:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      }
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "media_type": "application/json",
+      "size": 6870,
+      "sha256": "sha256:0c47f19469bd5dabaf74c70451510993e01f72fdce36575a3f4aef318aab17a4"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 514,
+      "sha256": "sha256:db24599f149be1f8a45a208d8628fb9b369ecef59a8ae25428f15a4e5dd646b7"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 725,
+      "sha256": "sha256:222c357d9fa59eb184d677d048fd28da3621a401d0f383f9fe082a6924e814b7"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 660,
+      "sha256": "sha256:3d31129572914d5c023f5eb49abef1da9f75ab1b95eaa945a60f5ecb4b431b4f"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 686,
+      "sha256": "sha256:94cd9b8b0afc1c9926642db13a53e4cff5d5e29c185c292de6c82fed5dc8aec9"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 1564,
+      "sha256": "sha256:a3751baa163b42df8e7fa1d68276a4fa84c6ae0109aa5729a40d26b1b8c837e5"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 476,
+      "sha256": "sha256:7855f53a5d630434f9d148a3630121fb4a6d7313dc8ad43a65df36ce47f87fb9"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 811,
+      "sha256": "sha256:0ab79acdff2ca3a8e85ec62d81afbd289e3d9204609676482fc6490a0c859b14"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 660,
+      "sha256": "sha256:2ea059a27fbf865dd4e91dcfb0142bde907c602e0c6af80ebee366aa6260848c"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "media_type": "text/markdown",
+      "size": 3925,
+      "sha256": "sha256:7ed1e91178e0b27739a2e5348e4e5238f8e814acc8f63f8e95cc1bf0060271ea"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "media_type": "application/json",
+      "size": 6902,
+      "sha256": "sha256:960af3e0c168b3f7954eab92305b23f6657a3d9c5df685c340e76647bc0f90be"
+    },
+    {
+      "path": "sources/wikidata-skope/current.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 250,
+      "sha256": "sha256:aff2ed58f9cf56481891b7d5f0b4805ea7cdaa783fa92aa9d6dbe2f0a1d940fe"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/README.md",
+      "role": "source_material",
+      "media_type": "text/markdown",
+      "size": 1842,
+      "sha256": "sha256:1f50b53d68d2896cda6df4201bca8d99aab682baa15a72e26d5df6f032104f1d"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/crosswalk-candidates.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 7422,
+      "sha256": "sha256:a14a81896f047f548dee7130a83ddbc0738e0cf01a0eed0894158724983baa7a"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/priority-relations.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 29437,
+      "sha256": "sha256:1c268a465a13d92b63f6d1f0e01a5acf1a2677f5f747313d11f73e84a136a814"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/enrichment-proposals.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 763619,
+      "sha256": "sha256:badc69c8e6dc5dd4d0426942f417fd4a2e7454fb2f72e7007adaa20a43faccbb"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/enrichment-proposals.related-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 9611,
+      "sha256": "sha256:b839219f1d3f75d4707592eed4f7312fd3d707b621aca1137febc41227fd2dd3"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/enrichment-proposals.report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 428,
+      "sha256": "sha256:9778d3b7009a417e24ae0f09ce202fe6c84bfd0fe3bbf9931873ecb3703a08d4"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/full-evidence/4568b894dbd4f878/part-000000.jsonl.gz",
+      "role": "source_material",
+      "media_type": "application/octet-stream",
+      "size": 109698,
+      "sha256": "sha256:5ff46853bad88ee0a955757d5ed811b4df60817b48e3b9ac2ce42bbb4ec80bb8"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/full-evidence/4568b894dbd4f878/part-000000.manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 491,
+      "sha256": "sha256:4579e4db10fc2335e62e1bab00dbb720c2eba5a25fa70a4c00b3f985fb643d3c"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/full-evidence/4568b894dbd4f878/portfolio-extraction-state.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 663,
+      "sha256": "sha256:73ca0838b085a5e240baecb75dd3869b0762c582a5d2999bbb45d28cca01bbea"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/full-evidence/4568b894dbd4f878/snapshot-manifest.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 536,
+      "sha256": "sha256:362ea822238f723fc57caadf4af38499613eca4f79a0aa3f9bc62516797e7c16"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/portfolio/identity-resolution.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 46403,
+      "sha256": "sha256:482dd7c7cb48fd6b63d1b9d6940f752576a996148f6ff8b83da701555f951920"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/portfolio/inventory.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 312,
+      "sha256": "sha256:ff5caf2904f0a074d0232083231233f49210d5511cc0d36674c5c7a894bd5c3e"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/review-candidates.generated.csv",
+      "role": "source_material",
+      "media_type": "text/csv",
+      "size": 79383,
+      "sha256": "sha256:29a1bf60649b53e64a81cecec5292525ad87745d0c6e1ccc2142c7e348e5ea85"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/run-report.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 15864,
+      "sha256": "sha256:1e692a271d3a906489269f92d647bc10629c9ce92a531a769b9066db3a86e38b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/seeds/extraction-intent.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 693,
+      "sha256": "sha256:563a063836d45255c4f30668ae46164697731e2766e0e1d9d7e867db944e48d4"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/seeds/portfolio-selected-qids.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 635,
+      "sha256": "sha256:4568b894dbd4f8787a0e6dc17d6665ce42f3a1e0f241b4df702d8fd8dcd6d83e"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/seeds/reviewed-mappings.jsonl",
+      "role": "source_material",
+      "media_type": "application/x-ndjson",
+      "size": 5927,
+      "sha256": "sha256:c02ce26d995d638af5f9458acc4f27eaa52ea4cbeba49965596e745487bb9f7b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/raw/source-profiles/maxwd-local.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1123,
+      "sha256": "sha256:bfd799319ec26b173332cc843df66ba5b043937ce59d3bbedc973d9e8d00959b"
+    },
+    {
+      "path": "sources/wikidata-skope/runs/3aa4e55f5c890c9d/source-index.json",
+      "role": "source_material",
+      "media_type": "application/json",
+      "size": 1986,
+      "sha256": "sha256:814c5e330310a67d25f92a77f85a25da33810bac314d4ff6e140ea2edf57dbdf"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "media_type": "application/vnd.kristal.state-snapshot+json",
+      "size": 5854,
+      "sha256": "sha256:071fe36a46385bff5fb14e7f5f22468d460b91adb6dc20f895d628a56389df1a",
+      "state_ref": "urn:kristal:state:hydrology",
+      "logical_commitment": {
+        "profile": "kristal.state-commitment/jcs-sha256-v1",
+        "digest": "sha256:7819730497301d323290fe3ea914f9b6695ff910c37d487d6a34442d399500f9"
+      }
+    }
+  ],
+  "materialization_blobs": [
+    {
+      "manifest": ".kristal/v9/materializations/domain-state.materialization.json",
+      "source_artifact_id": "urn:kristal:hydrology:semantic-state",
+      "kind": "segment",
+      "key": "all",
+      "media_type": "application/json",
+      "size": 1836,
+      "sha256": "sha256:ce63fe395d612dff1cb8808899e0f1eebc61f5a11d354d0fda65fb2d0849ed34",
+      "locator": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "transport_class": "materialization",
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:ce63fe395d612dff1cb8808899e0f1eebc61f5a11d354d0fda65fb2d0849ed34",
+      "verified_size": 1836
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:hydrology:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:hydrology:resource:domain_native_stock_flow_graph",
+      "media_type": "application/json",
+      "size": 91242,
+      "sha256": "sha256:e214da9753862c86ca572781d046c3c4f1e319f9fcccac873bcb55a242cfd42c",
+      "locator": "knowledge-base/corpus/hydrologic-stock-flow-graph.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/corpus/hydrologic-stock-flow-graph.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:e214da9753862c86ca572781d046c3c4f1e319f9fcccac873bcb55a242cfd42c",
+      "verified_size": 91242
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:hydrology:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:hydrology:resource:identity_registry",
+      "media_type": "application/json",
+      "size": 36848,
+      "sha256": "sha256:9bb4db195f5ed04c1839cb4b97ac236103c856409a21c5e009240f3d8a75bd15",
+      "locator": "knowledge-base/corpus/referents.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/corpus/referents.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:9bb4db195f5ed04c1839cb4b97ac236103c856409a21c5e009240f3d8a75bd15",
+      "verified_size": 36848
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:hydrology:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:hydrology:resource:portable_epistemic_state",
+      "media_type": "application/json",
+      "size": 319230,
+      "sha256": "sha256:000f4a21c59280e66a634fd623113a39119ed4e795a2c95c7810b6e2d68efa17",
+      "locator": "knowledge-base/corpus/hydrology.kristal-state.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/corpus/hydrology.kristal-state.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:000f4a21c59280e66a634fd623113a39119ed4e795a2c95c7810b6e2d68efa17",
+      "verified_size": 319230
+    },
+    {
+      "manifest": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "source_artifact_id": "urn:kristal:hydrology:resource-basis",
+      "kind": "segment",
+      "key": "urn:kristal:hydrology:resource:source_catalog",
+      "media_type": "application/json",
+      "size": 9101,
+      "sha256": "sha256:9346299bcfed5f1a513ee7b84987f16e57d9918171585f42f3f189d2bdc0c14e",
+      "locator": "knowledge-base/sources/source-catalog.json",
+      "transport_class": "materialization",
+      "path": "knowledge-base/sources/source-catalog.json",
+      "availability": "workspace_local",
+      "verified_sha256": "sha256:9346299bcfed5f1a513ee7b84987f16e57d9918171585f42f3f189d2bdc0c14e",
+      "verified_size": 9101
+    }
+  ]
+}

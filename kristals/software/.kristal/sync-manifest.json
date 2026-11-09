@@ -1,0 +1,183 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "software",
+  "title": "Software",
+  "target_root": "kristals/software",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:software",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:bb4c4a11d82d6efee72b7eed05b5674e44fcd7028ec48477fea060ceaf083dee"
+  },
+  "surface_digest": "sha256:e57962a221114d270524e043f65700241612e3e428d2f2ba22eca7311789507c",
+  "file_count": 26,
+  "total_bytes": 279772,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 2101,
+      "sha256": "sha256:6fd26eb74520aa81efb3e6e9eb4396431042d1e1e1a050796eead0c604cbbd5d"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1922,
+      "sha256": "sha256:da8ca8e5db05dd50cdc77a02efd5edefbeacb45c4b16a9cc980c347662d3d87e"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 2188,
+      "sha256": "sha256:c1fd1b238f44c63430da3ad72d23d851f820b6863fc08ea819a537e928763904"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 4127,
+      "sha256": "sha256:2cbce9af5654a3f21df30823e35ebd0727e75be96eb927303fa30a1c85e3596e"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1751,
+      "sha256": "sha256:7b3f48cea0074819809cac54b854c58ead8197f2b92814f75ac1b8d235ba5fd8"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 3830,
+      "sha256": "sha256:e0c29fc58ecef5faba2c30ac4c082a77ea9d20c27151e1eaf717f5d68bed58af"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 580,
+      "sha256": "sha256:ecf801917d7032cc8e827cf143735a50858a3f8bd1ecf5b2bbe8d6376dc5b5fc"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 741,
+      "sha256": "sha256:7d0596bf55c206007d4085dc56b0e4bda2e5fe0934fc58f39655dab321ef7abd"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_content",
+      "size": 233902,
+      "sha256": "sha256:7a616f85fe98351cf65d1090e2c7d1adc80e22bb027815b37e14b66e41ead5e4"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1234,
+      "sha256": "sha256:9beb940b9cc490d3a824c056bbfbaabb07c38dae98e2aeb63906c63189fb49b0"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1859,
+      "sha256": "sha256:1559e9e7cd5b9beb88c3296e3a5b9a7825d0ad087039b4b738399cbfb10e631e"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2666,
+      "sha256": "sha256:44e1c93ec8f0fe7ca161b99643b16722daf25b411ea9046593410e07965299c8"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 418,
+      "sha256": "sha256:500a138701eb4472452bd98de4a1de702dae47d0dd9de7aab54e548c64582d85"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 700,
+      "sha256": "sha256:1100e9c4deda678ca6ca4d8089e528ad413b9adaf32e18b033aa0a09c81b65cc"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 575,
+      "sha256": "sha256:d44e334694644af397cc792785481332024f2e2daf9ca13213e28c87c6bc73f5"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 442,
+      "sha256": "sha256:fc97a8cf0edc72c4351e5b2457c03b6f41eddc0a69d731bb4c30ee037dacc5eb"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 791,
+      "sha256": "sha256:0fad278ff697539e0c826563b3eea6bd11ab74580f6a606f26977d2222ca7658"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 485,
+      "sha256": "sha256:47579b41da155180d0a2ca758852c5d25dd462e80d1c7929fd15cc40913a6542"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 581,
+      "sha256": "sha256:303395e67586319c0d65ecf9536f0b6f0b0ef9146b0bc62cbd2ba1dcd7104038"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 349,
+      "sha256": "sha256:20d230b2a19afcc896b89ef41d9aa6e5c3a64f4ec526f5417c1b91d2b1924086"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 4020,
+      "sha256": "sha256:f252db2f7f0c8a4b5879e4f1775aeb19e4d4ce9e5352601b8931ec5b1b2d7b6f"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1768,
+      "sha256": "sha256:19c283bd1aca20f89c679b0f70aad308af5b2b03a27c0082451463162b5f4bce"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 9066,
+      "sha256": "sha256:b843e44caaefbe49e66bde10d6b87ab9ca4dce8fc9c595983aae0dffb215df1a"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 893,
+      "sha256": "sha256:ff062094812881537f4d466ed5efddae0a0368967340c1547257c7d94d1002c3"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

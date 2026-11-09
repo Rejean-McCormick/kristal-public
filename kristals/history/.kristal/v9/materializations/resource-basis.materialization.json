@@ -1,0 +1,75 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:history:materialization:resource-basis",
+  "source": {
+    "artifact_id": "urn:kristal:history:resource-basis",
+    "logical_contract": {
+      "id": "kristal.repository-resource-set",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:65fda42089f45881c0d97bd9dd61f6e47d2c95d93f65e77bed5bc12a9e81d2c5"
+    },
+    "authority_ref": "urn:kristal:authority:history"
+  },
+  "profile": "kristal.materialization/native-json-set/1",
+  "partition_spec": {
+    "strategy": "resource-boundary",
+    "resource_count": 3
+  },
+  "segments": [
+    {
+      "segment_key": "urn:kristal:history:resource:portable_epistemic_state",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:f809e6f17c3384f0dae6d53087e1276a5b217849d945876444d3263fa81d0d81",
+        "size": 100333,
+        "locator": "knowledge-base/corpus/history.kristal-state.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:history:resource:portable_epistemic_state",
+        "role": "portable_epistemic_state"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:history:resource:identity_registry",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:2a361115ace46a2865e54d3f5a6b38f76e6cbd3b5bddb30b18c05250b5f28a13",
+        "size": 4415,
+        "locator": "knowledge-base/corpus/referents.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:history:resource:identity_registry",
+        "role": "identity_registry"
+      }
+    },
+    {
+      "segment_key": "urn:kristal:history:resource:source_catalog",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:4d5691a5fe962db4f4ad675d0bd402a6b4fb4f4509f7eee9531a0b4c12e9c9e2",
+        "size": 5741,
+        "locator": "knowledge-base/sources/source-catalog.json"
+      },
+      "logical_range": {
+        "resource_id": "urn:kristal:history:resource:source_catalog",
+        "role": "source_catalog"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "urn:kristal:history:resource:portable_epistemic_state",
+      "urn:kristal:history:resource:identity_registry",
+      "urn:kristal:history:resource:source_catalog"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "kristal.repository-resource-set/jcs-v1"
+  }
+}

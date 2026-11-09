@@ -1,0 +1,55 @@
+{
+  "format": "kristal.discovery/1.0",
+  "state_ref": "urn:kristal:state:kristal-ecology",
+  "classification": {
+    "primary_archetype": "ARK-09",
+    "arketype_version": "1.6.0",
+    "organization": "unknown",
+    "supporting_archetypes": [
+      "ARK-01"
+    ],
+    "classification_source": "source_assisted_mapping_2026-10-30__non_authority",
+    "verification_status": "AUTOMATED_CLASSIFICATION_REVIEW_REQUIRED",
+    "structural_profile_version": "arketype.structural-profiles/0.1",
+    "unesco_thesaurus": {
+      "vocabulary": "UNESCO Thesaurus",
+      "source": "Manager pinned UNESCO profile and local native-model summary",
+      "microthesauri": [
+        {
+          "code": "2.55",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.55",
+          "label_en": "Environmental sciences and engineering",
+          "domain": "2"
+        },
+        {
+          "code": "2.70",
+          "uri": "http://vocabularies.unesco.org/thesaurus/mt2.70",
+          "label_en": "Biology",
+          "domain": "2"
+        }
+      ],
+      "mapping_kind": "project_subject_level_not_concept_exact_match",
+      "verification_status": "LOCAL_CATALOG_MAPPED_NOT_CANONICAL"
+    },
+    "semantic_mapping_ref": "semantic-mapping/semantic-map.json",
+    "primary_usage": "PRF-20"
+  },
+  "data_layout": {
+    "state_architecture": "kristal.state/9.0",
+    "native_kind": "scaled_ecological_interaction_process_network",
+    "organization": "unknown",
+    "materialization_profiles": [],
+    "inventory_ref": "derived/reader-inventory.json"
+  },
+  "reader": {
+    "profile": "kristal.reader/generic-v1",
+    "hints_ref": "derived/reader-profile.json"
+  },
+  "size": {
+    "class": "small",
+    "tracked_local_bytes": 2804390,
+    "completeness": "measured_referenced_local_files"
+  },
+  "source_fingerprint": "sha256:4399df1cb93c0e545c49fc3411eedba300b78b73b1b9bd2341eb78f3ac5ed15f",
+  "authority": "noncanonical_derived_metadata_not_access_or_publication_authority"
+}

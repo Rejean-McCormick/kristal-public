@@ -1,0 +1,174 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:hydrology",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:7819730497301d323290fe3ea914f9b6695ff910c37d487d6a34442d399500f9"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:hydrology:resource-basis",
+      "logical_contract": {
+        "id": "kristal.repository-resource-set",
+        "version": "1.0"
+      },
+      "authority_ref": "urn:kristal:authority:hydrology",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:693726a8d001135ff852d037714b93d29b5e8a597b47a37707dcdea0230c6260"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:hydrology:semantic-state",
+      "logical_contract": {
+        "id": "hydrology.semantic-state",
+        "version": "9.0"
+      },
+      "authority_ref": "urn:kristal:authority:hydrology",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:81f81d50c7b29c46924bf31ee2d2b4f0d68fcd2a42f730f9c8deb74db02fa886"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:hydrology:v11:identity:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:eca09b4b676a4b4a8c0ce00b8b3fd4b318e9f8c256ada87653c2c25a9e302469"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:hydrology:v11:graph:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:620c27b7af69e40f1359743ac1c4eb481fee7b97926beadc86587d4a6d6aa19f"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:hydrology:v11:crosswalk:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ebe1e24534ca204e44a9112ed342437b2b1836866280d6133f54e3ce052e5de5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristal:state:hydrology:v11:catalog:2026-10-27",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2171560bd6e5e12d048250173fc4cd6a6f76ac08fbb751fe4969bd832c7a2d03"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Hydrology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:4b55e6a6e5c1cf5c995722b7299b8d1e6cab0050658a73eed02e3b2d941c76be"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Hydrology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:937ce038894d606e10299269cb33e320e0175c8a345c89e21029ceae004c66b5"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Hydrology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:50db5cf1e366f0b0c13b0ddd19c13ca1f36990267e662c64df306a320451270b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.1:Kristal-Hydrology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:38b4907ed0f1eb83eb2f68ccbcf098b44e5403b139d3adf7754abf8d94ccc066"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Hydrology:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:8cea428207cb0239ffc5e57655bcb6bb786815786858e2cc616a126d6d84aaea"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Hydrology:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:711ed4660c3b06833b094788b81ddd5c6a85fe8df8f7fc7bb38320750954b9cc"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Hydrology:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:50db5cf1e366f0b0c13b0ddd19c13ca1f36990267e662c64df306a320451270b"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:v11.2:Kristal-Hydrology:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c805cb9520e85a825d63a3d5e185bf04d9413b91533871893dbb03d6c2088e86"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "hydrology",
+    "edition": "1.0.0"
+  },
+  "authority_ref": "urn:kristal:authority:hydrology"
+}

@@ -1,0 +1,57 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:pouvoirs-pays-bas",
+  "source_fingerprint": "sha256:04a1e35376fbf66f523786bd461f3ee31689cc678d94434535d81bcba558ebc3",
+  "size_class": "tiny",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 396078,
+    "tracked_file_count": 3,
+    "max_tracked_file_bytes": 204587,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-pouvoirs-pays-bas-artifact-canonical-da6f77a415.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 204587,
+      "sha256": "sha256:5a1928573186a472c0c0b8e312a8684e61326cba59177e2f4863b33220d78c76"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 1232,
+      "sha256": "sha256:3aa1a12ccb9a4f065b2cfbaaf4bbb79848a10cfd35e93c288d8b8e555e29e7de"
+    },
+    {
+      "path": "canon/domain/jurisdictional-power.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 190259,
+      "sha256": "sha256:c6dd97ce280dac974954fc748f5274e86a7d24c2cafd622f731a1c30a5a9bacf"
+    }
+  ],
+  "segments": []
+}

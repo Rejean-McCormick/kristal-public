@@ -1,0 +1,644 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:kristal:mechanical-engineering:candidate-study:1.0",
+  "title": "Noncanonical Mechanical Study Contract",
+  "description": "Structural envelope only: runtime validator performs domain checks; no product certification.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "study_id",
+    "native_kind",
+    "status",
+    "provenance",
+    "geometry",
+    "material",
+    "load_cases",
+    "boundary_conditions",
+    "assumptions",
+    "model",
+    "operating_conditions",
+    "calculations",
+    "tests",
+    "failure_analysis",
+    "safety"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "mechanical-study-candidate/1.0"
+    },
+    "study_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "native_kind": {
+      "const": "typed_mechanism_effort_motion_graph"
+    },
+    "status": {
+      "const": "candidate_noncanonical"
+    },
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "edition",
+          "date",
+          "applicability",
+          "epistemic_status"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "edition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "type": "string",
+            "minLength": 1
+          },
+          "applicability": {
+            "type": "string",
+            "minLength": 1
+          },
+          "epistemic_status": {
+            "enum": [
+              "published_reference",
+              "observation",
+              "hypothesis",
+              "derived_analysis"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "geometry": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "value",
+          "unit"
+        ],
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "material": {
+      "type": "object",
+      "required": [
+        "material_id",
+        "properties",
+        "source_id",
+        "property_basis",
+        "property_source_note"
+      ],
+      "properties": {
+        "material_id": {
+          "type": "string"
+        },
+        "properties": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "value",
+              "unit"
+            ],
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "property_basis": {
+          "enum": [
+            "synthetic_only",
+            "source_documented"
+          ]
+        },
+        "property_source_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "load_cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "load_id",
+          "kind",
+          "magnitude",
+          "operating_range"
+        ],
+        "properties": {
+          "load_id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "axial_force",
+              "torque",
+              "transverse_force"
+            ]
+          },
+          "magnitude": {
+            "type": "object",
+            "required": [
+              "value",
+              "unit"
+            ],
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "operating_range": {
+            "type": "object",
+            "required": [
+              "min",
+              "max",
+              "unit"
+            ],
+            "properties": {
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "cycles": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "boundary_conditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "description",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "assumed",
+              "verified"
+            ]
+          }
+        }
+      }
+    },
+    "model": {
+      "type": "object",
+      "required": [
+        "model_id",
+        "kind",
+        "scope",
+        "limits",
+        "losses"
+      ],
+      "properties": {
+        "model_id": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "idealized",
+            "empirical",
+            "measured"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limits": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "losses": {
+          "type": "object",
+          "required": [
+            "status"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "not_modelled",
+                "modelled"
+              ]
+            },
+            "efficiency": {
+              "type": "number",
+              "exclusiveMinimum": 0,
+              "maximum": 1
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "operating_conditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "value",
+          "unit",
+          "range"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "range": {
+            "type": "object",
+            "required": [
+              "min",
+              "max",
+              "unit"
+            ],
+            "properties": {
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "calculations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "equation",
+          "inputs",
+          "input_ranges",
+          "result",
+          "source_id",
+          "assumption_refs",
+          "model_kind"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "equation": {
+            "enum": [
+              "axial_stress",
+              "axial_strain",
+              "rotational_power",
+              "linear_power",
+              "delivered_power"
+            ]
+          },
+          "inputs": {
+            "type": "object",
+            "minProperties": 2,
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "value",
+                "unit"
+              ],
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "input_ranges": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "min",
+                "max",
+                "unit"
+              ],
+              "properties": {
+                "min": {
+                  "type": "number"
+                },
+                "max": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "result": {
+            "type": "object",
+            "required": [
+              "quantity",
+              "value",
+              "unit"
+            ],
+            "properties": {
+              "quantity": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "assumption_refs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "model_kind": {
+            "enum": [
+              "idealized",
+              "empirical",
+              "measured"
+            ]
+          }
+        }
+      }
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "test_id",
+          "observation",
+          "test_date",
+          "conditions",
+          "source_id",
+          "uncertainty"
+        ],
+        "properties": {
+          "test_id": {
+            "type": "string"
+          },
+          "observation": {
+            "type": "object",
+            "required": [
+              "quantity",
+              "value",
+              "unit"
+            ],
+            "properties": {
+              "quantity": {
+                "type": "string"
+              },
+              "value": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "test_date": {
+            "type": "string",
+            "minLength": 1
+          },
+          "conditions": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "uncertainty": {
+            "type": "object",
+            "required": [
+              "value",
+              "unit"
+            ],
+            "properties": {
+              "value": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "failure_analysis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "failure_mode_id",
+          "symptoms",
+          "hypotheses",
+          "root_cause_status"
+        ],
+        "properties": {
+          "failure_mode_id": {
+            "type": "string"
+          },
+          "symptoms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "hypotheses": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "cause",
+                "status",
+                "evidence_refs"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "cause": {
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "possible",
+                    "tested",
+                    "excluded"
+                  ]
+                },
+                "evidence_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "root_cause_status": {
+            "const": "not_established"
+          }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "risks",
+        "certification_status",
+        "intervention_authorized"
+      ],
+      "properties": {
+        "risks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "hazard",
+              "mitigation"
+            ],
+            "properties": {
+              "hazard": {
+                "type": "string",
+                "minLength": 1
+              },
+              "mitigation": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "certification_status": {
+          "const": "not_certified"
+        },
+        "intervention_authorized": {
+          "const": false
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

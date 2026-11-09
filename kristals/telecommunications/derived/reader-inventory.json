@@ -1,0 +1,113 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:state:telecommunications",
+  "source_fingerprint": "sha256:fe69fc308abf373ebbeef2a4238644f7c632a0c28658dd68b0798e1b18f3e91a",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 1900607,
+    "tracked_file_count": 11,
+    "max_tracked_file_bytes": 609579,
+    "materialization_segment_count": 0,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 5,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-telecommunications-canonical-state-56d512fb0f.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 286051,
+      "sha256": "sha256:89b1d13c404097c817b69293f65da06fd1f4ad267aae3867d6cf025c52760caa"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-telecommunications-catalog-e750f49b00.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1637,
+      "sha256": "sha256:7992439376b2db5fb7cdd5d3c6ad4cd60833679b474feb5c285fa43ae209ca09"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-telecommunications-crosswalk-9a0af681f3.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 612,
+      "sha256": "sha256:86fac6c01c7ff6e909eb7e7a8e45efd8c67eb47e4200aaedc5e202506b566c10"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-telecommunications-graph-afedf19131.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 609579,
+      "sha256": "sha256:21d8115046f32b16c99464ccfa7b574d7eca8a48848b0a0e31623817e56765c1"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-2026-10-27-telecommunications-registry-9131f65409.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 85531,
+      "sha256": "sha256:bed68a2c8db08f65fdc289749721519ad5ae8044916c2c604075992ae1749630"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 2485,
+      "sha256": "sha256:a327282651141679c2722d3aec481cb8f881f2f1004ca986ef8ea4be805b8cd4"
+    },
+    {
+      "path": "canon/domain/kristal-telecommunications.canonical-payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 267535,
+      "sha256": "sha256:49a21a7ae7689cb49d3e70b337a5ccf1547a4637bf384ebbfce5b7242adeb7fb"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 173,
+      "sha256": "sha256:70a2fba097bb467be4ebc5e5e491ac982ea5e8951964fb15db059880cf8f5e08"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1130,
+      "sha256": "sha256:bcee87793fc6f6f3a18eaad3d960f6de7b164ce834b5482510a440fb8a007adb"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 568134,
+      "sha256": "sha256:afe594bb5fe136d29df8a533eb399778a74facb4963793b88cd6c3b54c6b273c"
+    },
+    {
+      "path": "canon/domain/v11/updates/kristalizer-2026-10-27/registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 77740,
+      "sha256": "sha256:8f3be5f2b81509ccc9bd2c1951a10804ebd7f1d9f75d864b774ab370d1ff2bd6"
+    }
+  ],
+  "segments": []
+}

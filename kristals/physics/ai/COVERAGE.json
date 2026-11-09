@@ -1,0 +1,36 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:physics",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:20ad9b904de56aea42a5e07c34c10a02f763973e6dc3f15d04edf0ecf5965485"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:physics",
+    "label": "Kristal-Physics",
+    "domain": "physics"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Systèmes physiques, états, lois/modèles, mesures, unités et domaines d’applicabilité documentés."
+    ],
+    "does_not_own": [
+      "Confusion entre système et état, validité universelle de chaque modèle, ou simulation non spécifiée.",
+      "Les dépôts des sources externes, leur publication et leur autorité éditoriale."
+    ]
+  },
+  "canonical_artifact_count": 13,
+  "source_count": 19,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:neuroscience:state",
+  "source_fingerprint": "sha256:b05b07030e776bd980fd4ccb236083221645446b2ac5387374ee2b49d04c3d73",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 11260221,
+    "tracked_file_count": 31,
+    "max_tracked_file_bytes": 1095527,
+    "materialization_segment_count": 2,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 13,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 754848,
+      "sha256": "sha256:206dbb98d93b6751fff6134e3d92c9a9b5eb85d4273f00acd6d5badcb43a104d"
+    },
+    {
+      "path": ".kristal/v9/materializations/inline-json.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1180,
+      "sha256": "sha256:79dd1d780edcecd883a4e041e3035791b482fe24d375e482e3d4847ed65255a7"
+    },
+    {
+      "path": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1181,
+      "sha256": "sha256:50726e365895545919f6e1ee11618526ba2bdc340387bbbd5d633959914cf8f8"
+    },
+    {
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 706604,
+      "sha256": "sha256:cc189c42e6e083a4008443e1af3706ac2c4fcd8cd592a856226505f992ee94e1"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-neuroscience-artifact-epistemic-state-a144438d19.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 754848,
+      "sha256": "sha256:206dbb98d93b6751fff6134e3d92c9a9b5eb85d4273f00acd6d5badcb43a104d"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-neuroscience-v11-catalog-2026-10-27-02b71c7ff1.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1997,
+      "sha256": "sha256:6a76a10d4d169be024a8044407a5c2e7efeeb788cf23ec5343e2a6b520dd29d4"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-neuroscience-v11-crosswalk-2026-10-27-ebfd970672.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 146892,
+      "sha256": "sha256:e2754a94d8e9432512e22cd97cfa7eaeccbc9cb3c8568151c55b6c284d78a7f2"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-neuroscience-v11-graph-2026-10-27-155ecf7743.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1089462,
+      "sha256": "sha256:a3ba400416bad6c1b90cc675ec2d0a6cb6cf194468ec6154e0ebd76361b72a24"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-neuroscience-v11-identity-2026-10-27-8bb5c54344.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 195956,
+      "sha256": "sha256:b29291ecce82db19d5043269f4768badca655f4e4ce7d76561fd31bdce4d22a1"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Neuroscience-catalog-bc928a55c2.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 2573,
+      "sha256": "sha256:bb378fb0a0b20c7c8b42256e18b53f770c57c6ee42a45c9c67102bcfae53fc0f"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Neuroscience-crosswalk-bb64e59ee0.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 146910,
+      "sha256": "sha256:5e2d3f2fa742ec59f6670869e8beb15f0ebc209dc4c16a937799afc718193c0f"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Neuroscience-graph-db2cbaeee4.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1093400,
+      "sha256": "sha256:2ce994e07de3815252b00c24fc93bb93cc7607aedfffb018fd9f8a25e71a0d94"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.1-Kristal-Neuroscience-registry-3e5107599c.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 198339,
+      "sha256": "sha256:54495697915d9d346eb085ba02a235c691d57efc95d05c8cca2543009837fd41"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Neuroscience-catalog-6ad61a28a9.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 3417,
+      "sha256": "sha256:cb8def6f3ad847835651c0528e543f98228b9e7d784376184373fddc50ebae90"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Neuroscience-crosswalk-71edaf24f3.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 146910,
+      "sha256": "sha256:28626bec7232680f8e0e03a7921a3357257bc1fe923632296aff93c470120838"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Neuroscience-graph-e3393b7db8.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 1095527,
+      "sha256": "sha256:8c55f6741bb1bf65e66b93cf737e3d2bcacdca3beb49574aaa3b2a3edbbf8cae"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristalizer-v11.2-Kristal-Neuroscience-registry-20747747e7.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 200323,
+      "sha256": "sha256:42da0bfe3ba44cca6a4914380732f22324a644af9f6ec32011b47a8b491ccea2"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 5419,
+      "sha256": "sha256:2ff826d3ca4c788ce592f5c8643f896b4bc130f827d10d9005145f3895b43932"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 706389,
+      "sha256": "sha256:94df1f1760481732def1f3ee5fe6ebed60904bf18aadfa79ee841b57852863a2"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2013,
+      "sha256": "sha256:9977d704cf48017290576a061406071108866d1a168005beca328c0e0bc30be1"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 136638,
+      "sha256": "sha256:80c1213232db3fc7e9b08b0a9a4d11f6632a0580f4bf747e40161bebe4db86d1"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 180781,
+      "sha256": "sha256:ed5bf61a2a1dd2b7715de227bc00637f0aa6592c534a0d7dad8969378e821712"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-1/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1017190,
+      "sha256": "sha256:c5292293c23d618907f33dfea4dcce4865fec6cb6cf11f1a2aec1d43b631b2e4"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 2813,
+      "sha256": "sha256:2849031401528351f4db833cfdf3a7134d4d368632613f9c2f33aa2fe7daa2cd"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 136638,
+      "sha256": "sha256:80c1213232db3fc7e9b08b0a9a4d11f6632a0580f4bf747e40161bebe4db86d1"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 182595,
+      "sha256": "sha256:5ed933dd8e203524fe1a8a88b3c6939c333d6fb0afa8fd31630a8a4a52ed3fb6"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27-v11-2/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1019175,
+      "sha256": "sha256:fc41ddae3e123a46c98a2d968e2625349fc070fea62ef773abf49caa86c4a2f1"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/dictionaries/catalog.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1468,
+      "sha256": "sha256:26137bc60f6ce3055dc3998a18ae05d5d97b37ada36e8c1a14e8f9ff6aa5495e"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/external-crosswalk.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 136623,
+      "sha256": "sha256:5caf4486fe34277f08e392b0e9cc27df9844fe9a2c4fda2c835190ef2d22c3ea"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/identity-registry.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 178601,
+      "sha256": "sha256:44d4c73e79da2e64a0f10886d436edc1a2fc70e13f1cb4391ccaa3b1e2d7c5df"
+    },
+    {
+      "path": "canon/domain/v11/updates/wikidata-2026-10-27/semantic-graph.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 1013511,
+      "sha256": "sha256:642806d79b7fdc2d5999581264348f43f81340d1a82526eaec5cb38eafda077e"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/inline-json.materialization.json",
+      "segment_key": "artifact",
+      "record_count_declared": 701,
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size_bytes_declared": 754848,
+      "digest_declared": "sha256:206dbb98d93b6751fff6134e3d92c9a9b5eb85d4273f00acd6d5badcb43a104d",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "segment_key": "portable-state",
+      "record_count_declared": 701,
+      "media_type": "application/vnd.kristal.state+json;version=6.0",
+      "size_bytes_declared": 706604,
+      "digest_declared": "sha256:cc189c42e6e083a4008443e1af3706ac2c4fcd8cd592a856226505f992ee94e1",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "materialization_profile": "kristal.materialization/kristal-state-v6/1"
+    }
+  ]
+}

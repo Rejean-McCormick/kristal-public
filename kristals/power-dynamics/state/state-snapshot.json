@@ -1,0 +1,31 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:power",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:7b9a4cbfa76756d13a50753ecb9faf0bdeaae015da5487366ad09c48b02f696e"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:power:canonical-state",
+      "logical_contract": {
+        "id": "structured_epistemic_state",
+        "version": "5.0"
+      },
+      "authority_ref": "urn:kristal:authority:power",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:6ac0bd7c12489d6bf7dbbd84d7978a96151887490d9f89f27884b3ee4d1592d6"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "kristal_ref": "Kristal-Power",
+    "domain": "policy",
+    "subdomain": "political-theory/power-topology"
+  },
+  "authority_ref": "urn:kristal:authority:power"
+}

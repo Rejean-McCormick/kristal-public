@@ -1,0 +1,191 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:state:hci",
+  "source_fingerprint": "sha256:290697ae0104890f77216cf2c81b6a14c2ac49b2d238ebb4f59ee400600c59e3",
+  "specialization": "kristal.reader/generic-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "generic",
+  "materialization_profiles": [
+    "kristal.materialization/inline-json/1",
+    "kristal.materialization/native-json-set/1"
+  ],
+  "artifact_strategies": [
+    {
+      "path": ".kristal/v9/artifacts/domain-state.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1816,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:ca91d60a9140c766c73c92ca7f555e397493f98bd300d655ea5141591fd72de9",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/domain-state.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1035,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:251c852aebaf449bae518ce90aa78bd088d2bb9e5512ac51591e95dc1cf215eb",
+      "authorization_required": true
+    },
+    {
+      "path": ".kristal/v9/materializations/resource-basis.materialization.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3477,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f48adb1d46aa3cb187757f75eda293e5f92f8d6248cf7f3784a55e7bc7ae86ad",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-hci-resource-basis-82948ca743.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 2890,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:4dca9aaac064d6757b273895c5d03089b7bfa2fbc9465c038c5e4925d92e6ac2",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-hci-semantic-state-c5d21444af.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1816,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:18cf76c08fe69639235909cd335f36df02b93128935576ffbf95723fa43e5f7f",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1270,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:77cb496d646f36d50a8da3b429ff891e2ea26f0ebc618f12924ed8f693362206",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/domain-state.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 824,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f072feae5ccb4fbcc3adf886f8c4a1c615fb7761a4913b2b37095ea5d7152020",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/resource-basis.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 2252,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:416a7753dda217b71557674b15de9c2902806974a5d5a445b8bb31eb41a5cd34",
+      "authorization_required": true
+    },
+    {
+      "path": "knowledge-base/corpus/boundaries.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1817,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:c916be52612ee2194efdfa21adc64c239a9e299f550ad811cc92141f53360ece",
+      "authorization_required": true
+    },
+    {
+      "path": "knowledge-base/corpus/hci.kristal-state.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 285810,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:29211736325ee6e3b346f29c531370a2281d28832b39bfc66fe3f0afde4da582",
+      "authorization_required": true
+    },
+    {
+      "path": "knowledge-base/corpus/invariants.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 2862,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:7f9c1de7f73dea81e634ef4c98ef11298b8240ab320d1d9fdabb060612d346d4",
+      "authorization_required": true
+    },
+    {
+      "path": "knowledge-base/corpus/referents.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 51246,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:52490da7109ad795539aa5083c58c69729b3e8672f4c732e081e46127696fb0d",
+      "authorization_required": true
+    },
+    {
+      "path": "knowledge-base/sources/source-catalog.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": "application/json",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 4014,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:feab91b65d14f5c68d8229523a5d7084bc125cad807db0f8220042b7eba92ca2",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

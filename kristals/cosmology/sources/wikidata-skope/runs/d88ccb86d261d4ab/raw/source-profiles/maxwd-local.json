@@ -1,0 +1,32 @@
+{
+  "format": "skope.extraction-profile/draft-1",
+  "profile_id": "maxwd-local",
+  "target": {
+    "write_to_canon": false
+  },
+  "selection": {
+    "inventory_record_field": "wikidata_qid",
+    "rediscover_scope": false,
+    "preserve_exact_inventory": true
+  },
+  "source": {
+    "dump_path": "D:\\EncyKlopedia\\10_sources\\wikidata\\dumps\\current\\wikidata-20260922-all.json.bz2",
+    "compact_index_path": "D:\\EncyKlopedia\\30_working\\wikidata\\wikidata.compact.sqlite",
+    "existing_fast_index_root": "D:\\EncyKlopedia\\30_working\\wikidata-fast",
+    "verify_dump_identity_from_manifest": "D:\\EncyKlopedia\\20_evidence\\manifests\\wikidata-dump-verified.json",
+    "require_verified_source_identity": false,
+    "allow_full_dump_scan": false,
+    "auto_build_new_index": false,
+    "abort_if_no_verified_random_access": true
+  },
+  "extraction": {
+    "mode": "full_source_entity_json",
+    "output_compression": "gzip-jsonl",
+    "batch_size": 200,
+    "workers": 4,
+    "on_missing_qid": "report_and_pause"
+  },
+  "safety": {
+    "no_kristal_canonical_modification": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": "kristal.projection-recipe/2.0.0",
+  "slug": "procedures-by-domain",
+  "subject_ref": "urn:vaticanops:subject:public-normative-procedures",
+  "orientation": {
+    "primary_axis": "procedural_domain",
+    "secondary_axis": "source_reference"
+  },
+  "context": {
+    "language": "fr",
+    "status": "unreviewed_documentation"
+  },
+  "selection_policy": {
+    "mode": "explicit_or_query_defined"
+  },
+  "lineage": {
+    "canonical_inputs": [
+      "urn:vaticanops:artifact:procedures",
+      "urn:vaticanops:artifact:passage-evidence"
+    ]
+  },
+  "projection_contract": {
+    "portable_contract": "kristal_state/6.0",
+    "relationship_to_v9_canon": "derived_projection"
+  },
+  "materialization": {
+    "target_path": "projections/materialized/procedures-by-domain.json"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "format": "kristal.reader-profile/1.0",
+  "state_ref": "urn:kristal:state:catho",
+  "source_fingerprint": "sha256:df1893cacde746d1981caecd78458e74da0024895ca389629bc73f45f89cbf47",
+  "specialization": "kristal.reader/comparative-collection-v1",
+  "configuration_status": "advisory_only",
+  "access_pattern": "selective",
+  "materialization_profiles": [],
+  "artifact_strategies": [
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-canonical-c5894325be.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 5065708,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:e03b8e56e2933c2eab3a1e11eafe19f8ad35a36f966f96910a902b67f43b95ad",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-personnes-reconnaissances-67463698e4.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 364767,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f55352ea4bc1fcfa6d2881f63d6c7d04a7ca81b5c174110907d3b177fb12644f",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-semantic-links-763e7bac68.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1858352,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:c4cfaf4fe607c1e7688d3d09b446e3a398feb07aa3e43f525fcc1d24054e2f01",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-topics-4500ee3833.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 430149,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:c7f52e840dda0a7552f151f28507ed2ebe1fc6d22271b5049c7e0241d263427a",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-wikidata-alignments-1f19dd3538.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1457127,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:5c5ffa34641182e1e997a42a3d63060db96ca767f75d5ee80ee311486737cf2a",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-catho-artifact-wikidata-import-4e6b9f561d.logical-artifact.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 53995896,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "selective_on_demand_with_capacity_guard",
+      "must_verify_digest": "sha256:18e70eb396728c81dbc1d08103419f0be6725fb8be1d539dce2ec27578caba3d",
+      "authorization_required": true
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 3207,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:6b728592e3558700392522aea1bcf4b8c2ab970ca1fb4d2c73da4328bb78d5aa",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/catho-semantic-links.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 1371468,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:b85e401ca27bcd8b7c4252e93b20fb7ae5928755be9b5744130d59887fa2186b",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/catho-topics.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 285173,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:d02b34f6b06d276919a6cdf7b2d65687555b1f408fe02e839c02876e5fd281b0",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/legacy-logical-artifact.payload.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 4802704,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:f6ef49d9ef9fd8c39107e651f197b279e4a1f739459eb861b08b6401d25bfcf1",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/personnes-reconnaissances.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 339847,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:2358d00ce88140aa303c4dbe3e9a56e043157d9ca9442675928523d15668ccab",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/wikidata-alignments.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 986587,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:8824284dc6707eda066fb666cb06347bbad9f8a90f44740c7875e82dc56491be",
+      "authorization_required": true
+    },
+    {
+      "path": "canon/domain/wikidata-import.json",
+      "media_type_observed": "application/json",
+      "media_type_declared": null,
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "size_bytes_measured": 21591931,
+      "suggested_parser_family": "simdjson",
+      "suggested_mode": "on_demand_or_dom",
+      "must_verify_digest": "sha256:89db785f6af427c0f6a5a78d906a0cb068ebaf93134b74a34f378c14058b58a5",
+      "authorization_required": true
+    }
+  ],
+  "parser_candidates": [
+    {
+      "kind": "jsonl",
+      "engine_family": "simdjson",
+      "mode": "document_stream",
+      "condition": "validated JSONL/NDJSON segments only",
+      "segment_count": 0
+    },
+    {
+      "kind": "json",
+      "engine_family": "simdjson",
+      "mode": "on_demand_or_dom",
+      "condition": "JSON files within parser capacity and memory limits"
+    }
+  ],
+  "constraints": [
+    "Verify actual media type, digest, size and local availability before selecting a parser.",
+    "Enforce memory, decompression and per-record bounds independently of metadata.",
+    "The reader must authorize all file/network access; this profile grants none.",
+    "Unrecognized profiles and missing discoveries must fall back to generic guarded parsing."
+  ]
+}

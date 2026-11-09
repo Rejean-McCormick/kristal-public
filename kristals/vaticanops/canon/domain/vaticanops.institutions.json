@@ -1,0 +1,279 @@
+{
+  "format": "vaticanops.institutional-roles/2.0",
+  "arketype": "ARK-01",
+  "roles": [
+    {
+      "id": "vo:actor:holy_see",
+      "label_fr": "Saint-Siège",
+      "kind": "jurisdiction",
+      "jurisdiction": "Saint-Siège",
+      "evidence_refs": [],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:vatican_state",
+      "label_fr": "État de la Cité du Vatican",
+      "kind": "jurisdiction",
+      "jurisdiction": "État de la Cité du Vatican",
+      "evidence_refs": [],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:latin_church",
+      "label_fr": "Église latine",
+      "kind": "jurisdiction",
+      "jurisdiction": "Église latine",
+      "evidence_refs": [],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:roman_curia",
+      "label_fr": "Curie romaine",
+      "kind": "institutional_system",
+      "jurisdiction": "Curie romaine",
+      "evidence_refs": [],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:roman_pontiff",
+      "label_fr": "Pontife romain",
+      "kind": "office",
+      "jurisdiction": "Saint-Siège",
+      "evidence_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:15"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:curial_institutions",
+      "label_fr": "Institutions curiales",
+      "kind": "institutional_group",
+      "jurisdiction": "Curie romaine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:1"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:dicasteries",
+      "label_fr": "Dicastères",
+      "kind": "institutional_group",
+      "jurisdiction": "Curie romaine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:first_dicast_head",
+      "label_fr": "Chef du dicastère premier saisi",
+      "kind": "office",
+      "jurisdiction": "Curie romaine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:28"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:interdicasterial_commission",
+      "label_fr": "Commission interdicastérielle",
+      "kind": "institution",
+      "jurisdiction": "Curie romaine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:curie-reglement-2025:article:14"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:apostolic_signatura",
+      "label_fr": "Signature apostolique",
+      "kind": "tribunal",
+      "jurisdiction": "Saint-Siège",
+      "evidence_refs": [
+        "urn:vaticanops:passage:praedicate-evangelium-2022:article:22"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:dicastery_doctrine",
+      "label_fr": "Dicastère pour la doctrine de la foi",
+      "kind": "dicastery",
+      "jurisdiction": "Curie romaine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:69"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:ordinary",
+      "label_fr": "Ordinaire",
+      "kind": "ecclesiastical_office",
+      "jurisdiction": "Église latine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:vademecum-ddf-2022:numero:16"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:hierarchical_superior",
+      "label_fr": "Supérieur hiérarchique",
+      "kind": "office",
+      "jurisdiction": "Église latine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1737"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:cardinal_electors",
+      "label_fr": "Cardinaux électeurs",
+      "kind": "role",
+      "jurisdiction": "Saint-Siège (élection)",
+      "evidence_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:33"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:college_cardinals",
+      "label_fr": "Collège des cardinaux",
+      "kind": "institution",
+      "jurisdiction": "Saint-Siège (élection)",
+      "evidence_refs": [
+        "urn:vaticanops:passage:universi-dominici-gregis-1996:numero:37"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:liturgical_celebrant",
+      "label_fr": "Célébrant",
+      "kind": "role",
+      "jurisdiction": "Liturgie romaine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:missel-general:numero:50"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    },
+    {
+      "id": "vo:actor:petitioner",
+      "label_fr": "Requérant",
+      "kind": "role",
+      "jurisdiction": "Église latine",
+      "evidence_refs": [
+        "urn:vaticanops:passage:cic-1983:canon:1737"
+      ],
+      "recognition": "editorial_concept_in_public_text",
+      "authority_to_act": "not_assessed",
+      "scope_rules": []
+    }
+  ],
+  "unmapped_procedure_role_labels": [
+    "Chef / Secrétaire / Représentants pontificaux",
+    "Chef de dicastère intéressé",
+    "Chef de l’institution",
+    "Chefs de dicastère",
+    "Chefs de dicastère / Pontife romain",
+    "Chefs de dicastère concernés",
+    "Collège des cardinaux",
+    "Dicastère compétent",
+    "Dicastère compétent / autres institutions",
+    "Dicastère concerné",
+    "Dicastère initiateur / président",
+    "Dicastère pour la doctrine de la foi",
+    "Institution / Archives apostoliques",
+    "Institution curiale",
+    "Institution curiale / communication",
+    "Institution curiale / ordinaires intéressés",
+    "Membres du dicastère / Pontife romain",
+    "Ordinaire / Hiérarque",
+    "Pontife romain / institution",
+    "Préfecture de la Maison pontificale / dicastères",
+    "Responsables des archives",
+    "Service / section compétente",
+    "Sous-secrétaires / dicastères",
+    "Tribunaux compétents / Signature apostolique",
+    "assemblée",
+    "assemblée / ministres",
+    "assemblée / prêtre",
+    "autorité ecclésiastique compétente",
+    "autorité et partie concernées",
+    "autorités ecclésiastiques",
+    "cardinal doyen ou remplaçant prévu",
+    "cardinaux électeurs",
+    "chef du dicastère premier saisi",
+    "commission interdicastérielle",
+    "dicastères concernés",
+    "enquêteur canonique",
+    "indéterminé; vérifier dans la source",
+    "institution curiale",
+    "institution curiale compétente",
+    "institution curiale rédactrice",
+    "institutions concernées",
+    "institutions concernées / Pontife romain",
+    "institutions curiales concernées",
+    "lecteurs / diacre / prêtre",
+    "partie se déclarant lésée / institution",
+    "parties concernées",
+    "personne concernée / conseiller juridique",
+    "personne lésée",
+    "personnes indiquées dans le texte",
+    "prêtre",
+    "prêtre / diacre / assemblée",
+    "requérant / supérieur",
+    "supérieur compétent",
+    "élu"
+  ],
+  "relationships": [
+    {
+      "from": "vo:actor:roman_curia",
+      "predicate": "part_of_scope_not_identity",
+      "to": "vo:actor:holy_see",
+      "status": "editorial_scoping"
+    },
+    {
+      "from": "vo:actor:dicasteries",
+      "predicate": "within_organizational_scope",
+      "to": "vo:actor:roman_curia",
+      "status": "source_mapped_editorial"
+    },
+    {
+      "from": "vo:actor:curial_institutions",
+      "predicate": "within_organizational_scope",
+      "to": "vo:actor:roman_curia",
+      "status": "source_mapped_editorial"
+    }
+  ],
+  "boundary": "Do not equate an office, person, competence, permission or legal authority. No delegation inference."
+}

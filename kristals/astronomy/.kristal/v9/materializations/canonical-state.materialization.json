@@ -1,0 +1,43 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_materialization_manifest",
+  "materialization_id": "urn:kristal:astronomy:artifact:canonical-state:materialization:native-json",
+  "source": {
+    "artifact_id": "urn:kristal:astronomy:artifact:canonical-state",
+    "logical_contract": {
+      "id": "astronomy.canonical-knowledge-state",
+      "version": "1.0"
+    },
+    "logical_commitment": {
+      "profile": "kristal.logical/jcs-sha256-v1",
+      "digest": "sha256:7d6e30dd0b654a2b6a4644f034e15fb37080e2fe8a5fe8efca89fa896fe47500"
+    }
+  },
+  "profile": "kristal.materialization/native-blob/1",
+  "partition_spec": {
+    "strategy": "native-component-boundaries"
+  },
+  "segments": [
+    {
+      "segment_key": "knowledge-base/corpus/astronomy.kristal-state.json",
+      "blob": {
+        "media_type": "application/json",
+        "digest": "sha256:95f2a66fbf9b21bb5bad6b9d6d01be128077437ec3c2dfc6e7b44b322ae4bec9",
+        "size": 293715
+      },
+      "logical_range": {
+        "component_id": "knowledge-base/corpus/astronomy.kristal-state.json"
+      }
+    }
+  ],
+  "coverage": {
+    "included": [
+      "knowledge-base/corpus/astronomy.kristal-state.json"
+    ],
+    "omitted": []
+  },
+  "reconstructability": {
+    "lossless": true,
+    "profile": "astronomy.canonical-knowledge-state/1.0"
+  }
+}

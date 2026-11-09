@@ -1,0 +1,112 @@
+{
+  "format": "kristal.reader-inventory/1.0",
+  "state_ref": "urn:kristal:mind:state",
+  "source_fingerprint": "sha256:0aef86814aad87f59aa7239a33cbf9e73540f965f964bd9469943ac3c3a95345",
+  "size_class": "small",
+  "measurement": {
+    "status": "measured_referenced_local_files",
+    "scope": "registered canonical sources, materialization descriptors/blobs, and built v9 payloads",
+    "external_or_unlocated_blob_count": 0,
+    "missing_local_blob_count": 0,
+    "not_measured": [
+      "unregistered workspace files",
+      "external payloads",
+      "JSON nesting depth",
+      "largest JSONL record"
+    ]
+  },
+  "storage": {
+    "tracked_local_bytes": 1188641,
+    "tracked_file_count": 7,
+    "max_tracked_file_bytes": 308291,
+    "materialization_segment_count": 2,
+    "max_json_depth": null,
+    "max_record_bytes": null
+  },
+  "cardinality": {
+    "canonical_artifacts": 1,
+    "external_references": 0,
+    "entities": null,
+    "relations": null,
+    "sub_kristals": null
+  },
+  "files": [
+    {
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 308291,
+      "sha256": "sha256:950a0b944e664021a2ecc00e27f1ee44ee64a307923f18227d18ae4c6472f81d"
+    },
+    {
+      "path": ".kristal/v9/materializations/inline-json.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1164,
+      "sha256": "sha256:b3a3ea1944dba9b9b1417f15c264bb69b6d0db9a6bf5a1eaa853e982156afa97"
+    },
+    {
+      "path": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "role": "materialization_manifest",
+      "media_type": "application/json",
+      "size_bytes": 1165,
+      "sha256": "sha256:e1e20f7a578542c9f67eb0693cb55c4e1ed42f520818375bf34db7cd480bc729"
+    },
+    {
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "role": "materialization_blob",
+      "media_type": "application/json",
+      "size_bytes": 284575,
+      "sha256": "sha256:ca403f130063baaf5ae66691acec5139b2bca1049e05e23f8cc3dcb43ec94859"
+    },
+    {
+      "path": "build/v9/artifacts/urn-kristal-mind-artifact-epistemic-state-a0c37c3c74.logical-artifact.json",
+      "role": "generated_logical_artifact",
+      "media_type": "application/json",
+      "size_bytes": 308291,
+      "sha256": "sha256:950a0b944e664021a2ecc00e27f1ee44ee64a307923f18227d18ae4c6472f81d"
+    },
+    {
+      "path": "build/v9/state-snapshot.json",
+      "role": "state_candidate",
+      "media_type": "application/json",
+      "size_bytes": 815,
+      "sha256": "sha256:c815af29ff5f4a2d839bc9ab1e168eee9f4da5e97e49c2e7d67f7ffb934ce065"
+    },
+    {
+      "path": "canon/domain/legacy-v6-state.payload.json",
+      "role": "canonical_source",
+      "media_type": "application/json",
+      "size_bytes": 284340,
+      "sha256": "sha256:dc3c4e58f285f48260aaa3a4f73e71ed2a7b1edcdea6a25ceb7b9ea58c508d43"
+    }
+  ],
+  "segments": [
+    {
+      "manifest": ".kristal/v9/materializations/inline-json.materialization.json",
+      "segment_key": "artifact",
+      "record_count_declared": 180,
+      "media_type": "application/vnd.kristal.logical-artifact+json;version=9.0",
+      "size_bytes_declared": 308291,
+      "digest_declared": "sha256:950a0b944e664021a2ecc00e27f1ee44ee64a307923f18227d18ae4c6472f81d",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/logical/epistemic-state.logical-artifact.json",
+      "materialization_profile": "kristal.materialization/inline-json/1"
+    },
+    {
+      "manifest": ".kristal/v9/materializations/portable-v6.materialization.json",
+      "segment_key": "portable-state",
+      "record_count_declared": 180,
+      "media_type": "application/vnd.kristal.state+json;version=6.0",
+      "size_bytes_declared": 284575,
+      "digest_declared": "sha256:ca403f130063baaf5ae66691acec5139b2bca1049e05e23f8cc3dcb43ec94859",
+      "availability": "local",
+      "compression_declared": null,
+      "encrypted_declared": false,
+      "path": ".kristal/v9/materialized/portable-state.kristal-state.json",
+      "materialization_profile": "kristal.materialization/kristal-state-v6/1"
+    }
+  ]
+}

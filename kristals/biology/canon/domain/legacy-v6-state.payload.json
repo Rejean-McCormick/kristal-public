@@ -1,0 +1,6008 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "reference",
+  "created_at": "2026-10-02T15:43:00Z",
+  "created_by": {
+    "kind": "editorial_process",
+    "label": "AI-assisted curated build",
+    "human_authority_claimed": false
+  },
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1",
+  "applicability": {
+    "domain": "biology",
+    "subdomain": "organization-of-life",
+    "language": "fr"
+  },
+  "source_refs": [
+    "src:openstax:biology2e:4.1",
+    "src:openstax:biology2e:4.2",
+    "src:openstax:biology2e:4.3",
+    "src:openstax:biology2e:10.2",
+    "src:openstax:biology2e:11.1",
+    "src:openstax:biology2e:12.3",
+    "src:openstax:biology2e:15.intro",
+    "src:openstax:biology2e:18.1",
+    "src:openstax:biology2e:19.1",
+    "src:openstax:biology2e:19.2",
+    "src:openstax:biology2e:19.3",
+    "src:openstax:biology2e:45.summary",
+    "src:ncbi:cooper2000:heredity",
+    "src:ncbi:alberts2002:cells-genomes",
+    "src:ncbi:alberts2002:dna-chromosomes",
+    "src:ncbi:alberts2002:dna-function",
+    "src:ncbi:pdq:genetics-terms"
+  ],
+  "assertions": [
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.is_basic_unit_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:organism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1",
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "notes": "« Unité de base » est un énoncé de théorie cellulaire; il ne classe pas les virus comme cellules.",
+      "assertion_id": "sha256:2e8a091ca06c9a8cda0ec884e19a6760ca6a80b8d8df39309904001382a30442"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organism"
+        },
+        "predicate": "biology.is_composed_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:cell"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1",
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:6dc17d53cd158cb4307be26ba25c5786036f32ca7cbd26dbb09e1f94d6b28823"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:unicellular-organism"
+        },
+        "predicate": "biology.has_cell_count_class",
+        "object": {
+          "kind": "string",
+          "value": "une cellule",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1",
+        "ev:openstax:biology2e:4.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:0de3d9e49e505775a16a134190a60ea7a9f1da7ef6a928904c7386af685af597"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:multicellular-organism"
+        },
+        "predicate": "biology.has_cell_count_class",
+        "object": {
+          "kind": "string",
+          "value": "plusieurs cellules",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:30a1e7b8b6fc420eafd9bbb6d1a552bad27bb3d03cfd632116c8e1fd20cf3fbf"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.has_component",
+        "object": {
+          "kind": "item",
+          "id": "concept:plasma-membrane"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:095c10a3e5ca19914d6afde16ba104268ce66615050bc8d5718434195bfd34d9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.has_component",
+        "object": {
+          "kind": "item",
+          "id": "concept:cytoplasm"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:8fb6d5994d17cea1f5793e42146c9f5d4edb83f6a7e2e7d1352e29cd878e74f6"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.has_component",
+        "object": {
+          "kind": "item",
+          "id": "concept:dna"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2",
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:61903d3b24529af03f365adb4d2991fffdc9a7c44b1a220bb208f67789bebb8a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.has_component",
+        "object": {
+          "kind": "item",
+          "id": "concept:ribosome"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:5bf3abd388649ade542021f741b362016ee2a6e1f74fdd2eec5f62fec3c5997e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:prokaryotic-cell"
+        },
+        "predicate": "biology.is_subtype_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:cell"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3819a91852f24c8613f104a62dd07b9ecbeb39a436741789b95b9ae9a0c9159c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:eukaryotic-cell"
+        },
+        "predicate": "biology.is_subtype_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:cell"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:929a7c37866feb5679caa6c0b72b43d06d8583a54c480aa9e4a2ebec7d8f6bbb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:eukaryotic-cell"
+        },
+        "predicate": "biology.has_component",
+        "object": {
+          "kind": "item",
+          "id": "concept:nucleus"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:f3c35799230f6de4354caf91497f822afec2616589ea47aa3ab742076b1bc13e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:eukaryotic-cell"
+        },
+        "predicate": "biology.may_have_component",
+        "object": {
+          "kind": "item",
+          "id": "concept:organelle"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b7bedbb9a50cc7ad7848b257b91cbde502f459211c9686c4a40eda942ac6e787"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:prokaryotic-cell"
+        },
+        "predicate": "biology.lacks_membrane_bound",
+        "object": {
+          "kind": "item",
+          "id": "concept:nucleus"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:3f9dc4897c0ff0499c4ecdf44ec1c188f0b74584a1c676192f3c68d3cfbe30e6"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:tissue"
+        },
+        "predicate": "biology.is_composed_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:cell"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "tissue"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:edce8abf996b442f540bcae822c7d3097c84dfe1a2c0b7cf347a8924763c0662"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:tissue"
+        },
+        "predicate": "biology.may_include",
+        "object": {
+          "kind": "item",
+          "id": "concept:extracellular-matrix"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "tissue"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "contextual"
+        }
+      ],
+      "assertion_id": "sha256:a2db754ea2d32daf9d12e7765fcf953e02cdbdceed63210f0ccfcb9d2b7e14b2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organ"
+        },
+        "predicate": "biology.is_composed_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:tissue"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organ"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4fe42e45d602cce2c3746d3d5e539a1ba885ad89685cc1438fb554f5917ae0f0"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organ"
+        },
+        "predicate": "biology.is_not_universal_level_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:living-system"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organ"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Les organes sont une organisation propre à de nombreux organismes multicellulaires, pas un niveau obligatoire de tout vivant.",
+      "assertion_id": "sha256:762fc939fdd2bb1b71377c831ccbe2f0325b9e7a8ce9d428223e27ba2b5cbfb2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organism"
+        },
+        "predicate": "biology.may_be",
+        "object": {
+          "kind": "item",
+          "id": "concept:unicellular-organism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4bcf458f808a9646137c6700b1a2015ac35a1f061333599eb9efd4e6d89996f8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organism"
+        },
+        "predicate": "biology.may_be",
+        "object": {
+          "kind": "item",
+          "id": "concept:multicellular-organism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9cfc33d921ff34c9abc2877aad60efa8600bcbc0715e7b24d43103aa31b27aa7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:population"
+        },
+        "predicate": "biology.is_composed_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:organism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:45.summary",
+        "ev:openstax:biology2e:19.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8b5aaa56bdb45b3392b7182879fe5fcdb29b66e0c06fef27bee5a0f4d38cc8d6"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:population"
+        },
+        "predicate": "biology.members_share_taxonomic_unit",
+        "object": {
+          "kind": "item",
+          "id": "concept:species"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:45.summary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9d433499e4a12a6567a88a67d63b1bbd5b1ca49fed56734ffcd127cbe2ae9f4d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:population"
+        },
+        "predicate": "biology.requires_definition_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:environment"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:45.summary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "contextual"
+        }
+      ],
+      "notes": "Une population doit être délimitée spatialement et temporellement pour être analysable.",
+      "assertion_id": "sha256:362a9e10e761ec4af9b02d80c9d6225838b686795f3b0b9359061cef1a34c66b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.precedes_in_organization",
+        "object": {
+          "kind": "item",
+          "id": "concept:tissue"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "contextual"
+        }
+      ],
+      "notes": "Relation de niveau, pas relation temporelle universelle.",
+      "assertion_id": "sha256:13d8d28a9a10f0a0450ed0080013ba1df56d2151c7ea253519996e28b210dd1a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:tissue"
+        },
+        "predicate": "biology.precedes_in_organization",
+        "object": {
+          "kind": "item",
+          "id": "concept:organism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "contextual"
+        }
+      ],
+      "assertion_id": "sha256:51c797840df611d1fb5d321e3e50b17ab660570feabcdac5b5ddd372dcbba20f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organism"
+        },
+        "predicate": "biology.precedes_in_organization",
+        "object": {
+          "kind": "item",
+          "id": "concept:population"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:45.summary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4b7916056b25821cb605c4451e7235e190ac026879c28aa1445746359e4ad198"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:level-of-organization"
+        },
+        "predicate": "biology.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:cell"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7cf536707965e90a79bdec637e08534466db580d52054d5d15f34b51c992ba98"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:level-of-organization"
+        },
+        "predicate": "biology.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:tissue"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "contextual"
+        }
+      ],
+      "assertion_id": "sha256:be3dd96b9f7ef2cad07724ef00ef67154a2b2eca5193f043585074b0b9e9ab61"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:level-of-organization"
+        },
+        "predicate": "biology.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:organism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c89768b66678a8990c306749d647f7a469a94b7886a8cf98d064196ebc97b2a2"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:level-of-organization"
+        },
+        "predicate": "biology.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:population"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:45.summary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f6cb001148a62c0b4e8d2dd6b57f1d41dad3e59d3f1173ecc3b24cee5bbc12d7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:emergence"
+        },
+        "predicate": "biology.depends_on",
+        "object": {
+          "kind": "string",
+          "value": "interactions entre composants et organisation du système",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "organization"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1",
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:0aa35ab1d0dae72b1154e714bd3d845d50e1129030ea82b1f889d3b7956b5bff"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:biological-function"
+        },
+        "predicate": "biology.is_described_as",
+        "object": {
+          "kind": "string",
+          "value": "rôle ou contribution dans un système biologique",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.3",
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Le Kristal évite d’inférer une intention ou un but conscient à partir du mot fonction.",
+      "assertion_id": "sha256:f1bcec443658663aac66330e95f2ad48b8aef3bf7a47e190dfce744ac6bc726b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:biological-function"
+        },
+        "predicate": "biology.does_not_imply",
+        "object": {
+          "kind": "string",
+          "value": "intention",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.3",
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d18dad7c0bdf233b1978fed5acd9086b3230d45361290ac77a224e3e1da3b43c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.performs",
+        "object": {
+          "kind": "item",
+          "id": "process:metabolism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ead42b8c60543e492ecd34c51789cd5331bb293960142fbacf98745b10a9b084"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.performs",
+        "object": {
+          "kind": "item",
+          "id": "process:gene-expression"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:15.intro",
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:6cc7043a9d779b854c6adc083c2283425a528e760ef290a57b9a5402ad5f136a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.regulates",
+        "object": {
+          "kind": "item",
+          "id": "process:homeostasis"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:857acf4a9c89d0a8ed1980a6a28493dd9e2f4f4683a77a5c0e899524ad28364c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.interacts_with",
+        "object": {
+          "kind": "item",
+          "id": "concept:environment"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:8a3067950bee5fd658d33f17ae02efc85eff5d8122b865a0e67729e08d323b58"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:plasma-membrane"
+        },
+        "predicate": "biology.contributes_to",
+        "object": {
+          "kind": "string",
+          "value": "échanges contrôlés entre cellule et environnement",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2",
+        "ev:openstax:biology2e:4.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:2c652412cb835717c019cecded02d14df17adabfc4aef5eac5363400997e8cbc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:ribosome"
+        },
+        "predicate": "biology.contributes_to",
+        "object": {
+          "kind": "string",
+          "value": "synthèse des protéines",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2",
+        "ev:openstax:biology2e:4.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:2d8f07d58399deaf75fa606ca26c002c33bb9cff7d0830666a099b16d1c027a3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:nucleus"
+        },
+        "predicate": "biology.contributes_to",
+        "object": {
+          "kind": "string",
+          "value": "organisation et utilisation de l’information chromosomique eucaryote",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:574a6f34f6640134678572ad9630dee1f8467ea3d82f8fe52154e49eb935d776"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:multicellular-organism"
+        },
+        "predicate": "biology.uses_process",
+        "object": {
+          "kind": "item",
+          "id": "process:cell-differentiation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:dfda311b495b16a2f5a84bb7b073a12f79666769180d600cdf80b48c6d60cbf8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:cell-differentiation"
+        },
+        "predicate": "biology.enables",
+        "object": {
+          "kind": "string",
+          "value": "spécialisation fonctionnelle de cellules",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "tissue"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9913d344fc5ba9af1d0137206e3d6c61804d2d26f117b6ffddd16629b627350d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:tissue"
+        },
+        "predicate": "biology.supports",
+        "object": {
+          "kind": "string",
+          "value": "coordination de fonctions entre cellules",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "tissue"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:dbcae8c76c804ac271af5cf25fbb185b52ea3166f7dfddc7ae0a03ae3fbb34fc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:cell-communication"
+        },
+        "predicate": "biology.supports",
+        "object": {
+          "kind": "string",
+          "value": "coordination multicellulaire",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "tissue"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8ae406a63fb2f842fb81eb8587b0e260f47447fd39af51d022d8fdf8d449bd21"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:multicellular-organism"
+        },
+        "predicate": "biology.depends_on",
+        "object": {
+          "kind": "string",
+          "value": "coordination entre cellules spécialisées",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1",
+        "ev:openstax:biology2e:4.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:564883e7ef58fdb66c113948a3f284633b8863b5d24b9d06d4ef0c31b9df1d33"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organism"
+        },
+        "predicate": "biology.interacts_with",
+        "object": {
+          "kind": "item",
+          "id": "concept:environment"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:79c3de5fc68aa6ca1ac4e6358d074dec4e8ca9df86a8f05fcd4276c6b86b82dc"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:constraint"
+        },
+        "predicate": "biology.can_shape",
+        "object": {
+          "kind": "item",
+          "id": "concept:biological-function"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.3",
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3a1ff1df30bb9b207522e3593ca84520aa105f9be5785e91d09d85588e6aec65"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:environment"
+        },
+        "predicate": "biology.can_modify",
+        "object": {
+          "kind": "item",
+          "id": "concept:phenotype"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:dfcf57b5bd76d405ff4d78bc2c06d50fbdfd4d23327a1dad250436532c2f1036"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:genotype"
+        },
+        "predicate": "biology.contributes_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:phenotype"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:75b220091b2f8e31779405e971b4c4f886888d2f6eeab65b5aaecb300e9c5c40"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:phenotype"
+        },
+        "predicate": "biology.is_not_identical_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:genotype"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "function"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:542b35aabd650ad189856f67ee290c361e01195c497514f20b20fddd67467f71"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:cell-division"
+        },
+        "predicate": "biology.produces",
+        "object": {
+          "kind": "string",
+          "value": "cellules filles",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:10.2",
+        "ev:ncbi:cooper2000:heredity"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8a30de6cd505792065ba44e01312bcf853f67be28583091ac499ccb700e5c6b3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:dna-replication"
+        },
+        "predicate": "biology.precedes_or_supports",
+        "object": {
+          "kind": "string",
+          "value": "transmission du génome lors de nombreuses divisions cellulaires",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:10.2",
+        "ev:ncbi:alberts2002:dna-chromosomes",
+        "ev:ncbi:alberts2002:dna-function"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:46445da70705dd3a89c2054655cdd2a638812c4a08c868daca01add4a6c8a459"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:mitosis"
+        },
+        "predicate": "biology.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "process:cell-division"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5a2eb565eea243253743049671a322c873d5968a1680350bed95fcc8b378d36a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:binary-fission"
+        },
+        "predicate": "biology.is_type_of",
+        "object": {
+          "kind": "item",
+          "id": "process:cell-division"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:54f69b89e911ff1b4ce2f242252935ca39609c7b844f7a71bf02ef2d064172ec"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:meiosis"
+        },
+        "predicate": "biology.supports",
+        "object": {
+          "kind": "item",
+          "id": "process:sexual-reproduction"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:389bbeac114482d1a31d1baecdfc7f58eb25a38093dacbf0ffefb7b6c4c24975"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:sexual-reproduction"
+        },
+        "predicate": "biology.uses",
+        "object": {
+          "kind": "item",
+          "id": "process:fertilization"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "De nombreux cycles sexués utilisent la fécondation; les détails varient entre lignées.",
+      "assertion_id": "sha256:78068d308973ce75901b0992b642fd9004a177391da4847083990a683c705a74"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:sexual-reproduction"
+        },
+        "predicate": "biology.combines",
+        "object": {
+          "kind": "string",
+          "value": "information génétique provenant de gamètes",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:d3999680ba5945914551984cd88640dc4bf2619ea23f89e22caeb730dd9d7cb1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:asexual-reproduction"
+        },
+        "predicate": "biology.does_not_require",
+        "object": {
+          "kind": "string",
+          "value": "fusion de gamètes",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b11c85f3e114de66f8e5d1152eafa676b037f72cd71b452b598bb525857f64f1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:reproduction"
+        },
+        "predicate": "biology.maintains",
+        "object": {
+          "kind": "item",
+          "id": "concept:lineage"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:cooper2000:heredity"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5b1b286860944290b0f8fb0533cfc9c07e9aa795d80232b1d293609f74c52a09"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organism"
+        },
+        "predicate": "biology.individual_reproduction_is_not_required_for",
+        "object": {
+          "kind": "string",
+          "value": "appartenance au vivant",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:cooper2000:heredity"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Des individus viables peuvent être stériles; la reproduction est pertinente à la continuité des lignées plutôt qu’une obligation de chaque individu.",
+      "assertion_id": "sha256:561d8d51f99fec187b8e2d05c4b656dedab2f7de01fac7c35888c5148084a8e8"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:cell-division"
+        },
+        "predicate": "biology.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "process:reproduction"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:10.2",
+        "ev:openstax:biology2e:11.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Chez un unicellulaire, division et reproduction de l’organisme peuvent coïncider; chez un multicellulaire, la division cellulaire sert souvent croissance, entretien ou développement.",
+      "assertion_id": "sha256:8f928c5f986039e50d785efe8348282f1dafc57d0c047b667f996d036ef453fb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:unicellular-organism"
+        },
+        "predicate": "biology.may_reproduce_by",
+        "object": {
+          "kind": "item",
+          "id": "process:cell-division"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:9421b06094a49dcd2af7803f11f8cf6032bc0438bca4bf198001571f1e2e2f22"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:multicellular-organism"
+        },
+        "predicate": "biology.uses_cell_division_for",
+        "object": {
+          "kind": "string",
+          "value": "croissance et développement",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c6a16103b04fc06cbd2f25aaf76bc3abcaeb1e24d50a6226ae44d46808904b16"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:multicellular-organism"
+        },
+        "predicate": "biology.uses_cell_division_for",
+        "object": {
+          "kind": "string",
+          "value": "renouvellement de cellules",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:7ed4838fa75204c01ed68cc4c8de46a2956bb6f7d54904842d346eda86818195"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:meiosis"
+        },
+        "predicate": "biology.generates",
+        "object": {
+          "kind": "string",
+          "value": "variation génétique entre gamètes",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:6a6063e109b7c73b70f83cc9d7122e2dbf6ce6d7726c2b6e39b58c642059c25d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:recombination"
+        },
+        "predicate": "biology.contributes_to",
+        "object": {
+          "kind": "string",
+          "value": "variation génétique des descendants sexués",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "reproduction"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1",
+        "ev:openstax:biology2e:12.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5033e579e08dcf79a5f7b800d267fd34c79b232b1bb0c23cf6a71f85a3ea3871"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:dna"
+        },
+        "predicate": "biology.carries",
+        "object": {
+          "kind": "string",
+          "value": "information héréditaire cellulaire",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:alberts2002:dna-chromosomes",
+        "ev:ncbi:alberts2002:dna-function",
+        "ev:ncbi:cooper2000:heredity"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:46372d385c78a7a8f61019c9edeef54729cc0280f723395fedf9d4ea787c6569"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:gene"
+        },
+        "predicate": "biology.is_unit_of",
+        "object": {
+          "kind": "string",
+          "value": "information héréditaire fonctionnelle",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:15.intro",
+        "ev:ncbi:cooper2000:heredity"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a26557baedf368f2807069a5448be689069faddde7535fc756feed9527e3844f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:gene"
+        },
+        "predicate": "biology.is_carried_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:chromosome"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:12.3",
+        "ev:openstax:biology2e:15.intro"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:e50cc23b52c2761372115aeede5f0d1a150d4793a2286ab155e77242400aec42"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:allele"
+        },
+        "predicate": "biology.is_variant_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:gene"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:12.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:940cb5c1ce5f5253ba481d4db568be4d4422bc3f59af2bde9c7dc8ffe0288e81"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:genome"
+        },
+        "predicate": "biology.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:gene"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:15.intro",
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5a4a5fa83699d283adfce88906df02558b965b2a9f5d6230c68067b350d476b7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:inheritance"
+        },
+        "predicate": "biology.transmits",
+        "object": {
+          "kind": "item",
+          "id": "concept:genetic-variation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:12.3",
+        "ev:ncbi:cooper2000:heredity"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:15f974d0f8f97cb4f77c273c033191855cd83315cb4a2d43d3e3792d2be2bfb9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:dna-replication"
+        },
+        "predicate": "biology.supports",
+        "object": {
+          "kind": "item",
+          "id": "process:inheritance"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:alberts2002:dna-chromosomes",
+        "ev:ncbi:alberts2002:dna-function",
+        "ev:ncbi:cooper2000:heredity"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:53a6a7a734f05319d844437a095aa0cdb446e310d22d7ed608b84e7cab4972b9"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:meiosis"
+        },
+        "predicate": "biology.segregates",
+        "object": {
+          "kind": "item",
+          "id": "concept:allele"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1",
+        "ev:openstax:biology2e:12.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f3f4399cdfb586cc39deb025516a3e2a9a216ee2ae9dcd5c69c472ad70b04730"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:recombination"
+        },
+        "predicate": "biology.reshuffles",
+        "object": {
+          "kind": "string",
+          "value": "combinaisons d’allèles",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1",
+        "ev:openstax:biology2e:12.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:3e7d0b33df96e3adbe28a2c560fff5f95f4f57c30f16f5dd78ee84bedb98c64e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:mutation"
+        },
+        "predicate": "biology.can_create",
+        "object": {
+          "kind": "item",
+          "id": "concept:genetic-variation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cellular"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:408978591ec1ad809d558be7b8a2f276d1876a5f87db5f7d8800005f971156a5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:genotype"
+        },
+        "predicate": "biology.influences",
+        "object": {
+          "kind": "item",
+          "id": "concept:phenotype"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:5fd84bcaca11317e86a2a5b52011e74224360d09b6d2e7fb5f0cbbbaabb7336a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:environment"
+        },
+        "predicate": "biology.influences",
+        "object": {
+          "kind": "item",
+          "id": "concept:phenotype"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:ac5d6d2fdf6ed0a3978da1de3e7bcb0b9eaa6a56f62642530f5a9d124cf86b3d"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:phenotype"
+        },
+        "predicate": "biology.can_reflect",
+        "object": {
+          "kind": "string",
+          "value": "interaction génotype–environnement",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:4a714d0089a52642a06367e172c80c1d85116a7a86a5586b6d548d9cbb4cad67"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:heritability"
+        },
+        "predicate": "biology.is_property_of",
+        "object": {
+          "kind": "string",
+          "value": "variation d’un caractère dans une population",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:pdq:genetics-terms",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:588652e75e5731bd50750b89654b89cab876afee44e0b34e90885bd60a14143a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:heritability"
+        },
+        "predicate": "biology.is_not_property_of",
+        "object": {
+          "kind": "string",
+          "value": "un individu isolé",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:pdq:genetics-terms",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:c5d791e888b79b24aa93c968a683b559b7a2116e62ff590fd563489ff82ae9d1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:heritability"
+        },
+        "predicate": "biology.depends_on",
+        "object": {
+          "kind": "string",
+          "value": "population étudiée",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:pdq:genetics-terms",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:f9fc645f1697e1e38bb3ecf6f977fa148de5c6d5fb34e333eb9ebe3df10ca3ee"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:heritability"
+        },
+        "predicate": "biology.depends_on",
+        "object": {
+          "kind": "string",
+          "value": "conditions environnementales et modèle statistique",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:pdq:genetics-terms",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:ecc9d95c3fbda9a562b8572627e3608b7f6a34c91bc3d4b4938ce6ea5d83d5e1"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:heritability"
+        },
+        "predicate": "biology.does_not_measure",
+        "object": {
+          "kind": "string",
+          "value": "part d’un caractère individuel causée par les gènes",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:pdq:genetics-terms",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:c7c7da645bff212f3e964b0cf10dc1def394c5c7d8e8f49d2a257bd2ad4c0906"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:inheritance"
+        },
+        "predicate": "biology.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:heritability"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:pdq:genetics-terms",
+        "ev:openstax:biology2e:19.2",
+        "ev:ncbi:cooper2000:heredity"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "notes": "Hérédité = transmission; héritabilité = statistique de variance dans une population et un contexte.",
+      "assertion_id": "sha256:d35a213a71a09dda9040399f0314c0c7e8b4f392ad3d94009f07a92488c2b113"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:heritable-variation"
+        },
+        "predicate": "biology.is_subset_or_component_of",
+        "object": {
+          "kind": "string",
+          "value": "variation phénotypique pertinente pour la réponse évolutive",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:058ba5f08629c980983d6efee07da8856339470a81869476839819fe0b7d2f22"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:genetic-variation"
+        },
+        "predicate": "biology.can_exist_without",
+        "object": {
+          "kind": "string",
+          "value": "différence phénotypique détectable dans un contexte donné",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "heredity"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:54829668372b175cea36a5d10dc22114997a50b3f159717a0f9c3e3f92eb944c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:population"
+        },
+        "predicate": "biology.has_property",
+        "object": {
+          "kind": "item",
+          "id": "concept:allele-frequency"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:1079f895c27e0eb5d8be92ae345c3d89029cb96e0cd8b5759a29979cac420bb6"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:population"
+        },
+        "predicate": "biology.has_property",
+        "object": {
+          "kind": "item",
+          "id": "concept:gene-pool"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:57e28065145a14cbe3c9339812e329ab26c91e95e39b42e4e82e33a58349c872"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:gene-pool"
+        },
+        "predicate": "biology.includes",
+        "object": {
+          "kind": "item",
+          "id": "concept:allele"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:2afa660e144050d1c48df0efe498af1310865a1b68ce7ed6d1ce93f5109388ce"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:allele-frequency"
+        },
+        "predicate": "biology.can_change_by",
+        "object": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:adbcba729807b643f48fdfa6c75b8908e0907ef51d860570c666ecebd038e4d6"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:allele-frequency"
+        },
+        "predicate": "biology.can_change_by",
+        "object": {
+          "kind": "item",
+          "id": "process:genetic-drift"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:10f7f7907914c9a03de6c3f5fb905422e6b12d91837feb80712881ebade3048a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:allele-frequency"
+        },
+        "predicate": "biology.can_change_by",
+        "object": {
+          "kind": "item",
+          "id": "process:gene-flow"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:0896abf083dda2be58788fe57aa8a33a5e269349c74100ebec605787a301c572"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:allele-frequency"
+        },
+        "predicate": "biology.can_change_by",
+        "object": {
+          "kind": "item",
+          "id": "process:mutation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a37a16e5616fc931dfc5fdf10eb15c4c1dce045bf9fb89960f72ffff77e15b2e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:genetic-drift"
+        },
+        "predicate": "biology.is_stochastic_process_at",
+        "object": {
+          "kind": "item",
+          "id": "concept:population"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:ea503f63d72fb6afc194487400468a8572755a3813e55bfc03ea34b62069961c"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:gene-flow"
+        },
+        "predicate": "biology.moves",
+        "object": {
+          "kind": "item",
+          "id": "concept:allele"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b90ecae370ad770d89cab4b1f0accbebd96e0a52d63c3923efbe223dcb3db42b"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:mutation"
+        },
+        "predicate": "biology.introduces",
+        "object": {
+          "kind": "string",
+          "value": "nouveaux variants génétiques",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:891c2cb65b5d7f7cdf2a003a2692b7ed0b1e707db6a53ee9fbec033c28f23a45"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:population"
+        },
+        "predicate": "biology.can_be_characterized_by",
+        "object": {
+          "kind": "string",
+          "value": "taille, densité, structure d’âge et distribution spatiale",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:45.summary"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8fca76ac8572ea7b35c18012bb6055bc03595ef57b729457edd8b3646c103e27"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:population"
+        },
+        "predicate": "biology.is_analysis_unit_for",
+        "object": {
+          "kind": "item",
+          "id": "process:evolution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "population_process"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1",
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:a46262255566717abd2d41d477a140969b5c64b82733584a3bede45ce14d775e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:evolution"
+        },
+        "predicate": "biology.occurs_across",
+        "object": {
+          "kind": "item",
+          "id": "concept:generation"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:96fb2a2ede7b409ae4b5a51bb728d673b47d104e5952d5e40b092cddf6546685"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:evolution"
+        },
+        "predicate": "biology.changes",
+        "object": {
+          "kind": "string",
+          "value": "caractéristiques héréditaires des populations",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:67df746554fcbf1b9ed0c4273dd347521ee72497bf3ab62e92274e3a5bd75ecb"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organism"
+        },
+        "predicate": "biology.does_not_undergo_population_genetic",
+        "object": {
+          "kind": "item",
+          "id": "process:evolution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "notes": "Un organisme peut se développer, acclimater ou apprendre; l’évolution génétique au sens populationnel se décrit entre générations.",
+      "assertion_id": "sha256:dd0d3d61ffdf8ae2944676ed60b6465da090db2e870ef030ac446cfcca2b1732"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        },
+        "predicate": "biology.requires",
+        "object": {
+          "kind": "string",
+          "value": "variation entre individus",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:8f98d1d23999918248318bae3bdce59b34eb4aa9730a6522a0c7eda63f5b649a"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        },
+        "predicate": "biology.requires",
+        "object": {
+          "kind": "string",
+          "value": "variation pertinente au succès reproductif",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:89bbf54d73b5866c036509bab8a78332a319f0ee1aad368019ea23a53f2af3dd"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        },
+        "predicate": "biology.requires",
+        "object": {
+          "kind": "string",
+          "value": "transmission héréditaire d’une partie de la variation",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:f1d3dfcfd9caf03bc6b1668574de950e111ab08b1f853021f6b7e9765e23a9af"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        },
+        "predicate": "biology.acts_through",
+        "object": {
+          "kind": "string",
+          "value": "différences de survie et de reproduction",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism_to_population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2",
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:a750ccc8c5249254429e1714c244ab031881c4066e13eecb896efd6d148f37d6"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        },
+        "predicate": "biology.can_change",
+        "object": {
+          "kind": "item",
+          "id": "concept:allele-frequency"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:b9273319e94ed750c040f64d0f2690c7e665886d06aeeabf9349cb592fb32b26"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        },
+        "predicate": "biology.is_not_equivalent_to",
+        "object": {
+          "kind": "item",
+          "id": "process:evolution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "notes": "La sélection naturelle est un mécanisme d’évolution; dérive, flux génique et mutation peuvent aussi modifier les populations.",
+      "assertion_id": "sha256:1d9f3e9ffe7d746007a810a3f92e07d63ce4188dc6ad0274b11321b8882d673e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:genetic-drift"
+        },
+        "predicate": "biology.is_mechanism_of",
+        "object": {
+          "kind": "item",
+          "id": "process:evolution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:98774800435629b3fbd58348a01cafacb087c4519bed1d1f71ba03b3189389a3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:gene-flow"
+        },
+        "predicate": "biology.is_mechanism_affecting",
+        "object": {
+          "kind": "item",
+          "id": "process:evolution"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:12d4b11122501bc586ee6db51e0ead6885bb7a8274b5eb53a7020e54a293c83e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:mutation"
+        },
+        "predicate": "biology.supplies_new",
+        "object": {
+          "kind": "item",
+          "id": "concept:allele"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cell_to_population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:03679a4ddf1871b2d993498ddb75fcd0a2b9190d2e0b19ac076de9dd3d1bfaf5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:recombination"
+        },
+        "predicate": "biology.generates_new",
+        "object": {
+          "kind": "string",
+          "value": "combinaisons de variants existants",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cell_to_population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1",
+        "ev:openstax:biology2e:12.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:16f0422550d21b2bfc48c7b39d3833842bb64947334903e0ffc8e8cdf3478653"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:fitness"
+        },
+        "predicate": "biology.is_context_dependent_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:environment"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism_to_population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:f6f6e3503bc0ba3c2c5131d8ca3df76951703db125c0b4678e5a4ee77a9bf494"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:fitness"
+        },
+        "predicate": "biology.concerns",
+        "object": {
+          "kind": "string",
+          "value": "contribution relative aux générations suivantes",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "organism_to_population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.2",
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:78ad9b8bea16512a1e25e1f7f1d1a8e176cde24cf2f9ed64481da1ec90c3085f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:adaptation-trait"
+        },
+        "predicate": "biology.is_context_dependent_on",
+        "object": {
+          "kind": "item",
+          "id": "concept:environment"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:254a1da9818561e997ca8f8e62ed630b24c2391ebb2925557276a30af73ae0d7"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:adaptation-process"
+        },
+        "predicate": "biology.is_driven_by",
+        "object": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c92419f471c1064f6e4c4e5fffeb5314ce2e67b58b5276abc61ba92031a438c5"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:evolution"
+        },
+        "predicate": "biology.does_not_require",
+        "object": {
+          "kind": "string",
+          "value": "progress vers un état parfait",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:a96e2eb2d8cb244c0e4b84328baf465ea1f379bfc1a02d8f6871d9a74dce871f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:natural-selection"
+        },
+        "predicate": "biology.does_not_create",
+        "object": {
+          "kind": "string",
+          "value": "variation à partir de rien",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:5c6ce4f1c97f200e5f83c0ee50ec4d349558f9b46761ba9060e953c11f133404"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:common-ancestry"
+        },
+        "predicate": "biology.supports_model_of",
+        "object": {
+          "kind": "item",
+          "id": "concept:descent-with-modification"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "lineage"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:a067294e998ec311b87a97c99f365129dfb4942a0c4921916514e31e7f6a9b03"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:descent-with-modification"
+        },
+        "predicate": "biology.describes",
+        "object": {
+          "kind": "string",
+          "value": "divergence des lignées au cours du temps",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "lineage"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:473d16e59734d8e0ed70fa015a536396c11a129a03922c85aad47bd66e7a5b6e"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:selection-pressure"
+        },
+        "predicate": "biology.modifies",
+        "object": {
+          "kind": "string",
+          "value": "différences relatives de survie ou de reproduction",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "evolution"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:19.3"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:c0b55abfcdce94250b85c9516c9f4b84f841403fd873afcdc3faa57389fd5634"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:cell"
+        },
+        "predicate": "biology.level_process_can_scale_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:organism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1",
+        "ev:openstax:biology2e:10.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Exemple: division et différenciation cellulaires contribuent au développement d’un organisme multicellulaire.",
+      "assertion_id": "sha256:65d1010324b81d55b6cf613603bdd2108832aee002f49629ffaf43f6dc8e7283"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:organism"
+        },
+        "predicate": "biology.level_variation_can_scale_to",
+        "object": {
+          "kind": "item",
+          "id": "concept:population"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Des différences entre individus deviennent évolutivement pertinentes lorsqu’elles modifient la contribution aux générations suivantes et qu’elles sont transmissibles.",
+      "assertion_id": "sha256:9b9fdf0dfdb98031bc7c059dcc8e18699bffc6352f857f2580bf224e74afa8af"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:genetic-variation"
+        },
+        "predicate": "biology.connects_scale",
+        "object": {
+          "kind": "string",
+          "value": "cellule → organisme → population",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:12.3",
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f73cc9378becf3ad25c6fe0af1e7e2795929612263abe0248ccd6109e08de32f"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:reproduction"
+        },
+        "predicate": "biology.connects_scale",
+        "object": {
+          "kind": "string",
+          "value": "organisme → génération → population",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:11.1",
+        "ev:openstax:biology2e:19.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:8e77d576a9927228f86b9a03edfc31be7239675e5ab2a1a5826421cb3a19cbf4"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:inheritance"
+        },
+        "predicate": "biology.connects_scale",
+        "object": {
+          "kind": "string",
+          "value": "information cellulaire → descendance → variation populationnelle",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:cooper2000:heredity",
+        "ev:openstax:biology2e:12.3",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:03f236c810653c368c5034e6e91ef83988a41bbdb8f87be5d3f22d9e7e306998"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "process:evolution"
+        },
+        "predicate": "biology.integrates",
+        "object": {
+          "kind": "string",
+          "value": "variation + hérédité + reproduction différentielle + temps",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "population"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1",
+        "ev:openstax:biology2e:19.2"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:fdfb4d8027e92fb885407e45bbe1f6dce09f6453f3ab2627345541fd06434121"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:tissue"
+        },
+        "predicate": "biology.is_not_required_for",
+        "object": {
+          "kind": "item",
+          "id": "concept:unicellular-organism"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "cross_scale"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:4.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "near_universal"
+        }
+      ],
+      "assertion_id": "sha256:7a180565bbaef1080e20067c16e3dc2dc1b1d750d1b5d515f8deef29d48ec7b3"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:virus"
+        },
+        "predicate": "biology.is_acellular",
+        "object": {
+          "kind": "string",
+          "value": "vrai",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:ncbi:alberts2002:cells-genomes"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "notes": "Le statut « vivant » des virus n’est pas tranché par ce corpus; ils sont explicitement hors du noyau cellulaire du Kristal.",
+      "assertion_id": "sha256:c20e325f1c867c050234bf216505052740475c0a02328eb51e3a2b0ca7205920"
+    },
+    {
+      "statement": {
+        "subject": {
+          "kind": "item",
+          "id": "concept:species"
+        },
+        "predicate": "biology.definition_depends_on",
+        "object": {
+          "kind": "string",
+          "value": "cadre taxonomique et concept d’espèce",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "reference_knowledge",
+      "coordinates": [
+        {
+          "axis": "scale",
+          "value": "boundary"
+        },
+        {
+          "axis": "theme",
+          "value": "cross_scale"
+        }
+      ],
+      "applicability": {
+        "domain": "biology",
+        "subdomain": "organization-of-life",
+        "language": "fr"
+      },
+      "actionability": {
+        "mode": "not_applicable"
+      },
+      "evidence_refs": [
+        "ev:openstax:biology2e:18.1"
+      ],
+      "valuations": [
+        {
+          "dimension": "scope_generality",
+          "value_semantics": "ordinal",
+          "value_state": "known",
+          "value": "broad"
+        }
+      ],
+      "assertion_id": "sha256:f2868a5768ea5133dd21f01b6b009ffb92c42bc2bb196b2c9ed4b34d0039ed8a"
+    }
+  ],
+  "provenance": [
+    {
+      "event": "curated_build",
+      "created_at": "2026-10-02T15:43:00Z",
+      "method": "manual domain modeling + deterministic serialization",
+      "inputs": [
+        "Kristal v6 core specification",
+        "stable biology reference sources"
+      ],
+      "notes": "Scientific content is source-traceable. Artifact/reference status does not create scientific authority."
+    }
+  ],
+  "build": {
+    "package_version": "1.0.0",
+    "generator": "build_biology_kristal.py",
+    "assertion_count": 129,
+    "referent_count": 67
+  },
+  "warnings": [
+    "Population, species, function and heritability are context-sensitive concepts; consumers should preserve qualifiers and boundary notes.",
+    "This corpus is reference knowledge, not medical or ecological operational guidance."
+  ],
+  "extensions": {
+    "biology_profile": "organization-of-life.v1",
+    "primary_scales": [
+      "cellular",
+      "tissue",
+      "organism",
+      "population"
+    ],
+    "primary_themes": [
+      "organization",
+      "function",
+      "reproduction",
+      "heredity",
+      "evolution"
+    ],
+    "ontology_boundary": "general biology; no species catalogue; no clinical content; no ecosystem/community model"
+  }
+}

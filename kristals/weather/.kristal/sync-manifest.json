@@ -1,0 +1,183 @@
+{
+  "format": "kristal.github-sync-manifest/1.0",
+  "manager_version": "0.1.0a15.post2",
+  "read_surface_format": "kristal.github-read-surface/1.0",
+  "local_kit_version": "4.0.0-draft.4",
+  "slug": "weather",
+  "title": "Weather",
+  "target_root": "kristals/weather",
+  "entrypoint": "AI_START_HERE.md",
+  "state_ref": "urn:kristal:state:kristal-weather",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:7699cd9fdf994b3fc9c6af922060bb9221d0454e6f1d8401f13fa0607e582efb"
+  },
+  "surface_digest": "sha256:edb795256d4e555afb5dbed21dd2e10f12f428eb59edbfe247a8bb6206df4da0",
+  "file_count": 26,
+  "total_bytes": 427572,
+  "materialization_object_count": 0,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "role": "ai_instructions",
+      "size": 1869,
+      "sha256": "sha256:d88b68c9a7d242567763807ceac608e52919f6149d8ad09e6ff6242839a24ee7"
+    },
+    {
+      "path": "AI_MANIFEST.json",
+      "role": "ai_manifest",
+      "size": 1927,
+      "sha256": "sha256:e47a18afd27f10568f1b97b67c4b637220c8db68da46416e2e710634c8c6d192"
+    },
+    {
+      "path": "AI_START_HERE.md",
+      "role": "ai_entrypoint",
+      "size": 2627,
+      "sha256": "sha256:10aed7be4dca93df11a492b435868a4421988d406392187527c5b156b253529a"
+    },
+    {
+      "path": "README.md",
+      "role": "overview",
+      "size": 395,
+      "sha256": "sha256:70fd81ec5aee4a713692c434021069190817499eeae2041e862dd6331fbc6464"
+    },
+    {
+      "path": "ai/CONTEXT.md",
+      "role": "ai_context",
+      "size": 3658,
+      "sha256": "sha256:2f80cfe556ffef8b108d5afad2a8981b5db078aca3c2c532d517650a27390517"
+    },
+    {
+      "path": "ai/COVERAGE.json",
+      "role": "ai_coverage",
+      "size": 1688,
+      "sha256": "sha256:5612a92d51522ddbc8a54528b453f93f3e8d75cf7434a335129230f8078f2c2d"
+    },
+    {
+      "path": "ai/GLOSSARY.md",
+      "role": "ai_glossary",
+      "size": 156,
+      "sha256": "sha256:79c804f7bf4a7eea11ec41abf8df730625277ee6c0dfbf786e98466536f445ef"
+    },
+    {
+      "path": "ai/INDEX.json",
+      "role": "ai_index",
+      "size": 3899,
+      "sha256": "sha256:a8024210803363a34447a101ce20dac3930002eabdf3b9b03e767fc5b9b24404"
+    },
+    {
+      "path": "ai/QUESTIONS.md",
+      "role": "ai_navigation",
+      "size": 579,
+      "sha256": "sha256:b277b5dc2f390515b4a62e624e018e5099bfbe91055ea444f76e6bd8fc144b63"
+    },
+    {
+      "path": "ai/RELATIONS.json",
+      "role": "ai_relations",
+      "size": 735,
+      "sha256": "sha256:ab960490ac63de7ee9823f2417f30dd078eaaae9729590cced17926f00c2f5b0"
+    },
+    {
+      "path": "canon/domain/kristal-weather.canonical-payload.json",
+      "role": "canonical_content",
+      "size": 378648,
+      "sha256": "sha256:0778378dd8c2240267ed8184bad4b353d27f6aca74e727f41fa43eba20260ba7"
+    },
+    {
+      "path": "canon/state.index.json",
+      "role": "semantic_index",
+      "size": 1147,
+      "sha256": "sha256:7675ef3468c991951fa074331f82e9edbee4a8da17fe9e4dd9fed4faaa702964"
+    },
+    {
+      "path": "derived/reader-inventory.json",
+      "role": "reader_inventory",
+      "size": 1901,
+      "sha256": "sha256:501c18574125b57d834146639d9b4dde008fb22d741b0d5c8cfacc9d49045929"
+    },
+    {
+      "path": "derived/reader-profile.json",
+      "role": "reader_profile",
+      "size": 2708,
+      "sha256": "sha256:b2d96c54456c2857af418cfb7167b1da687c6eb7b9f097fca950c3c74c966fb5"
+    },
+    {
+      "path": "docs/00_INTENT_AND_SCOPE.md",
+      "role": "documentation",
+      "size": 380,
+      "sha256": "sha256:676ad195e9cb68d9ecb67a01e75fe7fd313c9f2d8b3d77dbcf101eb59c4890c9"
+    },
+    {
+      "path": "docs/01_SEMANTIC_BOUNDARY.md",
+      "role": "documentation",
+      "size": 400,
+      "sha256": "sha256:fd092ac2646f7dd0a39d8c7636f0c98a93f1381b2cf3e8f775e1d2e80c11ab98"
+    },
+    {
+      "path": "docs/02_NATIVE_MODEL.md",
+      "role": "documentation",
+      "size": 439,
+      "sha256": "sha256:a0dd34c6c4e246450456d89cd2a577a5ea6251aa00f3a5e59efcebcd3c8aedf9"
+    },
+    {
+      "path": "docs/03_EPISTEMIC_MODEL.md",
+      "role": "documentation",
+      "size": 541,
+      "sha256": "sha256:2ad4c241326c67b1afaf4c110bd175fb13c9a677c7a8693f5960a0544f0c8170"
+    },
+    {
+      "path": "docs/04_CANONICAL_DERIVED.md",
+      "role": "documentation",
+      "size": 690,
+      "sha256": "sha256:881f8eb3063ebee67a35514b06d21b36897ef9a7d20b3079f145dc4dbdf00e7c"
+    },
+    {
+      "path": "docs/05_ORIENTATIONS.md",
+      "role": "documentation",
+      "size": 397,
+      "sha256": "sha256:4d54bc7300d2cad872dd9b59277d3a991b52f3c57cdbfed4f5f51fa6a6cafd85"
+    },
+    {
+      "path": "docs/06_VALIDATION.md",
+      "role": "documentation",
+      "size": 474,
+      "sha256": "sha256:c134bf876d01c6c5b3d45c8e17e7cff3028e5d70cb2aef131083594303c779af"
+    },
+    {
+      "path": "docs/07_HOSTING_AND_PUBLICATION.md",
+      "role": "documentation",
+      "size": 410,
+      "sha256": "sha256:ce29fffbc029aab94c4b8b3390f229f93fe5b4a909bc76c738a6c032824f0299"
+    },
+    {
+      "path": "docs/08_AI_AUTHORING_IMPROVEMENTS.md",
+      "role": "documentation",
+      "size": 4051,
+      "sha256": "sha256:f2872f3f2890040874981e322079d88c5b13a77d90365e0eac5e727cbfea9eee"
+    },
+    {
+      "path": "kristal.discovery.json",
+      "role": "reader_discovery",
+      "size": 1754,
+      "sha256": "sha256:d7791fc0eac89a79ece9cf28973e4f0d552681dc463478c13d8562b23dc3e15a"
+    },
+    {
+      "path": "sources/source-catalog.json",
+      "role": "provenance_catalog",
+      "size": 15347,
+      "sha256": "sha256:8c22addebbe8563c1617261540ce4ac8117174db07d36ccf0befd4c1c4c23ada"
+    },
+    {
+      "path": "state/state-snapshot.json",
+      "role": "state_snapshot",
+      "size": 752,
+      "sha256": "sha256:55dd16364728d4715b8779fc2774a17a19a23c53de228ab4a3908e8ef1f6d6a3"
+    }
+  ],
+  "policy": {
+    "derived_read_surface": true,
+    "sync_is_not_publication": true,
+    "activation_is_separate": true,
+    "materialization_blobs_are_not_implicitly_copied": true
+  }
+}

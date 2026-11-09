@@ -1,0 +1,5143 @@
+{
+  "schema_version": "6.0",
+  "artifact_type": "kristal_state",
+  "artifact_status": "working",
+  "created_at": "2026-10-02T16:24:00Z",
+  "updated_at": "2026-10-02T16:24:00Z",
+  "created_by": {
+    "type": "research_build",
+    "name": "OpenAI ChatGPT — structured legal research build"
+  },
+  "canonicalization_profile": "kristal.v6:jcs-rfc8785",
+  "canonicalization_version": "1",
+  "applicability": {
+    "domain": "mécanismes légaux de pouvoir",
+    "subdomain": "Japon / national / préfectural / municipal / éducation / interface externe",
+    "jurisdiction": "Japon",
+    "language": "fr",
+    "time_window": {
+      "as_of": "2026-10-02"
+    }
+  },
+  "source_refs": [
+    {
+      "source_id": "SRC-JP-CONST",
+      "title": "The Constitution of Japan",
+      "url": "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/english/constitution_e.htm"
+    },
+    {
+      "source_id": "SRC-JP-DIET-POWERS",
+      "title": "Powers of the National Diet",
+      "url": "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/guide/powers.htm"
+    },
+    {
+      "source_id": "SRC-JP-DIET-SEPARATION",
+      "title": "Separation of Powers",
+      "url": "https://www.shugiin.go.jp/internet/itdb_english.nsf/html/statics/guide/separation.htm"
+    },
+    {
+      "source_id": "SRC-JP-CABINET-ACT",
+      "title": "Cabinet Act (Act No. 5 of 1947) — extract",
+      "url": "https://www.cas.go.jp/jp/gaiyou/jimu/jinjikyoku/2017_pdf/23_2017appendix4.pdf"
+    },
+    {
+      "source_id": "SRC-JP-NGOA",
+      "title": "National Government Organization Act",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/download/4678/09/s23Aa001200304en16.0_r3A36.pdf"
+    },
+    {
+      "source_id": "SRC-JP-ADMIN-PROC",
+      "title": "Administrative Procedure Act",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/download/2874/09/h05Aa000880204en11.0_h26A70.pdf"
+    },
+    {
+      "source_id": "SRC-JP-COURT-ACT",
+      "title": "Court Act (Act No. 59 of 1947)",
+      "url": "https://www.japaneselawtranslation.go.jp/en/laws/download/7/09/s22Aa000590101en2.0_h18A36.pdf"
+    },
+    {
+      "source_id": "SRC-JP-COURTS-2024",
+      "title": "Courts in Japan — 2024",
+      "url": "https://www.courts.go.jp/english/vc-files/courts-en/2024_Courts_in_Japan.pdf"
+    },
+    {
+      "source_id": "SRC-JP-ADMIN-LIT",
+      "title": "Administrative Case Litigation Act",
+      "url": "https://www.japaneselawtranslation.go.jp/ja/laws/download/3781/09/s37Aa001390301en14.0_h19A109.pdf"
+    },
+    {
+      "source_id": "SRC-JP-LOCAL-CLAIR",
+      "title": "Local Government in Japan 2024 — 2025 revised edition (publication listing)",
+      "url": "https://www.clair.or.jp/j/forum/pub/dynamic/local_government.html?c=100602&limit=20"
+    },
+    {
+      "source_id": "SRC-JP-SC-LOCAL",
+      "title": "Supreme Court judgment discussing statutory entrusted functions under the Local Autonomy Act",
+      "url": "https://www.courts.go.jp/english/Judgments/search/1506/index.html"
+    },
+    {
+      "source_id": "SRC-JP-MEXT-BASIC",
+      "title": "Basic Act on Education",
+      "url": "https://www.mext.go.jp/en/policy/education/lawandplan/title01/detail01/1373798.htm"
+    },
+    {
+      "source_id": "SRC-JP-MEXT-OVERVIEW",
+      "title": "Overview — Legal Basis of Education",
+      "url": "https://www.mext.go.jp/en/policy/education/overview/"
+    },
+    {
+      "source_id": "SRC-JP-MEXT-LOCAL",
+      "title": "Roles of national, prefectural and municipal governments in education",
+      "url": "https://www.mext.go.jp/en/policy/education/lawandplan/title01/detail01/sdetail01/1373807.htm"
+    },
+    {
+      "source_id": "SRC-JP-MEXT-BOE",
+      "title": "Local Educational Administration — Boards of Education",
+      "url": "https://www.mext.go.jp/a_menu/01_j.htm"
+    },
+    {
+      "source_id": "SRC-JP-MOFA-TREATY",
+      "title": "International Law and Treaties — Treaties submitted to the Diet",
+      "url": "https://www.mofa.go.jp/policy/treaty/"
+    }
+  ],
+  "assertions": [
+    {
+      "assertion_id": "JP-POUVOIR-001",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-japon"
+        },
+        "predicate": "norm.est_source_supreme_interne",
+        "object": {
+          "kind": "proposition",
+          "value": "La Constitution du Japon est la loi suprême de l’ordre juridique interne; les actes de gouvernement contraires à ses dispositions sont dépourvus de force ou de validité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Japon"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "suprematie_normative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-002",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principe:souverainete-populaire-japon"
+        },
+        "predicate": "principle.locates_sovereignty",
+        "object": {
+          "kind": "proposition",
+          "value": "La souveraineté réside dans le peuple; l’autorité gouvernementale dérive du peuple et s’exerce par ses représentants.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Japon"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "source_de_legitimite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-003",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:empereur-japon"
+        },
+        "predicate": "institution.has_role",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Empereur est le symbole de l’État et de l’unité du peuple; sa position dérive de la volonté du peuple.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Japon"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "fonction_symbolique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-004",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:empereur-japon"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Empereur ne possède pas de pouvoirs liés au gouvernement et n’exerce que les actes d’État prévus par la Constitution.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Japon"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-005",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:empereur-japon"
+        },
+        "predicate": "power.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "Les actes d’État de l’Empereur requièrent l’avis et l’approbation du Cabinet, qui en assume la responsabilité.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Japon"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "acte_formel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-006",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:empereur-japon"
+        },
+        "predicate": "power.appoints_formally",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Empereur nomme le Premier ministre désigné par la Diète et nomme le président de la Cour suprême désigné par le Cabinet.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Japon"
+        },
+        {
+          "axis": "fonction",
+          "value": "nomination"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination_formelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-007",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:empereur-japon"
+        },
+        "predicate": "power.promulgates_formally",
+        "object": {
+          "kind": "proposition",
+          "value": "Sur avis et approbation du Cabinet, l’Empereur accomplit notamment la promulgation des amendements constitutionnels, lois, Cabinet Orders et traités; cette fonction ne lui confère pas un pouvoir autonome de décision politique.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Japon"
+        },
+        {
+          "axis": "fonction",
+          "value": "promulgation"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "acte_formel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-008",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "institution.has_constitutional_status",
+        "object": {
+          "kind": "proposition",
+          "value": "La Diète est l’organe suprême du pouvoir de l’État et le seul organe législatif de l’État au sens de l’article 41.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legiferer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-009",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "institution.has_composition",
+        "object": {
+          "kind": "proposition",
+          "value": "La Diète est bicamérale: Chambre des représentants et Chambre des conseillers.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-010",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:chambres-diete-japon"
+        },
+        "predicate": "institution.represents",
+        "object": {
+          "kind": "proposition",
+          "value": "Les deux chambres sont composées de membres élus représentant l’ensemble du peuple.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "representation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-011",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:procedure:loi-japon"
+        },
+        "predicate": "procedure.requires",
+        "object": {
+          "kind": "proposition",
+          "value": "En principe, un projet devient loi lorsqu’il est adopté par les deux chambres, sous réserve des mécanismes constitutionnels de priorité de la Chambre des représentants.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedure_legislative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-012",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:chambre-representants-japon"
+        },
+        "predicate": "power.can_override",
+        "object": {
+          "kind": "proposition",
+          "value": "Pour un projet de loi rejeté ou non adopté par la Chambre des conseillers, la Chambre des représentants peut, dans les conditions de l’article 59, l’adopter de nouveau à la majorité des deux tiers des membres présents.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "priorite_chambre_basse"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-013",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "power.can_investigate",
+        "object": {
+          "kind": "proposition",
+          "value": "Chaque chambre peut conduire des enquêtes relatives au gouvernement et exiger la présence ou le témoignage de témoins ainsi que la production de documents selon le cadre constitutionnel.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_parlementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-014",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "power.designates",
+        "object": {
+          "kind": "proposition",
+          "value": "La Diète désigne le Premier ministre parmi ses membres; en cas de désaccord entre les chambres non résolu selon la Constitution, la décision de la Chambre des représentants prévaut.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "designation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-015",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:chambre-representants-japon"
+        },
+        "predicate": "power.can_trigger_cabinet_resignation_or_dissolution",
+        "object": {
+          "kind": "proposition",
+          "value": "Si la Chambre des représentants adopte une résolution de non-confiance ou rejette une résolution de confiance, le Cabinet doit démissionner en bloc sauf dissolution de la Chambre dans les dix jours.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_parlementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "confiance"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-016",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "power.initiates_constitutional_amendment",
+        "object": {
+          "kind": "proposition",
+          "value": "Une révision constitutionnelle doit être initiée par la Diète à la majorité des deux tiers de tous les membres de chaque chambre, puis approuvée par le peuple à la majorité lors du référendum ou scrutin prévu.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "revision_constitutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-017",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "Un membre individuel de la Diète ne peut pas, par sa seule qualité de parlementaire, exercer à lui seul les pouvoirs exécutifs confiés au Cabinet ou rendre un jugement judiciaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "derived_state",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "transversal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-SEPARATION"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-018",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "power.holds",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir exécutif est dévolu au Cabinet.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "executer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-019",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "institution.is_collectively_responsible",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans l’exercice du pouvoir exécutif, le Cabinet est collectivement responsable devant la Diète.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "responsabilite_collective"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-CABINET-ACT"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-020",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:premier-ministre-japon"
+        },
+        "predicate": "role.has_status",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre est le chef du Cabinet et doit être désigné parmi les membres de la Diète.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_executive"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-CABINET-ACT"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-021",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:premier-ministre-japon"
+        },
+        "predicate": "power.appoints_and_dismisses",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre nomme les ministres d’État et peut les révoquer; la majorité des ministres doit être choisie parmi les membres de la Diète et tous doivent être des civils.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-022",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "procedure.resigns",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet démissionne en bloc lorsqu’il y a vacance du poste de Premier ministre ou lors de la première convocation de la Diète après une élection générale de la Chambre des représentants.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "continuite_gouvernementale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-023",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "procedure.continues_caretaker",
+        "object": {
+          "kind": "proposition",
+          "value": "Après sa démission en bloc, le Cabinet continue d’exercer ses fonctions jusqu’à la nomination d’un nouveau Premier ministre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "continuite_gouvernementale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-024",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:premier-ministre-japon"
+        },
+        "predicate": "power.represents_cabinet",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre représente le Cabinet, soumet à la Diète les projets de loi, le budget et d’autres propositions au nom du Cabinet, rend compte des affaires nationales et des relations extérieures, et exerce contrôle et supervision sur les branches administratives conformément aux politiques du Cabinet.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "direction_executive"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-CABINET-ACT"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-025",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "procedure.decides",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet exerce ses fonctions par des réunions du Cabinet; le Premier ministre les préside.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "decision_collegiale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CABINET-ACT"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-026",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "power.administers_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet administre fidèlement les lois et conduit les affaires de l’État dans les domaines constitutionnellement et légalement attribués à l’exécutif.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "executif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administrer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-027",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "power.enacts_cabinet_orders",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet peut adopter des Cabinet Orders pour exécuter la Constitution et les lois; des dispositions pénales ne peuvent y être incluses sans autorisation législative.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-CABINET-ACT"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-028",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "power.cannot_impose_without_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet Act précise qu’un Cabinet Order ne peut imposer d’obligations ou restreindre des droits sans autorisation législative.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_delegation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CABINET-ACT"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-029",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:premier-ministre-japon"
+        },
+        "predicate": "power.controls_administration",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Premier ministre exerce le contrôle et la supervision des branches administratives conformément aux politiques arrêtées en réunion du Cabinet et peut suspendre temporairement certaines mesures ou ordres administratifs dans l’attente d’une décision du Cabinet.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "supervision"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CABINET-ACT"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-030",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:ministre-japon"
+        },
+        "predicate": "power.manages_portfolio",
+        "object": {
+          "kind": "proposition",
+          "value": "Le ministre à la tête d’un ministère prend en charge et gère les affaires administratives relevant légalement de son portefeuille; la compétence de l’organe et son champ d’affaires sont déterminés par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "administrer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-031",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:ministre-japon"
+        },
+        "predicate": "power.issues_ministerial_ordinance",
+        "object": {
+          "kind": "proposition",
+          "value": "Un ministre peut émettre une ordonnance ministérielle pour mettre en œuvre une loi ou un Cabinet Order dans son domaine, ou sur la base d’une délégation spéciale prévue par une loi ou un Cabinet Order.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-032",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:ministre-japon"
+        },
+        "predicate": "power.cannot_without_delegation",
+        "object": {
+          "kind": "proposition",
+          "value": "Sans délégation législative, une ordonnance ministérielle ne peut établir de disposition pénale ni imposer des obligations ou restreindre les droits des citoyens.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_delegation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-033",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administration-nationale-japon"
+        },
+        "predicate": "institution.has_structure",
+        "object": {
+          "kind": "proposition",
+          "value": "Les organes administratifs nationaux sous le contrôle et la juridiction du Cabinet comprennent notamment ministères, commissions et agences; leur établissement, abolition, fonctions et champ de compétence sont encadrés par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-034",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administration-nationale-japon"
+        },
+        "predicate": "procedure.subject_to_fairness",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Administrative Procedure Act fixe des règles communes visant la loyauté et la transparence des décisions administratives, de la guidance administrative, des notifications et de l’édiction de normes administratives.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "procedure_administrative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-ADMIN-PROC"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-035",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:administration-nationale-japon"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "Une administration ne peut pas créer par simple pratique ou instruction interne une compétence que la Constitution ou la loi ne lui attribue pas.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "derived_state",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-036",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-japon"
+        },
+        "predicate": "power.holds",
+        "object": {
+          "kind": "proposition",
+          "value": "L’ensemble du pouvoir judiciaire est dévolu à la Cour suprême et aux juridictions inférieures établies par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "juger"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-COURT-ACT"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-037",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:executif-japon"
+        },
+        "predicate": "power.cannot_exercise_final_judicial_power",
+        "object": {
+          "kind": "proposition",
+          "value": "Aucun tribunal extraordinaire ne peut être établi et aucun organe de l’exécutif ne peut recevoir un pouvoir judiciaire final.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "separation_des_pouvoirs"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-038",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:juge-japon"
+        },
+        "predicate": "role.is_independent",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juges sont indépendants dans l’exercice de leur conscience et ne sont liés que par la Constitution et les lois.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "independance_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-039",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-supreme-japon"
+        },
+        "predicate": "power.judicial_review",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour suprême est la juridiction de dernier ressort dotée du pouvoir de déterminer la constitutionnalité des lois, ordres, règlements et actes officiels.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-COURTS-2024"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-040",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:doctrine:controle-concret-japon"
+        },
+        "predicate": "doctrine.requires_concrete_dispute",
+        "object": {
+          "kind": "proposition",
+          "value": "Le contrôle de constitutionnalité japonais s’exerce dans le cadre d’un litige concret; la Cour suprême n’est pas habilitée à donner un contrôle abstrait d’une loi séparément d’un cas individuel.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_incident"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-COURTS-2024"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-041",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:ordre-judiciaire-japon"
+        },
+        "predicate": "institution.has_hierarchy",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juridictions inférieures comprennent les Hautes cours, tribunaux de district, tribunaux de famille et tribunaux sommaires, selon le Court Act.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-COURT-ACT",
+        "SRC-JP-COURTS-2024"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-042",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-japon"
+        },
+        "predicate": "power.reviews_administration",
+        "object": {
+          "kind": "proposition",
+          "value": "Les tribunaux peuvent connaître des contentieux administratifs prévus par l’Administrative Case Litigation Act, notamment des actions de contrôle des dispositions administratives.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_juridictionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_juridictionnel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-ADMIN-LIT",
+        "SRC-JP-COURTS-2024"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-043",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-supreme-japon"
+        },
+        "predicate": "power.makes_judicial_rules",
+        "object": {
+          "kind": "proposition",
+          "value": "La Cour suprême dispose du pouvoir constitutionnel d’établir des règles relatives à la procédure, aux pratiques judiciaires, aux avocats, à la discipline interne des tribunaux et à l’administration des affaires judiciaires.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "pouvoir_reglementaire_judiciaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-044",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:role:juge-japon"
+        },
+        "predicate": "power.protected_from_executive_discipline",
+        "object": {
+          "kind": "proposition",
+          "value": "Les juges ne peuvent être révoqués que dans les conditions constitutionnelles, notamment par impeachment public; les organes exécutifs ne peuvent prendre de mesures disciplinaires à leur encontre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "garantie_independance"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-SEPARATION"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-045",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "power.impeaches_judges",
+        "object": {
+          "kind": "proposition",
+          "value": "La Diète institue le mécanisme d’impeachment des juges; le pouvoir de les juger dans ce cadre est séparé de l’exécutif ordinaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "controle_judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "impeachment"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-SEPARATION"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-046",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cour-supreme-japon"
+        },
+        "predicate": "appointment.has_checks",
+        "object": {
+          "kind": "proposition",
+          "value": "Le président de la Cour suprême est désigné par le Cabinet puis nommé formellement par l’Empereur; les autres juges de la Cour suprême sont nommés par le Cabinet et leurs nominations sont soumises au mécanisme constitutionnel de révision populaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "nomination_judiciaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "nomination_et_controle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-047",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:tribunaux-japon"
+        },
+        "predicate": "power.cannot",
+        "object": {
+          "kind": "proposition",
+          "value": "Les tribunaux ne disposent pas d’un pouvoir général de gouverner ou de légiférer; leur contrôle constitutionnel et administratif intervient dans l’exercice de la fonction judiciaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "derived_state",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "transversal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-COURTS-2024"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-048",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "power.controls_national_finances",
+        "object": {
+          "kind": "proposition",
+          "value": "Le pouvoir d’administrer les finances nationales doit être exercé selon la décision de la Diète.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_financier"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-049",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:impot-japon"
+        },
+        "predicate": "norm.requires_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Aucun nouvel impôt ne peut être imposé ni un impôt existant modifié autrement que par une loi ou dans les conditions établies par la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "legalite_fiscale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-050",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "power.prepares_budget",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet prépare et soumet chaque année le budget à la Diète; la Diète le considère et le décide.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "budget"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-051",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:chambre-representants-japon"
+        },
+        "predicate": "power.has_budget_precedence",
+        "object": {
+          "kind": "proposition",
+          "value": "La Chambre des représentants bénéficie d’une priorité constitutionnelle en matière budgétaire lorsque les chambres divergent selon les conditions de l’article 60.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "priorite_budgetaire"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-052",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:board-of-audit-japon"
+        },
+        "predicate": "power.audits_final_accounts",
+        "object": {
+          "kind": "proposition",
+          "value": "Les comptes définitifs des recettes et dépenses de l’État sont audités annuellement par le Board of Audit, puis le Cabinet les soumet avec le rapport d’audit à la Diète.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "audit"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-053",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "power.uses_reserve_fund_with_diet_control",
+        "object": {
+          "kind": "proposition",
+          "value": "La Diète peut autoriser un fonds de réserve; les dépenses qui y sont imputées sous responsabilité du Cabinet doivent ensuite recevoir l’approbation de la Diète.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National"
+        },
+        {
+          "axis": "fonction",
+          "value": "finances"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_financier"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-054",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:principe:autonomie-locale-japon"
+        },
+        "predicate": "principle.has_constitutional_basis",
+        "object": {
+          "kind": "proposition",
+          "value": "Les règles relatives à l’organisation et au fonctionnement des entités publiques locales doivent être fixées par la loi conformément au principe de l’autonomie locale.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "constitutionnel"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-LOCAL-CLAIR"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-055",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:collectivites-locales-japon"
+        },
+        "predicate": "institution.has_elected_organs",
+        "object": {
+          "kind": "proposition",
+          "value": "Les collectivités locales disposent d’assemblées établies par la loi; leurs principaux dirigeants exécutifs, les membres des assemblées et les autres responsables locaux déterminés par la loi sont élus au suffrage direct dans leurs communautés.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "democratie_locale"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "election_directe"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-056",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:collectivites-locales-japon"
+        },
+        "predicate": "power.manages_local_affairs",
+        "object": {
+          "kind": "proposition",
+          "value": "Les entités publiques locales ont le droit de gérer leurs biens, leurs affaires et leur administration, et d’édicter des ordonnances locales dans les limites de la loi.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "autonomie_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-057",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:collectivites-locales-ordinaires-japon"
+        },
+        "predicate": "institution.has_two_tiers",
+        "object": {
+          "kind": "proposition",
+          "value": "Le système local ordinaire repose sur deux niveaux principaux: les préfectures et les municipalités.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Préfectural + municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "structure"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "structure"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-LOCAL-CLAIR"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-058",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:prefecture-japon"
+        },
+        "predicate": "role.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Les préfectures remplissent principalement des fonctions régionales ou de coordination et prennent en charge certaines matières dont l’échelle ou la nature dépasse une municipalité ordinaire.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Préfectural"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-LOCAL-CLAIR"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-059",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipalite-japon"
+        },
+        "predicate": "role.has_domain",
+        "object": {
+          "kind": "proposition",
+          "value": "Les municipalités constituent le niveau local de base et assurent de nombreuses fonctions directement liées à la vie quotidienne des résidents.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_locale"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-LOCAL-CLAIR"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-060",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:ordonnance-locale-japon"
+        },
+        "predicate": "norm.must_conform_to_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Une ordonnance locale ne peut être adoptée que dans les limites de la loi; l’autonomie locale n’autorise pas une collectivité à écarter la Constitution ou les lois nationales applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_des_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_normative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-061",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:collectivite-locale-japon"
+        },
+        "predicate": "power.is_not_sovereign_legislature",
+        "object": {
+          "kind": "proposition",
+          "value": "Une collectivité locale japonaise n’est pas un ordre souverain équivalent à la Diète: ses compétences et son pouvoir d’édicter des ordonnances s’exercent dans le cadre constitutionnel et législatif national.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "derived_state",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "transversal"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-LOCAL-CLAIR"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-062",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:procedure:loi-speciale-locale-japon"
+        },
+        "predicate": "procedure.requires_local_consent",
+        "object": {
+          "kind": "proposition",
+          "value": "Une loi spéciale applicable uniquement à une collectivité locale déterminée ne peut être adoptée par la Diète sans le consentement de la majorité des électeurs de cette collectivité selon l’article 95.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local"
+        },
+        {
+          "axis": "fonction",
+          "value": "legislatif"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "veto_local_specifique"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-063",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:concept:statutory-entrusted-functions-japon"
+        },
+        "predicate": "concept.allows_limited_national_direction",
+        "object": {
+          "kind": "proposition",
+          "value": "Pour certaines fonctions locales expressément qualifiées de fonctions confiées par la loi, le cadre légal peut autoriser une intervention ou des instructions nationales afin d’assurer leur exécution correcte; cette intervention dépend de la base légale applicable.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National + local"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "controle_intergouvernemental"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-SC-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-064",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-national-japon"
+        },
+        "predicate": "power.cannot_generalize_local_control",
+        "object": {
+          "kind": "proposition",
+          "value": "L’existence de fonctions légalement confiées ne signifie pas que l’administration nationale possède un pouvoir général illimité de commandement sur toutes les affaires locales autonomes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "derived_state",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National + local"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-SC-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-065",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:systeme:education-japon"
+        },
+        "predicate": "governance.is_shared",
+        "object": {
+          "kind": "proposition",
+          "value": "L’administration de l’éducation repose sur un partage des rôles et une coopération entre le gouvernement national et les gouvernements locaux.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "partage_de_responsabilites"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-BASIC",
+        "SRC-JP-MEXT-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-066",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-national-japon"
+        },
+        "predicate": "power.education_national_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Le gouvernement national formule et met en œuvre des mesures éducatives globales afin notamment d’assurer l’égalité des chances et de maintenir ou améliorer les standards éducatifs.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "politique_educative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-BASIC",
+        "SRC-JP-MEXT-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-067",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:gouvernement-local-japon"
+        },
+        "predicate": "power.education_local_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les gouvernements locaux formulent et mettent en œuvre des mesures éducatives adaptées aux circonstances régionales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "politique_educative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-BASIC"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-068",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:prefecture-japon"
+        },
+        "predicate": "power.education_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les préfectures ont notamment des responsabilités éducatives à portée régionale, peuvent établir et administrer certains établissements tels que des écoles secondaires supérieures et soutiennent les municipalités.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Préfectural / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_educative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-069",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:municipalite-japon"
+        },
+        "predicate": "power.education_role",
+        "object": {
+          "kind": "proposition",
+          "value": "Les municipalités jouent un rôle central dans l’établissement et la gestion des écoles élémentaires et collèges publics nécessaires à l’instruction obligatoire, ainsi que dans diverses activités éducatives locales.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Municipal / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "competence_educative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-LOCAL"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-070",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:board-of-education-japon"
+        },
+        "predicate": "institution.is_key_local_education_body",
+        "object": {
+          "kind": "proposition",
+          "value": "Les conseils de l’éducation constituent des organes importants de l’administration éducative locale dans le système japonais.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "gouvernance_educative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-BOE"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-071",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:systeme:education-japon"
+        },
+        "predicate": "principle.prohibits_improper_control",
+        "object": {
+          "kind": "proposition",
+          "value": "L’éducation ne doit pas être soumise à un contrôle indu; son administration doit être menée de manière équitable et appropriée conformément aux lois, avec partage des rôles et coopération entre niveaux de gouvernement.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "garantie_institutionnelle"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-BASIC"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-072",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:mext-japon"
+        },
+        "predicate": "power.issues_subordinate_norms",
+        "object": {
+          "kind": "proposition",
+          "value": "Dans son champ légal, MEXT édicte des ordonnances ministérielles et des avis/standards pour mettre en œuvre les lois éducatives et les normes nationales applicables.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "National / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "reglementaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "reglementer"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-OVERVIEW",
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-073",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:board-of-education-japon"
+        },
+        "predicate": "power.cannot_override_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Un conseil de l’éducation local ne peut écarter la Constitution, les lois nationales ou les règles valides qui encadrent sa compétence; son autonomie s’exerce dans ce cadre.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "derived_state",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Local / éducation"
+        },
+        {
+          "axis": "fonction",
+          "value": "administration_scolaire"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "limite_de_pouvoir"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-MEXT-BASIC",
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-074",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "power.conducts_foreign_affairs",
+        "object": {
+          "kind": "proposition",
+          "value": "La conduite des affaires étrangères fait partie des fonctions constitutionnelles du Cabinet.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "relations_exterieures"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "relations_exterieures"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-075",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:cabinet-japon"
+        },
+        "predicate": "power.concludes_treaties_subject_to_diet",
+        "object": {
+          "kind": "proposition",
+          "value": "Le Cabinet conclut les traités, sous réserve d’obtenir l’approbation préalable ou, selon les circonstances, subséquente de la Diète.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "conclusion_des_traites"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-MOFA-TREATY"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-076",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:diete-japon"
+        },
+        "predicate": "power.approves_treaties",
+        "object": {
+          "kind": "proposition",
+          "value": "La Diète décide de l’approbation de la conclusion des traités; les règles constitutionnelles de priorité de la Chambre des représentants applicables au budget s’appliquent mutatis mutandis à cette approbation.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "approbation_des_traites"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-DIET-POWERS"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-077",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:institution:empereur-japon"
+        },
+        "predicate": "power.formal_treaty_acts",
+        "object": {
+          "kind": "proposition",
+          "value": "L’Empereur accomplit, sur avis et approbation du Cabinet, les actes d’État prévus concernant la promulgation des traités et l’attestation des instruments de ratification ou autres documents diplomatiques; il ne décide pas de leur contenu.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "acte_formel"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-078",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:norm:constitution-japon-art98"
+        },
+        "predicate": "norm.requires_faithful_observance_external",
+        "object": {
+          "kind": "proposition",
+          "value": "L’article 98(2) prévoit que les traités conclus par le Japon et les lois établies des nations doivent être fidèlement observés; ce Kristal n’encode pas le contenu matériel de ces normes externes.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "authoritative_constraint",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Interface externe"
+        },
+        {
+          "axis": "fonction",
+          "value": "traites"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "interface_normative"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-079",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:scope:kristal-pouvoirs-japon"
+        },
+        "predicate": "scope.excludes",
+        "object": {
+          "kind": "proposition",
+          "value": "Le présent Kristal exclut le droit international substantiel: contenu des traités, coutume internationale, jus cogens, obligations erga omnes, mécanismes de l’ONU, droit humanitaire, droit de la mer, droit commercial international et responsabilité internationale relèvent du Kristal supranational/international.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "scope"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "exclusion_de_portee"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-080",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:scope:kristal-pouvoirs-japon"
+        },
+        "predicate": "scope.includes_only_external_interface",
+        "object": {
+          "kind": "proposition",
+          "value": "Le présent Kristal conserve uniquement l’interface juridique japonaise avec l’extérieur: qui négocie ou conclut, qui approuve, quels actes formels sont accomplis et comment l’ordre national décrit cette interface.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "scope"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-MOFA-TREATY"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-081",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:charge-titulaire-japon"
+        },
+        "predicate": "invariant.requires_separation",
+        "object": {
+          "kind": "proposition",
+          "value": "La charge publique et son titulaire sont deux objets distincts: les règles du pouvoir d’une fonction ne doivent pas être confondues avec l’identité de la personne qui l’occupe à une date donnée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-082",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:influence-autorite-japon"
+        },
+        "predicate": "invariant.requires_separation",
+        "object": {
+          "kind": "proposition",
+          "value": "L’influence politique, administrative ou sociale n’équivaut pas à une autorité juridique exécutoire; le corpus encode la source légale du pouvoir.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-083",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:normes-japon"
+        },
+        "predicate": "invariant.distinguishes_norm_types",
+        "object": {
+          "kind": "proposition",
+          "value": "Loi de la Diète, Cabinet Order, ordonnance ministérielle et ordonnance locale doivent rester des catégories distinctes, chacune avec sa source de compétence et ses limites.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_des_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-CABINET-ACT",
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-084",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:delegation-japon"
+        },
+        "predicate": "invariant.requires_legal_basis",
+        "object": {
+          "kind": "proposition",
+          "value": "Un pouvoir réglementaire ou administratif délégué ne doit pas être interprété comme une compétence générale; il faut identifier la loi, le Cabinet Order ou la disposition constitutionnelle qui le fonde.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-CABINET-ACT",
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-085",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:politique-interne-vs-droit-japon"
+        },
+        "predicate": "invariant.separates_private_policy_and_law",
+        "object": {
+          "kind": "proposition",
+          "value": "Une politique commerciale interne de Kristal Farms ou d’une entreprise privée n’est pas, par elle-même, une interdiction juridique japonaise et ne doit pas être encodée comme telle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "reviewed",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": []
+    },
+    {
+      "assertion_id": "JP-POUVOIR-086",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:absence-titulaire-actuel"
+        },
+        "predicate": "invariant.excludes_current_officeholders",
+        "object": {
+          "kind": "proposition",
+          "value": "Le cœur juridique ne dépend pas des noms des titulaires politiques actuels; les personnes en fonction doivent, si nécessaire, être stockées dans une couche temporelle séparée.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "temporalite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-087",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:qui-peut-bloquer"
+        },
+        "predicate": "invariant.models_checks",
+        "object": {
+          "kind": "proposition",
+          "value": "Pour chaque pouvoir, le corpus distingue autant que possible l’auteur de l’acte, la base juridique, les organes pouvant l’empêcher, le contrôler ou le réviser, et la nature du contrôle.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "ontologie"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-DIET-SEPARATION",
+        "SRC-JP-COURTS-2024"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-088",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:pas-de-hierarchie-simple"
+        },
+        "predicate": "invariant.rejects_oversimplification",
+        "object": {
+          "kind": "proposition",
+          "value": "La hiérarchie juridique ne doit pas être réduite à une seule chaîne linéaire: Constitution, lois, normes déléguées, autonomie locale et contrôle juridictionnel interagissent selon des règles de compétence et de procédure.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "sourced",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "hierarchie_des_normes"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "stable"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_modelisation"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": [
+        "SRC-JP-CONST",
+        "SRC-JP-NGOA"
+      ]
+    },
+    {
+      "assertion_id": "JP-POUVOIR-089",
+      "statement": {
+        "subject": {
+          "kind": "actor_or_norm",
+          "id": "urn:invariant:validation-humaine"
+        },
+        "predicate": "invariant.requires_human_validation",
+        "object": {
+          "kind": "proposition",
+          "value": "Les assertions juridiques restent soumises à validation humaine et à revalidation des sources lorsque le droit, l’organisation administrative ou la jurisprudence évolue.",
+          "language": "fr"
+        }
+      },
+      "assertion_status": "reviewed",
+      "record_role": "organizational_rule",
+      "coordinates": [
+        {
+          "axis": "niveau",
+          "value": "Transversal"
+        },
+        {
+          "axis": "fonction",
+          "value": "qualite"
+        }
+      ],
+      "applicability": {
+        "domain": "droit public et gouvernance",
+        "jurisdiction": "Japon",
+        "language": "fr"
+      },
+      "valuations": [
+        {
+          "dimension": "temporalite",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "permanent"
+        },
+        {
+          "dimension": "type_de_pouvoir",
+          "value_semantics": "categorical",
+          "value_state": "known",
+          "value": "regle_de_qualite"
+        }
+      ],
+      "actionability": {
+        "mode": "human_review",
+        "requires_human_validation": true,
+        "reason_codes": [
+          "legal_context_may_change"
+        ]
+      },
+      "evidence_refs": []
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "PROV-JP-001",
+      "type": "research_build",
+      "created_at": "2026-10-02T16:24:00Z",
+      "method": "Synthèse structurée de la Constitution du Japon, de lois et de sources institutionnelles officielles ou quasi-officielles. Le droit international substantiel est explicitement exclu; seule l’interface juridique nationale avec les traités et normes externes est conservée. Aucun titulaire politique actuel n’est requis pour les règles de base.",
+      "tooling": "Kristal Standard 6.0.0"
+    }
+  ],
+  "warnings": [
+    "Ce paquet décrit les mécanismes institutionnels et juridiques; il ne constitue pas un avis juridique pour un dossier particulier.",
+    "Les traductions anglaises de lois japonaises utilisées comme sources de travail doivent être recoupées avec le texte japonais officiel pour une interprétation faisant autorité.",
+    "Le droit international substantiel et supranational est exclu de ce Kristal et doit être relié au Kristal international séparé.",
+    "La hiérarchie précise entre certains engagements internationaux et certaines normes internes n’est pas simplifiée au-delà de l’interface constitutionnelle explicitement sourcée."
+  ],
+  "extensions": {
+    "kristal_series": "Qui décide quoi?",
+    "country_code": "JP",
+    "scope_policy": "national-law-only-with-external-interface",
+    "exclude_substantive_international_law": true
+  }
+}

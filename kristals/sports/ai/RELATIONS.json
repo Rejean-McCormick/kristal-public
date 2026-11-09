@@ -1,0 +1,145 @@
+{
+  "format": "kristal.ai-relations/1.0",
+  "state_ref": "urn:kristal:state:sports",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:9ad70993a86cd7f2f17f7d44cb8a79c1c7c9bdcacfeeac8e644bc57b15bf3750"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:sports:canonical-state",
+      "logical_contract": {
+        "id": "kristal_state",
+        "version": "6.0"
+      },
+      "authority_ref": "urn:kristal:authority:sports",
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:0450730bc958b006c6795345692ec0fb696e94d6ace9a9fd0e5ad3b20852e395"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-20261026-rebuilt-v2:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:3b576422d53916350f3555e4099bc0c3ace587b9e5b348c4331f2c77662024b7"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-20261026-rebuilt-v2:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c0749c30150b54aea7c451ba8bd0137894931b9d78e517df0cc8feb4c1d92b88"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-20261026-rebuilt-v2:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:071f154626eac9a4587a19c1b3451710012b6b09cfa965c57c38566cf4377904"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-20261026-rebuilt-v2:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:1fb4c44ed2632ea1a207726b96c3aef07e170df957df86dc5a516ed0c36816a2"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-20261026-rebuilt-v2:source-ledger",
+      "logical_contract": {
+        "id": "kristal.v11.source-ledger",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:f0464718e462cfc434b00515503aee7ec392c4a3f2e0040375712082d3fd5625"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-20261026-rebuilt-v2:import-model",
+      "logical_contract": {
+        "id": "kristal.v11.import-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:2a45bc483457c1207c2daa2a8accb2ef6634095ef40b84bd241436b0ac850827"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-structured-20261026-v3:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:c770c6e621abf9784271bc049cd21b56dfab0208925786ce06042507dba44b3c"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-structured-20261026-v3:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9695696d1a4c08b84f358049d338c387818bb8789cfd51f99c1f868be91ccdaf"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-structured-20261026-v3:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9305889c4671db079eecfb5b2f906872f0218b06490569b78a33b724f6540bd2"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-structured-20261026-v3:dictionaries/catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:724a94dcba950192da7920011e0739c89995decbb2c3ab9566ba0a3e4c350e5f"
+      }
+    },
+    {
+      "artifact_id": "kristal:bulk:kristal-sports:wikidata-structured-20261026-v3:structured-model",
+      "logical_contract": {
+        "id": "kristal.v11.structured-value-model",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:9f58adf3b8aa289849ef4acead2743e9aeeee6ba411a95ccbbadd42a2c81d4a9"
+      }
+    }
+  ],
+  "external_references": [],
+  "parents": []
+}

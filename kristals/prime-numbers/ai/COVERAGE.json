@@ -1,0 +1,36 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:prime-numbers",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:ec0c647012acf3906009f33ce5d4cf86fc6bc2848be1b7d36d87aa511a688c91"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:prime-numbers",
+    "label": "kristal-prime-numbers",
+    "domain": "kristal-prime-numbers"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Définition formelle, sujets, propriétés, règles, assertions et structures sémantiques v7 de primalité."
+    ],
+    "does_not_own": [
+      "Réduction de la primalité à des listes énumérées ou confusion entre conséquence et définition.",
+      "Les dépôts des sources externes, leur publication et leur autorité éditoriale."
+    ]
+  },
+  "canonical_artifact_count": 1,
+  "source_count": 2,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

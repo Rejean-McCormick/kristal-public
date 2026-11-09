@@ -1,0 +1,350 @@
+{
+  "format": "recipes.transformation-mechanisms.v1",
+  "version": "2.0.0",
+  "status": "model_seed_non_authoritative",
+  "mechanisms": [
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:mechanical_combination",
+      "labels": [
+        {
+          "text": "Combinaison mécanique",
+          "lang": "fr"
+        }
+      ],
+      "class": "mechanical",
+      "effects": [
+        "redistribution",
+        "homogenization"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:structure_development",
+      "labels": [
+        {
+          "text": "Développement de structure",
+          "lang": "fr"
+        }
+      ],
+      "class": "mechanical",
+      "effects": [
+        "network_development"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:fermentation",
+      "labels": [
+        {
+          "text": "Fermentation",
+          "lang": "fr"
+        }
+      ],
+      "class": "biological",
+      "effects": [
+        "metabolite_generation",
+        "flavor_change"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:gas_generation",
+      "labels": [
+        {
+          "text": "Génération de gaz",
+          "lang": "fr"
+        }
+      ],
+      "class": "physical_biological",
+      "effects": [
+        "volume_expansion"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:hydration",
+      "labels": [
+        {
+          "text": "Hydratation",
+          "lang": "fr"
+        }
+      ],
+      "class": "physical",
+      "effects": [
+        "water_absorption"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:relaxation",
+      "labels": [
+        {
+          "text": "Relaxation structurale",
+          "lang": "fr"
+        }
+      ],
+      "class": "physical",
+      "effects": [
+        "stress_relaxation"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:protein_denaturation",
+      "labels": [
+        {
+          "text": "Dénaturation des protéines",
+          "lang": "fr"
+        }
+      ],
+      "class": "thermal_chemical",
+      "effects": [
+        "structure_change"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:starch_gelatinization",
+      "labels": [
+        {
+          "text": "Gélatinisation de l’amidon",
+          "lang": "fr"
+        }
+      ],
+      "class": "thermal",
+      "effects": [
+        "thickening",
+        "structure_setting"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:evaporation",
+      "labels": [
+        {
+          "text": "Évaporation",
+          "lang": "fr"
+        }
+      ],
+      "class": "phase_change",
+      "effects": [
+        "water_loss",
+        "concentration"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:maillard_browning",
+      "labels": [
+        {
+          "text": "Brunissement de Maillard",
+          "lang": "fr"
+        }
+      ],
+      "class": "thermal_chemical",
+      "effects": [
+        "browning",
+        "aroma_generation"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:collagen_conversion",
+      "labels": [
+        {
+          "text": "Conversion du collagène",
+          "lang": "fr"
+        }
+      ],
+      "class": "thermal",
+      "effects": [
+        "tenderization"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:extraction",
+      "labels": [
+        {
+          "text": "Extraction",
+          "lang": "fr"
+        }
+      ],
+      "class": "mass_transfer",
+      "effects": [
+        "flavor_transfer"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:aeration",
+      "labels": [
+        {
+          "text": "Aération",
+          "lang": "fr"
+        }
+      ],
+      "class": "mechanical",
+      "effects": [
+        "gas_incorporation"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:emulsification",
+      "labels": [
+        {
+          "text": "Émulsification",
+          "lang": "fr"
+        }
+      ],
+      "class": "dispersion",
+      "effects": [
+        "phase_dispersion",
+        "stability_change"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:size_reduction",
+      "labels": [
+        {
+          "text": "Réduction de taille",
+          "lang": "fr"
+        }
+      ],
+      "class": "mechanical",
+      "effects": [
+        "surface_area_increase"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:dispersion",
+      "labels": [
+        {
+          "text": "Dispersion",
+          "lang": "fr"
+        }
+      ],
+      "class": "mechanical",
+      "effects": [
+        "particle_distribution"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:concentration",
+      "labels": [
+        {
+          "text": "Concentration",
+          "lang": "fr"
+        }
+      ],
+      "class": "mass_transfer",
+      "effects": [
+        "solute_concentration"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:caramelization",
+      "labels": [
+        {
+          "text": "Caramélisation",
+          "lang": "fr"
+        }
+      ],
+      "class": "thermal_chemical",
+      "effects": [
+        "browning",
+        "aroma_generation"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:cooling",
+      "labels": [
+        {
+          "text": "Refroidissement",
+          "lang": "fr"
+        }
+      ],
+      "class": "thermal",
+      "effects": [
+        "temperature_reduction"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:freezing",
+      "labels": [
+        {
+          "text": "Congélation",
+          "lang": "fr"
+        }
+      ],
+      "class": "phase_change",
+      "effects": [
+        "ice_formation"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:separation",
+      "labels": [
+        {
+          "text": "Séparation",
+          "lang": "fr"
+        }
+      ],
+      "class": "mechanical",
+      "effects": [
+        "phase_or_particle_separation"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:dissolution",
+      "labels": [
+        {
+          "text": "Dissolution",
+          "lang": "fr"
+        }
+      ],
+      "class": "physical",
+      "effects": [
+        "solution_formation"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:gelation",
+      "labels": [
+        {
+          "text": "Gélification",
+          "lang": "fr"
+        }
+      ],
+      "class": "physical_chemical",
+      "effects": [
+        "network_setting"
+      ],
+      "status": "model_concept"
+    },
+    {
+      "mechanism_id": "urn:kristal:recipes:mechanism:coating",
+      "labels": [
+        {
+          "text": "Enrobage",
+          "lang": "fr"
+        }
+      ],
+      "class": "surface",
+      "effects": [
+        "surface_layer_formation"
+      ],
+      "status": "model_concept"
+    }
+  ]
+}

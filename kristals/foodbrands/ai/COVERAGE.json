@@ -1,0 +1,37 @@
+{
+  "format": "kristal.ai-coverage/1.0",
+  "state_ref": "urn:kristal:state:foodbrands",
+  "state_logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:e41df7d28e730954db8ecea433571c99d77c09db3f7ebc0aee4b8480833b1eb9"
+  },
+  "subject": {
+    "id": "urn:kristal:subject:foodbrands",
+    "label": "Registre contrôlé des fournisseurs, sources de référence et règles explicites d’acquisition.",
+    "domain": "foodbrands"
+  },
+  "semantic_ownership": {
+    "owns": [
+      "Registre contrôlé des fournisseurs, sources de référence et règles explicites d’acquisition.",
+      "Les engagements logiques locaux sur le canon déclaré dans le snapshot v9 existant."
+    ],
+    "does_not_own": [
+      "Les publications et mises à jour des sources externes.",
+      "Les inférences non vérifiées ou les projections de consultation en tant que vérité canonique."
+    ]
+  },
+  "canonical_artifact_count": 6,
+  "source_count": 12,
+  "external_reference_count": 0,
+  "materialization_manifest_count": 0,
+  "local_materialization_blob_count": 0,
+  "external_materialization_locator_count": 0,
+  "missing_local_materialization_locator_count": 0,
+  "unlocated_materialization_blob_count": 0,
+  "semantic_closure": "self_contained",
+  "limitations": [
+    "AI read-model files are derived navigation aids, not canonical knowledge.",
+    "Absence from this package is not proof that a proposition is false.",
+    "AI output is proposal-only unless separately accepted into the canon."
+  ]
+}

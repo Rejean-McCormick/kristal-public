@@ -1,0 +1,203 @@
+{
+  "format": "k.monetary.domain/statechart/0.1.0",
+  "id": "urn:kristal:k-monetary-system:transition-statechart",
+  "initial_state": "S0_EXPERIMENTAL",
+  "states": [
+    {
+      "id": "S0_EXPERIMENTAL",
+      "label": "Experimental asset / closed pilot",
+      "meaning": "K_M exists but has no material macroeconomic role.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "S1_PAYMENT_NETWORK",
+      "label": "Operational payment network",
+      "meaning": "Online K_M ledger and merchant payment rail operate reliably.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "S2_MERCHANT_ADOPTION",
+      "label": "Material merchant adoption",
+      "meaning": "K_M has recurring transaction demand in a growing merchant network.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "S3_DUAL_CURRENCY",
+      "label": "Dual-currency economy",
+      "meaning": "K_M coexists materially with sovereign currencies for wages, trade or savings.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "S4_UNIT_OF_ACCOUNT",
+      "label": "Material unit-of-account adoption",
+      "meaning": "Prices, wages or contracts are increasingly denominated directly in K_M rather than converted ex post.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "S5_CREDIT_MARKETS",
+      "label": "K-denominated credit/capital markets",
+      "meaning": "Credit, collateral and a term structure emerge in K-denominated instruments.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "S6_FISCAL_ACCEPTANCE",
+      "label": "Sovereign fiscal acceptance",
+      "meaning": "One or more sovereigns voluntarily accept K_M for taxes/fees/procurement or issue K-denominated debt.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "S7_INTERNATIONAL_RESERVE",
+      "label": "International reserve/settlement role",
+      "meaning": "K_M is materially used for cross-border settlement and/or official reserves.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "S8_MATURE_SUPRANATIONAL",
+      "label": "Mature supranational monetary regime",
+      "meaning": "K_M operates as a broadly trusted monetary standard across multiple economies with institutional governance independent of the founder.",
+      "epistemic_status": "scenario_state"
+    },
+    {
+      "id": "F_STAGNATION",
+      "label": "Adoption stagnation",
+      "meaning": "K remains niche or fails to progress.",
+      "epistemic_status": "failure_state"
+    },
+    {
+      "id": "F_TRUST_FAILURE",
+      "label": "Trust failure",
+      "meaning": "Loss of confidence causes exit, illiquidity or devaluation.",
+      "epistemic_status": "failure_state"
+    },
+    {
+      "id": "F_INFLATIONARY_INSTABILITY",
+      "label": "Inflationary instability",
+      "meaning": "Nominal demand persistently exceeds real capacity or policy loses anchor.",
+      "epistemic_status": "failure_state"
+    },
+    {
+      "id": "F_GOVERNANCE_CAPTURE",
+      "label": "Governance capture",
+      "meaning": "Decision authority becomes persistently dominated by a narrow coalition or compromised scoring process.",
+      "epistemic_status": "failure_state"
+    },
+    {
+      "id": "F_LIQUIDITY_CRISIS",
+      "label": "Liquidity/credit crisis",
+      "meaning": "Settlement survives but credit/liquidity markets seize or generate destabilizing runs.",
+      "epistemic_status": "failure_state"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "S0_EXPERIMENTAL",
+      "to": "S1_PAYMENT_NETWORK",
+      "when": [
+        "settlement_integrity_validated",
+        "security_baseline_met"
+      ]
+    },
+    {
+      "from": "S1_PAYMENT_NETWORK",
+      "to": "S2_MERCHANT_ADOPTION",
+      "when": [
+        "merchant_adoption_material",
+        "repeat_transaction_demand_material"
+      ]
+    },
+    {
+      "from": "S2_MERCHANT_ADOPTION",
+      "to": "S3_DUAL_CURRENCY",
+      "when": [
+        "household_and_business_usage_extends_beyond_payments"
+      ]
+    },
+    {
+      "from": "S3_DUAL_CURRENCY",
+      "to": "S4_UNIT_OF_ACCOUNT",
+      "when": [
+        "direct_K_M_denominated_pricing_and_contracting_material"
+      ]
+    },
+    {
+      "from": "S4_UNIT_OF_ACCOUNT",
+      "to": "S5_CREDIT_MARKETS",
+      "when": [
+        "K_denominated_credit_depth_material",
+        "reliable_collateral_and_liquidity_mechanisms_exist"
+      ]
+    },
+    {
+      "from": "S5_CREDIT_MARKETS",
+      "to": "S6_FISCAL_ACCEPTANCE",
+      "when": [
+        "external_sovereign_voluntary_acceptance_event"
+      ]
+    },
+    {
+      "from": "S6_FISCAL_ACCEPTANCE",
+      "to": "S7_INTERNATIONAL_RESERVE",
+      "when": [
+        "cross_border_settlement_and_or_reserve_use_material"
+      ]
+    },
+    {
+      "from": "S7_INTERNATIONAL_RESERVE",
+      "to": "S8_MATURE_SUPRANATIONAL",
+      "when": [
+        "multi_jurisdictional_adoption_persists",
+        "governance_credible_without_founder_dependence"
+      ]
+    }
+  ],
+  "failure_transitions": [
+    {
+      "from": "*",
+      "to": "F_TRUST_FAILURE",
+      "when": [
+        "governance_credibility_collapse_or_security_failure"
+      ]
+    },
+    {
+      "from": [
+        "S3_DUAL_CURRENCY",
+        "S4_UNIT_OF_ACCOUNT",
+        "S5_CREDIT_MARKETS"
+      ],
+      "to": "F_INFLATIONARY_INSTABILITY",
+      "when": [
+        "persistent_excess_nominal_demand_vs_real_capacity"
+      ]
+    },
+    {
+      "from": "*",
+      "to": "F_GOVERNANCE_CAPTURE",
+      "when": [
+        "anti_capture_invariants_breached"
+      ]
+    },
+    {
+      "from": [
+        "S5_CREDIT_MARKETS",
+        "S6_FISCAL_ACCEPTANCE",
+        "S7_INTERNATIONAL_RESERVE"
+      ],
+      "to": "F_LIQUIDITY_CRISIS",
+      "when": [
+        "credit_liquidity_stress_exceeds_declared_thresholds"
+      ]
+    },
+    {
+      "from": [
+        "S1_PAYMENT_NETWORK",
+        "S2_MERCHANT_ADOPTION",
+        "S3_DUAL_CURRENCY"
+      ],
+      "to": "F_STAGNATION",
+      "when": [
+        "adoption_does_not_reach_calibrated_threshold_within_review_window"
+      ]
+    }
+  ],
+  "threshold_policy": "Numeric thresholds are deliberately uncrystallized until empirical calibration; state semantics are canonical, thresholds are research parameters."
+}

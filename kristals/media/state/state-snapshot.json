@@ -1,0 +1,73 @@
+{
+  "schema_version": "9.0",
+  "artifact_type": "kristal_state_snapshot",
+  "state_ref": "urn:kristal:state:media",
+  "logical_commitment": {
+    "profile": "kristal.state-commitment/jcs-sha256-v1",
+    "digest": "sha256:b59301b5cfe23c97feefdcaacc19917d2352738d8e7256265d6d77b76285b94e"
+  },
+  "members": [
+    {
+      "artifact_id": "urn:kristal:media:artifact:canonical-knowledge",
+      "logical_contract": {
+        "id": "kristal.compat/v6-portable-state-logical-projection",
+        "version": "1.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:411fab276ae7a476c27ed7788a69eee17a0a5bf8dc131c132e219a51338d15a2"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:media:registry",
+      "logical_contract": {
+        "id": "kristal.v11.identity-registry",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:ac213fd85a4a9fc5169cd680530b3629498ecf99ab227999bfff265339d5ab09"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:media:graph",
+      "logical_contract": {
+        "id": "kristal.v11.semantic-graph",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:79fc33a1b1a401f8316873d77197f0ac3d1d87f340097eebf038296aec66aefc"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:media:crosswalk",
+      "logical_contract": {
+        "id": "kristal.v11.external-crosswalk",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:39b5cc78bb8d8e515fba63d1c5d95dd1d6279f04faebc54b65f4843cbf9dd258"
+      }
+    },
+    {
+      "artifact_id": "urn:kristalizer:2026-10-27:media:catalog",
+      "logical_contract": {
+        "id": "kristal.v11.dictionary-catalog",
+        "version": "11.0"
+      },
+      "logical_commitment": {
+        "profile": "kristal.logical/jcs-sha256-v1",
+        "digest": "sha256:47bcaafad7fcec15e504e99eaa0a3bd344697b109ea24c794a81934fc4516166"
+      }
+    }
+  ],
+  "references": [],
+  "parents": [],
+  "scope": {
+    "domain": "media",
+    "subdomain": "event-information-production-channel-audience-circulation",
+    "language": "fr"
+  }
+}
