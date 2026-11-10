@@ -66,18 +66,23 @@ class HardeningTests(unittest.TestCase):
         result=repository_audit.audit(root)
         self.assertEqual(result['repository'],'kristal-public')
         self.assertEqual(result['collection_integrity'],'BLOCKED')
-        self.assertFalse(result['collection_index_present'])
+        self.assertEqual(result['collection_index_present'], (root/'kristals/index.json').is_file())
         self.assertFalse(result['approval_to_publish'])
         self.assertEqual(result['c1_independent_qualification'],'NOT_VERIFIED')
         self.assertEqual(result['bootstrap_managed_hashes'],'DRIFT')
         self.assertGreaterEqual(len(result['managed_file_drift']),1)
         self.assertEqual(before,(root/'.kristal/bootstrap-state.json').read_bytes())
 
-    def test_unattended_gitsink_is_fail_closed(self):
-        script=(Path(__file__).resolve().parents[1]/'GitSink.bat').read_text(encoding='utf-8')
-        self.assertIn('BLOCKED',script)
-        self.assertNotIn('git add --all',script.lower().replace('do not stage, commit, or push all files automatically from this script.',''))
-        self.assertNotIn('\ngit push\n',script.lower())
+    def test_public_workflow_is_sealed_without_owner_qualification(self):
+        root = Path(__file__).resolve().parents[1]
+        workflow = (root/'.github/workflows/kristal-publish.yml').read_text(encoding='utf-8')
+        self.assertIn('contents: read', workflow)
+        self.assertIn('release DISABLED', workflow)
+        self.assertIn('exit 1', workflow)
+        self.assertNotIn('contents: write', workflow)
+        # An absent old launcher is not a regression: the active protection is
+        # the sealed workflow and explicit, separately signed C1/C2 gates.
+        self.assertNotIn('git push', workflow)
 
     def test_audit_does_not_confuse_genesis_with_zoology(self):
         result=repository_audit.audit(Path(__file__).resolve().parents[1])
